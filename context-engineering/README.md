@@ -26,7 +26,7 @@ to `.env` and fill in the keys.
 ## Folder layout
 
 ```
-aurora-mvp/
+context-engineering/
 ├── data/
 │   ├── raw/          scraped articles (Dutch)
 │   ├── translated/   English translations

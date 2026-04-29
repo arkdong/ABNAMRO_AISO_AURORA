@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+playwright
+deep-translator
+langchain
+langchain-text-splitters
+sentence-transformers
+chromadb
+openai
+anthropic
+python-dotenv
+pypdf

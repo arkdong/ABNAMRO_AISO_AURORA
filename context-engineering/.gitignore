@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+vector_db/
+data/raw/*.json
+data/translated/*.json
+data/chunked/*.json
+.DS_Store

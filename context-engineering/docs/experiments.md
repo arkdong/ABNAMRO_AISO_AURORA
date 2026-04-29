@@ -14,8 +14,12 @@ retrieval precision on AURORA's mixed Dutch/English insight content.
   fresh Chroma collection (never mix models in one collection), then run all
   eval queries and record metrics in the table below.
 
-For more advanced strategies (contextual retrieval, late chunking, RAPTOR,
-small-to-big, HyDE-indexing, etc.) see [`advanced-chunking.md`](advanced-chunking.md).
+For more advanced chunking strategies (contextual retrieval, late chunking,
+RAPTOR, small-to-big, HyDE-indexing, etc.) see
+[`advanced-chunking.md`](advanced-chunking.md).
+For embedding-side techniques that wrap a base model (rerankers, hybrid
+BM25 + dense, HyDE-at-query, multi-query / RRF, ColBERT, etc.) see
+[`advanced-embedding.md`](advanced-embedding.md).
 
 ## Chunking strategies to try
 

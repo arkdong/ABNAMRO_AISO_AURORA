@@ -1,5 +1,7 @@
 requests
 beautifulsoup4
+markdownify
+PyYAML
 playwright
 deep-translator
 langchain

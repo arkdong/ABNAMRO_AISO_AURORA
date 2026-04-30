@@ -1,0 +1,66 @@
+---
+title: Europe's own chip industry is still a long way off
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/eigen-chip-industrie-is-voor-europa-nog-ver-weg.html
+date: '2025-06-10'
+sector: technologie
+topic: sectoren en trends
+language: en
+title_original: Eigen chip-industrie is voor Europa nog ver weg
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/eigen-chip-industrie-is-voor-europa-nog-ver-weg.html
+---
+
+# Europe's own chip industry is still a long way off
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+10/06/2025 • 4 minutes reading
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/authors/julia-krauwer/index.html)
+
+Without semiconductors, the digital economy comes to a standstill. It is precisely in this area that Europe appears vulnerable. Production is largely outsourced to Asian foundries, and the design of advanced chips is also largely outside Europe. The European Chips Act was intended to turn that tide, but is encountering a complex reality.
+
+In the chip sector, Europe relies heavily on foreign production capacity. Only 6 percent of global chip production takes place in Europe and the Middle East. Asia accounts for more than 80 percent of production. The United States supplies 8 percent of all chips, but has the most control over design, patents and software. Europe lacks that control. Most chips made here are relatively simple: for cars, household appliances and industrial applications. Advanced chips – needed for smartphones, AI or military technology – mainly come from Taiwan and South Korea.
+
+## Major dependencies despite strong local players
+
+ASML is Europe's trump card. The company from Veldhoven is the only one in the world that supplies machines for 'extreme ultraviolet lithography' (EUV), the technology used to make the most advanced chips. But ASML supplies the world, not just Europe.
+
+Germany has strong positions in power electronics with Infineon and Bosch; chips that efficiently switch and regulate electrical energy, for example in cars and solar panels. Players such as the Dutch NXP and the French-Swiss STMicroelectronics focus on 'embedded chips'. These are microchips that are built into devices or vehicles to perform one specific task, such as controlling a motor or reading a sensor. Europe has no factories for the most advanced chips and is dependent mainly on Taiwan and South Korea.
+
+The 2024 Draghi report calls the lack of production capacity a strategic risk. Taiwan, where the world's largest chip manufacturer TSMC is located, is considered a renegade province by China and has been under threat of military annexation for years. In a crisis, the supply of chips can stop abruptly. Even in segments where Europe is traditionally strong, such as car chips, vulnerability appears to be high. For example, during the corona pandemic, car factories came to a standstill due to a shortage of simple chips. Large European chip companies are largely dependent on 'foundries' in Asia. There, car brands have relatively small customers, which meant they were lower on the priority list when demand returned after the first lockdowns.
+
+## Chips as a priority in Brussels
+
+With the European Chips Act, Europe took the first step in 2023 to reduce its dependence on semiconductors. With 43 billion euros in public and private investments, Europe wants to double its own market share in chip production to 20 percent by 2030. On the one hand, Europe is trying to catch up in the field of advanced chips, on the other hand it wants to further expand its existing strength in the field of simpler chips.
+
+The necessary initiatives are underway in the second category. Local champion STMicroelectronics is expanding its production, including by building a new factory in Italy. A factory of the Taiwanese TSMC will be built in Dresden in collaboration with European players Bosch, Infineon and NXP. The production of advanced chips, on the other hand, has not yet gotten off the ground. GlobalFoundries and STMicroelectronics' planned mega-factory in France has been halted, and construction of Intel's advanced factory in Germany has been pushed back to 2029.
+
+## Chip Act 2.0
+
+Because the Chips Act has not yet achieved sufficient results, the European Commission is considering a 'Chips Act 2.0'. The chip industry sees merit in a program in which the entire chain is supported, from design and materials to machines and factories. The European Parliament is calling for investments in AI chips, but the industry itself is advocating that older chip technology be continued to be supported, so that chips for cars, machines and power grids can also come from Europe. The new program will be presented before the summer.
+
+The road to strategic autonomy in chips is difficult. The supply chain is globally branched and very capital intensive. New factories cost tens of billions and only become operational after years. The revision of the Chips Act marks the ambition for a serious change of course. Europe does not have to be able to do everything itself – something that is impossible anyway – but it does have to do enough so that it does not stand by helplessly in the event of geopolitical shocks.
+
+[Read also: Europe focuses on technological self-reliance](/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-zet-op-technologische-zelfreligigheid.html)
+
+## Read more in the technology sector
+
+Technology, Media & Telecom (TMT) is one of the fastest growing sectors. Aided by the increasing use of software, algorithms and sensors, this sector is the basis for the digital innovation of other sectors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industry](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalization](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

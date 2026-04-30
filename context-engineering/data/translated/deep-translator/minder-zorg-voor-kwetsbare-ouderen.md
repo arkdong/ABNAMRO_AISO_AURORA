@@ -1,0 +1,126 @@
+---
+title: Less care for vulnerable elderly people
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/healthcare/minder-zorg-voor-kwetsbare-ouderen.html
+date: '2025-08-27'
+sector: healthcare
+topic: sectoren en trends
+language: en
+title_original: Minder zorg voor kwetsbare ouderen
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/healthcare/minder-zorg-voor-kwetsbare-ouderen.html
+---
+
+# Less care for vulnerable elderly people
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Healthcare](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/healthcare/index.html)
+
+27/08/2025 • 8 minutes reading
+
+[David Bolscher](https://www.abnamro.nl/nl/zakelijk/insights/authors/david-bolscher/index.html)
+
+[Anja van Balen](https://www.abnamro.nl/nl/zakelijk/insights/authors/anja-van-balen/index.html)
+
+While intensive home care has been on the rise in recent years, this service will be stopped in 2027. As a result, approximately 3,000 vulnerable elderly people receive considerably fewer care hours, ABN AMRO calculates. Investing more in clustered homes, informal care and aids will keep home care adequate for everyone.
+
+From 2027, approximately 3,000 vulnerable elderly people living at home will receive a lot less care because the government will then put an end to intensive home care. The care service is too extensive and, according to policymakers, is at odds with the policy that elderly people should be able to manage themselves more. A year later, the government wants to redesign long-term home care services for all more than 50,000 elderly people. The change should lead to savings of up to 360 million euros in 2030, more than 10 percent of current expenditure on long-term home care.
+
+Relatively healthy elderly people with a social network can probably get by with less care. The savings pose a particular risk to the elderly who cannot do without intensive home care due to their deteriorated health or outdated home. They do not always have a social safety net and cannot always go to a nursing home.
+
+Moving to a care home is a good alternative to the nursing home. Healthcare providers and housing associations face the challenge of realizing more of these clustered homes in the coming years. In addition, healthcare institutions in long-term home care will more often rely on informal caregivers and invest more in tools that support the elderly and care provision.
+
+## Delivery methods for long-term home care are being overhauled
+
+The impact of the cutbacks is greatest for elderly people who receive the current Complete Home Package (VPT) in their own home, according to the recently published Outline Agreement on Elderly Care (HLO). With the VPT, elderly people receive intensive home care from one care provider. The care provided is almost as extensive as the care that the elderly receive in a nursing home. The care service can be provided both unclustered at the home of the elderly, and in a clustered form where elderly people live together.
+
+Instead of the 'unclustered' VPT, elderly people will receive the Modular Package at Home (MPT) at home from 2027 where possible. This care service is a lot less extensive than the VPT. It consists of individual care services such as care or nursing that are tailored to the care needs of the elderly. The healthcare services can be provided by different healthcare providers. Even with the most extensive MPT, healthcare providers can spend fewer hours with a client than with the VPT. The measure will probably result in a reduction in the care that approximately 3,000 elderly people receive.
+
+In addition, the agreement stipulates that from 2028 all long-term home care services will be replaced by one new form of delivery. This autumn, further research will be conducted into what exactly this form of delivery will look like, although a distinction remains between clustered and unclustered care. The new form of delivery should lead to more appropriate care that is easy to scale up and down, and therefore probably resembles the current MPT with separate care services. In practice, this means less care at home for some elderly people, due to the significant savings that the new form of delivery should yield.
+
+The intended savings will amount to 360 million euros in 2030. That is more than 10 percent of the total expenditure on the VPT and MPT in 2023. There appears to be little room for savings on the MPT because the rates are quite tight. The savings will therefore mainly be borne by the VPT. As indicated, in 2027 only the so-called 'unclustered' VPT that elderly people receive in their own homes will largely be stopped. The so-called 'clustered' VPT will remain in place, but will be significantly adjusted from 2028.
+
+## Construction of clustered homes is lagging behind
+
+Care homes, where care is currently often provided as 'clustered' VPT, are desperately needed for vulnerable elderly people because the number of nursing home places remains limited while the number of elderly people requiring care continues to rise. With the disappearance of the VPT in people's homes, some of these people will no longer be able to live in their own home and will therefore want to move to a care home. This requires more residential care complexes nationally, but the uncertainty surrounding the future form of delivery may further delay implementation.
+
+Centering elderly people with heavy care needs is also an ambition of the government to keep care accessible. Clustered care homes facilitate encounters between elderly people and facilitate the delivery of care. With the 'housing and care for the elderly' (WOZO) program from 2022, the government wants to build 290,000 homes for the elderly by 2030. This includes 80,000 clustered senior homes and 40,000 homes suitable for care. This ambition is also stated in the current coalition agreement.
+
+However, affordable care homes in particular are hardly getting off the ground. Housing associations are being looked at for this purpose, but they do not have enough financial space to realize sufficient projects. Our previous analysis already showed that hardly any senior housing will be completed in 2024. The construction plans are also lagging behind ambitions.
+
+[Read also: Attention to senior housing is not bearing enough fruit](/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/real-estate/aandacht-voor-seniorenwoningen-werpt-onvoldoende-fruits-af.html)
+
+## Use subsidies and existing space from healthcare institutions
+
+The government is currently trying to accelerate the construction of social rental housing suitable for care through subsidy schemes and discussions in the region with various stakeholders. For example, the 'Incentive Scheme for Care-Suitable Homes' helps corporations and healthcare institutions cover the high construction or renovation costs of care-suitable homes. These parties receive a maximum of 17,500 euros per completed home that is suitable for nursing care. Another subsidy can be applied for for the construction of meeting spaces.
+
+Regions are currently working on concrete plans to realize sufficient senior housing. It is important that all stakeholders are involved in the plans. For example, the project must be profitable for the developer and landlord, the healthcare provider must be able to provide sufficient care and the municipality must offer activities and facilities in or around the complex.
+
+Healthcare providers can also agree with housing associations to use the current housing offer of the associations differently. The housing association may decide to make certain locations only available to vulnerable elderly people with a care indication.
+
+In addition, healthcare institutions can make better use of their own locations. For example, during renovation or new construction of a nursing home, unnecessary space can be sold to a housing association. The corporation can build clustered senior housing there. The healthcare institution with too many nursing home places can also designate part of the nursing home as apartments that can be used for nursing home care and can be rented out separately to the elderly.
+
+## Care homes next to nursing homes for the employability of healthcare providers
+
+The location of clustered homes is important for the well-being of the elderly and the employability of healthcare providers. A form of living in a neighborhood and close to facilities contributes to the self-reliance of the elderly. In addition, the location next to a nursing home is convenient for healthcare providers. In addition to the elderly in the nursing home, they can also more easily care for the elderly who live independently. In addition, elderly people who live independently can easily participate in daytime activities in the nursing home.
+
+In new construction or renovation, nursing homes can be combined with other facilities to relieve the pressure on healthcare providers or to financially support a construction plan. For example, medical practices such as physiotherapy, but also catering or childcare can strengthen the connection between a nursing home and other residents in the neighborhood. In this way, an environment can be created in which elderly people can do more for themselves and a community is created in which people help each other.
+
+The nursing home will also change. This way, activities will no longer only be offered to residents, but also to local residents. Clients from the neighborhood and from the nursing home can meet each other in a meeting room. Finally, the rooms in a nursing home must be able to be used flexibly for people with dementia, a physical disability, or – increasingly – a combination of both.
+
+## Small-scale housing has been realized by commercial operators
+
+Above the social rental limit, the housing supply for elderly people in need of care becomes more extensive. Care providers decide to start their own small-scale housing for the elderly. Here they provide long-term care from the personal budget (pgb) or the VPT. The operators of small-scale residential facilities that currently provide care from the VPT are likely to experience a decline in turnover by 2028.
+
+The small scale and attention to a specific clinical picture makes this type of living a success. With a maximum of twenty residents, care providers know everyone's care needs well. However, small-scale housing is not for everyone. Rents are generally higher, although initiators also try to offer affordable apartments. In addition, small-scale residential facilities are aimed at elderly people with specific care needs. Elderly people with serious care needs, such as a combination of physical and mental conditions, usually rely on nursing home care.
+
+## Collaborate with operators of small-scale housing
+
+Healthcare institutions can collaborate with operators of small-scale housing initiatives or develop small-scale housing options themselves next to the nursing home. By providing intensive home care in small-scale residential facilities, moving to a nursing home can be postponed or prevented. In addition, the advantages of a small community are retained. The elderly can do more themselves, which reduces the pressure on the care provider.
+
+Clear agreements about the housing initiative and the care to be provided are important in the collaboration between healthcare institutions and small-scale housing. For example, the operator of the small-scale residential facility may provide part of the care, while the institution provides the nursing care. Or the small-scale residential form can only continue to provide daytime activities, meals and cleaning, and the healthcare institution can continue to provide all care.
+
+## Increase self-reliance of the elderly with informal care and aids
+
+Where clustered living arrangements increase the co-reliance of the elderly, care providers must also focus on the self-reliance of the elderly to relieve the burden on scarce care providers. A care provider does not have to do everything that an elderly person can do well. Self-reliance requires a different attitude from healthcare providers where they no longer provide care, but rather direct. In this way, they use informal care from the social network of the elderly. They also use tools that allow elderly people to do more independently.
+
+The change towards self-reliance requires a different role for healthcare providers. Instead of taking everything off your hands and unburdening you, healthcare providers must assess what the elderly can still do themselves. Working on self-reliance requires a creative perspective in which solutions are thought up together with the client and loved ones. While care providers are used to helping someone and taking care of everything, they are now looking for what an older person can still do with help from their network.
+
+Self-reliance also requires innovation. Aids contribute to the self-reliance of the elderly and reduce the workload of healthcare providers. For example, nursing homes can be equipped with hoists and homes with stair lifts. Thanks to bed sensors, alarm systems and medicine dispensers, caregivers also have to visit all clients less often. There are also aids that make it easier for the elderly to put on a support stocking themselves and a shower chair that allows the elderly to shower independently.
+
+Innovation pays for itself in fewer staff hours. That is why healthcare providers can invest in innovation within the nursing home and temporarily loan aids to people's homes. Where investments cannot be made, cooperation with municipalities is important. They can reimburse aids for elderly people living independently under the Social Support Act (WMO).
+
+While informal care is better utilized in home care, innovation mainly takes place in the nursing home. This is also because a nursing home benefits from labor-saving innovations, as is also the case with care provided as a VPT. At the MPT, labor-saving innovations mainly lead to fewer hours that a healthcare provider is paid. The new form of delivery for long-term home care must provide room for healthcare providers to fund innovation.
+
+## Read more in the Healthcare sector
+
+In the coming years, the sector will change to provide more care with fewer resources. The demand for care continues to increase due to an aging population, while it is hardly possible to attract more healthcare personnel. Innovation and collaboration make work easier and more fun, ensuring that healthcare provision remains sustainable and of high quality.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/healthcare/index.html)
+
+## Tags
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Healthcare](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/healthcare/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Labor market](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/laborsmarkt-en-personeel.html)
+
+[Digitalization](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[Inclusion](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/inclusie.html)
+
+[Social entrepreneurship](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sociaal-ondernemen.html)
+
+[Staff shortage](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/personeelsshort.html)
+
+[Prinsjesdag](https://www.abnamro.nl/nl/zakelijk/insights/prinsjesdag/index.html)
+
+[Elections](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/Elections.html)
+
+[Welzijn](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/welzijn.html)
+
+[Legislation and regulations](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/politick-en-legislation.html)

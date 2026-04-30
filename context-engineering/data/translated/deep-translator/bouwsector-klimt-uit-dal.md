@@ -1,0 +1,78 @@
+---
+title: Construction sector climbs out of trough
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/bouw/bouwsector-klimt-uit-dal.html
+date: '2025-06-24'
+sector: sectorprognoses
+topic: sectoren en trends
+language: en
+title_original: Bouwsector klimt uit dal
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/bouw/bouwsector-klimt-uit-dal.html
+---
+
+# Construction sector climbs out of trough
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Construction](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+24/06/2025 • 4 minutes reading
+
+[Albert Jan Swart](https://www.abnamro.nl/nl/zakelijk/insights/authors/albert-jan-swart/index.html)
+
+President Trump's trade war has not yet had any major consequences for the construction sector. Although the uncertainty may lead to postponement of investments, and the unrest in the financial markets to higher financing costs, due to the long lead time of construction projects and our expectation that the effects of the trade war will not be too bad, our forecasts do not require major adjustments.
+
+##View construction industry forecasts in 2 minutes
+
+In this video, sector banker Leontien de Waal talks in 2 minutes about the growth expectations in the construction industry for 2025 and 2026. See what challenges the construction sector faces and what you can do as an entrepreneur.
+
+[Go to the video](/nl/business/insights/sectors-and-trends/sectorprognoses/bouw/modeden-groei-in-de-bouw-na-drukjaar.html)
+
+ABN AMRO expects construction to grow by 1.0 percent in 2025 and by as much as 2.5 percent in 2026. For the subsequent period, Dutch policy is particularly important, for example regarding nitrogen and investments in infrastructure. The construction sector is largely driven by domestic demand.
+
+## Fall of the Schoof cabinet is positive
+
+The fall of the Schoof cabinet appears to have had a positive effect for the construction sector for the time being. Firstly, this eliminates the freeze on social rents. The four coalition parties had decided to do this in April in the Spring Memorandum. Despite criticism from the sector and even from the responsible minister Keijzer, rent in the social sector would be frozen this summer, which would limit the investment space of housing associations. As a result, the target of building 100,000 homes per year would become even further out of sight, because housing associations often take the initiative for large housing projects together with project developers and investors. Secondly, the Schoof cabinet made no progress on the nitrogen problem, despite setting up a working group with twelve ministers.
+
+## Construction dip due to rise in costs and interest
+
+Construction production will have fallen by 2.8 percent in 2024. The frequently heard statement that this decline is mainly caused by the nitrogen problem is a misconception. The decline in construction production in 2024 is mainly the result of the 2022 energy crisis, which led to higher inflation and therefore to a sharp increase in construction costs and long-term interest rates. That made financing construction projects more difficult. Furthermore, the lack of suitable plots plays a role, for example for logistics real estate, but this is a more structural issue. And the nitrogen problem does indeed not help with the granting of new construction permits, but this problem has been hindering the granting of permits since May 2019, when the Council of State suspended the Nitrogen Approach Program (PAS).
+
+The demand for new-build homes is now improving. In 2024, new construction permits were issued for more than 67,000 homes, an increase of 21 percent compared to 2023. This is expected to lead to a recovery in new construction in 2025 and especially in 2026. The increase is partly due to the gradual decline in inflation since 2023, while consumer incomes rose and purchasing power therefore recovered, especially in 2024. The increase in incomes means that more consumers are able to finance a new-build home.
+
+Non-residential construction suffered a larger dip because the markets for commercial real estate are less tight than the residential market. For example, the office market is still under pressure due to working from home, there is less demand for new retail real estate due to competition from online stores and the industry is suffering from high energy costs and lower demand.
+
+## Demand increases, construction recovers
+
+All in all, the recovery of construction is slowly starting to emerge. In the first quarter of 2025, construction (calendar adjusted) grew by 0.6 percent compared to the same period last year. According to the business survey by Statistics Netherlands (CBS), the percentage of construction companies struggling with insufficient demand fell from a peak of 21 percent on balance in the fourth quarter of 2023 to 10 percent in the second quarter of 2025. The labor shortage is actually increasing again; in the second quarter of 2025, 18 percent of construction companies suffered from this. The first signs of recovery are also becoming visible in the building materials industry. The occupancy rate rose to 79 percent in April, the highest percentage in two years, and entrepreneurs are on balance cautiously optimistic about order intake in the coming months.
+
+As demand recovers, workforce shortages and permitting issues are returning as the major barriers to the construction industry. All segments are affected by this, from residential construction to non-residential construction, and from earthmoving to the installation sector. The tightness on the labor market may lead to a further increase in construction costs in the coming years. It is hoped that the next government will finally release the Netherlands from the nitrogen lock and invest in appropriate education, so that construction can improve productivity through robotization and further digitalization.
+
+## More information
+
+Read all the facts and developments in the report '[Dutch sectors highly dependent on the United States](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/alle-sectoren/nederlandse-sectoren-sterk-dependent-van-verenigde-staats.html)'.
+
+- [Forecasts of all sectors (June 17, 2025)
+
+  484 KB](https://www.abnamro.nl/nl/media/sectorprognoses-juni-2025_tcm16-266235.pdf)
+
+## One step ahead with our sector expertise
+
+It is important for every entrepreneur to know what is going on now, but especially what is to come. Base decisions on developments and trends in the sector. Our sector experts know what is going on. See where the opportunities lie. Just that one step ahead.
+
+[View the forecasts of all sectors](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/alle-sectoren/nederlandse-sectoren-sterk-dependent-van-verenigde-staats.html "Sector forecasts 2025")
+
+## Read more in the construction sector
+
+The Dutch construction sector has been one of the best performing sectors in recent years, despite several challenges facing the sector. Examples are the nitrogen dossier, the significant price increases for energy and building materials and also the personnel shortages. Driven by trends, innovations and legislation and regulations, the relevance of themes such as sustainability and environmental impact is growing and the sector is looking for a new balance.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+## Tags
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Construction](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+[Economic developments](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/economie-ontwikkelingen.html)

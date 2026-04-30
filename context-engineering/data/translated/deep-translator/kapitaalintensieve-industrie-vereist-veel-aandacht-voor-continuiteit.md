@@ -1,0 +1,64 @@
+---
+title: Capital-intensive industry requires a lot of attention to continuity
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/industrie/kapitaalintensieve-industrie-vereist-veel-aandacht-voor-continuiteit.html
+date: '2025-12-09'
+sector: sectorprognoses
+topic: sectoren en trends
+language: en
+title_original: Kapitaalintensieve industrie vereist veel aandacht voor continuïteit
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/industrie/kapitaalintensieve-industrie-vereist-veel-aandacht-voor-continuiteit.html
+---
+
+# Capital-intensive industry requires a lot of attention to continuity
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Industry](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+09/12/2025 • 4 minutes reading
+
+[Albert Jan Swart](https://www.abnamro.nl/nl/zakelijk/insights/authors/albert-jan-swart/index.html)
+
+In 2025, Dutch industry has been hit hard by the trade war, which has led to increasing competition from China and an ongoing malaise in Germany. The sector is expected to grow by 3 percent in both 2026 and 2027. This is partly due to growing demand for (chip) machines, although the chemical industry remains under pressure. The number of mergers and acquisitions may increase in the coming years due to the increasingly higher demands placed on customers.
+
+The Netherlands has leading Original Equipment Manufacturers (OEMs), such as chip machine manufacturer ASML and numerous other manufacturers, for example of machines for the agricultural sector and the food industry. Thousands of companies are mainly active as suppliers to these OEMs. These OEMs have been making increasingly higher demands in recent years. For example, parts must be delivered faster, produced and measured accurately to the nanometer. Sometimes suppliers also take care of the design of parts according to certain specifications. All this, preferably cyber-safe, digital and also at lower costs.
+
+This places high demands on usually small and medium-sized industrial suppliers. Fortunately, most of them are used to this, because they have often had to innovate for decades to stay ahead of international competition. However, the complexity of products and technology is increasing rapidly, as is the quality that competitors from, for example, Poland or China can deliver, often at lower costs.
+
+Professional management is therefore becoming increasingly important. However, this is difficult to find, especially if the director-majority shareholder plans to retire. Nearly six in ten (59 percent) of the entrepreneurs in the industry surveyed by Ipsos on behalf of ABN AMRO are considering transferring their business within ten years. Half of them (50 percent) are already looking for a successor, but do not yet know who.
+
+## Management buyout relatively popular
+
+In the business community as a whole, it is more common for a family member to take over the company in the next ten years (22 percent on average), but in industry this is much less common (15 percent), possibly due to the high demands a business leader must meet. Relatively many entrepreneurs in the industry are considering a management buyout; no less than 8 percent of respondents, compared to an average of 3 percent across all sectors. Given the importance of professionalism, this seems a wise choice. After all, the existing managers already know the company and can therefore be considered capable of managing the company adequately, at least in the short term. Management buy-ins, where managers from outside the company are the buyers, are being considered by 4 percent of respondents. Employee buyouts, where other employees take over the company, are only considered by 3 percent of respondents.
+
+No fewer than four in ten entrepreneurs (40 percent) cite their own age as the most important reason for looking for a successor. About one in five (22 percent) of respondents mainly focuses on the continuity or future prospects of the company.
+
+Entrepreneurs who do not find a successor in time run the risk of putting pressure on the value of the company. The industry is a capital-intensive sector, which requires a lot of investment. Taking over a company that has not kept pace with the times therefore entails major risks. The purchasing party may be forced to immediately make major investments, while the company may have already lost important customers. The number of closures is increasing, particularly in the metal sector, for example because older director-majority shareholders are giving up.
+
+That's a missed opportunity. Not only for the entrepreneurs who do not receive a nice takeover sum, but also for the Netherlands. It is important for the competitive position of Dutch industry that labor productivity is further increased, for example by making even better products or organizing production processes more efficiently. This will only work if the sector continues to innovate at a rapid pace. A timely transfer to the next generation is therefore important. Older entrepreneurs, as well as middle-aged entrepreneurs, should ask themselves the question: when is my management team ready for a management buyout?
+
+## One step ahead with our sector expertise
+
+It is important for every entrepreneur to know what is going on now, but especially what is to come. Base decisions on developments and trends in the sector. Our sector experts know what is going on. See where the opportunities lie. Just that one step ahead.
+
+[View the forecasts of all sectors for 2026-2027](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/alle-sectoren/tweederde-van-ondernemers-wil-binnen-tien-jaar-stoppen-maar-opvolging-hapert.html "Sector forecasts 2025")
+
+- [Download the forecasts of all sectors for 2026-2027
+
+  361 KB](https://assets.abnamro.com/api/public/content/sectorprognoses-abn-amro-bedrijfsopvolging-dec-2025.pdf)
+
+## Read more in the industrial sector
+
+The industry is a heavyweight in the Dutch economy. Export is an important driver for this, but at the same time creates uncertainty. There are also themes that have a positive influence on growth, such as cooperation in the chain, innovation and sustainability.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+## Tags
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Industry](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[Economic developments](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/economie-ontwikkelingen.html)

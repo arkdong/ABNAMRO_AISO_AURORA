@@ -1,0 +1,88 @@
+---
+title: Big tasks require scalable warriors
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/grote-opgaven-vragen-om-scalable-warriors.html
+date: '2025-10-28'
+sector: bouw
+topic: sectoren en trends
+language: en
+title_original: Grote opgaven vragen om scalable warriors
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/grote-opgaven-vragen-om-scalable-warriors.html
+---
+
+# Big challenges require scalable warriors
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Construction](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+28/10/2025 • 3 minutes reading
+
+[Leontien de Waal](https://www.abnamro.nl/nl/zakelijk/insights/authors/leontien-de-waal/index.html)
+
+At a recent meeting about a new marine barracks to be built, Defense showed what the Marine Corps of the future will look like. Not as a larger whole, but as agile units of scalable warriors: small teams that can scale up quickly, use technology intelligently and act with minimal resources in complex circumstances.
+
+It is a vision of future-proof operations and, frankly, something that the construction and energy sector can learn from.
+
+## Struggle for living space
+
+The battle in the built environment is not so much about safety, but about living space. For housing projects that are stuck due to grid congestion. About municipalities that are stuck between climate ambition and capacity. And developers who want to, but cannot, connect to the electricity grid. The transition does not stop on knowledge, but on coordination. Everyone wants to move, but no one has room to maneuver.
+
+That is precisely why we need scalable warriors: small, area-oriented teams that can switch between technology, policy and implementation. Units of builders, developers, financiers, grid operators, energy companies, citizens and civil servants who are given the scope to experiment locally with energy hubs, shared storage or flexible connection models.
+
+> “We have small, area-oriented teams that can switch between technology, policy and implementation.”
+
+Leontien de Waal
+
+Sector Banker Construction
+
+## From talking to doing
+
+We are seeing the first examples of parties coming together because otherwise a construction project would not go ahead. Smart solutions and fast learning curves are created in that pressure vessel, but it still remains incidental. In Stad aan 't Haringvliet, the municipality, grid operator, entrepreneurs and residents join forces in the InnovaHub, with a small but decisive multidisciplinary team. It experiments with local energy storage, smart control and shared infrastructure. Not a talking group, but a group of doers who literally provide new homes with electricity and heat. This way of working should become the new standard, because the recently launched Spatial Design Note shows that the future requires 'standard' integrated area development: where energy, climate adaptation and circularity come together.
+
+> “The future requires 'standard' integrated area development and decisive multidisciplinary teams.”
+
+Leontien de Waal
+
+Sector Banker Construction
+
+## Scalable warriors for integral area grandfathers
+
+InnovaHub and similar projects offer inspiration for more: after all, their way of working together, the courage to experiment and the confidence to give space is easy to copy. The grids are full, as are the community meetings, and in the meantime we keep talking about grid congestion, drinking water shortages and loss of biodiversity in the city. Let us make every effort to create space for this new generation of scalable warriors in area development. Not in a camouflage suit, but with safety shoes, laptop, courage, mandate and a clear mission: to give the Netherlands living space.
+
+This column previously appeared in Cobouw on October 22, 2025.
+
+## About the author
+
+[Leontien de Waal](https://www.abnamro.nl/nl/zakelijk/insights/authors/leontien-de-waal.html) is a Construction sector banker. She follows the most important trends and developments in the built environment. She brings her experience and network, supplemented with knowledge from the Master City Developer (area development) course, to ABN AMRO clients.
+
+## Read more in the construction sector
+
+The Dutch construction sector has been one of the best performing sectors in recent years, despite several challenges facing the sector. Examples are the nitrogen dossier, the significant price increases for energy and building materials and also the personnel shortages. Driven by trends, innovations and legislation and regulations, the relevance of themes such as sustainability and environmental impact is growing and the sector is looking for a new balance.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Construction](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+[Labor market](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/laborsmarkt-en-personeel.html)
+
+[Biodiversity](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/biodiversiteit.html)
+
+[Circular](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/circulariteit.html)
+
+[CSRD](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/csrd.html)
+
+[Decarbonization](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/decarbonisatie.html)
+
+[Digitalization](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[Sustainability](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaam.html)
+
+[Climate](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/klimaat.html)
+
+[Nitrogen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stikstof.html)

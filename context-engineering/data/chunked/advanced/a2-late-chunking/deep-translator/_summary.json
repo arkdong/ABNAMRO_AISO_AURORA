@@ -1,0 +1,12 @@
+{
+  "method": "a2",
+  "chunker_folder": "a2-late-chunking",
+  "src_method": "deep-translator",
+  "documents_processed": 164,
+  "documents_skipped_existing": 0,
+  "chunks_total": 4497,
+  "chars_total": 1266277,
+  "chars_per_chunk_avg": 281.6,
+  "chunks_per_doc_avg": 27.42,
+  "elapsed_seconds": 0.12
+}

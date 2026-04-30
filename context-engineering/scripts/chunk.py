@@ -54,23 +54,33 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 TRANSLATED_BASE = ROOT / "data" / "translated"
-CHUNKED_BASE = ROOT / "data" / "chunked" / "simple"
+CHUNKED_BASE = ROOT / "data" / "chunked"
 
 # ---------------------------------------------------------------------------
-# Method registry
+# Method registry — tier ∈ {simple, advanced}, scope ∈ {fast, slow, llm, llm-slow}
 # ---------------------------------------------------------------------------
 
 METHODS: dict[str, dict] = {
-    "c1":  {"folder": "c1-fixed-512-50",     "applies_to": "article",       "scope": "fast"},
-    "c2":  {"folder": "c2-fixed-256-25",     "applies_to": "article",       "scope": "fast"},
-    "c3":  {"folder": "c3-fixed-1024-100",   "applies_to": "article",       "scope": "fast"},
-    "c4":  {"folder": "c4-paragraph",        "applies_to": "article",       "scope": "fast"},
-    "c5":  {"folder": "c5-sentence-window",  "applies_to": "article",       "scope": "fast"},
-    "c6":  {"folder": "c6-semantic",         "applies_to": "article",       "scope": "slow"},
-    "c7":  {"folder": "c7-heading",          "applies_to": "writing_guide", "scope": "fast"},
-    "c8":  {"folder": "c8-heading-with-parent", "applies_to": "writing_guide", "scope": "fast"},
-    "c9":  {"folder": "c9-sliding-window",   "applies_to": "writing_guide", "scope": "fast"},
-    "c10": {"folder": "c10-article-as-chunk", "applies_to": "article",      "scope": "fast"},
+    # Simple
+    "c1":  {"tier": "simple",   "folder": "c1-fixed-512-50",       "applies_to": "article",       "scope": "fast"},
+    "c2":  {"tier": "simple",   "folder": "c2-fixed-256-25",       "applies_to": "article",       "scope": "fast"},
+    "c3":  {"tier": "simple",   "folder": "c3-fixed-1024-100",     "applies_to": "article",       "scope": "fast"},
+    "c4":  {"tier": "simple",   "folder": "c4-paragraph",          "applies_to": "article",       "scope": "fast"},
+    "c5":  {"tier": "simple",   "folder": "c5-sentence-window",    "applies_to": "article",       "scope": "fast"},
+    "c6":  {"tier": "simple",   "folder": "c6-semantic",           "applies_to": "article",       "scope": "slow"},
+    "c7":  {"tier": "simple",   "folder": "c7-heading",            "applies_to": "writing_guide", "scope": "fast"},
+    "c8":  {"tier": "simple",   "folder": "c8-heading-with-parent", "applies_to": "writing_guide", "scope": "fast"},
+    "c9":  {"tier": "simple",   "folder": "c9-sliding-window",     "applies_to": "writing_guide", "scope": "fast"},
+    "c10": {"tier": "simple",   "folder": "c10-article-as-chunk",  "applies_to": "article",       "scope": "fast"},
+    # Advanced
+    "a1":  {"tier": "advanced", "folder": "a1-contextual-retrieval", "applies_to": "article",     "scope": "llm"},
+    "a2":  {"tier": "advanced", "folder": "a2-late-chunking",        "applies_to": "article",     "scope": "fast"},
+    "a3":  {"tier": "advanced", "folder": "a3-proposition-based",    "applies_to": "article",     "scope": "llm"},
+    "a4":  {"tier": "advanced", "folder": "a4-raptor",               "applies_to": "article",     "scope": "llm-slow"},
+    "a5":  {"tier": "advanced", "folder": "a5-small-to-big",         "applies_to": "article",     "scope": "fast"},
+    "a6":  {"tier": "advanced", "folder": "a6-hyde-indexing",        "applies_to": "article",     "scope": "llm"},
+    "a7":  {"tier": "advanced", "folder": "a7-llm-as-chunker",       "applies_to": "article",     "scope": "llm"},
+    "a8":  {"tier": "advanced", "folder": "a8-structure-aware",      "applies_to": "writing_guide", "scope": "fast"},
 }
 
 # ---------------------------------------------------------------------------
@@ -299,6 +309,412 @@ def chunk_heading_with_parent(text: str) -> list[str]:
     return out
 
 
+# ---------------------------------------------------------------------------
+# Advanced chunkers (A1-A8)
+# ---------------------------------------------------------------------------
+
+
+# Default LLM model for chunking-time calls. Cheap & fast.
+LLM_DEFAULT_MODEL_ANTHROPIC = "claude-haiku-4-5"
+LLM_DEFAULT_MODEL_OPENAI = "gpt-4o-mini"
+
+_anthropic_client = None
+_openai_client = None
+
+
+def _get_anthropic_client():
+    """Lazy-load Anthropic client. Raises if ANTHROPIC_API_KEY missing."""
+    global _anthropic_client
+    if _anthropic_client is None:
+        import os
+        from anthropic import Anthropic
+        if not os.getenv("ANTHROPIC_API_KEY"):
+            raise SystemExit("ANTHROPIC_API_KEY not set — required for this chunker.")
+        _anthropic_client = Anthropic()
+    return _anthropic_client
+
+
+def _get_openai_client():
+    global _openai_client
+    if _openai_client is None:
+        import os
+        from openai import OpenAI
+        if not os.getenv("OPENAI_API_KEY"):
+            raise SystemExit("OPENAI_API_KEY not set — required for this chunker.")
+        _openai_client = OpenAI()
+    return _openai_client
+
+
+# --- A1: Contextual retrieval (Anthropic-style) -----------------------------
+
+A1_SYSTEM_PROMPT = """You generate a short context blurb that situates a chunk
+within its source document, to improve retrieval quality. Output ONLY the
+blurb (50-100 words). No preamble, no quotation marks."""
+
+
+def chunk_contextual_retrieval(
+    text: str, *, llm_provider: str = "anthropic", model: str | None = None
+) -> list[dict]:
+    """A1: take base C1 chunks, prepend an LLM-generated context blurb to each.
+    Anthropic prompt-caching makes the doc-cache hit on every chunk after the
+    first, dropping cost ~10x for documents reused across many chunks."""
+    base = chunk_fixed_size(text, 512, 50)
+    out: list[dict] = []
+    if llm_provider == "anthropic":
+        client = _get_anthropic_client()
+        m = model or LLM_DEFAULT_MODEL_ANTHROPIC
+        for chunk in base:
+            msg = client.messages.create(
+                model=m,
+                max_tokens=200,
+                system=A1_SYSTEM_PROMPT,
+                messages=[{
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": f"<document>\n{text}\n</document>",
+                            "cache_control": {"type": "ephemeral"},
+                        },
+                        {
+                            "type": "text",
+                            "text": (
+                                f"<chunk>\n{chunk}\n</chunk>\n\n"
+                                "Provide a 50-100 word context to situate this chunk within "
+                                "the document for retrieval purposes."
+                            ),
+                        },
+                    ],
+                }],
+            )
+            ctx = "".join(b.text for b in msg.content if b.type == "text").strip()
+            out.append({"text": f"{ctx}\n\n{chunk}", "context_prefix": ctx, "base_chunk": chunk})
+    elif llm_provider == "openai":
+        client = _get_openai_client()
+        m = model or LLM_DEFAULT_MODEL_OPENAI
+        for chunk in base:
+            resp = client.chat.completions.create(
+                model=m,
+                temperature=0,
+                messages=[
+                    {"role": "system", "content": A1_SYSTEM_PROMPT},
+                    {"role": "user", "content": (
+                        f"<document>\n{text}\n</document>\n\n"
+                        f"<chunk>\n{chunk}\n</chunk>\n\n"
+                        "Provide a 50-100 word context to situate this chunk within the "
+                        "document for retrieval purposes."
+                    )},
+                ],
+            )
+            ctx = (resp.choices[0].message.content or "").strip()
+            out.append({"text": f"{ctx}\n\n{chunk}", "context_prefix": ctx, "base_chunk": chunk})
+    else:
+        raise SystemExit(f"unknown llm_provider: {llm_provider!r}")
+    return out
+
+
+# --- A2: Late chunking (chunks identical to C4 paragraph; flag for embed) ---
+
+
+def chunk_late(text: str) -> list[dict]:
+    """A2: produce paragraph chunks marked for late-chunking embedding. The
+    actual contextual embedding happens at embed time — this stage only marks
+    the chunks so the embedder knows to feed the whole-document context."""
+    paragraphs = chunk_paragraph(text)
+    return [
+        {"text": p, "requires_late_chunking": True, "source_doc_offset": idx}
+        for idx, p in enumerate(paragraphs)
+    ]
+
+
+# --- A3: Proposition-based ---------------------------------------------------
+
+A3_SYSTEM_PROMPT = """You decompose text into atomic, self-contained propositions.
+
+Rules:
+- Each proposition is a single declarative claim, ~10-30 words.
+- No coreference: replace pronouns with the entities they refer to.
+- Preserve facts (names, numbers, dates) verbatim.
+- Output a JSON array of strings. No preamble. No commentary. No code fences."""
+
+
+def _parse_json_list(raw: str) -> list[str]:
+    """Tolerate code fences and extra prose around a JSON list response."""
+    raw = raw.strip()
+    # strip ```json ... ``` fences
+    raw = re.sub(r"^```(?:json)?\s*", "", raw)
+    raw = re.sub(r"\s*```$", "", raw)
+    # find first [ ... ]
+    m = re.search(r"\[.*\]", raw, re.DOTALL)
+    if not m:
+        return []
+    try:
+        data = json.loads(m.group(0))
+        return [str(x) for x in data if x]
+    except json.JSONDecodeError:
+        return []
+
+
+def chunk_propositions(
+    text: str, *, llm_provider: str = "anthropic", model: str | None = None
+) -> list[dict]:
+    """A3: LLM extracts atomic propositions; each proposition becomes a chunk."""
+    if llm_provider == "anthropic":
+        client = _get_anthropic_client()
+        m = model or LLM_DEFAULT_MODEL_ANTHROPIC
+        msg = client.messages.create(
+            model=m,
+            max_tokens=4096,
+            system=A3_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": text}],
+        )
+        raw = "".join(b.text for b in msg.content if b.type == "text")
+    elif llm_provider == "openai":
+        client = _get_openai_client()
+        m = model or LLM_DEFAULT_MODEL_OPENAI
+        resp = client.chat.completions.create(
+            model=m,
+            temperature=0,
+            messages=[
+                {"role": "system", "content": A3_SYSTEM_PROMPT},
+                {"role": "user", "content": text},
+            ],
+        )
+        raw = resp.choices[0].message.content or ""
+    else:
+        raise SystemExit(f"unknown llm_provider: {llm_provider!r}")
+    propositions = _parse_json_list(raw)
+    return [{"text": p} for p in propositions]
+
+
+# --- A4: RAPTOR (simplified 2-level: paragraph leaves + cluster summaries) --
+
+A4_CLUSTER_SUMMARY_PROMPT = """Summarise the following passages into one
+self-contained paragraph (3-6 sentences) capturing their shared theme.
+Output ONLY the summary. No preamble."""
+
+
+def chunk_raptor(
+    text: str, *, llm_provider: str = "anthropic", model: str | None = None,
+    n_clusters: int | None = None,
+) -> list[dict]:
+    """A4: simplified RAPTOR with 2 levels.
+       L0 = paragraph chunks (leaves)
+       L1 = LLM-generated summaries, one per k-means cluster of L0 chunks.
+    Both levels are returned as chunks; metadata.tree_level distinguishes them.
+    """
+    import numpy as np
+    from sklearn.cluster import KMeans
+
+    leaves = chunk_paragraph(text)
+    if len(leaves) <= 2:
+        return [{"text": l, "tree_level": 0, "cluster_id": None} for l in leaves]
+
+    embedder = _semantic_embedder()
+    leaf_vecs = embedder.encode(leaves, normalize_embeddings=True, show_progress_bar=False)
+    k = n_clusters or max(2, min(8, int(np.ceil(np.sqrt(len(leaves))))))
+    km = KMeans(n_clusters=k, n_init=5, random_state=42).fit(leaf_vecs)
+
+    out: list[dict] = []
+    for i, (l, cid) in enumerate(zip(leaves, km.labels_)):
+        out.append({"text": l, "tree_level": 0, "cluster_id": int(cid)})
+
+    # summarise each cluster via LLM
+    if llm_provider == "anthropic":
+        client = _get_anthropic_client()
+        m = model or LLM_DEFAULT_MODEL_ANTHROPIC
+        def summarise(passages: list[str]) -> str:
+            joined = "\n\n---\n\n".join(passages)
+            msg = client.messages.create(
+                model=m, max_tokens=400, system=A4_CLUSTER_SUMMARY_PROMPT,
+                messages=[{"role": "user", "content": joined}],
+            )
+            return "".join(b.text for b in msg.content if b.type == "text").strip()
+    elif llm_provider == "openai":
+        client = _get_openai_client()
+        m = model or LLM_DEFAULT_MODEL_OPENAI
+        def summarise(passages: list[str]) -> str:
+            joined = "\n\n---\n\n".join(passages)
+            resp = client.chat.completions.create(
+                model=m, temperature=0,
+                messages=[
+                    {"role": "system", "content": A4_CLUSTER_SUMMARY_PROMPT},
+                    {"role": "user", "content": joined},
+                ],
+            )
+            return (resp.choices[0].message.content or "").strip()
+    else:
+        raise SystemExit(f"unknown llm_provider: {llm_provider!r}")
+
+    for cid in range(k):
+        cluster_leaves = [l for l, c in zip(leaves, km.labels_) if c == cid]
+        if not cluster_leaves:
+            continue
+        summary = summarise(cluster_leaves)
+        out.append({"text": summary, "tree_level": 1, "cluster_id": int(cid),
+                    "n_leaves": len(cluster_leaves)})
+    return out
+
+
+# --- A5: Small-to-big -------------------------------------------------------
+
+
+def chunk_small_to_big(
+    text: str, child_size: int = 256, child_overlap: int = 25,
+    parent_size: int = 1024, parent_overlap: int = 100,
+) -> list[dict]:
+    """A5: produce small (child) chunks for indexing, with the larger parent
+    chunk attached as metadata. At retrieval time, match on small, return big."""
+    parents = chunk_fixed_size(text, parent_size, parent_overlap)
+    out: list[dict] = []
+    for pi, parent in enumerate(parents):
+        children = chunk_fixed_size(parent, child_size, child_overlap)
+        for ci, child in enumerate(children):
+            out.append({
+                "text": child,
+                "parent_text": parent,
+                "parent_index": pi,
+                "child_index": ci,
+            })
+    return out
+
+
+# --- A6: HyDE-style indexing ------------------------------------------------
+
+A6_SYSTEM_PROMPT = """Given a passage, generate 3-5 questions a reader might
+ask that the passage would answer. Each question should be standalone and
+specific.
+
+Output a JSON array of strings. No preamble, no code fences, no commentary."""
+
+
+def chunk_hyde(
+    text: str, *, llm_provider: str = "anthropic", model: str | None = None,
+) -> list[dict]:
+    """A6: for each base C1 chunk, generate hypothetical questions; each
+    question becomes a chunk where text=question and metadata.answer_text=chunk."""
+    base = chunk_fixed_size(text, 512, 50)
+    out: list[dict] = []
+    if llm_provider == "anthropic":
+        client = _get_anthropic_client()
+        m = model or LLM_DEFAULT_MODEL_ANTHROPIC
+        for chunk in base:
+            msg = client.messages.create(
+                model=m, max_tokens=500, system=A6_SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": chunk}],
+            )
+            raw = "".join(b.text for b in msg.content if b.type == "text")
+            for q in _parse_json_list(raw):
+                out.append({"text": q, "answer_text": chunk, "is_hyde_question": True})
+    elif llm_provider == "openai":
+        client = _get_openai_client()
+        m = model or LLM_DEFAULT_MODEL_OPENAI
+        for chunk in base:
+            resp = client.chat.completions.create(
+                model=m, temperature=0,
+                messages=[
+                    {"role": "system", "content": A6_SYSTEM_PROMPT},
+                    {"role": "user", "content": chunk},
+                ],
+            )
+            raw = resp.choices[0].message.content or ""
+            for q in _parse_json_list(raw):
+                out.append({"text": q, "answer_text": chunk, "is_hyde_question": True})
+    else:
+        raise SystemExit(f"unknown llm_provider: {llm_provider!r}")
+    return out
+
+
+# --- A7: LLM-as-chunker -----------------------------------------------------
+
+A7_SYSTEM_PROMPT = """Split the document into 3-15 semantically coherent
+chunks. Each chunk should be 200-500 tokens and represent one cohesive idea
+or topic. Do not omit any content.
+
+Output a JSON array of objects with keys:
+  - "rationale": one-sentence reason this is a coherent chunk
+  - "text": the chunk's text verbatim from the source
+
+No preamble, no code fences, no commentary outside the JSON."""
+
+
+def chunk_llm_as_chunker(
+    text: str, *, llm_provider: str = "anthropic", model: str | None = None,
+) -> list[dict]:
+    """A7: ask LLM to split the document at semantically coherent boundaries."""
+    if llm_provider == "anthropic":
+        client = _get_anthropic_client()
+        m = model or LLM_DEFAULT_MODEL_ANTHROPIC
+        msg = client.messages.create(
+            model=m, max_tokens=8192, system=A7_SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": text}],
+        )
+        raw = "".join(b.text for b in msg.content if b.type == "text")
+    elif llm_provider == "openai":
+        client = _get_openai_client()
+        m = model or LLM_DEFAULT_MODEL_OPENAI
+        resp = client.chat.completions.create(
+            model=m, temperature=0,
+            messages=[
+                {"role": "system", "content": A7_SYSTEM_PROMPT},
+                {"role": "user", "content": text},
+            ],
+        )
+        raw = resp.choices[0].message.content or ""
+    else:
+        raise SystemExit(f"unknown llm_provider: {llm_provider!r}")
+
+    # parse JSON array of {rationale, text}
+    raw = re.sub(r"^```(?:json)?\s*", "", raw.strip())
+    raw = re.sub(r"\s*```$", "", raw)
+    m = re.search(r"\[.*\]", raw, re.DOTALL)
+    if not m:
+        return []
+    try:
+        data = json.loads(m.group(0))
+    except json.JSONDecodeError:
+        return []
+    return [{"text": str(x.get("text", "")), "rationale": x.get("rationale")}
+            for x in data if x.get("text")]
+
+
+# --- A8: Structure-aware (writing guide) ------------------------------------
+
+
+def chunk_structure_aware(text: str) -> list[dict]:
+    """A8: like C7 but breadcrumb in METADATA, not in text. Each chunk =
+    one section's heading + body, with parent chapter/section in metadata."""
+    out: list[dict] = []
+    for seg in _wg_split_by_heading(text):
+        if not seg["body"]:
+            continue
+        body_text = (
+            f"{seg['num']} {seg['title']}\n\n{seg['body']}"
+            if seg["num"] else seg["body"]
+        )
+        breadcrumb: list[str] = []
+        if seg.get("parent_chapter"):
+            n, t = seg["parent_chapter"]
+            breadcrumb.append(f"{n} {t}")
+        if seg.get("parent_section"):
+            n, t = seg["parent_section"]
+            breadcrumb.append(f"{n} {t}")
+        if seg["num"]:
+            breadcrumb.append(f"{seg['num']} {seg['title']}")
+        out.append({
+            "text": body_text,
+            "section_num": seg["num"],
+            "section_title": seg["title"],
+            "depth": seg.get("depth", 0),
+            "breadcrumb": breadcrumb,
+            "parent_chapter_num": seg["parent_chapter"][0] if seg.get("parent_chapter") else None,
+            "parent_chapter_title": seg["parent_chapter"][1] if seg.get("parent_chapter") else None,
+            "parent_section_num": seg["parent_section"][0] if seg.get("parent_section") else None,
+            "parent_section_title": seg["parent_section"][1] if seg.get("parent_section") else None,
+        })
+    return out
+
+
 def chunk_sliding_window(text: str, window: int = 2, stride: int = 1) -> list[str]:
     """C9: sliding window over heading-segments. Each chunk = `window` consecutive
     sections joined together. Catches rules that span sections."""
@@ -323,7 +739,9 @@ def chunk_sliding_window(text: str, window: int = 2, stride: int = 1) -> list[st
 # ---------------------------------------------------------------------------
 
 
-def get_chunker(method: str) -> Callable[[str], list[str]]:
+def get_chunker(method: str, llm_provider: str = "anthropic",
+                llm_model: str | None = None) -> Callable[[str], list]:
+    # Simple
     if method == "c1":  return lambda t: chunk_fixed_size(t, 512, 50)
     if method == "c2":  return lambda t: chunk_fixed_size(t, 256, 25)
     if method == "c3":  return lambda t: chunk_fixed_size(t, 1024, 100)
@@ -334,6 +752,20 @@ def get_chunker(method: str) -> Callable[[str], list[str]]:
     if method == "c8":  return chunk_heading_with_parent
     if method == "c9":  return chunk_sliding_window
     if method == "c10": return chunk_article_as_one
+    # Advanced
+    if method == "a1":
+        return lambda t: chunk_contextual_retrieval(t, llm_provider=llm_provider, model=llm_model)
+    if method == "a2":  return chunk_late
+    if method == "a3":
+        return lambda t: chunk_propositions(t, llm_provider=llm_provider, model=llm_model)
+    if method == "a4":
+        return lambda t: chunk_raptor(t, llm_provider=llm_provider, model=llm_model)
+    if method == "a5":  return chunk_small_to_big
+    if method == "a6":
+        return lambda t: chunk_hyde(t, llm_provider=llm_provider, model=llm_model)
+    if method == "a7":
+        return lambda t: chunk_llm_as_chunker(t, llm_provider=llm_provider, model=llm_model)
+    if method == "a8":  return chunk_structure_aware
     raise SystemExit(f"unknown method: {method!r}")
 
 
@@ -395,14 +827,16 @@ def make_metadata(
 def process_article(
     src_path: Path,
     out_dir: Path,
-    chunker: Callable[[str], list[str]],
+    chunker: Callable[[str], list],
     chunker_id: str,
     src_method: str,
 ) -> tuple[int, int]:
-    """Chunk one article, write JSONL, return (n_chunks, total_chars)."""
+    """Chunk one article, write JSONL, return (n_chunks, total_chars).
+    Chunker output may be list[str] OR list[dict]. Dict items must have a
+    'text' key; any other keys merge into the chunk's metadata."""
     fm, body = read_md(src_path)
-    chunks = chunker(body)
-    if not chunks:
+    items = chunker(body)
+    if not items:
         return 0, 0
 
     slug = src_path.stem
@@ -411,19 +845,28 @@ def process_article(
 
     total_chars = 0
     with out_path.open("w", encoding="utf-8") as f:
-        for i, text in enumerate(chunks):
+        for i, item in enumerate(items):
+            if isinstance(item, str):
+                text = item
+                extra: dict = {}
+            else:
+                text = item.get("text", "")
+                extra = {k: v for k, v in item.items() if k != "text"}
+            if not text:
+                continue
             meta = make_metadata(
                 article_fm=fm,
                 chunker_id=chunker_id,
                 src_method=src_method,
                 chunk_index=i,
-                n_chunks_total=len(chunks),
+                n_chunks_total=len(items),
                 slug=slug,
             )
+            meta.update(extra)
             row = {"id": meta["chunk_id"], "text": text, "metadata": meta}
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
             total_chars += len(text)
-    return len(chunks), total_chars
+    return len(items), total_chars
 
 
 # ---------------------------------------------------------------------------
@@ -431,11 +874,13 @@ def process_article(
 # ---------------------------------------------------------------------------
 
 
-def run(method: str, src_method: str, limit: int | None, force: bool) -> None:
+def run(method: str, src_method: str, limit: int | None, force: bool,
+        llm_provider: str = "anthropic", llm_model: str | None = None) -> None:
     if method not in METHODS:
         raise SystemExit(f"unknown method: {method!r}")
     info = METHODS[method]
     chunker_folder = info["folder"]
+    tier = info["tier"]
 
     # Resolve input source: writing-guide special case vs article translations
     if src_method == "writing-guide":
@@ -457,10 +902,10 @@ def run(method: str, src_method: str, limit: int | None, force: bool) -> None:
             raise SystemExit(f"source dir not found: {src_dir}")
         files = sorted(src_dir.glob("*.md"))
 
-    out_dir = CHUNKED_BASE / chunker_folder / src_method
+    out_dir = CHUNKED_BASE / tier / chunker_folder / src_method
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    chunker = get_chunker(method)
+    chunker = get_chunker(method, llm_provider=llm_provider, llm_model=llm_model)
     print(
         f"[chunk] method={method} ({chunker_folder}) src={src_method} "
         f"in={len(files)} out={out_dir}",
@@ -501,31 +946,46 @@ def run(method: str, src_method: str, limit: int | None, force: bool) -> None:
 
 
 def main() -> None:
-    fast_methods = [m for m, info in METHODS.items()
+    article_fast = [m for m, info in METHODS.items()
                     if info["applies_to"] == "article" and info["scope"] == "fast"]
-    article_methods = [m for m, info in METHODS.items() if info["applies_to"] == "article"]
+    article_simple = [m for m, info in METHODS.items()
+                      if info["applies_to"] == "article" and info["tier"] == "simple"]
+    no_key_methods = [m for m, info in METHODS.items() if info["scope"] in ("fast", "slow")]
 
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "--method",
         required=True,
         help=f"chunking method: one of {sorted(METHODS)}, "
-             f"'all-fast' ({fast_methods}), or 'all-article' ({article_methods})",
+             f"'all-fast' ({article_fast}), 'all-simple', 'all-no-key' (everything that doesn't need an API key), or 'all-advanced'",
     )
-    ap.add_argument("--src", default="deep-translator", help="translation method subfolder")
-    ap.add_argument("--limit", type=int, default=None, help="cap articles for testing")
+    ap.add_argument("--src", default="deep-translator", help="translation method subfolder, or 'writing-guide'")
+    ap.add_argument("--limit", type=int, default=None, help="cap docs for testing")
     ap.add_argument("--force", action="store_true")
+    ap.add_argument("--llm-provider", choices=("anthropic", "openai"), default="anthropic")
+    ap.add_argument("--llm-model", default=None, help="override default LLM model")
     args = ap.parse_args()
 
     if args.method == "all-fast":
-        targets = fast_methods
-    elif args.method == "all-article":
-        targets = article_methods
+        targets = article_fast
+    elif args.method == "all-simple":
+        targets = [m for m, info in METHODS.items() if info["tier"] == "simple"]
+    elif args.method == "all-advanced":
+        targets = [m for m, info in METHODS.items() if info["tier"] == "advanced"]
+    elif args.method == "all-no-key":
+        targets = no_key_methods
     else:
         targets = [args.method]
 
     for m in targets:
-        run(m, args.src, args.limit, args.force)
+        # auto-pick src for writing-guide-only methods
+        info = METHODS[m]
+        src = "writing-guide" if info["applies_to"] == "writing_guide" else args.src
+        try:
+            run(m, src, args.limit, args.force,
+                llm_provider=args.llm_provider, llm_model=args.llm_model)
+        except SystemExit as e:
+            print(f"[chunk] {m}: SKIPPED — {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":

@@ -3,10 +3,4 @@ __pycache__/
 *.pyc
 .env
 vector_db/
-data/raw/*.json
-data/raw/*.md
-data/translated/*.json
-data/translated/*.md
-data/chunked/*.json
-data/chunked/*.md
 .DS_Store

@@ -2,5 +2,7 @@
 __pycache__/
 *.pyc
 .env
-vector_db/
 .DS_Store
+
+# Local vector database — large binary blobs, reproducible from chunked/*.jsonl
+vector_db/

@@ -1,0 +1,12 @@
+{
+  "method": "c10",
+  "chunker_folder": "c10-article-as-chunk",
+  "src_method": "deep-translator",
+  "articles_processed": 164,
+  "articles_skipped_existing": 0,
+  "chunks_total": 164,
+  "chars_total": 1323039,
+  "chars_per_chunk_avg": 8067.3,
+  "chunks_per_article_avg": 1.0,
+  "elapsed_seconds": 0.08
+}

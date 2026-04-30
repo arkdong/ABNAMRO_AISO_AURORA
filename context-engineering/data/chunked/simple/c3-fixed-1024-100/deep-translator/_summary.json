@@ -1,0 +1,12 @@
+{
+  "method": "c3",
+  "chunker_folder": "c3-fixed-1024-100",
+  "src_method": "deep-translator",
+  "articles_processed": 164,
+  "articles_skipped_existing": 0,
+  "chunks_total": 374,
+  "chars_total": 1370087,
+  "chars_per_chunk_avg": 3663.3,
+  "chunks_per_article_avg": 2.28,
+  "elapsed_seconds": 0.28
+}

@@ -1,0 +1,12 @@
+{
+  "method": "c5",
+  "chunker_folder": "c5-sentence-window",
+  "src_method": "deep-translator",
+  "articles_processed": 164,
+  "articles_skipped_existing": 0,
+  "chunks_total": 10101,
+  "chars_total": 6170903,
+  "chars_per_chunk_avg": 610.9,
+  "chunks_per_article_avg": 61.59,
+  "elapsed_seconds": 0.18
+}

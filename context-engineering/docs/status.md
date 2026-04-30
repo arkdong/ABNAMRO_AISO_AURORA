@@ -7,7 +7,7 @@ Update this file at the end of each working session.
 
 - **2026-04-29 — Project bootstrap.** Created folder layout, stub scripts for
   every pipeline stage, `requirements.txt`, `.env.example`, `.gitignore`,
-  `README.md`. Copied Writing Guide PDF into `data/writing_guide.pdf`.
+  `README.md`. 
 - **2026-04-29 — Advanced strategy docs.** Wrote [`advanced-chunking.md`](advanced-chunking.md)
   (A1–A8) and [`advanced-embedding.md`](advanced-embedding.md) (X1–X11) covering
   contextual retrieval, late chunking, RAPTOR, small-to-big, HyDE-indexing,

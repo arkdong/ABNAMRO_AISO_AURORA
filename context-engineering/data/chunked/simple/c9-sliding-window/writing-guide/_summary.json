@@ -1,0 +1,12 @@
+{
+  "method": "c9",
+  "chunker_folder": "c9-sliding-window",
+  "src_method": "writing-guide",
+  "documents_processed": 1,
+  "documents_skipped_existing": 0,
+  "chunks_total": 22,
+  "chars_total": 148203,
+  "chars_per_chunk_avg": 6736.5,
+  "chunks_per_doc_avg": 22.0,
+  "elapsed_seconds": 0.0
+}

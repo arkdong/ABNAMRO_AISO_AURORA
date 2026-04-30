@@ -1,0 +1,12 @@
+{
+  "method": "c6",
+  "chunker_folder": "c6-semantic",
+  "src_method": "deep-translator",
+  "articles_processed": 164,
+  "articles_skipped_existing": 0,
+  "chunks_total": 2710,
+  "chars_total": 1313314,
+  "chars_per_chunk_avg": 484.6,
+  "chunks_per_article_avg": 16.52,
+  "elapsed_seconds": 30.63
+}

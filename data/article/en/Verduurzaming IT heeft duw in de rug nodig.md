@@ -1,0 +1,94 @@
+---
+title: "Sustainable IT needs a push"
+source: "https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/verduurzaming-it-heeft-duw-in-de-rug-nodig.html"
+lang: "en"
+published: 2021-05-07
+author:
+  - "[[Julia Krauwer]]"
+  - "[[Ingrid Laane]]"
+  - "[[Kamalika Patra]]"
+description: "Despite rapidly growing attention to energy saving and climate change, IT sustainability is not yet embraced across the board. A minority of IT decision-makers (35 per cent) include sustainability as a purchasing criterion. This emerges from research by ABN AMRO in collaboration with PanelWizard among 588 IT decision-makers from companies across all sectors."
+tag:
+  - "[[Rapport]]"
+  - "[[Technologie, Media & Telecom]]"
+  - "[[Duurzaamheid]]"
+---
+![Sustainable IT needs a push](https://www.abnamro.nl/nl/media/verduurzaming-it-heeft-duw-in-de-rug-nodig_1685598301_tcm16-109385.jpg)
+
+# Sustainable IT needs a push
+
+[Report](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+07/05/2021 • 4 minutes read
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Ingrid Laane
+
+Kamalika Patra
+
+Show all authors
+
+Despite rapidly growing attention to energy saving and climate change, IT sustainability is not yet embraced across the board. A minority of IT decision-makers (35 per cent) include sustainability as a purchasing criterion. This emerges from research by ABN AMRO in collaboration with PanelWizard among 588 IT decision-makers from companies across all sectors.
+
+## Download the full report
+
+(Can’t see a download or unable to download the report? Then upgrade your browser to the latest version.)
+
+- [Sustainable IT needs a push (7 May 2021)
+
+  2 MB](https://www.abnamro.nl/nl/media/abn-amro-verduurzaming-it-heeft-duw-in-de-rug-nodig_tcm16-109386.pdf)
+
+To give the market for green IT a boost, we need government intervention as well as more collaboration and knowledge sharing among IT companies across the entire chain.
+
+## Traditional mindset hinders sustainable IT procurement
+
+Other priorities, costs that are too high and insufficient knowledge are the main reasons for IT decision-makers1 not to opt for sustainable procurement. Interviews with IT companies that present themselves as sustainable — for example because they programme in an energy-efficient way or supply circular hardware — also show that many IT purchasers have a traditional mindset. Decisions are based on a narrow set of key performance indicators (KPIs) that emphasise, for example, speed and continuity, while sustainability does not yet play a role. Better one server too many than too little capacity later is still too often the thinking, according to Patrick de Ridder of Cobra Systems. “For the IT professional, safety and reliability come first. Building in overcapacity is therefore commonplace. ‘Do we need ten servers? Then make it twelve.’”
+
+## Growing environmental burden from IT forces action
+
+IT contributes greatly to our society and will only grow in the coming years. That means we can keep benefiting from what digitalisation offers us, from working from home to smart buildings and precision agriculture. But there is also a flipside: digitalisation places a heavy burden on the environment, in terms of both energy and raw material use. For example, the production of IT hardware depends on various critical raw materials, while only a small percentage of those materials is recovered after the device is discarded. Data centres also place an ever greater strain on our energy supply. Production and use of IT currently account for 2.1 to 3.9 per cent of global greenhouse gas emissions.2 Researchers estimate that this share will be between 6 and 14 per cent in 2040.3
+
+## Expectations of IT parties unevenly distributed
+
+These facts, combined with increasing pressure from politics and society, call for continued effort to limit the ecological footprint of digitalisation. As part of the Climate Agreement, the Dutch IT sector has therefore stated the ambition to be climate neutral by 2030. All parties in the IT chain have a responsibility here: from the companies that provide the physical IT infrastructure and equipment to the developers of digital services. However, IT decision-makers expect the most from data centres; almost half of respondents expect to a reasonable to strong degree that data centres take sustainability into account. For cloud and hosting providers this percentage is slightly lower (43.4), followed by suppliers of IT hardware (41.1). The lowest expectations on sustainability are for software companies. This is a missed opportunity, because energy-aware software design, among other things, can deliver major gains.
+
+## Fragmentation of the chain hampers sustainability
+
+A barrier for IT companies to (fully) make the switch to sustainable propositions is that demand is still simply insufficient. This is the familiar chicken-and-egg problem. In addition, fragmentation of the IT chain works against them. The owner of the problem is not always the solver. For example, grid operators carry the problem when power shortages arise, but IT companies must implement the solutions. This can involve, for instance, a commercial data centre that can organise its cooling more efficiently and a hosting company that must smartly configure its servers in that data centre. Many solutions also come from outside the chain, such as from academia or start-ups.
+
+## Combination of government intervention and collaboration in the IT chain is crucial
+
+A bright spot is that IT companies offering sustainable products and services do cautiously see demand for their products increasing, as they told ABN AMRO. This is all the more true for sustainable IT propositions that also deliver commercial benefits. To give the market for sustainable IT a nudge and secure a permanent place in the digital ecosystem, government intervention is desirable, such as subsidies and regulation. IT companies themselves can help the market by being transparent about their sustainability efforts and joining forces with other chain partners for experiments and knowledge sharing.
+
+This publication explores the market for IT companies that are actively working to reduce their ecological footprint, or want to take the first steps in this area. The report contains a broad inventory of the key themes in ‘green IT’, provides an overview of the research results and identifies specific challenges for the market to mature.
+
+## More information
+
+Read the full report ‘Sustainable IT needs a push’.
+
+(Can’t see a download or unable to download the report? Then upgrade your browser to the latest version.)
+
+- [Sustainable IT needs a push (7 May 2021)
+
+  2 MB](https://www.abnamro.nl/nl/media/abn-amro-verduurzaming-it-heeft-duw-in-de-rug-nodig_tcm16-109386.pdf)
+
+1IT decision-makers in this study are defined as people who have final responsibility or (co-)decision-making authority for the development, selection and/or procurement of IT products and services.  
+2Freitag, C. et al, ‘[The climate impact of ICT: A review of estimates, trends and regulations](https://arxiv.org/ftp/arxiv/papers/2102/2102.02622.pdf)’, December 2020  
+3Belkhir, L. and Ahmed Elmeligi, ‘[Assessing ICT global emissions footprint: Trends to 2040 & recommendations](https://www.sciencedirect.com/science/article/abs/pii/S095965261733233X)’, March 2018
+
+## Read more in the technology sector
+
+Technology, Media & Telecom (TMT) is one of the fastest-growing sectors. Helped by the increasing use of software, algorithms and sensors, this sector underpins the digital renewal of other sectors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Report](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Sustainability](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaamheid.html)

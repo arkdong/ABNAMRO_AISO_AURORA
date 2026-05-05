@@ -1,0 +1,78 @@
+---
+title: "Europe wants to join the AI race"
+source: "https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-wil-meedoen-in-de-ai-race.html"
+lang: "en"
+published: 2025-05-27
+author:
+  - "[[Julia Krauwer]]"
+description: "Europe wants to get a grip on artificial intelligence, but is not yet a serious contender in the global AI race. Read more."
+tag:
+  - "[[Analyse]]"
+  - "[[Technologie, Media & Telecom]]"
+  - "[[Industrie]]"
+  - "[[AI]]"
+  - "[[Digitalisering]]"
+---
+![](https://assets.abnamro.com/api/public/content/shutterstock-1503718103-landscape-4x1.jpg?t=h440)
+
+# Europe wants to join the AI race
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+27/05/2025 • 4 minutes read
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Europe wants to get a grip on artificial intelligence, but is not yet a serious contender in the global AI race. Most computing power, investment and leading companies are in the United States or China. Yet initiatives are emerging in Europe to win back ground, with its own infrastructure, investment and AI start-ups that excel in niches.
+
+European AI start-ups raise far less capital than their US competitors. In 2024, around 90 billion dollars went to US AI start-ups and scale-ups, according to Dealroom data. In Europe the amount stalled at just under 16 billion. According to Maarten Cleeren of Techleap, that is problematic. “In ten years’ time there will be no company that does not use AI. If we do not put money into the tech companies that support this, we have a problem.”
+
+## Enormous investment
+
+For now, European AI start-ups are fishing in a much smaller funding pool and are less likely to grow into heavyweights. The investments that such AI heavyweights in turn make are staggering. US company OpenAI, known for the smart chatbot ChatGPT, teamed up earlier this year with fellow American Oracle and Japan’s SoftBank under the name Stargate. In this joint venture, the technology companies will invest at least 500 billion dollars in AI infrastructure over the coming years.
+
+China’s relatively low share of global AI investment is mainly because innovation there is largely driven by big technology companies such as Baidu, Tencent and Alibaba, which work closely with the government. Due to limited transparency in the capital market, many investments also remain out of sight.
+
+The results of China’s efforts are, however, drawing more attention. For example, Chinese start-up Butterfly Effect recently launched the AI agent [Manus](https://www.businessinsider.com/manus-ai-china-agent-hype-deepseek-2025-3?international=true&r=US&IR=T#:~:text=,others%20are%20calling%20it%20overhyped), which performs complex tasks from start to finish with minimal human input. The AI model DeepSeek drew astonishment at the end of 2024 because it was developed with much less computing power, yet delivered results comparable to the well-known language models from, among others, OpenAI and Meta. This makes the AI race not only a contest between US tech giants, but rather a global race with the United States and China at its centre. Europe has not yet managed to secure a serious position in this race.
+
+## Criticism of AI legislation
+
+The AI Act adopted by the European Commission in March 2024 is the world’s first comprehensive legislative package for artificial intelligence. The regulation imposes strict requirements on so-called high-risk applications and meets resistance in parts of the tech sector. “Potentially disastrous,” is how industry association EU Tech Chamber described the AI Act; the rules would impose “stringent obligations” that [stifle](https://www.euronews.com/next/2023/12/15/potentially-disastrous-for-innovation-tech-sector-says-eu-ai-act-goes-too-far#:~:text=%27Potentially%20disastrous%27%3A%20Tech%20sector%20says,that%20underpin%20many%20downstream) innovation.
+
+Some AI entrepreneurs fear high compliance costs and legal uncertainty. “Founders do not know exactly where the boundaries lie,” says Cleeren of Techleap. “Companies will be reluctant to bring certain AI features to the European market that are launched in the United States.”
+
+## Investing in AI factories
+
+Even so, Europe is now trying to win back ground. In February 2025, the European Commission launched the InvestAI initiative, intended to unlock 200 billion euros in investment in artificial intelligence. On 10 April the AI Continent Plan was presented, which includes thirteen ‘AI factories’ and even five ‘giga-factories’. These facilities will make high-grade infrastructure available for training large models.
+
+There is also plenty of initiative from technology companies. Iliad Group, a French tech and telecoms conglomerate, announced in February an investment of 3 billion euros in sovereign AI infrastructure. It is investing in the large data centres of subsidiary OpCore and serves the market with AI compute through cloud company Scaleway. Mistral, a French company that develops advanced AI models itself, is one of Scaleway’s customers. France wants to become an important hub for artificial intelligence.
+
+## Place in the value chain
+
+An analysis by consultant McKinsey shows that Europe has secured an important place in [different links](https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/time%20to%20place%20our%20bets%20europes%20ai%20opportunity/time-to-place-our-bets-europes-ai-opportunity.pdf) of the AI value chain. This applies, for example, to the machines used to make advanced chips, in which Eindhoven-based ASML has virtually a monopoly. IT service providers, including Capgemini, Ordina and Tietoevry, which help companies embed AI in their processes, also have a relatively large market share. Although Europe lags in developing so-called foundation models – the AI models trained on huge amounts of data that can generate new content on that basis – Europe’s market share is growing, according to the consultant. The same applies to the applications developed on the basis of these models.
+
+In the Netherlands, Cleeren of Techleap also sees AI companies excelling in specific components and thus securing an important position within the value chain. “Weaviate uses AI to find and understand information based on what you mean, not just what you type,” he says. “And Deeploy is a platform that helps companies with a responsible implementation of AI.”
+
+Europe is taking part in the development of foundation models, but the biggest players are in the US and China. Europe’s potential now lies mainly in specialised applications, responsible use of AI and a growing network of start-ups and infrastructure projects. Initiatives such as InvestAI and the rise of companies like Mistral lay the groundwork, although the road to a level playing field remains long.
+
+[Also read: Europe focuses on technological self-reliance](/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-zet-in-op-technologische-zelfredzaamheid.html)
+
+## Read more in the technology sector
+
+Technology, Media & Telecom (TMT) is one of the fastest-growing sectors. Helped by the increasing use of software, algorithms and sensors, this sector is at the root of the digital renewal of other sectors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industry](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisation](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

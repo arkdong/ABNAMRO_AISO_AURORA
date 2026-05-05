@@ -1,0 +1,67 @@
+---
+title: "AI is the creative brain of the future"
+source: "https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/ai-is-het-creatieve-brein-van-de-toekomst.html"
+lang: "en"
+published: 2021-01-29
+author:
+  - "[[Kamalika Patra]]"
+description: "With shrinking research productivity and declining innovation, it is getting harder to achieve economic growth. There is hope, though: algorithms that combine existing inventions into new ones can accelerate innovation. A new Google model can now make a tasty ‘cakie’ by blending cake and biscuit recipes."
+tag:
+  - "[[Headlines & Insights]]"
+  - "[[Technologie, Media & Telecom]]"
+  - "[[Zakelijke dienstverlening]]"
+  - "[[AI]]"
+  - "[[Duurzaamheid]]"
+---
+![AI is the creative brain of the future](https://www.abnamro.nl/nl/media/ai-is-het-creatieve-brein-van-de-toekomst_1154290996_1800_tcm16-98168.jpg)
+
+# AI is the creative brain of the future
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+29/01/2021 • 3 minutes read
+
+Kamalika Patra
+
+With shrinking research productivity and declining innovation, it is getting harder to achieve economic growth. There is hope, though; algorithms that combine existing inventions into new ones can accelerate innovation. A new Google model can now make a tasty ‘cakie’ by blending cake and biscuit recipes.
+
+## Insight
+
+Conventional theory holds that long-term economic growth can only continue through technological improvements that raise labour productivity; improvements driven by inventions and innovations. After the industrial revolutions of past centuries, some economists fear that the US economy has already [seen its best days](https://www.nber.org/papers/w18315) due to a lack of innovations.
+
+The suspicion that growth cannot continue is confirmed by [research](https://www.nber.org/system/files/working_papers/w23782/w23782.pdf); the so-called ‘research productivity’ of scientists and researchers is falling by an average of 5 per cent a year. Current economic growth is only thanks to the high inflow of new researchers. For example, far more researchers are needed than in the 1970s to generate ideas to keep Moore’s Law going, the observed pattern that every two years the number of transistors on a chip doubles.
+
+Moreover, [research](https://royalsocietypublishing.org/doi/10.1098/rsif.2015.0272) by, among others, the University of Oxford indicates that the number of inventions is shrinking. Patent applications largely combine and adapt earlier inventions. This is called ‘combinatorial innovation’.
+
+However, this limited pool of ideas is also running dry. The more combinatorial innovations there already are, and the fewer inventions, the harder it becomes to keep innovating combinatorially. Combinatorial innovation is limited by a person’s knowledge and experience, as well as creativity, which cannot be forced. In the end it is largely a matter of chance that exactly the right elements of existing inventions are brought together.
+
+As research productivity dries up, artificial intelligence (AI) comes into view. AI first of all has no shortage of ‘input’. An AI programme that uses so-called neural networks has all the knowledge that humanity has stored digitally at its fingertips. The high processing speed of computers then ensures that this knowledge can be combined and processed within seconds. This rules out all chance; in a flash, computers can assess all possible combinations for feasibility without overlooking anything.
+
+Take IBM’s Deep Blue, for example, the computer programme that beat world chess champion Garry Kasparov in 1997. Deep Blue evaluates 200 million chess positions per second. Compared with Kasparov’s two chess positions per second, the computer has a colossal advantage over a human, says Professor Jonathan Shaeffer, developer of the AI world champion in draughts, in an [interview](https://www.youtube.com/watch?v=fLZyIbuh7hU&feature=youtu.be&ab_channel=StarTalk).
+
+Programmes that really think along creatively are more recent. In December 2020, Google AI expert Sara Robinson showed a [machine learning model](https://cloud.google.com/blog/topics/developers-practitioners/baking-recipes-made-ai) that merges existing cake and biscuit recipes into new ones. The experiment produced the ‘cakie’, a tasty cake–biscuit hybrid. An [AI programme](https://arxiv.org/pdf/1706.05585.pdf) developed by researchers at Carnegie Mellon now combines inventions recorded in the US patent database.
+
+These ‘artificial inventors’ are unfortunately still far from perfect. AI needs concrete rules to deliver viable ideas, but the nature of innovation is the opposite; it has no rules. Programming strict rules involves a trade-off: viability is weighed against the constraints that rules place on innovation opportunities. As a result, the strength of computers is also their weakness; they overlook nothing, including the ‘bad’ inventions. For example, alongside the cakie, Robinson’s algorithm also produced an abundance of inedible fare, just like a [similar algorithm](https://venturebeat.com/2021/01/07/why-we-need-augmented-creativity-to-reignite-growth-in-2021/) from Accenture.
+
+For programmers, the challenge is to filter good ideas from the sea of bad ones, and to strike the right balance in the amount of rules assigned to AI programmes. For now, exploring uncharted territory is up to humans. The good news is that humans no longer have to do it alone.
+
+*In Headlines & Insights, ABN AMRO provide context to the news.*
+
+## More information
+
+- VentureBeat, ‘Augmented creativity’: How AI can accelerate human invention](https://venturebeat.com/2021/01/07/why-we-need-augmented-creativity-to-reignite-growth-in-2021/)
+- Kamalika Patra, ABN AMRO sector analyst TMT & ZDV, [kamalika.patra@nl.abnamro.com](mailto:kamalika.patra@nl.abnamro.com)
+
+## Tags
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Business services](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/zakelijke-dienstverlening/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Sustainability](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaamheid.html)

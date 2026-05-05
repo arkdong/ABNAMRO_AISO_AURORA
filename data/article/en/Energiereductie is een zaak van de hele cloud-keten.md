@@ -1,0 +1,62 @@
+---
+title: "Energy reduction is a matter for the entire cloud chain"
+source: "https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/energiereductie-is-een-zaak-van-de-hele-cloud-keten.html"
+lang: "en"
+published: 2020-11-05
+author:
+  - "[[Julia Krauwer]]"
+description: "It is not only data centres that should be concerned with reducing emissions and energy use. In fact, the entire chain should take responsibility for a greener digital landscape."
+tag:
+  - "[[Column]]"
+  - "[[Technologie, Media & Telecom]]"
+  - "[[Energie]]"
+  - "[[Duurzaamheid]]"
+---
+# Energy reduction is a matter for the entire cloud chain
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+![Julia Krauwer](https://www.abnamro.nl/nl/media/Julia_Krauwer_1278x538_tcm16-69446.jpg)
+
+05/11/2020 • 4 minutes read
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+It is not only data centres that should be concerned with reducing emissions and energy use. In fact, the entire chain should take responsibility for a greener digital landscape.
+
+We consume digital services on our smartphones, laptops and TVs with great enthusiasm. A large share of those services runs from the cloud, or more concretely: on servers housed in mostly large-scale data centres. With their prominent place in the landscape and substantial electricity consumption, data centres underline what we already knew: the digital economy does not run on thin air.
+
+As the unromantic embodiment of our digital economy, data centres are often a topic of debate. How many data centres can and does a small country like the Netherlands want to host? Will we meet our Climate Agreement targets if we also want to be a European hub for data traffic? At the same time, it is encouraging and motivating to see the steps the entire ICT chain is already taking to reduce the cloud’s ultimate energy consumption. Opportunities lie in the data centre itself, the servers housed there, and the digital services that run on those servers.
+
+That at least some of those opportunities are already being seized is proven by the sharply increased efficiency of data centres. Global electricity consumption by data centres rose by only six per cent between 2010 and 2018, while data traffic to and from data centres increased tenfold and data storage capacity [rose by a factor of 25](https://www.gwern.net/docs/cs/2020-masanet.pdf). Thanks to greater scale and the use of innovative, less energy-intensive cooling techniques, data centres are also keeping their own energy use well under control. In theory, it is even possible to generate all electricity needed for cooling from the data centre’s own residual heat. Unfortunately, such a fully circular set-up is still one for the future, although residual heat is already regularly used externally, for example to heat a swimming pool or a block of flats.
+
+The server owner also contributes to the relatively slow rise in energy use. This can be a hosting company that rents space in a data centre, or a party that also owns the data centre itself, such as large cloud service providers like Microsoft and Google, or companies with their own IT infrastructure. Using newer models often already delivers gains in terms of higher capacity and reduced energy use. In addition to replacing hardware, smart use of it can also reduce electricity consumption. For example, lightly used or idle servers consume a relatively large amount of power. In such cases, you can limit energy use by switching on ‘eco mode’. Using this (temporary) sleep mode delivered an [energy reduction](https://amsterdameconomicboard.com/nieuws/eco-mode-bespaart-extra-energie) of 7 per cent at KPN and had no noticeable impact on the performance of the servers concerned. Finally, it pays to reduce the number of servers and increase their utilisation. You can do this through virtualisation. One physical server then gets multiple virtual representations and can be used by multiple parties at the same time.
+
+Data centres and their servers are not there for show. They host the websites we visit, give us access to software applications like Word and Netflix, and store our precious photos. We call on servers in the cloud every day, which drives up data centres’ electricity consumption. It is unlikely that users will stop using these cloud services for that reason, as they meet a need. But website and software developers can make changes to cut the amount of memory, data traffic or computing power their product requires. You can already easily view websites’ CO₂ footprint via the [Website Carbon Calculator](https://www.websitecarbon.com/), and several methods exist to reduce that footprint. Despite efforts in academia to develop a set of proven methods and guidelines, energy-aware programming is unfortunately still a [relatively unknown phenomenon](https://www.researchgate.net/publication/308789636_What_do_programmers_know_about_the_energy_consumption_of_software) for many software developers.
+
+At first glance, websites, software and data have no other form than the pixels on our phone, laptop or TV screens. That makes the link between the digital services we use and the associated energy consumption less obvious. Yet there is another, more eye-catching manifestation that continues to stir emotions: the data centres rising in the polders. These complexes are proof that our digital activities do have a footprint, and their dominant presence should spur all parties in the ICT chain to do their part.
+
+*This column previously appeared on [Emerce](https://www.emerce.nl/achtergrond/energiereductie-is-een-zaak-van-de-hele-cloud-keten).*
+
+## About the author
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer.html "Over de auteur - Julia Krauwer") is sector banker TMT (Technology, Media & Telecom) at ABN AMRO. She focuses daily on the impact of technology on business models.
+
+## Read more in the technology sector
+
+Technology, Media & Telecom (TMT) is one of the fastest-growing sectors. Helped by the increasing use of software, algorithms and sensors, this sector is driving the digital renewal of other sectors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Energy](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/energie/index.html)
+
+[Sustainability](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaamheid.html)
+

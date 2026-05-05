@@ -1,0 +1,146 @@
+---
+title: "Digital sovereignty offers major opportunities for Europe"
+source: "https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/digitale-soevereiniteit-biedt-grote-kansen-voor-europa.html"
+lang: "en"
+published: 2025-12-02
+author:
+  - "[[Julia Krauwer]]"
+description: "ABN AMRO: European tech grows with AI and cloud sovereignty. Privacy and independence become a competitive edge. Read more."
+tag:
+  - "[[Interview]]"
+  - "[[Technologie, Media & Telecom]]"
+  - "[[AI]]"
+  - "[[Digitalisering]]"
+---
+![](https://assets.abnamro.com/api/public/content/magic-lane-landscape-4x1.jpeg?t=h440)
+
+# Digital sovereignty offers major opportunities for Europe
+
+[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+02/12/2025 • 8 minutes read
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Will Europe be crushed between the US and China when it comes to technology? Will we lose our digital say and our role in the tech economy? Far from it, predicts ABN AMRO sector specialist Julia Krauwer. In a Europe that is waking up digitally, she sees plenty of opportunities. ‘A lot of great things are already happening, but the internal hurdles must go. And we must state our ambitions out loud!’
+
+When it came to technology, Europe long followed big brother America. Software, servers, cloud storage: all our data and systems were familiar, yet totally dependent. At first that was fine, until geopolitical balances were upended and the rise of AI put almost every part of our business world and society on shaky ground. ‘The lightning-fast breakthrough of AI is transforming business models. It affects every company, and certainly firms in tech, media and telecom,’ says Julia Krauwer, sector specialist in that field at ABN AMRO. ‘The question is not whether you change, but whether you as an entrepreneur can keep up the pace.’
+
+## Dependence makes you vulnerable
+
+The European tech sector has solid growth figures, but also great uncertainties. Behind digital progress lies huge dependence that is barely visible to end users. Almost all the servers, chips and software on which companies, sectors and even societies run come from the US or Asia. ‘If that supply falters, it hits our entire digital economy. The war in Ukraine, recent developments with Nexperia and the ongoing tensions between China and Taiwan have accelerated that awareness.’
+
+You see that dependence in figures from Synergy Research. Between 2017 and 2022, the European cloud market did become five times larger, but despite this the combined market share of European providers fell: from 27 to just 13%. The cause: Amazon, Microsoft and Google grew much faster. They have also invested billions in recent years in data centres on European soil. ‘So while we are growing, the outside world is growing even faster,’ is how Krauwer sums up the urgency.
+
+> “The future lies with companies that supply technology that is hard to reproduce and that integrates smartly into someone else’s ecosystem.”
+
+![](https://assets.abnamro.com/api/public/content/julia-krauwer-portrait-square-1x1.png?t=w72)
+
+Julia Krauwer
+
+Sector Banker Technology, Media & Telecom
+
+## AI as crowbar and threat
+
+According to Krauwer, artificial intelligence is both the main driving force and the biggest disruptor right now. ‘AI changes everything: from the way we develop software to the way we advertise and sell products.’
+
+She sketches a double movement: on the one hand, AI triggers an explosion in productivity. IT service providers help clients with automation, prediction and customisation, which opens new markets. On the other hand, artificial intelligence threatens to undermine parts of the software industry itself. ‘Software companies are in a strange split: AI can make your product smarter, but also redundant. The winners have a strong core, unique data or deep domain knowledge.’ Companies whose value is based on unique algorithms or datasets are better protected against generative AI that can easily copy standard functions.
+
+According to Krauwer, a new distinction is emerging, where it is not only about scale, but above all about whether you offer a very specific and ingenious solution. ‘Small tech companies can also scale very quickly; just look at Swedish Lovable. But those who only deliver a nice interface risk an AI agent taking that over tomorrow. The future lies with companies that supply technology that is hard to reproduce and that integrates smartly into someone else’s ecosystem.’
+
+## From risk to opportunity
+
+Where dependence on foreign players used to be seen mainly as a risk, Krauwer now also sees an opportunity. ‘Because the relationship between America and Europe is changing, we in Europe are acutely aware of the importance of cloud sovereignty. As a European company you want more than ever to know where your data sits, who can access it and who controls the main switch. Companies that can demonstrate a conscious approach to privacy and transparency, to data sovereignty and thus to the continuity of their services, hold a key USP: your data are stored securely in Europe, under European laws and regulations, and thus less dependent on geopolitical unrest.’
+
+## European Google Maps alternative chooses its own path
+
+Amsterdam-based Magic Lane shows that digital sovereignty and commercial success can go hand in hand with their white-label Location Intelligence technology: technology that lets other platforms easily integrate navigation or shared-mobility solutions, from e-bikes to car sharing, with smart features such as offline navigation and live traffic data. CEO Raymond Alves: ‘And the technology guarantees privacy: unlike American providers, users are not tracked; all data remain anonymous.’ The figures also show that this approach pays off: in spring, the number of users of the consumer app rose by 250% in six weeks. ‘This shows that privacy and performance do not have to be mutually exclusive.’
+
+## European sovereignty and privacy in practice
+
+That creates opportunities for European entrepreneurs who deliver on these local values: privacy-friendly, transparent and sustainable. ‘Being compliant turns out to be quite innovative,’ Krauwer quotes from Saskia Lensink, product manager of GPT-NL. ‘Companies that can translate European values into technology with scale can really make a difference.’ Look at Deeploy, a Utrecht-based platform for AI monitoring, AI governance and AI compliance, which helps financial companies and large healthcare institutions safeguard the responsible use of AI in their organisations. Or Mistral AI, the French artificial intelligence platform, which has the potential to grow into a serious challenger to the large AI developers.’
+
+> “We in the Netherlands and in Europe are great at R&D, but we find it daunting to declare that we are going to conquer the world.”
+
+![](https://assets.abnamro.com/api/public/content/julia-krauwer-portrait-square-1x1.png?t=w72)
+
+Julia Krauwer
+
+Sector Banker Technology, Media & Telecom
+
+## Culture and capital
+
+There are plenty of promising initiatives, yet Europe is not there yet. Krauwer: ‘We in the Netherlands and in Europe are great at R&D, but we find it daunting to declare that we are going to conquer the world.’ That modesty does not work in our favour. Especially when it comes to raising enough capital, which is indispensable to let good ideas flourish. Tech companies in Europe find it significantly harder to secure large investments than their counterparts in America. According to the State of European Tech 2024 report, the cumulative gap has now grown to $375 billion. ‘In the US, start-ups raise more than $15 million twice as often,’ says Krauwer. ‘That is a huge difference. And in the end, capital determines whether you can scale.’ Fortunately, Krauwer also sees a cautious start to easing there. ‘Investors are teaming up more often,’ she notes. ‘In addition, Brussels is working on a so-called 28th regime to make investing and scaling across borders easier. With this, Europe is developing a single European framework for company law, insolvency law, labour law and tax law, to end the current fragmentation of 27 countries each with their own rules.’
+
+## Cyber resilience as a maturity test
+
+Alongside economic uncertainty, the security risk is growing. Tech companies are a prime target for hackers and espionage groups, especially since digital infrastructure is part of geopolitical power. ‘As a tech company you must assume you will be hacked at some point,’ says Krauwer. ‘The question is how you deal with it.’ In her view, cyber resilience is part of strategic maturity. ‘It is not only about measures to keep attackers out of your systems, but also about communication and recovery capability if you are unfortunately hacked anyway. Being resilient means you can get back up quickly. Companies that embed security and transparency in their brand win trust from customers and investors.’
+
+## Fronts of growth
+
+Krauwer sees several fronts on which European tech companies can grow, provided they show courage. ‘We should not only want to be less dependent on Big Tech, we should above all want to become stronger ourselves.’ The first growth layer is AI integration: businesses that weave artificial intelligence smartly into their products or processes. ‘You see software firms that integrate AI smartly into their products. And in doing so develop specialised and preferably highly intelligent, domain-specific applications that are preferably highly scalable, yet not easy for others to copy.’
+
+A second growth layer is the technology infrastructure, from chips to data centres. Krauwer: ‘Demand for computing power is growing faster than the supply of data centres, while energy and grid capacity also set limits. That need has already led to great innovations. Such as Axelera AI, a Dutch chip start-up that develops energy-efficient and powerful AI processing units. Or Asperitas, which has developed a cooling system for data centres in which servers are submerged in a cooling liquid, making them more compact, more energy efficient and more sustainable.’
+
+## Building blocks for developers
+
+With Magic Lane’s modular architecture, developers can now build a solution even faster with AI support. ‘After all, we do not deliver a single app, but separate building blocks that developers can use. In addition, our software development kit can even be called by AI development tools. We are consciously positioning ourselves at the back end of an application,’ says Alves. ‘That is where the strength lies: hard-to-replicate technology, built on European values. We show that this kind of technology – like Signal and Protonmail, which offer an alternative to a messenger and email application respectively – is not idealism, but a realistic business model.’
+
+> “We offer hard-to-replicate technology, built on European values.”
+
+![](https://assets.abnamro.com/api/public/content/magic-lane-raymond-alves-square-1x1.jpeg?t=w72)
+
+Raymond Alves
+
+CEO Magic Lane
+
+The third growth layer lies in the focus on European values. Providers of innovative products that are not only smart but also privacy-friendly, respect copyrights, are energy efficient, run on local servers and work without bias, win trust within and outside Europe. Krauwer cites Dutch company Ab Ovo as an example. ‘They have integrated AI into both the development process and their actual software, and are also focusing on developing software that works more flexibly and more sustainably. That is exactly the shift more companies need to make.’
+
+## Talent and ecosystems
+
+The sector’s success also stands or falls with people. ‘Talent gravitates to places where ambition is palpable,’ says Krauwer. ‘Universities, start-ups, investors: you need concentration. We must create more breeding grounds where science and business meet. Only then can you retain the talent that is now leaving for abroad.’ She points, among others, to TU Delft and TU Eindhoven, which now help dozens of spin-offs scale up. ‘Those are hopeful signs. But it must be faster, more ambitious and more international – with more guts and daring. In Silicon Valley, failure is mainly seen as a learning moment; here it still seems mainly a disgrace. If you dare to state big ambitions out loud, you are more likely to achieve them.’
+
+> “In Silicon Valley, failure is mainly seen as a learning moment; in the Netherlands it still seems mainly a disgrace.”
+
+![](https://assets.abnamro.com/api/public/content/julia-krauwer-portrait-square-1x1.png?t=w72)
+
+Julia Krauwer
+
+Sector Banker Technology, Media & Telecom
+
+## More equal
+
+All things considered, Krauwer expects Europe’s Big Tech and AI ecosystems to grow strongly in the coming years. Not with the primary aim of becoming completely detached from American tech, but to become more equal. ‘We are building plan B by strengthening our own alternatives. Those who dare to invest in that independence are building the next generation of European tech. Do not assume that what worked five years ago is good enough for the next five. The entrepreneurs who understand that are tomorrow’s winners. Those who dare to link their own values to innovation and scale can become a global player even now.’
+
+Hero image by Jeroen Dietz
+
+## These are your growth opportunities in 2026
+
+From European subsidies and AI integration to digital resilience: the Technology, Media and Telecom sector offers plenty of opportunities. In this video, business banker Ronald van Gammeren explains where your growth opportunities lie in 2026.
+
+[![
+
+Your browser does not support HTML video. Here is a [link to download the video](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-original.mp4)
+
+](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-thumbnail.jpg)](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-720p.mp4)
+
+[Read more about financing for the TMT sector](https://www.abnamro.nl/nl/zakelijk/producten/financieren/sectoren/tmt.html)
+
+## Read more in the technology sector
+
+Technology, Media & Telecom (TMT) is one of the fastest-growing sectors. Helped by the growing use of software, algorithms and sensors, this sector underpins the digital renewal of other sectors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisation](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+

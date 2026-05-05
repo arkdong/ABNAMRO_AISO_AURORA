@@ -1,0 +1,12 @@
+{
+  "method": "c4",
+  "chunker_folder": "c4-paragraph",
+  "src_method": "deep-translator",
+  "articles_processed": 164,
+  "articles_skipped_existing": 0,
+  "chunks_total": 4497,
+  "chars_total": 1266277,
+  "chars_per_chunk_avg": 281.6,
+  "chunks_per_article_avg": 27.42,
+  "elapsed_seconds": 0.11
+}

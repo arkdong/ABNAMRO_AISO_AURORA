@@ -1,0 +1,66 @@
+---
+title: Expedited handling fee for packages from outside the EU
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/versnelde-handelingsfee-voor-pakketjes-van-buiten-de-eu.html
+date: '2025-12-18'
+sector: retail
+topic: sectoren en trends
+language: en
+title_original: Versnelde handelingsfee voor pakketjes van buiten de EU
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/versnelde-handelingsfee-voor-pakketjes-van-buiten-de-eu.html
+---
+
+# Expedited handling fee for packages from outside the EU
+
+[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
+
+[Retail](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+12/18/2025 • 4 minutes reading
+
+[Henk Hofstede](https://www.abnamro.nl/nl/zakelijk/insights/authors/henk-hofstede/index.html)
+
+On December 9, 2025, RTL Z News highlighted the possible accelerated introduction of a handling fee of 2 euros per package from outside the EU. The measure is mainly intended to stem the enormous flow of 'low value' packages (< 150 euros).
+
+An estimated 1 billion parcels enter our country every year, 90 percent of which come from China from platforms such as AliExpress, Shein and Temu. Some of this is sent from the Netherlands back within the EU.
+
+## Import tax for e-commerce outside the EU approved
+
+On December 12th last the European Council of Finance Ministers has decided to levy 3 euros in import duties from 1 July 2026 on every unique product contained in an e-commerce package from outside the EU with a value of less than 150 euros. There is an additional surcharge of 2 euros per product for the processing of these packages by customs. The import tax of 3 euros is temporary and will disappear in 2028. The new EU Customs Code will then come into force and import duties will also be levied for direct shipments outside the EU with a value of less than 150 euros.
+
+## Combating the 'waterbed' effect
+
+In anticipation of this, countries such as France, Belgium and Luxembourg want to start with a national surcharge of 2 euros from January 1, 2026. To counter the 'waterbed' effect, whereby packages for these countries are first sent from China via the Netherlands, the Netherlands is also considering an accelerated introduction. Advice from the Council of State has been obtained and the Council of Ministers must consider this. Measures are necessary because the enormous flow of parcels leads to unfair competition within the EU, safety is at stake and many products are of poor quality, break easily, cannot be recycled and therefore end up on the waste mountain. Customs does not have sufficient capacity to randomly check the millions of individual packages per day. Due to the possible 'waterbed' effect, the number of packages per day will increase. The distribution system in the Netherlands could then possibly come to a standstill. The handling fee will also be used to expand customs capacity. All this extra work has to be paid for somewhere.
+
+## Alternatives to avoid import taxes
+
+It is a step in the right direction to try to limit the proliferation and negative impact of Chinese platforms in particular, but in my opinion not enough to stop it because many interested customers continue to shop (dirt cheap) and are continuously tempted. The future EU Digital Products Passport (estimated 2028) will also apply to these platforms and may offer consumers more insight and help them make choices.
+
+But my expectation is that Chinese platforms will cleverly anticipate this. Here are a few more options:
+
+- Possible bulk transport to the EU with storage in (own) distribution centers from where the personal packages are sent within the EU. Then the handling fee does not apply;
+- Orders are becoming more consolidated, with multiple products being combined into one package and the fee being spread across multiple products. The customer then has to wait a little longer for the order, but does not notice much price difference;
+- The platforms 'spread the fee' over the entire range, whereby the products with high margins compensate the fee for the 'low value' products. These often crazy products are the major traffic generators for the platforms and they are not expected to say goodbye to them any time soon. Due to their enormous scale, the platforms can distribute the extra costs while maintaining the image of 'ultra cheap' and 'free shipping' for their fans.
+
+Ultimately, the EU strives to keep market conditions fair, safe and sustainable. In my opinion, the EU is mainly hoping for a movement in which consumers are 'deterred' and the platforms switch to bulk transport. Because: it is easier to check one container with 10,000 pairs of flip-flops than 10,000 packages with one pair of flip-flops. Therein lies the big problem. See [the fragment from RTL Z News](https://www.rtl.nl/nieuws/economie/artikelen/5543538/chinese-pakketjes-worden-volgend-jaar-duurder).
+
+## Update January 13, 2026
+
+The outgoing cabinet is temporarily waiving a handling fee on packages that enter the Netherlands directly from outside the European Union. Heijnen reported this in a letter to the House of Representatives on Tuesday. Around December, the outgoing cabinet came up with a plan to introduce a national handling fee of 2 euros as of February 1. It is unclear whether and when surrounding countries will introduce a national tax, the government will wait for this before introducing a Dutch tax.
+
+What remains is a European agreement on temporary import duties for parcels from outside the EU. From July 1, an import tax of €3 per package will be charged per unique product that costs less than €150. Heijnen indicates that this makes sending individual packages less attractive compared to bulk shipments. In addition, work is being done within the EU on a joint scheme with the same goal, a European handling fee, but this will only come into effect on November 1, 2026.
+
+## Read more in the retail sector
+
+Today's store is more than just a pantry. It offers customers advice and inspiration and is the place to be in contact with customers. Due to the Ukraine crisis and significant inflation, consumer confidence has fallen sharply and this affects consumer behavior. Retailers are also faced with significant cost increases in the areas of purchasing, rent, personnel costs, Covid recovery payments and energy. Circumstances remain challenging for many retailers even after Covid.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+## Tags
+
+[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
+
+[Retail](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+[Legislation and regulations](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/politick-en-legislation.html)

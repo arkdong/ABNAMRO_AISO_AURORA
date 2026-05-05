@@ -1,0 +1,64 @@
+---
+title: Suffocating competition for space requires a proactive approach
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/real-estate/verstikkende-strijd-om-ruimte-vraagt-om-proactieve-benadering.html
+date: '2025-05-20'
+sector: real estate
+topic: sectoren en trends
+language: en
+title_original: Verstikkende strijd om ruimte vraagt om proactieve benadering
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/real-estate/verstikkende-strijd-om-ruimte-vraagt-om-proactieve-benadering.html
+---
+
+# Suffocating competition for space requires a proactive approach
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Real estate](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/real-estate/index.html)
+
+20/05/2025 • 3 minutes reading
+
+[Claire van Staaij](https://www.abnamro.nl/nl/zakelijk/insights/authors/claire-van-staaij/index.html)
+
+The Dutch housing market is in a complex situation in which demographic changes and construction challenges are causing a lasting shortage of housing. If the growing population wants to continue to have access to sufficient housing in the coming decades, it is very important that the Netherlands acts proactively.
+
+In 2024, the estimated housing shortage was 400,530. Recent calculations by ABN AMRO, based on figures from Statistics Netherlands, show that this shortage will decrease to 167,410 homes in 2050. Although the reduction in the shortage appears to be a positive development, the Dutch population is growing faster than the housing stock. This means that the housing shortage remains a problem, even as the housing stock increases.
+
+The demographic development up to 2059 shows that the Dutch population will grow to 20 million inhabitants, which represents an increase of 10.7 percent. However, this growth is not uniformly reflected in household size. As the population grows, households become smaller, a trend that could further increase housing demand. At the same time, the houses themselves seem to be getting bigger, which creates a contradictory situation in which the available space is not always optimally used.
+
+The housing stock in the Netherlands will increase from 8.2 million in 2024 to 9.7 million in 2050, an increase of 17.8 percent. However, as already indicated, this growth is not sufficient to completely remedy the housing shortage. The shortage of housing is caused by both the high demand as a result of demographic developments and the lack of supply due to slow new construction due to difficult permitting, nitrogen problems, high material and labor costs and certainly also a lack of construction locations.
+
+## Housing deals from Hugo de Jonge
+
+To effectively tackle the challenges of the housing market, former minister Hugo de Jonge initiated housing deals in 2023 aimed at accelerating housing construction and creating affordable homes. In addition to the sometimes suffocating effect of the Affordable Rent Act, a crucial part of these housing deals is also identifying and making construction locations available. This means that there are locations.
+
+However, these locations are often owned by different parties, including municipalities, provinces and private landowners. The government plays an important role in facilitating negotiations and creating conditions that make it attractive for owners to make their land available for housing development. The government has certainly not always succeeded in this. Yet the lack of locations is in the top 3 reasons why the housing market is not being revived.
+
+## Solutions for increasing the housing stock
+
+In addition to traditional construction methods, innovative solutions are also needed to effectively increase the housing stock. For example, there is modular construction, in which homes are manufactured in parts and assembled on location. This can significantly shorten construction time and ensure efficient use of materials and space. Furthermore, technological innovations, such as parametric design, can help to optimize the construction process. These technologies make it possible to design and build homes faster and more accurately, which contributes to reducing the housing shortage and ensures optimal use of space. Yet these innovations are not yet widely embraced.
+
+The suffocating competition for space in the Netherlands remains a central challenge for policymakers, urban planners and the construction and real estate sector. To effectively address the housing shortage, various solutions are needed that take into account demographic changes, efficient use of available space, and accelerated construction processes. If the growing population wants to continue to have access to sufficient housing in the coming decades, it is very important that the Netherlands acts proactively.
+
+This column previously appeared in [Vastgoedjournaal](https://vastgoedjournaal.nl/news/68199/van-staaij-de-verstikkende-straf-om-de-ruimte-vragent-om-proatieve-projecten-nbsp) on April 30, 2025.
+
+## About the author
+
+[Claire van Staaij](https://www.abnamro.nl/nl/zakelijk/insights/autoriteit/claire-van-staaij.html) is Sector Banker Real Estate. She follows the market for both commercial and commercial real estate. She likes to discuss trends and developments in the market internally and externally.
+
+## Read more in the real estate sector
+
+In recent times, the real estate sector has been dominated by write-downs as a result of the sharp rise in interest rates. However, the prospects for the sector are favorable, as the need for homes and commercial buildings remains high due to the tight market and strong economy.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/real-estate/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Real estate](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/real-estate/index.html)
+
+[Economic developments](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/economie-ontwikkelingen.html)
+
+[Legislation and regulations](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/politick-en-legislation.html)

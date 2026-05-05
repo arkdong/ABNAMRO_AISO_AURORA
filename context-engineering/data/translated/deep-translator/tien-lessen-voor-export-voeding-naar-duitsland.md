@@ -1,0 +1,96 @@
+---
+title: Ten lessons for exporting food to Germany
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/food/tien-lessen-voor-export-voeding-naar-duitsland.html
+date: '2025-11-18'
+sector: food
+topic: sectoren en trends
+language: en
+title_original: Tien lessen voor export voeding naar Duitsland
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/food/tien-lessen-voor-export-voeding-naar-duitsland.html
+---
+
+# Ten lessons for exporting food to Germany
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Food](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/food/index.html)
+
+11/18/2025 • 6 minutes reading
+
+[Jelmer Schreurs](https://www.abnamro.nl/nl/zakelijk/insights/authors/jelmer-schreurs/index.html)
+
+Melanie Murk
+
+[Rob Morren](https://www.abnamro.nl/nl/zakelijk/insights/authors/rob-morren/index.html)
+
+Show all authors
+
+Export to Germany is an attractive growth strategy for Dutch food producers. But how do Dutch entrepreneurs conquer the German market? This question was central during the seminar 'Exporting food to Germany; a challenging opportunity' that ABN AMRO organized together with the Germany Desk Agri, Food & Flowers on November 3. The most important lessons at a glance.
+
+## Lesson 1: Don't underestimate the size of the German market
+
+Germany has a huge sales market with 83 million consumers and a food retail market turnover of 210 billion euros. With a relatively small product portfolio, food manufacturers can serve a huge market, due to both the large size of the country and the number of supermarkets. But that entails risks: as soon as producers are allowed to supply a supermarket formula and you are asked to supply additional branches, they must be able to scale up production and logistics immediately. Sufficient production and storage capacity is required. Due to the large distances in this large country, logistics must be in order. Germany has logistics specialists who provide fine-grained distribution, for example when food producers cannot yet fill full trucks.
+
+## Lesson 2: Seek connection with existing networks
+
+Network is key. Food manufacturers can easily expand their network by becoming a member of a German trade association, visiting German trade fairs and using support from the Netherlands Enterprise Agency (RVO). RVO guides Dutch companies that want to enter the German market free of charge with advice on market access strategies, support with subsidy processes and networks. Read more at [rvo.nl/internationaal-ondernemen](https://www.rvo.nl/internationaal-ondernemen "International entrepreneurship").
+
+## Lesson 3: Start small, for example with regional purchasing organizations and independent entrepreneurs
+
+Two types of formulas are dominant in the German supermarket channel: discount supermarkets, such as Lidl and Aldi, and full-service supermarkets, such as REWE and EDEKA. Both types of formulas have central purchasing that can take years to achieve. 40 to 50 percent of the branches of full-service formulas are operated by local franchisees with a relatively high degree of autonomy, including in the field of purchasing. As a result, in addition to central purchasing organizations, Dutch food products also have to deal with regional purchasing organizations and direct purchasing by independent franchise entrepreneurs. These regional purchasing organizations and independent entrepreneurs are mainly looking for distinctive character with a diversified offering and a premium range. These parties are therefore extremely suitable for Dutch food manufacturers to introduce products on German shelves.
+
+The German food service is highly fragmented and has a relatively large number of regional players and distribution partners. This requires a fine-meshed logistics chain of suppliers. Distribution is about more than just getting a product to its destination, such as ensuring reliable delivery, temperature control, labeling and return flows.
+
+## Lesson 4: Knowledge of the German language and culture
+
+The Netherlands and Germany may be next to each other, but they nevertheless have significant differences in trading culture. Speaking fluent German is a strict requirement for entering the market. German businessmen also attach more value to hierarchy than Dutch ones and are usually more formal in communication. Moreover, Germans expect a concrete and detailed proposal at an early stage, while in the Netherlands all options are often kept open in an initial conversation. More cultural differences that are important can be found in the book [Germany brags](https://duitslandscheptop.nl/ "Germany brags").
+
+## Lesson 5: Certification and quality marks must be in order
+
+Dutch food producers who want to export to Germany must prepare for a large pile of paperwork. The German rules regarding food safety and sustainability cause a lot of bureaucracy. German supermarket chains also attach great importance to quality marks. Many German consumers prefer GMO-free food (Genetic Modification Organism). And although hardly any genetically modified food is allowed on the European market, in Germany many fresh products carry the Verband Lebensmittel ohne Gentechnik (VLOG) quality mark. In addition, good product reviews from German consumer organizations, such as Stiftung Warentest, are essential to remain on the shelf. A product that does not achieve a 'gut' or 'sehr gut' in a consumer test quickly disappears from the shelves.
+
+## Lesson 6: Regional differences are large
+
+Germany has strong regional differences, with varying purchasing power and population density. These are factors that have a major influence on the frequency with which consumers make purchases, as well as consumers' willingness to pay. Households in the Saar area, Ruhr area and the former GDR have a relatively low income with less than 40,000 euros. Discounters are strongly represented in these regions. The regions of North Rhine-Westphalia, Berlin and areas in the south of Germany have an average household income that is 2.5 times higher. These regions are therefore characterized by a greater presence of retail formulas with more service and more luxurious products.
+
+Population density – and to some extent income – influence purchasing frequency and sales volume. In sparsely populated areas, such as the former GDR, consumers go to the supermarket less often because the travel distance to the store is greater. More people are bought per shopping trip. For this reason, value and bulk packaging better suits the purchasing behavior of such a region. In densely populated areas such as North Rhine-Westphalia and large cities such as Berlin, Hamburg and Munich, the frequency of visits is higher and the shopping cart is less filled, but more often with higher priced items that are focused on convenience and sustainability.
+
+## Lesson 7: German consumers are more conservative
+
+German consumers are more reluctant to try out new products than Dutch consumers. Sales of pre-cut vegetables and exotic flavors are finding it difficult to get off the ground in Germany. That is why it is extra important to also convince the supermarket or food service formula of the potential of a product.
+
+In full-service formulas, Dutch food products have the greatest chance of launching new products. This is due to their presence in urban areas where consumers are generally more open to innovation, parties purchase decentrally and REWE and EDEKA, among others, have special events where producers can present their innovations and new products. Read more on the websites of REWE and EDEKA.
+
+## Lesson 8: Due to price increases, German consumers appear to be choosing sustainability less often
+
+Just like in the Netherlands, food prices in Germany have increased significantly in four years. The increase in Germany was 28 percent. This has caused a significant shift in consumer preference towards the price of products, according to a representative consumer survey that Panelwizard conducted on behalf of ABN AMRO in 2021 and 2025 among more than 1,000 German consumers per measurement. The increasing attention to price seems to be at the expense of interest in sustainability. Taste and health remain as important to German consumers as ever; see figure 1.
+
+## Lesson 9: Security of supply crucial for German retailer
+
+The German retailer is also price-conscious and risk-averse. That is why the importance of security of supply appears to be increasing. The COVID pandemic and recent weather extremes caused by climate change have exposed the fragility of our global supply chain. Inadequate availability of certain products causes losses in income for retailers. The price-conscious retailer therefore attaches importance to price stability and security of supply. Suppliers play an important role in reducing uncertainty and volatility in the chain. Sometimes they can negotiate a higher price for this.
+
+## Lesson 10: Germany serves as a springboard to Europe
+
+Germany often acts as a gateway to other countries, such as Poland or other German-speaking countries. Many German supermarket chains such as Rewe-Gruppe, Schwarz-Gruppe (Lidl) and Aldi have branches in other European countries. In the long term, this offers opportunities to expand the sales area relatively easily. Germany is therefore also interesting for companies that have major European ambitions.
+
+## More information
+
+Also read our report [Exporting food to Germany is a challenging opportunity](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/food/voeding-exporteren-naar-duitsland-is-een-uitdagende-kans.html) in which we delve deeper into the German consumer, the food retail and food service landscape.
+
+## Read more in the food sector
+
+The Dutch food sector is a leader in efficiency and exports. Robotization, digitalization and sustainability are important themes on which entrepreneurs distinguish themselves from many international competitors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/food/index.html)
+
+## Tags
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Food](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/food/index.html)
+
+[Retail](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+[Economic developments](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/economie-ontwikkelingen.html)

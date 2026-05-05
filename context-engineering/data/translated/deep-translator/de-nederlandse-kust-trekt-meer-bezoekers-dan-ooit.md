@@ -1,0 +1,118 @@
+---
+title: The Dutch coast attracts more visitors than ever
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/de-nederlandse-kust-trekt-meer-bezoekers-dan-ooit.html
+date: '2025-10-07'
+sector: leisure
+topic: sectoren en trends
+language: en
+title_original: De Nederlandse kust trekt meer bezoekers dan ooit
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/de-nederlandse-kust-trekt-meer-bezoekers-dan-ooit.html
+---
+
+# The Dutch coast attracts more visitors than ever
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+07/10/2025 • 8 minutes reading
+
+[Stef Driessen](https://www.abnamro.nl/nl/zakelijk/insights/authors/stef-driessen/index.html)
+
+[Gerarda Westerhuis](https://www.abnamro.nl/nl/zakelijk/insights/authors/gerarda-westerhuis/index.html)
+
+The Dutch coast has become the driving force behind the tourism sector. In ten years, the number of overnight stays grew by almost 40 percent. But growth also brings crowds and higher prices. The key lies in smarter distribution across seasons, target groups and regions - for a coast that remains economically strong and livable.
+
+The Dutch coast will be in better shape in 2024 than ten years ago and has become an engine of the tourism sector. According to the Central Bureau of Statistics (CBS), the number of overnight stays in coastal municipalities increased from 21.8 million in 2014 to 30.2 million in 2024; a growth of 39 percent. The increase was comparable nationally, but was also driven by more business travel. The coast relies on holidaymakers and recreationists, which makes the growth extra noticeable.
+
+A number of regions stand out. The number of overnight stays doubled in Groot-Rijnmond (+122 percent) and grew by 71 percent in Zeeuws-Vlaanderen and in the Kop van Noord-Holland by 49 percent, mainly thanks to Texel. The always popular Zeeland seaside resorts on the North Sea showed strong growth as a whole, supported by the loyal arrival of German, Belgian and Dutch guests.
+
+## Accountability
+
+This analysis, carried out in collaboration with the Netherlands Bureau for Tourism & Conventions (NBTC), focuses specifically on coastal municipalities along the North Sea. ABN AMRO bases this on the COROP classification, which only includes the extreme coastal strips. For example, 'Agglomeration The Hague' only includes Scheveningen, Kijkduin and Duindorp, and 'Agglomeration Leiden' only Katwijk and Noordwijk. Other municipalities investigated include Bergen (NH), Bloemendaal, Den Helder, Schouwen-Duiveland, Veere, Velsen (IJmuiden aan Zee) and the Wadden Islands.
+
+CBS uses its own definition for [coastal municipalities](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/82059NED/table?ts=1758786367401) and only registers overnight stays in accommodation accommodations. Private rental, such as via Airbnb or second homes, is not taken into account. As a result, CBS only represents part of the market. In Zeeland, for example, more than 4.3 million overnight stays took place in private homes in 2023 - accounting for 20% of the total - according to data from CELTH and HZ Coastal Tourism Knowledge Center. This underlines that the actual scale of coastal tourism is larger and more diffuse than the CBS figures suggest.
+
+## Zeeland as an economic engine
+
+The economic significance of the beach economy is nowhere more visible than in Zeeland. More than 15.6 million tourist overnight stays took place there in 2023 throughout the province, accounting for 810 million euros in expenditure, according to the [HZ Knowledge Center for Coastal Tourism](https://www.kenniscentrumtoerisme.nl/images/8/8d/Rapportage_Economic_belang_Vrijetijdseconomie_Zeeland.pdf#page=4). Regular guests with a second home or annual pitch added 6.2 million overnight stays; which means another 317 million euros in expenditure.
+
+Day tourists from the Netherlands, Belgium and Germany also made their mark: together they spent more than 2.6 billion euros during their visit. All in all, the Zeeland leisure sector amounts to 3.4 billion euros in expenditure, good for an added value of 1.1 billion euros and almost 18,000 jobs – eleven percent of the total employment in the province (CELTH/KCKT, 2023). This makes the beach economy not just a tourist phenomenon, but a structural economic pillar.
+
+## Day visitors spend a relatively large amount of time on the coast
+
+Visitors to the coast spend relatively much. For example, the expenditure pattern of Belgian and German day tourists in coastal municipalities such as Texel, Scheveningen, Katwijk, Ouddorp, Domburg, Renesse and Burgh-Haamstede is on average 135 euros per visit - 24 percent more than in other tourist non-coastal places, where Belgians and Germans spend an average of 109 euros per visit. This is evident from data from NBTC. With its catering, beach facilities and events, the Dutch coast is one of the regions that generate the most income from day tourism.
+
+## Why the coast is more expensive than the interior
+
+The Dutch coast is one of the more expensive destinations. Data from Booking Experts shows that the turnover of an accommodation for four people on the Wadden Islands is on average 72 euros per night. That is almost double the national average of 39 euros. The price difference reflects the coast's position as an attractive destination, where demand is high enough to charge higher rates.
+
+Higher turnover is also justified, because the coast is mainly visited in the summer, while regions such as Limburg spread tourists more over the year, partly thanks to events such as Christmas markets. Due to the lower seasonality, operators in these domestic regions can often manage with a lower average turnover per night, which, for example, is around 33 euros in Drenthe and Gelderland.
+
+The capacity on the coast continues to grow, which also entails risks. According to the Land Registry, in 2024 the coast had 656 recreational parks with almost 25,000 holiday homes, more than 800 more than two years earlier and more than 10 percent above the 2017 level. More supply means more choice for guests, but also increases competition.
+
+During the Dutch Coastal Days on October 1, 2025 in Noordwijk, Minister Mona Keijzer signed the Coastal Pact 2026-2030. The pact focuses on a sustainable balance between economic growth and the preservation of nature and quality of life on the coast. ABN AMRO sees this as an opportunity to organize coastal tourism in a smarter way in the coming years.
+
+## Germans and Belgians remain loyal, Spaniards on the rise
+
+The Dutch coast relies heavily on regular guests. In regions such as North Friesland and the Kop van Noord-Holland, more than six in ten visitors are Dutch. Germans are the most important foreign guests with 25 to 40 percent of overnight stays, with Zeeland and Zeeuws-Vlaanderen being above average. Belgians are also well represented: in Zeeuws-Vlaanderen they account for a fifth of all overnight stays.
+
+Urban coastal areas attract a more international audience. In The Hague and Groot-Rijnmond, the mix of beach, city and business market ensures a broad influx of British to Americans.
+
+Tourism in the Netherlands is becoming more international. NBTC expects that 47 percent of the growth until 2035 will come from [new markets](https://www.nbtc.nl/nl/site/themas/kennis-en-data/vakantiestoerisme-in-nederland) outside the traditional top four. Spain stands out, with a doubling to 1.6 million overnight guests. Tourists from other Southern and Central European countries are also showing a strong increase. The coastal regions will also benefit from this.
+
+## Residents are feeling the downside
+
+The success of coastal tourism also has a dark side. Research by the HZ Coastal Tourism Knowledge Center shows that residents of coastal municipalities experience negative effects more often than positive effects. More than half fear that it will become even busier and that this will lead to tensions. Support for tourism receives an average of 3.3 on a scale of five – lower than in the interior (3.5) and certainly not a strong mandate.
+
+It is therefore important that municipalities better explain what tourism yields financially. Without tourists, local taxes would have to rise and facilities would shrink. Because in addition to every euro that a tourist spends on an overnight stay, according to NBTC, up to 3.5 euros go to shops, catering, attractions and transport.
+
+## Permits as a battleground
+
+Municipalities have a powerful tool to regulate the crowds to the beach: smart and flexible parking policies. By giving residents cheap parking permits, the influx of visitors can be limited. Flexible parking rates play a crucial role in this approach. In Zandvoort, parking costs 2.50 euros per hour in the summer, while the rate drops to 0.50 euros in the winter to attract visitors outside the high season. The Hague experimented with a day ticket of 50 euros and increasing hourly rates in Scheveningen, which caused visitors to move to parking garages. Local residents were positive about this approach, because it significantly reduced parking pressure in residential areas.
+
+In addition, clear information can help guide the behavior of beachgoers. If visitors know in advance how long they will be stuck in traffic, this influences their choice whether or not to go. It is effective to discourage crowds on hot days and to encourage visitors on quieter days. It is important to take into account the fact that many people plan their beach visit several days in advance.
+
+Permits not only play a role in parking, but also on the beach. Beach pavilions can make coastal municipalities more attractive, especially if they are well insulated and storm-proof. They offer options for events and meetings, even outside the summer season. Yet many pavilions in the Netherlands are demolished every year due to concerns about dune formation. This mainly affects half of the 340 pavilions on the sea coast, which have to be rebuilt every year - even if they are conspicuously located off the built-up coast.
+
+According to ABN AMRO, the annual assembly and disassembly of temporary pavilions has disadvantages. It increases the risk of damage and short circuit and makes it financially unattractive to invest in sustainable, fire-resistant materials. This leaves these pavilions vulnerable. Research from [TU Delft](https://www.sciencedirect.com/science/article/abs/pii/S0169555X24003520) offers a new perspective: scientists argue that well-designed, aerodynamic pavilions – for example in the shape of an airplane wing – can actually enhance dune formation. Furthermore, these designs provide greater comfort and durability.
+
+In short, by combining smart parking policy with innovative and permanent beach pavilions, coastal municipalities can not only better regulate crowds, but also respond to sustainability and create a more attractive coastal experience.
+
+[Read also: A sunny future for beach pavilions](/nl/business/insights/sectors-and-trends/leisure/een-zonnige-toekomst-voor-strandpaviljoens.html)
+
+## People over 55 as a growth market outside the summer
+
+An aging population is changing tourism. More and more people over 55 have the time and money to go on holiday outside the school holidays and their number is increasing. According to ABN AMRO, their expenditure will increase from 7.2 billion euros in 2022 to 10.7 billion euros in 2027, a growth of almost 50 percent. This makes this group one of the most important drivers of the sector.
+
+[Read also: Ripe for adventure](/nl/zakelijk/insights/sectoren-en-trends/leisure/rijp-voor-avontuur.html)
+
+This offers opportunities for the coastal regions: especially in autumn and winter, people over 55 look for comfort, nature, gastronomy and wellness. And those extra guests are desperately needed, because more than two-thirds of overnight stays now take place in the second and third quarters.
+
+Terschelling proves that spreading is possible. Due to the exceptionally dark night sky, the De Boschplaat nature reserve was given the title Dark Sky Park, the first in the Netherlands. The label attracts new visitors during quiet moments. A smart combination of distinctive character and season extension.
+
+## Packages make the coast attractive for companies
+
+There is an opportunity for entrepreneurs to develop business packages that combine accommodation, meetings and beach activities. Companies are more willing to go to the coast outside the summer if a training or meeting can easily be combined with a walk on the beach or team building. Success depends on convenience: one click for a complete package works better than individual parts.
+
+## The fragile balance of the beach economy
+
+The coastal regions have grown faster than average over the past ten years, but that success brings with it crowds and tensions. The challenge does not lie in more growth, but in smarter growth: spread across seasons, target groups and regions. Only in this way will the coast remain both an economic anchor and livable.
+
+## Read more in the Leisure sector
+
+The Leisure sector has largely gone through a difficult period. The recovery has started with the phasing out of the measures regarding corona. The terraces are starting to fill up, the number of tourists is increasing and events can be organized again. Staff shortages are now the biggest challenge. Digitizing staff work and spreading guests can limit the impact.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+## Tags
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+[Economic developments](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/economie-ontwikkelingen.html)
+
+[Inflation](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/prijsontwikkeling.html)

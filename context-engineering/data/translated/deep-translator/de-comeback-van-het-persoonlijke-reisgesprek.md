@@ -1,0 +1,98 @@
+---
+title: The comeback of the personal travel conversation
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/de-comeback-van-het-persoonlijke-reisgesprek.html
+date: '2025-11-26'
+sector: leisure
+topic: sectoren en trends
+language: en
+title_original: De comeback van het persoonlijke reisgesprek
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/de-comeback-van-het-persoonlijke-reisgesprek.html
+---
+
+# The comeback of the personal travel conversation
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+26/11/2025 • 5 minutes reading
+
+[Stef Driessen](https://www.abnamro.nl/nl/zakelijk/insights/authors/stef-driessen/index.html)
+
+Anyone who thought the travel agency was doomed has not yet met Generation Z. While older holidaymakers have largely arranged their bookings online for years, the youngest generation is keen on personal advice.
+
+The [Holiday Sentiment Monitor](https://www.nbtc.nl/nl/site/themas/kennis-en-data/vsm) from NBTC shows that the share of young people who obtain information from a physical travel agency has increased from 5 to 12 percent in the past year. They therefore consult a travel advisor more often than any other generation.
+
+For providers and destinations, this is not a longing for the past, but a sign of something bigger: the need for trust in a world full of choice stress. Young people are looking for someone who helps filter, not just books. Anyone who knows how to combine human advice with digital precision can build an advantage in brand preference and repeat visits.
+
+## The comeback of the real conversation
+
+Since the corona pandemic, the travel industry has recovered surprisingly quickly. According to data from Statistics Netherlands (CBS) analyzed by ABN AMRO, the turnover of travel agencies has been structurally higher since 2022 than before the pandemic. Higher prices for airline tickets and hotels partly explain this, but not completely.
+
+Younger travelers are not only looking for an attractive offer, but above all a partner who thinks along with them. While previous generations found their way online en masse, younger groups with higher visits to physical travel agencies show a clear preference for certainty, personal advice and authenticity. According to travel strategist [Isabel Mosk](https://www.sherpasstories.com/over-sherpas-stories/over-isabel-mosk/), they combine city trips with nature, travel more often outside the high season and critically examine whether 'affordable luxury' is really worth it. In an increasingly digital world, human advice is once again proving to be a luxury — not because of the price, but because of the trust it provides.
+
+Today's travel advisor is no longer a salesperson, but an 'experience curator': someone with niche knowledge about sustainability, gastronomy or the combination of holiday and remote work, who also makes his expertise visible online through profiles, reviews and micro-content.
+
+> “The winners are the companies that know how to combine human warmth with digital precision.”
+
+Stef Driessen
+
+Sector Banker Leisure
+
+## Too much choice, too little trust
+
+The numbers reveal an interesting paradox. Of 18 to 25 year olds, 13 percent are inspired by AI or ChatGPT when planning their vacation, compared to zero percent of those over 65. However, it is precisely among this youngest group that the use of physical travel agencies is growing fastest.
+
+Digital abundance creates human scarcity: young people can find everything, but trust little. In a world where every influencer gives travel advice, a real conversation becomes rare and therefore valuable. We see the same pattern elsewhere: the revaluation of small hotels, local shops and personal service. The future of travel is not either digital or human, but the connection between them.
+
+## From search engine to travel agent
+
+This connection is becoming even more important due to the rise of AI agents: digital assistants that can independently book routes, accommodations and flights. They compare thousands of options in seconds based on price, distance and ratings. This makes them the new gatekeepers of loyalty: not humans, but the algorithm determines who is visible.
+
+For travel organizations, this means that traditional marketing is quickly losing ground. Visibility in search engines is not enough anymore; information must be understandable for humans and at the same time readable for machines. Those who organize this well will literally appear at the top of the new generation of digital travel advisors.
+
+The customer contact of tomorrow therefore takes place on two fronts simultaneously: the human conversation that creates trust, and the technology that determines the choice.
+
+## Affordable luxury, bizarre choices
+
+According to [Airbnb](https://news.airbnb.com/2025-fall-travel-trends-gen-z-travel-on-the-rise-this-shoulder-season/), searches from young travelers increased 26 percent this fall, especially for longer international trips outside the peak season. More than 80 percent of Gen Z travelers say price influences their choices, but cheap is rarely their goal. They are looking for an experience that feels like luxury.
+
+This leads to surprising, sometimes bizarre results. Like the one-day trip from New York to Kenya that went [viral](https://www.instagram.com/reel/DPMrkc2AUH1/?igsh=eTJkemhtcm1keDJ6) on TikTok: a 'bucket list safari' in 24 hours, filmed for followers, not for rest. It illustrates a generation that values ​​freedom over comfort, but expects that every trip suits their values, taste and budget.
+
+With one prompt such as “Plan a 5-day sustainable tour through Andalusia with flamenco, local gastronomy and nature”, AI now generates a complete route with hotels, restaurants and a map. Platforms such as OpenAI, Perplexity and [for example also Rakuten](https://www.moomoo.com/news/post/58771060/rakuten-travel-has-launched-an-ai-agent-rakuten-travel-ai?level=1&data_ticket=1759128749415435) are working on such personal travel agents. Researchers at [Florida Atlantic University](https://business.fau.edu/newsroom/press-releases/2025/hotels-hospitality-ai-agents-customer-loyalty.php) expect these tech tools to fundamentally change the booking landscape. The battle for visibility is shifting from shop window to algorithm.
+
+## Where the real value arises
+
+For the travel industry, the rise of AI and personal travel agents is not a fad, but a structural shift. The traveler of tomorrow is no longer looking for the lowest price, but the highest relevance. Travel agencies that know how to combine personal service with digital expertise will once again become valuable as a link of trust in a network of AI, platforms and data.
+
+[research](https://www.adyen.com/press-and-media/adyen-index-2025-hospitality-launch) by the Amsterdam payment processor Adyen shows that the use of AI tools for planning trips has increased by 74 percent in 2025 compared to 2024. The rise of AI shopping agents is accelerating this trend. Travel marketer Propellic [researched](https://www.propellic.com/research) that the majority of AI searches lead to a booking, directly with the accommodation or through a travel agent. This puts pressure on parties such as Booking and Expedia.
+
+Or as [Mario Gavira](https://www.hotelrevenueinsights.com/february-15-2025/) from airline ticket specialist Kiwi says: “By connecting travelers directly to providers, personal AI travel agents will soon cut razor sharply through the booking landscape.”
+
+## What Gen Z is already teaching us
+
+The fact that young people in particular are rediscovering the travel agency says a lot about the future of travel. Technology is everywhere, but trust is scarce and trust is the new capital of the travel sector.
+
+The travel organization of the future is less shop, more advisor. Less salesman, more guide. The winners are the companies that manage to combine human warmth with digital precision. Not because they cling to the past, but because they understand what young people have felt for a long time: good advice is the start of every successful journey.
+
+This column previously appeared in the [Travel Top 50](https://www.travmagazine.nl/category/top-50/)
+
+## About the author
+
+[Stef Driessen](https://www.abnamro.nl/nl/zakelijk/insights/autoriteit/stef-driessen.html "About the author - Stef Driessen") is a Leisure sector banker at ABN AMRO. Together with his 60 specialized teammates, he advises companies in Leisure, Travel & Hospitality.
+
+## Read more in the Leisure sector
+
+The Leisure sector has largely gone through a difficult period. The recovery has started with the phasing out of the measures regarding corona. The terraces are starting to fill up, the number of tourists is increasing and events can be organized again. Staff shortages are now the biggest challenge. Digitizing staff work and spreading guests can limit the impact.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)

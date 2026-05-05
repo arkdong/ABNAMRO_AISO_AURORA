@@ -1,0 +1,70 @@
+---
+title: Strong growth returns in Technology, Media and Telecom
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/technologie/sterke-groei-keert-terug-in-technologie-media-en-telecom.html
+date: '2025-12-08'
+sector: sectorprognoses
+topic: sectoren en trends
+language: en
+title_original: Sterke groei keert terug in Technologie, Media en Telecom
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/technologie/sterke-groei-keert-terug-in-technologie-media-en-telecom.html
+---
+
+# Strong growth returns in Technology, Media and Telecom
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+08/12/2025 • 4 minutes reading
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/authors/mario-bersem/index.html)
+
+The TMT sector is growing as usual. Growth weakened in 2023 and 2024 due to rising interest rates and employment in the sector even fell. In 2025, growth rebounded to 4.5 percent and ABN AMRO expects growth rates of 5 and 4 percent for 2026 and 2027, respectively. Digitalization, cloud migrations and investments in artificial intelligence (AI) are key drivers of growth.
+
+The TMT sector consists of IT companies, media companies and telecom companies. The sector has a long history of growth, mainly due to its strong use of information technology (IT). IT companies therefore make an important contribution to the productivity growth of the Dutch economy. The digital transformation is clearly visible in the growth rates of the TMT sector: an average of 6 percent per year over the past thirty years, while gross domestic product (GDP) growth has remained stagnant at 2 percent annually. In 2025, 400,000 people will be employed in the TMT sector, contributing approximately 7 percent to total Dutch production.
+
+## Entrepreneurs are optimistic
+
+Entrepreneurs in the TMT sector are optimistic, as is evident from business confidence in the Netherlands Business Survey (COEN) of the Central Bureau of Statistics (CBS). The mood indicator for businesses is positive for the 'information and communication' sector in the fourth quarter of 2025, while business confidence is negative for all other sectors. Optimism is also visible in the mergers and acquisitions market, which is rebounding after two years of decline. The international trade war focuses mainly on goods. Trade restrictions therefore have limited and only indirect influence on the TMT sector, which mainly exports services.
+
+## Strong increase in AI investments
+
+The United States is experiencing an unprecedented investment wave, with approximately $400 billion in AI investments by 2025. Tech companies all announced record investments, with Amazon ($100 billion), Microsoft ($80 billion) and Alphabet ($75 billion) as notable examples. The investments mainly focus on chips, data centers and power supply. The rapid development in AI is in stark contrast to the rest of the US economy, which runs at [two speeds](https://www.abnamro.com/research/nl/onze-research/visie-op-de-vs-2026-de-ai-haves-en-have-nots): while AI and related sectors are flourishing, most other sectors are stagnating or shrinking. AI investments are now responsible for half of GDP growth.
+
+Investments in artificial intelligence are also growing strongly in the Netherlands. According to data from Dealroom, AI investments have increased fivefold in five years. The sector is home to many innovative and fast-growing companies, such as DataSnipper, an Amsterdam software company and unicorn, that uses AI to support accountants in preparing annual accounts and auditors in audits. However, AI investments in the Netherlands are lagging behind compared to countries such as Sweden and Switzerland.
+
+The promise of AI is great. Much of knowledge work may be transformed or even replaced, as is already visible in industries such as marketing, communications and translation. According to the World Economic Forum's Future of Jobs Report 2025, the rise of AI will mean that only a third of all jobs will be performed primarily by humans by 2030, a sharp drop from the current 47 percent. Yet there is uncertainty about the return on investment from the immense investments in AI, and the high valuations on stock markets raise questions about a possible 'bubble'.
+
+## Business succession in the TMT sector
+
+A survey among 519 entrepreneurs, conducted by Ipsos I&O on behalf of ABN AMRO, shows that entrepreneurs who want to retire often do not yet have a business succession. Surveyed entrepreneurs in the TMT sector are no exception to this. With 32 entrepreneurs in 'information and communication', our sample is too small to be representative and to make detailed statements.
+
+The survey clearly shows that young entrepreneurs are more likely to look to an external party as their intended successor. An acquisition by an external party is often seen as an opportunity to start a new company with the released capital. This so-called 'serial entrepreneurship' is common in sectors with a high share of young entrepreneurs, such as e-commerce, software development and IT services.
+
+CBS data shows that the share of entrepreneurs under the age of thirty has increased from 9 percent in 2010 to 16 percent in 2024. This may have to do with the rise of IT services and software development, because entrepreneurs in these emerging industries are younger than average.
+
+## One step ahead with our sector expertise
+
+It is important for every entrepreneur to know what is going on now, but especially what is to come. Base decisions on developments and trends in the sector. Our sector experts know what is going on. See where the opportunities lie. Just that one step ahead.
+
+[View the forecasts of all sectors for 2026-2027](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/alle-sectoren/tweederde-van-ondernemers-wil-binnen-tien-jaar-stoppen-maar-opvolging-hapert.html "Sector forecasts 2025")
+
+- [Download the forecasts of all sectors for 2026-2027
+
+  361 KB](https://assets.abnamro.com/api/public/content/sectorprognoses-abn-amro-bedrijfsopvolging-dec-2025.pdf)
+
+## Read more in the technology sector
+
+Technology, Media & Telecom (TMT) is one of the fastest growing sectors. Aided by the increasing use of software, algorithms and sensors, this sector is the basis for the digital innovation of other sectors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Digitalization](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

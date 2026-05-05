@@ -1,0 +1,88 @@
+---
+title: Steward or accountant?
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/rentmeester-of-rekenmeester.html
+date: '2025-09-23'
+sector: bouw
+topic: sectoren en trends
+language: en
+title_original: Rentmeester of rekenmeester?
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/rentmeester-of-rekenmeester.html
+---
+
+# Steward or accountant?
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Construction](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+23/09/2025 • 3 minutes reading
+
+[Leontien de Waal](https://www.abnamro.nl/nl/zakelijk/insights/authors/leontien-de-waal/index.html)
+
+The construction and real estate sector is full of idealists. People who work with conviction on sustainable, nature-inclusive and climate-adaptive living environments. Stewardship focused on nature is the moral compass here. But skeptics are stirring.
+
+They believe that we have gone too far in terms of sustainability requirements in the built environment, that biodiversity is something for Sundays and that everything could do with an ounce less. In a time of rising costs and scarcity of space and labor, their credo is: fewer rules and being frugal.
+
+## Shared language is necessary
+
+Between these extremes the foundation is in danger of sinking. Because without a shared language about value, we continue to bombard each other with beliefs. One with the moral obligation to liveability, the other with the requirement of affordability.
+
+> “It is time for the steward to also become an accountant, to make broad value visible and financially relevant.”
+
+Leontien de Waal
+
+Sector Banker Construction
+
+That is why it is time for the steward to also become an accountant. Not to flatten nature into an Excel line, but to make broad value visible and financially relevant. Because who substantiates sustainability, makes it defensible.
+
+The damage to nature is real. Previous research by ABN AMRO and the Impact Institute shows that the Dutch economy causes almost 40 billion euros in damage to biodiversity every year. More than 70 percent of this takes place abroad, often through the use of materials in the chain. Construction and real estate also contribute, both directly and indirectly. We just don't calculate it yet.
+
+## Long-term management
+
+And that is not only ecologically unsustainable, it is also economically stupid. As long as we do not include the costs and benefits of quality of life, health or climate adaptation, we focus on the short term. Heat islands, flooding and reduced mental health will soon present us with the bill through healthcare costs, recovery costs and reduced productivity.
+
+To make truly impactful choices, we need to talk more in the language of financial values. Which low-CO₂ materials contribute not only to emission reductions, but also to more robust buildings with lower operating costs? How do shade and coolness from mature trees affect real estate returns? Making this visible opens up new business cases.
+
+> “To make impactful choices, we need to talk more in the language of financial values.”
+
+Leontien de Waal
+
+Sector Banker Construction
+
+True Pricing (the price including social costs) provides an explanation for this. Just like the DuPa 2.0, the sustainability section in the valuation report, which translates sustainability aspects into the market value of buildings. Anyone who really wants to build in a future-proof manner must be a steward and an accountant. Now is the time to unite those two roles.
+
+This column previously appeared in Cobouw on September 19, 2025
+
+## About the author
+
+[Leontien de Waal](https://www.abnamro.nl/nl/zakelijk/insights/authors/leontien-de-waal.html) is a Construction sector banker. She follows the most important trends and developments in the built environment. She brings her experience and network, supplemented with knowledge from the Master City Developer (area development) course, to ABN AMRO clients.
+
+## Read more in the construction sector
+
+The Dutch construction sector has been one of the best performing sectors in recent years, despite several challenges facing the sector. Examples are the nitrogen dossier, the significant price increases for energy and building materials and also the personnel shortages. Driven by trends, innovations and legislation and regulations, the relevance of themes such as sustainability and environmental impact is growing and the sector is looking for a new balance.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Construction](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/index.html)
+
+[Biodiversity](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/biodiversiteit.html)
+
+[Circular](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/circulariteit.html)
+
+[CSRD](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/csrd.html)
+
+[Decarbonization](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/decarbonisatie.html)
+
+[Digitalization](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[Sustainability](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaam.html)
+
+[Climate](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/klimaat.html)
+
+[Nitrogen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stikstof.html)

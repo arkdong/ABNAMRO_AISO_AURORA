@@ -1,0 +1,55 @@
+---
+title: Choose your own route to demonstrable cyber security
+url: https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/beveiliging/kies-zelf-je-route-naar-aantoonbare-cyberveiligheid.html
+date: '2025-11-24'
+sector: beveiliging
+topic: cybersecurity
+language: en
+title_original: Kies zelf je route naar aantoonbare cyberveiligheid
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/beveiliging/kies-zelf-je-route-naar-aantoonbare-cyberveiligheid.html
+---
+
+# Choose your own route to demonstrable cyber security
+
+[Knowledge article](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/actueel.html)
+
+[Cybersecurity](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/veilig/index.html)
+
+24/11/2025 • 2 minutes reading
+
+ABN AMRO Editorial
+
+The new European Cybersecurity Act (NIS2) obliges thousands of organizations to demonstrably improve their digital resilience. But what exactly does that mean in practice? Do you need ISO 27001 as an organization? Or is the NIS2 Quality Mark sufficient? The reality is simpler than many people think: ultimately, only the supervisor determines whether your organization complies with the law.
+
+## Freedom in the method of demonstration
+
+The NIS2 legislation does not prescribe which standard you must follow. However, you must demonstrate that your security measures comply with Article 21. This gives organizations room to choose their own route, as long as the measures are effective and fit their business operations.
+
+## Why a recognized standard is sensible
+
+Certification is not mandatory, but offers advantages. Standards such as ISO 27001 or the NIS2 Quality Mark provide structure and confidence. They make it easier to convince customers, partners and regulators of your digital resilience. Auditors and supervisors understand the design and terminology, which prevents discussions about interpretation.
+
+## Audit-proof and reliable
+
+With a recognized standard you demonstrate that you have properly arranged cybersecurity. This makes your organization 'audit-proof': an independent party has determined that the correct measures have been taken. Moreover, it strengthens cooperation in the chain: organizations can trust each other's level of digital security.
+
+This article was produced in collaboration with [Samen Digitaal Veilig](https://www.samendigitaalveilig.nl/).
+
+## Take cyber measures yourself or report fraud?
+
+About 1 in 5 entrepreneurs is confronted with cybercrime. Such a cyber incident can have major consequences for business operations, customers, suppliers or reputation. Taking appropriate measures is therefore important for every company.
+
+- Do you have an SME company and do you want to reduce your cyber risks? Then take a look at [Cyber ​​Fundament](https://doorpassen.abnamro.nl/producten-en-diensten/cyber-voor-het-mkb/), especially for SME entrepreneurs.
+- Learn more about the 4-in-1 cyber solution [Cyber ​​Safe & Secure](https://doorpassen.abnamro.nl/producten-en-diensten/cyber-veilig-en-zeker/?icmp=cm-od_article-insights_btn-link) especially for large businesses and reduce your cyber risks.
+- Do you also want to [do business safely](https://doorpassen.abnamro.nl/producten-en-diensten/veilig-ondernemen/?icmp=cm-od_article-insights_btn-link)? View smart tools, useful articles and cyber webinars.
+- [Report fraud to us](https://www.abnamro.nl/nl/prive/abnamro/veilig-banken/fraude-melden.html "Report fraud"), even if in doubt, after which our helpdesk will help you immediately.
+
+## Tags
+
+[Knowledge article](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/actueel.html)
+
+[Cybersecurity](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/veilig/index.html)
+
+NIS2

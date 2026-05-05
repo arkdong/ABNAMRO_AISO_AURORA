@@ -1,0 +1,74 @@
+---
+title: Trump plunges world trade into chaos
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/logistiek/trump-stort-wereldhandel-in-chaos.html
+date: '2025-06-18'
+sector: sectorprognoses
+topic: sectoren en trends
+language: en
+title_original: Trump stort wereldhandel in chaos
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/logistiek/trump-stort-wereldhandel-in-chaos.html
+---
+
+# Trump plunges world trade into chaos
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Transport & Logistics](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/logistiek/index.html)
+
+18/06/2025 • 5 minutes reading
+
+[Albert Jan Swart](https://www.abnamro.nl/nl/zakelijk/insights/authors/albert-jan-swart/index.html)
+
+The behavior of US President Donald Trump is difficult to predict, but it is already clear that his trade war is throwing global trade into chaos. In addition, there is a risk of a new escalation of trade tensions, which makes investors and consumers uncertain.
+
+ABN AMRO has lowered its forecasts for the transport sector and now assumes 1 percent growth in 2025. Growth could pick up to 2.0 percent in 2026, partly thanks to investments in German infrastructure and European defense.
+
+The American state of California has two important ports, the ports of Los Angeles and Port Beach. A significant portion of the ships calling at these ports come from China. On a normal working day, approximately forty ships set sail from Chinese ports to California. But on a Friday morning in early May, not a single ship left China for any of these ports. This had not happened since the start of the corona pandemic in 2020.
+
+A few days later, on Monday morning, May 12, the US and China reached a tentative agreement after negotiations in Geneva, lowering the staggering US tariff on Chinese products from 145 percent to 30 percent. Afterwards, shipping between China and the US partly resumed. However, a complete recovery is not expected. There are still significant tariffs in place, which are slowing down the American economy. American industry is confronted with higher costs due to the tariffs, while production has been declining for months. Chinese industry is also under pressure because American demand for Chinese products has declined significantly.
+
+It is possible that Trump will conclude agreements with China and the EU, but it is already clear that the global economy will experience slower growth due to his trade war. Shipping tariffs fell after April 2, when Trump announced his cardboard sign with bizarre import duties in the Rose Garden of the White House on his proclaimed 'Liberation Day'. These lower shipping rates indicated slower global trade. Rates have now risen because trade is partly restarting and container shipping has been disrupted. As a relatively small, open economy, the Netherlands is vulnerable to disruption of international trade, although the trade war between the US and China may also offer opportunities for the Netherlands and Europe, for example thanks to a better competitive position compared to China.
+
+## Taking advantage of disruption
+
+Air freight is also sensitive to trade barriers, but this industry has the advantage that it often benefits from disruption of trade chains. Those who want to obtain certain goods quickly are often prepared to pay a high price for them and therefore use this faster, but more expensive mode of transport. Due to Trump's announcements of high import duties, many American companies probably quickly built up additional inventory, which had to be done by plane due to the short time. US negotiations with the EU and China, for example, are difficult to predict, and it is possible that air freight will continue to benefit from sudden increases or decreases in tariffs. But the most likely scenario is that air freight will be affected by slower global trade, which will put pressure on demand.
+
+## Confidence under pressure
+
+The decline in international trade may not be limited to the US. Trump's trade war is putting pressure on confidence in the economy, which could cause companies to postpone investment decisions. This can slow down international trade, for example the supply of parts and materials for industry, or the export of cars, steel and machines.
+
+Freight forwarders may also be faced with lower volumes, but like air freight, they often benefit from disruption to supply chains. They often look for a solution for their clients if, for example, ships are delayed or if a cargo needs to be shipped quickly. In addition, there are forwarders who can advise their customers on ways to pay the lowest possible import duty, for example through the American [first sale rule](https://www.cnbc.com/2025/05/26/businesses-are-finding-a-tariff-workaround-the-first-sale-rule.html). Moreover, they generally have low fixed costs because they outsource transport.
+
+Road carriers do have to contend with high fixed costs, and are therefore vulnerable to pressure on rates, especially when they operate internationally. Retail continues to grow, thanks to increasing purchasing power, although there is a risk that consumers will tighten their budget if Trump's trade war escalates. Despite the trade war, industrial activity in Europe is still increasing slowly. But the recovery is fragile and could be hampered, for example, by US tariffs of as much as 50 percent on steel and aluminum, which came into effect at the beginning of June. These affect, for example, the German steel industry, on which Dutch inland shipping partly depends.
+
+The growth of the transport sector is therefore under pressure this year. For 2026, ABN AMRO expects growth of 2.0 percent. The significant investments in German infrastructure and in European defense will lead to a higher demand for raw materials and materials, from which shipping, inland navigation and international road transport can particularly benefit.
+
+## More information
+
+Read all the facts and developments in the report '[Dutch sectors highly dependent on the United States](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/alle-sectoren/nederlandse-sectoren-sterk-dependent-van-verenigde-staats.html)'.
+
+- [Forecasts of all sectors (June 17, 2025)
+
+  484 KB](https://www.abnamro.nl/nl/media/sectorprognoses-juni-2025_tcm16-266235.pdf)
+
+## One step ahead with our sector expertise
+
+It is important for every entrepreneur to know what is going on now, but especially what is to come. Base decisions on developments and trends in the sector. Our sector experts know what is going on. See where the opportunities lie. Just that one step ahead.
+
+[View the forecasts of all sectors](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/alle-sectoren/nederlandse-sectoren-sterk-dependent-van-verenigde-staats.html "Sector forecasts 2025")
+
+## Read more in the transport and logistics sector
+
+After a difficult year, in which international trade declined due to a rapid reduction of excess inventories, the transport sector has started a cautious recovery. At the beginning of 2024, freight volumes increased in both container shipping and aviation. Thanks to the improving economic growth, the sector can recover further. However, the recovery is being held back by lower demand for building materials. In the meantime, road transport will have to deal with a pile-up of environmental regulations in the coming years.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/logistiek/index.html)
+
+## Tags
+
+[Sector forecast](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/index.html)
+
+[Transport & Logistics](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/logistiek/index.html)
+
+[Economic developments](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/economie-ontwikkelingen.html)

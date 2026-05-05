@@ -1,0 +1,12 @@
+{
+  "method": "a5",
+  "chunker_folder": "a5-small-to-big",
+  "src_method": "deep-translator",
+  "documents_processed": 164,
+  "documents_skipped_existing": 0,
+  "chunks_total": 1594,
+  "chars_total": 1390652,
+  "chars_per_chunk_avg": 872.4,
+  "chunks_per_doc_avg": 9.72,
+  "elapsed_seconds": 4.17
+}

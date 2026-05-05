@@ -1,0 +1,90 @@
+---
+title: Brake on demand for a quick meal
+url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/leisure/rem-op-vraag-naar-snelle-maaltijd.html
+date: '2025-07-25'
+sector: stand van sectoren
+topic: sectoren en trends
+language: en
+title_original: Rem op vraag naar snelle maaltijd
+language_original: nl
+translated_with: deep-translator
+source_url: https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/leisure/rem-op-vraag-naar-snelle-maaltijd.html
+---
+
+# Brake on demand for a quick meal
+
+[Stand of Sectors](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+25/07/2025 • 5 minutes reading
+
+[Ward van der Stee](https://www.abnamro.nl/nl/zakelijk/insights/authors/ward-van-der-stee/index.html)
+
+[Wieger Cosijn](https://www.abnamro.nl/nl/zakelijk/insights/authors/wieger-cosijn/index.html)
+
+Fatima El Kharraz
+
+Show all authors
+
+Catering concepts where customers can quickly get a convenient meal have always been seen as crisis-proof. This so-called fast service is now struggling with a cutback consumer who no longer finds the industry cheap. A number of chains are trying to turn the tide with offers, advertisements and other offerings. Our anonymized transaction data shows that this has only limited effect.
+
+## Download the complete report
+
+Read all the facts and developments in the Stand van Leisure: Brake on demand for a quick meal.
+
+- [State of Leisure (July 2025)
+
+  979 KB](https://www.abnamro.nl/nl/media/Stand-van-de-Leisure-juli-2025_tcm16-268821.pdf)
+
+Large fast-service chains such as McDonalds, Burger King, cafeteria chains such as Kwalitaria, Febo and Foodmaster, as well as other delivery and takeaway restaurants, such as pizzerias, poke bowl shops and sushi shops, were an attractive alternative for consumers who kept their purse strings during previous recessions. Especially due to the price advantage compared to the regular catering industry, they were able to offer an affordable outing in difficult economic times. This picture is now different: consumers no longer automatically consider fast service cheap and the industry is also experiencing the consequences of sharply rising costs, more competition and changing consumption habits. In 2024, more than 7 billion euros were converted into fast service, [shown by FSIN data](https://fsin.nl/nieuws/gemak-volumedaling-en-questionuitval) (research agency Foodservice Institute Netherlands). Within food service, which includes all catering locations that serve meals, the quick service sector has a market share of 51 percent.
+
+## Increased competition and inflation
+
+Due to the corona pandemic, competition within the quick service channel has skyrocketed. The number of quick service locations grew strongly by fifteen percent. This growth was mainly due to the increase in the number of delivery and takeaway restaurants, the quick-service locations where consumers - unlike McDonalds, for example - cannot eat their meal on the spot. Between 2020 and early 2023, this category grew by no less than 52 percent, from 3,060 locations to 4,659. This strong growth came from new market opportunities during the lockdowns, with catering entrepreneurs responding to the rising demand for home-delivered meals. However, since 2023, this growth has turned slightly into a decline; the number of cases in this segment has since shrunk by 2 percent.
+
+However, competitive pressure does not only occur within one's own industry. Other forms of catering and supermarkets in particular have become more attractive alternatives. Prices in traditional restaurants and supermarkets have risen much less sharply than in quick service. For example, the price of fast food and takeaway meals grew by 39 percent between January 2020 and June 2025, while it rose only 28 percent in restaurants and cafes and 34 percent in supermarkets, according to data from the Central Bureau of Statistics. As a result, price differences have become smaller and quick-service restaurants are less able to attract customers based on their previously lower prices.
+
+The fast-service industry is experiencing an above-average increase in the price of energy, oils and fats, ingredients that are essential for the preparation of fast-food dishes. These cost increases, which have outpaced overall food inflation, have caused quick service prices to rise faster than other eateries.
+
+## Declining expenditure on fast-food services
+
+This new playing field is reflected in spending: inflation-adjusted transaction data from ABN AMRO shows that consumers structurally spend less at fast-service restaurants. Even after seasonal adjustment, the trend has been clearly downward since the beginning of 2024, a reversal after the recovery that took place between 2021 and 2023. In this analysis we look at the differences between online spending for delivery and physical spending with a debit card for meals that are eaten on site or picked up.
+
+##Dates and disclaimer
+
+ABN AMRO's transaction data is aggregated based on private accounts and completely anonymized. The data says nothing about spending by non-residents and spending on business accounts. We use transaction data to gain insight into economic flows. The results of the research cannot be traced back to a natural person and are exclusively intended for research into economic trends.
+
+The quick-service restaurant industry does not appear to automatically benefit from economic recovery after the recent spike in inflation. What is striking is the difference between takeaway and physical visits on the one hand and delivery on the other: while transactions for takeaway and in quick service restaurants are declining, we are seeing a cautious turn towards recovery in the delivery of quick meals in early 2024 after an earlier decline.
+
+During the beginning of the corona pandemic, spending on takeaway meals and in quick-service restaurants previously fell sharply. This decline can easily be explained by the fact that many of these restaurants were closed and because Dutch people tried to avoid contact. Spending started to recover from the beginning of 2021, but this increase in spending was over in 2023; At the beginning of 2024, spending at take-away chains and visits to quick-service restaurants even decreased again. For 2025, trade organization FSIN expects delivery turnover to grow by 2.3 percent.
+
+## Adjustments to improve sales
+
+Amid growing competition, rising prices and economizing consumers, quick-service restaurants are looking for ways out. Frequently heard measures among entrepreneurs are making offers and adjusting the menu - for example by revising value menus or replacing ingredients - in order to remain attractively priced. In addition, investments are being made in ordering kiosks, which [shorten waiting times](https://waitwhile.com/blog/consumer-survey-waiting-in-line-2024/) and increase average order value per customer.
+
+A number of chains also focus on loyalty programs and have already had success with this, such as: [McDonald's](https://essfeed.com/mcdonalds-aims-to-boost-customer-traffic-through-loyalty-programs-following-a-lackluster-quarter/#:~:text =During%20the%20Q4%20earnings%20call%2C%20President%20and%20CEO,Rewards%20program%20in%20driving%20customer%20engagement%20and%20spending.) and [Kwalitaria](https://www.outofhome-shops.nl/kwalitaria-website-valt-in-de-prijs?return=https%3A%2F%2Fwww.outofhome-shops.nl%2Ftag%2Fe-commerce). This allows them to create more contact moments and ensure that customers return to one of their locations more often.
+
+These developments show that the supposed crisis-resilience of quick service is less self-evident than was often assumed. Structural cost increases, a demanding consumer and stiffer competition require constant adjustment and innovation.
+
+## More information
+
+Read all the facts and developments in the State of Leisure: Brake on demand for a quick meal.
+
+- [State of Leisure (July 2025)
+
+  979 KB](https://www.abnamro.nl/nl/media/Stand-van-de-Leisure-juli-2025_tcm16-268821.pdf)
+
+## Read more in the Leisure sector
+
+The Leisure sector has largely gone through a difficult period. The recovery has started with the phasing out of the measures regarding corona. The terraces are starting to fill up, the number of tourists is increasing and events can be organized again. Staff shortages are now the biggest challenge. Digitizing staff work and spreading guests can limit the impact.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+## Tags
+
+[Stand of Sectors](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+[Inflation](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/prijsontwikkeling.html)

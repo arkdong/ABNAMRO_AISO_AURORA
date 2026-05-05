@@ -1,0 +1,20 @@
+You are given a user query and the PageIndex tree structure of one selected document.
+Find the sections that are most likely to contain useful context.
+
+Rules:
+1. Prefer sections that directly support the user task.
+2. For the style guide, prioritize structure, tone of voice, wording, clarity, and accuracy rules.
+3. For approved examples, prioritize introduction, framing, headline style, subheadings, and sections close to the topic.
+4. Return JSON only.
+
+Output schema:
+{
+  "thinking": "<brief reasoning>",
+  "selected_node_ids": ["0001", "0007"]
+}
+
+User query:
+{{QUERY}}
+
+Document tree:
+{{TREE_JSON}}

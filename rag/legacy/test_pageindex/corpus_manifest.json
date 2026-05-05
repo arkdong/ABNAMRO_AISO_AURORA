@@ -1,0 +1,81 @@
+{
+  "project_name": "ABN AMRO Insights PageIndex local POC",
+  "strategy": {
+    "document_selection": "description-first for small corpus; always include style guide for editorial tasks",
+    "section_retrieval": "tree-node scoring over PageIndex JSON outputs"
+  },
+  "documents": [
+    {
+      "id": "writing_guide_2026_v11",
+      "path": "corpus/Writing Guide 2026-V1.1.pdf",
+      "result_file": "Writing Guide 2026-V1.1_structure.json",
+      "doc_type": "style_guide",
+      "language": "en",
+      "authority_rank": 100,
+      "sector": "all",
+      "audience": "content_strategy_team",
+      "title": "Writing Guide 2026 Version 1.1",
+      "description": "ABN AMRO writing guide covering target audience, structure, wording, accuracy, punctuation, inclusive writing, and British English standards."
+    },
+    {
+      "id": "ai_succesvol_inzetten",
+      "path": "corpus/AI succesvol inzetten vraagt meer dan technologie.md",
+      "result_file": "AI succesvol inzetten vraagt meer dan technologie_structure.json",
+      "doc_type": "approved_example",
+      "language": "nl",
+      "authority_rank": 60,
+      "sector": "zakelijke_dienstverlening",
+      "audience": "zakelijke_ondernemers",
+      "title": "AI succesvol inzetten vraagt meer dan technologie",
+      "description": "Approved Insights article on AI adoption, productivity, business model pressure, and organisational change in zakelijke dienstverlening."
+    },
+    {
+      "id": "buitenreclame_digitale_tijdperk",
+      "path": "corpus/Buitenreclame komt tot bloei in digitale tijdperk.md",
+      "result_file": "Buitenreclame komt tot bloei in digitale tijdperk_structure.json",
+      "doc_type": "approved_example",
+      "language": "nl",
+      "authority_rank": 60,
+      "sector": "technologie",
+      "audience": "zakelijke_ondernemers",
+      "title": "Buitenreclame komt tot bloei in digitale tijdperk",
+      "description": "Approved Insights article on digital out-of-home advertising, retail media, market growth, municipalities, and sector economics."
+    },
+    {
+      "id": "agentic_ai_wapen_schild",
+      "path": "corpus/De twee gezichten van Agentic AI wapen en schild.md",
+      "result_file": "De twee gezichten van Agentic AI wapen en schild_structure.json",
+      "doc_type": "approved_example",
+      "language": "nl",
+      "authority_rank": 60,
+      "sector": "technologie",
+      "audience": "zakelijke_ondernemers",
+      "title": "De twee gezichten van Agentic AI: wapen en schild",
+      "description": "Approved Insights article on agentic AI in cybersecurity, attack and defence dynamics, risks, resilience, and business action."
+    },
+    {
+      "id": "digitale_soevereiniteit_europa",
+      "path": "corpus/Digitale soevereiniteit biedt grote kansen voor Europa.md",
+      "result_file": "Digitale soevereiniteit biedt grote kansen voor Europa_structure.json",
+      "doc_type": "approved_example",
+      "language": "nl",
+      "authority_rank": 60,
+      "sector": "technologie",
+      "audience": "zakelijke_ondernemers",
+      "title": "Digitale soevereiniteit biedt grote kansen voor Europa",
+      "description": "Approved Insights article on European digital sovereignty, privacy, cloud dependence, AI, venture capital, and growth opportunities."
+    },
+    {
+      "id": "sterke_groei_tmt",
+      "path": "corpus/Sterke groei keert terug in Technologie, Media en Telecom.md",
+      "result_file": "Sterke groei keert terug in Technologie, Media en Telecom_structure.json",
+      "doc_type": "approved_example",
+      "language": "nl",
+      "authority_rank": 60,
+      "sector": "technologie",
+      "audience": "zakelijke_ondernemers",
+      "title": "Sterke groei keert terug in Technologie, Media en Telecom",
+      "description": "Approved Insights article on TMT sector growth, AI investment, cloud migration, entrepreneurs, and sector forecasts."
+    }
+  ]
+}

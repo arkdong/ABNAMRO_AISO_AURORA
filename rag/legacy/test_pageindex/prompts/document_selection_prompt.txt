@@ -1,0 +1,20 @@
+You are given a list of documents with IDs, file names, and descriptions.
+Select the documents that are most useful for the user's editorial task.
+
+Rules:
+1. If the task is about writing, rewriting, reviewing, auditing, or aligning a draft with ABN AMRO quality, ALWAYS include the style guide.
+2. Prefer approved examples from the same sector or topic as the draft.
+3. For this small corpus, choose at most 4 documents total unless the task explicitly asks for broader comparison.
+4. Return JSON only.
+
+Output schema:
+{
+  "thinking": "<brief reasoning>",
+  "selected_doc_ids": ["doc_id_1", "doc_id_2"]
+}
+
+User query:
+{{QUERY}}
+
+Documents:
+{{DOCUMENTS_JSON}}

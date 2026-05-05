@@ -1,0 +1,23 @@
+[project]
+name = "aurora"
+version = "0.1.0"
+description = "AURORA — local PageIndex RAG over the writing guide and EN articles"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai",
+    "python-dotenv",
+    "litellm",
+    "pymupdf",
+    "PyPDF2",
+    "pyyaml",
+    "tiktoken",
+    "jupyterlab",
+    "ipykernel",
+]
+
+[tool.uv]
+package = false
+
+[tool.hatch.build.targets.wheel]
+packages = ["rag"]

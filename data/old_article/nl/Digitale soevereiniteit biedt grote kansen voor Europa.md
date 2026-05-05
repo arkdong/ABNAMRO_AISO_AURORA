@@ -14,15 +14,7 @@ tag:
 ---
 ![](https://assets.abnamro.com/api/public/content/magic-lane-landscape-4x1.jpeg?t=h440)
 
-# Digitale soevereiniteit biedt grote kansen voor Europa
-
-[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
-
-[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
-
-02/12/2025 • 8 minuten lezen
-
-[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+02/12/2025 • 8 minuten lezen[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
 
 Wordt Europa op het gebied van technologie vermalen tussen de VS en China? Verliezen we onze digitale zeggenschap én onze rol in de techeconomie? Verre van dat, voorspelt ABN AMRO-sectorspecialist Julia Krauwer. In een Europa dat digitaal ontwaakt, ziet zij volop kansen. ‘Er gebeurt al veel moois, maar de interne drempels moeten weg. En we moeten onze ambities hardop uitspreken!’
 
@@ -57,10 +49,6 @@ Waar de afhankelijkheid van buitenlandse spelers voorheen vooral gold als risico
 ## Europees Google Maps-alternatief kiest eigen koers
 
 Dat digitale soevereiniteit en commercieel succes samen kunnen gaan, laat het Amsterdamse Magic Lane zien met hun white-label Location Intelligence Technologie: technologie waarmee andere platforms eenvoudig navigatie- of deelmobiliteitoplossingen kunnen integreren, van elektrische fietsen tot deelauto’s, en met slimme functionaliteiten als offline navigatie en live verkeersdata. Ceo Raymond Alves: ‘En de technologie waarborgt privacy: in tegenstelling tot Amerikaanse aanbieders worden gebruikers niet gevolgd; alle data blijft anoniem.’ Dat deze aanpak z’n vruchten afwerpt, blijkt ook uit de cijfers: in het voorjaar steeg het aantal gebruikers van de consumentenapp met 250% in zes weken. ‘Hiermee laten we zien dat privacy en performance elkaar niet hoeven uit te sluiten.’
-
-## Europese soevereiniteit en privacy in de praktijk
-
-Dat creëert kansen voor Europese ondernemers die deze lokale waarden goed invullen: privacy-vriendelijk, transparant en duurzaam. ‘Compliant zijn blijkt best wel innovatief’, citeert Krauwer een quote van Saskia Lensink, productmanager van GPT-NL. ‘Bedrijven die Europese waarden weten te vertalen naar technologie met schaal, kunnen echt verschil maken. ’Kijk naar Deeploy, een Utrechts platform voor AI-monitoring, AI-governance en AI-compliance, dat onder meer financiële bedrijven en grote zorginstellingen helpt bij het bewaken van de verantwoorde toepassing van AI in hun organisaties. Of Mistral AI, het Franse platform voor kunstmatige intelligentie, dat de potentie heeft om uit te groeien tot een serieuze uitdager voor de grote AI-ontwikkelaars.’
 
 > “We zijn in Nederland en in Europa geweldig in R&D, maar vinden het spannend om te roepen dat we de wereld gaan veroveren.”
 
@@ -120,26 +108,8 @@ Hoofdbeeld gemaakt door Jeroen Dietz
 
 Van Europese subsidies en AI-integratie tot digitale weerbaarheid: de Technologie, Media en Telecomsector kent volop kansen. In deze video vertelt business banker Ronald van Gammeren waar jouw groeikansen liggen in 2026.
 
-[![
-
-Uw browser ondersteunt geen HTML video. Hier is een [link om de video te downloaden](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-original.mp4)
-
-](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-thumbnail.jpg)](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-720p.mp4)
-
-[Lees meer over een financiering voor de TMT-sector](https://www.abnamro.nl/nl/zakelijk/producten/financieren/sectoren/tmt.html)
+   <video type="video/mp4" controls=""><source src="https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-720p.mp4" type="video/mp4"> <source src="https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-480p.mp4" type="video/mp4"> <source type="video/mp4" src="https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-original.mp4"> <track kind="subtitles" label="NL" srclang="NL" src="https://assets.abnamro.com/api/public/content/abn-amro---social-media-bcande-sector-bankers---10236---sector-tech-media-and-telco---v2.vtt"><p>Uw browser ondersteunt geen HTML video. Hier is een <a href="https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-original.mp4">link om de video te downloaden</a></p></video>
 
 ## Lees verder in de technologiesector
 
 Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
-
-[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
-
-## Tags
-
-[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
-
-[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
-
-[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
-
-[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

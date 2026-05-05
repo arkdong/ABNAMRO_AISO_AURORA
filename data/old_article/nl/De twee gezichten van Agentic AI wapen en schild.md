@@ -15,15 +15,7 @@ tag:
 ---
 ![ABN AMRO](https://assets.abnamro.com/api/public/content/shutterstock-230526010-landscape-4x1.jpg?t=h440)
 
-# De twee gezichten van Agentic AI: wapen en schild
-
-[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
-
-[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
-
-17/11/2025 • 11 minuten lezen
-
-[Amad Khan](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/amad-khan/index.html)
+17/11/2025 • 11 minuten lezen[Amad Khan](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/amad-khan/index.html)
 
 Criminelen maken meer gebruik van kunstmatige intelligentie om razendsnelle aanvallen uit te voeren. Bedrijven zetten tegelijk dezelfde technologie in om zichzelf te verdedigen. De urgentie om te handelen groeit, maar veel organisaties weten binnen deze complexe wapenwedloop niet waar te beginnen.
 
@@ -47,7 +39,7 @@ ABN AMRO
 
 De meest veelbelovende toepassingen zijn te vinden in het simuleren van aanvallen op de eigen organisatie, zogenoemde ‘red team’-acties. Traditioneel zijn security-teams hier dagen of zelfs weken mee bezig: het in kaart brengen van systemen, het vinden van toegangswegen en het testen van verschillende routes.
 
-Agentic AI kan door te leren van eerdere gesimuleerde aanvallen veel sneller binnendringen en in kaart brengen welke aanvalsvolgorde het meest effectief is – precies wat criminelen ook zullen doen. Er zijn al bedrijven die dit als dienst aanbieden. Zij zetten voor hun klanten simulaties in en leren van zowel de aanvallende ‘red teams’ als de verdedigende ‘blue teams’. Deze gecombineerde aanpak, ook wel ‘purple AI’ genoemd, stelt organisaties in staat om van beide perspectieven te leren en hun beveiliging continu te verbeteren. Het is belangrijk om hierbij aan te tekenen dat Agentic AI gebruik maakt van bestaande werkwijzen. Het voert aanvallen sneller dan ooit uit, maar het bedenkt geen nieuwe werkwijzen. Agentic AI is tot op heden vooral een sprong in efficiency.  “De grote cybersecuritybedrijven investeren volop in AI”, zegt Mons. “Maar criminelen zijn evengoed bezig. Het romantische beeld van hackers als eenzame jongens in kelders is compleet achterhaald. Cyberaanvallen worden uitgevoerd door professionele organisaties met specifieke rollen die zich richten op het verkrijgen van toegang, het bouwen van malware, het installeren van malware, het stelen van data, onderhandelingen etc. Ze hebben zelfs HR-afdelingen en callcenters, met een solide businesscase gebaseerd op de baten die zij genereren door gestolen data.”
+Agentic AI kan door te leren van eerdere gesimuleerde aanvallen veel sneller binnendringen en in kaart brengen welke aanvalsvolgorde het meest effectief is – precies wat criminelen ook zullen doen. Er zijn al bedrijven die dit als dienst aanbieden. Zij zetten voor hun klanten simulaties in en leren van zowel de aanvallende ‘red teams’ als de verdedigende ‘blue teams’. Deze gecombineerde aanpak, ook wel ‘purple AI’ genoemd, stelt organisaties in staat om van beide perspectieven te leren en hun beveiliging continu te verbeteren. Het is belangrijk om hierbij aan te tekenen dat Agentic AI gebruik maakt van bestaande werkwijzen. Het voert aanvallen sneller dan ooit uit, maar het bedenkt geen nieuwe werkwijzen. Agentic AI is tot op heden vooral een sprong in efficiency. “De grote cybersecuritybedrijven investeren volop in AI”, zegt Mons. “Maar criminelen zijn evengoed bezig. Het romantische beeld van hackers als eenzame jongens in kelders is compleet achterhaald. Cyberaanvallen worden uitgevoerd door professionele organisaties met specifieke rollen die zich richten op het verkrijgen van toegang, het bouwen van malware, het installeren van malware, het stelen van data, onderhandelingen etc. Ze hebben zelfs HR-afdelingen en callcenters, met een solide businesscase gebaseerd op de baten die zij genereren door gestolen data.”
 
 ## De paradox van adoptie
 
@@ -118,17 +110,3 @@ De twee gezichten van Agentic AI – als wapen en als schild – dwingen organis
 ## Lees verder in de technologiesector
 
 Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
-
-[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
-
-## Tags
-
-[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
-
-[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
-
-[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
-
-[Cybersecurity](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/cybersecurity.html)
-
-[Personeelstekort](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/personeelstekort.html)

@@ -52,9 +52,18 @@ from typing import Callable
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent
-TRANSLATED_BASE = ROOT / "data" / "translated"
-CHUNKED_BASE = ROOT / "data" / "chunked"
+ROOT = Path(__file__).resolve().parent.parent           # context-engineering/
+REPO_ROOT = ROOT.parent                                  # ABN/ (repo root)
+
+# Article sources live at <repo-root>/data/article/{en,nl}/. Map our familiar
+# `--src` names to those paths. Add new entries here when more translation
+# methods land (e.g. anthropic-claude-haiku-4-5 → article/anthropic-haiku/).
+TRANSLATED_PATHS: dict[str, Path] = {
+    "gpt-5":     REPO_ROOT / "data" / "article" / "en",
+    "source-nl": REPO_ROOT / "data" / "article" / "nl",
+}
+
+CHUNKED_BASE = ROOT / "chunked"                          # was data/chunked/
 
 # ---------------------------------------------------------------------------
 # Method registry — tier ∈ {simple, advanced}, scope ∈ {fast, slow, llm, llm-slow}
@@ -72,6 +81,7 @@ METHODS: dict[str, dict] = {
     "c8":  {"tier": "simple",   "folder": "c8-heading-with-parent", "applies_to": "writing_guide", "scope": "fast"},
     "c9":  {"tier": "simple",   "folder": "c9-sliding-window",     "applies_to": "writing_guide", "scope": "fast"},
     "c10": {"tier": "simple",   "folder": "c10-article-as-chunk",  "applies_to": "article",       "scope": "fast"},
+    "c11": {"tier": "simple",   "folder": "c11-md-h2-split",       "applies_to": "writing_guide", "scope": "fast"},
     # Advanced
     "a1":  {"tier": "advanced", "folder": "a1-contextual-retrieval", "applies_to": "article",     "scope": "llm"},
     "a2":  {"tier": "advanced", "folder": "a2-late-chunking",        "applies_to": "article",     "scope": "fast"},
@@ -81,6 +91,8 @@ METHODS: dict[str, dict] = {
     "a6":  {"tier": "advanced", "folder": "a6-hyde-indexing",        "applies_to": "article",     "scope": "llm"},
     "a7":  {"tier": "advanced", "folder": "a7-llm-as-chunker",       "applies_to": "article",     "scope": "llm"},
     "a8":  {"tier": "advanced", "folder": "a8-structure-aware",      "applies_to": "writing_guide", "scope": "fast"},
+    "a9":  {"tier": "advanced", "folder": "a9-hybrid-small-to-big",   "applies_to": "article",     "scope": "slow"},
+    "a10": {"tier": "advanced", "folder": "a10-raptor-structural",    "applies_to": "writing_guide", "scope": "fast"},
 }
 
 # ---------------------------------------------------------------------------
@@ -678,6 +690,312 @@ def chunk_llm_as_chunker(
             for x in data if x.get("text")]
 
 
+# --- A9: Hybrid small-to-big (semantic parents + sentence-window children) --
+
+
+def chunk_hybrid_small_to_big(
+    text: str,
+    n_neighbors: int = 1,
+    breakpoint_percentile: float = 75.0,
+) -> list[dict]:
+    """A9: Variant 3 of small-to-big.
+       - Parents: C6 semantic split (topic-coherent sentence groups).
+       - Children inside each parent: sentence-window (focal sentence ± N
+         neighbours), one child per sentence position. Children NEVER cut
+         mid-sentence.
+       - Each child carries its full parent in metadata as parent_text.
+    Default window=±1 → each child has 2-3 sentences. Tweak n_neighbors via
+    LLM_DEFAULT_MODEL pattern if needed in future.
+    """
+    import numpy as np
+
+    sentences = _split_sentences(text)
+    if len(sentences) <= 1:
+        only = " ".join(sentences) if sentences else text.strip()
+        return [{
+            "text": only, "parent_text": only,
+            "parent_index": 0, "child_index": 0,
+            "n_sentences_in_window": len(sentences),
+            "center_sentence_index": 0,
+        }] if only else []
+
+    # 1. Find semantic breakpoints (same as C6, but we operate on indices not
+    #    on the joined chunk text — we want to keep sentence boundaries).
+    model = _semantic_embedder()
+    vecs = model.encode(sentences, normalize_embeddings=True, show_progress_bar=False)
+    sims = (vecs[:-1] * vecs[1:]).sum(axis=1)
+    threshold = float(np.percentile(sims, 100.0 - breakpoint_percentile))
+    breakpoints = [i + 1 for i, s in enumerate(sims) if s <= threshold]
+
+    # 2. Build parents as lists of sentence-indices.
+    parents: list[list[int]] = []
+    start = 0
+    for bp in breakpoints:
+        if bp > start:
+            parents.append(list(range(start, bp)))
+            start = bp
+    if start < len(sentences):
+        parents.append(list(range(start, len(sentences))))
+
+    # 3. For each parent, slide a sentence-window over its sentences.
+    out: list[dict] = []
+    for pi, parent_idx in enumerate(parents):
+        parent_text = " ".join(sentences[i] for i in parent_idx).strip()
+        if not parent_text:
+            continue
+        for local_pos, sent_idx in enumerate(parent_idx):
+            a = max(0, local_pos - n_neighbors)
+            b = min(len(parent_idx), local_pos + n_neighbors + 1)
+            window_sentences = [sentences[parent_idx[j]] for j in range(a, b)]
+            child_text = " ".join(window_sentences).strip()
+            if not child_text:
+                continue
+            out.append({
+                "text": child_text,
+                "parent_text": parent_text,
+                "parent_index": pi,
+                "child_index": local_pos,
+                "center_sentence_index": sent_idx,
+                "n_sentences_in_window": b - a,
+                "n_sentences_in_parent": len(parent_idx),
+            })
+    return out
+
+
+# --- A10: RAPTOR-structural (writing guide, no LLM) ------------------------
+
+
+def chunk_raptor_structural(
+    text: str, min_leaf_chars: int = 80, max_leaf_chars: int = 2000,
+) -> list[dict]:
+    """A10: 3-level tree of (chapter, section, rule) nodes — no LLM.
+
+    Hierarchy is reconstructed from heading prefixes (NOT source order):
+      depth 1 — Chapter:   title `N.   Title`     (1 ≤ N ≤ 6)
+      depth 2 — Section:   title `N.M Title`     (or `N.M.K`, folded)
+      depth 3 — Rule:      anything else; leaves
+
+    Sections are parented to chapter `N` by prefix, so out-of-order PDF
+    extraction (sections appearing under the wrong chapter heading) doesn't
+    break the tree. Rules are parented by source-order proximity to the most
+    recently-seen section/chapter — this is the ONE thing that does need
+    sequential processing.
+
+    Each non-leaf node gets a deterministic summary (heading + intro + child
+    titles). Each leaf prepends its breadcrumb to the embedded text so the
+    embedder sees parental context.
+    """
+    # Pre-process: split merged headings like "## **3. X** 3.1 Y" into two H2s
+    text = re.sub(
+        r"(##\s+\**\d+\.\s+[^\n*]+?\**)\s+(\d+\.\d+\s+[^\n]+)$",
+        r"\1\n## \2",
+        text,
+        flags=re.MULTILINE,
+    )
+
+    raw = re.split(r"^(?=##\s)", text, flags=re.MULTILINE)
+    raw = [r.strip() for r in raw if r.strip() and r.startswith("##")]
+
+    # Patterns
+    chap_re = re.compile(r"^##\s+\**(\d+)\.\s+([^*\n]{2,100}?)\**\s*$")
+    sect_re = re.compile(r"^##\s+\**(\d+\.\d+(?:\.\d+)?)\s+([^*\n]{2,100}?)\**\s*$")
+    rule_re = re.compile(r"^##\s+\**([^*\n]{2,120}?)\**\s*$")
+
+    EXPECTED_CHAPTER_FIRST_WORD = {
+        "1": "Prepare", "2": "Structure", "3": "Wording",
+        "4": "Accuracy", "5": "Punctuation", "6": "Inclusive",
+    }
+
+    def first_line(t: str) -> str:
+        return t.split("\n", 1)[0].strip()
+
+    def body_after_heading(t: str) -> str:
+        parts = t.split("\n", 1)
+        return parts[1].strip() if len(parts) > 1 else ""
+
+    # PASS 1: extract chapters and sections by prefix (order-independent)
+    chapter_by_num: dict[str, dict] = {}
+    section_by_num: dict[str, dict] = {}
+    raw_in_order: list[dict] = []  # raw chunks tagged with classification
+
+    for chunk in raw:
+        head = first_line(chunk)
+        body = body_after_heading(chunk)
+
+        m_chap = chap_re.match(head)
+        m_sect = sect_re.match(head)
+
+        # Chapter heading? Track source position regardless of duplication.
+        if m_chap:
+            num = m_chap.group(1)
+            title_text = m_chap.group(2).strip()
+            expected = EXPECTED_CHAPTER_FIRST_WORD.get(num)
+            if expected and title_text.startswith(expected):
+                if num not in chapter_by_num:
+                    chapter_by_num[num] = {
+                        "node_id": f"ch-{num}",
+                        "title": f"{num}. {title_text}",
+                        "num": num,
+                        "body": body,
+                        "depth": 1,
+                        "parent_id": None,
+                    }
+                # ALWAYS track source position — keeps cur_chapter in pass 2 fresh
+                raw_in_order.append({"kind": "chapter", "num": num})
+                continue
+
+        # Section heading? Same — track source position regardless of dup.
+        if m_sect:
+            num = m_sect.group(1)
+            chap_num = num.split(".")[0]
+            if chap_num in EXPECTED_CHAPTER_FIRST_WORD:
+                title_text = m_sect.group(2).strip()
+                if num not in section_by_num:
+                    section_by_num[num] = {
+                        "node_id": f"sec-{num.replace('.', '_')}",
+                        "title": f"{num} {title_text}",
+                        "num": num,
+                        "body": body,
+                        "depth": 2,
+                        "parent_id": f"ch-{chap_num}",
+                    }
+                raw_in_order.append({"kind": "section", "num": num})
+                continue
+
+        m_rule = rule_re.match(head)
+        if m_rule:
+            title_text = m_rule.group(1).strip()
+            raw_in_order.append({"kind": "rule", "head": head, "body": body, "title": title_text})
+
+    # PASS 2: walk source order, assign each rule to its nearest preceding
+    #         section/chapter
+    rule_nodes: list[dict] = []
+    cur_section_num: str | None = None
+    cur_chapter_num: str | None = None
+    rule_idx_per_parent: dict[str, int] = {}
+
+    for entry in raw_in_order:
+        if entry["kind"] == "chapter":
+            cur_chapter_num = entry["num"]
+            cur_section_num = None
+            continue
+        if entry["kind"] == "section":
+            cur_section_num = entry["num"]
+            cur_chapter_num = entry["num"].split(".")[0]
+            continue
+        # rule
+        if cur_chapter_num is None:
+            continue
+        parent_id = (
+            section_by_num[cur_section_num]["node_id"] if cur_section_num
+            else chapter_by_num[cur_chapter_num]["node_id"]
+        )
+        rule_text = (entry["head"] + "\n\n" + (entry["body"] or "")).strip()
+        if len(rule_text) < min_leaf_chars:
+            continue
+        rule_idx_per_parent[parent_id] = rule_idx_per_parent.get(parent_id, 0) + 1
+        rule_idx = rule_idx_per_parent[parent_id]
+        # Sub-split big rules
+        if len(rule_text) <= max_leaf_chars:
+            rule_nodes.append({
+                "node_id": f"{parent_id}-r{rule_idx:03d}",
+                "title": entry["title"],
+                "num": None,
+                "body": entry["body"] or "",
+                "depth": 3,
+                "parent_id": parent_id,
+            })
+        else:
+            from langchain_text_splitters import RecursiveCharacterTextSplitter
+            splitter = RecursiveCharacterTextSplitter(
+                chunk_size=int(max_leaf_chars * 0.9),
+                chunk_overlap=100,
+                length_function=len,
+                separators=["\n\n", "\n", ". ", " ", ""],
+            )
+            for sub_i, sub in enumerate(splitter.split_text(rule_text)):
+                sub = sub.strip()
+                if not sub:
+                    continue
+                rule_nodes.append({
+                    "node_id": f"{parent_id}-r{rule_idx:03d}-{sub_i:02d}",
+                    "title": entry["title"],
+                    "num": None,
+                    "body": sub,
+                    "depth": 3,
+                    "parent_id": parent_id,
+                    "subchunk_index": sub_i,
+                })
+
+    # Combine all nodes
+    nodes: list[dict] = (
+        list(chapter_by_num.values())
+        + list(section_by_num.values())
+        + rule_nodes
+    )
+
+    # PASS 3: build child relationships
+    children_by_parent: dict[str, list[dict]] = {}
+    for n in nodes:
+        if n["parent_id"]:
+            children_by_parent.setdefault(n["parent_id"], []).append(n)
+
+    def descendants_of(node_id: str) -> list[dict]:
+        out: list[dict] = []
+        stack = list(children_by_parent.get(node_id, []))
+        while stack:
+            child = stack.pop()
+            if child["depth"] == 3:
+                out.append(child)
+            else:
+                stack.extend(children_by_parent.get(child["node_id"], []))
+        return out
+
+    def breadcrumb_of(node: dict) -> list[str]:
+        crumb: list[str] = []
+        cur = node
+        while cur:
+            crumb.insert(0, cur["title"])
+            if cur["parent_id"] is None:
+                break
+            cur = next((x for x in nodes if x["node_id"] == cur["parent_id"]), None)
+        return crumb
+
+    # PASS 4: build emitted chunk records
+    out_items: list[dict] = []
+    for n in nodes:
+        crumb = breadcrumb_of(n)
+        depth = n["depth"]
+        title = n["title"]
+        body = n["body"] or ""
+        if depth == 3:
+            crumb_str = " > ".join(crumb)
+            text_for_embed = f"[{crumb_str}]\n\n{title}\n\n{body}".strip()
+            desc_ids = ""
+        else:
+            children = children_by_parent.get(n["node_id"], [])
+            child_list = "\n".join(f"- {c['title']}" for c in children) or "(empty)"
+            label = "Chapter" if depth == 1 else "Section"
+            text_for_embed = (
+                f"# {title}\n\n"
+                f"{body}\n\n"
+                f"This {label.lower()} contains:\n{child_list}"
+            ).strip()
+            desc_ids = ",".join(d["node_id"] for d in descendants_of(n["node_id"]))
+
+        out_items.append({
+            "text": text_for_embed,
+            "node_id": n["node_id"],
+            "depth": depth,
+            "parent_id": n["parent_id"],
+            "section_title": title,
+            "breadcrumb": " > ".join(crumb),
+            "descendant_leaf_ids": desc_ids,
+            "n_descendant_leaves": len(desc_ids.split(",")) if desc_ids else 0,
+        })
+    return out_items
+
+
 # --- A8: Structure-aware (writing guide) ------------------------------------
 
 
@@ -713,6 +1031,62 @@ def chunk_structure_aware(text: str) -> list[dict]:
             "parent_section_title": seg["parent_section"][1] if seg.get("parent_section") else None,
         })
     return out
+
+
+# --- C11: Markdown H2 split (writing guide, pymupdf4llm output) ------------
+
+
+def chunk_md_h2(
+    text: str, min_chars: int = 100, max_chars: int = 2000, overlap_chars: int = 100,
+) -> list[dict]:
+    """C11: split markdown on every H2 (`## ...`) boundary.
+
+    Used with the pymupdf4llm-extracted writing_guide.md (200+ H2 markers
+    representing chapters, sections, and rule-level entries from the WG).
+
+    - Drops chunks below `min_chars` (table column markers like '## **US**').
+    - Sub-splits chunks above `max_chars` with `overlap_chars` overlap so
+      the alphabetical reference §4.1 doesn't get truncated by the embedder.
+    """
+    pattern = re.compile(r"^(?=##\s)", re.MULTILINE)
+    raw = pattern.split(text)
+
+    items: list[dict] = []
+    for raw_chunk in raw:
+        raw_chunk = raw_chunk.strip()
+        if not raw_chunk:
+            continue
+        # Extract H2 title for metadata
+        m = re.match(r"##\s+\**(?P<title>[^\n*]+?)\**\s*$", raw_chunk.split("\n", 1)[0])
+        section_title = m.group("title").strip() if m else None
+        # Pre-amble before the first H2 — skip
+        if not raw_chunk.startswith("##"):
+            if len(raw_chunk) >= min_chars:
+                items.append({"text": raw_chunk, "section_title": "Preamble"})
+            continue
+        if len(raw_chunk) < min_chars:
+            continue
+        if len(raw_chunk) <= max_chars:
+            items.append({"text": raw_chunk, "section_title": section_title})
+            continue
+        # Sub-split big chunks via the recursive splitter, preserve section title
+        from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+        splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
+            encoding_name="cl100k_base",
+            chunk_size=int(max_chars * 0.6),  # tokens, not chars
+            chunk_overlap=int(overlap_chars * 0.6),
+            separators=["\n\n", "\n", ". ", " ", ""],
+        )
+        for i, sub in enumerate(splitter.split_text(raw_chunk)):
+            sub = sub.strip()
+            if sub:
+                items.append({
+                    "text": sub,
+                    "section_title": section_title,
+                    "subchunk_index": i,
+                })
+    return items
 
 
 def chunk_sliding_window(text: str, window: int = 2, stride: int = 1) -> list[str]:
@@ -752,6 +1126,7 @@ def get_chunker(method: str, llm_provider: str = "anthropic",
     if method == "c8":  return chunk_heading_with_parent
     if method == "c9":  return chunk_sliding_window
     if method == "c10": return chunk_article_as_one
+    if method == "c11": return chunk_md_h2
     # Advanced
     if method == "a1":
         return lambda t: chunk_contextual_retrieval(t, llm_provider=llm_provider, model=llm_model)
@@ -766,6 +1141,8 @@ def get_chunker(method: str, llm_provider: str = "anthropic",
     if method == "a7":
         return lambda t: chunk_llm_as_chunker(t, llm_provider=llm_provider, model=llm_model)
     if method == "a8":  return chunk_structure_aware
+    if method == "a9":  return chunk_hybrid_small_to_big
+    if method == "a10": return chunk_raptor_structural
     raise SystemExit(f"unknown method: {method!r}")
 
 
@@ -791,6 +1168,54 @@ def read_md(path: Path) -> tuple[dict, str]:
 # ---------------------------------------------------------------------------
 
 
+def _stringify_date(v):
+    """YAML parses '2020-01-13' as datetime.date — Chroma + JSON need a string.
+    Pass strings/None through unchanged."""
+    if v is None or isinstance(v, str):
+        return v
+    try:
+        return v.isoformat()  # works for date/datetime
+    except AttributeError:
+        return str(v)
+
+
+def _strip_wiki(s):
+    """Strip Obsidian-style [[wikilink]] wrappers; pass non-strings through."""
+    if not isinstance(s, str):
+        return s
+    s = s.strip()
+    if s.startswith("[[") and s.endswith("]]"):
+        s = s[2:-2].strip()
+    return s
+
+
+def _first_or_none(seq):
+    """First non-empty entry of a list, with [[wiki]] wrappers stripped.
+    Accepts a string (treated as a single entry) or a list."""
+    if not seq:
+        return None
+    if isinstance(seq, str):
+        return _strip_wiki(seq) or None
+    if isinstance(seq, (list, tuple)):
+        for item in seq:
+            v = _strip_wiki(item)
+            if v:
+                return v
+    return None
+
+
+def _all_clean(seq):
+    """Clean every entry of a list; return list of strings."""
+    if not seq:
+        return []
+    if isinstance(seq, str):
+        v = _strip_wiki(seq)
+        return [v] if v else []
+    if isinstance(seq, (list, tuple)):
+        return [v for v in (_strip_wiki(x) for x in seq) if v]
+    return []
+
+
 def make_metadata(
     *,
     article_fm: dict,
@@ -800,20 +1225,57 @@ def make_metadata(
     n_chunks_total: int,
     slug: str,
 ) -> dict:
+    """Build per-chunk metadata.
+
+    Handles two frontmatter dialects we have on different branches:
+      Canonical (older): url / date / sector / topic / language / language_original
+      Obsidian-style (preproces_docs): source / published / tag (list, [[wiki]]) / lang / author
+
+    Falls back through both. Strips [[...]] wikilink wrappers from tags.
+    """
     doc_type = article_fm.get("doc_type", "article")
+
+    tags_clean = _all_clean(article_fm.get("tag") or article_fm.get("tags"))
+    primary_tag = tags_clean[0] if tags_clean else None
+    secondary_tag = tags_clean[1] if len(tags_clean) >= 2 else None
+
     return {
         "chunk_id": f"{slug}__{chunker_id}__{chunk_index:04d}",
         "source_slug": slug,
         "source_title": article_fm.get("title"),
-        "source_url": article_fm.get("source_url") or article_fm.get("url"),
-        "source_date": article_fm.get("date"),
+        # url canonical → fall back to "source" (Obsidian-style)
+        "source_url": (article_fm.get("source_url")
+                       or article_fm.get("url")
+                       or article_fm.get("source")),
+        # date → fall back to "published"
+        # YAML parses dates like "2020-01-13" into Python date objects — stringify them.
+        "source_date": _stringify_date(article_fm.get("date") or article_fm.get("published")),
         "doc_type": doc_type,
         "channel": "website",
         "content_type": "insight_article" if doc_type == "article" else None,
-        "sector": article_fm.get("sector"),
-        "topic": article_fm.get("topic"),
-        "language_original": article_fm.get("language_original"),
-        "language_embedded": article_fm.get("language", "en"),
+        # sector: explicit field → first tag (cleaned of [[wiki]] wrappers)
+        "sector": article_fm.get("sector") or primary_tag,
+        # topic: explicit field → second tag → first tag (different shape)
+        "topic": (article_fm.get("topic")
+                  or secondary_tag
+                  or primary_tag),
+        # all tags joined for filtering; primitive types only for Chroma
+        "tags": ", ".join(tags_clean) if tags_clean else None,
+        "author": _first_or_none(article_fm.get("author")),
+        "description": article_fm.get("description"),
+        "language_original": (article_fm.get("language_original")
+                              or "nl"  # branch's articles are NL→EN translations
+                              if (article_fm.get("translated_with")
+                                  or src_method in ("gpt-5", "deep-translator",
+                                                    "anthropic-claude-sonnet-4-5",
+                                                    "anthropic-claude-haiku-4-5",
+                                                    "openai-gpt-4o",
+                                                    "openai-gpt-4o-mini"))
+                              else None),
+        # language → fall back to "lang"
+        "language_embedded": (article_fm.get("language")
+                              or article_fm.get("lang")
+                              or "en"),
         "translation_method": src_method if doc_type == "article" else None,
         "translated_with": article_fm.get("translated_with"),
         "chunker": chunker_id,
@@ -888,7 +1350,7 @@ def run(method: str, src_method: str, limit: int | None, force: bool,
             raise SystemExit(
                 f"{method} is for {info['applies_to']!r}; use src=deep-translator (or other translation method)"
             )
-        wg_path = ROOT / "data" / "raw" / "writing_guide.md"
+        wg_path = REPO_ROOT / "data" / "writing_guide.md"
         if not wg_path.exists():
             raise SystemExit(f"{wg_path} not found — run scripts/ingest_pdf.py first")
         files = [wg_path]
@@ -897,7 +1359,12 @@ def run(method: str, src_method: str, limit: int | None, force: bool,
             raise SystemExit(
                 f"{method} is for {info['applies_to']!r}; use src=writing-guide"
             )
-        src_dir = TRANSLATED_BASE / src_method
+        src_dir = TRANSLATED_PATHS.get(src_method)
+        if src_dir is None:
+            raise SystemExit(
+                f"unknown article source {src_method!r}; "
+                f"known: {sorted(TRANSLATED_PATHS)}"
+            )
         if not src_dir.exists():
             raise SystemExit(f"source dir not found: {src_dir}")
         files = sorted(src_dir.glob("*.md"))

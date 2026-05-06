@@ -1,0 +1,12 @@
+{
+  "method": "c10",
+  "chunker_folder": "c10-article-as-chunk",
+  "src_method": "gpt-5",
+  "documents_processed": 59,
+  "documents_skipped_existing": 0,
+  "chunks_total": 59,
+  "chars_total": 502886,
+  "chars_per_chunk_avg": 8523.5,
+  "chunks_per_doc_avg": 1.0,
+  "elapsed_seconds": 0.03
+}

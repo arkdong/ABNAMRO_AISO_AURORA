@@ -1,0 +1,12 @@
+{
+  "method": "a5",
+  "chunker_folder": "a5-small-to-big",
+  "src_method": "gpt-5",
+  "documents_processed": 59,
+  "documents_skipped_existing": 0,
+  "chunks_total": 611,
+  "chars_total": 525679,
+  "chars_per_chunk_avg": 860.4,
+  "chunks_per_doc_avg": 10.36,
+  "elapsed_seconds": 0.26
+}

@@ -1,0 +1,12 @@
+{
+  "method": "a8",
+  "chunker_folder": "a8-structure-aware",
+  "src_method": "writing-guide",
+  "documents_processed": 1,
+  "documents_skipped_existing": 0,
+  "chunks_total": 2,
+  "chars_total": 88002,
+  "chars_per_chunk_avg": 44001.0,
+  "chunks_per_doc_avg": 2.0,
+  "elapsed_seconds": 0.0
+}

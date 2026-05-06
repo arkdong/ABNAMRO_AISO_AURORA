@@ -54,7 +54,7 @@ from pathlib import Path
 from typing import Iterable
 
 ROOT = Path(__file__).resolve().parent.parent
-CHUNKED_BASE = ROOT / "data" / "chunked"
+CHUNKED_BASE = ROOT / "chunked"
 VECTOR_DB_BASE = ROOT / "vector_db"
 
 
@@ -69,6 +69,19 @@ EMBEDDERS: dict[str, dict] = {
         "dim": 1024,
         "passage_prefix": "passage: ",
         "query_prefix": "query: ",
+        "needs_key": False,
+    },
+    "e1i": {
+        # multilingual-e5-large-instruct (2024). Uses "Instruct:..." format for
+        # queries; passages are emitted without prefix per the model card.
+        "kind": "sentence-transformers",
+        "model": "intfloat/multilingual-e5-large-instruct",
+        "dim": 1024,
+        "passage_prefix": "",
+        "query_prefix": (
+            "Instruct: Given a search query about ABN AMRO insight articles, "
+            "retrieve relevant passages that answer the query\nQuery: "
+        ),
         "needs_key": False,
     },
     "e2": {

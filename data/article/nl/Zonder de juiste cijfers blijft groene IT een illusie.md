@@ -17,11 +17,15 @@ tag:
 ---
 ![](https://assets.abnamro.com/api/public/content/office-1553779676-landscape-4x1.jpg?t=h440)
 
+# Zonder de juiste cijfers blijft groene IT een illusie
+
 [Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
 
 [Sectoroverstijgend](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/alle-sectoren/index.html)
 
-10/11/2025 • 9 minuten lezen[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+10/11/2025 • 9 minuten lezen
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
 
 Bedrijven die gebruik maken van rekenkracht en dataopslag in de cloud en hun IT willen vergroenen, moeten wel weten waar winst te behalen is. Cloud-aanbieders delen vooralsnog echter niet alle cijfers over energiegebruik en CO₂-uitstoot, en doen dat bovendien elk op een andere manier.
 
@@ -29,13 +33,11 @@ Bedrijven die gebruik maken van rekenkracht en dataopslag in de cloud en hun IT 
 
 Beluister het fragment met Sector Banker Julia Krauwer over het belang van goede data bij verduurzaming van IT.
 
-<iframe height="156" src="https://omny.fm/shows/bnr-archief/bnr-archief-10-11-2025-06-00/embed?t=2690" width="100%" frameborder="0"></iframe>
-
 Hierdoor weten IT-teams niet goed waar de meeste duurzaamheidswinst te behalen valt, en kunnen ze de invloed van optimalisaties niet meten. Voorlopig ontbreekt het echter aan wettelijke verplichtingen en dwingende standaarden die bepalen welke informatie cloud-bedrijven beschikbaar moeten stellen aan hun eigen klanten.
 
 ## Negatieve milieueffecten beperken
 
-Wereldwijd verhuizen bedrijven hun IT-activiteiten naar de cloud, en zowel ontwikkeling als gebruik van artificial intelligence (AI) stuwen de vraag naar capaciteit van datacenters. Volgens een [schatting](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai) van het Internationaal Energieagentschap bedroeg het wereldwijde elektriciteitsverbruik van datacenters in 2024 zo’n 460 terawattuur (TWh), wat overeenkomt met het jaarlijkse verbruik van landen als Zweden of Argentinië. Tegen 2030 verwacht het agentschap een ruime verdubbeling naar 1000 TWh. Ongeveer 40 procent van die stroom zal dan afkomstig zijn uit hernieuwbare bronnen, maar voor bijna de helft blijven kolen- en gascentrales nodig. De CO <sub>2</sub> -voetafdruk van digitalisering blijft daarmee voorlopig substantieel.
+Wereldwijd verhuizen bedrijven hun IT-activiteiten naar de cloud, en zowel ontwikkeling als gebruik van artificial intelligence (AI) stuwen de vraag naar capaciteit van datacenters. Volgens een [schatting](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai) van het Internationaal Energieagentschap bedroeg het wereldwijde elektriciteitsverbruik van datacenters in 2024 zo’n 460 terawattuur (TWh), wat overeenkomt met het jaarlijkse verbruik van landen als Zweden of Argentinië. Tegen 2030 verwacht het agentschap een ruime verdubbeling naar 1000 TWh. Ongeveer 40 procent van die stroom zal dan afkomstig zijn uit hernieuwbare bronnen, maar voor bijna de helft blijven kolen- en gascentrales nodig. De CO2-voetafdruk van digitalisering blijft daarmee voorlopig substantieel.
 
 Datacenters zijn de afgelopen jaren steeds efficiënter geworden. Dit heeft sterk te maken met schaalvergroting; een groot datacenter kan de energie voor het koelen van servers – een relatief groot aandeel van het stroomverbruik – verspreiden over een groot aantal afnemers. Ook is er vooruitgang geboekt met nieuwe, meer energiezuinige koeltechnieken en software om het binnenklimaat te beheren. De gebruikers van AI- en clouddiensten, bepalend voor de vraag naar datacentercapaciteit, hebben in de praktijk echter onvoldoende handvatten om de nadelige milieueffecten van hun IT-inspanningen te verkleinen.
 
@@ -67,7 +69,7 @@ Ook in de emissiedashboards van cloud-bedrijven komen beide meetmethoden terug. 
 
 ## Locatie-gebaseerd rapporteren
 
-Locatie-gebaseerde emissies worden berekend door het elektriciteitsverbruik in kilowattuur (kWh) te vermenigvuldigen met de lokale ‘emissiefactor’. Deze toont hoeveel CO <sub>2</sub> -equivalent gemiddeld vrijkomt bij de productie van een kWh aan elektriciteit. In regio’s met windmolens of waterkrachtcentrales is de emissiefactor lager dan in regio’s waar elektriciteit vooral wordt opgewerkt in kolen- of gascentrales. De locatie-gebaseerde meetmethode is een gemiddelde, en vereist geen inzicht in de schommelingen in de energiemix per dag of uur.
+Locatie-gebaseerde emissies worden berekend door het elektriciteitsverbruik in kilowattuur (kWh) te vermenigvuldigen met de lokale ‘emissiefactor’. Deze toont hoeveel CO2-equivalent gemiddeld vrijkomt bij de productie van een kWh aan elektriciteit. In regio’s met windmolens of waterkrachtcentrales is de emissiefactor lager dan in regio’s waar elektriciteit vooral wordt opgewerkt in kolen- of gascentrales. De locatie-gebaseerde meetmethode is een gemiddelde, en vereist geen inzicht in de schommelingen in de energiemix per dag of uur.
 
 ## Welwillendheid van leveranciers
 
@@ -89,17 +91,17 @@ Volgens Max Schulze, oprichter van de Sustainable Digital Infrastructure Allianc
 
 Ook de andere experts erkennen dat groene IT begint bij inzicht in energiegebruik. “De uitstoot van een datacenter is geen zuiver meetinstrument”, zegt Groenewoud van Ab Ovo. “Wij brengen op functieniveau eerst de gebruikte elektriciteit in kilowattuur in kaart. Daarna pas kijken we naar de locatie van het datacenter, en de energiemix op die plek.”
 
-Geen van de cloud-providers geeft echter inzicht in het aantal kWh dat hun klanten consumeren. Onlogisch, vindt Schulze van de SDIA, want je moet altijd beginnen met de efficiëntie van je product. “Als je een auto koopt, dan wil je weten hoeveel kilometer je met een liter brandstof kunt rijden om een beeld te krijgen van de efficiëntie van het voertuig. Pas daarna maak je de vertaalslag naar het aantal gram CO <sub>2</sub> -equivalent per kilometer.”
+Geen van de cloud-providers geeft echter inzicht in het aantal kWh dat hun klanten consumeren. Onlogisch, vindt Schulze van de SDIA, want je moet altijd beginnen met de efficiëntie van je product. “Als je een auto koopt, dan wil je weten hoeveel kilometer je met een liter brandstof kunt rijden om een beeld te krijgen van de efficiëntie van het voertuig. Pas daarna maak je de vertaalslag naar het aantal gram CO2-equivalent per kilometer.”
 
 ## Alternatieve oplossingen
 
-Diverse partijen springen in het gat dat door de beperkte informatievoorziening van cloud-providers is ontstaan. Zo is er Cloud Carbon Footprint (CCF), een opensource-tool die het daadwerkelijke gebruik van clouddiensten uitleest en omrekent naar zowel kilowatturen (kWh) als CO <sub>2</sub> -uitstoot. Deze data worden bovendien per uur beschikbaar gesteld, waardoor IT-teams bijvoorbeeld kunnen zien wanneer applicaties het meeste worden gebruikt en welke systemen ’s nachts onnodig blijven draaien.
+Diverse partijen springen in het gat dat door de beperkte informatievoorziening van cloud-providers is ontstaan. Zo is er Cloud Carbon Footprint (CCF), een opensource-tool die het daadwerkelijke gebruik van clouddiensten uitleest en omrekent naar zowel kilowatturen (kWh) als CO2-uitstoot. Deze data worden bovendien per uur beschikbaar gesteld, waardoor IT-teams bijvoorbeeld kunnen zien wanneer applicaties het meeste worden gebruikt en welke systemen ’s nachts onnodig blijven draaien.
 
 Hoewel het voor organisaties een mooi startpunt kan zijn voor extra inzicht, is er bij opensource-diensten zoals CCF overigens geen garantie dat deze tijdig en regelmatig wordt geüpdatet. Bij commerciële partijen is die garantie er wel, en diverse betaalde diensten zijn de laatste jaren dan ook gelanceerd, waaronder Greenpixie.
 
 ## Data van de bron
 
-Alle diensten, van de cloud-eigen dashboards tot extern ontwikkelde oplossingen, zijn gebaseerd op aannames over het energiegebruik van de servers en de digitale diensten die daarop draaien. Daarom gaat project NADIKI, een initiatief van SDIA samen met de Universiteit van Stuttgart en datacenter-operator Kolo, helemaal terug naar de bron: het datacenter. Het verzamelt live meetgegevens via sensoren en koppelt die aan de actuele CO <sub>2</sub> -intensiteit van het stroomnet. “We hebben overal sensoren, van de stroomvoorziening van het volledige datacenter, tot op rack- en serverniveau”, vertelt Schulze. Deze informatie wordt gebruikt om energiegebruik en emissies voor specifieke workloads te verzamelen.
+Alle diensten, van de cloud-eigen dashboards tot extern ontwikkelde oplossingen, zijn gebaseerd op aannames over het energiegebruik van de servers en de digitale diensten die daarop draaien. Daarom gaat project NADIKI, een initiatief van SDIA samen met de Universiteit van Stuttgart en datacenter-operator Kolo, helemaal terug naar de bron: het datacenter. Het verzamelt live meetgegevens via sensoren en koppelt die aan de actuele CO2-intensiteit van het stroomnet. “We hebben overal sensoren, van de stroomvoorziening van het volledige datacenter, tot op rack- en serverniveau”, vertelt Schulze. Deze informatie wordt gebruikt om energiegebruik en emissies voor specifieke workloads te verzamelen.
 
 Schulze: “Dit is de eerste keer dat energie en emissies ‘end-to-end’ worden gemeten.” Het project is nog in de pilot-fase, maar laat wel zien dat er verbetering mogelijk is ten opzichte van de huidige methodologieën.
 
@@ -114,3 +116,21 @@ Standaarden zijn er ook, zoals die van Boavizta, en ook het Greenhouse Gas Proto
 ## Lees verder in de technologiesector
 
 Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Sectoroverstijgend](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/alle-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Decarbonisatie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/decarbonisatie.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[Duurzaamheid](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaamheid.html)

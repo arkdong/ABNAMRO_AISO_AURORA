@@ -14,13 +14,19 @@ tag:
 ---
 ![](https://assets.abnamro.com/api/public/content/shutterstock-2136788367-landscape-4x1.jpg?t=h440)
 
-08/07/2025 • 15 minuten lezen[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+# Softwarebedrijven nog niet klaar voor AI-agents
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+08/07/2025 • 15 minuten lezen
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
 
 Hoewel vier van de vijf softwarebedrijven verwachten dat AI-agents het softwarelandschap merkbaar zullen veranderen, is bijna een derde van de ondernemingen technisch nog niet klaar om de technologie in te bedden. De helft zit in de experimenteerfase, een kwart doet nog helemaal niets met agentic AI.
 
 Een grote meerderheid van de softwarebedrijven verwacht dat het softwarelandschap merkbaar zal wijzigen door ‘AI-agents’ – slimme programma’s die zelfstandig complexe taken kunnen uitvoeren. Bijna de helft van de ondervraagden rekent zelfs op ingrijpende tot fundamentele veranderingen in de manier waarop software wordt ontworpen, gebruikt of aangestuurd, zo blijkt uit het onderzoek van ABN AMRO en Panelwizard onder 204 Software-as-a-Service-bedrijven (SaaS). SaaS is software die in abonnementsvorm wordt afgenomen en wordt aangeboden als clouddienst.
-
-<iframe height="550" src="https://localfocuswidgets.net/6867aa9729549" width="100%" frameborder="0"></iframe>
 
 ## AI-agents transformeren de softwaremarkt
 
@@ -41,8 +47,6 @@ De invloed van agents zal zich over meerdere niveaus uitstrekken. Zo gaat 75 pro
 Ook Samir Selimi, oprichter van softwarebedrijf PurchAIse, heeft een AI-agent op zijn platform naar voren geschoven. De assistent, genaamd PAI, kan een breed scala aan taken op het gebied van leveranciersmanagement oppakken, zoals het valideren van data, bestellingen doen en contracten heronderhandelen. Selimi ziet de chat met PAI als een slimme aanvulling op de traditionele gebruikersinterface, die volgens hem nog steeds waardevol zal blijven. “We zijn gewend dat dingen visueel worden weergegeven als we met een computer interacteren”, zegt hij. “Je hebt geen veertig schermen nodig of zestig tabbladen, maar wel iets van een cockpit waar je als gebruiker het overzicht kunt bewaren.”
 
 De verwachting is dat communicatie in natuurlijke taal – oftewel gewone spreek- en schrijftaal zoals mensen die zelf gebruiken - binnen software een belangrijke rol zal gaan spelen. “Je ziet een verschuiving in de manier waarop gebruikers met software interacteren”, zegt Jelle Visser van ValueBlue, een platform voor enterprise-architectuur. ValueBlue maakt software waarmee bedrijven hun IT-landschap schematisch kunnen vastleggen, analyseren en verbeteren. “Als een businessanalist wil begrijpen wat zo’n architectuurplaat hem precies vertelt, is het fijn als hij die vraag ook op die manier op ons platform kan stellen.” Voor zichzelf ziet momenteel 38 procent van de softwarebedrijven kansen voor een AI-agent als aanspreekpunt. Zelf voelt Visser geen ruimte om rustig af te wachten. “Je moet als softwarebedrijf je gebruikersinterface opnieuw uitvinden. Als wij het niet doen, dan doet onze concurrent het wel.”
-
-<iframe height="550" src="https://localfocuswidgets.net/6867ab1b11c3f" width="100%" frameborder="0"></iframe>
 
 ## Merkidentiteit communiceren via agents
 
@@ -68,8 +72,6 @@ Bijna een derde van de bedrijven richt zich breder op het verbeteren van datatoe
 
 “Die data kunnen door andere partijen worden gebruikt om AI-modellen en gespecialiseerde agents mee te ontwikkelen”, vertelt marketingdirecteur Ben Ridgway. “Wij bieden dus een ‘data-ruggengraat’ waarmee we AI-innovaties mogelijk maken, zoals slim laden en voorspellend onderhoud.” Ridgway van Last Mile Solutions, dat fungeert als een centrale hub op het gebied van e-mobiliteitssoftware, is het daar volledig mee eens. “Onze back-end is extreem complex. Er zijn zoveel data die we beheren en op de juiste manier beschikbaar moeten stellen. Voor ons is het cruciaal om keer op keer aan te tonen dat we een betrouwbare partner zijn.”
 
-<iframe height="550" src="https://localfocuswidgets.net/6867cb5151a7b" width="100%" frameborder="0"></iframe>
-
 ## Applicaties ontwikkelen à la carte
 
 AI-agents opereren niet per se binnen de grenzen van een applicatie, maar kunnen ook schakelen tussen losse databases en tools om taken zelfstandig uit te voeren. Bijvoorbeeld een agent die historische verkoopdata haalt uit systeem A, de toekomstige verkoopcijfers voorspelt op basis van een algoritme uit systeem B en de bijbehorende grafiek toont in een dashboard van systeem C. Het gaat daarmee niet zozeer om het totaalpakket, maar de manier waarop individuele stukjes software door AI-systemen kunnen worden benaderd.
@@ -77,8 +79,6 @@ AI-agents opereren niet per se binnen de grenzen van een applicatie, maar kunnen
 Al voor de opkomst van AI-agents waren veel softwarebedrijven bezig hun systemen op te knippen in kleine, herbruikbare modules en beschikbaar te maken via zogenoemde API’s of SDK’s. Ook veel AI-modellen worden via deze weg aangeboden, zodat ontwikkelaars bijvoorbeeld een slimme chatbot kunnen inbedden op hun eigen website. “Het maken van software is steeds meer een kwestie van het combineren van allerlei componenten”, zegt Visser van ValueBlue. “Toetreden tot de softwaremarkt is daardoor makkelijker dan ooit.”
 
 Dit geldt evengoed voor AI-agents, die ‘à la carte’ kunnen putten uit data en functies van verschillende leveranciers. Slechts een kwart van de SaaS-bedrijven blijkt hiervoor echter de randvoorwaarden op orde te hebben. Zij hebben de nodige digitale verbindingen in de vorm van API’s – kort voor ‘application programming interfaces’ – of zijn soms zelfs expliciet ontworpen om samen te werken met AI-agents en agentplatforms.
-
-<iframe height="550" src="https://localfocuswidgets.net/6867cb13107d4" width="100%" frameborder="0"></iframe>
 
 Als softwarebedrijven op grote schaal losse elementen van hun systemen beschikbaar stellen, dan kan het overigens knap lastig worden voor externe agents om steeds te bepalen welke functie ze van welke partij afnemen. Sebastiaan den Boer, Director AI en Data Science bij digitaal bureau Youwe: “Als je een AI-agent steeds moet laten kiezen tussen twintig tools en vijftien databases, dan moet je de daarvoor benodigde kennis ook vastleggen in een prompt. Dat kan al gauw een hele complexe instructie worden.”
 
@@ -94,8 +94,6 @@ De Reus van Stellar is minder bang voor een dergelijk scenario. Hij kan zich voo
 
 De bedrijven met fundamentele zorgen over hun businessmodel zijn in de minderheid. Softwarebedrijven ruiken massaal kansen om hun eigen product met AI-agents te verbeteren. Twee derde van de ondervraagden ziet heil in agents die namens de gebruiker taken uitvoeren, zoals het ophalen van informatie, of processen doorlopen die voorheen op basis van strikte stappen en regels gebeurden. Zes op de tien bedrijven zou AI-agents graag inzetten om hun eigen klanten te ondersteunen.
 
-<iframe height="550" src="https://localfocuswidgets.net/6867b7f6241c8" width="100%" frameborder="0"></iframe>
-
 Zo zet PurchAIse agentic AI in voor leveranciersmanagement, waaronder het ophalen en verstrekken van marktinzichten. Zo kan een – automatisch gedetecteerde – prijsdaling van ingrediënten aanleiding vormen om een contract opnieuw te onderhandelen, waarvoor AI-agent PAI vervolgens ook een mail naar de leverancier opstelt. Usere richt zich in eerste instantie op marketing en ontzorgt mkb-bedrijven onder andere door de creatie en plaatsing van social media-posts te automatiseren.
 
 Onder de respondenten is er wel zorg over de eventuele onvoorspelbaarheid van AI-agents. Bijna de helft van de softwarebedrijven ziet een gebrek aan transparantie en controle als reëel risico. AI-agents werken niet volgens vaste regels, maar op basis van waarschijnlijkheid; ze kiezen de meest waarschijnlijke vervolgstap en invulling daarvan, maar niet per se de juiste.
@@ -106,21 +104,15 @@ Onder de respondenten is er wel zorg over de eventuele onvoorspelbaarheid van AI
 
 Hoewel softwarebedrijven dus legio kansen signaleren op het gebied van agentic AI, is het maar de vraag of ze op korte termijn de benodigde stappen kunnen zetten. Bijna dertig procent van de ondervraagden twijfelt of ze technisch klaar zijn voor AI-agents; hun software-architectuur of organisatie is nog niet voldoende is ingericht op de toepassing van en integratie met agents. Opvallend is dat de kleinste bedrijven, met een jaaromzet van minder dan 2 miljoen euro, dit risico veel minder zien – mogelijk omdat hun IT-landschap minder complex en daardoor flexibeler is.
 
-<iframe height="550" src="https://localfocuswidgets.net/6867b83254dad" width="100%" frameborder="0"></iframe>
-
 Ook valt op dat een groot deel van de softwarebedrijven (53 procent) nog in de experimenteerfase verkeert met AI-agents. Deze bedrijven verkennen de technologie, maar hebben het nog niet structureel ingebed in hun product. Meer dan een kwart heeft überhaupt nog geen concrete plannen op het gebied van agentic AI. De volwassenheid op het gebied van agentic AI blijkt overigens sterk afhankelijk van de bedrijfsgrootte; er is bijna geen grootbedrijf (omzet groter dan 25 miljoen euro) te vinden dat nog niets met de technologie doet, terwijl dit binnen het microbedrijf (omzet kleiner dan 2 miljoen euro) voor 40 procent geldt. Ook zijn verticale softwarebedrijven, die zich richten op specifieke sectoren, gemiddeld minder ver dan softwarebedrijven met een bredere oriëntatie.
 
 Deze beperkte volwassenheid is zorgwekkend, want ondertussen bestormt een nieuwe generatie technologiebedrijven de markt. In 2024 werd volgens gegevens van Dealroom wereldwijd zo’n 3,2 miljard dollar geïnvesteerd in startende technologiebedrijven die agentic AI hebben ingebed in hun dienst. Het is een exponentiële groei ten opzichte van de jaren ervoor, die respectievelijk 727 miljoen en 1,3 miljard aan investeringen noteerden.
-
-<iframe height="550" src="https://localfocuswidgets.net/6867b8a1215c5" width="100%" frameborder="0"></iframe>
 
 Overigens zijn ook de klanten van SaaS-bedrijven lang niet allemaal klaar voor grootschalige toepassing van AI-agents, ziet Selimi van PurchAIse. “Technologie kan in theorie alles, maar bedrijven vinden het in de praktijk moeilijk om zich aan te passen. Het zijn veelal de mensen en processen waarop het stukloopt.”
 
 ## Onderscheidend vermogen van de toekomst
 
 Te midden van deze technologische transformatie klampen softwarebedrijven zich vast aan de relatie die zij met hun klanten hebben opgebouwd. Meer dan de helft – en binnen het grootbedrijf zelfs twee derde – verwacht hier op termijn het meeste onderscheidend vermogen te behouden, bijvoorbeeld vanwege een diep begrip van de context van de klant of samenwerking bij implementatie- en doorontwikkeling van de software. Schipper van Usere zit op eenzelfde lijn en denkt zelfs dat er ruimte is voor verbetering. “Je moet investeren in de relatie met je klant. Veel softwarebedrijven hebben lange tijd nagelaten om echt naar hun klant te luisteren.”
-
-<iframe height="550" src="https://localfocuswidgets.net/6867b92eae639" width="100%" frameborder="0"></iframe>
 
 Vooralsnog mist AI vaak context die essentieel is in specialistische sectoren. Daarom verwacht een aanzienlijk deel van de softwarebedrijven ook in de toekomst te kunnen terugvallen op domeinkennis, zoals relevante wet- en regelgeving of branche-specifieke processen. “Uiteindelijk heb je domeinexpertise nodig om echt waarde te kunnen toevoegen”, zegt Hosman van Youwe. Selimi van PurchAIse sluit zich daarbij aan. “Een van de manieren om je te onderscheiden als softwarebedrijf, is door je eindmarkt en de bijbehorende processen door en door te kennen.”
 
@@ -143,3 +135,15 @@ Een zwart-witscenario waarin SaaS volledig wordt weggevaagd door elders ontwikke
 ## Lees verder in de technologiesector
 
 Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

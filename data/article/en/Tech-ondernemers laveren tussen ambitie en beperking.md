@@ -1,0 +1,70 @@
+---
+title: "Tech entrepreneurs navigate between ambition and constraint"
+source: "https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/tech-ondernemers-laveren-tussen-ambitie-en-beperking.html"
+lang: "en"
+published: 2025-06-04
+author:
+  - "[[Julia Krauwer]]"
+description: "Europe is known for its strong regulation, but for fast-growing technology companies it rarely works to their advantage. Read more."
+tag:
+  - "[[Analyse]]"
+  - "[[Technologie, Media & Telecom]]"
+  - "[[Industrie]]"
+  - "[[AI]]"
+  - "[[Digitalisering]]"
+---
+![](https://assets.abnamro.com/api/public/content/shutterstock-2136788367-landscape-4x1.jpg?t=h440)
+
+# Tech entrepreneurs navigate between ambition and constraint
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+04/06/2025 • 3 minutes read
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+The European business climate for tech companies has been under debate for years. In their rapid growth, young technology companies often hit complex rules, fragmented markets and limited access to capital. Lawmakers do promise improvements, and entrepreneurs see the benefits of relatively stable Europe.
+
+Europe is known for its strong regulation, but for fast-growing technology companies it rarely works to their advantage. Startups that want to scale up run into 27 national tax systems, labour laws and insolvency rules. Each country has its own interpretation of corporation tax, shareholder structures and dismissal law. That hinders rapid international growth. According to the [State of European Tech report](https://www.investeurope.eu/media/g3yobbcs/soet2024_report.pdf), 47 per cent of founders and investors see regulation and policymaking as a major barrier to growth.
+
+## Limited access to growth capital
+
+Another frequently cited frustration is the limited access to growth capital. Since 2015, European startups in the growth phase have raised about 300 billion dollars, but according to the report’s authors that could have been double if they could close large rounds as easily as in the US. European companies do pass the first funding rounds, but fall back at investments from 15 million dollars. Only 4.1 per cent pass that threshold, compared with 8.3 per cent in the US.
+
+One cause is the lack of deep capital buffers. European pension funds, for example, invest only 0.01 per cent of their assets in global venture capital, more than three times less than their American counterparts. As a result, it remains difficult for European startups to scale up to the kind of tech companies that underpin digital autonomy.
+
+## Europe is not so bad after all
+
+Even so, the narrative that Europe is unfriendly to tech entrepreneurs is making way for a new story. In the State of European Tech 2024, a clear majority of European founders said they would choose to base their company in Europe again, if they could make that choice again. The current geopolitical situation can even act as a flywheel, according to Maarten Cleeren of Techleap: “America is turning inward, the market is destabilising. This creates room for companies in Europe.”
+
+The European Commission, meanwhile, wants to end the patchwork of laws and regulations with the ‘28th regime’. This allows a company to register under a set of rules that are valid in all member states. The plans are part of the broader European Innovation Act. It should make it easier for startups to raise growth capital, including across borders. Investors now still run into different tax rules, supervisors and legal structures per country. Europe wants to make that simpler, so that funds and investors can operate more smoothly in multiple countries.
+
+## Smart rewards, better financing
+
+Reforms should also make it more attractive for startups to reward staff with share options. Since 2019, eleven countries have relaxed their national rules, including Germany, France, Spain and the Netherlands. The European Commission is now examining whether an overarching system is possible, as part of broader efforts to improve the entrepreneurial climate.
+
+At the same time, political pressure is growing to have pension funds play a more active role. They now put an average of only 0.007 per cent of their assets into venture capital. In theory, they can invest larger amounts, but strict rules and internal guidelines discourage it. European institutions such as the Commission, the Investment Bank and the Investment Fund see pension funds as an important link to increase the amount of growth capital in Europe, and are exploring ways to spur that on — for example through risk-sharing via EU funds or adjusted capital requirements.
+
+The conditions for a stronger ecosystem for startups and scale-ups are slowly falling into place. Brussels is moving, and entrepreneurs themselves also see the benefits of Europe. That is essential, because technological sovereignty starts with holding on to home-grown innovative strength.
+
+[Also read: Europe focuses on technological self-sufficiency](/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-zet-in-op-technologische-zelfredzaamheid.html)
+
+## Read more in the technology sector
+
+Technology, Media & Telecom (TMT) is one of the fastest-growing sectors. Supported by the growing use of software, algorithms and sensors, this sector underpins the digital renewal of other sectors.
+
+[View all articles](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analysis](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technology, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industry](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisation](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

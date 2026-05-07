@@ -14,13 +14,19 @@ tag:
 ---
 ![](https://assets.abnamro.com/api/public/content/shutterstock-1675867219-landscape-4x1.jpg?t=h440)
 
-25/09/2025 • 8 minuten lezen[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+# Europa’s softwaremarkt op zoek naar schaal en niches
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+25/09/2025 • 8 minuten lezen
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
 
 De Europese technologiesector worstelt met het opschalen van potentiële winnaars door een gebrek aan groeikapitaal. Toch kent het continent een breed palet aan innovatieve spelers. Zo gaat in Nederland bijna twee derde van de investeringen in jonge softwarebedrijven naar partijen die artificial intelligence toepassen.
 
 In 2024 haalden jonge Europese technologiebedrijven gezamenlijk zo’n 54 miljard dollar aan durfkapitaal op. Bijna de helft daarvan, ruim 23 miljard, vloeide naar Software-as-a-Service (SaaS). Daarmee is SaaS de grootste categorie, groter dan digitale marktplaatsen of bedrijven die fysieke technologie ontwikkelen. Voor investeerders is de combinatie van stabiele abonnementen en schaalbaarheid bijzonder aantrekkelijk.
-
-<iframe height="550" src="https://localfocuswidgets.net/68d3dee61ffe4" width="100%" frameborder="0"></iframe>
 
 Tijdens de coronapandemie vloeide er overvloedig kapitaal naar technologie, geholpen door de lage rente en een zoektocht van investeerders naar schaalbare bedrijfsmodellen. SaaS profiteerde daarvan bovengemiddeld. Vanaf 2022 sloeg de inflatie echter toe en verhoogden centrale banken de rente, waardoor kapitaal duurder werd en waarderingen corrigeerden. Dat maakte investeerders terughoudender, zeker bij megadeals en verlieslatende groeibedrijven. Inmiddels lijken de volumes aan durfkapitaalinvesteringen te stabiliseren. SaaS blijft zo het zwaartepunt van Europese tech-financiering, al gaat binnen deze categorie het kapitaal steeds meer naar bedrijven die AI in hun kern hebben verweven.
 
@@ -28,19 +34,13 @@ Tijdens de coronapandemie vloeide er overvloedig kapitaal naar technologie, geho
 
 Binnen Europa trekt het Verenigd Koninkrijk de meeste SaaS-investeringen aan met ruim 77 miljard dollar in tien jaar tijd – meer dan een derde van het Europese totaal. Frankrijk en Duitsland volgen met respectievelijk 35 miljard dollar (16 procent) en 33 miljard (15 procent). Nederland staat met 9,9 miljard stabiel op de vierde plaats, goed voor een aandeel van 4,5 procent van alle Europese SaaS-investeringen tussen 2015 en 2025.
 
-<iframe height="550" src="https://localfocuswidgets.net/68d3e4c9418d4" width="100%" frameborder="0"></iframe>
-
 Helaas kampt Europa met een hardnekkig probleem: het gebrek aan kapitaal voor tech-bedrijven om uit te groeien tot internationaal concurrerende bedrijven. Amerikaanse startups weten dubbel zo vaak een ronde van meer dan 15 miljoen dollar op te halen dan hun Europese evenknieën, zo staat in het [State of European Tech-rapport](https://www.stateofeuropeantech.com/chapters/investment-levels) uit 2024. Het aandeel jonge bedrijven dat door weet te stoten naar de scale-up-fase is in Europa daardoor veel kleiner. Volgens de onderzoekers bedraagt het cumulatieve tekort inmiddels 375 miljard dollar – het totaalbedrag dat jonge tech-bedrijven de afgelopen tien jaar zouden hebben opgehaald als toegang tot grotere investeringen net zo eenvoudig was als in de Verenigde Staten (VS). In de VS gaat een groot deel van het geld zelfs naar rondes boven de 100 miljoen dollar, met een dominante rol voor megadeals boven de 250 miljoen. Hoewel in Europa niet eens zoveel minder SaaS-deals worden gesloten – afgelopen jaar waren dat er 4616, versus 5040 in de VS – blijft het zwaartepunt liggen bij kleinere rondes.
-
-<iframe height="550" src="https://localfocuswidgets.net/68d3b8d640bac" width="100%" frameborder="0"></iframe>
 
 ## Breed toepasbare SaaS-niches
 
 Durfkapitaal in Europa stroomt vooral naar een aantal herkenbare SaaS-niches. De grootste categorie is ‘enterprise software’ – oplossingen die interne processen van organisaties efficiënter maken, van HR en planningssystemen tot workflow- en ERP-tools. Zo wist de Duitse unicorn Personio zijn positie in HR-software verder te versterken, en is diens landgenoot N8N gespecialiseerd in procesautomatisering.
 
 Daarnaast zijn er andere oplossingen die in vrijwel elke sector toepasbaar zijn. Marketing- en communicatiesoftware blijft populair, met onder andere marketingplatform Brevo als voorbeeld. Skeepers helpt merken om klantreviews en andere ‘user-generated content’ slim in campagnes te verweven. Ook cybersecurity profiteert van brede toepasbaarheid, in combinatie met een algeheel gevoel van urgentie nu cyberaanvallen steeds vernuftiger worden. Zo haalde het Franse Sekoia.io in 2024 groeikapitaal op voor zijn AI-platform dat dreigingen in real-time detecteert.
-
-<iframe height="550" src="https://localfocuswidgets.net/68d3e029c5ee3" width="100%" frameborder="0"></iframe>
 
 ## SaaS voor specifieke sectoren
 
@@ -55,8 +55,6 @@ Binnen het bredere landschap neemt AI-gedreven SaaS een steeds grotere plaats in
 Desalniettemin brengt Europa een hoop innovatieve, ‘AI-first’ SaaS-bedrijven voort die zich specialiseren in allerlei niches. Nederland kent zelfs bovengemiddeld veel AI-SaaS-deals en -funding. Zo ontwikkelde Cradle een AI-model dat nieuwe eiwitten kan ontwerpen en als SaaS-dienst aan laboratoria verkoopt. Landgenoot Fourthline richt zich met AI op identiteitsfraude en compliance in de financiële sector, en FRISS doet hetzelfde voor verzekeringsrisico’s. TestGorilla maakt selectieprocessen slimmer en minder gevoelig voor bias, en Sympower gebruikt AI om elektriciteitsnetten in balans te houden.
 
 Het Duitse Accure biedt een platform voor AI-analyse van batterijdata in onder andere de mobiliteits- en industriesector, om zo veiligheid en levensduur van batterijen en accu’s te verbeteren. Het Britse Synthesia automatiseert met generatieve AI de productie van bedrijfsfilms en trainingsvideo’s en haalde begin 2025 nog 180 miljoen dollar op bij een waardering van ruim 2 miljard. En vanuit Zweden maakt Lovable een enorme groei door met een platform dat AI inzet om softwareontwikkeling te versnellen en toegankelijker te maken. Het bedrijf werd opgericht in 2023 en bereikte in enkele jaren een waardering van bijna 2 miljard dollar.
-
-<iframe height="550" src="https://localfocuswidgets.net/68d3bfea5301f" width="100%" frameborder="0"></iframe>
 
 ## Grote AI-ontwikkelaars zetten de toon
 
@@ -81,3 +79,15 @@ De huidige generatie SaaS-bedrijven laat in ieder geval zien dat er volop kansen
 ## Lees verder in de technologiesector
 
 Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

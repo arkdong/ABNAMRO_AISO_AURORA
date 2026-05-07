@@ -14,7 +14,15 @@ tag:
 ---
 ![](https://assets.abnamro.com/api/public/content/jcdecaux-adidas-tram-amsterdam-w42-02-hr-landscape-4x1.jpg?t=h440)
 
-18/12/2025 • 7 minuten lezen[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
+# Buitenreclame komt tot bloei in digitale tijdperk
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+18/12/2025 • 7 minuten lezen
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
 
 Digitale buitenreclame maakt een opmerkelijke opmars. Nieuwe schermen duiken op in winkelcentra, bushokjes en treinstations. Ook analoge buitenreclame blijft populair vanwege massabereik. De omzet van buitenreclame groeit in totaal met 5 procent in 2025 en 6 procent in 2026, verwacht ABN AMRO. Tot 2030 groeit de buitenreclameomzet naar verwachting met gemiddeld 5 procent per jaar en streeft radio voorbij als advertentiekanaal.
 
@@ -22,13 +30,9 @@ Nederland telt 83.000 objecten voor buitenreclame, zoals bushokjes, snelwegmaste
 
 Het meest voorkomende formaat is het abri-formaat (1185 mm x 1750 mm, circa 2m²), goed voor 65 procent van alle reclamedragers, te vinden in bushokjes en informatiezuilen. Het A0-formaat (841 mm x 1189 mm) beslaat 32 procent en is te vinden op driehoeksborden en elektriciteitskastjes. Grotere objecten zijn zeldzaam en variëren qua formaat; slechts 1300 objecten zijn groter dan het abri-formaat. Deze staan op locaties met groot bereik, zoals de LED-gevel van de Ziggodome in Amsterdam (23 meter hoog en 400 meter lang) of het NEO-scherm bij Hoog Catharijne in Utrecht (193 m²).
 
-<iframe height="550" src="https://localfocuswidgets.net/6942b4739b1b3" width="100%" frameborder="0"></iframe>
-
 ## Digitale buitenreclame groeit explosief en biedt nieuwe mogelijkheden
 
 In drie jaar tijd is de digitale buitenreclameomzet meer dan verdubbeld tot 172 miljoen euro in 2024, blijkt uit het Digital Ad Spend 2024 rapport van VIA/Deloitte. In 2025 groeit de omzet met 4 procent en bereikt zo’n 179 miljoen euro, verwacht ABN AMRO. Dat is 56 procent van de totale omzet buitenreclame in 2025, die naar verwachting 317 miljoen euro bedraagt. Dit is opvallend, aangezien slechts 17 procent van alle reclameobjecten digitaal is; de overige 83 procent is analoog. Digitale schermen genereren meer omzet dan analoge, omdat ze gemiddeld groter zijn, op de drukste plekken staan en meer aandacht genereren.
-
-<iframe height="550" src="https://localfocuswidgets.net/6942b4947b693" width="100%" frameborder="0"></iframe>
 
 Digitale schermen trekken meer aandacht dankzij bewegend beeld en wisselende reclames. Ze zijn bovendien groter en staan op drukke plekken in grote steden en langs drukke wegen, waar veel voorbijgangers zorgen voor een hoog bereik. Reclameobjecten op deze locaties zijn als eerste gedigitaliseerd om de hoge investeringskosten terug te verdienen. Analoge objecten worden gedigitaliseerd als het bereik groot genoeg is om de kosten te rechtvaardigen. Het nieuwe BRO Next onderzoek vormt hierbij de nieuwe standaard om bereik te meten.
 
@@ -47,8 +51,6 @@ Digitale buitenreclame onderscheidt zich van andere digitale media, zoals online
 ## Ook analoge buitenreclame blijft sterk in digitale tijdperk
 
 Analoge buitenreclame blijft relevant en groeit zelfs, met een verwachte omzetstijging van 6 procent in 2025. Daarmee bedraagt de omzet van analoge buitenreclame circa 138 miljoen euro, verwacht ABN AMRO. Hoewel digitalisering het aantal analoge objecten licht vermindert, blijven traditionele vormen zoals papieren posters en statische billboards populair bij adverteerders vanwege het massabereik. Nieuwe meetmethodes uit het BRO Next-onderzoek spelen ook een rol bij deze (her)waardering, omdat adverteerders daarmee steeds nauwkeuriger kunnen inschatten wat hun bereik is. Buitenreclame biedt als “enig overgebleven massamedium” een alternatief voor advertentiekanalen zoals televisie die als duurder worden gezien.
-
-<iframe height="550" src="https://localfocuswidgets.net/6942b4ac0c6cd" width="100%" frameborder="0"></iframe>
 
 Buitenreclame blijft onaangetast door de onlineconcurrentie die andere media treft. Bij het verplaatsen, bijvoorbeeld naar school of werk, komen mensen in contact met buitenreclame. Bushokjes, snelwegmasten, billboards en A0-frames bereiken wekelijks 80 procent van de Nederlandse bevolking. Ter vergelijking: lineaire televisie bereikt 80 procent van de Nederlandse bevolking in een maand.
 
@@ -71,3 +73,15 @@ In 1964 introduceerde Jean Claude Decaux zijn eerste bushokjes in Lyon. In ruil 
 ## Lees verder in de technologiesector
 
 Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Retail](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)

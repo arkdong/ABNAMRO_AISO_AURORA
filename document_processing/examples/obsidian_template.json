@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "ABN AMRO",
+  "behavior": "create",
+  "noteContentFormat": "{{content}}",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "lang",
+      "value": "{{selector:html?lang}}",
+      "type": "text"
+    },
+    {
+      "name": "published",
+      "value": "{{selector:[data-component-type=\"news-article-intro\"] .news-article-intro-meta-data p|split:\"•\"|first|trim|date:(\"YYYY-MM-DD\", \"DD/MM/YYYY\")}}",
+      "type": "date"
+    },
+    {
+      "name": "author",
+      "value": "{{selector:[data-component-type=news-article-intro] a.author-snippet-component .title-wrapper > p|wikilink|join:\", \"}}",
+      "type": "multitext"
+    },
+    {
+      "name": "description",
+      "value": "{{description}}",
+      "type": "text"
+    },
+    {
+      "name": "tag",
+      "value": "{{selector:#bottomChips [data-component-type=chip] a.anchor-chip|wikilink|join:\", \"}}",
+      "type": "multitext"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "{{title}}",
+  "path": "Clippings"
+}

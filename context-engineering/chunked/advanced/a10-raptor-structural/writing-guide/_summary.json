@@ -1,0 +1,12 @@
+{
+  "method": "a10",
+  "chunker_folder": "a10-raptor-structural",
+  "src_method": "writing-guide",
+  "documents_processed": 1,
+  "documents_skipped_existing": 0,
+  "chunks_total": 182,
+  "chars_total": 98557,
+  "chars_per_chunk_avg": 541.5,
+  "chunks_per_doc_avg": 182.0,
+  "elapsed_seconds": 2.34
+}

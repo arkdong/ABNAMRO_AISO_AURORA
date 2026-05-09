@@ -1,0 +1,12 @@
+{
+  "method": "c2",
+  "chunker_folder": "c2-fixed-256-25",
+  "src_method": "gpt-5",
+  "documents_processed": 59,
+  "documents_skipped_existing": 0,
+  "chunks_total": 568,
+  "chars_total": 509031,
+  "chars_per_chunk_avg": 896.2,
+  "chunks_per_doc_avg": 9.63,
+  "elapsed_seconds": 0.13
+}

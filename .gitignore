@@ -8,3 +8,4 @@ __pycache__/
 .DS_Store
 rag/results/
 logs/
+context-engineering/vector_db/

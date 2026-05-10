@@ -15,7 +15,7 @@ def test_load_by_id():
     assert "T1_DRAFT" in drafter.activates_on_intent_codes
 
 
-def test_match_drafter_plus_julia():
+def test_match_drafter_plus_tmt_generalist():
     bundle = match(
         intent_code="T1_DRAFT",
         sector="Technologie, Media & Telecom",
@@ -24,7 +24,7 @@ def test_match_drafter_plus_julia():
     workflow_ids = {p.id for p in bundle.workflow}
     expert_ids = {p.id for p in bundle.domain_expert}
     assert workflow_ids == {"drafter"}
-    assert "expert_julia_krauwer" in expert_ids
+    assert "expert_tmt_generalist" in expert_ids
 
 
 def test_match_curator_only_for_search():
@@ -33,13 +33,13 @@ def test_match_curator_only_for_search():
     assert bundle.domain_expert == ()
 
 
-def test_match_retail_media_routes_to_mario():
+def test_match_retail_media_routes_to_media_specialist():
     bundle = match(
         intent_code="T1_DRAFT",
         sector="Technologie, Media & Telecom",
         keywords=["retail media"],
     )
-    assert {p.id for p in bundle.domain_expert} == {"expert_mario_bersem"}
+    assert {p.id for p in bundle.domain_expert} == {"expert_tmt_media_advertising"}
 
 
 def test_unknown_intent_returns_empty_workflow():

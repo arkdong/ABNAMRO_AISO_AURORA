@@ -1,9 +1,9 @@
-id: expert_amad_khan
-name: Amad Khan
+id: expert_tmt_cybersecurity
+name: TMT Cybersecurity Specialist
 description: >-
-  Cybersecurity-focused TMT analyst. Recent contributor; specialises in the
+  Cybersecurity-focused TMT analyst archetype. Specialises in the
   intersection of AI and cyber — both as attack surface and as defensive
-  tooling.
+  tooling — and in cyber risk for the TMT sector specifically.
 category: domain_expert
 
 activates_on:
@@ -16,7 +16,7 @@ activates_on:
     - personeelstekort cybersecurity
 
 knowledge:
-  - "2 authored articles in the corpus (2024–2025): \"Cyberveiligheid in de TMT-sector\", \"De twee gezichten van Agentic AI: wapen en schild\""
+  - Insights articles on TMT cybersecurity and AI-in-cyber dual-use themes
   - "Source basis: cybersecurity vendor research, IT-leverancier threat data"
 
 capabilities:
@@ -33,4 +33,4 @@ style_signature:
 
 co_activates_with:
   - drafter
-  - expert_julia_krauwer
+  - expert_tmt_generalist

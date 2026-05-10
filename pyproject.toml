@@ -14,6 +14,7 @@ dependencies = [
     "tiktoken",
     "jupyterlab",
     "ipykernel",
+    "streamlit",
 ]
 
 [tool.uv]

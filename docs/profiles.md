@@ -1,7 +1,7 @@
 # AURORA — User Profiles
 
 > **Purpose.** Define the profiles the routing layer activates based on user intent.
-> **Status.** Initial draft, 2026-05-06. Domain expert content sourced from the local NL/EN article corpus (Insights → TMT) because the public author bio pages returned 503 to automated fetches. To be refined after author / stakeholder communication.
+> **Status.** Initial draft, 2026-05-06. Domain-expert content is expressed as **role-based archetypes** rather than named individuals — the corporate-context default — and sourced from the local NL/EN article corpus (Insights → TMT). Topic distribution and writing patterns are inferred from the corpus and to be refined after stakeholder communication.
 > **Machine source.** Formalised as YAML under [`/profiles`](../profiles/) — `python -m profiles.validate` checks the registry. This doc is the narrative; the YAMLs are what the loader reads.
 
 ---
@@ -15,9 +15,9 @@ Profiles fall on two **independent axes**:
 | Axis | Answers | Profiles in this iteration |
 |---|---|---|
 | **Workflow** | *How* is the user working? | Drafter, Reviewer, Curator |
-| **Domain expert** | *What* is the work about? | Julia Krauwer, Mario Bersem, Amad Khan (TMT) |
+| **Domain expert** | *What* is the work about? | TMT Sector Generalist, TMT Media & Advertising Specialist, TMT Cybersecurity Specialist |
 
-A typical request activates **one profile per axis** (e.g. *"Draft a TMT article on the EU Cyber Resilience Act"* → Drafter + Julia Krauwer). A self-checking flow may activate multiple workflow profiles (Drafter → Reviewer); a cross-domain request may activate multiple experts.
+A typical request activates **one profile per axis** (e.g. *"Draft a TMT article on the EU Cyber Resilience Act"* → Drafter + TMT Sector Generalist). A self-checking flow may activate multiple workflow profiles (Drafter → Reviewer); a cross-domain request may activate multiple experts.
 
 This two-axis model is the scalability mechanism: extending AURORA from TMT to another sector or from Insights to another channel does **not** require touching the workflow profiles — only adding new domain expert profiles (and, for non-Insights channels, new workflow guardrails). The TMT iteration is the proof case.
 
@@ -222,14 +222,14 @@ co_activates_with: [drafter]
 
 ## 5. Domain expert profiles (TMT iteration)
 
-> **Sourcing.** abnamro.nl bio pages returned 503 to automated fetches. Profile content below is derived from the local NL/EN article corpus (`data/article/{nl,en}`): topic distribution, recurring tags, article counts, and observed writing patterns. The TODO list at the end captures what to refine after author communication.
+> **Sourcing.** Profiles are role-based archetypes — generalised personas describing *what kind of expert* the work should be paired with, not specific individuals. Topic coverage, recurring formats, and stylistic patterns are derived from the local NL/EN article corpus (`data/article/{nl,en}`). The TODO list at the end captures what to refine after stakeholder communication.
 
-### 5.1 Julia Krauwer
+### 5.1 TMT Sector Generalist
 
 ```yaml
-id: expert_julia_krauwer
-name: Julia Krauwer
-description: Senior TMT-sector analyst at ABN AMRO. Most prolific author in the corpus; covers the breadth of TMT — cybersecurity, software, AI, cloud, EU tech sovereignty, sustainability of IT.
+id: expert_tmt_generalist
+name: TMT Sector Generalist
+description: Senior TMT-sector analyst archetype. Covers the breadth of Technologie, Media & Telecom — cybersecurity, software, AI, cloud, EU tech sovereignty, and sustainability of IT — at sector-update depth rather than sub-domain depth.
 category: domain_expert
 
 activates_on:
@@ -250,7 +250,7 @@ activates_on:
     - groene IT
 
 knowledge:
-  - 36 authored Insights articles (2018–2025) covering TMT sector developments
+  - Insights TMT sector updates and themed analyses (multi-year coverage)
   - Recurring report formats: "Stand van TMT" sector updates, themed analyses
   - Source basis: ABN AMRO sector data, EU regulatory texts, market reports
   - Locally available articles under data/article/{nl,en}/
@@ -270,17 +270,17 @@ style_signature:
   - Pattern: situation → driver → data point → implication for Dutch / EU businesses
   - Heavy regulatory framing — links current events to legislation
   - Bilingual EN/NL articles
-  - Co-authors with sector specialists when topics cross domains (e.g. retail × media with Mario Bersem)
+  - Pairs with sub-domain specialists when topics cross into media or deep cyber
 
-co_activates_with: [drafter, expert_amad_khan, expert_mario_bersem]
+co_activates_with: [drafter, expert_tmt_cybersecurity, expert_tmt_media_advertising]
 ```
 
-### 5.2 Mario Bersem
+### 5.2 TMT Media & Advertising Specialist
 
 ```yaml
-id: expert_mario_bersem
-name: Mario Bersem
-description: Media and advertising specialist within the TMT sector. Covers digital advertising, retail media, outdoor / billboard advertising, and the regulatory pressure on ad-tech.
+id: expert_tmt_media_advertising
+name: TMT Media & Advertising Specialist
+description: Media-and-advertising specialist archetype within the TMT sector. Covers digital advertising, retail media, outdoor / billboard advertising, and the regulatory pressure on ad-tech. Frequently bridges TMT to Retail or Leisure where ad-driven monetisation is the link.
 category: domain_expert
 
 activates_on:
@@ -298,7 +298,7 @@ activates_on:
     - media monetisation
 
 knowledge:
-  - 6 authored articles in the corpus, all TMT × advertising / media
+  - Insights articles at the TMT × advertising / media intersection
   - Cross-sector articles (TMT × Retail) where retail-media is the bridge
   - Source basis: ad-market research, EU privacy / ad-tech regulation
 
@@ -315,15 +315,15 @@ style_signature:
   - Frequently bridges TMT to Retail or Leisure when discussing ad-driven monetisation
   - Concrete examples (specific retailers, billboard exploitants)
 
-co_activates_with: [drafter, expert_julia_krauwer]
+co_activates_with: [drafter, expert_tmt_generalist]
 ```
 
-### 5.3 Amad Khan
+### 5.3 TMT Cybersecurity Specialist
 
 ```yaml
-id: expert_amad_khan
-name: Amad Khan
-description: Cybersecurity-focused TMT analyst. Recent contributor; specialises in the intersection of AI and cyber — both as attack surface and as defensive tooling.
+id: expert_tmt_cybersecurity
+name: TMT Cybersecurity Specialist
+description: Cybersecurity-focused TMT analyst archetype. Specialises in the intersection of AI and cyber — both as attack surface and as defensive tooling — and in cyber risk for the TMT sector specifically.
 category: domain_expert
 
 activates_on:
@@ -336,7 +336,7 @@ activates_on:
     - personeelstekort cybersecurity
 
 knowledge:
-  - 2 authored articles in the corpus (2024–2025): "Cyberveiligheid in de TMT-sector", "De twee gezichten van Agentic AI: wapen en schild"
+  - Insights articles on TMT cybersecurity and AI-in-cyber dual-use themes
   - Source basis: cybersecurity vendor research, IT-leverancier threat data
 
 capabilities:
@@ -351,7 +351,7 @@ style_signature:
   - Frames AI in cyber as dual-use (attack + defence)
   - TMT-specific lens — what does this trend mean for TMT companies?
 
-co_activates_with: [drafter, expert_julia_krauwer]
+co_activates_with: [drafter, expert_tmt_generalist]
 ```
 
 ---
@@ -360,14 +360,14 @@ co_activates_with: [drafter, expert_julia_krauwer]
 
 | Request | Workflow profile(s) | Domain expert(s) | Notes |
 |---|---|---|---|
-| "Draft a TMT article on the EU Cyber Resilience Act" | Drafter | Julia Krauwer | EU + cyber → Julia |
-| "Write something about retail media in Q1" | Drafter | Mario Bersem | Retail-media is Mario's beat |
-| "Draft an article on agentic AI used in cyberattacks" | Drafter | Amad Khan + Julia Krauwer | Overlapping cyber/AI domain |
+| "Draft a TMT article on the EU Cyber Resilience Act" | Drafter | TMT Sector Generalist | EU + cyber → broad TMT lens |
+| "Write something about retail media in Q1" | Drafter | TMT Media & Advertising Specialist | Retail-media is the media specialist's beat |
+| "Draft an article on agentic AI used in cyberattacks" | Drafter | TMT Cybersecurity Specialist + TMT Sector Generalist | Overlapping cyber/AI domain |
 | "Translate this Dutch TMT article to English" | Drafter | matched expert if topic identifiable | Translation reuses Drafter |
 | "Find any prior articles we have on 5G" | Curator | — | Search-only |
 | "Are there TMT articles older than a year that need renewal?" | Curator | — | Aging scan |
 | "Check this draft against the writing guide before I publish" | Reviewer | — | Compliance gate |
-| "Draft + self-check a piece on green IT" | Drafter → Reviewer | Julia Krauwer | Two-stage workflow |
+| "Draft + self-check a piece on green IT" | Drafter → Reviewer | TMT Sector Generalist | Two-stage workflow |
 
 ---
 
@@ -388,9 +388,9 @@ The TMT iteration is the proof: same Drafter / Reviewer / Curator routes succeed
 
 ## 8. Open questions / TODO (post-stakeholder communication)
 
-- [ ] Confirm with each author the accuracy of their `expertise_areas` and `topic_keywords`. Current values are inferred from corpus output, not self-reported.
-- [ ] Add author bio fields (job title, years at ABN AMRO, languages) once abnamro.nl bio pages are reachable or supplied by another path.
-- [ ] Decide whether to ship 2 or 3 expert profiles for Stage 1 — Amad's coverage overlaps significantly with Julia's; can be merged or kept separate.
+- [ ] Confirm with TMT-team stakeholders that the archetypes' `expertise_areas` and `topic_keywords` reflect how the team actually divides ownership. Current values are inferred from corpus output, not stakeholder-reported.
+- [ ] Decide whether each archetype maps 1:1 to a named author at activation time, or stays role-based all the way through to prompt assembly.
+- [ ] Decide whether to ship 2 or 3 expert profiles for Stage 1 — the Cybersecurity Specialist's coverage overlaps significantly with the Sector Generalist's; can be merged or kept separate.
 - [ ] Define the matching algorithm for `topic_keywords` (keyword-only vs embedding similarity vs hybrid). Affects Curator and expert activation.
 - [ ] Wire `activates_on.intent_codes` to the canonical intent classifier — confirm the 5 codes (T1_DRAFT, T1_TRANSLATE, T1_SEARCH, T2_COMPLIANCE, T4_RENEWAL) are the final set.
 - [ ] Decide on `co_activates_with` semantics: advisory (orchestrator may chain) or hard (orchestrator must chain)?

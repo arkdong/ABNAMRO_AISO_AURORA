@@ -17,9 +17,9 @@ profiles/
 │   ├── reviewer.yaml
 │   └── curator.yaml
 ├── domain_expert/
-│   ├── julia_krauwer.yaml
-│   ├── mario_bersem.yaml
-│   └── amad_khan.yaml
+│   ├── tmt_generalist.yaml
+│   ├── tmt_media_advertising.yaml
+│   └── tmt_cybersecurity.yaml
 └── tests/test_profiles.py
 ```
 
@@ -43,7 +43,7 @@ matched = profiles.match(
     keywords=["cybersecurity"],
 )
 # → matched.workflow      = (drafter,)
-# → matched.domain_expert = (expert_julia_krauwer,)
+# → matched.domain_expert = (expert_tmt_generalist,)
 ```
 
 ## Validation
@@ -69,7 +69,8 @@ that workflow `intent_codes` are in the canonical set
 ## Status
 
 Six profiles ship with this registry — three workflow (Drafter, Reviewer,
-Curator) and three TMT domain experts (Julia Krauwer, Mario Bersem, Amad
-Khan). The TMT experts are sourced from the local NL/EN article corpus and
-need confirmation from the authors; see
-[`docs/profiles.md`](../docs/profiles.md) §8 for the open TODO list.
+Curator) and three TMT domain-expert archetypes (Sector Generalist, Media &
+Advertising Specialist, Cybersecurity Specialist). The expert profiles are
+role-based personas inferred from the local NL/EN article corpus rather than
+named individuals; see [`docs/profiles.md`](../docs/profiles.md) §8 for the
+open TODO list.

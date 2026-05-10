@@ -7,7 +7,7 @@ executable source of truth; this file is for humans editing or reviewing YAMLs.
 
 | Field | Type | Notes |
 |---|---|---|
-| `id` | string | Stable identifier, snake_case (e.g. `drafter`, `expert_julia_krauwer`). |
+| `id` | string | Stable identifier, snake_case (e.g. `drafter`, `expert_tmt_generalist`). |
 | `name` | string | Human-readable. |
 | `description` | string | One-line summary. |
 | `category` | `workflow` \| `domain_expert` | Which axis. |

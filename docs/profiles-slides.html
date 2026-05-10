@@ -526,11 +526,11 @@ table.matrix td .pill {
       <div class="axis-card">
         <span class="tag expert">Domain expert axis</span>
         <h3>What the work is about</h3>
-        <p>Sector-specific expertise sourced from author corpus output. New sectors plug in here without touching workflow.</p>
+        <p>Sector-specific expertise expressed as role-based archetypes inferred from corpus output. New sectors plug in here without touching workflow.</p>
         <ul>
-          <li>Julia Krauwer <span class="dim">— TMT breadth (36 articles)</span></li>
-          <li>Mario Bersem <span class="dim">— Media & advertising</span></li>
-          <li>Amad Khan <span class="dim">— Cyber × AI</span></li>
+          <li>TMT Sector Generalist <span class="dim">— breadth across cyber / software / AI / cloud</span></li>
+          <li>TMT Media &amp; Advertising Specialist <span class="dim">— ad-tech, retail media, DOOH</span></li>
+          <li>TMT Cybersecurity Specialist <span class="dim">— Cyber × AI</span></li>
         </ul>
       </div>
     </div>
@@ -742,25 +742,25 @@ table.matrix td .pill {
   <section class="slide" data-slide="9">
     <div class="eyebrow">05 · Domain experts (TMT iteration)</div>
     <h2>TMT, three <em>specialisations</em>.</h2>
-    <p>Sourced from the local NL/EN article corpus — abnamro.nl bio pages 503'd to fetches. Topic distribution and writing patterns inferred from authored articles.</p>
+    <p>Role-based archetypes — generalised personas describing <em>what kind of expert</em> the work pairs with. Topic coverage and writing patterns inferred from the local NL/EN article corpus.</p>
     <div class="profiles-grid">
       <div class="pcard">
-        <div class="ptag">julia_krauwer.yaml · 36 articles</div>
-        <h3 class="violet">Julia Krauwer</h3>
-        <p>Most prolific TMT analyst. Cyber, software, AI, cloud, EU sovereignty, sustainability of IT. Analytical / report tone, regulatory framing.</p>
-        <div class="pmeta">co → drafter, expert_amad_khan, expert_mario_bersem</div>
+        <div class="ptag">tmt_generalist.yaml</div>
+        <h3 class="violet">TMT Sector Generalist</h3>
+        <p>Senior TMT analyst archetype. Cyber, software, AI, cloud, EU sovereignty, sustainability of IT. Analytical / report tone, regulatory framing.</p>
+        <div class="pmeta">co → drafter, expert_tmt_cybersecurity, expert_tmt_media_advertising</div>
       </div>
       <div class="pcard">
-        <div class="ptag">mario_bersem.yaml · 6 articles</div>
-        <h3 class="rose">Mario Bersem</h3>
-        <p>Media & advertising specialist. Retail media, DOOH, DSA, ad-tech privacy regulation. Bridges TMT to Retail / Leisure.</p>
-        <div class="pmeta">co → drafter, expert_julia_krauwer</div>
+        <div class="ptag">tmt_media_advertising.yaml</div>
+        <h3 class="rose">TMT Media &amp; Advertising Specialist</h3>
+        <p>Media &amp; advertising specialist. Retail media, DOOH, DSA, ad-tech privacy regulation. Bridges TMT to Retail / Leisure.</p>
+        <div class="pmeta">co → drafter, expert_tmt_generalist</div>
       </div>
       <div class="pcard">
-        <div class="ptag">amad_khan.yaml · 2 articles</div>
-        <h3 class="green">Amad Khan</h3>
-        <p>Cybersecurity + AI. Agentic AI as dual-use (attack & defence). IT-supplier risk. Workforce shortage. TMT-specific lens.</p>
-        <div class="pmeta">co → drafter, expert_julia_krauwer</div>
+        <div class="ptag">tmt_cybersecurity.yaml</div>
+        <h3 class="green">TMT Cybersecurity Specialist</h3>
+        <p>Cybersecurity + AI specialist. Agentic AI as dual-use (attack &amp; defence). IT-supplier risk. Workforce shortage. TMT-specific lens.</p>
+        <div class="pmeta">co → drafter, expert_tmt_generalist</div>
       </div>
     </div>
   </section>
@@ -777,19 +777,19 @@ table.matrix td .pill {
         <tr>
           <td class="req">"Draft a TMT article on the EU Cyber Resilience Act"</td>
           <td><span class="pill work">Drafter</span></td>
-          <td><span class="pill exp">Julia Krauwer</span></td>
-          <td>EU + cyber → Julia</td>
+          <td><span class="pill exp">TMT Sector Generalist</span></td>
+          <td>EU + cyber → broad TMT lens</td>
         </tr>
         <tr>
           <td class="req">"Write something about retail media in Q1"</td>
           <td><span class="pill work">Drafter</span></td>
-          <td><span class="pill exp">Mario Bersem</span></td>
-          <td>Retail-media is Mario's beat</td>
+          <td><span class="pill exp">TMT Media &amp; Advertising</span></td>
+          <td>Retail-media is the media specialist's beat</td>
         </tr>
         <tr>
           <td class="req">"Draft an article on agentic AI used in cyberattacks"</td>
           <td><span class="pill work">Drafter</span></td>
-          <td><span class="pill exp">Amad Khan</span><span class="pill exp">Julia Krauwer</span></td>
+          <td><span class="pill exp">TMT Cybersecurity</span><span class="pill exp">TMT Sector Generalist</span></td>
           <td>Overlapping cyber/AI domain</td>
         </tr>
         <tr>
@@ -819,7 +819,7 @@ table.matrix td .pill {
         <tr>
           <td class="req">"Draft + self-check a piece on green IT"</td>
           <td><span class="pill work">Drafter</span><span class="pill work">Reviewer</span></td>
-          <td><span class="pill exp">Julia Krauwer</span></td>
+          <td><span class="pill exp">TMT Sector Generalist</span></td>
           <td>Two-stage workflow</td>
         </tr>
       </tbody>
@@ -838,7 +838,7 @@ table.matrix td .pill {
       <tbody>
         <tr>
           <td class="req">New sector (Food &amp; Agri)</td>
-          <td>Add domain expert profiles for the sector's authors</td>
+          <td>Add domain expert archetypes for the sector</td>
           <td><span class="pill work">Workflow profiles unchanged</span></td>
         </tr>
         <tr>
@@ -875,9 +875,9 @@ table.matrix td .pill {
 │   ├── reviewer.yaml       <span class="ok">✓</span>
 │   └── curator.yaml        <span class="ok">✓</span>
 ├── domain_expert/
-│   ├── julia_krauwer.yaml  <span class="ok">✓</span>
-│   ├── mario_bersem.yaml   <span class="ok">✓</span>
-│   └── amad_khan.yaml      <span class="ok">✓</span>
+│   ├── tmt_generalist.yaml          <span class="ok">✓</span>
+│   ├── tmt_media_advertising.yaml   <span class="ok">✓</span>
+│   └── tmt_cybersecurity.yaml       <span class="ok">✓</span>
 └── tests/test_profiles.py
 </pre>
     <p style="margin-top:1rem; font-size:0.92rem;">Validator confirms every YAML parses, <span style="color:var(--green); font-family:var(--mono);">co_activates_with</span> references resolve, and intent codes belong to the canonical set: <code style="font-family:var(--mono); color:var(--violet);">T1_DRAFT, T1_TRANSLATE, T1_SEARCH, T2_COMPLIANCE, T4_RENEWAL</code>.</p>
@@ -902,9 +902,9 @@ table.matrix td .pill {
       <div class="status-card todo">
         <h3>○ TODO — post-stakeholder</h3>
         <ul>
-          <li><span class="mark">→</span>Confirm authors' expertise_areas & topic_keywords</li>
-          <li><span class="mark">→</span>Add bio fields when abnamro.nl is reachable</li>
-          <li><span class="mark">→</span>Decide: keep 3 experts or merge Amad into Julia</li>
+          <li><span class="mark">→</span>Confirm archetype expertise_areas &amp; topic_keywords with stakeholders</li>
+          <li><span class="mark">→</span>Decide whether archetypes map 1:1 to named authors at activation time</li>
+          <li><span class="mark">→</span>Decide: keep 3 archetypes or merge Cybersecurity into Sector Generalist</li>
           <li><span class="mark">→</span>Define topic_keyword matching (keyword vs embedding vs hybrid)</li>
           <li><span class="mark">→</span>Wire intent_codes to the canonical classifier</li>
           <li><span class="mark">→</span>Decide co_activates_with semantics (advisory vs hard)</li>

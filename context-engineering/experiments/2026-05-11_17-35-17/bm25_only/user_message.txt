@@ -1,0 +1,129 @@
+WRITING RULES (apply strictly):
+
+### 3. Wording your message > 3.1 Style > Put the reader centre stage
+[3. Wording your message > 3.1 Style > Put the reader centre stage]
+
+Put the reader centre stage
+
+All information must be correct and clear, and must not be misleading. Specific rules apply to sustainability claims to prevent greenwashing. Sustainability claims are all expressions relating to the sustainability of products, services or business operations in terms of their environmental, social or governance (ESG) aspects. These claims must be accurate, representative, specific, substantiated and up to date. In addition, the information must be understandable, appropriate and easy to find. To align with this, we follow the AFM’s Guidelines on Sustainability Claims. See Ruby (Confluence) for more information and examples (in Dutch). 
+
+Don’t write about internal processes or products, as that will not interest your readers. Put yourself in your readers’ shoes and anticipate their questions. Why is this message useful for _them_ ? 
+
+**12** 
+
+**Writing Guide • January 2026** 
+
+**Wording your message** 
+
+Question-and-answer constructions are often used in Dutch but are less common in English and should be avoided, as they can sound unnatural. 
+
+‘If you suddenly need money, you can overdraw your Privélimiet Plus account.’ 
+
+‘Your washing machine always seems to break at the worst time – when you’ve just been on an expensive holiday, for example. Our Privélimiet Plus account lets you overdraw, so you can replace your washing machine right away.’
+
+### 4. Accuracy > 4.1 Standards for spelling and vocabulary > When do we use capital letters? ABN AMRO’s standards are listed below:
+[4. Accuracy > 4.1 Standards for spelling and vocabulary > When do we use capital letters? ABN AMRO’s standards are listed below:]
+
+When do we use capital letters? ABN AMRO’s standards are listed below:
+
+## **When do we use capital letters? ABN AMRO’s standards are listed below:**
+
+- **Proper nouns:** when proper nouns are capitalised in English, only significant words 
+
+   - in the heading are capitalised (not short words such as ‘of’ and ‘the’). Examples are the University of Amsterdam, the Secretary of State. 
+
+- 
+
+   - **Department names:** always capitalise, for example Group Compliance, Group Sustainable Development, Press Office. However, when referring to the business area or market segment, no capitals are needed, as in: ‘Group Sustainable Development concentrates on **sustainable development** .’ 
+
+- 
+
+   - **Government and politics:** organisations, ministries, departments, treaties, acts, etc., generally take capital letters when their full name is used. For example: Ministry of Finance, Health and Safety at Work Act. Do not capitalise descriptions: the French **parliament** , the American , etc. The full names of political **finance department** 
+
+   - parties take capitals: Labour Party, Republican Party. Their members are also capitalised: Liberal Democrats, Republicans, etc. 
+
+- 
+
+**24** 
+
+**Writing Guide • January 2026** 
+
+**Accuracy** 
+
+- **Months and days of the week:** these always begin with a capital letter in English, as in: Sunday 10 November 2014. 
+
+- **People:** no general rules apply to ranks and titles, but as a rule of thumb, capitalise when written with a name. Examples: President Obama, King Charles, the Duke of Edinburgh. 
+
+   - **Abbreviations:** when shortened from more than one word, abbreviations are usually capitalised (PDF, AI, NGO). Note that lower case is used for measures (kg, km, mph). Acronyms are capitalised, for example UNESCO. Also see chapter 4, ‘Abbreviations’. 
+
+-
+
+### 1. Prepare your text > 1.1 Define your target audience: who are you writing for? > Example: think of questions about your text
+[1. Prepare your text > 1.1 Define your target audience: who are you writing for? > Example: think of questions about your text]
+
+Example: think of questions about your text
+
+ABN AMRO wants to receive annual results in digital format only, and will no longer accept hard-copy versions. You are writing a letter to business clients on this. Your aim is to get them to accept the change. 
+
+**Clients could ask a range of questions:**
+
+### 1. Prepare your text > 1.1 Define your target audience: who are you writing for? > Objective:
+[1. Prepare your text > 1.1 Define your target audience: who are you writing for? > Objective:]
+
+Objective:
+
+**I want to:** inform instruct convince 
+
+the reader will know [...] the reader will be able to [...] the reader will think that [...] the reader will take action [...] the reader will feel [...] 
+
+set something in motion create a feeling 
+
+Texts often have more than one objective, and that’s fine. But be careful not to cram too many messages into your text or it may become confusing. It should always be clear to your readers what they need to do after reading your text. 
+
+- **How does the reader feel about the subject?** 
+
+If you are communicating a negative or sensitive message, explain it carefully and show that you understand the reader and their point of view. 
+
+- **What are the characteristics of your target audience?** 
+
+What is their average age, for example? You should use a different tone to address young people than an older audience. Young people are also more likely to be familiar with the online possibilities we offer.
+
+### 1. Prepare your text > 1.1 Define your target audience: who are you writing for? > Objective:
+[1. Prepare your text > 1.1 Define your target audience: who are you writing for? > Objective:]
+
+Objective:
+
+**I want to:** inform instruct convince 
+
+the reader will know [...] the reader will be able to [...] the reader will think that [...] the reader will take action [...] the reader will feel [...] 
+
+set something in motion create a feeling 
+
+Texts often have more than one objective, and that’s fine. But be careful not to cram too many messages into your text or it may become confusing. It should always be clear to your readers what they need to do after reading your text. 
+
+- **How does the reader feel about the subject?** 
+
+If you are communicating a negative or sensitive message, explain it carefully and show that you understand the reader and their point of view. 
+
+- **What are the characteristics of your target audience?** 
+
+What is their average age, for example? You should use a different tone to address young people than an older audience. Young people are also more likely to be familiar with the online possibilities we offer.
+
+---
+
+STYLE REFERENCES (match their tone/structure):
+
+### Cyberattacks more dangerous due to artificial intelligence  (2024-06-04, sector: Rapport)
+Risk perception is strongest among the largest companies, according to a survey by ABN AMRO and research agency MWM2 among 895 organisations. AI seems to increase offensive power mainly in the area of social engineering. This manipulates people into sharing confidential information or taking another harmful action. AI makes this manipulation even sneakier and more convincing. Generative AI, for example, makes it very easy to create [phishing](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-phishing.html) emails. This form of AI can write texts on the basis of a few instructions — grammatically correct, without spelling mistakes and in a language of choice.
+
+### Privacy protection puts online advertising at a turning point  (2022-12-15, sector: Rapport)
+Professionals working in the online advertising chain are generally positive about this practice, according to a survey by ABN AMRO in collaboration with PanelWizard. Of the 544 respondents, two thirds (67 per cent) are employed by an advertiser; the rest work at a publisher (19 per cent) or agency (13 per cent). More than half of advertisers and a large majority of agencies indicate that personalised ads are an effective way to reach their target audience. Two thirds of publishers believe it is an effective way to monetise their ad space. Dependence on personalised ads appears substantial on both sides; about one third of advertisers (31 per cent) and publishers (34 per cent), and even forty per cent of agencies say they are dependent on this form of targeting. “Personalisation is important,” says Rogier Hosman, Chief Marketing Officer at digital agency Youwe. The company helps businesses develop and implement a digital strategy, including in online marketing. “Companies have a whole range of segments and customer types, all with different needs. So advertisers need to serve the right story to the right person.” According to the marketing boss, personalisation is also in the interest of the person who sees the ad. “As a consumer, it is pleasant to receive a relevant message and not have to wade through all kinds of nonsensical information.”
+Personalisation under fire. However, the current online advertising market focused on personalisation is changing for several reasons in favour of a – possibly – more privacy-friendly model.
+
+---
+
+TASK:
+
+I want to write about how generative AI is changing advertising for Dutch businesses
+
+Write the article now.

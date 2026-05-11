@@ -1,0 +1,22 @@
+{
+  "embedder": "e4",
+  "articles_chunker": "a9",
+  "articles_src": "gpt-5",
+  "wg_chunker": "a10",
+  "wg_src": "writing-guide",
+  "top_n": 30,
+  "top_k_articles": 3,
+  "top_k_rules": 5,
+  "retrieval_mode": "dense",
+  "use_reranker": true,
+  "reranker_model": "BAAI/bge-reranker-v2-m3",
+  "expand_parents": true,
+  "expand_tree": true,
+  "system_prompt": "default",
+  "user_template": "default",
+  "llm_model": "gpt-4o",
+  "max_tokens": 2048,
+  "dry_run": false,
+  "name": "dense_only",
+  "query": "I want to write about how generative AI is changing advertising for Dutch businesses"
+}

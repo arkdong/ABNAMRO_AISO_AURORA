@@ -24,6 +24,12 @@ Usage:
 
     # Inspect what was retrieved + the full prompt that was sent
     python -m scripts.generate --query "..." --show-context --show-prompt
+
+This file is a thin CLI on top of :mod:`scripts.api`. To use the same
+pipeline from Python, import ``RAG`` directly:
+
+    from scripts import RAG
+    bundle = RAG().retrieve("...")
 """
 
 from __future__ import annotations
@@ -31,193 +37,30 @@ from __future__ import annotations
 import argparse
 import os
 import sys
-from pathlib import Path
 
-from .retrieve import (
-    EMBEDDER_MODELS,
-    bm25_search,
-    expand_to_parents,
-    expand_tree_to_leaves,
-    rerank,
-    rrf_fuse,
-    vector_search,
+from .api import (
+    DEFAULT_ANTHROPIC_MODEL,
+    DEFAULT_ARTICLES_CHUNKER,
+    DEFAULT_ARTICLES_SRC,
+    DEFAULT_EMBEDDER,
+    DEFAULT_OPENAI_MODEL,
+    DEFAULT_RERANKER_MODEL,
+    DEFAULT_TOP_K_ARTICLES,
+    DEFAULT_TOP_K_RULES,
+    DEFAULT_TOP_N,
+    DEFAULT_WG_CHUNKER,
+    DEFAULT_WG_SRC,
+    SYSTEM_PROMPT,
+    RAG,
+    call_anthropic,
+    call_openai,
+    compose_user_message,
 )
-
-# ---------------------------------------------------------------------------
-# Defaults — wire to the best-known stack we've built so far
-# ---------------------------------------------------------------------------
-
-DEFAULT_EMBEDDER = "e4"               # BGE-M3, multilingual, no prefix needed
-DEFAULT_ARTICLES_CHUNKER = "a9"       # hybrid small-to-big (semantic parents + sentence-window children)
-DEFAULT_WG_CHUNKER = "a10"            # RAPTOR-structural 3-level tree
-DEFAULT_ARTICLES_SRC = "gpt-5"        # the GPT-5-translated article corpus
-DEFAULT_WG_SRC = "writing-guide"
-
-DEFAULT_TOP_K_ARTICLES = 3            # number of style refs to send to LLM
-DEFAULT_TOP_K_RULES = 5               # number of writing rules to send
-
-DEFAULT_ANTHROPIC_MODEL = "claude-haiku-4-5"
-DEFAULT_OPENAI_MODEL = "gpt-4o"
-
-
-SYSTEM_PROMPT = """\
-You are a content writer for ABN AMRO's business banking insights, publishing on
-abnamro.nl/zakelijk/insights. You write articles in ABN AMRO's voice for Dutch
-business readers (in English).
-
-You will receive:
-  - WRITING RULES — style guidelines retrieved from ABN AMRO's Writing Guide. Apply these strictly.
-  - STYLE REFERENCES — prior published articles with similar topic or angle. Match their tone, length, and structure.
-  - TASK — the topic the user wants you to write about.
-
-Output discipline:
-  - Use British English throughout.
-  - Write 600-800 words.
-  - Use clear subheadings (## level).
-  - Open with a 1-2 sentence lead summarising the key point.
-  - Cite the style references inline by title where relevant.
-  - End with a clear takeaway or call to action.
-  - Do not invent statistics, dates, names, or quotations.
-"""
+from .retrieve import EMBEDDER_MODELS
 
 
 # ---------------------------------------------------------------------------
-# Retrieval — wraps the hybrid+rerank+expansion pipeline for each source
-# ---------------------------------------------------------------------------
-
-
-def _hybrid_retrieve(
-    query: str,
-    embedder: str,
-    chunker: str,
-    src: str,
-    top_n: int,
-    top_k: int,
-    do_rerank: bool,
-    do_tree_expand: bool,
-    do_parent_expand: bool,
-    reranker_model: str,
-) -> list[dict]:
-    """Generic hybrid retriever shared by both article and WG paths."""
-    dense = vector_search(query, embedder, chunker, src, top_n=top_n)
-    bm25 = bm25_search(query, chunker, src, top_n=top_n)
-    candidates = rrf_fuse(dense, bm25, k=60, top_n=top_n)
-    if do_tree_expand:
-        candidates = expand_tree_to_leaves(candidates, chunker, src)
-    if do_rerank and candidates:
-        ranked = rerank(query, candidates, top_k=top_k, model_name=reranker_model)
-    else:
-        ranked = candidates[:top_k]
-    if do_parent_expand:
-        ranked = expand_to_parents(ranked, dedup=True)
-    return ranked
-
-
-def retrieve_style_references(query: str, args) -> list[dict]:
-    """Top-K relevant article chunks (with parent expansion)."""
-    return _hybrid_retrieve(
-        query=query,
-        embedder=args.embedder,
-        chunker=args.articles_chunker,
-        src=args.articles_src,
-        top_n=args.top_n,
-        top_k=args.top_k_articles,
-        do_rerank=not args.no_rerank,
-        do_tree_expand=False,                 # articles aren't a tree
-        do_parent_expand=args.expand_parents, # A5/A9 small-to-big
-        reranker_model=args.reranker_model,
-    )
-
-
-def retrieve_writing_rules(query: str, args) -> list[dict]:
-    """Top-K writing-guide leaf rules (with Pattern A tree expansion)."""
-    return _hybrid_retrieve(
-        query=query,
-        embedder=args.embedder,
-        chunker=args.wg_chunker,
-        src=args.wg_src,
-        top_n=args.top_n,
-        top_k=args.top_k_rules,
-        do_rerank=not args.no_rerank,
-        do_tree_expand=True,                  # A10 RAPTOR Pattern A
-        do_parent_expand=False,               # parents not used for WG
-        reranker_model=args.reranker_model,
-    )
-
-
-# ---------------------------------------------------------------------------
-# Prompt composition
-# ---------------------------------------------------------------------------
-
-
-def _format_rule_block(r: dict) -> str:
-    m = r["metadata"]
-    crumb = m.get("breadcrumb") or m.get("section_title") or "?"
-    return f"### {crumb}\n{r['text'].strip()}"
-
-
-def _format_reference_block(a: dict) -> str:
-    m = a["metadata"]
-    title = m.get("source_title") or "?"
-    date = m.get("source_date") or "?"
-    sector = m.get("sector") or "?"
-    return f"### {title}  ({date}, sector: {sector})\n{a['text'].strip()}"
-
-
-def compose_user_message(query: str, rules: list[dict], references: list[dict]) -> str:
-    rules_text = "\n\n".join(_format_rule_block(r) for r in rules) or "(no rules retrieved)"
-    refs_text = "\n\n".join(_format_reference_block(a) for a in references) or "(no references retrieved)"
-    return (
-        "WRITING RULES (apply strictly):\n\n"
-        f"{rules_text}\n\n"
-        "---\n\n"
-        "STYLE REFERENCES (match their tone/structure):\n\n"
-        f"{refs_text}\n\n"
-        "---\n\n"
-        f"TASK:\n\n{query}\n\n"
-        "Write the article now."
-    )
-
-
-# ---------------------------------------------------------------------------
-# LLM backends
-# ---------------------------------------------------------------------------
-
-
-def call_anthropic(system: str, user: str, model: str, max_tokens: int = 2048) -> str:
-    from anthropic import Anthropic
-
-    client = Anthropic()
-    msg = client.messages.create(
-        model=model,
-        max_tokens=max_tokens,
-        system=[
-            # Anthropic prompt caching on the system prompt — system is stable
-            # across queries so subsequent calls in the same session pay cached price.
-            {"type": "text", "text": system, "cache_control": {"type": "ephemeral"}},
-        ],
-        messages=[{"role": "user", "content": user}],
-    )
-    return "".join(b.text for b in msg.content if b.type == "text")
-
-
-def call_openai(system: str, user: str, model: str, max_tokens: int = 2048) -> str:
-    from openai import OpenAI
-
-    client = OpenAI()
-    resp = client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": system},
-            {"role": "user", "content": user},
-        ],
-        max_tokens=max_tokens,
-    )
-    return (resp.choices[0].message.content or "").strip()
-
-
-# ---------------------------------------------------------------------------
-# CLI
+# Display helpers — CLI presentation only
 # ---------------------------------------------------------------------------
 
 
@@ -232,6 +75,11 @@ def _truncate(s: str, n: int) -> str:
     return s[:n] + ("..." if len(s) > n else "")
 
 
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--query", required=True, help="what the user wants the LLM to write about")
@@ -244,12 +92,13 @@ def main() -> None:
                     help="translation method folder (gpt-5, deep-translator, source-nl)")
     ap.add_argument("--wg-chunker", default=DEFAULT_WG_CHUNKER)
     ap.add_argument("--wg-src", default=DEFAULT_WG_SRC)
-    ap.add_argument("--top-n", type=int, default=30, help="candidates per retriever before fusion")
+    ap.add_argument("--top-n", type=int, default=DEFAULT_TOP_N,
+                    help="candidates per retriever before fusion")
     ap.add_argument("--top-k-articles", type=int, default=DEFAULT_TOP_K_ARTICLES)
     ap.add_argument("--top-k-rules", type=int, default=DEFAULT_TOP_K_RULES)
     ap.add_argument("--no-rerank", action="store_true",
                     help="skip the cross-encoder reranker (faster, lower quality)")
-    ap.add_argument("--reranker-model", default="BAAI/bge-reranker-v2-m3")
+    ap.add_argument("--reranker-model", default=DEFAULT_RERANKER_MODEL)
     ap.add_argument("--expand-parents", action=argparse.BooleanOptionalAction, default=True,
                     help="for A5/A9 article chunkers, return parent_text instead of child_text")
 
@@ -269,17 +118,31 @@ def main() -> None:
 
     args = ap.parse_args()
 
-    # ---- Stage 1: retrieval ----
+    rag = RAG(
+        embedder=args.embedder,
+        articles_chunker=args.articles_chunker,
+        wg_chunker=args.wg_chunker,
+        articles_src=args.articles_src,
+        wg_src=args.wg_src,
+        top_n=args.top_n,
+        top_k_articles=args.top_k_articles,
+        top_k_rules=args.top_k_rules,
+        use_reranker=not args.no_rerank,
+        reranker_model=args.reranker_model,
+        expand_parents=args.expand_parents,
+    )
+
+    # ---- Stage 1: retrieval (separate calls so progress messages interleave correctly) ----
     print(f"[generate] query: {args.query!r}", file=sys.stderr)
     print(f"[generate] retrieving article style references "
           f"({args.articles_chunker} × {args.articles_src} via {args.embedder} + BM25)...",
           file=sys.stderr)
-    references = retrieve_style_references(args.query, args)
+    references = rag.retrieve_style_references(args.query)
 
     print(f"[generate] retrieving writing-guide rules "
           f"({args.wg_chunker} × {args.wg_src} via {args.embedder} + BM25 + tree expansion)...",
           file=sys.stderr)
-    rules = retrieve_writing_rules(args.query, args)
+    rules = rag.retrieve_writing_rules(args.query)
 
     print(f"[generate] composing prompt with {len(references)} style refs and {len(rules)} rules",
           file=sys.stderr)
@@ -290,19 +153,19 @@ def main() -> None:
     # ---- Stage 3: display retrieved context ----
     _print_section(f"STYLE REFERENCES ({len(references)} articles)")
     for i, a in enumerate(references, 1):
-        m = a["metadata"]
+        m = a.metadata
         print(f"  {i}. {m.get('source_title', '?')[:75]} "
               f"({m.get('source_date', '?')}, sector: {m.get('sector', '?')})")
         if args.show_context:
-            print(f"     {_truncate(a['text'], 220)}")
+            print(f"     {_truncate(a.text, 220)}")
 
     _print_section(f"WRITING RULES ({len(rules)} rules)")
     for i, r in enumerate(rules, 1):
-        m = r["metadata"]
+        m = r.metadata
         crumb = m.get("breadcrumb") or m.get("section_title") or "?"
         print(f"  {i}. {crumb[:90]}")
         if args.show_context:
-            print(f"     {_truncate(r['text'], 220)}")
+            print(f"     {_truncate(r.text, 220)}")
 
     if args.show_prompt:
         _print_section("FULL USER MESSAGE (what the LLM sees)", "-")

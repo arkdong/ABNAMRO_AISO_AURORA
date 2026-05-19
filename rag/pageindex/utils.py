@@ -17,8 +17,12 @@ import yaml
 from pathlib import Path
 from types import SimpleNamespace as config
 
-# Backward compatibility: support CHATGPT_API_KEY as alias for OPENAI_API_KEY
-if not os.getenv("OPENAI_API_KEY") and os.getenv("CHATGPT_API_KEY"):
+# Prefer the PageIndex-scoped key when set so this code path is decoupled from
+# the project-wide OPENAI_API_KEY / translation key. Falls back to OPENAI_API_KEY,
+# then the legacy CHATGPT_API_KEY alias.
+if os.getenv("OPENAI_API_KEY_PAGEINDEX"):
+    os.environ["OPENAI_API_KEY"] = os.environ["OPENAI_API_KEY_PAGEINDEX"]
+elif not os.getenv("OPENAI_API_KEY") and os.getenv("CHATGPT_API_KEY"):
     os.environ["OPENAI_API_KEY"] = os.getenv("CHATGPT_API_KEY")
 
 litellm.drop_params = True

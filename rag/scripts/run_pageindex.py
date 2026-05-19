@@ -98,7 +98,6 @@ if __name__ == "__main__":
         import asyncio
         
         # Use ConfigLoader to get consistent defaults (matching PDF behavior)
-        from pageindex.utils import ConfigLoader
         config_loader = ConfigLoader()
         
         # Create options dict with user args
@@ -109,9 +108,9 @@ if __name__ == "__main__":
             'if_add_node_text': args.if_add_node_text,
             'if_add_node_id': args.if_add_node_id
         }
-        
-        # Load config with defaults from config.yaml
-        opt = config_loader.load(user_opt)
+
+        # Load config with defaults from config.yaml — drop None so YAML defaults survive
+        opt = config_loader.load({k: v for k, v in user_opt.items() if v is not None})
         
         toc_with_page_number = asyncio.run(md_to_tree(
             md_path=args.md_path,

@@ -49,7 +49,9 @@ from backend.prompt_refinement import (  # noqa: E402
 )
 from backend.prompt_refinement.service import overwrite_prompt  # noqa: E402
 from backend.retrieval import (  # noqa: E402
+    ContextEngineeringProvider,
     PageIndexProvider,
+    RagProvider,
     RetrievalQuery,
     RetrievalResult,
     build_query,
@@ -138,6 +140,10 @@ st.session_state.setdefault("eval_model", "gpt-4o-mini")
 st.session_state.setdefault("eval_strict_mode", False)
 st.session_state.setdefault("messages", [])
 st.session_state.setdefault("stage_backgrounds", True)
+# Stage 3 backend — default to PageIndex (Track B) so the existing demo
+# behaviour is unchanged until a user explicitly picks Vector RAG on Settings.
+st.session_state.setdefault("retrieval_backend", "pageindex")
+st.session_state.setdefault("retrieval_use_reranker", True)
 
 
 def _inject_stage_styles() -> None:
@@ -248,6 +254,48 @@ else:
     st.caption("Pipeline: deterministic fallbacks — set the Intent API Key on **Settings**.")
 
 
+# ── Stage 3 backend toggle (two buttons) ───────────────────────────────────
+#
+# Sticky for the rest of the session. The active backend uses ``type="primary"``
+# (filled accent colour) so a glance at the row tells you what Stage 3 will do
+# for the next chat turn. Clicking the inactive button flips the choice and
+# reruns — the cached providers below remain alive so toggling back is free.
+
+
+def _render_backend_toggle() -> None:
+    current = st.session_state.get("retrieval_backend", "pageindex")
+    col_pi, col_vr = st.columns(2)
+    with col_pi:
+        pi_clicked = st.button(
+            "📚 PageIndex",
+            key="backend_btn_pageindex",
+            type="primary" if current == "pageindex" else "secondary",
+            use_container_width=True,
+            help="Vectorless LLM/keyword ranker over the cached PageIndex tree.",
+        )
+    with col_vr:
+        vr_clicked = st.button(
+            "🔍 Vector RAG",
+            key="backend_btn_vector_rag",
+            type="primary" if current == "vector_rag" else "secondary",
+            use_container_width=True,
+            help=(
+                "context-engineering BGE-M3 + BM25 hybrid with cross-encoder "
+                "rerank. Needs context-engineering/vector_db built locally; "
+                "first query warms BGE-M3 + reranker (~10–20 s, cached after)."
+            ),
+        )
+    if pi_clicked and current != "pageindex":
+        st.session_state["retrieval_backend"] = "pageindex"
+        st.rerun()
+    if vr_clicked and current != "vector_rag":
+        st.session_state["retrieval_backend"] = "vector_rag"
+        st.rerun()
+
+
+_render_backend_toggle()
+
+
 # ── Retrieval provider (corpora cached once per process) ───────────────────
 
 
@@ -256,15 +304,42 @@ def _cached_corpora():
     return load_corpora()
 
 
-def _make_retrieval_provider() -> PageIndexProvider:
-    # Retrieval (PageIndex) uses its own env-scoped key, independent of the
-    # Settings-page key (which only drives intent classification). Model still
-    # comes from Settings since intent and retrieval share that today.
-    return PageIndexProvider(
-        api_key=os.getenv("OPENAI_API_KEY_PAGEINDEX"),
-        model=st.session_state["intent_model"] or None,
-        corpora=_cached_corpora(),
-    )
+@st.cache_resource
+def _cached_context_engineering_provider(use_reranker: bool) -> ContextEngineeringProvider:
+    """Cache the Track A provider across Streamlit reruns.
+
+    The provider lazily builds the heavy BGE-M3 + reranker pipeline on first
+    ``.retrieve()`` call; caching it here keeps that cost paid once per
+    process for each (use_reranker) configuration the user toggles.
+    """
+    return ContextEngineeringProvider(use_reranker=use_reranker)
+
+
+def _make_retrieval_providers() -> list[RagProvider]:
+    """Build the provider list for Stage 3 based on the toggle at the top
+    of the chat.
+
+    - ``pageindex`` (default): Track B only — original demo behaviour.
+    - ``vector_rag``: Track A only — context-engineering's hybrid pipeline.
+
+    The PageIndex provider uses its own env-scoped key
+    (``OPENAI_API_KEY_PAGEINDEX``); Track A reads
+    ``OPENAI_API_KEY_VECTOR_RAG`` only if it later makes an LLM call
+    (retrieval-only paths need neither).
+    """
+    backend = st.session_state.get("retrieval_backend", "pageindex")
+    use_reranker = st.session_state.get("retrieval_use_reranker", True)
+
+    if backend == "vector_rag":
+        return [_cached_context_engineering_provider(use_reranker)]
+    # Default / safety net for any unknown value.
+    return [
+        PageIndexProvider(
+            api_key=os.getenv("OPENAI_API_KEY_PAGEINDEX"),
+            model=st.session_state["intent_model"] or None,
+            corpora=_cached_corpora(),
+        )
+    ]
 
 
 # ── Markdown renderers ─────────────────────────────────────────────────────
@@ -458,15 +533,20 @@ def _render_profiles_message(idx: int, m: dict, is_latest_profiles: bool) -> Non
                 )
             if proceed:
                 st.session_state["retrieval_k"] = int(k_value)
-                spinner_label = (
-                    "Retrieving context via LLM ranker…"
-                    if os.getenv("OPENAI_API_KEY_PAGEINDEX") and st.session_state["intent_model"]
-                    else "Retrieving context (deterministic keyword match)…"
-                )
+                backend = st.session_state.get("retrieval_backend", "pageindex")
+                if backend == "vector_rag":
+                    spinner_label = "Retrieving context via Vector RAG (Track A)…"
+                else:
+                    spinner_label = (
+                        "Retrieving context via LLM ranker…"
+                        if os.getenv("OPENAI_API_KEY_PAGEINDEX")
+                        and st.session_state["intent_model"]
+                        else "Retrieving context (deterministic keyword match)…"
+                    )
                 with st.spinner(spinner_label):
-                    provider = _make_retrieval_provider()
+                    providers = _make_retrieval_providers()
                     query = build_query(m["user_prompt"], intent, bundle, k=int(k_value))
-                    result = retrieve(query, providers=[provider])
+                    result = retrieve(query, providers=providers)
                 st.session_state.messages.append(
                     {
                         "role": "assistant",
@@ -563,10 +643,10 @@ def _seed_refinement(
 def _retrieve_with_intent(
     user_prompt: str, intent: IntentResult, bundle: ProfileBundle
 ) -> tuple[RetrievalQuery, RetrievalResult]:
-    provider = _make_retrieval_provider()
+    providers = _make_retrieval_providers()
     k = int(st.session_state.get("retrieval_k", 5))
     query = build_query(user_prompt, intent, bundle, k=k)
-    result = retrieve(query, providers=[provider])
+    result = retrieve(query, providers=providers)
     return query, result
 
 

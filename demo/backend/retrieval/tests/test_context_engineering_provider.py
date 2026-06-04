@@ -34,6 +34,14 @@ def _vector_db_built() -> bool:
     return all(p.exists() for p in REQUIRED_COLLECTIONS)
 
 
+def _vector_rag_deps_available() -> bool:
+    try:
+        import chromadb  # noqa: F401
+    except ModuleNotFoundError:
+        return False
+    return True
+
+
 # ---- pure helpers (no model load) -----------------------------------------
 
 
@@ -110,10 +118,11 @@ def test_retrieve_returns_empty_when_vector_db_missing(tmp_path, monkeypatch) ->
 
 
 @pytest.mark.skipif(
-    not _vector_db_built(),
+    not (_vector_db_built() and _vector_rag_deps_available()),
     reason=(
-        "Track A vector_db not built; run context-engineering/scripts.sh "
-        "to enable this test."
+        "Track A vector_db or optional dependencies are missing; run "
+        "context-engineering/scripts.sh and install "
+        "context-engineering/requirements.txt to enable this test."
     ),
 )
 def test_retrieve_end_to_end_returns_snippets() -> None:

@@ -16,6 +16,7 @@ dependencies = [
     "ipykernel",
     "streamlit",
     "openpyxl>=3.1.5",
+    "loguru>=0.7.3",
 ]
 
 [tool.uv]

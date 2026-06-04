@@ -172,9 +172,9 @@ def _bundle_to_snippets(bundle) -> list[Snippet]:
     Field mapping:
 
     - articles  → ``source_doc=source_slug``, ``title=source_title``,
-                  ``reason="style reference (Track A · Vector RAG)"``
+                  ``reason="style reference (Vector RAG)"``
     - rules     → ``source_doc="writing_guide"``, ``title=breadcrumb``,
-                  ``reason="writing rule (Track A · Vector RAG)"``
+                  ``reason="writing rule (Vector RAG)"``
     """
     out: list[Snippet] = []
     for c in bundle.style_references:
@@ -187,7 +187,7 @@ def _bundle_to_snippets(bundle) -> list[Snippet]:
                 content=c.text,
                 line_num=None,
                 score=float(c.score),
-                reason="style reference (Track A · Vector RAG)",
+                reason="style reference (Vector RAG)",
             )
         )
     for c in bundle.writing_rules:
@@ -204,7 +204,7 @@ def _bundle_to_snippets(bundle) -> list[Snippet]:
                 content=c.text,
                 line_num=None,
                 score=float(c.score),
-                reason="writing rule (Track A · Vector RAG)",
+                reason="writing rule (Vector RAG)",
             )
         )
     return out

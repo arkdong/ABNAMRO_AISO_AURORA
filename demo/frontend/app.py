@@ -535,7 +535,7 @@ def _render_profiles_message(idx: int, m: dict, is_latest_profiles: bool) -> Non
                 st.session_state["retrieval_k"] = int(k_value)
                 backend = st.session_state.get("retrieval_backend", "pageindex")
                 if backend == "vector_rag":
-                    spinner_label = "Retrieving context via Vector RAG (Track A)…"
+                    spinner_label = "Retrieving context via Vector RAG…"
                 else:
                     spinner_label = (
                         "Retrieving context via LLM ranker…"

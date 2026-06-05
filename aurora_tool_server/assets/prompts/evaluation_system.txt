@@ -1,0 +1,2 @@
+Evaluate content against the ABN AMRO KPI catalogue. Mandatory blocking
+failures must prevent approval and be surfaced in the audit trace.

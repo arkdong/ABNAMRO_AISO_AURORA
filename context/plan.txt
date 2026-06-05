@@ -1,0 +1,674 @@
+The actual implementation should be done by **turning the current AURORA pipeline into a tool server that enterprise agents can call**.
+
+Right now, the repo is a PoC: it has the pipeline logic, local PageIndex RAG, corpus-building scripts, profiles, data, docs, and placeholders for backend/frontend. The README already describes it as a standalone demonstrator, with expected deliverables including architecture design, PoC, and a later “lift and shift” deployment/adoption guide. ([GitHub][1]) The mid-cycle report also says all seven stages are built and wired, and that the system turns a vague request into a specific, on-brand, grounded prompt, generates a draft, and evaluates it against the 134-KPI workbook.
+
+So the implementation path is not to rebuild everything. It is to **wrap the existing pipeline into production-grade modules, APIs, and agent tools**.
+
+---
+
+## 1. Target implementation shape
+
+The final architecture should look like this:
+
+```text
+Enterprise user
+   ↓
+ChatGPT Enterprise / Microsoft 365 Copilot / Azure AI Foundry Agent
+   ↓
+AURORA Tool Layer
+   ├── classify_intent()
+   ├── select_profile()
+   ├── retrieve_context()
+   ├── build_context_pack()
+   ├── refine_prompt()
+   ├── generate_draft()
+   ├── evaluate_draft()
+   ├── full_pipeline_run()
+   └── get_audit_trace()
+   ↓
+AURORA Core Services
+   ├── Corpus index
+   ├── PageIndex retrieval
+   ├── Vector RAG
+   ├── Profile catalogue
+   ├── KPI catalogue
+   ├── Policy rules
+   └── Audit database
+```
+
+The key change is this:
+
+```text
+Current PoC:
+User → fixed seven-stage pipeline → draft
+
+Final product:
+Agent → chooses AURORA tools as needed → governed, grounded output
+```
+
+OpenAI’s current tools documentation supports giving models external capabilities through function calling, tool search, and remote MCP servers. ([OpenAI Developers][2]) Microsoft 365 Copilot plugins can also connect declarative agents to MCP servers or REST APIs described by OpenAPI. ([Microsoft Learn][3]) That means the same AURORA backend can be exposed to both ecosystems.
+
+---
+
+## 2. First implementation decision: build an “AURORA Tool Server”
+
+Do **not** start by building a fancy autonomous UI.
+
+The first production version should be:
+
+```text
+AURORA Tool Server = REST API + MCP Server + audit logging
+```
+
+This server owns the ABN-specific logic. The external LLM agent owns the conversation and orchestration.
+
+A practical repo structure would be:
+
+```text
+ABNAMRO_AISO_AURORA/
+├── aurora/
+│   ├── core/
+│   │   ├── schemas.py
+│   │   ├── run_state.py
+│   │   ├── intent.py
+│   │   ├── profiles.py
+│   │   ├── retrieval.py
+│   │   ├── context_pack.py
+│   │   ├── prompt_refinement.py
+│   │   ├── generation.py
+│   │   ├── evaluation.py
+│   │   └── audit.py
+│   │
+│   ├── api/
+│   │   ├── main.py              # FastAPI app
+│   │   ├── routes_intent.py
+│   │   ├── routes_retrieval.py
+│   │   ├── routes_generation.py
+│   │   ├── routes_evaluation.py
+│   │   └── routes_audit.py
+│   │
+│   ├── mcp/
+│   │   └── server.py            # exposes AURORA tools to agents
+│   │
+│   ├── adapters/
+│   │   ├── openai_adapter.py
+│   │   ├── azure_openai_adapter.py
+│   │   ├── local_llm_adapter.py
+│   │   ├── vector_store_adapter.py
+│   │   └── pageindex_adapter.py
+│   │
+│   └── config/
+│       ├── profiles/
+│       ├── policies/
+│       ├── kpi_catalogue/
+│       └── thresholds.yaml
+│
+├── data/
+├── rag/
+├── profiles/
+├── backend/
+├── frontend/
+└── docs/
+```
+
+Your current repo already has `data`, `rag`, `profiles`, `backend`, and `frontend` folders, and the README says the existing setup uses local PageIndex RAG over the Writing Guide and English articles. ([GitHub][1]) So the implementation should mostly fill the missing backend layer and formalize the existing logic into reusable modules.
+
+---
+
+## 3. Refactor each pipeline stage into a callable service
+
+Each current stage becomes a function with a strict input/output contract.
+
+### Example contracts
+
+```python
+class IntentResult(BaseModel):
+    task_type: str
+    sector: str | None
+    topic_keywords: list[str]
+    output_language: str
+    risk_level: str
+    clarification_needed: bool
+    reasoning_summary: str
+```
+
+```python
+class ProfileBundle(BaseModel):
+    workflow_profile: str
+    domain_profiles: list[str]
+    editorial_rules: list[str]
+    compliance_rules: list[str]
+    justification: str
+```
+
+```python
+class RetrievedSource(BaseModel):
+    source_id: str
+    title: str
+    section: str | None
+    snippet: str
+    score: float
+    retrieval_path: str  # "pageindex", "vector", or "hybrid"
+    citation_url: str | None
+```
+
+```python
+class EvaluationResult(BaseModel):
+    maturity_score: float
+    passed: bool
+    blocking_failures: list[str]
+    kpi_results: list[dict]
+    revision_instructions: list[str]
+```
+
+The mid-cycle report already defines these conceptual stages: intent classification turns the raw prompt into structured task fields; profile selection injects workflow and domain standards; retrieval grounds the task in approved material; refinement rewrites the vague request using profiles and snippets; evaluation scores the output against the KPI catalogue; and auditability records the whole decision path.
+
+The product implementation just makes those stages **formal, typed, independently callable, and reusable**.
+
+---
+
+## 4. Keep the full pipeline, but add tool-level access
+
+You need two modes.
+
+### Mode A — Full pipeline mode
+
+This preserves the current PoC behavior.
+
+```http
+POST /v1/runs
+```
+
+Request:
+
+```json
+{
+  "user_prompt": "Write an article about AI regulation for tech companies",
+  "language": "en",
+  "content_type": "insights_article",
+  "sector": "TMT",
+  "run_mode": "full_pipeline"
+}
+```
+
+Response:
+
+```json
+{
+  "run_id": "run_123",
+  "status": "completed",
+  "draft": "...",
+  "citations": [...],
+  "evaluation": {
+    "passed": true,
+    "maturity_score": 0.86,
+    "blocking_failures": []
+  },
+  "audit_url": "/v1/runs/run_123/audit"
+}
+```
+
+This is useful for demos, benchmarking, and users who want the whole AURORA flow.
+
+### Mode B — Tool mode
+
+This is the final product mode.
+
+```http
+POST /v1/intent/classify
+POST /v1/profiles/select
+POST /v1/retrieval/search
+POST /v1/context-pack/build
+POST /v1/prompts/refine
+POST /v1/drafts/generate
+POST /v1/evaluations/score
+GET  /v1/runs/{run_id}/audit
+```
+
+This lets a Microsoft or OpenAI agent decide:
+
+```text
+Do I need retrieval?
+Do I need profile selection?
+Do I only need evaluation?
+Should I ask the user a clarification question?
+Should I block generation because source grounding is too weak?
+```
+
+That is where the system becomes agentic.
+
+---
+
+## 5. Implement the MCP layer
+
+For plug-and-play with modern agent platforms, expose AURORA through **MCP** as well as REST.
+
+The MCP tools should mirror the REST endpoints:
+
+```text
+aurora_classify_intent
+aurora_select_profile
+aurora_retrieve_context
+aurora_build_context_pack
+aurora_refine_prompt
+aurora_generate_draft
+aurora_evaluate_draft
+aurora_full_pipeline_run
+aurora_get_audit_trace
+```
+
+OpenAI’s Apps SDK documentation describes connecting a backend MCP server to ChatGPT, defining tools, and optionally registering UI templates. ([OpenAI Developers][4]) Microsoft’s Copilot plugin documentation also supports MCP servers or REST APIs as the way for Copilot agents to retrieve data and perform actions. ([Microsoft Learn][3])
+
+So the practical product decision is:
+
+```text
+REST API = enterprise integration, internal services, admin dashboards
+MCP server = direct agent plug-in interface
+```
+
+---
+
+## 6. Implement the Microsoft Copilot integration
+
+For Microsoft, the likely path is:
+
+```text
+AURORA API / MCP Server
+   ↓
+Microsoft 365 Copilot plugin
+   ↓
+Declarative agent
+   ↓
+ABN user in Microsoft 365 Copilot
+```
+
+The declarative agent would have instructions like:
+
+```text
+You are the ABN AMRO Insights Content Assistant.
+
+For any content generation, you must call AURORA before drafting.
+
+Use aurora_classify_intent to understand the request.
+Use aurora_retrieve_context to ground the answer in approved ABN sources.
+Use aurora_evaluate_draft before returning final content.
+If evaluation returns blocking_failures, do not present the draft as approved.
+```
+
+The plugin can be backed by an OpenAPI-described REST API or an MCP server. Microsoft also supports authentication for MCP and API plugins using OAuth 2.0, Microsoft Entra ID SSO, API keys for API plugins, or anonymous access. ([Microsoft Learn][5]) For a bank, the realistic choice would be **Microsoft Entra ID SSO**.
+
+You would also configure response semantics so retrieved source items can render as clickable citations in Copilot. Microsoft’s citation documentation says the plugin manifest can map fields in returned JSON to citation title, subtitle, and URL fields. ([Microsoft Learn][6])
+
+---
+
+## 7. Implement the OpenAI integration
+
+For OpenAI, there are two realistic options.
+
+### Option 1 — OpenAI Agent calls AURORA tools
+
+You define AURORA as a set of tools available to an OpenAI agent:
+
+```python
+agent = Agent(
+    name="ABN AMRO Content Agent",
+    instructions="""
+    You are an ABN AMRO content assistant.
+    Never generate final content without calling AURORA retrieval and evaluation.
+    If AURORA evaluation fails, revise or escalate.
+    """,
+    tools=[
+        aurora_classify_intent,
+        aurora_retrieve_context,
+        aurora_refine_prompt,
+        aurora_generate_draft,
+        aurora_evaluate_draft,
+    ],
+)
+```
+
+OpenAI’s Agents SDK is intended for orchestration with tools, integrations, tracing, guardrails, and human review. ([OpenAI Developers][7])
+
+### Option 2 — ChatGPT App / MCP server
+
+Expose AURORA as an MCP server and connect it as a ChatGPT app-style backend. This is cleaner if the goal is “plug in and play” rather than hardcoding AURORA inside one custom application. OpenAI’s current tools docs support remote MCP servers as a way to connect models to external services. ([OpenAI Developers][8])
+
+---
+
+## 8. Implement the agent decision policy
+
+The autonomous part should not be free-form. It should be **policy-bounded**.
+
+A practical decision policy:
+
+```text
+If user asks for content generation:
+    classify intent
+    select profile
+    retrieve approved context
+    build context pack
+    refine prompt
+    generate draft
+    evaluate draft
+    if passed:
+        return draft with citations
+    if failed but fixable:
+        revise once or twice
+    if blocking failure:
+        block or escalate to human
+
+If user asks for review only:
+    evaluate draft
+    return KPI result and revision instructions
+
+If user asks for source research:
+    retrieve context only
+    return source pack with citations
+
+If retrieval confidence is too low:
+    ask clarification or refuse to generate
+
+If intent changes during clarification:
+    rerun profile selection and retrieval
+```
+
+This matches your current architectural insight: the value is upstream, because a chatbot fails when the input is vague, generic, not on-brand, and not grounded. The report explicitly argues that adding autonomy to a weak, ungrounded prompt can widen the gap rather than close it.
+
+So the autonomous agent should decide **which AURORA tool to call**, but AURORA should decide **whether the result is allowed**.
+
+---
+
+## 9. Implement admin configuration
+
+The feedback document already says RAG thresholds, number of retrieved articles, sector filters, source-selection rules, maturity scores, compliance blockers, grounding quality, and generated-content acceptance thresholds can be configurable.
+
+So create an admin config file first:
+
+```yaml
+retrieval:
+  vector_top_k: 8
+  pageindex_top_k: 5
+  minimum_similarity: 0.72
+  allowed_corpora:
+    - insights_articles_en
+    - writing_guide
+    - approved_marketing_references
+
+generation:
+  require_citations: true
+  minimum_sources: 3
+  allow_ungrounded_claims: false
+
+evaluation:
+  minimum_maturity_score: 0.80
+  block_on_compliance_failure: true
+  max_revision_attempts: 2
+
+languages:
+  enabled:
+    - en
+    - nl
+  default: en
+```
+
+Later this becomes an admin UI.
+
+The feedback document also says multilingual support is possible because the current pipeline already captures output language during intent classification, although full multilingual production would require language-specific corpora, profiles, and evaluation rules.
+
+---
+
+## 10. Implement the audit database
+
+This is essential for a corporate/banking product.
+
+Every run should create an append-only audit trail:
+
+```text
+run_id
+user_id
+timestamp
+original_user_prompt
+classified_intent
+selected_profiles
+retrieved_sources
+refined_prompt
+generation_model
+generated_draft
+evaluation_result
+revision_attempts
+final_status
+human_override, if any
+```
+
+Do not only log the final output. Log every stage.
+
+The mid-cycle report already positions inspectability and auditability as core system properties: each stage emits a typed artifact with human-readable justification, and every decision can be reconstructed after the fact.
+
+A simple implementation:
+
+```text
+PostgreSQL
+├── runs
+├── run_events
+├── retrieved_sources
+├── generated_drafts
+├── evaluations
+├── kpi_results
+└── human_reviews
+```
+
+For early MVP, SQLite/Postgres is enough. For enterprise deployment, use managed Postgres or an approved internal database.
+
+---
+
+## 11. Implement deployment for a restricted banking environment
+
+The feedback document already gives the right deployment principle: keep corpora, indexes, prompts, logs, and model calls inside approved infrastructure; use controlled source boundaries, inspectable artifacts, KPI evaluation, and auditability; and use either a local LLM or an approved provider such as OpenAI or Microsoft.
+
+A realistic deployment would be:
+
+```text
+ABN-controlled Azure environment
+├── AURORA API container
+├── AURORA MCP server container
+├── Postgres audit database
+├── Vector database / Azure AI Search / internal equivalent
+├── Blob storage for corpora and generated artifacts
+├── Key Vault for secrets
+├── Entra ID for authentication
+├── Private networking
+└── Approved LLM endpoint
+```
+
+The LLM should sit behind an adapter:
+
+```python
+class LLMProvider(Protocol):
+    def classify_json(self, prompt: str, schema: type[BaseModel]) -> BaseModel: ...
+    def generate_text(self, prompt: str) -> str: ...
+    def evaluate_json(self, prompt: str, schema: type[BaseModel]) -> BaseModel: ...
+```
+
+Then you can swap:
+
+```text
+OpenAI API
+Azure OpenAI
+Microsoft Foundry model
+local/internal model
+```
+
+The feedback document already says the LLM can be changed for the full pipeline or specific modules as long as input/output contracts remain stable, and that any model switch should be tested against the KPI catalogue.
+
+---
+
+## 12. Minimal viable implementation plan
+
+### Sprint 1 — Stabilize the current PoC as backend code
+
+Take the notebook/script logic and move it into proper Python modules:
+
+```text
+intent.py
+profiles.py
+retrieval.py
+prompt_refinement.py
+generation.py
+evaluation.py
+audit.py
+```
+
+Deliverable:
+
+```text
+python -m aurora.run --prompt "Write about AI regulation in TMT"
+```
+
+returns:
+
+```text
+draft.md
+sources.json
+evaluation.json
+audit.json
+```
+
+### Sprint 2 — Add REST API
+
+Use FastAPI or equivalent.
+
+Deliverable:
+
+```text
+POST /v1/runs
+POST /v1/retrieval/search
+POST /v1/evaluations/score
+GET /v1/runs/{id}/audit
+```
+
+This makes the existing pipeline callable by other systems.
+
+### Sprint 3 — Add MCP server
+
+Expose the same functions as agent tools.
+
+Deliverable:
+
+```text
+aurora_full_pipeline_run
+aurora_retrieve_context
+aurora_evaluate_draft
+aurora_get_audit_trace
+```
+
+This is the plug-in layer.
+
+### Sprint 4 — Add Microsoft/OpenAI agent wrappers
+
+Build one Microsoft Copilot declarative agent and one OpenAI agent prototype.
+
+Deliverable:
+
+```text
+User asks in Copilot / ChatGPT:
+"Draft an article on cybersecurity regulation for TMT clients."
+
+Agent calls:
+1. aurora_classify_intent
+2. aurora_retrieve_context
+3. aurora_refine_prompt
+4. aurora_generate_draft
+5. aurora_evaluate_draft
+
+User receives:
+draft + citations + evaluation summary
+```
+
+### Sprint 5 — Add enterprise governance
+
+Add:
+
+```text
+Entra ID / OAuth
+role-based access control
+configurable thresholds
+audit database
+human approval mode
+source allowlists
+evaluation gates
+```
+
+### Sprint 6 — Pilot with one real use case
+
+Do not pilot everything. Pick one:
+
+```text
+Insights article assistant
+```
+
+Then later expand to:
+
+```text
+marketing text
+chatbot/voicebot answers
+internal policy summaries
+client communication drafts
+```
+
+The feedback document already states that the current PoC is tailored to Insights articles, but the underlying pipeline can be adapted to other content types by replacing or extending corpora, profiles, and evaluation KPIs.
+
+---
+
+## 13. What the first production version should include
+
+The first real product version should include:
+
+```text
+1. AURORA Core Python package
+2. REST API
+3. MCP server
+4. PageIndex + vector retrieval adapter
+5. Profile catalogue
+6. KPI catalogue
+7. Threshold configuration
+8. Audit database
+9. OpenAI agent demo
+10. Microsoft Copilot plugin demo
+11. Admin config file
+12. Deployment guide for ABN-controlled Azure environment
+```
+
+It should **not** yet include:
+
+```text
+1. Fully autonomous production publishing
+2. Automatic publishing to the website
+3. Unlimited corpus access
+4. User-editable compliance rules without review
+5. Generation without evaluation
+```
+
+The first production-grade promise should be:
+
+> AURORA can be called by an approved enterprise agent to produce or review content using approved ABN AMRO context, configurable thresholds, citations, KPI evaluation, and a full audit trail.
+
+---
+
+## 14. The clean implementation story
+
+You can describe the implementation like this:
+
+> The next implementation step is to convert AURORA from a notebook-style demonstrator into a modular tool server. Each existing pipeline stage becomes a typed backend service with a stable input/output contract. The full seven-stage pipeline remains available as one endpoint for compatibility, but each stage is also exposed independently as a REST endpoint and MCP tool. This allows enterprise LLM agents, such as Microsoft Copilot agents or OpenAI-based agents, to call only the AURORA capabilities needed for the task.
+>
+> The AURORA backend will remain inside approved infrastructure and own the bank-specific control plane: source boundaries, profiles, retrieval indexes, prompt rules, KPI evaluation, acceptance thresholds, and audit logs. The LLM provider supplies the model and agent runtime, while AURORA supplies the governed context, quality gates, and traceability. This shifts the project from a fixed PoC pipeline into a plug-and-play enterprise grounding layer.
+
+My recommended first build target would be: **AURORA Tool Server v1: REST + MCP + full-pipeline endpoint + audit trail.**
+
+[1]: https://github.com/arkdong/ABNAMRO_AISO_AURORA "GitHub - arkdong/ABNAMRO_AISO_AURORA: AI Technical Project AURORA from ABN AMRO x AISO · GitHub"
+[2]: https://developers.openai.com/api/docs/guides/tools?utm_source=chatgpt.com "Using tools | OpenAI API"
+[3]: https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/overview-plugins?utm_source=chatgpt.com "Plugins for Microsoft 365 Copilot"
+[4]: https://developers.openai.com/apps-sdk/build/mcp-server?utm_source=chatgpt.com "Build your MCP server – Apps SDK"
+[5]: https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/plugin-authentication?utm_source=chatgpt.com "Configure authentication for MCP and API plugins in agents"
+[6]: https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/plugin-citations?utm_source=chatgpt.com "Show citations with response semantics in declarative agents"
+[7]: https://developers.openai.com/api/docs/guides/agents?utm_source=chatgpt.com "Agents SDK | OpenAI API"
+[8]: https://developers.openai.com/api/docs/guides/tools-connectors-mcp?utm_source=chatgpt.com "MCP and Connectors | OpenAI API"

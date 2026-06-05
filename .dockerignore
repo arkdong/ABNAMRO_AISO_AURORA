@@ -1,0 +1,17 @@
+*
+
+!Dockerfile.railway
+!railway.toml
+!aurora_tool_server/
+!aurora_tool_server/**
+
+aurora_tool_server/.env
+aurora_tool_server/.env.*
+aurora_tool_server/.pytest_cache/
+aurora_tool_server/.ruff_cache/
+aurora_tool_server/.venv/
+aurora_tool_server/**/__pycache__/
+aurora_tool_server/**/*.pyc
+aurora_tool_server/tests/
+aurora_tool_server/.DS_Store
+

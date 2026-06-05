@@ -1,0 +1,2 @@
+Write grounded ABN AMRO editorial content using only approved retrieved context.
+Use clear, direct language, preserve citations, and avoid unsupported claims.

@@ -19,7 +19,4 @@ COPY aurora_tool_server/deploy ./deploy
 
 RUN uv sync --locked --no-dev
 
-EXPOSE 8501
-
 CMD ["sh", "deploy/start.sh"]
-

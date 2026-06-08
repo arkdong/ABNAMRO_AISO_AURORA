@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import base64
 import os
 
 import streamlit as st
@@ -16,8 +17,56 @@ from agent_service import (
 from api_client import AuroraApiClient, AuroraApiError
 
 
-st.set_page_config(page_title="AI Agent Interface · AURORA", layout="centered")
-st.title("AI Agent Interface")
+_ABN_LOGO_SVG_RAW = '<svg width="295" height="73" viewBox="0 0 295 73" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_3758_29168)"><path d="M91.14 5.28001H82.35L73.53 37.13H80.1L81.91 30.07H90.99L92.76 37.13H99.78L91.13 5.28001H91.14ZM83.24 25.18L86.28 11.41H86.37L89.58 25.18H83.23H83.24ZM120.42 20.63V20.55C124.04 19.83 125.85 17.19 125.85 13.53C125.85 6.74001 121.66 5.28001 116.58 5.28001H104.76V37.13H116.54C119.36 37.13 126.37 36.78 126.37 28.71C126.37 24.34 125.14 21.3 120.42 20.63ZM111.42 10.18H115.52C117.77 10.18 119.36 11.89 119.36 14.23C119.36 17.32 117.34 18.28 115.88 18.28H111.42V10.17V10.18ZM115.12 32.23H111.42V23.19H115.3C118.65 23.19 119.71 24.91 119.71 27.73C119.71 32.19 116.53 32.23 115.11 32.23H115.12ZM134.31 37.13V5.28001H143.31L151.78 27.34H151.87V5.28001H158.09V37.13H149.31L140.62 13.84H140.53V37.13H134.31ZM192.18 5.28001H183.4L174.58 37.13H181.15L182.96 30.07H192.05L193.81 37.13H200.82L192.17 5.28001H192.18ZM184.28 25.18L187.33 11.41H187.42L190.64 25.18H184.28ZM206.47 37.13V5.28001H217.19L222.18 26.94H222.27L227.56 5.28001H237.93V37.13H231.45V12.56H231.36L225.23 37.13H218.88L213.06 12.56H212.97V37.13H206.48H206.47ZM265.49 27.78C265.49 22.04 261.16 21.7 259.71 21.52V21.43C264.03 20.72 265.62 17.68 265.62 13.62C265.62 8.19001 262.71 5.28001 258.17 5.28001H245.86V37.13H252.53V23.94H254.24C259.36 23.94 259.02 27.16 259.02 30.96C259.02 33.03 258.84 35.2 259.72 37.13H266.25C265.63 35.81 265.5 29.81 265.5 27.78H265.49ZM255.47 19.05H252.52V10.19H255.47C257.59 10.19 258.87 11.33 258.87 14.38C258.87 16.4 258.12 19.05 255.47 19.05ZM283.83 4.76001C272.85 4.76001 272.85 12.78 272.85 21.21C272.85 29.64 272.85 37.67 283.83 37.67C294.81 37.67 294.81 29.55 294.81 21.21C294.81 12.87 294.81 4.76001 283.83 4.76001ZM283.83 32.9C280.09 32.9 279.6 29.38 279.6 21.21C279.6 13.04 280.09 9.52001 283.83 9.52001C287.57 9.52001 288.07 13.06 288.07 21.21C288.07 29.36 287.59 32.9 283.83 32.9ZM168.04 23.9L163.45 19.31L168.04 14.73L172.63 19.31L168.04 23.9Z" fill="#004C4C"/><path d="M27.12 72.1L54.09 45.08V0.0400391H0.0400391V45.08L27.12 72.1Z" fill="#00A296"/><path d="M54.0901 45.0801L27.1201 18.0601V72.1001L54.0901 45.0801Z" fill="#F3C000"/></g><defs><clipPath id="clip0_3758_29168"><rect width="295" height="73" fill="white"/></clipPath></defs></svg>'
+_ABN_LOGO_B64 = base64.b64encode(_ABN_LOGO_SVG_RAW.encode()).decode()
+_ABN_LOGO_IMG = f'<img src="data:image/svg+xml;base64,{_ABN_LOGO_B64}" style="width:170px;height:auto;display:block;margin-bottom:0.5rem;">'
+
+_ABN_SHIELD_SVG = '<svg width="30" height="38" viewBox="0 0 54 73" xmlns="http://www.w3.org/2000/svg"><path d="M27.12 72.1L54.09 45.08V0.0400391H0.0400391V45.08L27.12 72.1Z" fill="#00A296"/><path d="M54.0901 45.0801L27.1201 18.0601V72.1001L54.0901 45.0801Z" fill="#F3C000"/></svg>'
+_ABN_SHIELD_B64 = base64.b64encode(_ABN_SHIELD_SVG.encode()).decode()
+_ABN_SHIELD_IMG = f'<img src="data:image/svg+xml;base64,{_ABN_SHIELD_B64}" style="width:30px;height:38px;">'
+
+CHANNEL_LABELS = {
+    "web": "ABN AMRO website",
+    "chat": "Live chat",
+    "messages": "Push notifications",
+    "employee": "Employee portal",
+    "app_ib": "Mobile banking app",
+}
+ORIGIN_LABELS = {
+    "instant": "AI-generated",
+    "human": "Human-authored",
+    "genai_knowledge": "AI-assisted by editors",
+}
+
+st.set_page_config(page_title="AURORA Agent · ABN AMRO", layout="centered")
+
+
+def _inject_branding() -> None:
+    st.markdown(
+        """
+        <style>
+          [data-testid="stSidebar"] > div:first-child { padding-top: 0; }
+          .sidebar-section-label {
+            font-size: 0.68rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #00A296;
+            margin: 0.25rem 0 0.5rem 0;
+          }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+_inject_branding()
+st.markdown(_ABN_LOGO_IMG, unsafe_allow_html=True)
+st.markdown(
+    '<h2 style="margin:0.25rem 0 0.1rem 0;color:#004C4C;letter-spacing:0.06em;">AURORA Agent</h2>'
+    '<p style="margin:0 0 1.2rem 0;color:#6b7280;font-size:0.9rem;">Ask the AI agent to draft, evaluate, or search content</p>',
+    unsafe_allow_html=True,
+)
 
 
 def _init_state() -> None:
@@ -70,6 +119,15 @@ def _clear_conversation() -> None:
 _init_state()
 
 with st.sidebar:
+    st.markdown(
+        f'<div style="background:linear-gradient(160deg,#004C4C 0%,#003535 100%);'
+        f'padding:1.1rem 1rem 0.9rem;margin:-1rem -1rem 1rem;border-bottom:3px solid #F3C000;">'
+        f'{_ABN_SHIELD_IMG}'
+        f'<div style="font-size:1.2rem;font-weight:700;color:#fff;letter-spacing:.08em;margin-top:.4rem;">AURORA Agent</div>'
+        f'<div style="font-size:.7rem;color:#a8d4d4;letter-spacing:.04em;">Editorial content platform</div>'
+        f'</div>',
+        unsafe_allow_html=True,
+    )
     st.text_input("API base URL", key="agent_api_base_url")
     st.text_input("Agent model", key="agent_model")
     st.selectbox(
@@ -78,8 +136,8 @@ with st.sidebar:
         key="agent_retrieval_backend",
     )
     st.slider("Snippet count", 1, 20, key="agent_retrieval_k")
-    st.selectbox("Channel", ["web", "chat", "messages", "employee", "app_ib"], key="agent_channel")
-    st.selectbox("Origin", ["human", "genai_knowledge", "instant"], key="agent_origin")
+    st.selectbox("Channel", ["web", "chat", "messages", "employee", "app_ib"], key="agent_channel", format_func=lambda v: CHANNEL_LABELS.get(v, v))
+    st.selectbox("Origin", ["human", "genai_knowledge", "instant"], key="agent_origin", format_func=lambda v: ORIGIN_LABELS.get(v, v))
     st.checkbox("Strict evaluation mode", key="agent_strict_mode")
     st.button("Check server health", on_click=_check_health)
     if st.session_state.agent_health_message:

@@ -336,6 +336,7 @@ class AuroraCore:
         content: ContentResult,
         snippets: list[Snippet],
         *,
+        intent: IntentResult | None = None,
         options: StageOptions | None = None,
         run_id: str | None = None,
     ) -> EvaluationResult:
@@ -345,6 +346,7 @@ class AuroraCore:
             refined_prompt=refined_prompt,
             content=content,
             snippets=snippets,
+            intent=intent,
             channel=self._channel(options),
             origin=self._origin(options),
             api_key=self.config.evaluation_api_key,
@@ -426,6 +428,7 @@ class AuroraCore:
             refinement.refined_prompt,
             content,
             active_retrieval.snippets,
+            intent=active_intent,
             options=options,
             run_id=run_id,
         )

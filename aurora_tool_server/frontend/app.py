@@ -796,20 +796,35 @@ def _render_evaluation_message(idx: int, message: dict[str, Any]) -> None:
                 st.markdown(f"- **{category}** — {level}")
         dclp = result.get("dclp_steps_required") or []
         if dclp:
-            st.markdown("**Editorial signoff required**")
+            st.markdown("**Editorial signoff required (dCLP)** — human steps AURORA flags but never auto-clears")
             for step in dclp:
-                st.markdown(f"- `{step}`")
+                st.markdown(f"- `{step}` — awaiting signoff")
+        tier_labels = {
+            1: "Tier 1 · Deterministic checks",
+            2: "Tier 2 · LLM judges",
+            3: "Tier 3 · Human signoff (dCLP)",
+        }
         with st.expander(f"Detailed KPI breakdown ({len(result.get('results', []))} checks)"):
-            for kpi in sorted(
-                result.get("results", []),
-                key=lambda item: (0 if item.get("weight") == "Blocking" else 1, item.get("kpi_id", "")),
-            ):
-                badge = "pass" if kpi.get("passed") else "fail"
-                st.markdown(
-                    f"- **{badge}** · **{kpi.get('name')}** · "
-                    f"weight=`{kpi.get('weight')}` · value=`{kpi.get('value')}`  \n"
-                    f"  _{kpi.get('reason', '')}_"
-                )
+            for tier in (1, 2, 3):
+                tier_results = [k for k in result.get("results", []) if k.get("tier") == tier]
+                if not tier_results:
+                    continue
+                st.markdown(f"**{tier_labels[tier]}**")
+                for kpi in sorted(
+                    tier_results,
+                    key=lambda item: (0 if item.get("weight") == "Blocking" else 1, item.get("kpi_id", "")),
+                ):
+                    if tier == 3:
+                        badge = "⏳ awaiting signoff"
+                    elif kpi.get("source") == "skipped":
+                        badge = "skipped"
+                    else:
+                        badge = "pass" if kpi.get("passed") else "fail"
+                    st.markdown(
+                        f"- **{badge}** · **{kpi.get('name')}** · "
+                        f"weight=`{kpi.get('weight')}` · value=`{kpi.get('value')}`  \n"
+                        f"  _{kpi.get('reason', '')}_"
+                    )
 
 
 def _render_error_message(idx: int, message: dict[str, Any]) -> None:

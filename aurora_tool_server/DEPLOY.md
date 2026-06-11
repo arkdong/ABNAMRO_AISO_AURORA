@@ -25,8 +25,9 @@ Railway can deploy directly from the repository root. The repo-root
 3. Leave `PORT` unset so Railway injects it.
 4. Add the secrets below.
 5. Deploy, then generate a public domain.
-6. If Railway asks for a target port, leave it unset. If a target port already
-   exists, remove it so the public domain follows Railway's injected `PORT`.
+6. If Railway asks for a target port, set it to the port shown in the runtime
+   log line `Starting Streamlit on 0.0.0.0:...`, or remove and regenerate the
+   domain so it follows Railway's injected `PORT`.
 
 ## Local Railway Docker Check
 
@@ -83,7 +84,8 @@ runs FastAPI internally on `127.0.0.1:8000`.
 2. Do not set a custom root directory.
 3. Let Railway build from `Dockerfile.railway`.
 4. Add the secrets above.
-5. Generate a public domain without a custom target port.
+5. Generate a public domain. If it fails with "Application failed to respond",
+   set the domain target port to the port shown in the Streamlit startup log.
 
 ## Security Note
 

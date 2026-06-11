@@ -109,6 +109,7 @@ def aurora_evaluate_draft_handler(payload: dict[str, Any]) -> dict[str, Any]:
             request.refined_prompt,
             request.content,
             request.snippets,
+            intent=request.intent,
             options=request.options,
         )
     )

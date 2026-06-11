@@ -85,6 +85,10 @@ class Snippet(BaseModel):
     score: float
     reason: str
     source_url: str | None = None
+    # Workbook KPI 03.02.01 "Approved source content for GenAI": sources not
+    # allowed for GenAI use carry an exclusion tag. Provenance pipelines set
+    # this; the evaluator blocks drafts citing excluded sources.
+    exclude_for_genai: bool = False
 
 
 class RetrievalResult(BaseModel):
@@ -133,10 +137,13 @@ class ContentResult(BaseModel):
 class KPIResult(BaseModel):
     kpi_id: str
     name: str
+    cluster: str | None = None
     category: str | None = None
     weight: Literal["Blocking", "High", "Medium", "Low"] = "Medium"
     monitoring: Literal["Mandatory", "Optional"] = "Optional"
+    indicator: str | None = None  # scale enum name, e.g. "ErrorScale"
     value: str
+    raw_metric: dict[str, Any] | None = None  # underlying number/snippet for tier 1
     reason: str = ""
     tier: Literal[1, 2, 3] = 1
     passed: bool

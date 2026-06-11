@@ -143,20 +143,13 @@ class _FakeOpenAICompletions:
                 done=True,
                 reasoning="The prompt was already specific enough to lock.",
             )
-        elif name == "_LLMEvaluationResult":
-            kpi_ids = re.findall(r"- ([a-z0-9_]+):", user_message)
-            parsed = response_format(
-                results=[
-                    {
-                        "kpi_id": kpi_id,
-                        "value": "passed",
-                        "passed": True,
-                        "reason": "The content satisfies this KPI.",
-                    }
-                    for kpi_id in kpi_ids
-                ],
-                reasoning="LLM judge found the generated content acceptable.",
-            )
+        elif name.startswith("JudgeOutput_"):
+            from aurora_tool_server.evaluation.indicators import PASSING_VALUES
+
+            scale_cls = response_format.model_fields["value"].annotation
+            passing = PASSING_VALUES.get(scale_cls)
+            value = next(iter(passing)) if passing else list(scale_cls)[0]
+            parsed = response_format(value=value, reason="Judge passes in test.")
         else:
             raise AssertionError(f"Unexpected response format {name}")
         return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(parsed=parsed))])
@@ -200,3 +193,8 @@ def test_llm_config_routes_all_pipeline_stages(monkeypatch):
     assert result.content.source == "llm"
     assert result.evaluation is not None
     assert result.evaluation.source == "llm"
+
+    tier2 = [r for r in result.evaluation.results if r.tier == 2]
+    assert len(tier2) == 13
+    assert all(r.source == "llm" for r in tier2)
+    assert all(r.passed for r in tier2)

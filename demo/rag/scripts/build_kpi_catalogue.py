@@ -76,6 +76,9 @@ COL = {
     "rel_employee": 26, "rel_app_ib": 27,
     "guardrail_category": 28, "guardrail_category_comment": 29,
     "guardrail_tag": 30, "guardrail_tag_comment": 31,
+    # "Original inventory based on dashboards" block: source rule name and
+    # the web human-authored dashboard cell — the Textmetrics/PowerBI binding.
+    "original_name": 32, "original_type": 33, "dashboard_web": 37,
 }
 
 # Map free-text indicator strings to the indicator enum names in
@@ -141,6 +144,32 @@ def _derive_category(primary_cluster: str | None) -> str | None:
     return head or None
 
 
+def _category_words(name: str) -> frozenset[str]:
+    """Comparable word set for category matching ('&'→'and', punctuation out)."""
+    s = re.sub(r"\s+", " ", name.lower().replace("&", "and"))
+    return frozenset(re.findall(r"[a-z]+", s))
+
+
+def _canonical_category(derived: str | None, category_names: list[str]) -> str | None:
+    """Map the KPI-row-derived category onto the category-row spelling.
+
+    The workbook spells categories differently between the KPI rows' primary
+    cluster prefixes and the category rows themselves ('Compliancy  &
+    substantive quality' double-space, 'Content management' vs '(Source)
+    content management', 'Generic content quality check' vs 'Generic quality
+    check', '&' vs 'and'). Maturity rollups and dashboard joins need ONE
+    spelling, so the category-row name (whitespace-collapsed) is canonical.
+    """
+    if not derived:
+        return None
+    derived_words = _category_words(derived)
+    for canonical in category_names:
+        canon_words = _category_words(canonical)
+        if derived_words == canon_words or derived_words <= canon_words or canon_words <= derived_words:
+            return re.sub(r"\s+", " ", canonical)
+    return re.sub(r"\s+", " ", derived)
+
+
 def _short_cluster(primary_cluster: str | None) -> str | None:
     if not primary_cluster or "/" not in primary_cluster:
         return primary_cluster
@@ -197,6 +226,7 @@ def build() -> dict:
         kpi = {
             "id": slug,
             "name": name,
+            "number": _norm_text(ws.cell(ri, COL["number"]).value),
             "primary_cluster": primary_cluster,
             "secondary_cluster": _norm_text(
                 ws.cell(ri, COL["secondary_cluster"]).value
@@ -207,12 +237,17 @@ def build() -> dict:
             "weight": weight,
             "contribution": _norm_text(ws.cell(ri, COL["contribution"]).value),
             "norm": _norm_text(ws.cell(ri, COL["norm"]).value),
+            "norm_source": _norm_text(ws.cell(ri, COL["norm_source"]).value),
             "norm_chat": _norm_text(ws.cell(ri, COL["norm_chat"]).value),
+            "norm_chat_source": _norm_text(ws.cell(ri, COL["norm_chat_src"]).value),
             "norm_messages": _norm_text(ws.cell(ri, COL["norm_messages"]).value),
+            "norm_messages_source": _norm_text(ws.cell(ri, COL["norm_messages_src"]).value),
             "measurement": _norm_text(ws.cell(ri, COL["measurement"]).value),
             "indicator_phrase": indicator_phrase,
             "indicator": _map_indicator(indicator_phrase),
             "automated_match": _norm_text(ws.cell(ri, COL["automated_match"]).value),
+            "tool_rule": _norm_text(ws.cell(ri, COL["original_name"]).value),
+            "tool_dashboard": _norm_text(ws.cell(ri, COL["dashboard_web"]).value),
             "relevance": {
                 "human": _norm_text(ws.cell(ri, COL["rel_human"]).value),
                 "genai_knowledge": _norm_text(ws.cell(ri, COL["rel_genai_knowledge"]).value),
@@ -224,7 +259,13 @@ def build() -> dict:
                 "app_ib": _norm_text(ws.cell(ri, COL["rel_app_ib"]).value),
             },
             "guardrail_category": _norm_text(ws.cell(ri, COL["guardrail_category"]).value),
+            "guardrail_category_comment": _norm_text(
+                ws.cell(ri, COL["guardrail_category_comment"]).value
+            ),
             "guardrail_tag": _norm_text(ws.cell(ri, COL["guardrail_tag"]).value),
+            "guardrail_tag_comment": _norm_text(
+                ws.cell(ri, COL["guardrail_tag_comment"]).value
+            ),
         }
         kpis.append(kpi)
 
@@ -233,6 +274,11 @@ def build() -> dict:
     # Inventory sheet. We materialise them so the Tier 2 GenAI rater judges
     # have catalogue entries to bind to.
     synthetic_genai_rater = [
+        {
+            "id": "unique_added_value",
+            "name": "Unique, added value in content for user",
+            "source": "Criteria sheet — Search quality raters for GenAI",
+        },
         {
             "id": "no_paraphrase",
             "name": "No paraphrased content",
@@ -279,8 +325,20 @@ def build() -> dict:
                 "guardrail_category": "[Missing category]",
                 "guardrail_tag": None,
                 "source_block": s["source"],
+                # Only name + guardrail_category come from the Criteria sheet;
+                # weight/monitoring/norm/relevance are builder defaults.
+                "fields_inferred": True,
             }
         )
+
+    # Canonicalize KPI categories onto the category-row spelling — the
+    # workbook spells them differently between KPI-row cluster prefixes and
+    # the category rows, which splits maturity rollups and dashboard joins.
+    category_names = [c["name"] for c in categories]
+    for c in categories:
+        c["name"] = re.sub(r"\s+", " ", c["name"])
+    for k in kpis:
+        k["category"] = _canonical_category(k["category"], category_names)
 
     return {
         "source_xlsx": str(XLSX_PATH.relative_to(REPO_ROOT)),

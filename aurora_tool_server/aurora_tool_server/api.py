@@ -95,6 +95,7 @@ def evaluate_draft(request: EvaluateRequest) -> EvaluationResult:
         request.refined_prompt,
         request.content,
         request.snippets,
+        intent=request.intent,
         options=request.options,
     )
 

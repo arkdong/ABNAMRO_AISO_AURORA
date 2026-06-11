@@ -273,23 +273,28 @@ INDICATOR_REGISTRY: dict[str, type[Enum]] = {
 }
 
 
-# Per-scale: which enum values count as "passing the norm". Used by the
-# service to derive ``KPIResult.passed`` from the indicator value alone for
-# all the typical pass/fail scales. KPIs with bespoke norm-string semantics
-# (e.g. specific deviation tolerances) override this in their checker.
+# Per-scale: which enum values count as acceptable for the default
+# generation-time review. This is intentionally softer than a final
+# publication audit: minor issues stay visible in the KPI value/reason, but
+# they do not make an otherwise usable generation fail the stage.
 PASSING_VALUES: dict[type[Enum], set[Enum]] = {
     PresenceScale: {PresenceScale.present},
     YesNoScale: {YesNoScale.yes},
     DeviationYesNo: {DeviationYesNo.no},
-    DeviationScale: {DeviationScale.none_},
-    # Workbook norm for Clarity is "no ambiguities" — only ``none`` passes.
-    AmbiguityScale: {AmbiguityScale.none_},
-    RelevanceScale: {RelevanceScale.reasonable, RelevanceScale.highly},
+    DeviationScale: {DeviationScale.few, DeviationScale.none_},
+    AmbiguityScale: {AmbiguityScale.few, AmbiguityScale.none_},
+    RelevanceScale: {
+        RelevanceScale.somewhat,
+        RelevanceScale.reasonable,
+        RelevanceScale.highly,
+    },
     GroundednessScale: {GroundednessScale.reasonable, GroundednessScale.full},
-    # Factuality is Blocking with norm "no substantial errors in knowledge" —
-    # "few errors" must not pass the gate.
-    ErrorScale: {ErrorScale.none_},
-    CompletenessScale: {CompletenessScale.mostly, CompletenessScale.full},
+    ErrorScale: {ErrorScale.few, ErrorScale.none_},
+    CompletenessScale: {
+        CompletenessScale.fairly,
+        CompletenessScale.mostly,
+        CompletenessScale.full,
+    },
     ClarityScale: {ClarityScale.clear, ClarityScale.very_clear},
     FitScale: {FitScale.optimal},
     OptionsScale: {OptionsScale.limited, OptionsScale.many},
@@ -300,7 +305,11 @@ PASSING_VALUES: dict[type[Enum], set[Enum]] = {
     ExclusionScale: {ExclusionScale.no_exclusion},
     Maturity: {Maturity.medium, Maturity.high},
     PublishedScale: {PublishedScale.published},
-    LanguageLevelScale: {LanguageLevelScale.A1, LanguageLevelScale.A2, LanguageLevelScale.B1},
+    LanguageLevelScale: {
+        LanguageLevelScale.A1,
+        LanguageLevelScale.A2,
+        LanguageLevelScale.B1,
+    },
 }
 
 

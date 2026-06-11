@@ -1,2 +1,3 @@
-Evaluate content against the ABN AMRO KPI catalogue. Mandatory blocking
-failures must prevent approval and be surfaced in the audit trace.
+Evaluate content against the ABN AMRO KPI catalogue with the default
+generation-stage policy: block only material content risks, and surface
+broader workbook KPI findings as review guidance.

@@ -1,8 +1,9 @@
 """Tier 1 — deterministic content checks.
 
-These run on every generated piece of content before any LLM judge fires.
-They are cheap, repeatable and the failures of any Mandatory-Blocking
-Tier 1 KPI short-circuits the rest of the pipeline.
+These run before any LLM judge fires. The default generation stage keeps the
+active registry small and objective; broader readability/SEO/style checkers
+remain in this module for audit workflows, but they are not part of the
+default pass/fail gate.
 
 Each check is a pure function returning a :class:`KPIResult`. The dispatcher
 ``run_tier1`` walks the catalogue, picks the checker registered for each
@@ -656,37 +657,16 @@ def check_main_keyword_first_words(
 
 CheckFn = Callable[[KPI, EvalRequest, ContentResult], KPIResult]
 
-# Map ``kpi.id`` (the slug from the catalogue) → checker. KPIs missing from
-# this registry get no Tier 1 result; they're picked up by Tier 2 or stay
-# un-evaluated (the service marks those as ``skipped``).
+# Map ``kpi.id`` (the slug from the catalogue) → default generation-time
+# checker. KPIs missing from this registry stay out of the active evaluation
+# stage; they can still be wired into a stricter audit profile later.
 CHECK_REGISTRY: dict[str, CheckFn] = {
-    # ── Readability cluster (Accessibility & inclusion / readability) ──
-    "sentence_number_of_words": check_sentence_length,
-    "paragraph_bubble_number_of_words_sentences": check_paragraph_length,
-    "text_number_of_sentences": check_text_sentence_count,
-    "reading_level": check_reading_level_b1,
-    # ── Language / writing style ───────────────────────────────────────
-    # Workbook 06.03.04 "B1: max. 0 passive sentences" (Mandatory/High).
-    # NOT registered under ``sentence_structure`` (01.02.06, "max. 3
-    # difficult sentences") — that is a different phenomenon, left to a
-    # future check.
-    "writing_style_active": check_passive_voice,
-    # ── Structuring & design cluster ───────────────────────────────────
-    "bullet_list_points": check_bullet_list_presence,
+    # ── Objective content defects ──────────────────────────────────────
+    "factuality_truthfullness": check_factuality_no_hallucinated_citations,
     "images_with_missing_alt_text": check_images_alt_present,
-    "headers_and_titles": check_headers_titles_length,
-    # ── Content structure / SEO ────────────────────────────────────────
-    "h1_header_presence": check_h1_count,
-    "h1_header_keywords": check_keyword_in_h1,
-    "h2_6_headers_number": check_h2_h6_count,
-    "text_number_of_words": check_text_word_count,
-    "body_content_key_word_density": check_keyword_density,
-    "body_content_key_words_in_first_words": check_main_keyword_first_words,
-    "referrals": check_referrals,
-    # ── Compliancy & substantive quality (Blocking floors) ─────────────
+    # ── Source governance ──────────────────────────────────────────────
     "tracability": check_tracability,
     "approved_source_content_for_genai": check_approved_source_for_genai,
-    "factuality_truthfullness": check_factuality_no_hallucinated_citations,
 }
 
 
@@ -698,17 +678,25 @@ def run_tier1(
     origin: Origin,
     channel: Channel,
 ) -> list[KPIResult]:
-    """Run every registered Tier 1 check that applies to this content.
+    """Run registered Tier 1 checks that apply to this content.
 
-    ``include_conditional=True``: KPIs marked "Only applicable for GenAI
-    source" (tracability, approved-source) run for every origin — the
-    checks themselves no-op gracefully when the content carries no
-    citations, and skipping two Blocking source checks on the default
-    ``instant`` origin would silently disable the gate they exist for.
+    The workbook marks source-management rows as "Only applicable for GenAI
+    source" on instantly generated output. We honour that default for
+    tracability so an instant draft is not rejected only because the writer
+    omitted source IDs. If a draft does carry citations, the explicit
+    approved-source exclusion check is still added because that metadata is
+    objective and generation-critical.
     """
-    applicable = catalogue.applicable(
-        origin=origin, channel=channel, include_conditional=True
-    )
+    applicable = list(catalogue.applicable(origin=origin, channel=channel))
+    if gen.citations and "approved_source_content_for_genai" in CHECK_REGISTRY:
+        try:
+            approved_source = catalogue.by_id("approved_source_content_for_genai")
+        except KeyError:
+            approved_source = None
+        if approved_source is not None and all(
+            k.id != approved_source.id for k in applicable
+        ):
+            applicable.append(approved_source)
     out: list[KPIResult] = []
     for kpi in applicable:
         fn = CHECK_REGISTRY.get(kpi.id)

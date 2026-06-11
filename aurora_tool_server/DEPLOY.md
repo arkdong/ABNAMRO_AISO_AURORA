@@ -11,7 +11,7 @@ This deployment runs the full standalone AURORA experience from `aurora_tool_ser
 
 Use a Docker-based web service on Render or Railway.
 
-Do not deploy `demo/` for the live agent. The deployable standalone app is
+Do not deploy `archive/` for the live agent. The deployable standalone app is
 `aurora_tool_server/`.
 
 ## Railway From Repo Root

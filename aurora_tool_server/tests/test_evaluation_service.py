@@ -2,15 +2,16 @@
 
 Covers:
 1. Stub path (no LLM): runs Tier 1 + skipped Tier 2, passes the gate.
-2. Blocking short-circuit: a Tier 1 Blocking failure skips Tier 2 entirely.
+2. Material Tier 1 blockers still short-circuit.
 3. dCLP requirements appear for ``genai_knowledge`` origin.
-4. ``strict_mode`` flips skipped Tier 2 to failing.
+4. ``strict_mode`` flips skipped Blocking Tier 2 checks to failing.
 """
 
 from __future__ import annotations
 
 from aurora_tool_server.evaluation import evaluate_draft
-from aurora_tool_server.schemas import ContentResult
+from aurora_tool_server.evaluation.service import _gate_blocking
+from aurora_tool_server.schemas import ContentResult, KPIResult
 from eval_fixtures import make_generation, make_request
 
 
@@ -88,13 +89,10 @@ def test_strict_mode_flips_skipped_to_failing():
     assert tier2
     # In strict mode, all skipped tier-2 entries are marked failing.
     assert all(not k.passed for k in tier2)
-    # None of them are Blocking, so the gate still passes (Blocking failures
-    # would have appeared in failed_blocking).
-    blocking_failures = [
-        k for k in tier2 if k.weight == "Blocking" and not k.passed
-    ]
-    if blocking_failures:
-        assert all(b.kpi_id in r.failed_blocking for b in blocking_failures)
+    assert not r.passed
+    blocking_failures = [k for k in tier2 if k.weight == "Blocking"]
+    assert blocking_failures
+    assert all(b.kpi_id in r.failed_blocking for b in blocking_failures)
 
 
 def test_evaluation_result_envelope_metadata():
@@ -118,14 +116,14 @@ def test_tier3_pending_signoffs_do_not_gate():
     assert all(k not in r.failed_blocking for k in r.dclp_steps_required)
 
 
-def test_tracability_blocks_on_instant_origin():
-    # "Only applicable for GenAI source" KPIs must still run on the default
-    # instant origin — an uncited draft fails the Blocking tracability gate.
+def test_tracability_does_not_block_instant_origin():
+    # The workbook scopes tracability to GenAI source content for instant
+    # output. Missing citations are therefore not a default generation blocker.
     req = make_request()
     gen = ContentResult(body="# Title\n\nBody without citations.", citations=[])
     r = _evaluate(req, gen, api_key=None, model=None)  # origin defaults to instant
-    assert not r.passed
-    assert "tracability" in r.failed_blocking
+    assert r.passed
+    assert "tracability" not in r.failed_blocking
 
 
 def test_excluded_source_blocks_draft():
@@ -140,9 +138,25 @@ def test_excluded_source_blocks_draft():
     assert "approved_source_content_for_genai" in r.failed_blocking
 
 
+def test_default_gate_allows_minor_blocking_judge_values():
+    minor = KPIResult(
+        kpi_id="factuality_truthfullness",
+        name="Factuality & truthfullness",
+        weight="Blocking",
+        monitoring="Mandatory",
+        value="few",
+        tier=2,
+        passed=False,
+        source="llm",
+    )
+    severe = minor.model_copy(update={"value": "moderate"})
+    assert _gate_blocking([minor], origin="instant") == []
+    assert _gate_blocking([severe], origin="instant") == ["factuality_truthfullness"]
+
+
 def test_tier2_respects_origin_relevance():
-    # groundedness/completeness are "Not applicable" for human-authored
-    # content in the workbook — those judges must not run for origin=human.
+    # Groundedness is "Not applicable" for human-authored content in the
+    # workbook — that judge must not run for origin=human.
     from aurora_tool_server.evaluation.catalogue import load_catalogue
     from aurora_tool_server.evaluation.tier2_judges import JUDGES, run_tier2
 
@@ -154,15 +168,13 @@ def test_tier2_respects_origin_relevance():
     ids = {r.kpi_id for r in results}
     assert "groundedness_source" not in ids
     assert "completeness_source" not in ids
-    assert len(results) == len(JUDGES) - 2
+    assert len(results) == len(JUDGES) - 1
 
 
 def test_no_intent_does_not_fail_the_draft():
-    # Raw /v1/evaluations/score callers may not have an intent — the two
-    # intent-dependent checks must skip rather than fail.
+    # Raw /v1/evaluations/score callers may not have an intent. The default
+    # generation gate no longer runs keyword SEO checks, so this still passes.
     req, gen = make_request(intent=None), make_generation()
     r = _evaluate(req, gen, api_key=None, model=None)
-    keyword = next(k for k in r.results if k.kpi_id == "h1_header_keywords")
-    assert keyword.source == "skipped"
-    assert keyword.passed
+    assert all(k.kpi_id != "h1_header_keywords" for k in r.results)
     assert r.passed

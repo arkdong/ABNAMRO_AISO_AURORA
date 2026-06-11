@@ -194,7 +194,9 @@ def test_llm_config_routes_all_pipeline_stages(monkeypatch):
     assert result.evaluation is not None
     assert result.evaluation.source == "llm"
 
+    from aurora_tool_server.evaluation.tier2_judges import JUDGES
+
     tier2 = [r for r in result.evaluation.results if r.tier == 2]
-    assert len(tier2) == 13
+    assert len(tier2) == len(JUDGES)
     assert all(r.source == "llm" for r in tier2)
     assert all(r.passed for r in tier2)

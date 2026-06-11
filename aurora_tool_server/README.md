@@ -3,7 +3,7 @@
 Standalone phase-1 AURORA backend exposing the editorial grounding pipeline as
 Python core services, a REST API, and MCP tools.
 
-This package intentionally does not import from `../demo`. Runtime assets are
+This package intentionally does not import from `../archive`. Runtime assets are
 copied into `assets/` so the server can run independently.
 
 ## Run

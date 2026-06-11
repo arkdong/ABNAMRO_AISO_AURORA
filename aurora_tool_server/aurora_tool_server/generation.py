@@ -58,6 +58,15 @@ def _parse_json(content: str) -> dict:
     return json.loads(content)
 
 
+def _body_from_parsed(parsed: dict) -> str:
+    """Extract draft markdown from common LLM JSON key variants."""
+    for key in ("body", "body_markdown", "markdown", "content", "draft", "text"):
+        value = parsed.get(key)
+        if isinstance(value, str) and value.strip():
+            return value
+    return ""
+
+
 def generate_draft(
     *,
     refined_prompt: str,
@@ -96,10 +105,13 @@ def generate_draft(
                 response_format={"type": "json_object"},
             )
             parsed = _parse_json(completion.choices[0].message.content or "{}")
+            body = _body_from_parsed(parsed)
+            if not body.strip():
+                raise ValueError("LLM returned empty body")
             citation_indices = parsed.get("citation_indices") or []
             valid = [snippets[i - 1] for i in citation_indices if isinstance(i, int) and 1 <= i <= len(snippets)]
             return ContentResult(
-                body=str(parsed.get("body") or ""),
+                body=body,
                 citations=_citations(valid),
                 model=model,
                 source="llm",

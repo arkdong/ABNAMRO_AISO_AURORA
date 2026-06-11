@@ -28,13 +28,10 @@ from pydantic import BaseModel
 from ..schemas import Channel, ContentResult, KPIResult, Origin
 from .catalogue import KPI, Catalogue
 from .indicators import (
-    AmbiguityScale,
     CompletenessScale,
     DeviationScale,
     ErrorScale,
     GroundednessScale,
-    LanguageLevelScale,
-    PresenceScale,
     RelevanceScale,
     is_passing,
 )
@@ -52,28 +49,19 @@ class JudgeSpec(NamedTuple):
     scale: type[Enum]
 
 
-# The 12 judges the evaluation layer ships with. The ``kpi_id`` strings
-# match slugs in ``assets/evaluation/kpi_catalogue.json``.
+# The default generation-stage judges. The workbook contains many more audit,
+# SEO, readability, and lifecycle KPIs; the active LLM set is intentionally
+# limited to content-generation essentials.
 JUDGES: tuple[JudgeSpec, ...] = (
-    # Blocking — these short-circuit on failure when run via the service.
+    # Workbook Blocking content dimensions. The service applies a softened
+    # generation gate to these values in default mode.
     JudgeSpec("factuality", "factuality_truthfullness", ErrorScale),
     JudgeSpec("truthfullness", "truthfullness", DeviationScale),
     JudgeSpec("relevancy", "relevancy", RelevanceScale),
     JudgeSpec("privacy_security", "privacy_and_security", DeviationScale),
-    # High-weight, non-blocking.
+    # Mandatory/High content-generation dimensions.
     JudgeSpec("groundedness", "groundedness_source", GroundednessScale),
-    JudgeSpec("completeness_source", "completeness_source", CompletenessScale),
     JudgeSpec("comprehensiveness", "comprehensiveness_answer", CompletenessScale),
-    # Workbook indicator for Clarity is "many/few/no ambiguities".
-    JudgeSpec("clarity", "clarity", AmbiguityScale),
-    # CEFR judgement complements the deterministic Flesch floor (the
-    # Flesch→CEFR cut-offs are calibration, not a workbook norm).
-    JudgeSpec("reading_level", "reading_level", LanguageLevelScale),
-    # GenAI search-quality-rater rubrics (Criteria sheet).
-    JudgeSpec("uniqueness_added_value", "unique_added_value", PresenceScale),
-    JudgeSpec("demonstrable_expertise", "experience_expertise", PresenceScale),
-    JudgeSpec("no_paraphrase", "no_paraphrase", PresenceScale),
-    JudgeSpec("no_filler", "no_filler", PresenceScale),
 )
 
 

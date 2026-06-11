@@ -716,17 +716,22 @@ def _proceed_to_generation(message: dict[str, Any]) -> None:
             "bundle": profiles,
             "retrieval": retrieval,
             "refined_prompt": refined_prompt,
+            "evaluated": False,
         }
     )
     message["generated"] = True
 
+
+def _proceed_to_evaluation(message: dict[str, Any]) -> None:
+    """Run the KPI evaluation for a generated content message."""
+    snippets = message.get("retrieval", {}).get("snippets", [])
     with st.spinner("Evaluating content via AURORA API..."):
         evaluation = _with_client(
             lambda c: c.evaluate_draft(
-                refined_prompt=refined_prompt,
-                content=content,
-                intent=intent,
-                profiles=profiles,
+                refined_prompt=message["refined_prompt"],
+                content=message["result"],
+                intent=message.get("intent"),
+                profiles=message.get("bundle"),
                 snippets=snippets,
                 options=_options(),
             )
@@ -734,6 +739,7 @@ def _proceed_to_generation(message: dict[str, Any]) -> None:
     st.session_state.messages.append(
         {"role": "assistant", "kind": "evaluation", "result": evaluation}
     )
+    message["evaluated"] = True
 
 
 def _render_content_message(idx: int, message: dict[str, Any]) -> None:
@@ -744,7 +750,14 @@ def _render_content_message(idx: int, message: dict[str, Any]) -> None:
             st.markdown(f"_Generated via `{result['model']}`._")
         else:
             st.markdown("_Deterministic server stub — configure generation on the server to enable LLM output._")
-        st.markdown(result.get("body", ""))
+        body = result.get("body", "")
+        if body.strip():
+            st.markdown(body)
+        else:
+            st.warning(
+                "No generated content was returned by the server. Generate again, "
+                "or check the configured content model."
+            )
         citations = result.get("citations", [])
         if citations:
             with st.expander(f"Sources ({len(citations)})"):
@@ -760,6 +773,23 @@ def _render_content_message(idx: int, message: dict[str, Any]) -> None:
                         f"**[{citation.get('index')}]** {title} — "
                         f"`{citation.get('source_doc')}::{citation.get('node_id')}`{score}"
                     )
+
+        if message.get("evaluated"):
+            st.caption("Evaluation completed below")
+        else:
+            st.caption(
+                "The draft has not been evaluated yet — run the KPI generation review "
+                f"(channel={st.session_state['channel']}, origin={st.session_state['origin']}, "
+                f"strict={'on' if st.session_state['strict_mode'] else 'off'})."
+            )
+            if st.button(
+                "Proceed -> Evaluate draft", key=f"evaluate_{idx}", type="primary"
+            ):
+                try:
+                    _proceed_to_evaluation(message)
+                except AuroraApiError as exc:
+                    _append_error("evaluation", str(exc), message.get("refined_prompt"))
+                st.rerun()
 
 
 def _verdict_banner(result: dict[str, Any]) -> str:
@@ -777,8 +807,77 @@ def _verdict_banner(result: dict[str, Any]) -> str:
     )
 
 
+_WEIGHT_STYLES = {
+    "Blocking": ("#fee2e2", "#b91c1c"),
+    "High": ("#ffedd5", "#c2410c"),
+    "Medium": ("#e2e8f0", "#334155"),
+    "Low": ("#f1f5f9", "#64748b"),
+}
+
+_MATURITY_STYLES = {
+    "high": ("#dcfce7", "#166534"),
+    "medium": ("#fef3c7", "#92400e"),
+    "low": ("#fee2e2", "#991b1b"),
+}
+
+_TIER_LABELS = {
+    1: "Tier 1 · Deterministic checks",
+    2: "Tier 2 · LLM judges",
+    3: "Tier 3 · Human signoff (dCLP)",
+}
+
+
+def _weight_chip(weight: str) -> str:
+    bg, fg = _WEIGHT_STYLES.get(weight, _WEIGHT_STYLES["Medium"])
+    return (
+        f'<span style="background:{bg};color:{fg};padding:1px 8px;'
+        f'border-radius:6px;font-weight:600;font-size:0.72em;">{weight}</span>'
+    )
+
+
+def _maturity_chips(maturity: dict[str, str]) -> str:
+    chips = []
+    for category, level in sorted(maturity.items()):
+        bg, fg = _MATURITY_STYLES.get(level, _MATURITY_STYLES["medium"])
+        chips.append(
+            f'<span style="background:{bg};color:{fg};padding:3px 10px;'
+            f'border-radius:8px;font-weight:600;font-size:0.78em;'
+            f'display:inline-block;margin:2px 4px 2px 0;">'
+            f"{category} · {level}</span>"
+        )
+    return "".join(chips)
+
+
+def _kpi_status(kpi: dict[str, Any]) -> tuple[str, str]:
+    if kpi.get("tier") == 3:
+        return "⏳", "awaiting signoff"
+    if kpi.get("source") == "skipped":
+        return "⏭️", "skipped"
+    if kpi.get("passed"):
+        return "✅", "pass"
+    return "❌", "fail"
+
+
+def _kpi_row(kpi: dict[str, Any]) -> str:
+    icon, _ = _kpi_status(kpi)
+    reason = kpi.get("reason") or ""
+    value = kpi.get("value", "")
+    return (
+        f"{icon} &nbsp;**{kpi.get('name')}** &nbsp;{_weight_chip(kpi.get('weight', 'Medium'))} "
+        f"&nbsp;`{value}`  \n"
+        f"&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#64748b;font-size:0.85em;'>{reason}</span>"
+    )
+
+
 def _render_evaluation_message(idx: int, message: dict[str, Any]) -> None:
     result = message["result"]
+    results = result.get("results", [])
+    machine = [k for k in results if k.get("tier") != 3]
+    tier3 = [k for k in results if k.get("tier") == 3]
+    passed = [k for k in machine if k.get("passed") and k.get("source") != "skipped"]
+    failed = [k for k in machine if not k.get("passed")]
+    skipped = [k for k in machine if k.get("passed") and k.get("source") == "skipped"]
+
     with st.chat_message("assistant"):
         st.markdown(
             _block_anchor("evaluation", idx) + _stage_chip("evaluation"),
@@ -789,42 +888,75 @@ def _render_evaluation_message(idx: int, message: dict[str, Any]) -> None:
             f"(channel={result.get('channel')}, origin={result.get('origin')})._"
         )
         st.markdown(_verdict_banner(result), unsafe_allow_html=True)
+
+        # ── At-a-glance counts ─────────────────────────────────────────
+        passed_col, failed_col, skipped_col, signoff_col = st.columns(4)
+        passed_col.metric("Passed", len(passed))
+        failed_col.metric("Failed", len(failed))
+        skipped_col.metric("Skipped", len(skipped))
+        signoff_col.metric("Signoffs pending", len(tier3))
+
+        # ── Failures first — visible without expanding ─────────────────
+        if failed:
+            blocking_failed = [k for k in failed if k.get("weight") == "Blocking"]
+            st.markdown(
+                "**Needs attention** — "
+                + (
+                    f"{len(blocking_failed)} blocking, {len(failed) - len(blocking_failed)} other"
+                    if blocking_failed
+                    else f"{len(failed)} non-blocking finding(s)"
+                )
+            )
+            for kpi in sorted(
+                failed,
+                key=lambda item: (0 if item.get("weight") == "Blocking" else 1, item.get("kpi_id", "")),
+            ):
+                st.markdown(_kpi_row(kpi), unsafe_allow_html=True)
+        else:
+            st.markdown("**No machine-check failures.**")
+
+        # ── Maturity rollup ────────────────────────────────────────────
         maturity = result.get("maturity_by_category") or {}
         if maturity:
             st.markdown("**Maturity by category**")
-            for category, level in sorted(maturity.items()):
-                st.markdown(f"- **{category}** — {level}")
+            st.markdown(_maturity_chips(maturity), unsafe_allow_html=True)
+
+        # ── Human signoffs (dCLP) ──────────────────────────────────────
         dclp = result.get("dclp_steps_required") or []
         if dclp:
-            st.markdown("**Editorial signoff required (dCLP)** — human steps AURORA flags but never auto-clears")
-            for step in dclp:
-                st.markdown(f"- `{step}` — awaiting signoff")
-        tier_labels = {
-            1: "Tier 1 · Deterministic checks",
-            2: "Tier 2 · LLM judges",
-            3: "Tier 3 · Human signoff (dCLP)",
-        }
-        with st.expander(f"Detailed KPI breakdown ({len(result.get('results', []))} checks)"):
-            for tier in (1, 2, 3):
-                tier_results = [k for k in result.get("results", []) if k.get("tier") == tier]
-                if not tier_results:
-                    continue
-                st.markdown(f"**{tier_labels[tier]}**")
+            st.markdown(
+                "**Editorial signoff required (dCLP)** — human steps AURORA "
+                "flags but never auto-clears"
+            )
+            for kpi in tier3:
+                st.markdown(_kpi_row(kpi), unsafe_allow_html=True)
+
+        # ── Full breakdown, one expander per tier with pass counts ─────
+        for tier in (1, 2, 3):
+            tier_results = [k for k in results if k.get("tier") == tier]
+            if not tier_results:
+                continue
+            if tier == 3:
+                header = f"{_TIER_LABELS[tier]} — {len(tier_results)} step(s) awaiting signoff"
+            else:
+                tier_skipped = sum(1 for k in tier_results if k.get("source") == "skipped")
+                tier_scored = [k for k in tier_results if k.get("source") != "skipped"]
+                tier_passed = sum(1 for k in tier_scored if k.get("passed"))
+                header = f"{_TIER_LABELS[tier]} — {tier_passed}/{len(tier_scored)} passed"
+                if not tier_scored:
+                    header = f"{_TIER_LABELS[tier]} — all {tier_skipped} skipped (no LLM configured)"
+                elif tier_skipped:
+                    header += f" · {tier_skipped} skipped"
+            with st.expander(header):
                 for kpi in sorted(
                     tier_results,
-                    key=lambda item: (0 if item.get("weight") == "Blocking" else 1, item.get("kpi_id", "")),
+                    key=lambda item: (
+                        0 if not item.get("passed") else 1,
+                        0 if item.get("weight") == "Blocking" else 1,
+                        item.get("kpi_id", ""),
+                    ),
                 ):
-                    if tier == 3:
-                        badge = "⏳ awaiting signoff"
-                    elif kpi.get("source") == "skipped":
-                        badge = "skipped"
-                    else:
-                        badge = "pass" if kpi.get("passed") else "fail"
-                    st.markdown(
-                        f"- **{badge}** · **{kpi.get('name')}** · "
-                        f"weight=`{kpi.get('weight')}` · value=`{kpi.get('value')}`  \n"
-                        f"  _{kpi.get('reason', '')}_"
-                    )
+                    st.markdown(_kpi_row(kpi), unsafe_allow_html=True)
 
 
 def _render_error_message(idx: int, message: dict[str, Any]) -> None:

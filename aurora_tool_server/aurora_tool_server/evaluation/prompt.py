@@ -22,13 +22,16 @@ You will receive:
 - A *rubric* describing exactly one quality dimension to score.
 - An *indicator scale* — the only allowed values for your score.
 
-Your job: score the draft on this rubric only. Return:
+Your job: score the draft on this rubric only for a generation-time review.
+Return:
 - ``value``: one value from the indicator scale, verbatim.
 - ``reason``: one short sentence (max 25 words) justifying the score.
 
 Rules:
-- Be strict but fair. Borderline cases default to the lower score.
+- Be pragmatic and evidence-based. Borderline cases default to the less severe value.
+- Reserve severe values for material issues a human editor must fix before use.
 - Do not invent claims about the draft that are not in it.
+- Do not penalize harmless omissions, concise drafting, or style differences unless the rubric asks for them.
 - The scale's allowed values are listed in the rubric; pick exactly one.
 - If you cannot judge (e.g. draft is empty), return ``"unknown"``.
 """
@@ -36,31 +39,33 @@ Rules:
 
 RUBRICS: dict[str, str] = {
     "factuality": (
-        "**Factuality.** Count substantive factual errors in the draft. "
-        "A factual error is a claim that contradicts the retrieved evidence "
-        "or is not supported by it at all. Misattribution and made-up "
-        "numbers count; minor stylistic differences do not."
+        "**Factuality.** Count material factual errors in the draft. "
+        "A factual error is a substantive claim that contradicts the "
+        "retrieved evidence or introduces unsupported specifics such as "
+        "made-up numbers, dates, attributions, or guarantees. Minor wording, "
+        "common background context, and harmless omissions do not count."
     ),
     "truthfullness": (
-        "**Truthfulness.** Identify deviations from bank standards for "
+        "**Truthfulness.** Identify material deviations from bank standards for "
         "truthful substance (e.g. using 'advice' for execution-only services, "
         "claiming guarantees the bank does not actually offer, dramatising "
-        "risk/return). Count any deviation, however small."
+        "risk/return). Ignore harmless wording differences."
     ),
     "relevancy": (
         "**Relevancy.** Does the draft address the user's actual query? "
-        "Score by how directly the body responds to what the customer asked "
-        "for, not by writing quality."
+        "Use off-topic only when the draft largely fails to answer what the "
+        "customer asked for. Do not judge writing polish here."
     ),
     "groundedness": (
         "**Groundedness.** What share of the draft's substantive claims can "
-        "be traced back to the retrieved snippets? Full = every claim "
-        "anchored; reasonable = most; limited = a few; none = none."
+        "be traced back to the retrieved snippets? Full = every material "
+        "claim anchored; reasonable = most; limited = a few; none = none."
     ),
     "privacy_security": (
-        "**Privacy & security.** Identify deviations from bank policy: "
-        "exposing personal data, linking to non-AAB external domains, "
-        "recommending insecure flows, mishandling BSN/IBAN, etc."
+        "**Privacy & security.** Identify concrete deviations from bank "
+        "policy: exposing personal data, presenting non-AAB external domains "
+        "as bank action links, recommending insecure flows, mishandling "
+        "BSN/IBAN, etc. Use severe values only for material policy risks."
     ),
     "completeness_source": (
         "**Completeness (vs. source).** Does the draft cover the substance "

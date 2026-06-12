@@ -7,12 +7,67 @@ import json
 from .schemas import Citation, ContentResult, IntentResult, ProfileBundleResult, Snippet
 
 
+def _language_label(intent: IntentResult) -> str:
+    return {
+        "nl": "Dutch",
+        "en": "English",
+        "both": "Dutch and English",
+    }.get(intent.language or "en", "English")
+
+
+def _language_rules(intent: IntentResult) -> str:
+    if intent.language == "nl":
+        return (
+            "Write in Dutch. Follow the Nederlandse ABN AMRO Schrijfwijzer: "
+            "use formal u-form, B1/plain language, active sentences, clear "
+            "headings, and ABN AMRO Insights tone. Do not switch to English "
+            "except for proper nouns, cited source titles, or unavoidable "
+            "technical terms."
+        )
+    if intent.language == "both":
+        return (
+            "Return both Dutch and English versions in clearly labelled Markdown "
+            "sections. The Dutch version must follow the Schrijfwijzer and use "
+            "formal u-form; the English version must use British English."
+        )
+    return (
+        "Write in English using British English, ABN AMRO Insights tone, "
+        "plain language, active sentences, and clear headings."
+    )
+
+
 def _stub_body(
     refined_prompt: str,
     intent: IntentResult,
     profiles: ProfileBundleResult,
     snippets: list[Snippet],
 ) -> str:
+    if intent.language == "nl":
+        title = "AURORA onderbouwde concepttekst"
+        if intent.topic_keywords:
+            title = f"AURORA onderbouwde concepttekst: {intent.topic_keywords[0]}"
+        profile_names = ", ".join(p.name for p in profiles.all_profiles) or "geen gekoppeld profiel"
+        source_lines = []
+        for index, snippet in enumerate(snippets[:5], start=1):
+            source_lines.append(
+                f"- [{index}] {snippet.title} ({snippet.source_doc}::{snippet.node_id})"
+            )
+        source_block = "\n".join(source_lines) or "- Er zijn geen bronfragmenten opgehaald."
+        return (
+            f"# {title}\n\n"
+            "Deze deterministische concepttekst houdt de AURORA-stroom intact "
+            "wanneer er geen contentgeneratiemodel is geconfigureerd. In productie "
+            "moet de LLM-generatie dit vervangen, maar de tekst bewaart wel de "
+            "verfijnde instructie, actieve profielen en bronbasis voor auditbaarheid.\n\n"
+            f"**Verfijnde instructie**\n\n{refined_prompt}\n\n"
+            f"**Actieve profielen**\n\n{profile_names}\n\n"
+            "**Gebruikte broncontext**\n\n"
+            f"{source_block}\n\n"
+            "Een definitieve redactionele tekst moet de opgehaalde bronnen gebruiken, "
+            "de ABN AMRO Schrijfwijzer volgen, onbewezen claims vermijden en "
+            "citaten gekoppeld houden aan brononderbouwde uitspraken."
+        )
+
     title = "AURORA grounded draft"
     if intent.topic_keywords:
         title = f"AURORA grounded draft: {intent.topic_keywords[0]}"
@@ -85,20 +140,28 @@ def generate_draft(
                 f"[{i}] {s.title} ({s.source_doc}::{s.node_id})\n{s.content[:1200]}"
                 for i, s in enumerate(snippets[:8], start=1)
             )
+            language_rules = _language_rules(intent)
             completion = client.chat.completions.create(
                 model=model,
                 messages=[
                     {
                         "role": "system",
                         "content": (
-                            "Write grounded ABN AMRO editorial content. Return JSON "
-                            "with body markdown, reasoning, and citation_indices."
+                            "Write grounded ABN AMRO editorial content using only "
+                            "approved retrieved context. Preserve citations and avoid "
+                            "unsupported claims. Return JSON with body markdown, "
+                            "reasoning, and citation_indices.\n\n"
+                            f"Output language: {_language_label(intent)}.\n"
+                            f"Language rules: {language_rules}"
                         ),
                     },
                     {
                         "role": "user",
                         "content": (
-                            f"Instruction:\n{refined_prompt}\n\nSources:\n{snippets_text}"
+                            f"Instruction:\n{refined_prompt}\n\n"
+                            f"Output language: {_language_label(intent)}\n"
+                            f"Language rules:\n{language_rules}\n\n"
+                            f"Sources:\n{snippets_text}"
                         ),
                     },
                 ],

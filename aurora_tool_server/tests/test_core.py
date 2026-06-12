@@ -79,6 +79,15 @@ def test_audit_trace_can_be_read_after_run():
     assert len(trace.events) == len(result.audit.events)
 
 
+def test_pipeline_can_append_to_external_run_id():
+    core = _core()
+    run_id = "run_external"
+    result = core.run_pipeline(PROMPT, run_id=run_id)
+
+    assert result.run_id == run_id
+    assert {event.run_id for event in result.audit.events} == {run_id}
+
+
 class _FakeOpenAICompletions:
     def create(self, *, messages, **_kwargs):
         system = messages[0]["content"]

@@ -8,22 +8,56 @@ from frontend import agent_tools
 from frontend.agent_tools import AuroraAgentToolConfig
 
 
+FULL_PROFILES = {
+    "workflow": [
+        {
+            "id": "drafter",
+            "name": "Drafter",
+            "description": "Writes grounded editorial drafts.",
+            "category": "workflow",
+            "selection_reason": "Matches draft requests.",
+        }
+    ],
+    "domain_expert": [],
+    "source": "deterministic",
+    "reasoning": "test",
+}
+
+
+@pytest.fixture(autouse=True)
+def clear_stage_cache():
+    agent_tools.clear_agent_tool_cache()
+    yield
+    agent_tools.clear_agent_tool_cache()
+
+
 class FakeAuroraApiClient:
     calls: list[tuple[str, Any]]
+    all_calls: list[tuple[str, Any]] = []
 
     def __init__(self, base_url: str) -> None:
         self.base_url = base_url
         self.calls = []
 
     def close(self) -> None:
-        self.calls.append(("close", None))
+        self._record("close", None)
+
+    def _record(self, name: str, payload: Any) -> None:
+        self.calls.append((name, payload))
+        self.all_calls.append((name, payload))
 
     def health(self) -> dict[str, str]:
-        self.calls.append(("health", self.base_url))
+        self._record("health", self.base_url)
         return {"status": "ok", "service": "aurora-tool-server"}
 
-    def classify_intent(self, user_prompt: str, options: dict[str, Any]) -> dict[str, Any]:
-        self.calls.append(("classify", {"prompt": user_prompt, "options": options}))
+    def classify_intent(
+        self,
+        user_prompt: str,
+        options: dict[str, Any],
+        *,
+        run_id: str | None = None,
+    ) -> dict[str, Any]:
+        self._record("classify", {"prompt": user_prompt, "options": options, "run_id": run_id})
         return {
             "role": "Insights Editorial",
             "task_codes": ["T1_DRAFT"],
@@ -35,8 +69,10 @@ class FakeAuroraApiClient:
         self,
         intent: dict[str, Any],
         options: dict[str, Any] | None = None,
+        *,
+        run_id: str | None = None,
     ) -> dict[str, Any]:
-        self.calls.append(("profiles", {"intent": intent, "options": options}))
+        self._record("profiles", {"intent": intent, "options": options, "run_id": run_id})
         return {"workflow": [], "domain_expert": []}
 
     def retrieve_context(
@@ -45,17 +81,20 @@ class FakeAuroraApiClient:
         intent: dict[str, Any],
         profiles: dict[str, Any],
         options: dict[str, Any],
+        *,
+        run_id: str | None = None,
     ) -> dict[str, Any]:
-        self.calls.append(
+        self._record(
+            "retrieval",
             (
-                "retrieval",
                 {
-                    "prompt": user_prompt,
-                    "intent": intent,
-                    "profiles": profiles,
-                    "options": options,
-                },
-            )
+                "prompt": user_prompt,
+                "intent": intent,
+                "profiles": profiles,
+                "options": options,
+                "run_id": run_id,
+            }
+            ),
         )
         return {
             "query": {"user_prompt": user_prompt, "k": options["k"], "retrieval_backend": options["retrieval_backend"]},
@@ -70,26 +109,121 @@ class FakeAuroraApiClient:
         *,
         refinement_policy: str,
         options: dict[str, Any],
+        run_id: str | None = None,
     ) -> dict[str, Any]:
-        self.calls.append(
-            (
-                "run",
-                {
-                    "prompt": user_prompt,
-                    "refinement_policy": refinement_policy,
-                    "options": options,
-                },
-            )
+        self._record(
+            "run",
+            {
+                "prompt": user_prompt,
+                "refinement_policy": refinement_policy,
+                "options": options,
+                "run_id": run_id,
+            },
         )
         return {"run_id": "run_123", "status": "completed"}
 
+    def refine_prompt(
+        self,
+        user_prompt: str,
+        *,
+        intent: dict[str, Any] | None,
+        profiles: dict[str, Any] | None,
+        retrieval: dict[str, Any] | None,
+        answers: dict[str, str] | None,
+        regenerate_on_pivot: bool,
+        options: dict[str, Any],
+        run_id: str | None = None,
+    ) -> dict[str, Any]:
+        self._record(
+            "refine",
+            {
+                "prompt": user_prompt,
+                "intent": intent,
+                "profiles": profiles,
+                "retrieval": retrieval,
+                "answers": answers,
+                "regenerate_on_pivot": regenerate_on_pivot,
+                "options": options,
+                "run_id": run_id,
+            },
+        )
+        return {
+            "original_prompt": user_prompt,
+            "refined_prompt": user_prompt,
+            "questions": [],
+            "done": True,
+        }
+
+    def generate_draft(
+        self,
+        *,
+        refined_prompt: str,
+        intent: dict[str, Any],
+        profiles: dict[str, Any],
+        snippets: list[dict[str, Any]],
+        options: dict[str, Any],
+        run_id: str | None = None,
+    ) -> dict[str, Any]:
+        self._record(
+            "generate",
+            {
+                "refined_prompt": refined_prompt,
+                "intent": intent,
+                "profiles": profiles,
+                "snippets": snippets,
+                "options": options,
+                "run_id": run_id,
+            },
+        )
+        return {"body": "Draft body", "citations": []}
+
+    def evaluate_draft(
+        self,
+        *,
+        refined_prompt: str,
+        content: dict[str, Any],
+        intent: dict[str, Any] | None,
+        profiles: dict[str, Any] | None,
+        snippets: list[dict[str, Any]],
+        options: dict[str, Any],
+        run_id: str | None = None,
+    ) -> dict[str, Any]:
+        self._record(
+            "evaluate",
+            {
+                "refined_prompt": refined_prompt,
+                "content": content,
+                "intent": intent,
+                "profiles": profiles,
+                "snippets": snippets,
+                "options": options,
+                "run_id": run_id,
+            },
+        )
+        return {"passed": True, "failed_blocking": [], "results": []}
+
     def get_audit_trace(self, run_id: str) -> dict[str, Any]:
-        self.calls.append(("audit", run_id))
+        self._record("audit", run_id)
         return {"run_id": run_id, "events": []}
+
+
+class FullProfileFakeAuroraApiClient(FakeAuroraApiClient):
+    all_calls: list[tuple[str, Any]] = []
+
+    def select_profiles(
+        self,
+        intent: dict[str, Any],
+        options: dict[str, Any] | None = None,
+        *,
+        run_id: str | None = None,
+    ) -> dict[str, Any]:
+        self._record("profiles", {"intent": intent, "options": options, "run_id": run_id})
+        return FULL_PROFILES
 
 
 def test_agent_tools_call_rest_client(monkeypatch):
     monkeypatch.setattr(agent_tools, "AuroraApiClient", FakeAuroraApiClient)
+    FakeAuroraApiClient.all_calls = []
     config = AuroraAgentToolConfig(
         api_base_url="http://aurora.test",
         retrieval_backend="pageindex",
@@ -97,19 +231,131 @@ def test_agent_tools_call_rest_client(monkeypatch):
         channel="web",
         origin="instant",
         strict_mode=True,
+        run_id="run_agent",
     )
 
     assert agent_tools.aurora_health_check(config)["status"] == "ok"
-    assert agent_tools.aurora_classify_intent(config, "Draft it")["task_codes"] == ["T1_DRAFT"]
-    profiles = agent_tools.aurora_select_profiles(config, "Draft it")
-    retrieval = agent_tools.aurora_retrieve_context(config, "Draft it")
+    intent = agent_tools.aurora_classify_intent(config, "Draft it")
+    assert intent["task_codes"] == ["T1_DRAFT"]
+    profiles = agent_tools.aurora_select_profiles(config, intent)
+    retrieval = agent_tools.aurora_retrieve_context(config, "Draft it", intent, profiles)
     run = agent_tools.aurora_run_pipeline(config, "Draft it")
-    audit = agent_tools.aurora_get_audit_trace(config, "run_123")
+    refinement = agent_tools.aurora_refine_prompt(
+        config,
+        "Draft it",
+        intent=intent,
+        profiles=profiles,
+        retrieval=retrieval,
+        answers={"Audience?": "CFOs"},
+    )
+    content = agent_tools.aurora_generate_draft(
+        config,
+        "Draft it",
+        intent,
+        profiles,
+        retrieval["snippets"],
+    )
+    evaluation = agent_tools.aurora_evaluate_draft(
+        config,
+        "Draft it",
+        content,
+        intent,
+        profiles,
+        retrieval["snippets"],
+    )
+    audit = agent_tools.aurora_get_audit_trace(config)
 
-    assert profiles["profiles"] == {"workflow": [], "domain_expert": []}
-    assert retrieval["retrieval"]["provider"] == "pageindex"
+    assert profiles == {"workflow": [], "domain_expert": []}
+    assert retrieval["provider"] == "pageindex"
     assert run["run_id"] == "run_123"
-    assert audit == {"run_id": "run_123", "events": []}
+    assert refinement["done"] is True
+    assert content["body"] == "Draft body"
+    assert evaluation["passed"] is True
+    assert audit == {"run_id": "run_agent", "events": []}
+    stage_calls = [
+        payload
+        for name, payload in FakeAuroraApiClient.all_calls
+        if name not in {"health", "audit", "close"}
+    ]
+    assert stage_calls
+    assert all(payload["run_id"] == "run_agent" for payload in stage_calls)
+    assert [name for name, _payload in FakeAuroraApiClient.all_calls if name != "close"] == [
+        "health",
+        "classify",
+        "profiles",
+        "retrieval",
+        "run",
+        "refine",
+        "generate",
+        "evaluate",
+        "audit",
+    ]
+
+
+def test_agent_tools_repair_partial_profile_handoffs_from_run_cache(monkeypatch):
+    monkeypatch.setattr(agent_tools, "AuroraApiClient", FullProfileFakeAuroraApiClient)
+    FullProfileFakeAuroraApiClient.all_calls = []
+    config = AuroraAgentToolConfig(api_base_url="http://aurora.test", run_id="run_repair")
+    intent = {
+        "role": "Insights Editorial",
+        "task_codes": ["T1_DRAFT"],
+        "confidence": 0.9,
+        "task_reason": "test",
+    }
+
+    agent_tools.aurora_select_profiles(config, intent)
+    partial_profiles = {
+        "workflow": [{"id": "drafter", "name": "Drafter"}],
+        "domain_expert": [],
+    }
+    refinement = agent_tools.aurora_refine_prompt(
+        config,
+        "Draft it",
+        intent=intent,
+        profiles=partial_profiles,
+        answers={},
+    )
+
+    refine_payload = next(
+        payload
+        for name, payload in FullProfileFakeAuroraApiClient.all_calls
+        if name == "refine"
+    )
+    assert refinement["done"] is True
+    assert refine_payload["profiles"] == FULL_PROFILES
+
+
+def test_agent_tool_cache_can_be_cleared_for_one_run(monkeypatch):
+    monkeypatch.setattr(agent_tools, "AuroraApiClient", FullProfileFakeAuroraApiClient)
+    FullProfileFakeAuroraApiClient.all_calls = []
+    config = AuroraAgentToolConfig(api_base_url="http://aurora.test", run_id="run_clear")
+    intent = {
+        "role": "Insights Editorial",
+        "task_codes": ["T1_DRAFT"],
+        "confidence": 0.9,
+        "task_reason": "test",
+    }
+    partial_profiles = {
+        "workflow": [{"id": "drafter", "name": "Drafter"}],
+        "domain_expert": [],
+    }
+
+    agent_tools.aurora_select_profiles(config, intent)
+    agent_tools.clear_agent_tool_cache("run_clear")
+    agent_tools.aurora_refine_prompt(
+        config,
+        "Draft it",
+        intent=intent,
+        profiles=partial_profiles,
+        answers={},
+    )
+
+    refine_payload = next(
+        payload
+        for name, payload in FullProfileFakeAuroraApiClient.all_calls
+        if name == "refine"
+    )
+    assert refine_payload["profiles"] is None
 
 
 def test_agent_run_pipeline_validates_refinement_policy(monkeypatch):
@@ -128,6 +374,9 @@ def test_build_aurora_function_tools_smoke():
         "aurora_classify_intent",
         "aurora_select_profiles",
         "aurora_retrieve_context",
-        "aurora_run_pipeline",
+        "aurora_run_pipeline_fallback",
+        "aurora_refine_prompt",
+        "aurora_generate_draft",
+        "aurora_evaluate_draft",
         "aurora_get_audit_trace",
     ]

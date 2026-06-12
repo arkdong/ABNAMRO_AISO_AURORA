@@ -28,12 +28,15 @@ def test_mcp_classify_handler_returns_json_safe_result():
 
 def test_mcp_run_pipeline_handler_returns_audit():
     _use_deterministic_core()
+    run_id = "run_mcp_pipeline"
     payload = {
         "user_prompt": "Write an English article about cybersecurity for TMT companies.",
         "options": {"k": 2},
+        "run_id": run_id,
     }
     result = mcp_server.aurora_run_pipeline_handler(payload)
 
     assert result["status"] == "completed"
-    assert result["run_id"].startswith("run_")
+    assert result["run_id"] == run_id
     assert result["audit"]["events"]
+    assert {event["run_id"] for event in result["audit"]["events"]} == {run_id}

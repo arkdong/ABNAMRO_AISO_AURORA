@@ -49,5 +49,5 @@ OPENAI_API_KEY=sk-... uv run streamlit run frontend/app.py
 ```bash
 uv run pytest
 uv run python -m py_compile aurora_tool_server/core.py aurora_tool_server/api.py aurora_tool_server/mcp_server.py
-uv run python -m py_compile frontend/app.py frontend/api_client.py frontend/agent_tools.py frontend/agent_service.py frontend/pages/2_AI_Agent_Interface.py
+uv run python -m py_compile frontend/app.py frontend/api_client.py frontend/agent_tools.py frontend/agent_service.py frontend/pages/1_Pipeline_Inspector.py frontend/pages/2_Normal_Mode.py frontend/pages/3_Settings.py
 ```

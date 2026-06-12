@@ -42,6 +42,8 @@ improve the final output, or set done=true when the prompt is already specific.
 Each question should include 2-4 concise choices when useful. Ground questions
 in the retrieved snippets, profile expertise, audience, tone, length, angle,
 time horizon, language, or source prioritization. Avoid vague questions.
+Ask questions in the requested output language from the intent when it is
+specified. For Dutch output, use clear Dutch and formal u-form where relevant.
 
 Return structured output with:
 - questions: list of question/choices objects
@@ -55,12 +57,20 @@ _LOCK_PROMPT = """You refine AURORA editorial prompts.
 Given the original prompt, the clarification answers, intent, profiles, and
 retrieved context, produce one concise final prompt for content generation.
 Preserve the user's intent, add only constraints supported by the answers, and
-do not invent requirements. Return done=true and proposed_prompt set.
+do not invent requirements. Preserve the requested output language. For Dutch
+output, explicitly require the ABN AMRO Schrijfwijzer, formal u-form, B1/plain
+language, active sentences, and Dutch ABN AMRO Insights tone. Return done=true
+and proposed_prompt set.
 """
+
+
+def _is_dutch(intent: IntentResult) -> bool:
+    return intent.language == "nl"
 
 
 def build_questions(intent: IntentResult, retrieval: RetrievalResult | None) -> list[RefinementQuestion]:
     questions: list[RefinementQuestion] = []
+    dutch = _is_dutch(intent)
     if intent.language is None:
         questions.append(
             RefinementQuestion(
@@ -71,22 +81,46 @@ def build_questions(intent: IntentResult, retrieval: RetrievalResult | None) -> 
     if not any("audience" in kw.lower() for kw in intent.topic_keywords):
         questions.append(
             RefinementQuestion(
-                question="Who is the target audience for the content?",
-                choices=["Business decision-makers", "IT directors", "General clients"],
+                question=(
+                    "Voor wie is de tekst bedoeld?"
+                    if dutch
+                    else "Who is the target audience for the content?"
+                ),
+                choices=(
+                    ["Zakelijke beslissers", "IT-directeuren", "Algemene klanten"]
+                    if dutch
+                    else ["Business decision-makers", "IT directors", "General clients"]
+                ),
             )
         )
     if retrieval is not None and not retrieval.snippets:
         questions.append(
             RefinementQuestion(
-                question="No strong source snippets were found. Should AURORA proceed anyway?",
-                choices=["Proceed with writing-guide context", "Narrow the topic", "Stop for review"],
+                question=(
+                    "Er zijn geen sterke bronfragmenten gevonden. Moet AURORA toch doorgaan?"
+                    if dutch
+                    else "No strong source snippets were found. Should AURORA proceed anyway?"
+                ),
+                choices=(
+                    ["Doorgaan met de Schrijfwijzer", "Onderwerp versmallen", "Stoppen voor review"]
+                    if dutch
+                    else ["Proceed with writing-guide context", "Narrow the topic", "Stop for review"]
+                ),
             )
         )
     if not questions:
         questions.append(
             RefinementQuestion(
-                question="Should AURORA keep the current scope and retrieved sources?",
-                choices=["Keep current scope", "Narrow the angle", "Broaden the angle"],
+                question=(
+                    "Moet AURORA de huidige scope en bronnen aanhouden?"
+                    if dutch
+                    else "Should AURORA keep the current scope and retrieved sources?"
+                ),
+                choices=(
+                    ["Huidige scope houden", "Invalshoek versmallen", "Invalshoek verbreden"]
+                    if dutch
+                    else ["Keep current scope", "Narrow the angle", "Broaden the angle"]
+                ),
             )
         )
     return questions[:3]
@@ -168,11 +202,17 @@ def _questions_from_llm(output: _LLMRefinementOutput) -> list[RefinementQuestion
     ]
 
 
-def apply_answers(user_prompt: str, answers: Mapping[str, str]) -> str:
+def apply_answers(
+    user_prompt: str,
+    answers: Mapping[str, str],
+    *,
+    language: str | None = None,
+) -> str:
     cleaned = [(q.strip(), a.strip()) for q, a in answers.items() if a and a.strip()]
     if not cleaned:
         return user_prompt.strip()
-    lines = [user_prompt.strip(), "", "Clarifications:"]
+    label = "Verduidelijkingen:" if language == "nl" else "Clarifications:"
+    lines = [user_prompt.strip(), "", label]
     lines.extend(f"- {question.rstrip('?')}: {answer}" for question, answer in cleaned)
     return "\n".join(lines)
 
@@ -253,7 +293,7 @@ def refine_prompt(
             reasoning="Clarification questions generated before lock-in.",
         )
 
-    refined_text = apply_answers(user_prompt, answers)
+    refined_text = apply_answers(user_prompt, answers, language=intent.language)
     source = "deterministic"
     reasoning = "Prompt locked after deterministic refinement."
     if api_key and model:

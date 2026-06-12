@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import json
+import math
 import re
+from collections import Counter
 from functools import lru_cache
 from typing import Any, Iterable
 
@@ -48,12 +50,16 @@ _STOPWORDS = {
     "naar",
 }
 
-_CORPUS_ROUTING = {
-    "T1_DRAFT": ("corpus_en", "writing_guide"),
-    "T1_TRANSLATE": ("corpus_en", "writing_guide"),
-    "T1_SEARCH": ("corpus_en",),
-    "T2_COMPLIANCE": ("writing_guide", "corpus_en"),
-    "T4_RENEWAL": ("corpus_en", "writing_guide"),
+_ARTICLE_CORPORA = {
+    "en": ("corpus_en",),
+    "nl": ("corpus_nl",),
+    "both": ("corpus_nl", "corpus_en"),
+}
+
+_WRITING_GUIDES = {
+    "en": ("writing_guide",),
+    "nl": ("schrijfwijzer",),
+    "both": ("schrijfwijzer", "writing_guide"),
 }
 
 
@@ -63,6 +69,14 @@ def _tokens(text: str, *, min_len: int = 3) -> set[str]:
         for token in _TOKEN_RE.findall(text or "")
         if len(token) >= min_len and token.lower() not in _STOPWORDS
     }
+
+
+def _token_counts(text: str, *, min_len: int = 3) -> Counter[str]:
+    return Counter(
+        token.lower()
+        for token in _TOKEN_RE.findall(text or "")
+        if len(token) >= min_len and token.lower() not in _STOPWORDS
+    )
 
 
 def _walk(nodes: Iterable[dict[str, Any]]) -> Iterable[dict[str, Any]]:
@@ -76,14 +90,29 @@ def _load_json(path_name: str) -> Any:
         return json.load(f)
 
 
+def _load_optional_json(path_name: str) -> Any | None:
+    path = RAG_DIR / path_name
+    if not path.is_file():
+        return None
+    return _load_json(path_name)
+
+
 @lru_cache(maxsize=1)
 def load_corpora() -> dict[str, tuple[dict[str, Any], ...]]:
-    corpus_en = _load_json("corpus_en_structure.json")
-    writing_guide = _load_json("writing_guide_tree.json")
-    return {
-        "corpus_en": tuple(corpus_en.get("structure") or []),
-        "writing_guide": tuple(writing_guide if isinstance(writing_guide, list) else []),
-    }
+    out: dict[str, tuple[dict[str, Any], ...]] = {}
+    corpus_en = _load_optional_json("corpus_en_structure.json")
+    if isinstance(corpus_en, dict):
+        out["corpus_en"] = tuple(corpus_en.get("structure") or [])
+    corpus_nl = _load_optional_json("corpus_nl_structure.json")
+    if isinstance(corpus_nl, dict):
+        out["corpus_nl"] = tuple(corpus_nl.get("structure") or [])
+    writing_guide = _load_optional_json("writing_guide_tree.json")
+    if isinstance(writing_guide, list):
+        out["writing_guide"] = tuple(writing_guide)
+    schrijfwijzer = _load_optional_json("schrijfwijzer_tree.json")
+    if isinstance(schrijfwijzer, list):
+        out["schrijfwijzer"] = tuple(schrijfwijzer)
+    return out
 
 
 def build_query(
@@ -110,11 +139,31 @@ def build_query(
 def _route_corpora(query: RetrievalQuery, available: set[str]) -> list[str]:
     seen: set[str] = set()
     out: list[str] = []
-    for code in query.task_codes or ["T1_DRAFT"]:
-        for corpus_id in _CORPUS_ROUTING.get(code, ("corpus_en",)):
+    lang = query.language or "en"
+    article_corpora = _ARTICLE_CORPORA.get(lang, _ARTICLE_CORPORA["en"])
+    writing_guides = _WRITING_GUIDES.get(lang, _WRITING_GUIDES["en"])
+
+    def add(corpus_ids: Iterable[str]) -> None:
+        for corpus_id in corpus_ids:
             if corpus_id in available and corpus_id not in seen:
                 seen.add(corpus_id)
                 out.append(corpus_id)
+
+    for code in query.task_codes or ["T1_DRAFT"]:
+        if code == "T1_SEARCH":
+            add(article_corpora)
+        elif code == "T2_COMPLIANCE":
+            add(writing_guides)
+            add(article_corpora)
+        elif code == "T1_TRANSLATE":
+            add(article_corpora)
+            add(writing_guides)
+            if lang != "both":
+                add(_ARTICLE_CORPORA["both"])
+                add(_WRITING_GUIDES["both"])
+        else:
+            add(article_corpora)
+            add(writing_guides)
     return out or sorted(available)
 
 
@@ -129,6 +178,18 @@ def _query_terms(query: RetrievalQuery) -> set[str]:
         ]
     )
     return _tokens(text) | _tokens(" ".join(query.topic_keywords), min_len=2)
+
+
+def _query_text(query: RetrievalQuery) -> str:
+    return " ".join(
+        [
+            query.user_prompt,
+            query.sector or "",
+            " ".join(query.topic_keywords),
+            " ".join(query.workflow_profile_ids),
+            " ".join(query.expert_profile_ids),
+        ]
+    )
 
 
 def _tag_terms(query: RetrievalQuery) -> list[str]:
@@ -205,6 +266,82 @@ def _deterministic_pick(query: RetrievalQuery) -> tuple[list[Snippet], list[str]
         )
         for score, corpus_id, node, matched in candidates[: query.k]
     ], routed
+
+
+def _load_jsonl(path_name: str) -> tuple[dict[str, Any], ...]:
+    path = RAG_DIR / path_name
+    if not path.is_file():
+        return ()
+    records: list[dict[str, Any]] = []
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line:
+                records.append(json.loads(line))
+    return tuple(records)
+
+
+@lru_cache(maxsize=1)
+def load_vector_corpora() -> dict[str, tuple[dict[str, Any], ...]]:
+    return {
+        corpus_id: records
+        for corpus_id, records in {
+            "corpus_en": _load_jsonl("vector_corpus_en.jsonl"),
+            "corpus_nl": _load_jsonl("vector_corpus_nl.jsonl"),
+            "writing_guide": _load_jsonl("vector_writing_guide.jsonl"),
+            "schrijfwijzer": _load_jsonl("vector_schrijfwijzer.jsonl"),
+        }.items()
+        if records
+    }
+
+
+def _normalised_query_vector(query: RetrievalQuery) -> dict[str, float]:
+    counts = _token_counts(_query_text(query))
+    if not counts:
+        return {}
+    norm = math.sqrt(sum(value * value for value in counts.values())) or 1.0
+    return {term: count / norm for term, count in counts.items()}
+
+
+def _vector_score(
+    record: dict[str, Any],
+    query_vector: dict[str, float],
+) -> tuple[float, list[str]]:
+    terms = record.get("terms") if isinstance(record.get("terms"), dict) else {}
+    if not terms or not query_vector:
+        return 0.0, []
+    matched = sorted(set(terms).intersection(query_vector))
+    score = sum(query_vector[term] * float(terms.get(term, 0.0)) for term in matched)
+    return score, matched
+
+
+def _vector_pick(query: RetrievalQuery) -> tuple[list[Snippet], list[str]]:
+    vector_corpora = load_vector_corpora()
+    routed = _route_corpora(query, set(vector_corpora))
+    query_vector = _normalised_query_vector(query)
+    candidates: list[tuple[float, str, dict[str, Any], list[str]]] = []
+    for corpus_id in routed:
+        for record in vector_corpora.get(corpus_id, ()):
+            score, matched = _vector_score(record, query_vector)
+            if score > 0:
+                candidates.append((score, corpus_id, record, matched))
+
+    candidates.sort(key=lambda item: item[0], reverse=True)
+    max_score = candidates[0][0] if candidates else 1.0
+    snippets = [
+        Snippet(
+            source_doc=str(record.get("source_doc") or corpus_id),
+            node_id=str(record.get("node_id") or record.get("id") or ""),
+            title=str(record.get("title") or ""),
+            content=str(record.get("content") or ""),
+            line_num=record.get("line_num"),
+            score=round(score / max_score, 4),
+            reason=f"sparse vector overlap: {', '.join(matched[:8]) or 'n/a'}",
+            source_url=record.get("source_url"),
+        )
+        for score, corpus_id, record, matched in candidates[: query.k]
+    ]
+    return snippets, routed
 
 
 class _NodePick(BaseModel):
@@ -408,6 +545,27 @@ def retrieve_context(
     api_key: str | None = None,
     model: str | None = None,
 ) -> RetrievalResult:
+    if query.retrieval_backend == "vector_rag":
+        snippets, routed = _vector_pick(query)
+        if snippets:
+            return RetrievalResult(
+                query=query,
+                snippets=snippets,
+                provider=query.retrieval_backend,
+                corpora_searched=routed,
+                source="deterministic",
+                reasoning="Sparse vector cosine over generated JSONL chunk assets.",
+            )
+        fallback_snippets, fallback_routed = _deterministic_pick(query)
+        return RetrievalResult(
+            query=query,
+            snippets=fallback_snippets,
+            provider=query.retrieval_backend,
+            corpora_searched=routed or fallback_routed,
+            source="deterministic",
+            reasoning="Vector assets returned no snippets; PageIndex keyword fallback used.",
+        )
+
     fallback_reason = ""
     if api_key and model:
         try:

@@ -179,6 +179,72 @@ _EN_PASSIVE_RE = re.compile(
 )
 _NL_PASSIVE_RE = re.compile(r"\b(?:worden|wordt|werd|werden|geworden)\b", re.IGNORECASE)
 
+_NL_MARKERS = {
+    "de",
+    "het",
+    "een",
+    "van",
+    "voor",
+    "met",
+    "niet",
+    "wordt",
+    "zijn",
+    "bedrijven",
+    "klanten",
+    "u",
+    "uw",
+}
+_EN_MARKERS = {
+    "the",
+    "and",
+    "for",
+    "with",
+    "not",
+    "are",
+    "companies",
+    "customers",
+    "you",
+    "your",
+}
+
+
+def _language_marker_counts(text: str) -> dict[str, int]:
+    words = [w.lower() for w in re.findall(r"\b[A-Za-zÀ-ÿ]+\b", _strip_md(text))]
+    return {
+        "nl": sum(1 for word in words if word in _NL_MARKERS),
+        "en": sum(1 for word in words if word in _EN_MARKERS),
+        "total": len(words),
+    }
+
+
+def check_output_language(kpi: KPI, req: EvalRequest, gen: ContentResult) -> KPIResult:
+    """Workbook 03.02.08 "Language": generated output should match intent."""
+    expected = (getattr(req.intent, "language", None) or "").lower()
+    if expected not in {"en", "nl", "both"}:
+        return _skipped(
+            kpi,
+            indicator=kpi.indicator or "PresenceScale",
+            reason="no requested output language supplied",
+        )
+    counts = _language_marker_counts(gen.body)
+    if counts["total"] == 0:
+        detected = "unknown"
+    elif counts["nl"] >= 3 and counts["nl"] >= counts["en"]:
+        detected = "nl"
+    elif counts["en"] >= 3 and counts["en"] > counts["nl"]:
+        detected = "en"
+    else:
+        detected = "unknown"
+    passed = expected == "both" or detected == expected
+    return _result(
+        kpi,
+        value=detected,
+        indicator=kpi.indicator,
+        passed=passed,
+        reason=f"expected {expected}, detected {detected} from language markers",
+        raw_metric=counts,
+    )
+
 
 def check_passive_voice(kpi: KPI, req: EvalRequest, gen: ContentResult) -> KPIResult:
     """Workbook 06.03.04 "Writing style - active": "B1: max. 0 passive sentences".
@@ -664,6 +730,7 @@ CHECK_REGISTRY: dict[str, CheckFn] = {
     # ── Objective content defects ──────────────────────────────────────
     "factuality_truthfullness": check_factuality_no_hallucinated_citations,
     "images_with_missing_alt_text": check_images_alt_present,
+    "language": check_output_language,
     # ── Source governance ──────────────────────────────────────────────
     "tracability": check_tracability,
     "approved_source_content_for_genai": check_approved_source_for_genai,
@@ -697,6 +764,13 @@ def run_tier1(
             k.id != approved_source.id for k in applicable
         ):
             applicable.append(approved_source)
+    if getattr(req.intent, "language", None) and "language" in CHECK_REGISTRY:
+        try:
+            language_kpi = catalogue.by_id("language")
+        except KeyError:
+            language_kpi = None
+        if language_kpi is not None and all(k.id != language_kpi.id for k in applicable):
+            applicable.append(language_kpi)
     out: list[KPIResult] = []
     for kpi in applicable:
         fn = CHECK_REGISTRY.get(kpi.id)

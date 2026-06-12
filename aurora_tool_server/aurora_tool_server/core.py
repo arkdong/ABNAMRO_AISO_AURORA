@@ -150,6 +150,9 @@ class AuroraCore:
             else self.config.strict_mode
         )
 
+    def _output_language(self, options: StageOptions | None) -> str | None:
+        return options.output_language if options and options.output_language is not None else None
+
     def classify_intent(
         self,
         user_prompt: str,
@@ -165,6 +168,9 @@ class AuroraCore:
                 api_key=self.config.intent_api_key,
                 model=model,
             )
+            output_language = self._output_language(options)
+            if output_language is not None:
+                result = result.model_copy(update={"language": output_language})
             self._record(
                 run_id,
                 "intent",
@@ -174,6 +180,7 @@ class AuroraCore:
                     "task_codes": result.task_codes,
                     "sector": result.sector,
                     "keywords": result.topic_keywords,
+                    "language": result.language,
                 },
             )
             return result
@@ -372,8 +379,9 @@ class AuroraCore:
         *,
         refinement_policy: str = "skip",
         options: StageOptions | None = None,
+        run_id: str | None = None,
     ) -> RunResult:
-        run_id = self._new_run_id()
+        run_id = self._ensure_run(run_id)
         intent = self.classify_intent(user_prompt, options=options, run_id=run_id)
         profiles = self.select_profiles(intent, options=options, run_id=run_id)
         retrieval = self.retrieve_context(

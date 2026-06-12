@@ -20,6 +20,7 @@ def test_health_check():
         return httpx.Response(200, json={"status": "ok"})
 
     client = _client(handler)
+    assert client._client.timeout.read == 120.0
     assert client.health() == {"status": "ok"}
     client.close()
 
@@ -41,17 +42,21 @@ def test_classify_select_retrieve_payloads_round_trip():
 
     client = _client(handler)
     options = {"k": 3, "retrieval_backend": "pageindex"}
-    intent = client.classify_intent("Write an article", options)
-    profiles = client.select_profiles(intent)
-    client.retrieve_context("Write an article", intent, profiles, options)
+    intent = client.classify_intent("Write an article", options, run_id="run_client")
+    profiles = client.select_profiles(intent, run_id="run_client")
+    client.retrieve_context("Write an article", intent, profiles, options, run_id="run_client")
 
     assert seen[0] == (
         "/v1/intent/classify",
-        {"user_prompt": "Write an article", "options": options},
+        {"user_prompt": "Write an article", "options": options, "run_id": "run_client"},
     )
-    assert seen[1] == ("/v1/profiles/select", {"intent": intent, "options": {}})
+    assert seen[1] == (
+        "/v1/profiles/select",
+        {"intent": intent, "options": {}, "run_id": "run_client"},
+    )
     assert seen[2][0] == "/v1/retrieval/search"
     assert seen[2][1]["profiles"] == profiles
+    assert seen[2][1]["run_id"] == "run_client"
     client.close()
 
 
@@ -64,9 +69,11 @@ def test_generation_and_evaluation_payloads():
         if request.url.path == "/v1/drafts/generate":
             assert body["refined_prompt"] == "Draft it"
             assert body["snippets"][0]["node_id"] == "n1"
+            assert body["run_id"] == "run_client"
             return httpx.Response(200, json={"body": "Draft body [1]", "citations": [], "source": "deterministic"})
         if request.url.path == "/v1/evaluations/score":
             assert body["content"]["body"] == "Draft body [1]"
+            assert body["run_id"] == "run_client"
             return httpx.Response(200, json={"passed": True, "results": [], "channel": "web", "origin": "instant", "source": "deterministic"})
         raise AssertionError(request.url.path)
 
@@ -80,6 +87,7 @@ def test_generation_and_evaluation_payloads():
         profiles=profiles,
         snippets=snippets,
         options={"channel": "web"},
+        run_id="run_client",
     )
     evaluation = client.evaluate_draft(
         refined_prompt="Draft it",
@@ -88,6 +96,7 @@ def test_generation_and_evaluation_payloads():
         profiles=profiles,
         snippets=snippets,
         options={"channel": "web"},
+        run_id="run_client",
     )
 
     assert paths == ["/v1/drafts/generate", "/v1/evaluations/score"]
@@ -137,14 +146,24 @@ def test_run_pipeline_and_audit_payloads():
 
     client = _client(handler)
     options = {"k": 3, "retrieval_backend": "pageindex"}
-    run = client.run_pipeline("Draft it", refinement_policy="skip", options=options)
+    run = client.run_pipeline(
+        "Draft it",
+        refinement_policy="skip",
+        options=options,
+        run_id="run_123",
+    )
     audit = client.get_audit_trace("run_123")
 
     assert run["run_id"] == "run_123"
     assert audit == {"run_id": "run_123", "events": []}
     assert seen[0] == (
         "/v1/runs",
-        {"user_prompt": "Draft it", "refinement_policy": "skip", "options": options},
+        {
+            "user_prompt": "Draft it",
+            "refinement_policy": "skip",
+            "options": options,
+            "run_id": "run_123",
+        },
     )
     assert seen[1] == ("/v1/runs/run_123/audit", {})
     client.close()

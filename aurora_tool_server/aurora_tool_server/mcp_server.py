@@ -45,12 +45,24 @@ def _dump(model) -> dict[str, Any]:
 
 def aurora_classify_intent_handler(payload: dict[str, Any]) -> dict[str, Any]:
     request = IntentRequest(**payload)
-    return _dump(core.classify_intent(request.user_prompt, options=request.options))
+    return _dump(
+        core.classify_intent(
+            request.user_prompt,
+            options=request.options,
+            run_id=request.run_id,
+        )
+    )
 
 
 def aurora_select_profiles_handler(payload: dict[str, Any]) -> dict[str, Any]:
     request = ProfileRequest(**payload)
-    return _dump(core.select_profiles(request.intent, options=request.options))
+    return _dump(
+        core.select_profiles(
+            request.intent,
+            options=request.options,
+            run_id=request.run_id,
+        )
+    )
 
 
 def aurora_retrieve_context_handler(payload: dict[str, Any]) -> dict[str, Any]:
@@ -61,19 +73,29 @@ def aurora_retrieve_context_handler(payload: dict[str, Any]) -> dict[str, Any]:
             request.intent,
             request.profiles,
             options=request.options,
+            run_id=request.run_id,
         )
     )
 
 
 def aurora_refine_prompt_handler(payload: dict[str, Any]) -> dict[str, Any]:
     request = RefineRequest(**payload)
-    intent = request.intent or core.classify_intent(request.user_prompt, options=request.options)
-    profiles = request.profiles or core.select_profiles(intent, options=request.options)
+    intent = request.intent or core.classify_intent(
+        request.user_prompt,
+        options=request.options,
+        run_id=request.run_id,
+    )
+    profiles = request.profiles or core.select_profiles(
+        intent,
+        options=request.options,
+        run_id=request.run_id,
+    )
     retrieval = request.retrieval or core.retrieve_context(
         request.user_prompt,
         intent,
         profiles,
         options=request.options,
+        run_id=request.run_id,
     )
     return _dump(
         core.refine_prompt(
@@ -85,6 +107,7 @@ def aurora_refine_prompt_handler(payload: dict[str, Any]) -> dict[str, Any]:
             regenerate_on_pivot=request.regenerate_on_pivot,
             ask_questions=not bool(request.answers),
             options=request.options,
+            run_id=request.run_id,
         )
     )
 
@@ -98,6 +121,7 @@ def aurora_generate_draft_handler(payload: dict[str, Any]) -> dict[str, Any]:
             request.profiles,
             request.snippets,
             options=request.options,
+            run_id=request.run_id,
         )
     )
 
@@ -111,6 +135,7 @@ def aurora_evaluate_draft_handler(payload: dict[str, Any]) -> dict[str, Any]:
             request.snippets,
             intent=request.intent,
             options=request.options,
+            run_id=request.run_id,
         )
     )
 
@@ -122,6 +147,7 @@ def aurora_run_pipeline_handler(payload: dict[str, Any]) -> dict[str, Any]:
             request.user_prompt,
             refinement_policy=request.refinement_policy,
             options=request.options,
+            run_id=request.run_id,
         )
     )
 

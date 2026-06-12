@@ -12,14 +12,26 @@ from .schemas import IntentResult, TaskCode
 TMT_SECTOR = "Technologie, Media & Telecom"
 
 _TASK_HINTS: list[tuple[TaskCode, tuple[str, ...]]] = [
-    ("T1_TRANSLATE", ("translate", "vertaal", "translation", "naar het nederlands")),
+    ("T1_TRANSLATE", ("translate", "vertaal", "translation", "naar het nederlands", "naar engels")),
     (
         "T2_COMPLIANCE",
-        ("check", "review", "compliance", "kpi", "checklist", "hard rule", "quality"),
+        (
+            "check",
+            "review",
+            "compliance",
+            "kpi",
+            "checklist",
+            "hard rule",
+            "quality",
+            "controleer",
+            "beoordeel",
+            "kwaliteit",
+            "naleving",
+        ),
     ),
-    ("T4_RENEWAL", ("old article", "older than", "renew", "refresh", "verouderd")),
-    ("T1_SEARCH", ("search", "find", "related", "corpus", "exist", "already have")),
-    ("T1_DRAFT", ("write", "draft", "article", "schrijf", "generate")),
+    ("T4_RENEWAL", ("old article", "older than", "renew", "refresh", "verouderd", "vernieuw", "actualiseer")),
+    ("T1_SEARCH", ("search", "find", "related", "corpus", "exist", "already have", "zoek", "vind", "gerelateerd")),
+    ("T1_DRAFT", ("write", "draft", "article", "schrijf", "generate", "concept", "artikel")),
 ]
 
 _SECTOR_HINTS = (
@@ -33,6 +45,7 @@ _SECTOR_HINTS = (
     "media",
     "advertising",
     "advertentie",
+    "buitenreclame",
     "retail media",
     "digital services act",
     "dsa",
@@ -66,16 +79,28 @@ def _detect_sector(prompt_lower: str) -> str | None:
 
 def _detect_language(prompt_lower: str) -> str | None:
     padded = f" {prompt_lower} "
-    if " both " in padded or " en + nl " in padded:
+    if " both " in padded or " en + nl " in padded or " engels en nederlands " in padded:
         return "both"
-    if any(token in padded for token in (" english ", " in english ", " engels ")):
+    if any(token in padded for token in (" english ", " in english ", " engels ", " in het engels ")):
         return "en"
-    if any(token in padded for token in (" dutch ", " nederlands ", " in het nederlands ")):
+    if any(token in padded for token in (" dutch ", " nederlands ", " in het nederlands ", " nederlandstalig ")):
         return "nl"
 
     nl_hits = sum(
         1
-        for signal in ("vertaal", "schrijf", "artikelen", "ouder dan", " het ", " de ")
+        for signal in (
+            "vertaal",
+            "schrijf",
+            "artikel",
+            "artikelen",
+            "ouder dan",
+            "controleer",
+            "zoek",
+            "vind",
+            " het ",
+            " de ",
+            " een ",
+        )
         if signal in padded
     )
     en_hits = sum(

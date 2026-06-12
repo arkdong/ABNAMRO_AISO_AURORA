@@ -38,12 +38,20 @@ def health() -> dict[str, str]:
 
 @app.post("/v1/intent/classify", response_model=IntentResult)
 def classify_intent(request: IntentRequest) -> IntentResult:
-    return core.classify_intent(request.user_prompt, options=request.options)
+    return core.classify_intent(
+        request.user_prompt,
+        options=request.options,
+        run_id=request.run_id,
+    )
 
 
 @app.post("/v1/profiles/select", response_model=ProfileBundleResult)
 def select_profiles(request: ProfileRequest) -> ProfileBundleResult:
-    return core.select_profiles(request.intent, options=request.options)
+    return core.select_profiles(
+        request.intent,
+        options=request.options,
+        run_id=request.run_id,
+    )
 
 
 @app.post("/v1/retrieval/search", response_model=RetrievalResult)
@@ -53,18 +61,28 @@ def retrieve_context(request: RetrievalRequest) -> RetrievalResult:
         request.intent,
         request.profiles,
         options=request.options,
+        run_id=request.run_id,
     )
 
 
 @app.post("/v1/prompts/refine", response_model=RefinementResult)
 def refine_prompt(request: RefineRequest) -> RefinementResult:
-    intent = request.intent or core.classify_intent(request.user_prompt, options=request.options)
-    profiles = request.profiles or core.select_profiles(intent, options=request.options)
+    intent = request.intent or core.classify_intent(
+        request.user_prompt,
+        options=request.options,
+        run_id=request.run_id,
+    )
+    profiles = request.profiles or core.select_profiles(
+        intent,
+        options=request.options,
+        run_id=request.run_id,
+    )
     retrieval = request.retrieval or core.retrieve_context(
         request.user_prompt,
         intent,
         profiles,
         options=request.options,
+        run_id=request.run_id,
     )
     return core.refine_prompt(
         request.user_prompt,
@@ -75,6 +93,7 @@ def refine_prompt(request: RefineRequest) -> RefinementResult:
         regenerate_on_pivot=request.regenerate_on_pivot,
         ask_questions=not bool(request.answers),
         options=request.options,
+        run_id=request.run_id,
     )
 
 
@@ -86,6 +105,7 @@ def generate_draft(request: GenerateRequest) -> ContentResult:
         request.profiles,
         request.snippets,
         options=request.options,
+        run_id=request.run_id,
     )
 
 
@@ -97,6 +117,7 @@ def evaluate_draft(request: EvaluateRequest) -> EvaluationResult:
         request.snippets,
         intent=request.intent,
         options=request.options,
+        run_id=request.run_id,
     )
 
 
@@ -106,6 +127,7 @@ def run_pipeline(request: RunRequest) -> RunResult:
         request.user_prompt,
         refinement_policy=request.refinement_policy,
         options=request.options,
+        run_id=request.run_id,
     )
 
 

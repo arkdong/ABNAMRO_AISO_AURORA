@@ -191,6 +191,7 @@ class RunResult(BaseModel):
 
 class StageOptions(BaseModel):
     model: str | None = None
+    output_language: Literal["en", "nl", "both"] | None = None
     k: int | None = Field(default=None, ge=1, le=20)
     retrieval_backend: RetrievalBackend | None = None
     channel: Channel | None = None
@@ -201,11 +202,13 @@ class StageOptions(BaseModel):
 class IntentRequest(BaseModel):
     user_prompt: str
     options: StageOptions = Field(default_factory=StageOptions)
+    run_id: str | None = None
 
 
 class ProfileRequest(BaseModel):
     intent: IntentResult
     options: StageOptions = Field(default_factory=StageOptions)
+    run_id: str | None = None
 
 
 class RetrievalRequest(BaseModel):
@@ -213,6 +216,7 @@ class RetrievalRequest(BaseModel):
     intent: IntentResult
     profiles: ProfileBundleResult
     options: StageOptions = Field(default_factory=StageOptions)
+    run_id: str | None = None
 
 
 class RefineRequest(BaseModel):
@@ -223,6 +227,7 @@ class RefineRequest(BaseModel):
     answers: dict[str, str] = Field(default_factory=dict)
     regenerate_on_pivot: bool = False
     options: StageOptions = Field(default_factory=StageOptions)
+    run_id: str | None = None
 
 
 class GenerateRequest(BaseModel):
@@ -231,6 +236,7 @@ class GenerateRequest(BaseModel):
     profiles: ProfileBundleResult
     snippets: list[Snippet] = Field(default_factory=list)
     options: StageOptions = Field(default_factory=StageOptions)
+    run_id: str | None = None
 
 
 class EvaluateRequest(BaseModel):
@@ -240,9 +246,11 @@ class EvaluateRequest(BaseModel):
     profiles: ProfileBundleResult | None = None
     snippets: list[Snippet] = Field(default_factory=list)
     options: StageOptions = Field(default_factory=StageOptions)
+    run_id: str | None = None
 
 
 class RunRequest(BaseModel):
     user_prompt: str
     refinement_policy: Literal["skip", "ask_first"] = "skip"
     options: StageOptions = Field(default_factory=StageOptions)
+    run_id: str | None = None

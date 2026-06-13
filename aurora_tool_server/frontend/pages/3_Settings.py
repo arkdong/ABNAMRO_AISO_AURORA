@@ -9,6 +9,7 @@ import streamlit as st
 from agent_service import DEFAULT_AGENT_MODEL
 from agent_tools import clear_agent_tool_cache
 from api_client import AuroraApiClient, AuroraApiError
+from branding import apply_branding
 from settings_state import (
     AGENT_CHANNELS,
     AGENT_ORIGINS,
@@ -21,6 +22,7 @@ from settings_state import (
 )
 
 st.set_page_config(page_title="Settings · AURORA", layout="centered")
+apply_branding("Settings", "Configure AURORA defaults")
 
 
 def _index(options: list[str], value: Any) -> int:

@@ -9,6 +9,7 @@ from typing import Any
 import streamlit as st
 
 from api_client import AuroraApiClient, AuroraApiError
+from branding import apply_branding
 from normal_mode import (
     NORMAL_LATEST_RUN_KEY,
     NORMAL_MESSAGES_KEY,
@@ -38,7 +39,7 @@ TASK_LABELS = {
 
 
 st.set_page_config(page_title="Normal mode · AURORA", layout="centered")
-st.title("Normal mode")
+apply_branding("Normal mode", "Chat-first AURORA pipeline")
 
 init_pipeline_state()
 init_normal_mode_state(st.session_state)

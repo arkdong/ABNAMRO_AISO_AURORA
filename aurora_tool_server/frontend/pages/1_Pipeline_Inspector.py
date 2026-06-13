@@ -7,6 +7,7 @@ from typing import Any
 import streamlit as st
 
 from api_client import AuroraApiClient, AuroraApiError
+from branding import apply_branding
 from settings_state import init_pipeline_state, new_run_id
 
 TASK_LABELS = {
@@ -30,7 +31,7 @@ STAGE_STYLES: dict[str, tuple[str, str, str, str]] = {
 }
 
 st.set_page_config(page_title="Pipeline Inspector · AURORA", layout="centered")
-st.title("Pipeline Inspector")
+apply_branding("Pipeline Inspector", "Stage-by-stage AURORA pipeline")
 
 
 init_pipeline_state()

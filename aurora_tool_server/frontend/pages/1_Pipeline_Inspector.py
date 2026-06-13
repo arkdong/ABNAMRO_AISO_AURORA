@@ -967,16 +967,6 @@ def _render_error_message(idx: int, message: dict[str, Any]) -> None:
         st.code(message.get("message", ""), language="text")
 
 
-caption = (
-    f"Manual pipeline inspector · `{st.session_state['api_base_url']}`"
-    + (
-        f" · audit `{st.session_state['pipeline_run_id']}`"
-        if st.session_state.get("pipeline_run_id")
-        else ""
-    )
-)
-st.caption(caption)
-
 messages = st.session_state.messages
 
 

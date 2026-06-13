@@ -480,11 +480,6 @@ if st.button(toggle_label):
     st.session_state[NORMAL_SHOW_DETAILS_KEY] = not st.session_state[NORMAL_SHOW_DETAILS_KEY]
     st.rerun()
 
-st.caption(
-    f"Pipeline chat · `{st.session_state['api_base_url']}` · "
-    f"k={st.session_state['retrieval_k']} · {st.session_state['retrieval_backend']}"
-)
-
 for message in st.session_state[NORMAL_MESSAGES_KEY]:
     _render_message(message)
 

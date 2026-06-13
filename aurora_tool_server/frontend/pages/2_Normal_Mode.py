@@ -44,6 +44,13 @@ apply_branding("Normal mode", "Chat-first AURORA pipeline")
 init_pipeline_state()
 init_normal_mode_state(st.session_state)
 
+with st.sidebar:
+    if st.button("Clear chat", key="normal_clear_chat", use_container_width=True):
+        st.session_state[NORMAL_MESSAGES_KEY] = []
+        st.session_state[NORMAL_PENDING_KEY] = None
+        st.session_state[NORMAL_LATEST_RUN_KEY] = None
+        st.rerun()
+
 
 def _options() -> dict[str, Any]:
     return pipeline_options(st.session_state)

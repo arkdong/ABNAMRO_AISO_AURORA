@@ -36,6 +36,12 @@ apply_branding("Pipeline Inspector", "Stage-by-stage AURORA pipeline")
 
 init_pipeline_state()
 
+with st.sidebar:
+    if st.button("Clear chat", key="pipeline_clear_chat", use_container_width=True):
+        st.session_state.messages = []
+        st.session_state.pipeline_run_id = None
+        st.rerun()
+
 
 def _options() -> dict[str, Any]:
     return {

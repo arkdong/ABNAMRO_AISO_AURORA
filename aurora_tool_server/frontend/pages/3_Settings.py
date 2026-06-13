@@ -58,8 +58,6 @@ def _show_health(message: dict[str, str] | None) -> None:
 init_pipeline_state()
 init_agent_state(DEFAULT_AGENT_MODEL)
 
-st.title("Settings")
-
 pipeline_tab, agent_tab = st.tabs(["Pipeline", "AI Agent"])
 
 with pipeline_tab:

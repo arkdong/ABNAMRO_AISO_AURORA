@@ -9,8 +9,9 @@ from loguru import logger
 class CorpusManager:
     def __init__(self, corpus_dir: str = None):
         if corpus_dir is None:
+            project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
             self.corpus_dir = os.path.join(
-                os.path.dirname(__file__), "../context-engineering/data/raw"
+                project_root, "data", "article", "en"
             )
         else:
             self.corpus_dir = corpus_dir
@@ -48,9 +49,10 @@ class CorpusManager:
 
             # Extract date
             d = date.today()
-            if "date" in fm:
+            if "date" in fm or "published" in fm:
                 try:
-                    dt = datetime.strptime(str(fm["date"]), "%Y-%m-%d").date()
+                    raw_date = str(fm.get("date") or fm["published"])
+                    dt = datetime.strptime(raw_date, "%Y-%m-%d").date()
                     d = dt
                 except Exception:
                     pass
@@ -76,6 +78,8 @@ class CorpusManager:
                 keywords.append(str(fm["sector"]))
             if "topic" in fm:
                 keywords.append(str(fm["topic"]))
+            for tag in fm.get("tag") or []:
+                keywords.append(str(tag).strip("[]"))
 
             # Mock compliance for ESG-ish topics
             compliant = True

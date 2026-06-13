@@ -45,7 +45,7 @@ Schema (output):
       ]
     }
 
-Run:  ``python rag/scripts/build_kpi_catalogue.py``
+Run from ``archive/``:  ``python rag/scripts/build_kpi_catalogue.py``
 """
 from __future__ import annotations
 
@@ -59,9 +59,10 @@ import openpyxl
 
 warnings.filterwarnings("ignore", category=UserWarning, module="openpyxl")
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-XLSX_PATH = REPO_ROOT / "data" / "Content KPI inventory_AISO.xlsx"
-OUT_PATH = REPO_ROOT / "backend" / "evaluation" / "data" / "kpi_catalogue.json"
+ARCHIVE_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = ARCHIVE_ROOT.parent
+XLSX_PATH = PROJECT_ROOT / "data" / "Content KPI inventory_AISO.xlsx"
+OUT_PATH = ARCHIVE_ROOT / "backend" / "evaluation" / "data" / "kpi_catalogue.json"
 
 # Inventory sheet column map (1-indexed, matches the header row at row 8).
 COL = {
@@ -341,7 +342,7 @@ def build() -> dict:
         k["category"] = _canonical_category(k["category"], category_names)
 
     return {
-        "source_xlsx": str(XLSX_PATH.relative_to(REPO_ROOT)),
+        "source_xlsx": str(XLSX_PATH.relative_to(PROJECT_ROOT)),
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "categories": categories,
         "clusters": clusters,
@@ -357,7 +358,7 @@ def main() -> None:
     unknown = sum(1 for k in out["kpis"] if k["indicator"] is None)
     blocking = sum(1 for k in out["kpis"] if k["weight"] == "Blocking")
     print(
-        f"Wrote {OUT_PATH.relative_to(REPO_ROOT)}: "
+        f"Wrote {OUT_PATH.relative_to(ARCHIVE_ROOT)}: "
         f"{len(out['kpis'])} KPIs, {len(out['categories'])} categories, "
         f"{len(out['clusters'])} clusters, "
         f"{blocking} Blocking, {unknown} with unmapped indicator phrase."

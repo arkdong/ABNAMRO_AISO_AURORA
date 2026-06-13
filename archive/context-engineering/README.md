@@ -195,7 +195,7 @@ rules = rag.retrieve_writing_rules("...", top_k=10)
 ## Architecture
 
 ```
-data/                                  (sibling of this folder)
+../../data/                            (shared repo-root data)
 ├── article/{en,nl}/*.md               source corpus (NL + GPT-5 translations)
 ├── writing_guide.md                   extracted by scripts/ingest_pdf.py
 └── Writing Guide 2026-V1.1.pdf        source PDF

@@ -1,8 +1,8 @@
 """Chunking strategies (simple C1-C10 + advanced A1-A8) per docs/.
 
-Reads translated articles from `data/translated/<src>/<slug>.md` (or
-`data/raw/writing_guide.md` when `--src writing-guide`) and writes JSONL to
-`data/chunked/<tier>/<chunker>/<src>/<slug>.jsonl`. One line per chunk:
+Reads translated articles from the shared repo-root `data/article/<lang>/`
+(or `data/writing_guide.md` when `--src writing-guide`) and writes JSONL to
+`chunked/<tier>/<chunker>/<src>/<slug>.jsonl`. One line per chunk:
   {"id", "text", "metadata": {...}}
 
 Simple methods (article-applicable):
@@ -52,15 +52,16 @@ from typing import Callable
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent           # context-engineering/
-REPO_ROOT = ROOT.parent                                  # ABN/ (repo root)
+ROOT = Path(__file__).resolve().parent.parent           # archive/context-engineering/
+ARCHIVE_ROOT = ROOT.parent
+PROJECT_ROOT = ARCHIVE_ROOT.parent
 
 # Article sources live at <repo-root>/data/article/{en,nl}/. Map our familiar
 # `--src` names to those paths. Add new entries here when more translation
 # methods land (e.g. anthropic-claude-haiku-4-5 → article/anthropic-haiku/).
 TRANSLATED_PATHS: dict[str, Path] = {
-    "gpt-5":     REPO_ROOT / "data" / "article" / "en",
-    "source-nl": REPO_ROOT / "data" / "article" / "nl",
+    "gpt-5":     PROJECT_ROOT / "data" / "article" / "en",
+    "source-nl": PROJECT_ROOT / "data" / "article" / "nl",
 }
 
 CHUNKED_BASE = ROOT / "chunked"                          # was data/chunked/
@@ -1350,7 +1351,7 @@ def run(method: str, src_method: str, limit: int | None, force: bool,
             raise SystemExit(
                 f"{method} is for {info['applies_to']!r}; use src=deep-translator (or other translation method)"
             )
-        wg_path = REPO_ROOT / "data" / "writing_guide.md"
+        wg_path = PROJECT_ROOT / "data" / "writing_guide.md"
         if not wg_path.exists():
             raise SystemExit(f"{wg_path} not found — run scripts/ingest_pdf.py first")
         files = [wg_path]

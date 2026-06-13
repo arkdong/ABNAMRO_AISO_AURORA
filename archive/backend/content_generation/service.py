@@ -98,6 +98,8 @@ def generate_content(
         parsed = completion.choices[0].message.parsed
         if parsed is None:
             raise ValueError("LLM returned no parsed output")
+        if not parsed.body.strip():
+            raise ValueError("LLM returned empty body")
         parsed = parsed.model_copy(
             update={
                 "model": model,

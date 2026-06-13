@@ -25,9 +25,12 @@ from .scrapers.feeds import (
     crawl_sitemap_xml,
 )
 
-DEFAULT_OUT_DIR = Path("data/article/nl")
-DEFAULT_TRANSLATE_SRC = Path("data/article/nl")
-DEFAULT_TRANSLATE_DST = Path("data/article/en")
+ARCHIVE_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = ARCHIVE_ROOT.parent
+
+DEFAULT_OUT_DIR = PROJECT_ROOT / "data" / "article" / "nl"
+DEFAULT_TRANSLATE_SRC = PROJECT_ROOT / "data" / "article" / "nl"
+DEFAULT_TRANSLATE_DST = PROJECT_ROOT / "data" / "article" / "en"
 
 
 def _matches_sector(article: dict, sector: str | None) -> bool:

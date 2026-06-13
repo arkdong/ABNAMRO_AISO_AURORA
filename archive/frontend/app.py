@@ -1122,7 +1122,13 @@ def _render_content_message(idx: int, m: dict) -> None:
             else "_Deterministic stub — configure Content key + model in Settings._"
         )
         st.markdown(model_caption)
-        st.markdown(result.body)
+        if result.body.strip():
+            st.markdown(result.body)
+        else:
+            st.warning(
+                "No generated content was returned. Generate again, or check the "
+                "Content model settings."
+            )
         if result.citations:
             with st.expander(f"Sources ({len(result.citations)})"):
                 snippet_by_index = {

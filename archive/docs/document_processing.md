@@ -88,10 +88,10 @@ in your OpenAI dashboard to bill translation runs as a separate line item.
 
 ```bash
 # smoke-test on one file
-python -m document_processing translate --file "data/article/nl/<file>.md"
+python -m document_processing translate --file "../data/article/nl/<file>.md"
 
 # all 59 articles
-python -m document_processing translate --src data/article/nl --dst data/article/en
+python -m document_processing translate --src ../data/article/nl --dst ../data/article/en
 
 # cheaper: ~5× less per article
 python -m document_processing translate --model gpt-5-mini

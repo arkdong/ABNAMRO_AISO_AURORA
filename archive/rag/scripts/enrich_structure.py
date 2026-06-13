@@ -21,9 +21,11 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-STRUCTURE_PATH = REPO_ROOT / "rag" / "corpus" / "corpus_en_structure.json"
-MANIFEST_PATH = REPO_ROOT / "rag" / "corpus" / "corpus_en_manifest.json"
+ARCHIVE_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = ARCHIVE_ROOT.parent
+CORPUS_DIR = PROJECT_ROOT / "rag" / "corpus"
+STRUCTURE_PATH = CORPUS_DIR / "corpus_en_structure.json"
+MANIFEST_PATH = CORPUS_DIR / "corpus_en_manifest.json"
 
 
 def _normalise_title(t: str) -> str:

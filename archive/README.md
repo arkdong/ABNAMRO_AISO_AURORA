@@ -1,18 +1,20 @@
-# AURORA Demo
+# AURORA Archive
 
-AURORA is a local proof-of-concept for an editorial co-pilot. The demo takes a
+AURORA Archive is the older local proof-of-concept for an editorial co-pilot.
+The archived demo takes a
 writing request, classifies the intent, selects relevant workflow and expert
 profiles, retrieves supporting context from ABN AMRO writing assets, refines the
 prompt with clarification questions, generates draft content, and evaluates the
 result against a KPI catalogue.
 
-The project is now contained in this `demo/` folder. Run commands from this
+The archived project is contained in this `archive/` folder. Run commands from this
 directory unless a command says otherwise.
 
 ## What The Demo Does
 
 - Runs a Streamlit chat UI for the end-to-end AURORA pipeline.
-- Uses cached PageIndex trees over `rag/corpus/` as the default retrieval path.
+- Uses cached PageIndex trees over the repo-root `rag/corpus/` as the default
+  retrieval path.
 - Optionally switches Stage 3 to Track A Vector RAG through
   `context-engineering/` when `context-engineering/vector_db/` has been built.
 - Keeps the UI usable without API keys by falling back to deterministic or stub
@@ -54,27 +56,32 @@ directory unless a command says otherwise.
 ## Layout
 
 ```text
-demo/
-├── frontend/              # Streamlit app and pages
-├── backend/               # intent, profile selection, retrieval, refinement, generation, evaluation
-├── profiles/              # workflow and domain-expert YAML profiles
-├── rag/                   # PageIndex retrieval, cached corpus trees, notebooks, build scripts
-├── context-engineering/   # Track A Vector RAG implementation
-├── document_processing/   # markdown/document ingestion helpers
-├── task_definition/       # earlier task-definition prototype
-├── data/                  # writing guide, KPI workbook, EN/NL article corpus
-├── docs/                  # project notes, reports, diagrams, test queries
-└── results/               # generated PageIndex outputs
+/
+├── data/                  # shared writing guide, KPI workbook, EN/NL article corpus
+├── rag/corpus/            # shared generated corpus markdown + PageIndex trees
+└── archive/
+    ├── frontend/              # Streamlit app and pages
+    ├── backend/               # intent, profile selection, retrieval, refinement, generation, evaluation
+    ├── profiles/              # workflow and domain-expert YAML profiles
+    ├── rag/                   # PageIndex retrieval code, notebooks, build scripts
+    ├── context-engineering/   # Track A Vector RAG implementation
+    ├── document_processing/   # markdown/document ingestion helpers
+    ├── task_definition/       # earlier task-definition prototype
+    ├── docs/                  # project notes, reports, diagrams, test queries
+    └── results/               # generated PageIndex outputs
 ```
+
+The archived docs may refer to `data/` and `rag/corpus/`; those paths now mean
+the shared repo-root directories, not folders inside `archive/`.
 
 ## Setup
 
 ```bash
-cd demo
+cd archive
 uv sync
 ```
 
-Optional API keys can be supplied in `demo/.env` or entered on the Streamlit
+Optional API keys can be supplied in `archive/.env` or entered on the Streamlit
 Settings page:
 
 ```bash
@@ -88,7 +95,7 @@ OPENAI_API_KEY_EVALUATION=...
 ## Run The Demo
 
 ```bash
-cd demo
+cd archive
 uv run streamlit run frontend/app.py
 ```
 
@@ -105,13 +112,16 @@ Useful side pages:
 The checked-in cached trees are enough for the default demo path. To rebuild:
 
 ```bash
-cd demo
+cd archive
 uv run python rag/scripts/build_corpus.py
-uv run python rag/scripts/run_pageindex.py --pdf_path data/"Writing Guide 2026-V1.1.pdf"
-uv run python rag/scripts/run_pageindex.py --md_path rag/corpus/corpus_en.md
+uv run python rag/scripts/run_pageindex.py --pdf_path ../data/"Writing Guide 2026-V1.1.pdf"
+uv run python rag/scripts/run_pageindex.py --md_path ../rag/corpus/corpus_en.md
+cp results/corpus_en_structure.json ../rag/corpus/corpus_en_structure.json
+uv run python rag/scripts/enrich_structure.py
 ```
 
-Generated outputs land in `results/` and `rag/results/`.
+Generated PageIndex outputs land in `archive/results/`; the canonical corpus
+cache lives in the repo-root `rag/corpus/`.
 
 ## Build Vector RAG Assets
 
@@ -120,7 +130,7 @@ Vector RAG is optional. It needs extra dependencies from
 `context-engineering/vector_db/` directory.
 
 ```bash
-cd demo/context-engineering
+cd archive/context-engineering
 pip install -r requirements.txt
 python -m scripts.ingest_pdf
 python -m scripts.chunk --method a9 --src gpt-5
@@ -130,13 +140,13 @@ python -m scripts.embed --embedder x4 --chunker a9 --src gpt-5
 python -m scripts.embed --embedder x4 --chunker a10 --src writing-guide
 ```
 
-After this, launch the Streamlit app from `demo/` and select `Vector RAG` at
+After this, launch the Streamlit app from `archive/` and select `Vector RAG` at
 the top of the main page.
 
 ## Test And Validate
 
 ```bash
-cd demo
+cd archive
 uv run python -m py_compile frontend/app.py backend/retrieval/context_engineering_provider.py
 uv run pytest
 ```
@@ -147,7 +157,7 @@ The Vector RAG end-to-end retrieval test is skipped automatically until both
 ## Notebooks
 
 ```bash
-cd demo
+cd archive
 uv run jupyter lab rag/notebooks/
 ```
 

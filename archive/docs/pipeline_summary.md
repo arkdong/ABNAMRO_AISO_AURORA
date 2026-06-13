@@ -67,13 +67,14 @@ its own (`OPENAI_API_KEY_EVALUATION`).
 ### The index
 
 - Source: 59 English-translated TMT articles in `data/article/en/`.
+  `data/` is the shared repo-root data directory.
 - Build pipeline (one-time, repeatable):
   1. `rag/scripts/build_corpus.py` concatenates all 59 articles into
      `rag/corpus/corpus_en.md`, stripping YAML frontmatter, image/iframe
      lines, byline, boilerplate CTAs, and any duplicated body H1. It also
      emits `rag/corpus/corpus_en_manifest.json` — one record per article
      with title, description, tag, published, source, author.
-  2. `rag/scripts/run_pageindex.py --md_path rag/corpus/corpus_en.md` runs
+  2. `rag/scripts/run_pageindex.py --md_path ../rag/corpus/corpus_en.md` runs
      PageIndex's markdown tree builder. Each `#` heading becomes a top-level
      node (an article), each `##` becomes a child (a section). LLM
      summaries are generated per section. Output:

@@ -4,9 +4,9 @@ Uses **pymupdf4llm** which preserves heading structure (`## ...`), bold
 markers (`**...**`) and tables (`| ... |`) — much richer than pypdf's flat
 text. Heading-aware chunkers (C7/A8/C11) downstream rely on this.
 
-Reads `data/writing_guide.pdf`, runs the converter, strips repeated footers
+Reads the shared repo-root Writing Guide PDF, runs the converter, strips repeated footers
 ("N\\nWriting Guide • January 2026"), filters tiny noise lines (table column
-headers like "US"/"UK"), and writes `data/raw/writing_guide.md` with YAML
+headers like "US"/"UK"), and writes `data/writing_guide.md` with YAML
 frontmatter.
 
 Usage:
@@ -24,10 +24,11 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parent.parent       # context-engineering/
-REPO_ROOT = ROOT.parent                              # ABN/
-PDF_PATH = REPO_ROOT / "data" / "Writing Guide 2026-V1.1.pdf"
-OUT_PATH = REPO_ROOT / "data" / "writing_guide.md"
+ROOT = Path(__file__).resolve().parent.parent       # archive/context-engineering/
+ARCHIVE_ROOT = ROOT.parent
+PROJECT_ROOT = ARCHIVE_ROOT.parent
+PDF_PATH = PROJECT_ROOT / "data" / "Writing Guide 2026-V1.1.pdf"
+OUT_PATH = PROJECT_ROOT / "data" / "writing_guide.md"
 
 
 # ---------------------------------------------------------------------------
@@ -134,7 +135,7 @@ def main() -> None:
         "date": "2026-01",
         "doc_type": "writing_guide",
         "language": "en",
-        "source_pdf": "data/writing_guide.pdf",
+        "source_pdf": "data/Writing Guide 2026-V1.1.pdf",
         "extractor": args.backend,
         "ingested_at": date.today().isoformat(),
     }

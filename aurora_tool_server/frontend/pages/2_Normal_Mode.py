@@ -9,6 +9,7 @@ from typing import Any
 import streamlit as st
 
 from api_client import AuroraApiClient, AuroraApiError
+from branding import apply_branding
 from normal_mode import (
     NORMAL_LATEST_RUN_KEY,
     NORMAL_MESSAGES_KEY,
@@ -38,10 +39,17 @@ TASK_LABELS = {
 
 
 st.set_page_config(page_title="Normal mode · AURORA", layout="centered")
-st.title("Normal mode")
+apply_branding("Normal mode", "Chat-first AURORA pipeline")
 
 init_pipeline_state()
 init_normal_mode_state(st.session_state)
+
+with st.sidebar:
+    if st.button("Clear chat", key="normal_clear_chat", use_container_width=True):
+        st.session_state[NORMAL_MESSAGES_KEY] = []
+        st.session_state[NORMAL_PENDING_KEY] = None
+        st.session_state[NORMAL_LATEST_RUN_KEY] = None
+        st.rerun()
 
 
 def _options() -> dict[str, Any]:
@@ -478,11 +486,6 @@ toggle_label = "Hide details" if st.session_state[NORMAL_SHOW_DETAILS_KEY] else 
 if st.button(toggle_label):
     st.session_state[NORMAL_SHOW_DETAILS_KEY] = not st.session_state[NORMAL_SHOW_DETAILS_KEY]
     st.rerun()
-
-st.caption(
-    f"Pipeline chat · `{st.session_state['api_base_url']}` · "
-    f"k={st.session_state['retrieval_k']} · {st.session_state['retrieval_backend']}"
-)
 
 for message in st.session_state[NORMAL_MESSAGES_KEY]:
     _render_message(message)

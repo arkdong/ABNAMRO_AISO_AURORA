@@ -3,8 +3,10 @@
 from __future__ import annotations
 
 from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel, Field
 
 from .core import AuroraConfig, AuroraCore
+from .workshop_log import log_event as workshop_log_event
 from .schemas import (
     AuditTrace,
     ContentResult,
@@ -137,3 +139,16 @@ def get_audit_trace(run_id: str) -> AuditTrace:
     if not trace.events:
         raise HTTPException(status_code=404, detail=f"run_id {run_id!r} not found")
     return trace
+
+
+class WorkshopFeedback(BaseModel):
+    text: str = Field(..., min_length=1, max_length=2000)
+    page: str | None = None
+    run_id: str | None = None
+    participant: str | None = None
+
+
+@app.post("/v1/workshop/feedback")
+def submit_workshop_feedback(payload: WorkshopFeedback) -> dict[str, str]:
+    workshop_log_event("feedback", payload.model_dump())
+    return {"status": "ok"}

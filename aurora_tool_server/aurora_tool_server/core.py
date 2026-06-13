@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from .env import load_project_env
+from .workshop_log import log_event as workshop_log_event
 from .evaluation import evaluate_draft as evaluate_draft_service
 from .generation import generate_draft as generate_draft_service
 from .intent import classify_intent as classify_intent_service
@@ -113,15 +114,25 @@ class AuroraCore:
         output_summary: dict[str, Any] | None = None,
         error: str | None = None,
     ) -> None:
-        self._audit_events.setdefault(run_id, []).append(
-            AuditEvent(
-                run_id=run_id,
-                stage=stage,
-                source=source,  # type: ignore[arg-type]
-                input_summary=input_summary or {},
-                output_summary=output_summary or {},
-                error=error,
-            )
+        event = AuditEvent(
+            run_id=run_id,
+            stage=stage,
+            source=source,  # type: ignore[arg-type]
+            input_summary=input_summary or {},
+            output_summary=output_summary or {},
+            error=error,
+        )
+        self._audit_events.setdefault(run_id, []).append(event)
+        workshop_log_event(
+            "audit",
+            {
+                "run_id": run_id,
+                "stage": stage,
+                "source": source,
+                "input_summary": input_summary or {},
+                "output_summary": output_summary or {},
+                "error": error,
+            },
         )
 
     def get_audit_trace(self, run_id: str) -> AuditTrace:

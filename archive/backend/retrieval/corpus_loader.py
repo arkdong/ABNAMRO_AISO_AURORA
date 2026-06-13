@@ -14,8 +14,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Iterable, Iterator
 
-REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-CORPUS_DIR = REPO_ROOT / "rag" / "corpus"
+ARCHIVE_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = ARCHIVE_ROOT.parent
+CORPUS_DIR = PROJECT_ROOT / "rag" / "corpus"
 
 CORPUS_FILES: dict[str, Path] = {
     "corpus_en": CORPUS_DIR / "corpus_en_structure.json",

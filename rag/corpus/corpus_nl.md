@@ -1,0 +1,3399 @@
+# 5G essentieel voor het verdienvermogen van Nederland
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kasper Buiting
+
+Technologie, Media en Telecom (TMT) is de sector waar de nieuwe economie het eerst zichtbaar wordt. De IT-dienstverlening, de belangrijkste branche binnen de sector, blijft sterk groeien en heeft zich ontpopt als een stuwende branche geworden van de Nederlandse economie.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Stand van Technologie, Media en Telecom (TMT) (13 januari 2020)
+
+  463 KB](https://www.abnamro.nl/nl/media/Sectorprognose-TMT-2020-1-_tcm16-66049.pdf)
+
+Om te blijven bijdragen aan het verdienmodel van Nederland, moeten wel de randvoorwaarden op orde zijn. De eerste grote uitdaging is 5G, waarvoor dit jaar de eerste Nederlandse veilingen plaatsvinden. Helaas loopt Nederland hierbij achter op veel andere landen. Het is van groot belang dat het Nederlands IT-cluster en andere segmenten van de economie de voordelen van deze nieuwe ontwikkeling ten volle gaan benutten.
+
+## IT-sector groeit met 4,5 procent in 2020
+
+De IT-dienstverlening – de grootste branche in de sector Technologie, Media en Telecom (TMT) – is een belangrijke aanjager van groei in de Nederlandse economie. In de eerste drie kwartalen van 2019 groeide de omzet van dit segment zelfs met 7 procent op jaarbasis. Vooral softwarebedrijven en hostingbedrijven zijn – onder invloed van een toenemende vraag naar cloud-based diensten – een belangrijke groeimotor van de IT-dienstverlening. Hoewel ABN AMRO verwacht dat het bbp in Nederland in 2020 met minder dan één procent groeit, stijgt de omzet van de TMT-sector naar verwachting met 3 procent en zal de IT-branche nog beter presteren (+4,5 procent). De sterke groei van deze branche heeft de afgelopen jaren gezorgd voor een sterke groei van het aantal werknemers. Tegelijk is dit ook meteen het grootste probleem van de IT-branche, er blijft namelijk een groot tekort aan IT-personeel.
+
+In de telecombranche was in 2019 juist sprake van krimp (-0,5 procent), mede als gevolg van de digitalisering, de focus op dataverkeer en dalende prijzen van telefoniediensten. In 2020 verwacht ABN AMRO een verder dalende omzet van telecombedrijven: -2,0 procent. Ook andere branches binnen de sector, zoals uitgeverijen en drukkerijen, zullen komende jaren een lichte omzetkrimp laten zien.
+
+## Introductie 5G vereiste om sterke positie Nederlandse IT-sector te behouden
+
+De Nederlandse IT-branche neemt wereldwijd een zeer sterke positie in dankzij de robuuste infrastructuur met snelle internetverbindingen. Nederland loopt echter achter bij andere landen, vooral in Azië, als het gaat om de adoptie van 5G. Dit netwerk biedt veel hogere snelheden dan het huidige 4G-netwerk. Op dit moment lijkt 4G voor veel toepassingen echter afdoende en bovendien heeft Nederland een van de snelste 4G-netwerken ter wereld. Daarom lijkt een snelle introductie van 5G op dit moment geen noodzaak. Nederland kan het zich echter niet veroorloven achteraan te lopen als de 5G-ontwikkelingen daadwerkelijk op stoom komen. “De eerste veilingen van 5G vinden in ons land pas in 2020 plaats. Het is echter van groot belang dat de Nederlandse IT-sector een inhaalslag gaat maken en de voordelen van 5G ten volle gaat benutten”, benadrukt Kasper Buiting, Sector Econoom Technologie, Media en Telecom van ABN AMRO. “Zo brengen de veel hogere snelheden van 5G kansrijke verdienmodellen en nieuwe toepassingen, zoals de zelfrijdende auto en VR-diensten, binnen handbereik. Een te langzame ontwikkeling van 5G kan op den duur ten koste gaan van de concurrentiepositie en het gunstige vestigingsklimaat voor IT-bedrijven in Nederland.”
+
+
+---
+
+# AI is het creatieve brein van de toekomst
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kamalika Patra
+
+Met slinkende onderzoeksproductiviteit en afnemende innovatie wordt het steeds moeilijker om economische groei te behalen. Toch is er hoop; algoritmes die bestaande uitvindingen combineren tot nieuwe kunnen innovatie accelereren. Een nieuw model van Google weet inmiddels een smakelijke ‘cakie’ te maken uit de combinatie van cake- en koekrecepten.
+
+## Insight
+
+Volgens de gangbare theorie kan economische groei op de lange termijn alleen worden voortgezet door technologische verbeteringen die de arbeidsproductiviteit verhogen; verbeteringen die gedreven worden door uitvindingen en innovaties. Na de industriële revoluties van de afgelopen eeuwen vrezen sommige economen dat de Amerikaanse economie door het gebrek aan innovaties zijn [beste dagen al heeft gekend](https://www.nber.org/papers/w18315).
+
+Het vermoeden dat groei niet te continueren valt, wordt bevestigd door [onderzoek](https://www.nber.org/system/files/working_papers/w23782/w23782.pdf); de zogeheten ‘onderzoeksproductiviteit’ van wetenschappers en onderzoekers daalt gemiddeld met 5 procent per jaar. De huidige economische groei is slechts te danken aan de hoge instroom van nieuwe onderzoekers. Zo zijn er veel meer onderzoekers nodig dan in de jaren zeventig om ideeën te genereren om bijvoorbeeld de Wet van Moore in stand te houden, de ervaring die leert dat elke twee jaar het aantal transistors op een chip verdubbelt.
+
+Bovendien duidt [onderzoek](https://royalsocietypublishing.org/doi/10.1098/rsif.2015.0272) van onder andere de universiteit van Oxford aan dat het aantal uitvindingen aan het slinken is. Aangevraagde octrooien zijn grotendeels combinaties van en aanpassingen op eerdere uitvindingen. Dit wordt ‘combinatorial innovation’, of combinatorische innovatie, genoemd.
+
+Deze beperkte ideeënbron raakt echter eveneens uitgeput. Hoe meer combinatorische innovaties er al zijn, en hoe minder uitvindingen, hoe moeizamer het wordt om combinatorisch te blijven innoveren. Combinatorische innovatie wordt namelijk beperkt door de kennis en ervaring van de persoon, evenals creativiteit die niet kan worden afgedwongen. Het is uiteindelijk in hoge mate een kwestie van toeval dat precies de juiste elementen van bestaande uitvindingen samen worden gebracht.
+
+Met het opdrogen van de onderzoeksproductiviteit komt kunstmatige intelligentie (AI) in beeld. Aan ‘input’ heeft AI allereerst geen gebrek. Een AI-programma dat gebruikmaakt van zogeheten neurale netwerken heeft alle kennis binnen handbereik die de mensheid digitaal heeft opgeslagen. De hoge verwerkingssnelheid van computers zorgt er vervolgens voor dat deze kennis binnen enkele seconden kan worden samengevoegd en verwerkt. Daarmee wordt alle toeval uitgesloten; computers kunnen in een flits alle mogelijke combinaties op werkbaarheid beoordelen zonder dat ook maar iets over het hoofd wordt gezien.
+
+Neem bijvoorbeeld het IBM-computerprogramma Deep Blue, dat wereldschaakkampioen Garry Kasparov versloeg in 1997. Deep Blue evalueert 200 miljoen schaakposities per seconde. Vergeleken met de twee schaakposities per seconde van Kasparov heeft de computer een kolossaal voordeel op de mens, vertelt professor Jonathan Shaeffer, ontwikkelaar van het AI-wereldkampioen dammen, tijdens een [interview](https://www.youtube.com/watch?v=fLZyIbuh7hU&feature=youtu.be&ab_channel=StarTalk).
+
+Programma’s die echt creatief meedenken zijn van meer recente datum. AI-expert Sara Robinson van Google toonde in december 2020 een [machine learning model](https://cloud.google.com/blog/topics/developers-practitioners/baking-recipes-made-ai) dat bestaande cake- en koekrecepten samenvoegt tot nieuwe. Het experiment leverde de ‘cakie’ op, een smakelijke hybride cake-koek. Een [AI-programma](https://arxiv.org/pdf/1706.05585.pdf) dat is ontwikkeld door onderzoekers van Carnegie Mellon combineert inmiddels uitvindingen die zijn opgenomen in de Amerikaanse database voor patenten.
+
+Deze ‘kunstmatige uitvinders’ werken helaas nog verre van perfect. AI heeft concrete regels nodig om levensvatbare ideeën te leveren, maar de aard van innovatie is juist het tegenovergestelde; het kent geen regels. Het programmeren van strikte regels kent dus een compromis: levensvatbaarheid wordt afgewogen tegen de beperkingen die regels leggen op innovatiemogelijkheden. Dit heeft tot gevolg dat het sterke punt van computers tevens hun zwakte is; ze zien niets over het hoofd, dus ook de ‘slechte’ uitvindingen niet. Zo heeft het algoritme van Robinson naast de cakie ook een overvloed aan oneetbare kost voorgebracht, net als een [vergelijkbaar algoritme](https://venturebeat.com/2021/01/07/why-we-need-augmented-creativity-to-reignite-growth-in-2021/) van Accenture.
+
+Voor programmeurs ligt de uitdaging in het filteren van goede ideeën uit de zee van slechte, en in het bereiken van een goede balans in de hoeveelheid toegekende regels voor AI-programma’s. Vooralsnog is het verkennen van onontgonnen terrein aan de mens. Het goede nieuws is dat de mens daar niet meer alleen in hoeft te staan.
+
+*In Headlines & Insights geeft ABN AMRO duiding bij het nieuws.*
+
+
+---
+
+# Advertentiemodel onder druk door nieuwe Europese wetgeving
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
+
+Met de Digital Services Act lijkt de tijd voorbij dat persoonsgegevens vrijelijk verzameld en verhandeld kunnen worden voor advertentiedoeleinden. Hoewel deze nieuwe Europese wetgeving primair gericht is op grote technologiebedrijven als Google en Facebook, zullen ook kleinere partijen uit de online-advertentieketen hun strategie moeten bijstellen.
+
+Op 23 april bereikte de Europese Raad overeenstemming over de Digital Services Act (DSA), een nieuw pakket aan regels dat een veilige onlineomgeving voor zowel burgers als bedrijven moet opleveren. In de DSA wordt onder andere het volgen van internetgebruikers voor advertentiedoeleinden bemoeilijkt. Inkomsten die websites nu genereren door ruimte te bieden aan gepersonaliseerde advertenties zijn straks geen gegeven meer. Dit kan veel partijen raken; bijna de helft van de meest bezochte websites verdient geld via advertenties. Ook voor adverteerders betekent de nieuwe wet omschakelen; bijna driekwart van de uitgaven aan onlinereclame ging in 2021 naar gepersonaliseerde advertenties. Voor zowel ‘uitgevers’, in reclametermen, als adverteerders is het daarom van belang om alternatieve advertentiestrategieën uit te proberen. Zo kan contextueel adverteren uitkomst bieden, alsook slim gebruik van minder privacygevoelige data.
+
+## Wetgeving voor een veiliger internet
+
+Met de Digital Services Act en ‘zusterwetgeving’ Digital Markets Act (DMA), die al eerder werd aangenomen, neemt de Europese Unie het voortouw op het gebied van regulering van de digitale markt, bescherming van persoonsgegevens en inperking van de macht van grote technologiebedrijven. Naar verwachting volgen de Verenigde Staten, Canada en Singapore op korte termijn met eigen initiatieven. De DSA is gericht op twee grote uitdagingen in de huidige digitale wereld: het feit dat onlineplatforms worden misbruikt om illegale producten, desinformatie en haat zaaiende uitingen te verspreiden; en het algehele gebrek aan transparantie in, en toezicht op datagebruik door digitale dienstverleners.
+
+Gezien deze tweede uitdaging is het niet verwonderlijk dat in de DSA ook verschillende regels met betrekking tot online adverteren zijn opgenomen. Data zijn namelijk een essentiële grondstof van veel digitale advertentiecampagnes. Volgens de ‘Digital Ad Spend Study’, een jaarlijks terugkerend rapport van consultant Deloitte en branchevereniging VIA Nederland, gaat 74 procent van de bestedingen aan online-beeldadvertenties naar varianten op basis van persoonsgegevens. De data voor deze gepersonaliseerde advertenties zijn veelal afkomstig uit verschillende bronnen; van bezochte websites en gedownloade apps tot gebruikte zoektermen en bekeken video’s. In de markt zijn allerlei partijen actief die deze data samenbrengen en uit die gegevens een volledig profiel afleiden; van leeftijd en woonplaats tot interesses en koopgedrag.
+
+Gepersonaliseerde advertenties kunnen netjes samenvallen met de behoeften van de websitebezoeker, maar volgens diverse onderzoeken wegen de nadelen voor veel mensen zwaarder. Zo vielen termen als “manipulatief”, “invasief” of zelfs “eng” toen mensen voor een wetenschappelijk onderzoek werden [bevraagd](https://link.springer.com/chapter/10.1007/978-3-658-24878-9_5 "Consumer View on Personalized Advertising: Overview of Self-Reported Benefits and Concerns") over dit type advertenties. Volgens [onderzoek](https://www.amnesty.org/en/latest/news/2019/12/big-tech-privacy-poll-shows-people-worried/ "New poll reveals 7 in 10 people want governments to regulate Big Tech over personal data fears") van Amnesty International ziet 77 procent het profileren van mensen voor online-advertentiedoeleinden als een probleem. Meer dan een derde van de ondervraagden (37 procent) vermijdt zelfs bepaalde zoektermen of webpagina’s uit angst om gevolgd te worden.
+
+Tegelijkertijd zijn gepersonaliseerde advertenties effectiever dan volledig generieke exemplaren; de kans dat iemand klikt op een advertentie die is afgestemd op onlinegedrag blijkt meer dan [vijf keer zo hoog](https://datadrivenadvertising.eu/wp-content/uploads/2017/09/BehaviouralTargeting_FINAL.pdf "THE ECONOMIC VALUE OF BEHAVIOURAL TARGETING IN DIGITAL ADVERTISING") als bij algemene advertenties. Adverteerders zijn hierdoor bereid meer te betalen voor deze variant. Toen Apple een technische verandering doorvoerde aan webbrowser Safari waardoor gebruikers niet langer standaard konden worden gevolgd voor gepersonaliseerde advertenties, daalde de advertentieprijs met [60 procent](https://www.theinformation.com/articles/inside-apples-decision-to-blow-up-the-digital-ads-business "Inside Apple’s Decision to Blow Up the Digital Ads Business").
+
+## Volgen van internetgebruikers wordt bemoeilijkt
+
+De Digital Services Act verbiedt ‘tracking’ niet. Wel maakt de nieuwe wetgeving het volgen van internetgebruikers voor advertentiedoeleinden moeilijker. Dat heeft allereerst te maken met specifieke restricties. Als onderdeel van een bredere set aan maatregelen om jongeren op onlineplatforms te beschermen, mogen aan minderjarigen helemaal geen gepersonaliseerde advertenties meer worden getoond. Voor volwassenen is dit in principe wel toegestaan, zolang de personalisatie niet plaatsvindt op basis van gevoelige gegevens. Hieronder valt bijvoorbeeld informatie over gezondheid, geaardheid, religie of politieke opvattingen.
+
+Ook stelt de nieuwe Europese wet eisen op het gebied van transparantie. Zo zijn platforms straks verplicht om per advertentie aan te geven op basis van welke gegevens is besloten om deze te tonen aan de gebruiker in kwestie. Verder moeten gebruikers heldere informatie krijgen over de manier waarop hun data voor advertenties worden gebruikt op het moment dat hun toestemming hiervoor wordt gevraagd.
+
+Gepersonaliseerde advertenties weigeren mag daarnaast niet moeilijker zijn dan het accepteren ervan. Nu nog moeten websitegebruikers die zich niet willen laten volgen in veel gevallen meerdere keren klikken voordat ze dit kenbaar hebben gemaakt. Ook vergt het toestemmingsproces nu regelmatig de opperste concentratie van gebruikers. Middels geraffineerde trucs worden ze verleid om er – ongewild – mee in te stemmen dat hun browsegedrag wordt gevolgd door tal van externe partijen. Bijvoorbeeld doordat de knop met “Alles accepteren” groen is gemaakt en op een plek staat waar de cursor van de gebruiker toch al stond. De DSA legt dergelijke strategieën, ook wel ‘dark patterns’ genoemd, aan banden.
+
+Tevens bekrachtigt de DSA dat “nee” ook “nee” betekent. Zo mag aan een websitebezoeker niet nogmaals om toestemming worden gevraagd voor het gebruik van diens persoonsgegevens als deze dit verzoek al eerder heeft afgewezen. Een dergelijk verzoek mag überhaupt niet worden getoond op het moment dat de gebruiker al via de browser heeft aangegeven niet gevolgd te willen worden.
+
+Het weigeren van gepersonaliseerde advertenties moet tot slot ook geen gevolgen hebben voor de functionaliteit van de website. Een website mag een gebruiker dus niet de toegang ontzeggen als deze niet online gevolgd wenst te worden. Waar sommige partijen hun bezoekers nu de keuze bieden om ofwel akkoord te gaan met tracking ofwel te betalen voor de dienst, is dit straks niet meer toegestaan. De gebruiker moet dus zonder beperkingen kunnen kiezen voor niet-gepersonaliseerde advertenties.
+
+De DSA treedt in werking twintig dagen na publicatie in de ‘Official Journal of the European Union’. Vijftien maanden later zal de DSA ook effectief van toepassing zijn, maar op zijn vroegst op 1 januari 2024. Bedrijven die zich dan niet aan de regels houden, riskeren een boete van maximaal zes procent van de jaaromzet.
+
+## Duopolie is bepalend
+
+De nieuwe regels ten aanzien van tracking in de DSA hebben betrekking op ‘zeer grote onlineplatforms’, met een bereik van meer dan 45 miljoen gebruikers in de Europese Unie, en ‘onlineplatforms’. De categorie ‘zeer grote onlineplatforms’ omvat de kanalen van internationale technologiereuzen, aangevoerd door het ‘duopolie’ Meta – het moederbedrijf van Instagram en Facebook – en Alphabet, het bedrijf achter zoekgigant Google. Het is niet verrassend dat de DSA de grote platformbedrijven reguleert; samen incasseren ze het merendeel van de wereldwijde digitale advertentie-inkomsten. Google en Facebook hadden in 2021 met respectievelijk 28,6 en 23,7 procent het grootste stuk van de taart in handen.
+
+Het ene deel van hun inkomstenstroom vloeit voort uit de advertentieruimte die zij tegen betaling aanbieden aan adverteerders. In het Google-ecosysteem kan dit bijvoorbeeld een YouTube-advertentie zijn of een vermelding bij de ‘gesponsorde zoekresultaten’ van de zoekmachine. Op Instagram en Facebook zijn het advertenties die gebruikers zien op het moment dat zij door hun ‘feed’ scrollen. Vanwege de grote hoeveelheid data die deze grote technologiebedrijven verzamelen over hun gebruikers, kunnen ze adverteerders gemakkelijk toegang bieden tot zeer specifieke doelgroepen.
+
+De andere inkomstenstroom is te herleiden tot hun rol als bemiddelaar; veel bedrijven vertrouwen op Google AdSense – en in mindere mate het Facebook Audience Network – om de advertentieruimte op hun eigen website of mobiele app te vullen. Deze advertenties zijn in veel gevallen gepersonaliseerd op basis van de gedragingen op, en data gedeeld met de platforms in kwestie.
+
+Dat de restricties ten aanzien van tracking een bedreiging vormen van het op advertenties gebaseerde verdienmodel van Meta en Alphabet is dus evident. Dit blijkt tevens uit het feit dat beide bedrijven actief hebben gelobbyd toen het initiële voorstel sprak van een algeheel verbod op gepersonaliseerde advertenties. Tegelijkertijd is duidelijk dat het juist voor deze twee dominante partijen het makkelijkst zal zijn zich aan te passen aan de nieuwe regels. Zij hebben de meeste middelen en eigen data tot hun beschikking om ook binnen de grenzen van de DSA nog een rol van belang te spelen in het online-advertentiedomein.
+
+## Niet enkel platformbedrijven worden geraakt
+
+De tweede categorie bedrijven betreft ‘onlineplatforms’, websites waar vraag en aanbod bij elkaar worden gebracht, zoals webwinkel Bol.com, onlinevrijmarkt Marktplaats en reisplatform Booking.com. Ook zij zullen dus een kritische blik moeten werpen op het soort advertenties dat zij aan hun bezoekers aanbieden, en het proces eromheen moeten inrichten in lijn met de regels.
+
+Dit betekent echter niet dat bedrijven zonder expliciet platformbedrijfsmodel achterover kunnen leunen. Volgens Saskia Baneke, directeur van marketingbranchevereniging VIA Nederland, is de categorie ‘onlineplatforms’ namelijk breder dan de naam suggereert. “Wij gaan ervan uit dat elk bedrijf dat op zijn website advertentieruimte beschikbaar maakt voor adverteerders zich aan de regels zal moeten houden”, vertelt Baneke. De nieuwe regels gaan waarschijnlijk dus ook alertheid vergen van bijvoorbeeld nieuwswebsites en onlineretailers. Wel benadrukt Baneke dat het moeilijk is om in deze fase al een definitief antwoord te geven. “Doordat de wet nog niet in werking is getreden, is er ook nog geen rechtspraak waarin de term ‘onlineplatform’ verder wordt gespecificeerd.”
+
+De reikwijdte van de Europese wet is daarmee breed. Hoewel nog niet kan worden vastgesteld hoeveel bedrijven in Nederland exact zullen worden geraakt, is al wel duidelijk dat veel websites afhankelijk zijn van advertentie-inkomsten. Van de tien miljoen wereldwijd meest bezochte websites maakt namelijk bijna [47 procent](https://w3techs.com/technologies/history_overview/advertising/all "Historical trends in the usage statistics of advertising networks for websites") gebruik van een zogenaamd ‘ad network’. Dit is een technologische oplossing die online-advertentieruimte verzamelt bij uitgevers en deze aanbiedt aan adverteerders.
+
+De mate waarin deze websites straks nog in staat zijn om inkomsten te genereren via gepersonaliseerde advertenties, zal vermoedelijk flink afnemen. De nieuwe procesvereisten maken het voor internetgebruikers namelijk makkelijker om tracking te weigeren. De gevolgen van een herontwerp van zo’n proces moeten niet worden onderschat. Zo moeten apps afkomstig uit de Apple App Store hun gebruikers sinds 2021 expliciet om toestemming vragen voor het volgen van hun activiteit in de app en daarbuiten. Slechts 16 procent van de gebruikers staat dit toe, al lijkt het aantal recent te zijn [gestegen](https://9to5mac.com/2022/04/14/number-of-users-opting-in-to-app-tracking-on-ios-grows-significantly-since-last-year/ "Number of users opting in to App Tracking on iOS grows significantly since last year").
+
+De Nederlandse Publieke Omroep (NPO) heeft ervaren wat het betekent om expliciet te zijn. In tegenstelling tot de manier waarop veel andere websites hun bezoekers tracking-keuzes voorlegden, kostte op de NPO-website zowel toestemming als weigering slechts één klik. Als gevolg hiervan weigerden negen van de tien websitebezoekers gepersonaliseerde advertenties op het moment dat zij in een pop-up hun keuze konden doorgeven. Zulke vensters waren weliswaar verplicht sinds de invoering van privacywet Algemene Verordening Gegevensbescherming (AVG) in 2018, maar de interpretaties liepen uiteen. Die strikte interpretatie van de privacywet, waarin het weigeren van tracking net zo gemakkelijk is als accepteren, zal door de nieuwe regels binnen de DSA nu marktstandaard worden.
+
+## Zoektocht naar alternatieven
+
+Voor adverteerders die vertrouwen op gepersonaliseerde advertenties en uitgevers die afhankelijk zijn van de inkomsten uit zulke advertenties, kan het deels wegvallen van deze mogelijkheid onwennig voelen. Echter bestaan er ook effectieve advertentiestrategieën die niet leunen op het volgen van individuele internetgebruikers.
+
+Zo stapte de NPO vanwege de uitgesproken voorkeur van haar websitebezoekers in 2020 volledig over op ‘contextueel adverteren’. Niet de persoon zelf, maar het soort website, artikel of video dat wordt bekeken is bepalend voor de advertentie die wordt geplaatst. Dit biedt adverteerders de mogelijkheid om interesses, demografie en behoeftes van de kijker af te leiden, zonder dat gegevens over deze specifieke persoon worden gebruikt. Voorbeelden van contextueel adverteren zijn een lippenstiftreclame op een beautyblog, of een aanbieding voor een familieverpakking ijs bij een nieuwsbericht over het warme weer.
+
+Deze strategie bleek gunstig voor zowel omroep als adverteerders; adverteerders zagen de effectiviteit van hun campagnes [gelijk blijven of zelfs stijgen](https://www.ster.nl/media/quakpy4e/ster_een-toekomst-zonder-advertentiecookies.pdf "EEN TOEKOMST ZONDER ADVERTENTIECOOKIES?"), en de NPO zag de onlinereclame-inkomsten toenemen. In [De Volkskrant](https://www.volkskrant.nl/wetenschap/pop-ups-voor-toestemming-cookies-illegaal-bevonden-je-kunt-niet-vragen-om-akkoord-te-gaan-met-een-datalek~b578a408/ "Pop-ups voor toestemming cookies illegaal bevonden: ‘Je kunt niet vragen om akkoord te gaan met een datalek’") vertelde Joost Negenman, privacymedewerker bij de omroep, eerder dit jaar dat het aantal geplaatste advertenties weliswaar naar beneden is gegaan, maar dat de opbrengsten per advertentie zijn toegenomen omdat de NPO is afgestapt van Google als tussenpersoon voor het plaatsen van advertenties. In plaats daarvan is de NPO direct met adverteerders gaan schakelen. “In de hele keten blijft ontzettend veel geld hangen bij tussenpartijen”, zei Negenman in de krant. “Als je een directe koppeling maakt tussen de adverteerder en het platform, kan bijna het hele bedrag dat de adverteerder uitgeeft ook ten goede komen aan het platform.” Volgens Google ligt het percentage van de advertentie-inkomsten dat zij zelf opstrijken rond de [dertig procent](https://blog.google/products/admanager/display-buying-share-revenue-publishers/ "How our display buying platforms share revenue with publishers").
+
+Door advertenties slim in context te plaatsen en direct zaken te doen met adverteerders greep de NPO eigenlijk terug op een oud advertentiemodel uit de offline-wereld: het advertentiemodel van papieren kranten. Kranten, platforms avant la lettre, verkopen al honderden jaren advertenties aan adverteerders die op hun beurt de lezers van de krant willen bereiken. De ervaring van de NPO laat zien dat dit oude advertentiemodel goed kan werken door inzet van contextueel adverteren.
+
+Er zijn ook alternatieven die nog wel proberen persoonsgericht te adverteren, maar daarvoor veel minder fijnmazige en privacygevoelige data gebruiken. Topics, ontwikkeld door Google, kent op basis van browsegedrag een beperkt aantal onderwerpen aan een internetgebruiker toe. Dit kan bijvoorbeeld ‘huisdieren’ zijn, ‘smartphones’ of ‘bruiloften’. Adverteerders kunnen op basis van die data bepalen of ze al dan niet hun reclameboodschap aan een websitebezoeker willen tonen. De browsegeschiedenis wordt dus niet meer gedeeld, hoewel deze wel als basis dient voor een generiek gebruikersprofiel.
+
+Wat de precieze effecten van de Digital Services Act op de onlineadvertentie-industrie zullen zijn is onzeker, maar deze zullen steeds duidelijker worden in aanloop naar 1 januari 2024. De tijd dat persoonsgegevens vrijelijk verzameld en verhandeld kunnen worden lijkt daarmee definitief ten einde te komen. Globaal bezien is de nieuwe wetgeving onderdeel van een bredere, maatschappelijke en politieke onderstroom waarin dataprivacy wordt verdedigd en de internetgebruiker meer rechten krijgt ten aanzien van het gebruik van de data die deze genereert.
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Retail](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[Wet- en regelgeving](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/politiek-en-wetgeving.html)
+
+
+---
+
+# Advertenties lucratieve bijverdienste voor winkelketens
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
+
+Winkelketens stellen steeds vaker advertentieruimte beschikbaar in hun eigen kanalen: op de website, in de app, en ook op schermen in de winkels. Onlangs lanceerde Hema een eigen medianetwerk waarop alle schermen in de 280 winkels zijn aangesloten. Hema volgt daarmee supermarktketens als Albert Heijn en Plus, voor wie retail-media al een lucratieve bijverdienste is.
+
+Waar retailers traditioneel tot de grootste adverteerders behoren, verkopen ze nu ook advertenties. Steeds vaker bieden retailers advertentieruimte aan leveranciers om via hun eigen kanalen te adverteren. En retailers gebruiken de kanalen natuurlijk ook zelf: ‘Hamsteren !’, zoals een bekende reclame-uiting van een supermarktketen luidt. Dat retailers sommige producten van leveranciers extra onder de aandacht brengen tegen een vergoeding is niet nieuw; dat gebeurt al sinds jaar en dag analoog, bijvoorbeeld via speciale acties of schappen in de winkel. Maar nu worden daar de eigen digitale kanalen en fysieke schermen op de winkelvloer aan toegevoegd en ontstaan er hele nieuwe medianetwerken, de zogenoemde retail-media.
+
+De inzet van retail-media om digitale advertenties aan te bieden is onderdeel van een internationale trend die nu eens niet in de Verenigde Staten is begonnen, maar in China. In China begonnen e-commerce platforms als Alibaba en JD.com al meer dan twintig jaar geleden met de verkoop van digitale advertentieruimte. Ook in de Verenigde Staten is retail-media verder doorgedrongen dan in Europa. Zo verdient de retail-reus Amazon al meer aan onlineadvertentie-inkomsten dan omroep-reus YouTube: In 2022 ging het om bijna 38 miljard dollar voor Amazon, terwijl YouTube bleef steken op zo’n 30 miljard dollar. Voor 2023 verwacht Amazon een groei van 20 procent voor de advertentietak.
+
+## Uitgaven retail-media met 42% gestegen
+
+Ook in Nederland stijgen de advertentie-uitgaven via retail-media als een raket. Volgens Rogier Lammers, voorzitter van de taskforce retail-media bij branchevereniging VIA, zijn de uitgaven in 2022 met 42 procent gestegen. Daarmee bereikten de advertentie-uitgaven een niveau van zo’n 210 miljoen euro, gelijk aan 6 procent van de totale digitale advertentie-uitgaven. Dit is nog een relatief laag percentage vergeleken met bijvoorbeeld Duitsland of het Verenigd Koninkrijk. ABN AMRO verwacht de komende jaren dan ook een stevige groei, deels gedreven door een inhaalslag die momenteel gemaakt wordt, zie grafiek.
+
+In Europa loopt Duitsland voorop, niet verwonderlijk aangezien een gemiddelde Duitse internetgebruiker Amazon als startpagina heeft. Maar heel Europa loopt zo’n drie jaar achter op de Verenigde Staten, aldus Lammers, om nog maar te zwijgen over China waar retail-media veel verder is doorgedrongen. Uit cijfers van Daniel Knapp van IAB Europe blijkt dat de uitgaven aan retail-media in Europa gemiddeld gelijk zijn aan 11 procent van de totale digitale advertentie-uitgaven, terwijl deze in de VS al richting 17 procent gaan en China inmiddels vooroploopt met maar liefst 30 procent.
+
+## Groeistuipen retail-media
+
+Alle grote retailers hebben de mogelijkheden van retail-media ontdekt en zetten teams op om hun advertentietak verder te ontwikkelen. In sommige gevallen moeten deze nieuwe teams wedijveren met hun collega’s van e-commerce die tot nu toe het rijk alleen hadden inzake de webshop en de online-winkelervaring. Retail-mediateams willen advertenties verkopen. Dat leidt soms tot frictie. Het betreft namelijk advertenties die, zelfs als die naadloos met de huisstijl van de webshop verweven zijn, toch afbreuk kunnen doen aan de winkelervaring van de consument. Meer opzichtige campagnes zouden leveranciers die niet adverteren zelfs tegen de haren kunnen strijken. Deze fricties zullen groeistuipen blijken te zijn want de retail-media trend laat zich niet stoppen; dat leert de ervaring uit de Verenigde Staten en China.
+
+Voor adverteerders is het zaak af te wegen of de kosten van een retail-mediacampagne opwegen tegen de baten. De baten zijn vrij eenvoudig te meten, althans voor het online-gedeelte, via clicks en gerealiseerde verkopen. Daarnaast is de beschikbaarheid van data een van de belangrijkste redenen voor een leverancier om bij een retailer te adverteren. Retailers beschikken over rijke klantgegevens die vanwege het verdwijnen van de third-party cookies steeds moeilijker elders te verkrijgen zijn. Adverteerders kunnen gericht adverteren, bijvoorbeeld op iemand die graag koekjes eet, en bovendien vlakbij het verkooppunt. Deze combinatie maakt dat retail-media de wind momenteel stevig in de zeilen heeft, juist in Europa waar databeleid steeds restrictiever wordt.
+
+## Zoekresultaten: gesponsorde producten
+
+Retail-media kent zoals gezegd verschillende uitingen: het scherm in de winkel, de display- of video-advertenties op de website of in de app. Maar het leeuwendeel van de inkomsten uit retail-media bestaat uit gesponsorde producten. Dit zijn de eerste zoekresultaten die de klant te zien krijgt na een zoekopdracht op een platform als Amazon of Bol. Het verdienmodel lijkt sterk op dat van Google Search, waar de eerste zoekresultaten vaak ook gesponsord zijn. Maar per click worden veel grotere bedragen betaald voor retail-media campagnes dan voor Google Search campagnes. Lammers zegt daarover: “Google weet wat je zoekt, maar retailers weten wat je wil kopen.”
+
+Retail-media advertenties zitten laag in de marketingtrechter (ook wel funnel) vergeleken met andere campagnes. Die trechter begint breed bovenin bij ‘gewaarwording’ en eindigt onderin bij aankoop van een product of dienst. Voor een lagere positie in de trechter worden relatief grote bedragen betaald, omdat de kans op conversie (verkoop) groter is wanneer je dichtbij het verkooppunt adverteert. Retailers kunnen daar nog een verpersoonlijking aan toevoegen, op basis van hun klantgegevens, waarmee ze de advertenties nog effectiever en dus waardevoller maken.
+
+Ook aan de kostenkant ziet retail-media er gunstig uit voor retailers, de infrastructuur is er immers al in de vorm van website, app en winkelruimte. Daar komt bij dat ze de retail-media kanalen ook kunnen gebruiken voor eigen reclame-uitingen. Hoge baten en lage kosten betekent hoge marges. Volgens een [schatting van Boston Consulting Group](https://www.bcg.com/publications/2022/how-media-is-shaping-retail) zou het bij online om een bruto marge van 70-90 procent gaan. Reden genoeg voor Bol om de reclametak tot [strategische prioriteit](https://www.emerce.nl/nieuws/bolcom-advertising-strategische-prioriteit) te maken, naast e-commerce en logistieke diensten. Ook winkelketens storten zich massaal op deze lucratieve (bij)verdienste.
+
+
+---
+
+# Bedrijven riskeren verlies Europese klant door cyberwet
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Nederland loopt achter met de implementatie van de Europese richtlijn NIS2 die in oktober 2024 van kracht wordt. Nederlandse bedrijven mogen echter niet stilzitten, nu zij kritische vragen kunnen krijgen van klanten uit Duitsland en België, waar het wetgevingsproces wel volgens planning verloopt. NIS2 vereist immers dat bedrijven zich ervan vergewissen dat de cyberveiligheid van al hun leveranciers en klanten op orde is.
+
+NIS2 is de opvolger van de eerdere Network and Information Systems-richtlijn (NIS). Hoewel het een Europese wet is, werken verschillende landen met verschillende snelheden. Zo zijn Duitsland en België al bijna klaar voor de nationale implementatie, maar heeft de Nederlandse overheid aangegeven de deadline van 17 oktober hoogstwaarschijnlijk niet te gaan halen. De consultatie, waarbij marktpartijen hun feedback op de wetvoorstellen kunnen geven, is al een paar keer doorgeschoven. Hiermee loopt Nederland achter op zijn grootste handelspartners; Duitsland legt de laatste hand aan de wetteksten, en België presenteert binnenkort haar wetteksten ter goedkeuring.
+
+## Geen uitstel
+
+Dit betekent voor Nederlandse bedrijven echter geen uitstel; niet alleen omdat het onverstandig is om de tijdrovende voorbereidingen uit te stellen, maar ook omdat klanten elders in Europa van hun Nederlandse leveranciers zullen eisen dat zij NIS2-compliant zijn. Kan dit niet worden gegarandeerd, dan riskeren deze leveranciers hun Europese klanten te verliezen. Grote bedragen staan hiermee op het spel. Volgens het Centraal Bureau voor de Statistiek ([CBS](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85428ned/line?dl=A21FA)) exporteerde Nederland in 2023 voor zo’n 500 miljard euro aan goederen binnen de Europese Unie, waarvan 241 miljard naar Duitsland en België.
+
+Duitsland is voor Nederland de belangrijkste exportbestemming, met een totale waarde van [165,3 miljard euro](https://opendata.cbs.nl/statline/#/CBS/nl/dataset/85428ned/line?dl=A21FA) in 2023. Naar België bedroeg de goederenexport 75,9 miljard euro. Het gaat in het bijzonder om chemische producten en industriële (half)fabricaten, machines, apparaten en vervoersmiddelen, en agrarische- en voedingsproducten.
+
+## Cyberweerbaarheid kunnen aantonen
+
+Vanuit de Duitse cultuur van formaliteit en strikte naleving van regels, is de kans groot dat toeleveringsketens inderdaad kritisch onder de loep worden genomen – ongeacht of de NIS2-wetten in Nederland al van kracht zijn. Om succesvol te zijn en te blijven in Duitsland, is het dus essentieel dat Nederlandse ondernemingen niet alleen vaart zetten achter hun NIS2-voorbereidingen, maar ook een open en effectieve communicatielijn onderhouden over hun compliance-inspanningen. “Zorg dat je op zijn minst kunt aantonen, bijvoorbeeld met een certificaat, dat je investeert in de weerbaarheid van je organisatie”, zegt Daan Hoogendijk, programmadirecteur van Samen Digitaal Veilig.
+
+CEO Maarten Roerink van cybersecuritydienstverlener MMOX onderschrijft dit vanuit eigen ervaring. “We zien dat bedrijven op zoek zijn naar een stempel om naar hun partners te kunnen aantonen dat ze compliant zijn. Een ISO27001- of Cyber Essentials-certificering helpt dan. Sommige ondernemers laten zich ook certificeren om concurrentievoordeel te behalen.”
+
+Omdat een dergelijk certificeringstraject veel voeten in de aarde heeft, hebben brancheorganisaties samen met specialisten en bedrijven een nieuw keurmerk ontwikkeld speciaal voor het midden- en kleinbedrijf (mkb). Het zogenoemde [NIS2 Quality Mark](https://www.samendigitaalveilig.nl/nis2-quality-mark/) is beschikbaar via het platform van Samen Digitaal Veilig en bestaat er in verschillende niveaus. Zo kunnen ook kleinere organisaties hun cyberweerbaarheid aantoonbaar opkrikken zonder zich standaard aan een zware ISO-certificering te hoeven committeren.
+
+## Maatregelen voor vergroten cyberveiligheid
+
+Ondernemers doen er goed aan om hun cyberrisico's op orde te hebben. Dat kan in drie relatief eenvoudige stappen. De eerste is het maken van een risicoanalyse waarmee in kaart gebracht wordt welke zaken cruciaal zijn voor het blijven functioneren van de onderneming en het op orde houden van de dienstverlening. De tweede stap is het nemen van maatregelen, zoals veilig gedrag onder werknemers stimuleren, vastleggen wie de eigenaar is van bepaalde gegevens en cyberrisico’s met partners en leveranciers bespreken. Ten slotte is het essentieel om procedures te ontwikkelen waarmee de cyberincidenten kunnen worden gedetecteerd en afgehandeld.
+
+
+---
+
+# Bescherming privacy zet online adverteren op keerpunt
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
+
+Beperkingen aan het gebruik van privacygevoelige informatie zetten de markt voor online adverteren op zijn kop. Adverteerders, uitgevers en bureaus zoeken naar alternatieven voor de huidige personalisatie-praktijk.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Bescherming privacy zet markt voor online adverteren op keerpunt (december 2022)
+
+  2 MB](https://www.abnamro.nl/nl/media/bescherming-privacy-zet-markt-voor-online-adverteren-op-keerpunt_tcm16-179811.pdf)
+
+Op basis van enquêteonderzoek met 544 ondervraagden uit de sector en diepte-interviews met experts, werkt ABN AMRO een toekomstvisie uit voor online adverteren. Adverteerders, uitgevers en bureaus onderzoeken alternatieven voor de huidige personalisatie-praktijk, zoals contextueel adverteren, het genereren van eigen data en meer onderlinge samenwerking op datagebied. Verder denken professionals uit de online advertentieketen dat de grote techpartijen met nieuwe oplossingen komen en hun macht daarmee weten te behouden.
+
+## Advertentiepraktijk staat onder druk
+
+Op de persoon afgestemde – ook wel gepersonaliseerde – advertenties zijn de norm geworden, althans online; volgens sommige schattingen wordt voor 80 procent van de onlineadvertenties een vorm van personalisatie gebruikt.
+
+Maar deze personalisatie-praktijk staat nu zwaar onder druk. Europa poogt met nieuwe wet- en regelgeving om personalisatie van advertenties aan banden te leggen en voor minderjarigen zelfs te verbieden. De nieuwe regelgeving, hoofdzakelijk vervat in de Digital Services Act (DSA) die sinds 16 november 2022 van kracht is, is ingegeven door de wens om de privacy van gebruikers te beschermen, vooral vanwege de ongebreidelde handel in persoonsgegevens die achter gepersonaliseerde advertenties schuilgaat. In de woorden van Europarlementariër Paul Tang: “De tijd dat persoonsgegevens vrijelijk verzameld en verhandeld worden voor advertentiedoeleinden loopt ten einde.”
+
+Tegelijk lijken ook de grote techbedrijven de roep om privacy van hun gebruikers te hebben gehoord. Op Apple-apparaten kunnen gebruikers er nu voor kiezen om ‘tracking’ uit te schakelen en Alphabet heeft aangekondigd in 2024 te stoppen met de ondersteuning van ‘third-party cookies’ in Google Chrome, ofwel: veruit de meest gebruikte webbrowser ter wereld stopt met de ondersteuning van de meest gebruikte tracking-methode. Regelgeving en krachten in de markt wijzen dus dezelfde kant uit, te weten een online advertentiemarkt die minder afhankelijk is van privacygevoelige data en waarbij de persoonsgegevens verzameld worden met bewuste en expliciete instemming van de eindgebruiker.
+
+## Toekomstvisie ABN AMRO
+
+Uit ABN AMRO-onderzoek blijkt dat maar liefst een derde van de ondervraagde professionals werkzaam bij adverteerders en uitgevers hun organisatie afhankelijk acht van gepersonaliseerde onlineadvertenties. Contextueel adverteren, waarbij enkel de inhoud van een webpagina of bijvoorbeeld het moment van de dag de precieze advertentie bepaalt, kan voor hen uitkomst bieden, zoals blijkt uit verschillende voorbeelden. Als alternatief kunnen adverteerders en uitgevers een datastrategie ontwikkelen – apart of eventueel samen – die steunt op persoonsprofielen die met bewuste instemming worden gemaakt en ook door de persoon in kwestie kunnen worden ingezien en aangepast. Met andere woorden: bewuste en expliciete instemming die ook kan worden ingetrokken. Een meerderheid van de respondenten geeft overigens aan nog niet over voldoende eigen data te beschikken om gepersonaliseerde advertenties te kunnen aanbieden.
+
+Een eigen datastrategie zal naar verwachting niet voor alle adverteerders en uitgevers een haalbare strategie zijn, vanwege de kosten, compliancerisico’s en benodigde schaal die ermee gemoeid zijn. Mede hierom zullen de advertentie-grootmachten, net als nu, oplossingen blijven bieden om gepersonaliseerd adverteren mogelijk te maken, al zullen die op minder privacygevoelige data stoelen en niet meer op minderjarigen gericht zijn, althans in Europa.
+
+De online-advertentiemarkt staat op een keerpunt; vanwege de toenemende beperkingen op het verzamelen en inzetten van persoonsgegevens worden uitgevers, adverteerders en bureaus gedwongen om hun strategie te herijken. Tegelijk zullen de grote technologiebedrijven alles in het werk zetten om hun macht vast te houden. ABN AMRO werkt in dit rapport een toekomstvisie uit op basis van een enquêteonderzoek in samenwerking met PanelWizard en diepte-interviews met experts uit de online-advertentiebranche.
+
+## De online advertentiemarkt
+
+In 2021 brachten mensen gemiddeld zo’n [zeven uur](https://datareportal.com/reports/digital-2022-october-global-statshot "DIGITAL 2022: OCTOBER GLOBAL STATSHOT REPORT") per dag door binnen online-kanalen. Adverteerders geven per jaar dan ook miljarden uit om hun boodschap te kunnen tonen aan websitebezoekers en app- gebruikers. Deze markt groeit hard; in 2021 was dit bedrag in Europa opgelopen naar [92 miljard euro](https://iabeurope.eu/wp-content/uploads/2022/06/adex-2021-advertising-report.pdf "DIGITAL ADVERTISING IN EUROPE") – een toename van 30,5 procent ten opzichte van het jaar ervoor.
+
+In Nederland overstegen digitale advertentie-uitgaven in 2016 voor het eerst de advertentie-uitgaven in traditionele media en inmiddels is de ‘digital ad spend’ al meer dan twee keer zo groot. Voor de eigenaars van websites, apps en andere content – ook wel ‘uitgevers’ genoemd – biedt het internet kansen om hun advertentieruimte te gelde te maken. Zo maakt bijna de helft van de grootste websites gebruik van een zogenaamd ‘ad network’. Dit is een technologische oplossing die online-advertentieruimte verzamelt bij uitgevers en deze aanbiedt aan adverteerders.
+
+Naast adverteerders en uitgevers zijn er in de online-advertentiemarkt tal van tussenpersonen en andere dienst- verleners actief. Zo worden adverteerders bijgestaan door media-, marketing- en advertentiebureaus, die de meest effectieve kanalen voor online-advertentiecampagnes helpen bepalen en vaak ook een rol spelen in de bijbehorende inkoop van advertentieruimte. Ook bestaan er tal van zogenaamde ‘AdTech’-partijen, die met technologische oplossingen de in- en verkoop van online-advertentieruimte faciliteren.
+
+## Gepersonaliseerd adverteren als standaardpraktijk
+
+Dit proces gaat in de meeste gevallen volautomatisch, en werkt middels een veiling – ook wel Real Time Bidding (RTB) genoemd. Op het moment dat iemand een specifiek onderdeel van een website of app bezoekt, bepaalt een technologische oplossing aan adverteerderskant of deze een bod wil doen op de aandacht van de persoon in kwestie. Dit gaat op basis van vooraf vastgestelde criteria, die vaak betrekking hebben op het individu – bijvoorbeeld ‘vrouw’, ‘woonachtig in Zuid-Holland’, ‘geïnteresseerd in zwangerschap en baby’s’. Grote hoeveelheden gegevens van internetgebruikers worden gebruikt om de best passende advertentie voor elk individu te bepalen. Zulke data zijn veelal afkomstig uit verschillende bronnen: van bezochte websites en gedownloade apps tot gebruikte zoektermen en bekeken video’s.
+
+Professionals werkzaam in de online-advertentieketen kijken over het algemeen positief naar deze praktijk, zo blijkt uit een rondvraag door ABN AMRO in samenwerking met PanelWizard. Van de 544 ondervraagden is twee derde (67 procent) in dienst van een adverteerder; de rest werkt bij een uitgever (19 procent) of bureau (13 procent).
+
+Meer dan de helft van de adverteerders en een ruime meerderheid van de bureaus geeft aan dat gepersonaliseerde advertenties een effectieve manier zijn om hun doelgroep te bereiken. Twee derde van de uitgevers meent dat het een effectieve manier is om hun advertentieruimte te gelde te maken. Ook de afhankelijkheid van gepersonaliseerde advertenties blijkt aan beide kanten substantieel; ongeveer een derde van zowel adverteerders (31 procent) als uitgevers (34 procent), en zelfs veertig procent van de bureaus stelt afhankelijk te zijn van deze manier van ‘targeting’.
+
+“Personalisatie is belangrijk”, vertelt Rogier Hosman, Chief Marketing Officer van ‘digital agency’ Youwe. De onderneming helpt bedrijven met de ontwikkeling en implementatie van een digitale strategie, onder andere op het gebied van onlinemarketing. “Bedrijven hebben een heel scala aan segmenten en klanttypen die allemaal weer andere behoeften hebben. Het is dus zaak voor adverteerders om het juiste verhaal aan de juiste persoon voor te schotelen.” Volgens de marketingbaas is personalisatie ook in het belang van degene die de advertentie ziet. “Als consument is het prettig om een relevante boodschap te krijgen en je niet door allerlei onzinnige informatie te hoeven worstelen.”
+
+## Personalisatie onder vuur
+
+De huidige, op personalisatie gerichte online advertentiemarkt is echter om meerdere redenen aan het veranderen ten faveure van een – mogelijk – meer privacyvriendelijk model. Nieuwe wet- en regelgeving speelt hier een bepalende rol. Zo verbiedt de Europese Digital Services Act (DSA) advertenties op basis van gevoelige gegevens zoals geaardheid en politieke voorkeur. Aan minderjarigen mogen helemaal geen gepersonaliseerde advertenties meer worden getoond. Voor volwassen internetgebruikers wordt het gemakkelijker om ‘nee’ te zeggen tegen tracking. Ook ‘zusterwet’ Digital Markets Act (DMA) werpt diverse barrières op.
+
+Aangezien de meeste regelgeving rond privacybeperking nog van jonge datum is, worden pas gaandeweg de effecten duidelijk. Zo is het volgens burgerrechtenbewegingen en privacywaakhonden maar de vraag of het RTB-systeem in lijn is met de Algemene Verordening Gegevensbescherming (AVG) uit 2018. Toestemming van de internetgebruiker moet volgens de AVG onder andere ‘informed’ zijn, wat betekent dat op voorhand duidelijk is wie de data gaat verwerken, met welk doel en op welke manier. Vanwege de complexiteit van het veilingssysteem en de grote hoeveelheid partijen waarmee persoonlijke data worden gedeeld, is ‘informed consent’ in de context van de huidige online-advertentieveilingen volgens critici op voorhand niet haalbaar.
+
+Wet- en regelgeving wordt gezien als de belangrijkste groeibelemmering voor de markt voor gepersonaliseerde advertenties, zo blijkt uit de enquête. Een groeiend bewustzijn van consumenten over hun privacy en rechten vormt volgens de ondervraagden de op een na belangrijkste drempel. Dat internetgebruikers inderdaad gebruikmaken van de mogelijkheid om gepersonaliseerde advertenties te weigeren als die optie voldoende toegankelijk is, ervoer de Nederlandse Publieke Omroep (NPO). Toen de omroep met een nieuw soort pop-up zowel weigering van als toestemming voor gepersonaliseerde advertenties met één klik mogelijk maakte, ging negen van de tien website- bezoekers niet akkoord. Ook iPhone-gebruikers kiezen er massaal voor om niet gevolgd te worden sinds dit mogelijk is; 75 procent van de volgverzoeken door apps werd begin 2022 met een “nee” beantwoord.
+
+## Consument vraagt om privacy
+
+Een gerelateerde ontwikkeling ten koste van gepersonaliseerd adverteren is het feit dat de ‘third-party cookie’, de dominante technologie om internetgebruikers te volgen, straks niet meer wordt ondersteund door de grootste webbrowsers. Na Safari – die op apparaten van Apple terug te vinden is – en Firefox, zal ook Google Chrome vanaf 2024 geen ruimte meer bieden aan dit tracking-vehikel. Hoewel ongeveer tachtig procent van de online- advertenties momenteel wordt gepersonaliseerd op basis van informatie die via third-party cookies is verzameld, lijken de ondervraagde professionals niet gealarmeerd. Een kleine minderheid van hen geeft aan niet goed te zijn voorbereid op een toekomst zonder third-party cookies.
+
+Dit samenspel tussen dwingende wetten en uitgesproken consumentenvoorkeuren leidt mogelijk tot een groter aantal weigeringen om persoonsgegevens in te zetten voor advertentiedoeleinden. In combinatie met het wegvallen van de third-party cookie wordt het lastiger om een gebruikersprofiel te creëren op basis van eerder bezochte websites en gedrag op die websites. Onderaan de streep komen minder data beschikbaar die een adverteerder of tussenpersoon kunnen vertellen met wat voor soort bezoeker deze te maken heeft. Een privacyvriendelijker advertentiemodel sluit daarmee niet alleen aan bij de tijdsgeest, maar is ook de enige optie.
+
+## De toekomst van online adverteren
+
+Veranderende maatschappelijke standaarden en bijbehorende wet- en regelgeving zetten verschillende principes van de online-advertentiemarkt onder druk. Zo worden volledige transparantie en zeggenschap over het gebruik van persoonlijke data de nieuwe standaard en zal contextueel adverteren vanwege nieuwe restricties aan terrein winnen – of beter ‘herwinnen’, gezien de geschiedenis van contextueel adverteren in traditionele media.
+
+## De ongebroken macht van ‘big tech’
+
+‘Big tech’ blijft dominant, zo is de consensus onder de ondervraagden. Een grote meerderheid (77 procent) verwacht dat het aandeel advertentie-uitgaven dat naar deze partijen stroomt over vijf jaar gelijk is gebleven of gegroeid (nu is het aandeel meer dan de helft, zie kader D op pagina 21). Google heeft een solide positie vanwege zijn activiteiten in de gehele AdTech-keten (zie kader A). Ook zijn de kanalen van zowel Google als Meta vanwege hun uitgebreide dataverzameling bijzonder aantrekkelijk voor adverteerders. Zo weet Google perfect wat iemands interesses zijn op basis van diens zoekgedrag, en heeft sociaal medium Instagram inzicht in gebruikers via likes, posts en gevolgde accounts. Op basis van dergelijke gegevens kunnen gerichte advertenties worden getoond.
+
+De meeste andere websites zijn in tegenstelling tot dergelijke ‘walled gardens’ autonoom niet in staat om zoveel inzichten over hun gebruikers te verzamelen. Dat is de reden dat gepersonaliseerde advertenties bij kleinere uitgevers veelal tot stand komen op basis van third-party data – waaronder browsegedrag op eerder bezochte websites. Het gebruik van dergelijke tracking-gegevens wordt straks bemoeilijkt door de DSA. “Echt gepersonaliseerd adverteren gaat zich beperken binnen de walled gardens”, verwacht Havik van DPG Media dan ook.
+
+## Kleine uitgevers onder druk
+
+Voor adverteerders en uitgevers zal Google een belangrijke rol blijven spelen, verwacht Havik van DPG Media. Het gaat volgens hem met name om kleine uitgevers, waarvan zowel het potentiële bereik als de hoeveelheid beschikbare bezoekersdata onvoldoende zijn om adverteerders een-op-een te interesseren. Daarom leunen kleine uitgevers sterk op platforms waar aanbod van en vraag naar advertentieruimte bij elkaar worden gebracht. Google is hierin marktleider.
+
+Volgens Havik moeten kleinere uitgevers die afhankelijkheid accepteren, of teruggrijpen naar het aloude abonnements- model. “Ze kunnen ervoor kiezen hun advertentie-inkomsten als verloren te beschouwen en hun inkomsten uit de consumentenmarkt halen. Via een ‘paywall’ kunnen ze bezoekers dan laten betalen voor toegang tot artikelen.” Medeoprichter van JustPremium Visser acht het verdienpotentieel uit advertenties voor websites met relatief weinig bezoekers sowieso beperkt. “Als je geen serieuze omvang hebt, kun je ook geen serieus geld verdienen met onlineadvertenties”, stelt hij. “Mensen browsen niet meer eindeloos rond, maar gaan doelgericht naar een website waarvan ze precies weten wat ze er kunnen halen. Bijvoorbeeld nieuws lezen, of een product kopen.”
+
+## Transparantie als randvoorwaarde
+
+Naast de macht van grote technologiebedrijven bepaalt ook de wil van de consument welke kant de online- advertentiemarkt uiteindelijk opgaat. Waarschijnlijk wordt zijn privacybewustzijn de komende jaren verder versterkt door strengere naleving van Europese privacywet AVG en de vereisten vanuit de Digital Services Act. Die laatste verplicht heldere communicatie over datagebruik voor online-advertenties en maakt het gemakkelijker om “nee” te zeggen tegen tracking. Beide vereisten leggen de macht – of in ieder geval een deel daarvan – terug bij de internetgebruiker.
+
+Bijna een derde van de respondenten (30 procent) verwacht over vijf jaar een gestegen bereidheid te zien bij consumenten om hun data te delen voor advertentiedoeleinden; een iets hoger percentage (35 procent) verwacht hierin juist een daling. Transparantie is in ieder geval essentieel om ook in de toekomst gepersonaliseerde advertenties aan te kunnen bieden, denkt Hosman van Youwe Digital Agency. “Over een paar jaar accepteren internetgebruikers niet meer dat ze ergens in een sub-sub-overeenkomst moeten lezen hoe hun gegevens exact worden gebruikt”, vertelt hij. “We moeten de kracht en wil van consumenten niet onderschatten. Anders zul je zien dat de wal het schip keert.”
+
+DPG Media ontwikkelt een onlineomgeving waar elke lezer zijn of haar gebruikersinstellingen kan wijzigen. Daar kunnen mensen straks ook aangeven hoe hun data gebruikt mogen worden voor advertentiedoelstellingen, vertelt Havik. “Bij alles wat we op advertentievlak doen, geldt: je moet het aan je moeder kunnen uitleggen. En ze moet het er vervolgens ook.
+
+## Een sleutelrol voor creativiteit
+
+Hoewel persoonlijke data de afgelopen jaren zijn verworden tot de belangrijkste brandstof in de online-advertentiewereld, heeft ook creativiteit een duidelijke rol. Zo moet een advertentie ook visueel gezien aantrekkelijk zijn, weet Visser. “Een groot deel van het succes van een campagne valt te herleiden tot ‘de creative’”, stelt hij. De ondernemer verwijst naar de combinatie van beeld en tekst van een advertentie, iets waar reclamebureaus al sinds jaar en dag hun toegevoegde waarde bewijzen. “Data zijn veel minder belangrijk dan lange tijd is gedacht.” Kroontje van Pangaea Digital Agency sluit aan bij het idee dat een verminderde beschikbaarheid van persoonlijke data niet direct het fundament onder een advertentiestrategie hoeft weg te slaan. “Het grootste deel van het resultaat komt vanuit traditionele marketing. Dat begint bij goed begripvan je doelgroep.”
+
+Meer dan zestig procent van de ondervraagden gelooft dat het belang van creativiteit over vijf jaar enigszins of zelfs sterk is toegenomen. Voor bureaus geldt dit in nog sterkere mate: maar liefst 75 procent verwacht een toename. Het lijkt erop dat zij het sterkst voorsorteren op een toekomst waarin de grenzeloze beschikbaarheid van persoonlijke data geen gegeven is.
+
+## Een mix van strategieën
+
+De markt beweegt niet naar één specifieke strategie, zo bleek al uit de rondvraag over oplossingen. Dit wordt ook weerspiegeld in de toekomstvisie van de ondervraagden, die zich een groeiende rol van zowel contextueel als gepersonaliseerd adverteren kunnen voorstellen. Zo verwacht meer dan de helft van hen een gestegen mate van personalisatie van onlineadvertenties over vijf jaar, ondanks de wettelijke beperkingen. Dit sluit aan bij de toekomstvisie van Havik van DPG Media: “Het principe van waardeuitwisseling – in dit geval goede content in ruil voor data – zal blijven bestaan op websites die hun eigen bezoekers goed kennen.” Visser is eenzelfde mening toegedaan. “Binnen walled gardens zal ook straks nog eindeloos gepersonaliseerd worden. Maar,”, nuanceert hij, “daarbuiten zal juist contextueel adverteren aan terrein winnen, of personalisatie op minder fijnmazig niveau plaatsvinden – zoals met Google Topics.”
+
+De toekomst is in ieder geval niet zwart-wit, denkt ook Kroontje van Pangaea. De ondernemer verwacht dat informatie over individuen een rol zal blijven spelen in de context van online-advertenties. “Ik geloof dat er een balans zal komen. Als je niets van iemand weet, dan is het blind varen. Dan ga je eigenlijk terug naar tv-reclame wat betreft personalisatieniveau. Ik verwacht niet dat dat zal gebeuren.” Kroontje benadrukt dat personalisatie van advertenties ook niet per se gelijk staat aan online-tracking. “Als je je eigen voorkeuren en interesses kunt aangeven, dan zullen veel gebruikers dat niet erg vinden. Ik houd zelf bijvoorbeeld niet van voetbal, wel van golf. Als ik kan aanvinken dat ik alleen advertenties over golf wil zien, dan is dat alleen maar fijn.”
+
+Volgens Hosman van Youwe Digital Agency is het belangrijk voor marketeers om in ieder geval een open blik te houden. “Je moet als marketingteam niet verslaafd raken aan één oplossing. De huidige ontwikkelingen in de markt leiden tot nieuwe oplossingen, die elk het overwegen waard zijn.”
+
+
+---
+
+# Buitenreclame komt tot bloei in digitale tijdperk
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
+
+Digitale buitenreclame maakt een opmerkelijke opmars. Nieuwe schermen duiken op in winkelcentra, bushokjes en treinstations. Ook analoge buitenreclame blijft populair vanwege massabereik. De omzet van buitenreclame groeit in totaal met 5 procent in 2025 en 6 procent in 2026, verwacht ABN AMRO. Tot 2030 groeit de buitenreclameomzet naar verwachting met gemiddeld 5 procent per jaar en streeft radio voorbij als advertentiekanaal.
+
+Nederland telt 83.000 objecten voor buitenreclame, zoals bushokjes, snelwegmasten, transformatorhuisjes, steigerdoeken, blinde muren, billboards, informatiezuilen en lantaarnpalen. Zelfs bussen, trams en veerboten worden ingezet als reclameplatform. Het aantal objecten groeit door de toevoeging van nieuwe digitale schermen. Tegelijkertijd stijgt de opbrengst per object door de digitalisering van bestaande objecten.
+
+Het meest voorkomende formaat is het abri-formaat (1185 mm x 1750 mm, circa 2m²), goed voor 65 procent van alle reclamedragers, te vinden in bushokjes en informatiezuilen. Het A0-formaat (841 mm x 1189 mm) beslaat 32 procent en is te vinden op driehoeksborden en elektriciteitskastjes. Grotere objecten zijn zeldzaam en variëren qua formaat; slechts 1300 objecten zijn groter dan het abri-formaat. Deze staan op locaties met groot bereik, zoals de LED-gevel van de Ziggodome in Amsterdam (23 meter hoog en 400 meter lang) of het NEO-scherm bij Hoog Catharijne in Utrecht (193 m²).
+
+## Digitale buitenreclame groeit explosief en biedt nieuwe mogelijkheden
+
+In drie jaar tijd is de digitale buitenreclameomzet meer dan verdubbeld tot 172 miljoen euro in 2024, blijkt uit het Digital Ad Spend 2024 rapport van VIA/Deloitte. In 2025 groeit de omzet met 4 procent en bereikt zo’n 179 miljoen euro, verwacht ABN AMRO. Dat is 56 procent van de totale omzet buitenreclame in 2025, die naar verwachting 317 miljoen euro bedraagt. Dit is opvallend, aangezien slechts 17 procent van alle reclameobjecten digitaal is; de overige 83 procent is analoog. Digitale schermen genereren meer omzet dan analoge, omdat ze gemiddeld groter zijn, op de drukste plekken staan en meer aandacht genereren.
+
+Digitale schermen trekken meer aandacht dankzij bewegend beeld en wisselende reclames. Ze zijn bovendien groter en staan op drukke plekken in grote steden en langs drukke wegen, waar veel voorbijgangers zorgen voor een hoog bereik. Reclameobjecten op deze locaties zijn als eerste gedigitaliseerd om de hoge investeringskosten terug te verdienen. Analoge objecten worden gedigitaliseerd als het bereik groot genoeg is om de kosten te rechtvaardigen. Het nieuwe BRO Next onderzoek vormt hierbij de nieuwe standaard om bereik te meten.
+
+Het merendeel van de nieuwe digitale buitenreclameschermen bevindt zich binnen, in de etalages van winkels. Zolang de schermen zichtbaar zijn vanaf de straat of openbare ruimte tellen ze mee voor de buitenreclamevoorraad. Dit fenomeen maakt deel uit van de [opkomst van retailmedia](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/advertenties-lucratieve-bijverdienste-voor-winkelketens.html), waarbij grootgrutters en andere retailers zich op advertenties storten als lucratieve bijverdienste. Zo heeft HEMA bijna 330 digitale schermen met uiteenlopende campagnes die ’s avonds, als de winkels gesloten zijn, geld opleveren. Global, een grote buitenreclame-exploitant, verzorgt de advertentieverkoop voor HEMA.
+
+Voor adverteerders bieden digitale schermen meer flexibiliteit. Campagnes kunnen worden afgestemd op omstandigheden, zoals reclame voor ijs op warme dagen. Ook kunnen adverteerders specifieke doelgroepen beter bereiken, zoals jongeren die op weg naar school op een treinstation reclame voor matcha-thee zien. Ongeveer 30 procent van de digitale advertentieruimte wordt automatisch geplaatst met behulp van algoritmes, die rekening houden met factoren zoals tijdstip, locatie en weersomstandigheden. Dit percentage neemt toe en wijst op een efficiëntere en meer flexibele benutting van digitale advertentieruimte.
+
+## Digitale reclame domineert medialandschap
+
+Digitale advertenties, vooral die via webpagina’s, sociale media, streamingdiensten en de genoemde digitale schermen, domineren het Nederlandse medialandschap en waren goed voor 4,1 miljard euro in 2024 – bijna driekwart van alle advertentie-uitgaven. Grote techbedrijven, met een marktaandeel van 80 procent (3,5 miljard euro), domineren de digitale advertentiemarkt. De digitale transformatie van de media is nog niet voltooid en het aandeel digitale advertenties stijgt dan ook nog steeds.
+
+Terwijl traditionele massamedia zoals televisie, radio en kranten aan bereik verliezen, wint buitenreclame – ook wel ‘out of home’ genoemd – aan belang. Johan Smit, directeur van PMA, branchevereniging voor mediabureaus, licht toe: “Out of home is eigenlijk het enig overgebleven massamedium en neemt daarmee leidende de rol van lineaire TV over.”
+
+Digitale buitenreclame onderscheidt zich van andere digitale media, zoals online advertenties, doordat het meestal niet als storend wordt ervaren. Online kunnen advertentieblokkers worden ingezet en treedt bij sommige mensen advertentiemoeheid op. “Buitenreclame is enerzijds niet storend en anderzijds niet te missen,” zegt Sita Bakker, directeur van OUTREACH, de branchevereniging voor buitenreclame-exploitanten. “Het onderbreekt mensen niet tijdens hun activiteiten, wat bijdraagt aan een positieve beleving,” voegt Bakker toe.
+
+## Ook analoge buitenreclame blijft sterk in digitale tijdperk
+
+Analoge buitenreclame blijft relevant en groeit zelfs, met een verwachte omzetstijging van 6 procent in 2025. Daarmee bedraagt de omzet van analoge buitenreclame circa 138 miljoen euro, verwacht ABN AMRO. Hoewel digitalisering het aantal analoge objecten licht vermindert, blijven traditionele vormen zoals papieren posters en statische billboards populair bij adverteerders vanwege het massabereik. Nieuwe meetmethodes uit het BRO Next-onderzoek spelen ook een rol bij deze (her)waardering, omdat adverteerders daarmee steeds nauwkeuriger kunnen inschatten wat hun bereik is. Buitenreclame biedt als “enig overgebleven massamedium” een alternatief voor advertentiekanalen zoals televisie die als duurder worden gezien.
+
+Buitenreclame blijft onaangetast door de onlineconcurrentie die andere media treft. Bij het verplaatsen, bijvoorbeeld naar school of werk, komen mensen in contact met buitenreclame. Bushokjes, snelwegmasten, billboards en A0-frames bereiken wekelijks 80 procent van de Nederlandse bevolking. Ter vergelijking: lineaire televisie bereikt 80 procent van de Nederlandse bevolking in een maand.
+
+Ongeveer 5 procent van alle advertentie-uitgaven wordt besteed aan buitenreclame. Tussen adverteerders varieert dit aandeel: McDonald’s besteedt wel 20 procent van zijn budget aan buitenreclame en WPP Media, het grootste mediabureau, besteedt namens adverteerders zo’n 10 procent aan buitenreclame. Deze voorbeelden laten verder groeipotentieel zien van buitenreclame, wat ook blijkt uit ervaring in andere landen. In een positief scenario, waarin huidige trends sterk doorzetten, kan het aandeel buitenreclame stijgen naar 7,5 procent en de omzet oplopen tot 600 miljoen euro in 2030. In het basisscenario blijft het aandeel buitenreclame echter stabiel rond de huidige 5 procent.
+
+## Gemeenten bepalen beleid buitenreclame
+
+Buitenreclame is gericht op voorbijgangers, lopend of op de fiets, in de auto of in het openbaar vervoer. Gemeenten en hanteren strikte regels over waar geadverteerd mag worden en hoe, dat wil zeggen op welk formaat en bijvoorbeeld de lichtsterkte van digitale schermen. Sommige gemeentes heffen een gemeentelijke reclamebelasting. Omdat gemeenten zelf verantwoordelijk zijn voor de inrichting van de publieke ruimte, lopen de regels sterk uiteen: Nederland telt 342 gemeenten die ieder hun eigen beleid hebben omtrent buitenreclame. Zo heeft de gemeente Den Haag ‘fossiele reclame’ verboden. Via een algemene plaatselijke verordening (APV) verbiedt Den Haag reclame voor vliegreizen, benzineauto’s en fossiele energiecontracten. In Haarlem loopt een aanbesteding waarbij reclame voor vlees en vis niet is toegestaan.
+
+Gemeenten verlenen via openbare aanbestedingen meerjarige concessies voor buitenreclame. In ruil hiervoor ontvangen zij een financiële afdracht, vaak in combinatie met materiële vergoedingen zoals stadsmeubilair of mediaruimte voor eigen campagnes en goede doelen. JCDecaux is een voorbeeld van een exploitant die investeert in bushokjes en deze onderhoudt in ruil voor reclame-exploitatie. Opvallend is dat bij JCDecaux meer medewerkers actief zijn in de technische dienst dan in de reclameverkoop. Uit een [onderzoek van PWC](https://www.outsmart.org.uk/resources/ooh-supporting-uk-society) in het Verenigd Koninkrijk blijkt dat 46 procent van de advertentie-inkomsten uit buitenreclame naar gemeenten terugvloeit. Toegepast op de Nederlandse markt gaat het om circa 146 miljoen euro in 2025.
+
+Buitenreclame is grotendeels afhankelijk van gemeentelijk beleid en concessies, die sterk uiteenlopen tussen de 342 Nederlandse gemeenten. Terwijl sommige gemeenten specifieke beperkingen opleggen, zoals het verbod op fossiele reclame in Den Haag, ontbreekt een landelijke richtlijn. Dit leidt tot variatie in regels en onzekerheid voor exploitanten. Centrale regels over tabaks-, alcohol- en gokreclame tonen aan dat een uniforme aanpak voordelen kan bieden. Zonder dergelijke richtlijnen kunnen individuele gemeenten strengere beperkingen opleggen, wat een risico vormt voor de branche buitenreclame.
+
+De Nederlandse markt voor buitenreclame is met 52 exploitanten relatief gefragmenteerd in vergelijking met omringende landen zoals België en Duitsland, waar slechts twee grote spelers actief zijn naast enkele specialisten met hun eigen niche. De overname van het Nederlandse deel van Clear Channel door Bauer Media Group in april 2025 is een voorbeeld van de consolidatie die verder zal doorzetten. Internationaal loopt Nederland nog achter op landen zoals de Verenigde Staten en China, vooral op het gebied van digitale buitenreclame en retailmedia. Op basis van internationale trends en de huidige marktstructuur verwacht ABN AMRO verdere consolidatie en digitale groei.
+
+## Opkomst van de abri
+
+In 1964 introduceerde Jean Claude Decaux zijn eerste bushokjes in Lyon. In ruil voor bekostiging, plaatsing en onderhoud kreeg zijn bedrijf, JCDecaux, de exploitatierechten voor reclame in deze ‘abribus’ (Frans voor bushokje). Dit model van publiek-private samenwerking verspreidde zich wereldwijd, en de term ‘abri’ werd synoniem voor een veelgebruikt advertentieformaat: 1185 mm x 1750 mm, circa 2m². Reclame in abri-formaat vertegenwoordigt 65 procent van alle buitenreclame in Nederland en is te vinden in bushokjes door het hele land, stations, winkelcentra en langs drukke straten.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Retail](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Cloud en techbedrijven sterk in opmars binnen IT branche
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kasper Buiting
+
+De IT behoort tot de snelst groeiende branches in Nederland, en is daarnaast een belangrijke facilitator van de digitalisering in andere sectoren. Het rapport 'IT-branche in beeld' biedt nieuwe inzichten door een analyse van het type bedrijven, werkgelegenheid, groeiverwachtingen en de belangrijkste activiteiten van de branche. Uit het rapport blijkt onder meer dat nieuwe typen IT-bedrijvigheid als cloud en tech sterk in opmars zijn.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [IT-branche in beeld (22 maart 2019)
+
+  2 MB](https://www.abnamro.nl/nl/media/IT-branche-in-beeld_tcm16-66492.pdf)
+
+De IT-branche in Nederland telt in totaal ruim 55.000 bedrijven. Het grootste segment bestaat uit softwarebedrijven (54 procent), gevolgd door system integrators en IT-dienstverleners (27 procent), tech- en internetbedrijven (8 procent), hosting- en cloud providers (6 procent), hardware-bedrijven (5 procent) en datacenters (0,5 procent). Internetbedrijven, hosting- en cloud providers en datacenters zijn relatief nieuwe spelers en zijn sterk in opmars. Door de opkomst van cloud houdt al 14 procent van alle bedrijven zich bezig met deze nieuwe vormen van IT. Uit het onderzoek blijkt dat het grootste deel van alle IT’ers – 55 procent – werkzaam is voor softwarebedrijven. Deze branche is bovendien goed voor 41,9 procent van de totale omzet in de IT-markt, gevolgd door hardware-leveranciers (29,8 procent) en system integrators en IT-dienstverleners (15,8 procent). Tech-bedrijven zijn echter het marktsegment waar de komende jaren de meeste groei wordt verwacht.
+
+## IT-branche in omvang al groter dan agrarische sector
+
+Naar verwachting blijft de IT-branche ook in de komende jaren groeien. De totale omzetgroei bedroeg in 2018 7,4 procent en ook over de toekomst zijn IT-bedrijven positief. Ruim de helft verwacht in de komende drie jaar een toename of zelfs een sterke omzetstijging. ABN AMRO verwacht in 2019 een groei van 5 procent in 2019 en in 2020 van 4,5 procent. “De IT-branche is in de afgelopen twee decennia sterk gegroeid. De branche kent een grote dynamiek van nieuwe opkomende spelers die nieuwe verdienmodellen introduceren. In de IT-branche zijn op dit moment ruim 200.000 mensen werkzaam die samen goed zijn voor een omzet van in totaal 90,3 miljard euro.
+
+
+---
+
+# Cloud-macht ligt voorlopig buiten Europa
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+De Europese cloud-markt wordt gedomineerd door Amerikaanse technologiebedrijven. Lokale spelers komen nauwelijks boven de paar procent marktaandeel uit. Tocht groeit het besef dat Europa zelf controle moet krijgen over cruciale digitale diensten.
+
+Een meerderheid van de Europese overheden en bedrijven draait op cloud-infrastructuur van Amerikaanse herkomst: Amazon Web Services, Microsoft Azure en Google Cloud. Samen controleren deze partijen zo’n 70 tot 80 procent van de Europese [cloud-markt](https://sciencebusiness.net/news/ict/new-franco-german-cloud-computing-project-set-standards-and-challenge-us-market-leaders#:~:text=However%2C%20with%20almost%2070%20per,for%20Cyber%20Studies%20%26%20Research). De rest is versnipperd over tientallen kleinere aanbieders, waaronder Europese partijen zoals SAP, Deutsche Telekom, OVHcloud en Orange. Geen enkele Europese speler haalt echter meer dan een paar procent marktaandeel. SAP en Deutsche Telekom voeren de Europese ranglijst aan met elk slechts [2 procent van de markt](https://www.srgresearch.com/articles/european-cloud-providers-continue-to-grow-but-still-lose-market-share#:~:text=been%20Amazon%2C%20Microsoft%20and%20Google,list%20of%20national%20and%20regional).
+
+## Druk uitoefenen via IT
+
+Ook de Nederlandse overheid blijkt sterk afhankelijk te zijn van de clouddiensten van de Amerikaanse tech-giganten. Bijna de helft (44 procent) van de clouddiensten die de overheid gebruikt, valt in de categorie ‘public cloud’ en leunt dus op de infrastructuur van deze partijen. Een risicobeoordeling is in veel gevallen niet gedaan, zo blijkt uit een recent rapport van de Algemene Rekenkamer met de onheilspellende ondertitel Donkere wolken pakken samen. Volgens Simon Besteman van branchevereniging Dutch Cloud Community zijn de risico’s substantieel. “Als je data in een datacenter van een cloudprovider met een Amerikaanse UBO staan, dan kan de Amerikaanse overheid erbij. Het maakt dan geen donder uit als het datacenter in Europa staat.”
+
+De branchevereniging waarschuwt dat technologische afhankelijkheid landen en bedrijven in een benarde positie brengen, zeker als geopolitieke verhoudingen verslechteren. Zo werd Amsterdam Trade Bank (ATB), een dochter van het Russische Alfa Bank, na de invasie van Oekraïne afgesloten van IT-diensten door Amazon en Microsoft, met grote verstoringen tot gevolg: medewerkers raakten hun toegang tot applicaties en e-mail kwijt, digitale betalingen kwamen stil te liggen. Het voedt de vrees voor een scenario waarin Amerikaanse tech-bedrijven hun dienstverlening aan Europa staken als de politieke druk oploopt. “Als de Verenigde Staten ons onder druk willen zetten, dan kan dit via IT”, zegt Besteman.
+
+## Europese providers verliezen marktaandeel
+
+De Amerikaanse clouds zijn de afgelopen jaren gestaag gegroeid, zelfs sneller dan de lokale aanbieders. Synergy Research berekende dat tussen 2017 en 2022 de Europese cloud-markt vijfmaal groter is geworden, maar het gezamenlijke marktaandeel van Europese providers daalde van 27 procent naar 13 procent. Amazon, Microsoft en Google investeren ieder kwartaal miljarden in nieuwe Europese datacenters.
+
+Europese aanbieders trekken zich daarom terug op niches: ze bedienen specifieke lokale behoeften of treden op als partner van de grote drie in hybride constructies. Zo levert het Franse OVHcloud clouddiensten die voldoen aan strenge Europese regelgeving. In sommige gevallen combineren organisaties deze diensten met die van Amazon Web Services of Microsoft Azure, zodat ze kunnen profiteren van de schaal en functionaliteit van Amerikaanse platforms, terwijl gevoelige gegevens binnen Europa blijven en onder Europese regels vallen.
+
+De dominantie van Amerikaanse cloudproviders strekt zich overigens uit tot de ruggengraat van artificial intelligence: de geavanceerde servers waarop AI-modellen worden getraind en draaien. De Verenigde Staten beschikt over zo’n [70 procent](https://geopolitique.eu/en/2025/02/10/financing-infrastructure-for-a-competitive-european-ai/#:~:text=A%20risk%20of%20strategic%20dependence,higher%20than%20in%20the%20US.) van deze wereldwijde rekenkracht voor AI, waarvan het overgrote deel – 80 procent – in handen is van de hyperscalers. Europa moet het doen met slechts 4 procent van de wereldwijde capaciteit.
+
+## Rijks-cloud in eigen beheer
+
+Toch is er beweging. Op meerdere fronten groeit binnen Europa het besef dat technologische autonomie alleen haalbaar is met stevige investeringen, slimme regelgeving en lokale alternatieven. “Bij de Nederlandse overheid is niet meer de vraag of we de afhankelijkheid van Amerikaanse cloudbedrijven moeten terugdringen, maar hoe”, zegt Besteman van de Dutch Cloud Community. De Tweede Kamer nam recent een motie aan die de overheid oproept tot een aanbesteding voor een “rijks-cloud in volledig Nederlands beheer”.
+
+Besteman verwacht niet dat zo’n overheids-cloud er van de ene op de andere dag zal staan, maar een dergelijk voornemen kan de lokale cloud-markt wel in beweging brengen. “Wil je dat Europese cloud-aanbieders verder investeren in hun dienstverlening, dan moet er eerst een koopsignaal komen.” Gelijksoortige discussies spelen nu ook in het bedrijfsleven, ziet Besteman. “Daar buigen ze zich ook over de vraag hoe veilig hun data eigenlijk zijn, en wat een plan B kan zijn, een exitstrategie.”
+
+## Netwerk van aanbieders
+
+Vanuit Europa wordt niet zozeer ingezet op één alternatieve cloud-oplossing die zich qua schaal kan meten met Microsoft Azure of Amazon Web Services, maar een netwerk van aanbieders waaronder gemakkelijk data en workloads kunnen worden verplaatst en verdeeld. ECOFED is een voorbeeld van zo’n ‘federatieve cloud’. Het Nederlandse project ontwikkelt een oplossing waarmee software en de fysieke cloud-infrastructuur van elkaar kunnen worden losgekoppeld, wat gebruikers meer vrijheid geeft bij het kiezen en combineren van clouddiensten.
+
+Het Nederlandse LeaseWeb laat ook luid van zich horen. In maart presenteerde de cloudprovider de eerste resultaten van zijn bijdrage aan het IPCEI-CIS-project – hetzelfde initiatief waar ook ECOFED onder valt. Het bedrijf bouwt aan een cloud-platform dat speciaal is ontworpen om te voldoen aan Europese wet- en regelgeving. Het platform vormt het hart van LeaseWebs zogeheten European Cloud Campus – een bredere investering in soevereine cloud-technologie, lokale datacenters en samenwerking met kennisinstellingen.
+
+Volledige soevereiniteit lijkt onrealistisch, maar het besef groeit dat Europa meer grip moet krijgen op zijn digitale infrastructuur. Exitstrategieën en alternatieve scenario’s krijgen nadrukkelijker een plek op de agenda bij overheid en bedrijfsleven. Dat biedt ruimte voor lokale cloudbedrijven om zich te onderscheiden met veiligheid en compliance als troef.
+
+[Lees ook: Europa zet in op technologische zelfredzaamheid](/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-zet-in-op-technologische-zelfredzaamheid.html)
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industrie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Corona zorgt voor tweeledig beeld telecom
+
+[Stand van Sectoren](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Ingrid Laane
+
+Kamalika Patra
+
+De telecomsector wordt door de coronacrisis zowel positief als negatief geraakt. Door het massale thuiswerken is er een grotere vraag naar bedrijfsnetwerkdiensten en gebruiken klanten hun telefoon meer. Daartegenover staat een sterke daling van roaming-inkomsten doordat er minder gereisd wordt en neemt de omzet uit de zakelijke markt af. In deze stand van de TMT-sector licht ABN AMRO deze en andere branche-ontwikkelingen uit.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Stand van TMT (15 januari 2021)
+
+  501 KB](https://www.abnamro.nl/nl/media/ABN-AMRO-Stand-van-TMT_tcm16-97188.pdf)
+
+## Omzetontwikkelingen lopen uiteen
+
+Hoewel het groeitempo in de IT-branche door onder meer vraaguitval in de adviestak in 2020 beduidend lager ligt dan voorgaande jaren, levert de coronacrisis de branche op termijn structurele voordelen op. Burgers winkelen en werken meer online en houden dit naar verwachting ook na de pandemie vast. Meer onlineverkeer levert de IT-branche meer werk op.
+
+De omzet van uitgeverijen, reclamebureaus en omroepen laat in het derde kwartaal een sterk herstel zien als gevolg van aantrekkende mediabestedingen. In de eerste twee kwartalen van 2020 kampten deze branches nog met stevige krimp.
+
+Voor drukkerijen leidt de toenemende digitalisering al jarenlang tot een structurele afname in de vraag naar drukwerk. Vorig jaar kwam daar coronacrisis bovenop. Enig herstel is inmiddels ingezet, maar blijft matig vanwege de beperkingen die blijven gelden voor de organisatie van evenementen en beurzen, twee grote afnemers van drukwerk.
+
+## Arbeidsmarkt IT-branche krap
+
+De mismatch in de TMT-sector tussen de vraag en aanbod van arbeid is als gevolg van de coronacrisis beperkt afgenomen blijkt uit de arbeidsmarktindicator van ABN AMRO. Eind 2019 was 16,2 procent van de vacatures in de TMT-sector onvervulbaar, terwijl dit aantal eind 2020 was gedaald naar 14,1 procent.
+
+Binnen de verschillende branches loopt de ontwikkeling op de arbeidsmarkt sterk uiteen. Zo is in de IT-branche het percentage onvervulbare vacatures weliswaar licht gedaald, maar ligt dit aantal met 28 procent voor IT-ontwikkelaars en 30 procent voor IT-programmeurs nog steeds erg hoog. Dit bevestigt het al langer bestaande beeld dat er sprake is van structurele krapte in deze branche. In de marketing en communicatie is daarentegen het percentage onvervulbare vacatures laag, waardoor er momenteel geen mismatch is tussen vraag en aanbod.
+
+
+---
+
+# Cyberaanval gevaarlijker door kunstmatige intelligentie
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Meer dan de helft van de bedrijven ziet vernieuwingen op het gebied van kunstmatige intelligentie, oftewel ‘artificial intelligence’ (AI), als bedreiging voor de cyberveiligheid van de organisatie. Vorig jaar was dit nog geen kwart. De risicoperceptie is het sterkst bij de grootste bedrijven, zo blijkt uit een enquête van ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties.
+
+AI lijkt vooral op het gebied van ‘social engineering’ de aanvalskracht te verhogen. Hierbij worden mensen gemanipuleerd om bijvoorbeeld vertrouwelijke informatie te delen of een anderszins schadelijke actie uit te voeren. Met AI kan deze manipulatie nog slinkser en overtuigender plaatsvinden. Zo maakt generatieve AI het nu wel heel gemakkelijk om [phishing](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-phishing.html)-mails te creëren. Deze vorm van AI is in staat om op basis van enkele instructies zelf teksten te schrijven – grammaticaal correct, zonder spelfouten en in een taal naar keuze. Volgens IBM X-Force daalt de ontwikkeltijd van een phishing-mail hierdoor van [zestien uur](https://securityintelligence.com/x-force/ai-vs-human-deceit-unravelling-new-age-phishing-tactics/) naar vijf minuten.
+
+Ook interactieve gesprekken kunnen nu aan AI-modellen worden uitbesteed. In een automatische chat kunnen bijvoorbeeld inloggegevens worden ontfutseld of betalingen in gang worden gezet. Door toepassing van ‘deepfake’-technologie, waarbij beeld- of geluidsmateriaal wordt gecreëerd dat niet van echt te onderscheiden is, kunnen kwaadwillenden hun slachtoffer doen geloven dat ze met iemand anders van doen hebben.
+
+[Beluister ook de podcast: Generatieve AI: Het verschil tussen echt en nep](https://www.abnamro.nl/nl/zakelijk/insights/in-gesprek/podcast/de-innovatiegolf/generatieve-ai-het-verschil-tussen-echt-en-nep.html)
+
+## Overtuigende kloon van de CEO
+
+In Hong Kong maakte een financieel medewerker van een multinational meer dan [25 miljoen dollar](https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html) over naar fraudeurs, nadat hij in een videovergadering terechtkwam met een deepfake-versie van de CFO en andere collega’s. In oktober vorig jaar werd bij de Nederlandse onlinebank Bunq een soortgelijke poging ondernomen, toen een medewerker werd uitgenodigd voor een videogesprek met – zo bleek later – een AI-kloon van topman Ali Niknam. In een [LinkedIn-bericht](https://www.linkedin.com/feed/update/urn:li:activity:7114874320627085312/) noemt Niknam de kloon “overtuigend”.
+
+[Lees ook: Sterke toename in CEO Fraude](/nl/zakelijk/insights/cybersecurity/phishing/sterke-toename-in-ceo-fraude.html)
+
+Volgens het Britse [National Cyber Security Centre](https://www.ncsc.gov.uk/report/impact-of-ai-on-cyber-threat#section_5) (NCSC) zullen alle soorten aanvallers profiteren van deze nieuwe mogelijkheden op het gebied van social engineering, van geavanceerde staatshackers tot de minder capabele cybercriminelen. Ook het automatisch scannen van bedrijfsdata op waarde wordt voor alle kwaadwillenden gemakkelijker, waardoor de schade door datalekken de komende jaren waarschijnlijk zal groeien.
+
+## AI maakt capabele aanvallers nog sterker
+
+Generatieve AI wordt ook toegepast om malware te schrijven. De Britten schatten in dat vooral de reeds zeer capabele aanvallers hiervan zullen profiteren. Staatshackers die bijvoorbeeld al grote datasets met malware tot hun beschikking hebben, kunnen hiermee AI-modellen trainen om nieuwe schadelijke software te maken die de huidige beveiligingssystemen niet kunnen detecteren.
+
+Het NCSC stipt aan dat de ontwikkeling van malware vooralsnog ook menselijke expertise vergt – iets wat volgens hen eveneens geldt voor ‘lateral movement’, waarbij indringers overspringen van het ene naar het andere systeem. Dit betekent dat minder professionele hackers niet ineens op alle fronten exponentieel slagvaardiger worden door AI. “Het kan wel een steuntje in de rug vormen”, stelt CEO Maarten Roerink van cybersecuritydienstverlener MMOX. “Beginnende hackers kunnen zo eerder tot kwaadaardige codes komen.”
+
+## Datalekken door chatbots
+
+Bedrijven die zelf gebruikmaken van slimme chatbots op basis van generatieve AI, lopen het risico dat medewerkers in deze gesprekken vertrouwelijke informatie delen. Samsung riep het gebruik van generatieve AI-tools door medewerkers een halt toe nadat was gebleken dat een van hen een stuk broncode had ingevoerd in ChatGPT in de hoop dat de chatbot met een oplossing kon komen voor een fout in de code. Ook kwamen er transcripten van interne meetings in de gesprekken terecht.
+
+Op deze manier kan gevoelige data niet alleen weglekken naar de AI-leverancier, maar kan ongewild ook informatie met andere gebruikers worden gedeeld. In maart 2023 rapporteerden meerdere ChatGPT-gebruikers dat zij de [onderwerpen uit de chathistorie](https://www.pcmag.com/news/openai-confirms-leak-of-chatgpt-conversation-histories) van andere gebruikers konden zien in hun eigen account. Daarnaast kunnen gevoerde gesprekken weer als trainingsdata worden gebruikt om het AI-model te verfijnen, en juist die trainingsdata blijken niet altijd goed vergrendeld te zijn. Eind vorig jaar brachten Google-onderzoekers naar buiten hoe zij ChatGPT van concurrent OpenAI hadden verleid tot het [prijsgeven](https://arxiv.org/abs/2311.17035) van trainingsdata. Het risico op datalekken via chatbots is daarmee reëel.
+
+## AI als wapen tegen cybercriminaliteit
+
+AI kan ook ten behoeve van cyberveiligheid worden gebruikt. “Het zijn altijd de boefjes die als eerste een bepaalde technologie omarmen, maar het duurt nooit lang voordat ook de verdediging ermee aan de slag gaat”, zegt Arwi van der Sluijs, algemeen directeur van cybersecuritydienstverlener NFIR. Zo kan AI helpen om nieuwe patronen te identificeren die duiden op verdachte activiteit in een netwerk. Waar het identificeren van zulke patronen voorheen gebeurde door handmatig grote hoeveelheden data te bestuderen en bureauonderzoek te doen, kan dit nu grotendeels automatisch. “Sterker nog: dankzij AI kunnen we incidenten gaan voorspellen.”
+
+De huidige dynamiek krijgt overigens steeds meer weg van een wapenwedloop. In een wereld waarin door AI gegenereerde malware en phishing-mails een feit zijn, moeten beveiligingssystemen op hun beurt deze nieuwe dreigingen leren herkennen. Dat kan ook middels AI. Wel moet het onderliggende model dan genoeg voorbeelden hebben gezien van deze nieuwe generatie boosdoeners. Goedwillende bedrijven zetten daarom eerst generatieve AI in om malware en phishing-mails te schrijven, en gebruiken deze vervolgens om een effectief herkenningsmodel mee te trainen.
+
+
+---
+
+# Cyberaanval schudt ondernemer lang niet altijd wakker
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Afgelopen jaar kreeg bijna driekwart van de Nederlandse bedrijven te maken met een cyberaanval. Hoewel de nadelige gevolgen van cyberaanvallen veelvuldig in het nieuws komen, moet een ondernemer vaak eerst schade hebben geleden voordat deze de risico’s erkent. De schade van een aanval beperkt zich echter vaak niet tot het bedrijf dat is gehackt. Een al te optimistische risico inschatting kan daarmee de hele keten in gevaar brengen.
+
+## Download het complete rapport
+
+Lees alle feiten en ontwikkelingen in het rapport 'Steeds verfijndere cyberaanvallen'.
+
+(Zie je geen download of kun je het rapport niet downloaden? Upgrade de browser dan naar de meest recente versie.)
+
+- [Steeds verfijndere cyberaanvallen (april 2024)
+
+  2 MB](https://www.abnamro.nl/nl/media/202404_Steeds-verfijndere-cyberaanvallen_tcm16-228031.pdf)
+
+Nu er nieuwe Europese wetgeving in de maak is, moeten ondernemers samen met hun klanten en leveranciers de zaken echter snel op orde krijgen.
+
+Onder het grootbedrijf, met een jaaromzet van minimaal 25 miljoen, werd maar liefst 86 procent van de ondernemingen aangevallen. In het midden- en kleinbedrijf (mkb) zag 71 procent zich verleden jaar geconfronteerd met een aanval, onder zelfstandigen was dit 55 procent. Helaas schatten die laatste twee groepen de risico’s van cybercriminaliteit relatief laag in.
+
+Ondernemers blijken de risico’s pas vooral te onderkennen op het moment dat een aanval tot schade heeft geleid. Te denken valt aan financiële kosten voor het herstel van systemen, gederfde inkomsten door stilstand van het bedrijf, of reputatieschade door gelekte klantgegevens. Uit onderzoek van verzekeraar [Hiscox](https://www.hiscoxgroup.com/sites/group/files/documents/2023-10/Hiscox-Cyber-Readiness-Report-2023.pdf) blijkt dat Nederland wereldwijd op nummer twee staat wat betreft hoogste financiële schade door cybercriminaliteit.
+
+## Aanvalsmethoden cybercriminelen veranderen
+
+Ondertussen veranderen de aanvalsmethoden van cybercriminelen in rap tempo. Zo is phishing nog steeds een populaire – en door ondernemers gevreesde – methode om binnen te komen bij bedrijven, maar bedienen criminelen of bijvoorbeeld kwaadwillende overheden zich ook massaal van kant-en-klare inloggegevens om ongemerkt toegang te krijgen tot bedrijfssystemen. Eenmaal binnen leidt dat bijvoorbeeld tot de installatie van schadelijke software. Van de bedrijven zag 37 procent zijn systemen al eens geïnfecteerd met malware; bij 19 procent van de bedrijven gebeurde dit (onder andere) vorig jaar. Met gijzelsoftware heeft 26 procent van de bedrijven ervaring, waarvan 19 procentpunt vorig jaar. Ook datalekken zijn een reëel risico. Meer dan een kwart van de bedrijven verloor al eens vertrouwelijke gegevens; bij 15 procent gebeurde dit in de afgelopen twaalf maanden.
+
+Meer dan de helft van de bedrijven ziet vernieuwingen op het gebied van kunstmatige intelligentie, oftewel ‘artificial intelligence’ (AI), als bedreiging voor de cyberveiligheid van de organisatie. Vorig jaar was dit nog geen kwart. De risicoperceptie is het sterkst bij de grootste bedrijven, iets wat mogelijk wordt gevoed door spectaculaire berichten die recent in de media verschenen. Zo maakte een financieel medewerker van een multinational in Hong Kong meer dan [25 miljoen dollar](https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html) over naar fraudeurs, nadat hij in een videovergadering terechtkwam met een deepfake-versie van de CFO en andere collega’s. Bij de Nederlandse onlinebank Bunq werd een soortgelijke poging gewaagd met een AI-kloon van topman Ali Niknam.
+
+## Nieuwe richtlijn NIS2
+
+Om de cyberweerbaarheid in Europa te verbeteren wordt in oktober 2024 een nieuwe richtlijn van kracht: NIS2, de opvolger van de eerdere Network and Information Systems-richtlijn (NIS). Het dwingt organisaties uit zeventien sectoren om onder andere de cyberweerbaarheid van toeleveranciers en klanten kritisch onder de loep te nemen. Hoewel Nederland vertraging oploopt met de implementatie van de richtlijn, worden binnenlandse bedrijven al opgeschrikt door kritische vragen vanuit Duitse en Belgische klanten waar het vormgeven van nationale wetten wel volgens planning verloopt.
+
+Bijna driekwart (72 procent) van de respondenten uit het grootbedrijf bevraagt zijn eigen klanten, leveranciers en partners al “zeer regelmatig” of “regelmatig” over cybersecurity; 66 procent zegt dat zijzelf van hun ketenpartners ook dergelijke vragen krijgen. Bij de mkb-respondenten liggen deze percentages lager, met respectievelijk 52 en 37 procent. Ook de mate waarin concrete afspraken worden gemaakt met ketenpartners, ligt in het grootbedrijf stukken hoger dan in het mkb.
+
+Maarten Roerink, CEO van cybersecuritydienstverlener MMOX erkent het belang van een benadering ver buiten de bedrijfsmuren. “Als onze klanten gehackt worden, gaat dat heel vaak via-via. Soms zijn ze zelf het doelwit, soms worden kwetsbaarheden in hun netwerken gebruikt om door te dringen tot de netwerken en data van partners. De aloude vraag ‘wat valt er nou bij mijn bedrijf te halen?’ is dan ook niet meer relevant.”
+
+
+---
+
+# Cyberdreiging zet ondernemers aan tot maatregelen
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Het aantal bedrijven dat te maken heeft gehad met een cyberaanval is het afgelopen jaar sterk gestegen. Hoewel de risicoperceptie van ondernemers vrijwel gelijk is gebleven, blijkt uit onderzoek van ABN AMRO onder 233 bedrijven dat de bereidheid tot het nemen van maatregelen toeneemt. Dat is gunstig, want cyberdreiging is een reëel operationeel risico geworden.
+
+Dit heeft allereerst te maken met een groter aanvalsoppervlak door verregaande digitalisering, gecombineerd met professionalisering van cybercriminelen. Het feit dat geopolitieke spanningen steeds meer tot uiting komen in digitale [aanvallen](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-een-ddos-aanval.html) geeft extra aanleiding tot zorg. Zo leidt de oorlog tussen Rusland en Oekraïne ook voor Nederlandse ondernemingen tot een verhoogd cyberrisico. “Bovenop de structurele toename in cyberaanvallen zagen we in de aanloop naar de escalatie van het conflict een duidelijke piek. Dit was nog voordat het grote publiek via het nieuws hoorde welke kant het in Oekraïne op zou gaan”, zegt Bastiaan van Nunen, Managing Director bij cyberbeveiligingsbedrijf MMOX.
+
+Het percentage bedrijven dat, los van de oorlog, te maken heeft gehad met cybercriminaliteit is gestegen. Was dit vorig jaar nog 29 procent van alle ondervraagden, dit jaar is het 45 procent. Dat blijkt uit onderzoek van ABN AMRO in samenwerking met onderzoeksbureau MWM2 onder 233 zakelijke klanten die eind- of medeverantwoordelijk zijn voor de cyberveiligheid van hun bedrijf.
+
+\* Significante stijging (p<0.05)   
+ Vraagstelling: Heeft uw organisatie of de organisatie waarvoor u werkt wel eens te maken gehad met cybercriminaliteit?   
+ Steekproef 2022: zzp (n=64) | mkb (n=139) | grootbedrijf (n=27; resultaten voor deze groep indicatief van aard)
+
+Andere bronnen bevestigen dit beeld. Zo registreerde de Nederlandse politie vorig jaar 14.000 gevallen van cybercriminaliteit, een toename van bijna een derde in vergelijking met 2020 en een verdriedubbeling ten opzichte van 2019. Ook op Europees niveau is volgens het agentschap voor de cyberveiligheid [ENISA](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2021) sprake van een toename in cyberaanvallen gedurende de afgelopen twee jaar.
+
+Uit het onderzoek van ABN AMRO blijkt dat specifiek het grootbedrijf opvallend vaak in aanraking komt met cyberaanvallen; 63 procent van de respondenten uit deze categorie – gedefinieerd als bedrijven met een jaarlijkse omzet hoger dan tien miljoen euro – kreeg al eens te maken met cybercriminaliteit, waarvan 22 procent in het afgelopen jaar.
+
+## Schade niet beperkt tot grote bedrijven
+
+Toch is ook onder kleinere bedrijven alertheid geboden. Zij krijgen namelijk eveneens in toenemende mate te maken met cybercriminaliteit. Ligt volgens de meting in februari 2022 het percentage zelfstandigen zonder personeel (zzp’ers) dat ervaring heeft met cyberaanvallen op 32 procent, in april 2021 was dit nog slechts 13 procent. Ook in het midden- en kleinbedrijf (mkb) wordt een stijging waargenomen, hoewel die statistisch gezien niet significant is.
+
+De trend is volgens Van Nunen in ieder geval duidelijk: niet enkel grote bedrijven worden slachtoffer. Daar ligt volgens hem een heldere strategie aan ten grondslag. “Een groep cybercriminelen zal liever een paar honderd kleine bedrijven aanvallen met een kleinere opbrengst en een kleinere pakkans dan een handvol grote bedrijven die al in een verhoogde staat van alertheid zijn”, zegt Van Nunen. Achterover leunen is er volgens hem in ieder geval niet bij: “Het zou naïef zijn om te denken dat cyberaanvallen zzp’ers niet zouden raken. Dat dacht men een paar jaar geleden ook over het midden- en kleinbedrijf.” Trish McGill, expert op het gebied van cyberveiligheid bij Nederlandse IT-dienstverlener Ilionx, sluit zich hierbij aan: “Uiteindelijk wordt iedereen een keer gehackt, het is slechts een kwestie van tijd.”
+
+[Lees ook: Threat Intelligence: Essentiële tips voor het MKB](/nl/zakelijk/insights/cybersecurity/beveiliging/threat-intelligence-essentiele-tips-voor-het-mkb.html)
+
+## Verwevenheid van digitaal landschap zorgt voor risico’s
+
+Wanneer een bedrijf te maken krijgt met een cyberaanval, is dit vaak geen geïsoleerd evenement. Zo kunnen aanvallen op grotere bedrijven verstrekkende gevolgen hebben voor kleinere partijen. Dit is zeker het geval op het moment dat grote technologieaanbieders het doelwit worden. Dat werd in 2021 eens te meer duidelijk toen hackers zich via een beveiligingslek in mailprogramma Microsoft Exchange toegang wisten te verschaffen tot zeker 1200 Nederlandse mailservers. Zo kon van allerlei bedrijven vertrouwelijke informatie worden buitgemaakt.
+
+Het risico is voor alle bedrijven onmiskenbaar gegroeid. “Door kwaadwillenden wordt meer dan ooit gebruikgemaakt van de mogelijkheden die digitalisering met zich meebrengt”, stelt Van Nunen. Dit is een structurele ontwikkeling die direct te koppelen valt aan het steeds groter wordende aanvalsoppervlak. Steeds meer bedrijven digitaliseren hun bedrijfsvoering, een ontwikkeling die door de coronacrisis in een stroomversnelling is gekomen. De vele clouddiensten – vaak van allerlei verschillende aanbieders – en apparaten die daarmee gemoeid zijn, vormen alle een potentieel toegangspunt voor cybercriminelen.
+
+## Hackers worden professioneler
+
+Tegelijkertijd worden cybercriminelen steeds professioneler. Dit is onder andere te merken aan de manier waarop zij hun afwegingen maken. Beide experts geven aan dat er vaak een ‘business case’ aan ten grondslag ligt. “Steeds vaker start een cyberaanval met een grondig onderzoek om te bepalen wat er bijvoorbeeld aan data bij een bedrijf te halen valt. Een eigen accountant brengt vervolgens de potentiële waarde van de aanval in kaart”, zegt McGill. Van Nunen herkent dit principe: “Op het moment dat cybercriminelen een bedrijf in het vizier hebben voor een [ransomware-aanval](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-ransomware.html), maken ze gerust een rekensom om vast te stellen wat het beste bedrag is om aan een partij te vragen. Wat kost het per dag als de operatie stil komt te liggen van een bedrijf met een omzet van acht miljoen? Wat is de ondernemer dus bereid te betalen?”
+
+De hackers van nu zijn niet te vergelijken met die van vroeger, stelt McGill. “Voorheen waren hackers gewoon ‘script kiddies’ die bij hun moeder in de kelder zaten te coderen. Hetzelfde soort mensen kan nu zijn ei kwijt in het maken van TikTok-filmpjes. Het soort aanvaller dat tegenwoordig actief is, is van een hele andere orde, dat zijn professionals.” Volgens McGill ontwikkelen de vaardigheden van cybercriminelen zich in lijn met de technologische ontwikkelingen. “Telefoons en laptops evolueren constant in termen van veiligheid. Waar voorheen een virus een bedrijf gemakkelijk op zijn grondvesten kon laten trillen, is daar tegenwoordig veel grover geschut voor nodig. Aanvallers kunnen niet achterblijven, die moeten blijven innoveren om schade aan te kunnen richten.”
+
+Daarnaast organiseren hackers zich niet alleen in toenemende mate, ook zijn zij steeds vaker werkzaam in organisaties die zich specifiek toeleggen op cybercriminaliteit. Zulke organisaties bieden allerlei soorten aanvallen aan kwaadwillenden aan als een kant-en-klaar pakket. Ook gijzelsoftware – ook wel ‘ransomware’ genoemd – is via deze weg beschikbaar. De bijbehorende ‘Ransomware-as-a-Service’-bedrijven hebben alles wat een legaal opererend technologiebedrijf ook heeft, van een onderzoeks- en ontwikkelingsafdeling tot een klantenservice die de aankopende partij helpt de software te implementeren. Het verschil ten opzichte van reguliere technologiebedrijven is de zogenaamde ‘slachtofferservice’, die gegijzelde ondernemingen begeleidt in het betalen van de borgsom.
+
+## Verschillende motieven voor een cyberaanval
+
+De motieven van hackers lopen uiteen. Waar de één uit is op direct financieel gewin en gijzelsoftware inzet om grote sommen geld te eisen van het bedrijf waarvan het systeem is lamgelegd, handelt de ander primair vanuit politieke beweegredenen. In het laatste geval gaat het om bijvoorbeeld het inbreken in overheidssystemen om gevoelige militaire informatie buit te maken, of het platleggen van belangrijke lokale bedrijven om een politieke tegenstander op de knieën te dwingen. Weer anderen vallen in de categorie ‘ethisch hacker’. Deze zetten hun vaardigheden in om kwetsbaarheden in systemen te ontdekken en met deze informatie het beveiligingsniveau naar een hoger niveau te helpen tillen. Hackers werken soms in opdracht van de overheid, dan weer volledig uit eigen initiatief.
+
+De oorlog tussen Rusland en Oekraïne heeft tot gevolg dat de dreiging van politiek gemotiveerde cyberaanvallen toeneemt. Volgens Van Nunen van MMOX is de digitale aanval een van de wapens in het arsenaal: “Cyberoorlog maakt deel uit van de hedendaagse oorlogsvoering. Het wordt bijvoorbeeld ingezet om een land of regio te destabiliseren. Zo hebben statelijke actoren eerder via een cyberaanval geprobeerd de nucleaire reactors in Iran plat te leggen. Het is simpelweg een van de manieren om een ander land je wil op te leggen.”
+
+## Oorlog zorgt voor dreiging, maar nog geen substantiële schade
+
+Voor zover bekend hebben vooralsnog geen directe Russische aanvallen op Nederlandse bedrijven plaatsgevonden, bijvoorbeeld als vergelding tegen Europese sancties tegen Rusland of Europese wapenleveranties naar Oekraïne. Het Nationaal Cyber Security Centrum (NCSC) schat de kans hierop laag in, maar [adviseert](https://www.ncsc.nl/onderwerpen/oekraine) organisaties ‘vanwege de onvoorspelbaarheid van de situatie alert te blijven’.
+
+Nederlandse ondernemingen zijn wel al op een meer indirecte manier betrokken geraakt bij het conflict. Zo werd in maart bekend dat enkele honderden routers van Nederlandse bedrijven waren gehackt om in een ‘botnet’ in te lijven. Dit is een netwerk van geïnfecteerde apparaten die worden ingezet om grote hoeveelheden verzoeken te sturen naar servers van derden. In maart werd de malware ‘Cyclops Blink’ gebruikt om een botnet te creëren waarmee Oekraïense bedrijven en overheden werden aangevallen. Deze malware werd volgens ingewijden vrijwel zeker ontwikkeld door een groep hackers die verbonden is aan een Russische inlichtingendienst.
+
+Hoewel het voor ondernemers een onprettig idee zal zijn dat hun IT-apparatuur wordt ingezet in een cyberoorlog, zullen bedrijven niet snel merken dat zij zijn ingelijfd in een botnet. Hun apparatuur verstuurt wellicht enkele verzoeken per uur. Dit heeft geen invloed op hun dagelijkse operatie.
+
+## Directe aanvallen elders kunnen ook hier effect hebben
+
+Een groter risico vormen zogenaamde ‘overloopeffecten’. Dit is de schade die aanvankelijk enkel wordt toegebracht aan de IT-systemen van bedrijven of overheden in het conflictgebied, maar overslaat op betrokkenen elders. Een bekend voorbeeld is de ‘NotPetya’-malware, die in 2017 via een update van een lokaal veelgebruikt boekhoudprogramma werd verspreid. Op deze manier raakten de systemen van allerlei bedrijven in Oekraïne geïnfecteerd. Via deze bedrijven verspreidde de malware zich vervolgens wereldwijd. Zo werden door NotPetya meerdere containerterminals van rederij Maersk in de Rotterdamse haven stilgelegd en kwam een groot deel van de operatie van farmaceut Merck tot stilstand. De besmetting kostte beide bedrijven vele miljoenen aan herstelkosten en misgelopen inkomsten.
+
+Soortgelijke malware is ook in de aanloop naar de Russische inval in Oekraïne ingezet. Het ging hier om zogenaamde ‘wipers’, zeer destructieve software die alle bestanden op een geïnfecteerde computer kan vernietigen en deze veelal zelfs verhindert op te starten. Daarom is alertheid geboden bij elk bedrijf dat een vestiging heeft in het conflictgebied, gebruikmaakt van IT-diensten die daar worden gehost, of daar klanten of leveranciers heeft.
+
+Een andere manier waarop de oorlog leidt tot toegenomen dreiging, is het feit dat cybercriminelen de bereidheid tot het geven van hulp misbruiken. Dergelijke groepen zijn geen partij in de oorlog zelf, maar grijpen de omstandigheden bijvoorbeeld aan in ‘[phishing](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-phishing.html)-campagnes’. Zo zijn er oplichters actief die uit naam van Giro555, een samenwerkingsverband tussen Nederlandse hulporganisaties, e-mail-, WhatsApp- of sms-berichten versturen waarin wordt gevraagd om een donatie.
+
+## Risicoperceptie blijft achter bij feitelijke dreiging
+
+De cyberdreiging is dus om meerdere redenen stevig toegenomen. De risicoperceptie van ondernemers blijft daarbij echter achter. Waar vorig jaar 30 procent van de ondervraagden cybercriminaliteit als “veel” of “heel erg veel” risico zag voor de eigen organisatie, blijkt dit met 33 procent in 2022 niet significant toegenomen.
+
+Vraagstelling: In welke mate denkt u dat cybercriminaliteit een risico is voor uw organisatie? (1 = helemaal geen risico; 5 = heel erg veel risico)   
+ Steekproef 2022: zzp (n=64) | mkb (n=139) | grootbedrijf (n=27; resultaten voor deze groep indicatief van aard)
+
+Ook Van Nunen ziet dat de risicoperceptie van ondernemers vaak nog niet in lijn is met de realiteit. Volgens hem zijn cyberaanvallen echter een risico waar bedrijven rekening mee moeten houden. “Bedrijven verzekeren zich tegen brand en diefstal, maar minder snel tegen cybercriminaliteit. Het risico op brand is echter 1 op 8000, terwijl het risico om in aanraking te komen met een cyberaanval, of pogingen daartoe, minimaal 1 op 8 is.”
+
+De discrepantie tussen risicoperceptie en de feitelijke dreiging valt volgens McGill deels te verklaren door culturele factoren. “Nederland is op het wereldtoneel slechts een kleine speler. Dat vormt de risicoperceptie van de bedrijven hier. Dat zij ook wel eens slachtoffer kunnen worden van hackers buiten de eigen landsgrenzen, wordt minder sterk gevoeld.” Het concept van ‘lokale bedrijven’ wijst ze dan ook resoluut af: “Op het moment dat een bedrijf verbonden is aan het internet, is het een internationaal bedrijf. Met alle risico’s en uitdagingen van dien.”
+
+Het helpt volgens haar overigens niet dat Nederland weinig wet- en regelgeving op het gebied van cyberveiligheid kent. “Hier bestaan bijvoorbeeld geen wetten die voorschrijven dat je het moet melden als je bent geraakt door een cyberaanval.” McGill maakt een vergelijking met het Verenigd Koninkrijk: “Daar is, anders dan in Nederland, een duidelijke handhavingscultuur. Het resultaat is dat er ook standaarden en overheidsorganen zijn die bedrijven heel concreet helpen hun beveiliging op orde te krijgen. In Nederland hebben ze dat niet, enkel richtlijnen en zachte aanbevelingen.”
+
+[Lees ook: Ondernemers onderschatten het risico op cybercriminaliteit](#)
+
+## Risicoperceptie bepaalt of er maatregelen worden genomen
+
+De minimale verandering in risicoperceptie betekent helaas ook een beperkte verbetering in de digitale weerbaarheid van ondernemers. Uit statistische analyses blijkt namelijk dat respondenten met een hogere risicoperceptie (“veel” of “heel erg veel risico”) meer maatregelen nemen dan respondenten die de cyberrisico’s voor hun organisatie lager inschatten (“weinig” of “helemaal geen risico”).
+
+Vraagstelling: Op welk gebied treft uw organisatie op dit moment maatregelen met betrekking tot cybercriminaliteit?   
+ Steekproef: zzp (n=64) | mkb (n=139) | grootbedrijf (n=27; resultaten voor deze groep indicatief van aard)
+
+De top drie van meest genomen maatregelen zijn geheel preventief van aard. Het meest populair zijn technologische maatregelen zoals antivirussoftware, firewalls en het maken van back-ups; deze worden door 79 procent van de ondervraagden genomen. Preventieve maatregelen gericht op menselijk handelen worden door 51 procent ingezet. Overigens hecht juist het grootbedrijf een groot belang aan de menselijke rol; maar liefst 81 procent van de respondenten uit deze categorie zegt preventieve maatregelen op menselijk handelen te nemen.
+
+Op plaats drie staat het (laten) uitvoeren van een cyberscan die inzicht geeft in de kwetsbaarheden van het bedrijf. Van de ondervraagden maakt 25 procent hier gebruik van. Minder populair is het inrichten van hulpverlening indien het bedrijf te maken krijgt met een incident van cybercriminaliteit (18 procent) of het afsluiten van een verzekering (12 procent). Van de ondervraagden geeft 11 procent aan helemaal geen maatregelen te treffen. Dit betreft uitsluitend zzp’ers en mkb-bedrijven.
+
+## Verschillende oorzaken voor hoge risicoperceptie
+
+Een hogere risicoperceptie leidt dus uiteindelijk tot meer barrières voor cybercriminelen, maar betekent in sommige gevallen dat het kwaad al is geschied. Ongeveer een derde van de ondernemers geeft namelijk aan dat hun risico inschatting voortkomt uit een eerdere ervaring met een cyberaanval of phishing-mails. McGill ziet dit ook terug in de praktijk: “Voor een deel van de mensen geldt dat ze het risico pas écht onderkennen op het moment dat ze significante schade hebben ondervonden door een aanval.”
+
+De respondenten zelf noemen overigens andere redenen als meer doorslaggevend om te handelen. Zo’n twee derde van hen verklaart de hoge risicoperceptie door hun rol binnen het bedrijf – veelal eigenaar of directeur – en het bijbehorende inzicht in de risico’s. Eveneens zeer bepalend blijken berichten in de media over cyberaanvallen. Onder zzp’ers wordt dit door maar liefst 63 procent genoemd als trigger. Dezelfde reden wordt door 55 procent van de respondenten uit het grootbedrijf genoemd, en door 37 procent van de ondervraagden uit het midden- en kleinbedrijf.
+
+Vraagstelling: U heeft aangegeven dat uw organisatie redelijk tot heel erg veel risico loopt getroffen te worden door een cyberaanval. Wat heeft die risicoperceptie veroorzaakt?   
+ Steekproef; indien risicoschatting “redelijk” (3) tot “heel erg veel risico” (5) | ZZP (n=30), SME (n=94), CB (n=20; resultaten voor deze groep indicatief van aard)
+
+## Mediaberichten over cyberaanvallen verhogen risicobewustzijn
+
+Cyberdreiging is het afgelopen jaar in de media breed uitgemeten. Zo kwam vorig jaar naar buiten dat een ransomware-aanval diverse systemen van elektronicawinkel Mediamarkt had stilgelegd, en De Mandemakers Groep – bekend van keukens, sanitair en meubels – eveneens het slachtoffer was geworden van gijzelsoftware. Dergelijke berichtgeving is volgens Van Nunen voor veel bedrijven een ‘wake-up call’ geweest. “Het feit dat ook grote bedrijven slachtoffer kunnen worden, doet mensen achter de oren krabben. Cyberaanvallen raken kennelijk ook partijen die hun IT in principe goed voor elkaar hebben.”
+
+Een ongeluk kan namelijk letterlijk klein hoekje zitten, zo bleek uit de recente crisis rond ‘Log4J’ die de nodige media-aandacht kreeg. Log4J is een publiek beschikbaar software-onderdeel dat in allerlei IT-oplossingen wordt gebruikt en daardoor deel uitmaakt van het systeemlandschap van vrijwel alle bedrijven. Het feit dat een kwetsbaarheid in Log4J bijzonder gemakkelijk kon worden uitgebuit door kwaadwillenden, deed de alarmbellen van bedrijven in binnen- en buitenland rinkelen.
+
+Media-aandacht voor de digitale oorlog die parallel aan de huidige fysieke oorlog in Oekraïne plaatsvindt, zal de alertheid van ondernemers mogelijk verder vergroten. Omdat de enquête is uitgezet voorafgaand aan het gros van de berichtgeving over cyberaanvallen in de context van de oorlog, is dit effect vermoedelijk slechts beperkt zichtbaar in de resultaten.
+
+## Bereidheid tot nemen van maatregelen stijgt
+
+Ondanks de bescheiden stijging in risicoperceptie geven ondernemers aan zich de komende tijd verder te willen wapenen tegen cybercriminaliteit. Hoewel dit niet per se iets zegt over de daadwerkelijke uitvoering van de voorgenomen maatregelen, wijzen de resultaten mogelijk op een toegenomen gevoel van urgentie. Voor alle drie de onderzochte klantgroepen steeg het percentage dat van plan is extra maatregelen te treffen namelijk significant ten opzichte van vorig jaar.
+
+Met name bedrijven die zelf te maken hebben gehad met cybercriminaliteit geven aan meer actie te willen ondernemen. Diezelfde bedrijven geven overigens ook significant vaker aan van plan zijn preventieve maatregelen op menselijk handelen te gaan treffen. Dit is gunstig, want initiële toegang tot systemen wordt vaak via de menselijke weg verkregen. Middels onder andere slim opgestelde e-mails weten cybercriminelen bijvoorbeeld inloggegevens van medewerkers te ontfutselen.
+
+\* Significante stijging (p<0.05) Vraagstelling: Op welk gebied treft uw organisatie op dit moment maatregelen met betrekking tot cybercriminaliteit?   
+ Steekproef: zzp (n=64) | mkb (n=139) | grootbedrijf (n=27; resultaten voor deze groep indicatief van grootbedrijf (n=27; resultaten voor deze groep indicatief van aard)
+
+## Verlies van toegang tot systemen meest zorgwekkende gevolg
+
+Duidelijk is dat er veel op het spel staat voor ondernemers. Gevraagd naar de drie meest zorgwekkende gevolgen van cybercriminaliteit, wordt verlies van toegang tot systemen het vaakst genoemd. Op een tweede plek staat het op straat belanden van klantgegevens en andere data, gevolgd door het leiden van financiële verliezen. Net buiten de top drie, maar ook vaak genoemd: schade aan de relatie met klanten en leveranciers. Veel minder frequent genoemd worden reputatieschade en inbreuk op intellectueel eigendom.
+
+Vraagstelling: Over welke 3 gevolgen van cybercriminaliteit maakt u zich het meeste zorgen?   
+ Steekproef: zzp (n=64) | mkb (n=139) | grootbedrijf (n=27; resultaten voor deze groep indicatief van aard)
+
+Het feit dat ondernemers het meest angstig zijn om toegang tot hun systemen kwijt te raken, bevestigt eens te meer hoezeer het gemiddelde bedrijf afhankelijk is geworden van digitale diensten. Dit besef alleen al zorgt ervoor dat bedrijven cyberaanvallen steeds meer als operationeel risico beschouwen en daarmee wellicht maatregelen treffen vóór ze met de harde werkelijkheid worden geconfronteerd.
+
+[Bekijk meer artikelen over cybersecurity](/nl/zakelijk/insights/cybersecurity/actueel.html)
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Cybersecurity](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/cybersecurity.html)
+
+
+---
+
+# Cybermaatregelen steeds meer gericht op mensen
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Van de set aan maatregelen die bedrijven kunnen nemen om hun cyberweerbaarheid te vergroten, krijgen de maatregelen gericht op menselijke kwetsbaarheden steeds meer aandacht. Daarnaast zijn met name ondernemers in het grootbedrijf geneigd om steeds meer budget uit te trekken voor cybersecurity, voornamelijk gedreven door de toegenomen dreiging.
+
+Uit een enquête van ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties blijkt dat het gros van de ondervraagden maatregelen tegen cybercriminaliteit treft. Onder zzp’ers is dit percentage echter een stuk lager (82 procent) dan onder de respondenten uit het midden- en kleinbedrijf (mkb) en grootbedrijf (respectievelijk 95 en 97 procent). Preventieve maatregelen op technologische kwetsbaarheden zijn, in lijn met de resultaten uit eerdere jaren, onder alle bedrijfsgroottes het meest populair. Voorbeelden hiervan zijn de installatie van virusscanners, het versleutelen van gegevens en het toepassen van firewalls.
+
+## Vinger aan de pols blijft noodzakelijk
+
+Ook als dergelijke maatregelen worden toegepast, blijft een vinger aan de pols noodzakelijk. Hackers wisten praktisch gelijktijdig binnen te komen bij 22 Deense energiebedrijven via een kritieke kwetsbaarheid in de firewalls van Zyxel, apparaten die juist zijn bedoeld om kwaadaardig verkeer uit het bedrijfsnetwerk te weren. Als de indringers niet eerder waren ontdekt, hadden zij via deze [gecoördineerde cyberaanval](https://www.dutchitchannel.nl/news/419675/data-buitgemaakt-bij-cyberaanval-op-britse-watermaatschappij) controle kunnen krijgen over een deel van de vitale infrastructuur van Denemarken.
+
+Hoewel relatief vroeg in het aanvalsproces kon worden ingegrepen, hadden diverse energiebedrijven duidelijke steken laten vallen in hun beveiliging. Volgens een rapport van het Deense cybersecuritycentrum voor vitale infrastructuur hadden diverse bedrijven nagelaten beveiligingsupdates van de firewalls te installeren. Zij waren bijvoorbeeld in de onterechte veronderstelling dat hun IT-leverancier de updates zou installeren, of hadden updates afgehouden omdat de leverancier installatiekosten in rekening zou brengen. Andere bedrijven wisten simpelweg niet dat zij het Zyxel-apparaat in hun netwerk hadden.
+
+## Toenemende aandacht voor menselijke kwetsbaarheden
+
+Menselijke kwetsbaarheden krijgen meer aandacht; het percentage bedrijven dat op dit vlak maatregelen neemt, steeg van 40 procent in 2022 naar 53 procent vorig jaar. Voorbeelden zijn trainingen om medewerkers de basishygiëne op het gebied van cybersecurity bij te brengen, of het simuleren van [phishing](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-phishing.html)-aanvallen om de alertheid op dergelijke mails te vergroten. “Zulke oefeningen moet je dan wel maandelijks laten terugkeren”, adviseert Arwi van der Sluijs, algemeen directeur van cybersecuritydienstverlener NFIR. “Koppel er ook een toets aan om de kennis omtrent cyberveiligheid te monitoren, en laat HR de resultaten bijhouden.”
+
+Het vooraf inregelen van hulp op het moment dat zich een cyberincident voordoet is met 35 procent van de respondenten een minder wijdverbreide maatregel. Hetzelfde geldt voor het afsluiten van verzekeringen tegen de schade (32 procent).
+
+## Mix aan maatregelen
+
+Maarten Roerink van cybersecuritydienstverlener MMOX onderstreept het belang van een mix aan maatregelen. “De cybersecuritymarkt is van oudsher gedreven vanuit IT en technologische maatregelen”, vertelt de CEO. “Maar als je een risico gestuurde aanpak hanteert, merk je al gauw dat er ook ingrepen nodig zijn op procesniveau en menselijk vlak. Welke bedrijfsdata zijn bijvoorbeeld gevoelig of waardevol, en welke medewerkers hebben toegang tot die data? De betreffende medewerkers moeten dan extra opleidings- en beveiligingsmaatregelen ontvangen, of hun toegang tot een bepaald systeem moet worden ingetrokken.”
+
+Een brede aanpak om cyberrisico’s op orde te krijgen kan in drie relatief eenvoudige stappen. De eerste is het maken van een risicoanalyse waarmee in kaart gebracht wordt welke zaken cruciaal zijn voor het blijven functioneren van de onderneming en het op orde houden van de dienstverlening. De tweede stap is het nemen van maatregelen, zoals veilig gedrag onder werknemers stimuleren, vastleggen wie de eigenaar is van bepaalde gegevens en cyberrisico’s met partners en leveranciers bespreken. Ten slotte is het essentieel om procedures te ontwikkelen waarmee de cyberincidenten kunnen worden gedetecteerd en afgehandeld.
+
+
+---
+
+# Cyberveiligheid in de TMT-sector
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Amad Khan](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/amad-khan/index.html)
+
+IT-, media- en telecombedrijven zijn onmisbaar voor vrijwel elke organisatie. Hun software en infrastructuur vormen de toegangspoort naar een breed publiek. Die centrale rol in ons digitale landschap maakt ze kwetsbaar: cybercriminelen kunnen hen, hun klanten én de maatschappij grote schade toebrengen. Mogelijk vinden er daarom meer hackpogingen en pogingen tot misleiding plaats bij bedrijven in de TMT dan in andere sectoren.
+
+## Recente cyberaanvallen in de sector
+
+Halverwege 2023 [claimde](https://www.securityweek.com/tsmc-says-supplier-hacked-after-ransomware-group-claims-attack-on-chip-giant/) de beruchte ransomware-groep LockBit dat ze chipgigant Taiwan Semiconductor Manufacturing Company (TSMC) hadden gehackt. Volgens het bedrijf zelf klopte dat niet: niet zij, maar hardwareleverancier Kinmax zou zijn getroffen. TSMC heeft direct na het incident de data-uitwisseling met zijn leverancier stopgezet.
+
+In april 2023 meldde hard- en softwareontwikkelaar MSI dat het slachtoffer was geworden van een ransomware-aanval. Hierbij zijn [private keys gestolen](https://www.ncsc.nl/actueel/nieuws/2023/mei/7/msi-ransomware-aanval), waaronder Intel Boot Guard-keys: deze worden gebruikt om firmware van moederborden digitaal te ondertekenen en verifiëren. In theorie kunnen criminelen met deze buit malafide firmware uitvoeren en zo diepgaande toegang krijgen tot systemen – al acht het Nationaal Cyber Security Centrum de kans op misbruik klein.
+
+Eind 2022 hebben hackers [de persoonsgegevens van tienduizenden klanten van Delta Fiber gestolen](https://www.telegraaf.nl/financieel/843971726/grote-roof-persoonsgegevens-bij-delta-fiber). Door snel ingrijpen bleef de schade relatief beperkt: het bedrijf geeft aan dat het alleen om namen, adressen, e-mailadressen, geboortedata, telefoonnummers en bankrekeningnummers ging – geen schadelijke informatie als wachtwoorden en creditcardgegevens dus. Toch moeten klanten extra alert zijn op mogelijke e-mail- en telefoonfraude, zoals [phishing](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/phishing/index.html).
+
+Je kunt zelf je cyberbeveiliging goed op orde hebben, maar alsnog in verlegenheid worden gebracht doordat hackers je toeleverancier aanvallen – daar kunnen tv-providers als Ziggo en KPN sinds maart 2024 over meepraten. Toen lukte het hackers namelijk om [Russische propagandafilmpjes op BabyTV](https://www.nu.nl/tech/6308299/tv-wereld-neemt-maatregelen-na-russische-propaganda-op-babytv.html) uit te zenden. Ze gebruikten een stoorzender om in te breken in het satellietsignaal van Eutelsat. Omdat het de eerste keer was dat zo’n aanval plaatsvond, was niemand erop voorbereid en duurde het even voordat de hack überhaupt werd opgemerkt.
+
+## NIS2: nieuwe Europese wetgeving moet cyberweerbaarheid verbeteren
+
+Om de cyberveiligheid in Europa te verbeteren, gaat in oktober 2024 een nieuwe wet in: NIS2, de opvolger van de Network and Information Security Directive (NIS). Organisaties die belangrijk of essentieel zijn voor de maatschappij, moeten zich aan deze richtlijn houden om de impact van cyberaanvallen en -verstoringen te beperken. Dit geldt ook voor bedrijven in de keten van deze vitale organisaties, zoals klanten, partners en toeleveranciers.  
+Het is de bedoeling dat Europese lidstaten de richtlijn naar landelijke wetgeving vertalen, maar Nederland loopt hierbij vertraging op. Toch is het verstandig om uw organisatie al op de invoering voor te bereiden. Omdat de wet er hoe dan ook komt, maar ook omdat klanten of leveranciers in andere Europese landen de richtlijn wél vanaf oktober 2024 volgen.  
+Binnen TMT vallen verschillende bedrijven onder de NIS2, waaronder:
+
+- Beheer van ICT-diensten
+- Digitale infrastructuur
+- Digitale aanbieders
+
+Benieuwd of uw organisatie onder de NIS2-richtlijn valt? Lees ons rapport 'Cyberaanval schudt ondernemer lang niet altijd wakker', of vul de [Zelfevaluatie NIS2](https://www.ncsc.nl/actueel/nieuws/2023/oktober/18/zelf-evaluatie-nis2-gelanceerd) van het Nationaal Cyber Security Centrum in.
+
+[Lees ook: Cyberaanval schudt ondernemer lang niet altijd wakker](/nl/zakelijk/insights/sectoren-en-trends/technologie/cyberaanval-schudt-ondernemer-lang-niet-altijd-wakker.html)
+
+
+---
+
+# Cyberveiligheid kleinbedrijf cruciaal voor klantbehoud
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+De Europese wet NIS2, de opvolger van de eerdere Network and Information Systems-richtlijn (NIS), dwingt organisaties om de cyberweerbaarheid van toeleveranciers en klanten kritisch onder de loep te nemen. Dat betekent dat ook kleinere bedrijven, die meestal niet direct onder de wet vallen, kritische vragen uit de keten krijgen. Dit besef is echter nog niet volledig doorgedrongen.
+
+De nieuwe wet die vanaf oktober 2024 van kracht wordt, schrijft onder meer voor dat bedrijven ook de cyberrisico’s in beeld moeten hebben vanuit hun eigen toeleveringsketen, en dat afspraken rond cyberveiligheid contractueel moeten worden vastgelegd met deze ketenpartners. Dit is volgens CEO Maarten Roerink van cybersecuritydienstverlener MMOX geen overbodige luxe. “Als onze klanten gehackt worden, gaat dat heel vaak via-via. Soms zijn ze zelf het doelwit, en soms worden kwetsbaarheden in hun netwerken gebruikt om door te dringen tot de netwerken en data van partners. De aloude vraag ‘wat valt er nou bij mijn bedrijf te halen?’ is dan ook niet meer relevant.”
+
+Uit een enquête van ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties blijkt dat bijna driekwart (72 procent) van de respondenten uit het grootbedrijf zijn eigen klanten, leveranciers en partners hierover al “zeer regelmatig” of “regelmatig” bevraagt. Van hen zegt 66 procent dat zijzelf van hun ketenpartners ook dergelijke vragen krijgen. Bij de respondenten uit het midden- en kleinbedrijf (mkb) liggen deze percentages lager, met respectievelijk 52 en 37 procent. Ook de mate waarin concrete afspraken worden gemaakt met ketenpartners, verschilt per bedrijfsgrootte. Van de respondenten uit het grootbedrijf doet 75 procent dit, tegenover 56 procent van het mkb.
+
+## Klanten gaan eisen stellen
+
+Toch is de brede ketenverantwoordelijkheid een realiteit waar ook kleinere bedrijven serieus rekening mee moeten houden. Zo legde een grote supermarktketen bij al zijn Nederlandse toeleveranciers alvast het dringende verzoek neer om hun beleid op het vlak van cyberveiligheid toe te lichten, vertelt Daan Hoogendijk, programmadirecteur van Samen Digitaal Veilig. “De boodschap luidde: ofwel jullie laten een certificaat zien, ofwel we zetten de samenwerking stop. Het gros van deze foodbedrijven heeft helaas nog te weinig focus op cybersecurity.” Het is volgens Hoogendijk exemplarisch voor de houding van het gros van de mkb-bedrijven. Ze zijn veelal afwachtend, en andere prioriteiten zitten serieuze stappen in de weg.
+
+NIS2 omvat een set aan regels die primair gericht is op bedrijven waarvan een verstoring brede maatschappelijke impact kan hebben. Grofweg betreft het grote en middelgrote bedrijven die minimaal 50 werknemers of een jaaromzet en balanstotaal van meer dan 10 miljoen euro hebben, en die actief zijn in een sector van maatschappelijk belang. In totaal gaat het om 10.432 Nederlandse bedrijven die aan de nieuwe regels moeten voldoen, verspreid over zeventien sectoren zoals energievoorziening, digitale infrastructuur en overheid. De bedrijven ‘in scope’ worden dus geacht om kritisch naar de cyberveiligheid van hun al leveranciers te kijken, ook kleine.
+
+
+---
+
+# De toekomst van televisie: stilzitten is geen optie
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Steven Peters
+
+Televisie verandert in sneltreinvaart. Lange tijd heeft lineaire televisie het internet gebruikt om haar bereik te vergroten. Televisie had weinig last van de disruptieve kracht van het internet, zoals dagbladen en tijdschriften die wel ondervonden. Dat is aan het veranderen.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [De toekomst van televisie (19 december 2017)
+
+  560 KB](https://www.abnamro.nl/nl/media/20171219-ABN-AMRO-update-tv_tcm16-70487.pdf)
+
+John de Mol luidde kort geleden de noodklok over de onmacht van Nederlandse mediapartijen om de concurrentie op de advertentiemarkt aan te gaan met bijvoorbeeld Google en Facebook. De Nederlandse televisiesector heeft ook concurrentie van Netflix.  Het duurde ongeveer een jaar, maar de groei van streaming video heeft nu een sterk negatieve invloed op traditionele televisie. Het aantal kijkminuten naar lineaire televisie daalt. En vorig jaar daalden de inkomsten uit de reguliere spotreclame. Terwijl de economie juist blaakt van gezondheid. Dalende reclame-uitgaven in economisch goede tijden? Hier moet iets speciaals aan de hand zijn.
+
+ABN AMRO onderzoekt daarom: hoe ziet de toekomst van lineaire televisie eruit? Wat zijn de mogelijkheden voor traditionele televisiezenders in de nieuwe televisiewereld? Een ding is zeker: stilzitten is geen optie.
+
+## Televisie kijken
+
+De trends in televisie wijzen al een aantal jaar op grote veranderingen in het kijkgedrag. Maar in de cijfers was dit tot voor kort nog maar beperkt terug te zien. Voor de hele televisiebranche is het aantal kijkminuten per dag een cruciaal cijfer. Want die bepalen bijna rechtstreeks de advertentie-inkomsten. En het aantal kijkminuten per dag daalt nu al drie jaar op rij.
+
+### Structurele trendbreuk
+
+Jarenlang schommelde het aantal kijkminuten voor lineaire televisie rond de drie uur per dag. In even jaren met grote sportevenementen als het WK voetbal of de Olympische Spelen, lag het aantal iets hoger dan in oneven jaren. Vanaf 2015 begint het aantal kijkminuten echter te dalen. ABN AMRO schat het aantal lineaire kijkminuten voor 2017 in op 150 minuten. Dit zou een daling van 16% in drie jaar betekenen. Een structurele trendbreuk. Een deel van de verklaring is dat vooral jongeren steeds meer op Facebook en andere sociale media zitten. YouTube heeft eveneens een grote impact op de videoconsumptie. Maar dit zijn trends die al langer aan de gang zijn en het verklaart niet de plotselinge daling vanaf  2015.
+
+### Betalen voor streaming
+
+Een andere belangrijke nieuwe speler doet in september 2013 zijn intrede op de Nederlandse televisiemarkt: de betaalde Amerikaanse streamingdienst Netflix. Binnen een jaar verwerft het bedrijf een miljoen Nederlandse abonnees. Halverwege 2017 is dit aantal uitgegroeid tot 2,35 miljoen abonnees, zo stelt onderzoeksbureau [Telecompaper](https://www.telecompaper.com/pressrelease/toename-gebruik-video-on-demand-vooral-via-netflix-2--1208460) . Het aantal kijkminuten naar streaming video-on-demand (vod) is tussen 2015 en 2017 ruim  verdubbeld van gemiddeld 11 minuten per dag naar 23 minuten per dag. Twintigers besteden met 43 kijkminuten zelfs bijna twee keer zo veel tijd aan streaming vod. Een verklaring hiervoor is dat ze dit steeds vaker doen via smartphone, tablet, laptop of desktop, ongeveer 40% van de tijd.
+
+### Reguliere spotreclame daalt
+
+De daling van het aantal kijkminuten begint een duidelijke impact te hebben op de inkomsten uit spotreclame. De effectiviteit van spotreclame neemt sterk af bij minder kijkers, zeker in vergelijking met online advertising, dat veel meer gericht is op de individuele consument. In 2016 liet de omzet uit reguliere spotreclame al een lichte daling zien van 2% in een opgaande economische conjunctuur.
+
+### Totale inkomsten stijgen wel
+
+Positief is echter dat de inkomsten uit online spotreclame (+17%) en non-spot sponsoring (+15%) vorig jaar sterk zijn gestegen. Hoewel nog beperkt in omvang, compenseren ze de daling van de reguliere spotreclame. De totale inkomsten uit televisiereclame stegen daarom in 2016 met 2,7% naar EUR 991 miljoen. De vraag is echter hoe lang dit zo blijft. Uitgesteld kijken en sponsoring zijn namelijk afgeleiden van het lineaire televisieaanbod. En als dit aanbod onder druk komt te staan – door veel minder kijkers – dan kan dit ook online spotreclame en sponsoring gaan aantasten.
+
+### Krimp in 2017
+
+In de markt zijn sterk negatieve signalen te bespeuren. RTL Nederland meldde over de eerste negen maanden van 2017 een daling van 6,3% van de inkomsten uit spotreclame. Dit werd enigszins gecompenseerd door de groei van online inkomsten uit bijvoorbeeld online videoplatformen zoals Videoland en RTL XL. De totale omzet daalde met 4,9%. ABN AMRO voorspelt voor 2017 een daling van 5% in de Nederlandse markt voor reguliere spotreclame. Dit resulteert vervolgens in een daling van de totale televisie inkomsten met circa 3%.
+
+### TV-aansluitingen dalen
+
+Streaming video tast het principe van lineaire televisie aan. Programmering is een woord dat vooral onder jonge kijkers nauwelijks meer betekenis heeft. De consument bepaalt voortaan liever zelf wanneer hij of zij een programma wil zien. Dit uit zich onder meer in een dalend aantal tv-aansluitingen in Nederland. Volgens Telecompaper kwam het aantal aansluitingen eind Q1 2017 op 7,4 miljoen. Dit is een daling van circa 1% binnen een jaar tijd, terwijl het aantal huishoudens juist toeneemt.
+
+### Grootste inkomstenbron onder druk
+
+Sowieso zijn tv-zenders hun monopolie op video allang kwijtgeraakt. Tot nu toe had dit nog geen doorslaggevende impact op de televisiemarkt. Maar nu staan de inkomsten uit reguliere spotreclame – veruit de grootste inkomstenbron voor tv-zenders – structureel onder druk.
+
+## Toename gebruik Video on Demand, vooral via Netflix
+
+Nederlanders kijken steeds meer Video on Demand (VoD). Netflix lijkt de grote aanjager van deze ontwikkeling. Lees verder over deze ontwikkeling via [Telecompaper.](https://www.telecompaper.com/pressrelease/toename-gebruik-video-on-demand-vooral-via-netflix-2--1208460)
+
+## Televisie maken
+
+Hoe anders gaat het aan de productiekant van televisie. Film- en televisieproducenten hebben afgelopen jaren mooie groeicijfers laten zien. Samen met de IT-bedrijven waren zij binnen de sector Technologie, Media en Telecom de snelst groeiende bedrijven.
+
+### Grote vraag
+
+Video is al enkele jaren booming business. Productiebedrijven bedienen de hele audiovisuele markt en kennen dus vele opdrachtgevers. Vooral uit de hoek van online mediabedrijven, maar ook uit het reguliere bedrijfsleven is de vraag naar videocontent groot. Televisiezenders zijn wat dat betreft belangrijke klanten, maar bij lange na niet de enige. Wereldwijd hebben Netflix, Amazon en in hun kielzog vele andere content aanbieders de markt voor videoproductie een sterke impuls gegeven.
+
+*Bron: Telecompaper*
+
+### Streaming verandert de markt
+
+Toch raakt een structurele krimp in televisiereclame ook de makers van televisieprogramma’s. Als Nederlandse omroepen minder geld hebben voor nieuwe programma’s, zal dit invloed hebben op de omzet(groei) van tv-producenten. De sterke groei van streaming vod wereldwijd zorgt daarnaast voor veranderingen in de markten voor content. Aangezien Nederlandse producenten vaak internationaal actief zijn, zullen ook zij zich moeten aanpassen aan structurele veranderingen.
+
+### Grote producenten overgenomen
+
+De grootste tv-producenten in ons land zijn de afgelopen drie jaar allemaal in buitenlandse handen terecht gekomen. Een groot deel van hun inkomsten is afkomstig uit de verkoop van licenties van programma’s en rechten op content aan het buitenland. Nederland geldt voor deze producenten als een goede testmarkt voor nieuwe televisietrends en –formats. Minder televisiekijkers kan een negatieve invloed hebben op de lancering en het testen van nieuwe formats.
+
+### Meer concurrentie
+
+Daarnaast blijft de internationale concurrentie op het gebied van online content verder toenemen. Naast YouTube zijn er andere nieuwe makers en aanbieders van gratis content. De invloed van vloggers neemt bijvoorbeeld duidelijk toe. En nu springt ook Facebook in deze markt met Watch. Anderzijds starten adverteerders als Albert Heijn eigen online tv-zenders. Traditionele mediabedrijven proberen met meer video meer bezoekers naar hun websites te trekken. De tegenbeweging bestaat ook: online mediabedrijf Vice gaat een nieuwe tv-zender beginnen. Als laatste ziet ook Netflix nieuwe concurrentie op de subscription markt als binnenkort ook Disney start met een eigen streamingdienst.
+
+### Strategie aanscherpen
+
+Het is duidelijk dat ook tv-producenten te maken hebben met een snel veranderende markt en hun strategie moeten aanscherpen. Creativiteit kan overal vandaan komen en de toetredingsdrempel voor tv-productie is relatief laag. De vraag naar content is weliswaar groot, maar ook sterk aan verandering onderhevig. Door internet krijgt niche-content gericht op kleinere doelgroepen een betere kans. Daarnaast neemt door de toegenomen concurrentie de druk toe op producenten om zelf een deel van een nieuwe productie voor te financieren. Hierdoor neemt het risico voor de afnemer af, maar neemt deze voor de producent juist toe.
+
+### Overaanbod
+
+Regelmatig valt in de media de term ‘Gouden Eeuw van Televisie’: het internationale aanbod aan hoogkwalitatief tv-drama is groot. Veel partijen gebruiken kwaliteitsdrama om nieuwe kijkers en/of abonnees te werven. Dit leidt logisch gezien tot een tegenreactie. Medio 2017 waarschuwde adviesbureau PwC in zijn jaarlijkse mediaprognose voor een mogelijk overaanbod van televisiecontent. De consument maakt zich hier vanzelfsprekend geen zorgen over. Maar voor aanbieders is het binden van de kijker een steeds belangrijker onderwerp.
+
+## Televisie strategie
+
+Het is duidelijk dat televisie kijken sterk aan verandering onderhevig is. Aanbieders en producenten van lineaire televisieprogramma’s zullen zich moeten aanpassen aan de toegenomen concurrentie Voor de toekomst van lineaire televisie zijn een aantal huidige trends van grote invloed. ABN AMRO onderscheidt de volgende cruciale trends:
+
+- Gedragsverandering richting streaming video on demand
+- Adoptie glasvezel en 5G mobiele netwerken
+- Content vernieuwing: interactie en reality
+- Gepersonaliseerde content en advertenties
+
+### 25% uitgesteld en online al in 2020
+
+Het is niet moeilijk om voor de komende jaren een sterke stijging van streaming video-on-demand te voorspellen. [Halverwege](https://insights.abnamro.nl/2016/07/online-en-uitgesteld-tv-kijken-naar-25-in-2025/) 2016 sprak ABN AMRO al de verwachting uit dat in 2025 het aandeel uitgesteld en online tv-kijken uit zal komen op 25% van de kijktijd. Op basis van nieuwe cijfers verwacht  ABN AMRO dat deze 25% al in 2020 wordt bereikt.
+
+### Steeds meer opties
+
+Steeds meer mensen hebben een televisie met internet aansluiting, ook wel smart TV. Inmiddels zo’n 35% (GFK, 2017). Hierdoor wordt de televisie steeds meer gebruikt voor online diensten, bijvoorbeeld via apps. Aan de andere kant verbreedt het kijklandschap zich, want er wordt steeds vaker live televisie gekeken via smartphones en tablets. Overall consumeren mensen evenveel media, maar het aantal beschikbare opties is fors toegenomen. Een complex landschap voor traditionele televisiezenders, die het op moeten nemen tegen nieuwe spelers die gespecialiseerd zijn in de online wereld.
+
+### Van reclame naar abonnementen
+
+De blijvende verschuiving in het kijkgedrag van consumenten heeft op termijn een belangrijk strategisch gevolg: televisie verandert voor een deel van een openbaar advertentiemedium naar een betaald abonnement zonder reclame. Met andere woorden: de televisiebranche haalt in de toekomst minder geld uit reclame en meer uit abonnementsgelden.
+
+### Eigen streaming strategie
+
+In reactie op de komst van Netflix hebben Nederlandse tv-zenders eigen initiatieven ontplooid op het gebied van streaming video-on-demand. RTL exploiteert Videoland en doet eveneens mee aan NLziet, een samenwerking met NPO en SBS. Telecompaper becijfert het aantal abonnees voor Videoland op circa 390 duizend, voor NLziet ligt dit op 150 duizend. Dit zijn nog geen aantallen waarvan Netflix serieuze concurrentie ondervindt. Toch is een streaming strategie voor de Nederlandse omroepen cruciaal nu spotreclame aan een structurele krimp is begonnen.
+
+### Archiefschatten
+
+De Nederlandse omroepen zitten namelijk op een schat aan Nederlandstalig dramacontent in hun archieven, dat door de vele jaren heen is geproduceerd. Het beschikbaar maken van deze televisieseries kan een concurrentievoordeel betekenen. Netflix probeert zijn Nederlandstalige aanbod telkens te verbeteren, maar dit lukt slechts in beperkte mate (films, cabaret, maar geen series). Veel Nederlandstalige films zijn trouwens met omroepgeld gefinancierd, dus hier ligt ook weer een voorsprong. Traditionele tv-zenders hebben een goed subscription-based verdienmodel nodig om het verlies van reclamegelden op te vangen.
+
+*Bron: IMDB, ABN AMRO*
+
+### Kans voor lokaal kwaliteitsdrama
+
+Netflix heeft voor enkele landen lokale content gemaakt, zoals de series Lillehammer (Noorwegen), Marseille (Frankrijk) en Cable Girls (Spanje). Het valt te betwijfelen of dit haalbaar is voor alle landen waar het bedrijf actief is. Toch heeft Netflix de eerste Nederlandstalige productie aangekondigd, ‘Undercover’. Nederlandse televisiebedrijven kunnen inspringen op de behoefte aan lokaal kwaliteitsdrama. Dit hoeft niet eens in keiharde concurrentie. Een goed marketingverhaal zou kunnen zijn: naast een abonnement op Netflix (of straks ook Amazon), moet je voor goed Nederlandstalig drama een abonnement op een lokale streamingdienst hebben.
+
+### Must see now
+
+Voor zenders en producenten geldt echter wel dat ze te maken hebben met krachtige concurrentie van grote internationale spelers. Zij zullen scherpere keuzes moeten maken op het vlak van investeringen in de productie van zowel televisiedrama als realityformats. Simpel gezegd: de kwaliteit moet nog verder omhoog. Om kijkers te behouden zijn televisiedrama van hoge kwaliteit en meer vernieuwende realityformats nodig. Televisie heeft meer “must see now” momenten nodig. Bijvoorbeeld door in realityformats meer interactie met kijkers in te bouwen. Nu blijft dat nog vooral beperkt tot stemmen op favoriete kandidaten.
+
+### Beperken aanbod
+
+Lineaire televisie – in de betekenis van live uitzenden – zal niet snel verdwijnen. Nieuws en sport zullen kijkers blijven trekken. De komende twintig jaar blijft ook de traditionele (oudere) tv-kijker nog aan de buis gekluisterd. Wel zullen tv-zenders zich moeten aanpassen aan een krimpend lineair kijkerspubliek. Een logische manier om kwaliteit te verbeteren is het beperken van het aantal programma’s. Minder programma’s produceren betekent meer budget per programma. En daardoor hopelijk een hogere kwaliteit. Meer kijkers per programma is voor adverteerders ook weer aantrekkelijker.
+
+### Massaal online
+
+Sinds kort biedt NLziet ook live televisie aan via internet. Dit lijkt een kleine stap, maar het kan op de langere termijn grote gevolgen hebben. Met de verdere uitrol van glasvezel en in de toekomst de stap van 4G naar 5G mobiele netwerken hebben wordt massaal televisie kijken via internet technisch mogelijk. En wellicht vrij gangbaar. En kan er een nieuwe manier van televisie kijken waarbij televisiekanalen en lineaire programmering in hun huidige vorm verdwijnen.
+
+### Internet als reddingsboei
+
+Voor traditionele tv-zenders is dit juist een kans: het internet biedt veel nieuwe mogelijkheden. Niet alleen wat betreft een ruim aanbod aan streaming programma’s. Online kijken levert bijvoorbeeld ook meer keuze op bij het live kijken van sportwedstrijden (camerastandpunt, zelf wedstrijden kiezen in een toernooi). Ook kan er geëxperimenteerd worden met gepersonaliseerde content en reclame. Intensiever gebruik van internet lijkt hiermee juist een reddingsboei.
+
+### Snelle strategiewijziging nodig
+
+Maar het omarmen van online strategie is niet makkelijk voor traditionele tv- omroepen. Haast is geboden: de concurrentie blijft sterk toenemen en spotreclame biedt geen houvast meer voor de toekomst. Het is niet voor niets dat de NPO heeft aangekondigd het budget voor online te verdrievoudigen van EUR 20 miljoen naar EUR 60 miljoen per jaar. Stilzitten is voor traditionele televisiebedrijven namelijk echt geen optie meer.
+
+
+---
+
+# De twee gezichten van Agentic AI: wapen en schild
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Amad Khan](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/amad-khan/index.html)
+
+Criminelen maken meer gebruik van kunstmatige intelligentie om razendsnelle aanvallen uit te voeren. Bedrijven zetten tegelijk dezelfde technologie in om zichzelf te verdedigen. De urgentie om te handelen groeit, maar veel organisaties weten binnen deze complexe wapenwedloop niet waar te beginnen.
+
+De wereld van cyberbeveiliging staat op een kantelpunt. Agentic AI – kunstmatige intelligentie waarbij systemen autonoom opereren en beslissingen nemen zonder menselijke tussenkomst – verandert fundamenteel hoe zowel verdedigers als aanvallers te werk gaan. In tegenstelling tot generatieve AI, die afhankelijk is van vooraf gedefinieerde instructies, kunnen deze ‘agents’ zelfstandig acties initiëren, uitvoeren en verbeteren op basis van wat ze leren.
+
+Recent onderzoek van Palo Alto Networks, een Amerikaans cyberbeveiligingsbedrijf, toont aan hoe ingrijpend deze verschuiving is. Onderzoekers slaagden erin om met behulp van Agentic AI een volledige ransomware-aanval te simuleren in slechts 25 minuten – honderd keer sneller dan traditionele methoden. “Het scenario dat zij schetsen is verontrustend realistisch”, zegt Matthijs Mons, cybersecurityspecialist bij ABN AMRO. “Criminelen zullen agents ontwikkelen die specifiek zijn afgestemd op gerichte aanvallen.”
+
+## Van sciencefiction naar realiteit
+
+Het proces dat Palo Alto Networks beschrijft, illustreert de kracht van Agentic AI. Agents beginnen met het verzamelen van openbare informatie over hun doelwitten via sociale media en bedrijfsdatabases. Op basis van actuele gegevens passen zij hun strategie continu aan en proberen toegang te verkrijgen tot netwerken via gepersonaliseerde phishing-aanvallen, berichten op LinkedIn of nepuitnodigingen voor videoconferenties. Eenmaal binnen analyseren zij patronen om de meest waardevolle systemen te identificeren en kiezen zij aanvalstechnieken die naadloos aansluiten bij de kwetsbaarheden van hun doelwit. “Voor veel mensen klinkt dit scenario fictief, alsof alles vanzelf gebeurt”, zegt Mons. “Maar bij traditionele AI moest er tenminste nog een initiële actie worden uitgevoerd door een mens. Bij Agentic AI gebeuren dingen nu volledig autonoom, zonder dat iemand eraan te pas komt. En dat geldt voor beide kanten.”
+
+Die andere kant zijn de beschermingsmaatregelen die organisaties implementeren. Bij grote financiële instellingen werken honderden cybersecurity-specialisten aan het beschermen van vitale infrastructuur. Het personeelstekort in deze sector is groot, en Agentic AI biedt hier juist oplossingen. “Een security-expert moet bij een incident vaak in verschillende systemen informatie opzoeken”, legt Mons uit. “Dat kan uren duren. Een agent voor beveiligingstaken kan op basis van één opdracht zelfstandig gegevens uit systeemrapporten onderzoeken en een compleet beeld schetsen, terwijl een analist een heel stappenplan moet afgaan.”
+
+> “Bij Agentic AI gebeuren dingen nu volledig autonoom, zonder dat iemand eraan te pas komt.”
+
+Matthijs Mons
+
+ABN AMRO
+
+## Een aanval simuleren
+
+De meest veelbelovende toepassingen zijn te vinden in het simuleren van aanvallen op de eigen organisatie, zogenoemde ‘red team’-acties. Traditioneel zijn security-teams hier dagen of zelfs weken mee bezig: het in kaart brengen van systemen, het vinden van toegangswegen en het testen van verschillende routes.
+
+Agentic AI kan door te leren van eerdere gesimuleerde aanvallen veel sneller binnendringen en in kaart brengen welke aanvalsvolgorde het meest effectief is – precies wat criminelen ook zullen doen. Er zijn al bedrijven die dit als dienst aanbieden. Zij zetten voor hun klanten simulaties in en leren van zowel de aanvallende ‘red teams’ als de verdedigende ‘blue teams’. Deze gecombineerde aanpak, ook wel ‘purple AI’ genoemd, stelt organisaties in staat om van beide perspectieven te leren en hun beveiliging continu te verbeteren. Het is belangrijk om hierbij aan te tekenen dat Agentic AI gebruik maakt van bestaande werkwijzen. Het voert aanvallen sneller dan ooit uit, maar het bedenkt geen nieuwe werkwijzen. Agentic AI is tot op heden vooral een sprong in efficiency.  “De grote cybersecuritybedrijven investeren volop in AI”, zegt Mons. “Maar criminelen zijn evengoed bezig. Het romantische beeld van hackers als eenzame jongens in kelders is compleet achterhaald. Cyberaanvallen worden uitgevoerd door professionele organisaties met specifieke rollen die zich richten op het verkrijgen van toegang, het bouwen van malware, het installeren van malware, het stelen van data, onderhandelingen etc. Ze hebben zelfs HR-afdelingen en callcenters, met een solide businesscase gebaseerd op de baten die zij genereren door gestolen data.”
+
+## De paradox van adoptie
+
+Het gebruik van Agentic AI binnen organisaties – voor zowel security als reguliere bedrijfsprocessen – creëert tevens nieuwe kwetsbaarheden. Hackers kunnen bijvoorbeeld de AI agents proberen te manipuleren die al toegang hebben tot systemen.
+
+Dit leidt tot een opvallende paradox, onthuld door een enquête van SailPoint (een Amerikaans technologiebedrijf gericht op identiteits- en toegangsbeheer) onder 353 cybersecurity-professionals wereldwijd. Hoewel 96 procent van de respondenten, agents als een toenemende beveiligingsdreiging beschouwt, is maar liefst 98 procent van de organisaties van plan het gebruik van Agentic AI het komende jaar uit te breiden. Het onderzoek toont aan dat 82 procent van de bedrijven al gebruikmaakt van agents, waarbij meer dan de helft meldt dat deze dagelijks toegang hebben tot gevoelige gegevens. Desondanks heeft slechts 44 procent beleid ingevoerd om deze agents te beschermen tegen externe bedreigingen. Misschien wel het meest alarmerend: bijna een op de vier bedrijven meldde dat agents gemanipuleerd kunnen worden om toegangsgegevens prijs te geven.
+
+“Het gebruik van deze technologie is op zichzelf al een risico”, waarschuwen Hans van Haarlem en Steven Ottenhoff van MMOX, een Nederlands cybersecurity-adviesbureau. Zij wijzen op een cruciaal punt dat veel ondernemers over het hoofd zien. “In het verleden kostte het aanvallen van grote bedrijven enorm veel tijd en middelen. Die drempel is nu drastisch verlaagd. Criminelen kunnen nu veel efficiënter te werk gaan, waardoor ook middelgrote en kleinere organisaties aantrekkelijke doelwitten worden.”
+
+> “Organiseer regelmatig een digitale brandoefening, zodat iedereen voorbereid is en weet wat zijn of haar rol is in een crisis.”
+
+Hans van Haarlem
+
+MMOX
+
+## Volume en kwaliteit nemen toe
+
+De lagere aanvalsdrempel is al direct te zien in de praktijk, waarbij aanvallers hun werkterrein vergroten. “We krijgen bakken met phishingmails binnen om te analyseren”, vertelt Van Haarlem. “Wat opvalt is dat zowel het volume als de kwaliteit toeneemt. Spearphishing – gerichte aanvallen op specifieke personen – wordt veel beter uitgevoerd. We zien regelmatig dat nieuwe medewerkers binnen no-time sms’jes krijgen van ‘onze’ CEO met verzoeken om geld over te maken of contact op te nemen. Op hun eerste werkdag al. Het kan bijna niet anders dan dat dit op de achtergrond geautomatiseerd gebeurt.”
+
+Het aantal cyberaanvallen is nog niet explosief gestegen, en daar is een verklaring voor. “Agentic AI-systemen zijn nog steeds superduur”, legt de cybersecurityspecialist van ABN AMRO uit. “Ze vragen veel rekenkracht en het trainen van modellen kost geld. Criminelen blijven zich daarom richten op de relatief gemakkelijke doelwitten. Een grote bank hacken kan jaren duren, maar een klein accountancybedrijf kan binnen een week worden gekraakt met een aanzienlijke buit. Door generatieve AI is het aantal phishingmails drastisch toegenomen. Dat is goedkoop en makkelijk. Volledige Agentic AI-aanvallen, waarbij systemen zelfstandig sociale media screenen en spearphishing uitvoeren, komen er zeker aan, maar zijn nog niet massaal.”
+
+## Interne risico's voor beveiliging
+
+Naast externe dreigingen brengen agents, die worden ingezet voor zowel beveiliging als andere bedrijfsprocessen, binnen organisaties specifieke beveiligingsrisico’s met zich mee. “Als zo’n agent slecht is ingesteld of onvoldoende wordt gemonitord, kunnen situaties ontstaan die je niet wilt hebben”, waarschuwt Mons. “Stel: een agent detecteert dat je op een phishingmail hebt geklikt. De normale procedure is die computer isoleren van het netwerk, zodat hij geen schade kan aanbrengen. Maar als die agent per ongeluk álle computers in je netwerk isoleert in plaats van één, kan niemand meer werken.”
+
+Er is nog een fundamenteler probleem. Agentic AI kan op basis van data en eerdere ervaringen handelen zonder menselijke controle, maar het kan ook ‘hallucineren’: verkeerde conclusies trekken of onverwachte acties uitvoeren. “Je weet dan niet precies wat het heeft gedaan”, legt Mons uit. “Het leert zelf en handelt zelf. Als het misgaat, moet je uitzoeken wat er allemaal is gebeurd en wat je moet herstellen. Daarom is het cruciaal om goede controlemechanismen in te bouwen en opties open te houden die het mogelijk maken dat mensen zelf kunnen ingrijpen.”
+
+De experts van MMOX nuanceren dit beeld. “Agentic AI kent geen stress of werkdruk waarbij iemand slordig wordt. Het kan met goede bedoelingen iets verkeerds doen omdat het onderliggende model niet toereikend is, maar de foutmarge is vaak kleiner dan bij mensen.”
+
+## Wat kunnen bedrijven doen?
+
+Het handelingsperspectief voor organisaties is helder maar veelomvattend. “Zorg dat je beter beveiligd bent dan de buurman”, zegt Mons. “In een straat wordt ingebroken in het slechtst beveiligde huis. Dat basisprincipe geldt ook in de digitale wereld. Het gaat niet om absolute veiligheid, maar om relatieve weerbaarheid.” Concrete maatregelen beginnen bij fundamentele zaken: goede beveiliging van apparatuur en tweefactor-authenticatie. Maar die laatste is niet waterdicht. “Er zijn scenario’s beschikbaar waarin die dubbele controle alsnog omzeild kan worden. Het is een constant kat-en-muisspel tussen beveiligingsmakers en malafide partijen.”
+
+Van Haarlem pleit daarom voor een strategische aanpak die verder gaat dan alleen technologie. “AI verandert niets aan de methodologie van cybercriminelen, het verandert alleen de efficiëntie en daarmee de scope”, stelt hij. “Wij zijn aanhangers van het NIST-framework: een breed erkende set van richtlijnen die organisaties helpt bij het managen en verminderen van cyberbeveiligingsrisico’s. Investeer in medewerkers én technologie, in netwerksegmentatie én sterke data-analyse.” Impact mitigerende maatregelen zijn daarbij een cruciaal maar onderschat element. “In plaats van je alleen te richten op het buitenhouden van hackers, moet je ervoor zorgen dat ze geen schade kunnen berokkenen als ze eenmaal binnen zijn”, benadrukken Van Haarlem en Ottenhoff. “Segmenteer je netwerk, zodat een aanvaller niet vrij door je hele systemen kan bewegen. Probeer een hoge muur te bouwen, maar realiseer je dat als hier iemand overheen klimt, er binnenin nog meer barrières moeten zijn.”
+
+> “De drempel voor cyberaanvallen is lager dan ooit. Bedrijven die nu niet handelen, lopen grote risico’s.”
+
+Steven Ottenhoff
+
+MMOX
+
+## De menselijke factor
+
+De rol van medewerkers blijft complex. Waar sommigen de mens zien als de zwakste schakel, denkt Mons van ABN AMRO daar anders over. “Wij beschouwen de mens als het laatste redmiddel, de sterkste schakel. Technologie kan gefaald hebben, maar een alerte medewerker kan een aanval nog tegenhouden. Daarom promoten we veilig gedrag binnen de hele organisatie.” Van Haarlem en Ottenhoff gaan dieper in op dit aspect. “Menselijk gedrag veranderen is extreem lastig, zeker als de digitale vaardigheid van de huidige populatie achterblijft en medewerkers niet intrinsiek gemotiveerd zijn om veilig te werken.”
+
+De experts van MMOX onderscheiden drie essentiële factoren. Ten eerste moeten organisaties duidelijke richtlijnen voor veilig gedrag opstellen en zorgen voor gebruiksvriendelijke beveiligingstools. Ze waarschuwen: “Veel tools sterven in schoonheid omdat de adoptie achterblijft.” Ten tweede moet de urgentie van cyberrisico’s continu worden benadrukt. “Dit is niet iets voor een enkele training, maar moet worden geïnstitutionaliseerd. Bespreek het maandelijks of per kwartaal tijdens overleggen, herhaling is essentieel.” Ten derde moeten organisaties de werkomgeving begrijpen. “Breng in kaart welke systemen je hebt. Luister goed naar je medewerkers. Als zij zelf software of extensies downloaden omdat ze iets missen in de officiële systemen, moet je dat serieus nemen. Door hun behoeften te begrijpen en daarin te voorzien, voorkom je dat ze onveilige oplossingen zoeken. Maak het thema bespreekbaar.”
+
+## Weerbaarheid in plaats van perfectie
+
+De centrale boodschap van alle experts is helder: perfecte beveiliging bestaat niet. “De vraag is niet óf je gehackt wordt, maar wanneer”, stellen de experts van MMOX. “De kosten voor aanvallen zijn zo laag geworden dat elk bedrijf een potentieel doelwit is. Wij adviseren klanten daarom: wees voorbereid. Ontwikkel weerbaarheid.” Dat betekent concreet: zorg voor back-ups die daadwerkelijk werken, ontwikkel een incident response-systeem – een gestructureerd stappenplan om snel en effectief te reageren op een cyberincident – en oefen regelmatig met scenario’s. “Simuleer dat je gehackt bent”, adviseren zij. “Wat ga je doen? Hoe communiceer je? Wat als je data op straat komen te liggen? Organiseer regelmatig een digitale brandoefening, zodat iedereen voorbereid is en weet wat zijn of haar rol is in een crisis.”
+
+Voor kleine en middelgrote ondernemingen zijn de uitdagingen anders dan voor grote organisaties. “De blue team-agents en geavanceerde systemen die nu beschikbaar zijn, vragen zoveel investering dat ze niet relevant zijn voor de meeste ondernemers.” Vaak weten ondernemers niet waar ze moeten beginnen. Daarom richten wij ons op het helpen leggen van een stevig fundament: basismaatregelen op orde krijgen zodat je beter beveiligd bent dan de buurman.”
+
+## Kansen en bedreigingen
+
+Ondanks alle risico’s biedt Agentic AI ook substantiële kansen. Cybersecurityspecialist Mons van ABN AMRO onderstreept dit. “Red team-acties die voorheen weken duurden, kunnen nu in dagen. Analyses die uren kostten, gebeuren in minuten. Met Agentic AI kunnen we onszelf beter testen, kwetsbaarheden sneller vinden en effectiever reageren op incidenten”, stelt hij. Maar beide partijen benadrukken ook de noodzaak van voorzichtigheid. Ottenhoff: “Agentic AI is niet per se transparant. Agentic systemen kunnen met goede bedoelingen iets verkeerds doen. Soms is een eenvoudig, voorspelbaar systeem een betere keuze dan complexe AI.”
+
+## De urgentie groeit
+
+Cyberaanvallen zullen in de toekomst sneller, op grotere schaal en meer onder de radar plaatsvinden. Dit vraagt om beveiligingssystemen die zich continu aanpassen. Oude systemen die vertrouwen op vaste controles en langzame updates schieten tekort. Een nieuwe aanpak is nodig waarbij voortdurend wordt gemonitord op kwetsbaarheden in de cloud en andere digitale systemen, en waarbij het simuleren van realistische bedreigingen helpt zwakke plekken te identificeren en te verhelpen. Binnen organisaties moeten alle Agentic AI-systemen – ongeacht of ze voor beveiliging of andere bedrijfsprocessen worden gebruikt – niet als gewone systeemcomponenten worden beschouwd, maar als afzonderlijke entiteiten met eigen beveiligingsbehoeften. Dit vereist een strategie die alle agents identificeert, monitort en controleert. Bedrijven kunnen zo niet alleen voldoen aan regelgeving, maar ook hun algehele beveiligingspositie versterken.
+
+Tegelijkertijd vormen agents die door kwaadwillenden worden ingezet een groeiende externe dreiging. De opkomst van Agentic AI introduceert geen volledig nieuwe aanvalsmethoden, maar maakt bestaande technieken sneller en effectiever. De snelheid en het aanpassingsvermogen van deze systemen vormen een grote uitdaging. Bedrijven moeten daarom proactief innoveren en anticiperen op agent-gedreven aanvallen.
+
+“Het is heel moeilijk om cybersecurity van ‘belangrijk maar niet urgent’ naar ‘urgent’ te krijgen”, constateert Ottenhoff. “Maar met de opkomst van Agentic AI is die urgentie er echt. De industrie achter cybercrime is volwassen geworden, met solide businesscases. De drempel om aan te vallen is lager dan ooit. Bedrijven die nu niet handelen, lopen grote risico’s.”
+
+De twee gezichten van Agentic AI – als wapen en als schild – dwingen organisaties tot herbezinning. De technologie biedt ongekende mogelijkheden voor efficiënte beveiliging en het opschalen van cybersecurity-teams. Maar diezelfde kracht ligt ook in handen van criminelen die steeds professioneler opereren. De uitdaging is helder: bedrijven moeten nu investeren in fundamentele beveiliging, hun medewerkers betrekken en voorbereiden, en zich realiseren dat absolute veiligheid niet bestaat. Weerbaarheid en voorbereiding zijn het nieuwe devies in een tijdperk waarin de vraag niet is óf, maar wanneer je wordt aangevallen.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Cybersecurity](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/cybersecurity.html)
+
+[Personeelstekort](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/personeelstekort.html)
+
+
+---
+
+# De virtuele mens als commerciële kans
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Van virtuele replica’s van beroemdheden tot ‘from scratch’ gegenereerde social media-persoonlijkheden – virtuele mensen duiken overal op. Het publiek lijkt open te staan voor virtuele merkambassadeurs en ook de onderliggende technologie wordt breder beschikbaar. Dit biedt kansen voor merken, de technologieleveranciers en vooruitstrevende reclamebureaus
+
+Model Eva Herzigova heeft een exacte replica van zichzelf laten creëren, van de haartjes op haar gezicht tot haar gezichtsuitdrukkingen. De digitale evenknie van het model kan optreden in fotoshoots en video’s en zelfs catwalkshows lopen; het loopje van Herzigova is eveneens gekopieerd. Als de echte Herzigova niet voor alle klussen de wereld hoeft rond te reizen, zo vertelt het model aan [Vogue Business](https://www.voguebusiness.com/technology/brands-can-now-hire-supermodel-eva-herzigovas-digital-twin), kan ze meer tijd doorbrengen met haar kinderen.
+
+Daarmee is Herzigova een van de eerste beroemdheden die haar replica actief in de markt zet. Op deze manier kan ze niet alleen haar productiviteit vergroten, ook is het een stap naar meer regie over haar digitale identiteit. In een wereld waarin middels artificiële intelligentie (AI) gemakkelijk nepmateriaal kan worden gemaakt van mensen, is een van de remedies misschien wel om zelf alvast met de meest overtuigende replica naar buiten te treden.
+
+## Een schaalbare en persoonlijke boodschap
+
+Ook merken blijken niet terug te deinzen voor dergelijke innovaties. Vakantiegangers die hun vrienden willen meekrijgen op een cruise van Virgin Voyages kunnen hun beoogde reispartners een gepersonaliseerde uitnodiging sturen waarin Jennifer Lopez ze alvast een droomvakantie voorspiegelt. Jen AI spreekt ze aan bij naam en is op de hoogte van de gelegenheid en favoriete activiteiten van het gezelschap. In een campagne van chipsmerk Lay’s met Lionel Messi trad de echte versie van de voetballer op in reclamespots en was er tegelijkertijd een digitale tweeling van de voetballer beschikbaar voor gepersonaliseerde online-videoboodschappen. In deze zogenaamde Messi Messages spreekt een virtuele Messi de kijker aan bij naam, in tien mogelijke talen.
+
+Chocolademerk Cadbury creëerde in India een win-winsituatie via een reclamecampagne die op innovatieve wijze ‘deepfake’-technologie toepast. Kleine ondernemers, van kledingwinkel tot elektronicazaak, konden filmster Shah Rukh Khan hun eigen bedrijf laten promoten in een online reclamevideo van het chocolademerk. Cadbury zelf speelt in de video slechts een kleine rol, maar versterkt zijn naam op sympathieke wijze door ruimte te bieden aan de ondernemer op de hoek.
+
+Dit soort campagnes is voor merken een manier om een grote naam aan zich te binden, maar tegelijkertijd de afstand tussen superster en doelgroep te verkleinen. Het past naadloos in de huidige tijd, waarin beroemdheden via sociale media dichterbij komen dan ooit; hun wel en wee is gemakkelijk bij te houden en soms zelfs live te volgen. Een schaalbare en tegelijkertijd ‘persoonlijke’ boodschap is een logische volgende stap.
+
+## De opmars van virtuele influencers
+
+Maar hoe perfect en geregisseerd zulke video’s ook zijn, de beroemdheid zelf blijft een mens met de bijbehorende grilligheden. Dat brengt risico’s met zich mee, weet elk merk dat weleens een bekende persoon aan zich heeft verbonden. In 2001 werd Britney Spears bijvoorbeeld door paparazzi vastgelegd met een blikje Coca Cola, terwijl ze op dat moment een kostbare sponsordeal had met Pepsi. Ook nu betekent elk barstje in de reputatie van een zorgvuldig gekozen ambassadeur tevens een kwetsbaarheid voor het merk. De oplossing: in zee gaan met een volledig virtuele ‘influencer’, zonder belastend heden of verleden.
+
+Miquela is daarvan een veelgenoemd voorbeeld. Ze heet voluit Miquela Sousa en is volledig bedacht door marketingbureau Brud. De identiteit van Sousa is tot in detail opgebouwd, met een eigen achtergrond, persoonlijkheid en voorkeuren. Op videoplatform TikTok, waar ze maar liefst 3,5 miljoen volgers heeft, post ze over haar dagelijks leven en beantwoordt ze vragen. “Hormons”, antwoordt Miquela op de vraag wat ze echt niet begrijpt aan mensen. Ze heeft content gemaakt met merken als Samsung en Calvin Klein, en is vorig jaar een langdurige samenwerking begonnen met de Amerikaanse retailer Pacsun.
+
+## Kansen op het gebied van branding
+
+Het blijkt een lucratieve business. Amerikaans onderzoek laat zien dat zo’n [35 procent](https://theinfluencermarketingfactory.com/virtual-influencers-survey-infographic/?utm_source=pr&utm_medium=link&utm_campaign=virtual_influencers_PR) van de internetgebruikers weleens een product of dienst heeft aangeschaft nadat een virtuele influencer er aandacht aan besteedde. Ook blijken mensen het prettig te vinden om met deze bedachte individuen te interacteren; onderzoek wijst uit dat internetgebruikers [driemaal](https://hypeauditor.com/blog/the-top-instagram-virtual-influencers-in-2021/) zoveel ‘engagement’ hebben met bijdragen van virtuele influencers dan die van met echte mensen – denk aan likes en commentaren.
+
+Een succesverhaal volgens het boekje is Lu, de geliefde ambassadeur van de Braziliaanse retailer Magalu. Zij groeide uit van virtuele assistent in de webshop tot gezaghebbende [social media-persoonlijkheid](https://www.ogilvy.com/work/lu-magalu). Ze verschijnt zelfs in videoclips van echte artiesten, en de outfits die ze daar draagt zijn vervolgens steevast uitverkocht. De typering ‘influencer’ is bij Lu dus geen holle frase.
+
+Merkspecifieke persoonlijkheden zijn niet per se nieuw, maar door deze te transformeren naar 3D-modellen die hun karakter en levensstijl kunnen etaleren via allerlei kanalen, worden de mogelijkheden op het gebied van ‘branding’ sterk vergroot. Van sociale media tot games en ‘virtual reality’-werelden, ze kunnen overal acte de présence geven.
+
+## Voorzichtigheid geboden
+
+Toch is te midden van de hype voorzichtigheid geboden; lang niet iedereen zit erop te wachten. Toen winkelketen Marks & Spencer eind 2022 hun virtuele persoonlijkheid Mira introduceerde, was het publiek weinig enthousiast. In de commentaren onder haar Instagram-posts noemden mensen Mira “creepy” en klonk onbegrip over M&S’ keuze voor een perfect uiterlijk. Als je dan toch kiest voor een virtuele merkambassadeur, zo luidde de kritiek, dan graag iemand die qua uiterlijk een betere afspiegeling vormt van de klantenbasis van het merk. Na november zijn geen nieuwe posts meer verschenen van Mira.
+
+Hoewel het een experimentele – en regelmatig succesvolle – manier is om in contact te treden met voornamelijk gen-Z en jonger, zal de virtuele influencer voor de meeste kleinere merken een brug te ver zijn. Het is immers maar de vraag of de voordelen ten opzichte van reguliere influencermarketing op dit moment opwegen tegen de risico’s en investeringen. Voor nu lijken de kansen zich voornamelijk te concentreren bij grotere merken die actief experimenteren met hun branding-inspanningen en een jongere doelgroep willen aanspreken.
+
+Kennis en kunde is benodigd om zulke initiatieven in goede banen te leiden. Dat creëert op zijn beurt kansen voor bureaus die thuis zijn in de materie. Zo was reclamebureau Ogilvy het brein achter de succesvolle Cadbury-campagne in India en was het ook de partij die Lu tot een ware influencer wist te maken. Onlangs riep reclamebureau Dentsu zelfs een specifieke dienst in het leven: Dentsu VI, waarbij de tweeletterige afkorting staat voor ‘virtual identity’. De divisie creëert in opdracht van merken volledig nieuwe virtuele persoonlijkheden, of past reeds ontwikkelde modellen aan de wensen van de opdrachtgever aan.
+
+## AI-gegenereerde modellen
+
+Overigens doen kleinere merken er wel degelijk goed aan om zich verder in te lezen; de technologische ontwikkelingen gaan hard, en ook aan de achterkant van de bedrijfsvoering kunnen virtuele mensen waarde toevoegen. Dit stelt Sharief Mohamed, CFO en COO van Lalaland AI, dat levensechte 3D-modellen ontwikkelt voor modeontwerpers. Via een plugin in een veelgebruikt programma kunnen ontwerpers hun driedimensionale kledingdesigns virtueel laten dragen door modellen met verschillende confectiematen en huidskleuren. “Hierdoor kunnen ze al direct zien of een ontwerp ook staat bij mensen met een andere maat dan small”, vertelt Mohamed. “En of de gekozen kleur van het kledingstuk wel werkt bij een bepaalde huidskleur.”
+
+Dit levert ook voordelen aan de inkoopkant op. Retailers kunnen gemakkelijker een beeld vormen van de individuele kledingstukken in de collecties van merken als die worden gedragen door modellen. Vanwege de grote hoeveelheid designs tonen de catalogi het gros van de kledingstukken echter zonder model, gefotografeerd tegen een witte achtergrond. Door virtuele modellen te gebruiken, weten inkopers beter wat ze hun winkels binnenhalen.
+
+Het uiterlijk van de modellen kan helemaal worden aangepast aan de identiteit van het merk, van haarstijl tot accessoires. Volgens Mohamed zijn ze daarmee overigens zeker geen vervanging van de meer creatieve campagnebeelden van merken. “Naar de consument toe blijf je echte mensen nodig hebben”, stelt hij. “Onze toegevoegde waarde zit op dit moment aan de achterkant, in de ontwerpfase.”
+
+[Beluister ook de podcast: Virtuele mensen: AI-gegenereerde fashionmodellen](https://www.abnamro.nl/nl/zakelijk/insights/in-gesprek/podcast/de-innovatiegolf/virtuele-mensen-ai-gegenereerde-fashionmodellen.html)
+
+## Grote investeringen in technologiebedrijven
+
+Lalaland is niet het enige bedrijf dat op deze innovatiegolf is gesprongen. Een groeiend aantal technologiebedrijven biedt diensten aan voor het maken van virtuele mensen, of het nu replica’s zijn van bestaande individuen of volledig bedachte figuren. Onlangs bereikte Synthesia, het technologiebedrijf achter de Messi Messages, de ‘unicorn-status’ nadat het 90 miljoen dollar bij investeerders ophaalde. Yoom, dat 3D-versies maakt van mensen in een speciale studio met camera’s aan alle kanten, heeft sinds zijn oprichting 50 miljoen dollar aan financiering opgehaald. Het is een interessante propositie voor onder andere artiesten die hun optredens driedimensionaal willen laten vastleggen en merken die hun ambassadeurs via ‘augmented reality’ bij hun doelgroep thuis willen brengen.
+
+Hyperreal is een andere partij die de creatie van virtuele mensen faciliteert en zeer overtuigende resultaten laat zien. Zo speelt op hun website een videofragment van een optreden van de in 1997 overleden rapper Biggie Smalls. Het is alleen geen echt concert maar een [levensechte reconstructie](https://www.technologyreview.com/2022/12/16/1065393/biggie-smalls-metaverse/) van de artiest. Eigenaarschap en controle vanuit de echte wereld zijn nadrukkelijk onderdeel van de propositie van Hyperreal; de nabestaanden van de rapper hebben de volledige zeggenschap over het gebruik van het onderliggende 3D-model. Hiermee sorteert het bedrijf alvast voor op een wereld waarin iedereen zijn eigen virtuele replica kan hebben en waarin ook digitale identiteiten beschermd dienen te worden tegen diefstal en misbruik.
+
+## Technologie wordt toegankelijker
+
+Vanwege hun detailniveau en veelzijdigheid zijn replica’s zoals die van Biggie Smalls en Eva Herzigova tijdrovend en kostbaar om te maken. Toch zijn tal van technologieën beschikbaar die ook deuren openen voor mensen en merken met minder diepe zakken. Dat stelt hen in staat om alvast op laagdrempelige wijze te experimenteren met de technologische mogelijkheden en -onmogelijkheden. Gamegigant Epic Games biedt bijvoorbeeld een gratis webapplicatie, MetaHumans, waarmee gebruikers virtuele mensen kunnen creëren. Het is zelfs mogelijk om eigen 3D-scans te importeren – een functionaliteit die beschikbaar is in allerlei mobiele apps – en deze op het platform te verfijnen tot een overtuigende digitale tweeling.
+
+Het Rotterdamse socialmedia-bureau RauwCC sloeg ook aan het experimenteren met de beschikbare bouwstenen. De afbeeldingen van hun creatie Esther Olofsson werden voorheen gemaakt door haar virtuele gezicht op foto’s van een echt model te projecteren, maar inmiddels is de influencer helemaal ‘[AI-based](https://www.emerce.nl/nieuws/esther-olofsson-evolueert-tot-volledig-aifotomodel)’. Nieuwe foto’s van Olofsson kunnen nu worden gecreëerd via een simpele tekstuele instructie – ook wel ‘prompt’ genoemd. Stable Diffusion, het onderliggende AI-model, werd daarvoor getraind op een 3D-versie van de influencer. Er komt ook regelmatig videomateriaal van Olofsson langs, waarbij foto’s achteraf worden geanimeerd met Movio en een synthetische stem is toegevoegd met de software van Replica Studios.
+
+In de nabije toekomst is het waarschijnlijk niet technologie die de grootste uitdaging vormt, maar het vermogen van merken en hun bureaus om unieke samenwerkingen aan te gaan met bestaande beroemdheden – echt of gecreëerd – en nieuwe persoonlijkheden te vormen die resoneren bij hun publiek. Juist in een wereld waarin door technologische mogelijkheden de grens tussen echt en nep vervaagt, moeten merken een duidelijke visie hebben op hun eigen kern en de creatieve manieren om die bij hun doelgroep voor het voetlicht te krijgen.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Retail](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/retail/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Deregulering is niet het einde van RegTech
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Strengere regelgeving gaf innovatieve startups die bedrijven helpen om aan wetgeving te voldoen een groeispurt, maar met de wereldwijde roep om deregulering lijkt de markt onder druk te staan. De RegTech-sector moet zichzelf opnieuw uitvinden om relevant te blijven.
+
+De afgelopen jaren hebben startups en scale-ups volop ingezet op de ontwikkeling van slimme technologie die bedrijven helpt om wet- en regelgeving na te leven. Dit wordt ook wel ‘regulatory technology’ genoemd, vaak afgekort als RegTech.
+
+De noodzaak voor dergelijke technologie groeide onder andere toen de Europese Unie (EU) de General Data Protection Regulation (GDPR) introduceerde, een richtlijn om de dataprivacy van burgers te borgen, en de Corporate Sustainability Reporting Directive (CSRD) ontwikkelde, die duurzaamheidsrapportage voorschrijft. Ook in de financiële sector nam de vraag toe, mede door richtlijnen die financiële instellingen verplichten om verdachte transacties en klanten zorgvuldig te screenen.
+
+## Deregulering als politieke en economische realiteit
+
+Nu voltrekt zich echter een politieke verschuiving. In zowel de Verenigde Staten als de EU groeit de roep om deregulering en administratieve lastenverlichting, mede ingegeven door geopolitieke concurrentie en economische onzekerheid. President Trump zet in op het drastisch afslanken van regelgeving, met als uitgangspunt dat voor elke nieuwe federale wetgeving tien bestaande regels moeten worden geschrapt. Zijn doel is om de regeldruk te verminderen en economische groei te stimuleren. Vooral op het gebied van ESG-compliance wordt verwacht dat de nalevingsverplichtingen van bedrijven sterk zullen verminderen, evenals dat financiële instellingen minder regeldruk zullen ervaren.
+
+Aan onze kant van de oceaan heeft de Europese Commissie in februari 2025 het Omnibus-hervormingspakket voorgesteld, dat volgens schattingen de administratieve lasten van duurzaamheidsrapportage met ruim 6 miljard euro moet verminderen. Dit hervormingspakket is bedoeld om de naleving van wetgeving eenvoudiger en minder kostbaar te maken voor bedrijven.
+
+Als gevolg hiervan zal naar verwachting 80 procent van de bedrijven, anders dan eerder voorgesteld, niet langer aan de rapportageplicht van CSRD hoeven te voldoen. Hoewel sommige onder hen vanuit intrinsieke motivatie zullen blijven rapporteren, is deze ontwikkeling voor RegTech-bedrijven gespecialiseerd in ESG-rapportage een harde knauw.
+
+## Vertrouwen vanuit investeerders
+
+RegTech is een niche, zo blijkt uit de relatief bescheiden bedragen die naar startups en scale-ups in deze hoek vloeiden. De kapitaalstromen piekten in 2021, met een wereldwijd investeringsvolume van ruim 1 miljard dollar. Een dergelijke piek was ook in de bredere tech-sector zichtbaar, gedreven door lage rentes en de digitaliseringsslag in de nasleep van de pandemie. Maar waar tech-investeringen in 2022 over de hele linie enorm terugliepen, zag de RegTech-niche in dat jaar slechts een minimale correctie – mogelijk een teken van vertrouwen dat de wet- en regelgeving een drijvende kracht achter de markt zou blijven. Hoewel het jaar erop alsnog een correctie volgde, tonen de investeringen sindsdien weer een voorzichtige groei.
+
+De RegTech-sector omvat een breed scala aan diensten die bedrijven helpen om wet- en regelgeving op een efficiënte manier te integreren in hun bedrijfsvoering. Sommige aanbieders ontwikkelen software die bedrijfsprocessen en -systemen scannen op naleving van alle relevante wet- en regelgeving in een bepaalde sector. Andere nemen specifieke regelgeving als uitgangspunt, en bieden tools waarmee bedrijven gemakkelijker kunnen voldoen aan de bijbehorende verplichtingen. Voorbeelden zijn software die schendingen van mensenrechten en milieunormen in toeleveringsketens identificeert, en systemen die financiële transacties scannen op verdachte patronen.
+
+## RegTech tussen groei en onzekerheid
+
+Het ontstaan van RegTech is nauw verbonden met de financiële sector. Na de financiële crisis van 2008 voerden overheden wereldwijd strengere regelgeving in om financiële instellingen beter te reguleren, wat leidde tot een sterke vraag naar technologische compliance-oplossingen. Oplossingen voor Know Your Customer (KYC), transactiemonitoring en anti-witwasregelgeving (AML) domineerden aanvankelijk de markt. De opkomst van de GDPR in 2018 en de bredere aandacht voor dataprivacy en duurzaamheid zorgden ervoor dat RegTech zich uitbreidde naar andere sectoren, wat nieuwe investeringsstromen aantrok.
+
+Wet- en regelgeving zijn vaak een katalysator voor innovatie en nieuwe zakelijke kansen. “Europa staat bekend om zijn neiging tot reguleren, en dat creëert een interessante markt voor RegTech”, zegt Sophie Heijenberg, investeerder bij No Such Ventures. Zo werd in 2022, het jaar nadat de CSRD voor het eerst werd aangekondigd, prompt 1,8 miljard dollar gestoken in software voor duurzaamheidsmetingen, terwijl een jaar eerder dit bedrag nog op slechts 0,5 miljard dollar lag. Na deze piek volgde echter een daling die zich sindsdien heeft voortgezet. Hoewel dit type software niet altijd direct onder RegTech valt, laat het hoe zien regelgeving een markt in beweging kan zetten. De vraag blijft echter of deze niche zich zal herstellen nu de politieke wind is gedraaid, of dat de interesse van investeerders verder afneemt.
+
+## Van rapportage naar risicomanagement
+
+De afhankelijkheid van wet- en regelgeving plaatst RegTech-bedrijven in een dynamisch speelveld. Dat maakt sommige spelers kwetsbaar. “Tools die enkel dienen om rapportages uit te draaien krijgen het lastig”, zegt Heijenberg. “Maar bredere platforms die zich richten op risicomanagement op het gebied van duurzaamheid, privacy en cybersecurity blijven relevant. Wetgeving wordt dan misschien afgeslankt, maar de onderliggende risico’s verdwijnen niet en komen zelfs heel dichtbij. Kijk maar naar de overstromingen in Limburg.”
+
+De Oostenrijke scale-up Prewave maakt software die in het beheersen van die onderliggende risico’s voorziet. Onder het mom van “supply chain superintelligence” gebruikt het bedrijf openbare data om risico’s in de toeleveringsketen te identificeren, zoals natuurrampen, cyberincidenten en financiële stress. Hoewel het platform zijn gebruikers met deze data tegelijkertijd helpt om aan wet- en regelgeving te voldoen, plaatst medeoprichter Harald Nitschinger zijn product in een breder perspectief. “Nu wet- en regelgeving steeds complexer wordt, moeten bedrijven niet simpelweg vinkjes zetten, maar compliance juist benutten om sterker en veerkrachtiger te worden”, stelde hij afgelopen jaar op het moment dat Prewave 63 miljoen euro aan investeringen wist aan te trekken.
+
+## Sectorspecifieke compliance als groeimarkt
+
+Ook kan het lonen om te focussen op specifieke niches, zo bewijst het Nederlands-Britse Naq, dat een compliance-platform ontwikkelde voor tech-bedrijven actief in de medische sector. Daar gelden strenge eisen voor het gebruik van medische hulpmiddelen, en is privacywetgeving extra relevant vanwege de grote hoeveelheid gevoelige persoonsgegevens die verwerkt worden. Ook is de medische sector volgens cyberwet NIS2 aangemerkt als ‘kritiek’, wat allerlei strengere eisen op het gebied van cyberveiligheid met zich meebrengt.
+
+“MedTech-bedrijven moeten vanaf dag nul al compliant zijn, willen ze hun diensten aan bijvoorbeeld ziekenhuizen kunnen verkopen”, duidt Heijenberg van No Such Ventures, een van de investeerders achter Naq. “Als je als startup een softwareabonnement kunt afsluiten in plaats van tienduizenden euro’s aan een consultant te betalen, lost dat echt een pijn op.”
+
+[Beluister ook de podcast met Nadia Kadhim van Naq over kant-en-klare compliance-oplossingen voor medische innovators](https://www.abnamro.nl/nl/zakelijk/insights/in-gesprek/podcast/de-innovatiegolf/kant-en-klare-compliance-oplossing-voor-medische-innovators.html)
+
+## Vinger aan de pols
+
+Ook in een context van deregulering veranderen wetten in hoog tempo; ze verschuiven, worden versoepeld of juist aangescherpt in reactie op economische en politieke ontwikkelingen. Voor bedrijven die actief zijn in meerdere jurisdicties of binnen complexe mondiale toeleveringsketens, is een constante vinger aan de pols belangrijk. Nieuwe compliance-eisen kunnen plotseling opduiken, terwijl bestaande verplichtingen kunnen veranderen of vervallen.
+
+Platforms zoals Regology spelen hierop in door bedrijven inzicht te geven in wetswijzigingen en deze direct te vertalen naar praktische actiepunten. Dat stelt organisaties in staat om wijzigingen tijdig door te voeren, zonder dat ze zelf continu de juridische ontwikkelingen hoeven bij te houden. Om mee te kunnen blijven doen, is het voor RegTech-bedrijven belangrijk om dergelijke intelligentie in hun diensten in te bedden.
+
+## Wendbaarheid en strategisch risicomanagement
+
+Regelgeving kan een markt in beweging zetten, zoals te zien was bij de explosie aan investeringen in software voor duurzaamheidsmetingen naar aanleiding van de CSRD. Maar wetten komen en gaan, en wie RegTech puur als een reactie op nieuwe verplichtingen ziet, bouwt op drijfzand. De essentie van regelgeving blijft: risico’s beheersen, transparantie waarborgen en markten eerlijk en veilig houden. RegTech-bedrijven die zich daarop richten, en die snel kunnen meebewegen met veranderende risico’s en eisen, creëren blijvende waarde - ongeacht of regelgeving wordt aangescherpt of juist afgeslankt.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[CSRD](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/csrd.html)
+
+[Cybersecurity](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/cybersecurity.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[Duurzaamheid](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaamheid.html)
+
+[Wet- en regelgeving](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/politiek-en-wetgeving.html)
+
+
+---
+
+# Digitale abonnementen zetten mediabedrijven op groei
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Ingrid Laane
+
+Mediabedrijven maken door de coronacrisis een snelle digitale transformatie door. Door de lockdowns is de mediaconsumptie versneld naar internet verschoven; zo is het aantal digitale abonnees van kranten en on demand-televisiediensten sterk toegenomen en kopen consumenten massaal online. Het verhoogde internetverkeer biedt meer branches uit de TMT-sector de gelegenheid om goed uit de startblokken te komen wanneer de economie weer aantrekt.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Digitale abonnementen zetten mediabedrijven op groei (11 maart 2021)
+
+  261 KB](https://www.abnamro.nl/nl/media/ABNAMRO-sectorprognoses-TMT-maart-2021_tcm16-102809.pdf)
+
+## Verschuiving naar online
+
+Consumenten zitten al bijna een jaar ‘vast’ thuis, maar het internet verschaft een virtuele uitweg. Het dataverkeer is hierdoor sterker toegenomen dan voorgaande jaren, zo blijkt uit cijfers van de Amsterdam Internet Exchange (AMS-IX). Dit internetknooppunt verwerkte vorig jaar 35 procent meer data dan het jaar ervoor, terwijl in 2019 ‘slechts’ 17 procent groei werd geboekt. Het aantal digitale abonnees van kranten profiteerde van deze trend. Zo steeg het aantal digitale abonnementen van Mediahuis, uitgever van onder meer de NRC en De Telegraaf, het afgelopen jaar met bijna 50 procent.
+
+Geleid door nieuwe streamingdiensten en de vraag naar home entertainment door het vele thuiszitten, is de omzetgroei op de Nederlandse markt voor tv- en videodiensten eveneens versneld. Terwijl de omzet uit traditionele betaaltelevisie gelijk bleef, stegen de inkomsten uit over-the-top-videodiensten in het derde kwartaal van 2020 met 48 procent ten opzichte van het jaar ervoor. Onlinewinkelen nam met bijna 36 procent toe. Daarmee verschuiven ook reclamecampagnes naar het internet, waar de consument steeds makkelijker kan worden bereikt.
+
+## Momentum voor versterking digitale proposities
+
+Mediabedrijven grijpen de huidige crisis aan om structurele veranderingen door te voeren: minder afhankelijkheid van advertentie-inkomsten en meer proposities die inhaken op de toegenomen digitale consumptie. Zo heeft DPG-media in België recent zijn eigen streamingsplatform Streamz opgericht om een lokaal alternatief te bieden voor buitenlandse streamingsdiensten. Ook differentiëren mediabedrijven meer in hun abonnementsaanbod. Zo biedt Videoland inmiddels een pakket aan dat goedkoper is omdat het tevens reclame bevat. Mediabestedingen nemen bovendien naar verwachting in 2021 weer toe, wat extra kans geeft om proposities verder te versterken.
+
+De verschuiving naar online is niet nieuw. Al jaren werken mediabedrijven aan onlineproposities, maar door onder meer de sterke concurrentie van Google en Facebook op de advertentiemarkt en de grote beschikbaarheid van gratis content is het lastig hier geld mee te verdienen. De roep om de marktmacht van deze techreuzen in te perken wordt echter steeds luider. Binnenkort worden hiertoe op Europees niveau de eerste concrete stappen gezet. Een nieuwe Europese richtlijn die in juni van dit jaar gepubliceerd wordt, moet ervoor zorgen dat uitgeverijen meer controle krijgen over het gebruik van hun artikelen door Google en Facebook en hiervoor eventueel betaling kunnen afdwingen. Dit geeft het onlineverdienmodel van uitgeverijen een duwtje in de rug.
+
+Ook reclamebureaus hebben het afgelopen jaar snel ingespeeld op de toegenomen digitale consumptie. Door de lockdowns zijn consumenten nog meer online gaan inkopen. Reclamecampagnes zijn als gevolg hiervan in toenemende mate verschoven naar internet. Tijdens de eerste lockdown in het voorjaar van 2020 leek nog een heel andere route te worden bewandeld; campagnes werden toen massaal terugtrokken of uitgesteld door de economische onzekerheid. Reclamebureaus kregen hierdoor te maken met een forse terugval in de omzet. Dat de huidige lockdown minder gevoeld wordt, betekent niet dat reclamebureaus volledig uit de zorgen zijn. Zolang winkels gesloten blijven, er niet gereisd wordt en evenementen geen doorgang vinden, blijven mediabudgetten op een lager niveau.
+
+## Sterke groei IT-branche
+
+Niet alleen bij mediabedrijven en reclamebureaus, maar ook in andere sectoren heeft de coronacrisis de digitale transformatie versneld; bijvoorbeeld in de zorg en in het onderwijs. De IT-branche profiteert hiervan en de groei trekt in 2021 dan ook weer aan. Doordat organisaties vanwege de economische onzekerheid ook in 2021 met zorg moeten investeren in IT, ligt de groei van deze branche voorlopig nog wel onder het langjarig gemiddelde. Op de lange termijn zijn de vooruitzichten voor de IT-branche uitstekend. De digitalisering van de samenleving gaat onverminderd voort, waardoor bedrijven uit alle sectoren zich blijven beroepen op de technologiesector.
+
+## TMT-sector groeit in 2021
+
+Voor de gehele TMT-sector geldt dat de met name de vooruitzichten voor de tweede helft van dit jaar goed zijn. Doordat een groot deel van de kwetsbare bevolking dan naar verwachting gevaccineerd is, zijn de beperkende maatregelen tegen die tijd grotendeels opgeheven. Dit zorgt ervoor dat mediabudgetten in zwaar geraakte sectoren als de reis- en evenementenbranche weer substantieel gaan groeien, bedrijfsinvesteringen toenemen en het consumentenvertrouwen stijgt. Na stagnatie van de groei in 2020 zal de TMT-sector als gevolg hiervan weer groeien. ABN AMRO verwacht een groei van 3 procent in 2021. Deze groei wordt primair gestuwd door een aantrekkende vraag naar IT-diensten, veruit de grootste branche binnen de TMT-sector. Maar ook het herstel van uitgeverijen, omroepen, drukkerijen en het reclamewezen ten opzichte van daljaar 2020 draagt hieraan bij. De sector komt hiermee alweer ruim boven het niveau van eind 2019. Door de onzekerheid over het verloop van het coronavirus zijn deze verwachtingen echter met veel onzekerheid omgeven.
+
+
+---
+
+# Digitale buitenreclame is bezig aan opmars
+
+[Stand van Sectoren](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Iffat Ngoesmin
+
+Kamalika Patra
+
+De Nederlandse economie is bezig aan een sterk herstel ten opzichte van het jaar ervoor. De TMT-sector heeft een goed kwartaal achter de rug waarin de omzetten gegroeid zijn en de ondernemers positief gestemd zijn. Consumenten zijn echter somberder geworden.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Stand van TMT (10 september 2021)
+
+  587 KB](https://www.abnamro.nl/nl/media/digitale-buitenreclame-is-bezig-aan-opmars-20210910_tcm16-123842.pdf)
+
+## Economisch klimaat
+
+Het economisch klimaat in Nederland is bezig aan een sterk herstel van de coronacrisis en de verwachting is dat deze opleving doorzet in 2022. In het tweede kwartaal van 2021 zijn zowel het ondernemersvertrouwen als het saldo ondernemers in de TMT-sector die verwachten hun omzet te zien stijgen positief. Het consumentenvertrouwen kreeg echter voor de tweede maand op rij te maken met een daling.
+
+## Krapte op de arbeidsmarkt
+
+De arbeidsmarkt is momenteel erg krap en ook het percentage onvervulbare vacatures in de TMT-sector stijgt. Het percentage onvervulbare vacatures voor beroepen gerelateerd aan de TMT-sector is namelijk van 14 procent in januari van dit jaar opgelopen tot bijna 17 procent eind juli, volgens de arbeidsmarktindicator van ABN AMRO. Het tekort aan personeel vindt bovendien plaats in alle subsectoren van de TMT-sector.
+
+## Digitale buitenreclame is bezig aan een opmars
+
+De mediabestedingen aan digitale buitenreclame verdubbelden in het tweede kwartaal van 2021. Door versoepelingen van coronamaatregelen is de consument weer buitenshuis te vinden en loont het voor bedrijven om te adverteren in de winkelstraten. Daarnaast biedt datagebruik digitale buitenreclame een voorspoedige toekomst.
+
+
+---
+
+# Digitale media groeien door transformatie en nieuwe kanalen
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
+
+Digitale media laten flinke groei zien in een transformerend medialandschap. Voor 2024 verwacht ABN AMRO een omzetgroei van 9%, terwijl traditionele media krimpen. Innovaties zoals slimme schermen en retailmedia netwerken trekken extra publiek en ook nieuwe toepassingen van kunstmatige intelligentie zorgen voor groei.
+
+Het media-aanbod wordt steeds meer digitaal, oftewel uit te drukken in ‘nullen en enen’. Enerzijds betekent deze transformatie dat digitale media groeien ten koste van traditionele media, zoals wanneer papieren krantenabonnementen worden omgezet in digitale krantenabonnementen. Anderzijds groeien digitale media door innovaties die extra publiek trekken. Voor 2024 verwacht ABN AMRO een omzetgroei van 9 procent voor digitale media, terwijl traditionele media juist krimpen met 1 procent. Per saldo boekt de mediasector in zijn geheel een omzetgroei van 6 procent, gesteund door een sterk koopkrachtherstel voor consumenten. In 2025 zwakt de omzetgroei van digitale media naar verwachting ietwat af naar 7 procent, mede vanwege lagere inflatie.
+
+[Lees ook: Mediasector groeit ondanks stagnerende economie](/nl/zakelijk/insights/sectoren-en-trends/sectorprognoses/technologie/mediasector-groeit-ondanks-stagnerende-economie.html)
+
+Een van die innovaties zijn slimme ‘digital out of home-schermen’ die advertenties tonen afhankelijk van het tijdstip van de dag of zelfs de drukte op straat. Ook nieuwe retailmedia netwerken groeien sterk; winkelketens stellen steeds meer advertentieruimte beschikbaar in hun eigen kanalen zoals de website, de app, maar ook de schermen in winkels. Zoekmachines en socialemediaplatforms groeien ook nog steeds in gebruik, puur digitale kanalen die geen duidelijke analoge tegenhanger hebben.
+
+## Transformatie van het medialandschap
+
+Het medialandschap wordt gekenmerkt door een transformatie die bestaat uit een verschuiving van analoog naar digitaal, van offline naar online en van live naar on demand. Waar eerst vooral live naar een televisiescherm werd gekeken, wordt nu ook ‘televisie’ gekeken via een app op de smartphone, reizend in de trein, twee dagen nadat een programma is uitgezonden.
+
+De digitale transformatie schept ook geheel nieuwe mogelijkheden. Zo wint algoritmische en gepersonaliseerde selectie op basis van kunstmatige intelligentie (AI) aan terrein ten opzichte van handmatige selectie door een redactie. Voorbeelden zijn socialemedia-applicaties, waarbij iedereen een toegesneden media-aanbod krijgt op basis van zijn of haar sociale netwerk, interesses en voorkeuren. Ook streamingsdiensten proberen met toegesneden aanbevelingen de aandacht van de gebruiker vast te houden. Dit verhoogt de betrokkenheid van gebruikers en de tijd die ze besteden op digitale platforms. Uiteindelijk wordt deze vastgehouden ‘aandacht’ te gelde gemaakt door advertenties voor te schotelen en/of door abonnementen te verkopen aan de gebruikers.
+
+## De rol van kunstmatige intelligentie
+
+Een van de meest transformerende krachten binnen de digitale media is kunstmatige intelligentie (AI). AI speelt een cruciale rol in de transformatie van digitale media, bijvoorbeeld door gepersonaliseerde contentaanbevelingen te bieden, zoals hierboven beschreven. Ook de efficiëntie van digitale advertenties wordt verhoogd via verbeterde data-analyse en gebruikersinzichten, waardoor mediabedrijven beter kunnen inspelen op trends en voorkeuren van consumenten. Creatieve bureaus experimenteren intussen volop met de mogelijkheden van generatieve AI, zowel aan de copywriter-kant als aan de design-kant. Dit versnelt het creatieve proces, verlegt de nadruk van creatie naar selectie, en opent nieuwe mogelijkheden om snel en kostenefficiënt te produceren.
+
+Of de groei in productiviteit ook leidt tot omzetgroei hangt af van de prijsontwikkeling. In het geval van prijsdalingen, omdat er minder gebruik wordt gemaakt van ‘dure’ menselijke creativiteit en vakmanschap, kan de invloed op de omzet zelfs negatief zijn. Voor deze prognose zijn eventuele prijsdalingen voor 2024 en 2025 nog niet meegenomen, in de verwachting dat deze pas op middellange termijn een rol spelen.
+
+## Digitale advertentie-uitgaven stuwen mediasector
+
+Ontwikkelingen in de advertentiemarkt vormen een goede graadmeter voor de ontwikkelingen binnen de mediasector. In 2023 werd in Nederland zo’n 5,2 miljard euro uitgegeven aan advertenties, waarvan 71 procent digitale advertenties betroffen, dat wil zeggen 3,7 miljard euro, zo blijkt uit het VIA/Deloitte Digital Advertising Spend-rapport van 2023 (zie grafiek). De omzetgroei van digitale advertenties bedroeg 5 procent ten opzichte van 2022. Vergeleken met een gemiddelde jaargroei van 11 procent in de tien jaren ervoor was dit relatief laag.
+
+In 2024 verwacht ABN AMRO 9 procent omzetgroei voor digitale advertenties, meer in lijn met het historisch gemiddelde. Groeipercentages van 11 procent of meer uit het verleden zijn niet langer te verwachten omdat de digitalisering inmiddels verder gevorderd is en sommige deelmarkten verzadigd zijn. Betaalde zoekopdrachten groeien bijvoorbeeld wat langzamer, terwijl online video, sociale media en digital audio juist weer wat harder groeien. Retailmedia vormt qua groei de grootste uitschieter; voor  retailmedia verwacht ABN AMRO 40 procent groei in 2024 en een totale advertentieomzet van 400 miljoen euro.
+
+[Lees ook: Advertenties lucratieve bijverdienste voor winkelketens](/nl/zakelijk/insights/sectoren-en-trends/technologie/advertenties-lucratieve-bijverdienste-voor-winkelketens.html)
+
+Betaalde zoekopdrachten, de zogeheten paid search via zoekmachines, vormen de grootste categorie binnen de digitale advertenties en groeiden in 2023 met 3 procent tot zo’n 1,7 miljard euro. Zoekmachines waren hiermee verantwoordelijk voor een derde van de totale advertentie-uitgaven, online en offline, in 2023. Display advertising, waaronder snelgroeiende categorieën zoals online video (7 procent groei) en sociale media (11 procent groei), volgde op de voet met 1,6 miljard euro en zal naar verwachting volgend jaar voor het eerst de zoekmachines inhalen.
+
+Digitale audio is in 2023 met 16 procent gegroeid vanwege de toenemende populariteit van podcasts en omdat FM-radio langzaam plaats maakt voor digitale DAB+-radio. Bij radio verloopt de digitale transformatie trager dan elders omdat Nederlanders graag radio luisteren in de auto en veel autoradio’s nog niet toegerust zijn om DAB+ te ontvangen. Vanaf december 2020 is elke nieuwe auto voorzien van DAB+, volgend op een Europese richtlijn, maar Nederlanders rijden in het [oudste wagenpark van West-Europa](https://www.knac.nl/nederlands-heeft-oudste-wagenpark-in-west-europa-114-jaar/), met een gemiddelde leeftijd van 11,4 jaar. Naar verwachting zullen FM-zenders hun analoge signaal voorlopig blijven uitzenden, iets wat ook blijkt uit de succesvol verlopen veiling van FM-frequenties in juli 2023, waarmee de overheid 150 miljoen euro ophaalde.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Digitale soevereiniteit biedt grote kansen voor Europa
+
+[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Wordt Europa op het gebied van technologie vermalen tussen de VS en China? Verliezen we onze digitale zeggenschap én onze rol in de techeconomie? Verre van dat, voorspelt ABN AMRO-sectorspecialist Julia Krauwer. In een Europa dat digitaal ontwaakt, ziet zij volop kansen. ‘Er gebeurt al veel moois, maar de interne drempels moeten weg. En we moeten onze ambities hardop uitspreken!’
+
+Als het om technologie ging, liep Europa altijd al aan de hand van grote broer Amerika. Software, servers, cloudopslag: al onze data en systemen waren vertrouwd, maar totaal afhankelijk. Aanvankelijk was dat prima, tot de geopolitieke verhoudingen drastisch op de schop gingen én de opkomst van AI vrijwel alle geledingen in ons bedrijfsleven en onze maatschappij op losse schroeven zette. ‘De razendsnelle doorbraak van AI transformeert businessmodellen. Die raakt elke onderneming en zeker de bedrijven in tech, media en telecom’, zegt Julia Krauwer, sectorspecialist op dat gebied bij ABN AMRO. ‘De vraag is niet óf je verandert, maar of je als ondernemer het tempo kunt bijhouden.’
+
+## Afhankelijkheid maakt kwetsbaar
+
+De Europese techsector kent stevige groeicijfers, maar ook grote onzekerheden. Achter de digitale vooruitgang schuilt een enorme afhankelijkheid, die weinig zichtbaar is voor eindgebruikers. Vrijwel alle servers, chips en software waarop bedrijven, sectoren en zelfs samenlevingen draaien, komen uit de VS of Azië. ‘Als die toevoer stokt, raakt dat onze hele digitale economie. De oorlog in Oekraïne, de recente ontwikkelingen met Nexperia en de aanhoudende spanningen tussen China en Taiwan hebben dat bewustzijn versneld.’
+
+Die afhankelijkheid zie je terug in de cijfers van Synergy Research. Tussen 2017 en 2022 werd de Europese cloudmarkt weliswaar vijfmaal groter, maar desondanks dáálde het gezamenlijke marktaandeel van Europese providers: van 27 naar slechts 13%. Oorzaak: Amazon, Microsoft en Google groeiden veel sneller. Die hebben ook de afgelopen jaren miljarden geïnvesteerd in datacenters op Europese bodem. ‘Dus terwijl we zelf groeien, groeit de buitenwereld nog veel sterker’, vat Krauwer de urgentie samen.
+
+> “De toekomst ligt bij bedrijven die technologie leveren die moeilijk te reproduceren is en die zich slim laten integreren in andermans ecosysteem.”
+
+Julia Krauwer
+
+Sector Banker Technologie, Media & Telecom
+
+## AI als breekijzer én bedreiging
+
+Kunstmatige intelligentie is volgens Krauwer de belangrijkste drijvende kracht én de grootste ontwrichter van dit moment. ‘AI verandert alles: van de manier waarop we software ontwikkelen tot de manier waarop we reclame maken en producten verkopen.’
+
+Ze schetst een dubbele beweging: aan de ene kant zorgt AI voor een explosie aan productiviteit. IT-dienstverleners helpen klanten met automatisering, voorspelling en maatwerk, wat nieuwe markten opent. Aan de andere kant dreigt kunstmatige intelligentie delen van de software-industrie zelf te ondergraven. ‘Softwarebedrijven zitten in een gekke spagaat: AI kan je product slimmer maken, maar ook overbodig. De winnaars hebben een sterke kern, unieke data of diepe domeinkennis.’ Bedrijven die hun waarde baseren op unieke algoritmen of datasets zijn beter beschermd tegen generatieve AI die standaardfuncties eenvoudig kan kopiëren.
+
+Volgens Krauwer ontstaat er een nieuw onderscheid, waarbij het niet alleen draait om schaalgrootte, maar vooral of je een heel specifieke en ingenieuze oplossing biedt. ‘Ook kleine techbedrijven kunnen enorm snel opschalen; kijk maar naar het Zweedse Lovable. Maar wie alleen een mooie interface levert, loopt het risico dat een AI-agent dat morgen overneemt. De toekomst ligt bij bedrijven die technologie leveren die moeilijk te reproduceren is en die zich slim laat integreren in andermans ecosysteem.’
+
+## Van risico naar kans
+
+Waar de afhankelijkheid van buitenlandse spelers voorheen vooral gold als risico, ziet Krauwer nu ook een kans. ‘Door de veranderende relatie tussen Amerika en Europa zijn we ons in Europa sterk bewust van het belang van cloudsoevereiniteit. Als Europees bedrijf wil je meer dan ooit weten waar je data staat, wie erbij kan én wie de hoofdschakelaar bedient. Bedrijven die aantoonbaar bewust omgaan met privacy en transparantie, met datasoevereiniteit en daarmee met de continuïteit van hun dienstverlening, hebben daarmee een belangrijke USP in handen: je data zijn veilig opgeslagen in Europa, onder Europese wet- en regelgeving, en daarmee minder afhankelijk van geopolitieke onrust.’
+
+## Europees Google Maps-alternatief kiest eigen koers
+
+Dat digitale soevereiniteit en commercieel succes samen kunnen gaan, laat het Amsterdamse Magic Lane zien met hun white-label Location Intelligence Technologie: technologie waarmee andere platforms eenvoudig navigatie- of deelmobiliteitoplossingen kunnen integreren, van elektrische fietsen tot deelauto’s, en met slimme functionaliteiten als offline navigatie en live verkeersdata. Ceo Raymond Alves: ‘En de technologie waarborgt privacy: in tegenstelling tot Amerikaanse aanbieders worden gebruikers niet gevolgd; alle data blijft anoniem.’ Dat deze aanpak z’n vruchten afwerpt, blijkt ook uit de cijfers: in het voorjaar steeg het aantal gebruikers van de consumentenapp met 250% in zes weken. ‘Hiermee laten we zien dat privacy en performance elkaar niet hoeven uit te sluiten.’
+
+## Europese soevereiniteit en privacy in de praktijk
+
+Dat creëert kansen voor Europese ondernemers die deze lokale waarden goed invullen: privacy-vriendelijk, transparant en duurzaam. ‘Compliant zijn blijkt best wel innovatief’, citeert Krauwer een quote van Saskia Lensink, productmanager van GPT-NL. ‘Bedrijven die Europese waarden weten te vertalen naar technologie met schaal, kunnen echt verschil maken. ’Kijk naar Deeploy, een Utrechts platform voor AI-monitoring, AI-governance en AI-compliance, dat onder meer financiële bedrijven en grote zorginstellingen helpt bij het bewaken van de verantwoorde toepassing van AI in hun organisaties. Of Mistral AI, het Franse platform voor kunstmatige intelligentie, dat de potentie heeft om uit te groeien tot een serieuze uitdager voor de grote AI-ontwikkelaars.’
+
+> “We zijn in Nederland en in Europa geweldig in R&D, maar vinden het spannend om te roepen dat we de wereld gaan veroveren.”
+
+Julia Krauwer
+
+Sector Banker Technologie, Media & Telecom
+
+## Cultuur en kapitaal
+
+Mooie initiatieven genoeg, maar toch is Europa er nog lang niet. Krauwer: ‘We zijn in Nederland en in Europa geweldig in R&D, maar vinden het spannend om te roepen dat we de wereld gaan veroveren.’ Die bescheidenheid werkt niet in ons voordeel. Zeker niet waar het gaat om het werven van voldoende kapitaal, dat nu eenmaal onmisbaar is om goede ideeën tot bloei te brengen. Techbedrijven in Europa hebben aanzienlijk meer moeite om grote investeringen te vinden dan hun tegenhangers in Amerika. Volgens het rapport State of European Tech 2024 is het cumulatieve verschil inmiddels opgelopen tot $375 miljard. ‘In de VS halen start-ups twee keer zo vaak meer dan $15 miljoen op’, zegt Krauwer. ‘Dat is een enorm verschil. En uiteindelijk bepaalt kapitaal of je kunt opschalen.’ Gelukkig ziet Krauwer ook daar een begin van verruiming, al is het voorzichtig. ‘Investeerders zoeken elkaar vaker op’, merkt zij. ‘Daarnaast werkt Brussel aan een zogenoemd 28th regime om investeren en opschalen over grenzen heen te vereenvoudigen. Hiermee ontwikkelt Europa één Europees kader voor ondernemingsrecht, faillissementsrecht, arbeidsrecht en belastingrecht, om een einde te maken aan de huidige versnippering van 27 landen met elk hun eigen regels.’
+
+## Cyberweerbaarheid als volwassenheidstest
+
+Naast economische onzekerheid groeit het veiligheidsrisico. Techbedrijven zijn een gewild doelwit voor hackers en spionagegroepen, zeker sinds de digitale infrastructuur onderdeel is van geopolitieke macht. ‘Je moet er als techbedrijf van uitgaan dat je een keer wordt gehackt’, zegt Krauwer. ‘De vraag is hoe je ermee omgaat.’ Volgens haar hoort cyberweerbaarheid bij strategische volwassenheid. ‘Het gaat niet alleen om maatregelen om aanvallers buiten je systemen te houden, maar ook om communicatie en herstelvermogen als je onverhoopt toch wordt gehackt. Veerkrachtig zijn houdt in dat je ook weer snel kunt opstaan. De ondernemingen die veiligheid en transparantie verankeren in hun merk, winnen vertrouwen bij klanten én investeerders.’
+
+## Fronten van groei
+
+Krauwer ziet op meerdere fronten hoe Europese techbedrijven kunnen groeien, mits ze lef tonen. ‘We moeten niet alleen minder afhankelijk willen zijn van Big Tech, we moeten vooral zélf sterker willen worden.’ De eerste groeilaag ligt bij AI-integratie: ondernemingen die kunstmatige intelligentie slim verweven in hun producten of processen. ‘Je ziet softwarebedrijven die zelf AI slim integreren in hun producten. En daarmee specialistische en bij voorkeur heel intelligente, domeinspecifieke toepassingen ontwikkelen die het liefst goed schaalbaar zijn, maar niet gemakkelijk door anderen na te maken.’
+
+Een tweede groeilaag is de techniek-infrastructuur, van chips tot datacenters. Krauwer: ‘De vraag naar rekenkracht groeit sneller dan het aanbod van datacenters, terwijl ook energie- en netcapaciteit grenzen stellen. Die nood heeft al tot mooie innovaties geleid. Zoals Axelera AI, een Nederlandse start-up in chips, die energiezuinige en krachtige AI-verwerkingsunits ontwikkelt. Of Asperitas, dat een koelsysteem voor datacenters heeft ontwikkeld waarbij servers worden ondergedompeld in een koelvloeistof, waardoor ze compacter, energiezuiniger en duurzamer werken.’
+
+## Bouwstenen voor ontwikkelaars
+
+Met de modulaire architectuur van Magic Lane kunnen ontwikkelaars met de support van AI nu nog sneller een oplossing bouwen. ‘We leveren immers niet één app, maar afzonderlijke bouwstenen die door ontwikkelaars kunnen worden gebruikt. Daarnaast is onze softwaredevelopment-kit zelfs aan te roepen door AI-ontwikkeltools. We positioneren ons hiermee bewust aan de achterkant van een applicatie’, aldus Alves. ‘Daar ligt de kracht: moeilijk repliceerbare technologie, gebouwd op Europese waarden. Hiermee laten we zien dat dit soort technologie – net als Signal en Protonmail, die respectievelijk een alternatief voor een messenger- en e-mailapplicatie hebben – geen idealisme is, maar een realistisch businessmodel.’
+
+> “We bieden moeilijk repliceerbare technologie, gebouwd op Europese waarden.”
+
+Raymond Alves
+
+CEO Magic Lane
+
+De derde groeilaag zit in de focus op Europese waarden. Aanbieders van innovatieve producten die naast slim ook privacy-vriendelijk zijn, copyrights respecteren, energiezuinig zijn, draaien op lokale servers én werken zonder bias, winnen vertrouwen binnen én buiten Europa. Krauwer noemt het Nederlandse Ab Ovo als voorbeeld. ‘Ze hebben AI geïntegreerd in zowel het ontwikkelproces als in hun daadwerkelijke software, en focussen daarnaast op het ontwikkelen van software die flexibeler én duurzamer werkt. Dat is precies de slag die meer bedrijven moeten maken.’
+
+## Talent en ecosystemen
+
+Daarnaast staat of valt het succes van de sector met mensen. ‘Talent trekt naar plekken waar ambitie voelbaar is’, zegt Krauwer. ‘Universiteiten, start-ups, investeerders: je hebt concentratie nodig. We moeten meer broedplaatsen creëren waar wetenschap en bedrijfsleven elkaar ontmoeten. Alleen dan kun je het talent vasthouden dat nu naar het buitenland vertrekt.’ Ze wijst daarbij onder meer naar de TU Delft en TU Eindhoven, die inmiddels tientallen spin-offs helpen opschalen. ‘Dat zijn hoopvolle signalen. Maar het moet sneller, ambitieuzer en internationaler – met meer lef en durf. In Silicon Valley wordt falen vooral gezien als een leermoment; hier lijkt het nog vooral een schande. Als je grote ambities hardop durft uit te spreken, bereik je ze eerder.’
+
+> “In Silicon Valley wordt falen vooral gezien als een leermoment; in Nederland lijkt het nog vooral een schande.”
+
+Julia Krauwer
+
+Sector Banker Technologie, Media & Telecom
+
+## Meer gelijkwaardig
+
+Alles overziend verwacht Krauwer dat de Europese Big Tech- en AI-ecosystemen de komende jaren stevig groeien. Niet met het primaire doel om volledig los te raken van Amerikaanse tech, maar wel om gelijkwaardiger te worden. ‘We bouwen aan plan B door onze eigen alternatieven te versterken. Wie durft te investeren in die onafhankelijkheid, bouwt aan de volgende generatie Europese tech. Daarbij moet je niet aannemen dat wat vijf jaar geleden werkte, nog goed genoeg is voor de komende vijf jaar. De ondernemers die dat begrijpen, zijn de winnaars van morgen. Wie zijn eigen waarden durft te koppelen aan innovatie en schaal, kan ook nú een wereldspeler worden.’
+
+Hoofdbeeld gemaakt door Jeroen Dietz
+
+## Dit zijn jouw groeikansen in 2026
+
+Van Europese subsidies en AI-integratie tot digitale weerbaarheid: de Technologie, Media en Telecomsector kent volop kansen. In deze video vertelt business banker Ronald van Gammeren waar jouw groeikansen liggen in 2026.
+
+[![
+
+Uw browser ondersteunt geen HTML video. Hier is een [link om de video te downloaden](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-original.mp4)
+
+](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-thumbnail.jpg)](https://assets.abnamro.com/api/public/content/sector-bankers-tech-media-telcom-720p.mp4)
+
+[Lees meer over een financiering voor de TMT-sector](https://www.abnamro.nl/nl/zakelijk/producten/financieren/sectoren/tmt.html)
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Interview](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/interviews/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Directie onvoldoende betrokken bij cyberveiligheid
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Cyberaanvallen kunnen bedrijfsactiviteiten lamleggen en de relatie met klanten ernstig verstoren. Cyberveiligheid is dus ‘chefsache’, ook omdat Europese wetgeving het management hiervoor verantwoordelijk maakt. Dit besef is echter nog niet volledig tot de bestuurskamers doorgedrongen, zo blijkt uit een enquête van ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties.
+
+De nieuwe Europese richtlijn NIS2 legt de eindverantwoordelijkheid voor cyberveiligheid op directieniveau neer; als deze haar verplichtingen onder deze wet niet nakomt, kunnen individuele directieleden zelfs persoonlijk aansprakelijk worden gesteld. Het grootbedrijf heeft daar echter nog een slag te maken; bij slechts 40 procent van deze ondervraagden is de directie al de eindverantwoordelijke op het gebied van cybersecurity; bij bijna evenveel bedrijven (35 procent) ligt die rol bij een interne IT- of securityspecialist. Wel bespreekt de helft van de grote bedrijven cyberveiligheid “zeer regelmatig” op directieniveau en door meer dan een derde (37 procent) “regelmatig”.
+
+## Kloof tussen directie en specialisten
+
+In vergelijking met het grootbedrijf blijken de directies van ondernemingen uit het midden- en kleinbedrijf (mkb) al iets steviger aan het stuur te zitten – mogelijk vanwege de beperktere schaal van deze bedrijven. De helft van de mkb-bedrijven (49 procent) ziet de directie als eindverantwoordelijk voor cyberveiligheid. Overigens wordt het onderwerp minder vaak op directieniveau besproken dan in het grootbedrijf; een kwart doet dit “zeer regelmatig” en ongeveer de helft “regelmatig”.
+
+Volgens Arwi van der Sluijs, algemeen directeur van cybersecuritydienstverlener NFIR, valt er nog een kloof te dichten tussen de directie enerzijds en de IT- en securityexperts anderzijds. Zo lukt het de specialisten lang niet altijd om de urgentie van bepaalde maatregelen over te brengen. “Ze moeten het niet alleen over de technische oplossing hebben, maar kunnen beter spreken in termen van concrete risico’s voor het bedrijf. Anders bestaat de kans dat een goed security-initiatief wordt afgeschoten puur op basis van de kosten.” Andersom verkeren veel directies in de onjuiste veronderstelling dat de IT- en security afdelingen met een beperkt budget volledig ‘in control’ kunnen zijn. “Als de IT-medewerkers na een cyberaanval dan het verwijt krijgen dat ze een steek hebben laten vallen, is dat heel pijnlijk.”
+
+## Papieren werkelijkheid als reactie
+
+Hoewel eigenaarschap op directieniveau essentieel is voor beter beveiligde bedrijven, brengt de NIS2-verplichting ook een nieuw soort risico met zich mee. “Ik voorzie een situatie waarin bedrijven in extreme mate gaan sturen op compliance, om maar te voorkomen dat individuele directie- en bestuursleden aansprakelijk worden gesteld voor cyberincidenten”, zegt Daan Hoogendijk, programmadirecteur van Samen Digitaal Veilig. Het platform, een samenwerkingsverband van grote brancheorganisaties, helpt bedrijven met informatie en oplossingen op het gebied van digitale veiligheid. “Er wordt dan eerder een papieren werkelijkheid gecreëerd dan dat men in de echte wereld bezig is om de cyberweerbaarheid naar een hoger plan te tillen. Het is belangrijk dat bedrijven dat risico erkennen.”
+
+Alle redenen dus dat ondernemingen zich goed wapenen tegen cyberaanvallen en het management het voortouw laten nemen. Dat kan volgens ABN AMRO in drie relatief eenvoudige stappen. De eerste is het maken van een risicoanalyse waarmee in kaart gebracht wordt welke zaken cruciaal zijn voor het blijven functioneren van de onderneming en het op orde houden van de dienstverlening. De tweede stap is het nemen van maatregelen, zoals veilig gedrag onder werknemers stimuleren, vastleggen wie de eigenaar is van bepaalde gegevens en cyberrisico’s met partners en leveranciers bespreken. Ten slotte is het essentieel om procedures te ontwikkelen waarmee de cyberincidenten kunnen worden gedetecteerd en afgehandeld.
+
+
+---
+
+# Duurzaamheid wordt bittere noodzaak voor softwarebedrijven
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Nu onze samenleving in steeds grotere mate gedigitaliseerd raakt, neemt de invloed van softwarebedrijven toe. Ze bepalen hoe we contact hebben met vrienden, wat voor informatie we tot ons nemen en hoe we ons verplaatsen. Vanwege die prominente rol worden softwarebedrijven ook met een steeds kritischer oog bekeken, door zowel burger als overheid.
+
+Sociale mediabedrijven worden onder de loep genomen vanwege de manier waarop zij verkiezingsuitslagen kunnen beïnvloeden. Technologiebedrijven komen regelmatig in het nieuws vanwege schendingen van de privacy. En al worden softwarebedrijven over het algemeen – en terecht – bejubeld vanwege de manier waarop zij zaken makkelijker maken, de valkuilen zijn legio: van algoritmes die onterecht discrimineren tot energieslurpende streamingdiensten. Ondernemers in de digitale wereld bevinden zich dan ook niet in een grenzeloze speeltuin waar enkel commerciële kansen leidend zijn, maar worden continu voor een uitdagende evenwichtsoefening gesteld waar regulering en publieke opinie de dynamiek bepalen. Daarnaast hebben zij hun eigen uitdagingen, zoals het aantrekken van personeel in een krappe arbeidsmarkt. Daarmee is duurzaamheid voor softwarebedrijven niet alleen een nobel streven, maar tevens een essentiële manier om de continuïteit en legitimiteit van hun bedrijf te waarborgen. Databescherming en AI-ethiek, diversiteit en energiezuinigheid zijn hierin drie sleutelthema’s.
+
+## Databescherming en AI-ethiek
+
+In een digitale samenleving waar dagelijks grote hoeveelheden data worden geproduceerd, verwerkt en uitgewisseld, is privacy helaas niet altijd een gegeven. Dat is een van de redenen waarom in 2018 de Algemene Verordening Gegevensbescherming (AVG) werd ingevoerd. De AVG biedt echter geen kant- en klaar afvinklijstje voor bedrijven, maar is constant in beweging. Met nieuwe technologische ontwikkelingen en uitdijende jurisprudentie krijgt de AVG steeds meer vorm. Zo zal uit een recente [rechtszaak](https://fd.nl/ondernemen/1351533/baanbrekende-zaak-over-algoritmes-uber-waarschuwing-voor-andere-bedrijven) tegen taxibedrijf Uber blijken wat ‘transparantie’ precies inhoudt in de context van besluitvorming door algoritmes. Softwarebedrijven doen er dus goed aan om nieuwe rechtszaken op het gebied van dataverwerking met aandacht te volgen.
+
+Het gebruik van data gaat tegenwoordig hand in hand met de inzet van Artificial Intelligence (AI), een set aan technologieën die (elementen van) de menselijke intelligentie nabootst en daarvoor gebruik maakt van grote hoeveelheden data. AI kan helaas ongemerkt leiden tot ongewenste discriminatie, bijvoorbeeld wanneer het in software voor personeelsselectie wordt gebruikt. De Europese Commissie betwijfelt mede daarom of de huidige AVG-wetgeving volstaat voor effectieve handhaving en bekijkt momenteel de mogelijkheden voor specifieke regulering op kunstmatige intelligentie. In 2021 komt de Commissie met een voorstel, waarin onder andere specifieke aandacht komt voor het voorkomen van discriminatie. Tot die tijd kunnen softwarebedrijven zichzelf overigens al langs de ethische meetlat leggen met de [Assessment List for Trustworthy Artificial Intelligence](https://futurium.ec.europa.eu/en/european-ai-alliance/pages/altai-assessment-list-trustworthy-artificial-intelligence).
+
+Ondanks dat het wettelijke kader op het gebied van databescherming en AI-ethiek volop in ontwikkeling is, kunnen softwarebedrijven dus wel degelijk al voorsorteren op de relevante thema’s. Dat is niet alleen belangrijk om nu en in de toekomst boetes te voorkomen, maar ook omdat softwaregebruikers hun stem duidelijk laten horen. Burgers zijn assertief wat betreft hun digitale rechten en deinzen er niet voor terug om een corrigerende tik uit te delen. Zo riepen De Consumentenbond en de Data Privacy Stichting recent mensen op om zich aan te sluiten bij een massaclaim tegen Facebook. Ook kunnen Nederlanders jaarlijks hun stem uitbrengen voor de Big Brother Award van stichting Bits of Freedom. De prijs komt toe aan de ‘privacyschender van het jaar’, iets wat altijd op de nodige media-aandacht kan rekenen. Overigens zijn mogelijke boetes en de schandpaal niet de enige stimulansen voor bedrijven om te investeren in de privacy van hun gebruikers. In een enquête van IT-netwerkbedrijf Cisco geeft maar liefst 74 procent van de bedrijven aan een significant positief effect te zien in termen van [klantloyaliteit en -vertrouwen](https://www.cisco.com/c/dam/en/us/products/collateral/security/2020-data-privacy-cybersecurity-series-jan-2020.pdf).
+
+## Diversiteit
+
+Waar aandacht voor privacy kan leiden tot trouwere klanten, kan een divers personeelsbestand leiden tot betere processen en producten. In de context van softwareontwikkeling is dat niet anders. Uit [onderzoek](https://www.researchgate.net/publication/326079170_Diversity_in_software_engineering) blijkt dat divers samengestelde teams van softwareontwikkelaars efficiënter samenwerken en meer creativiteit tonen. Het denken vanuit meerdere perspectieven kan er daarnaast voor zorgen dat digitale oplossingen beter aansluiten op de behoeften van een bredere doelgroep. Amazon stelt zelfs dat ‘[inclusive design](https://www.wherewomenwork.com/Career/1730/Amazon-solutions-architect-Suzie-Miller)’, waarin mensen met een beperking als uitgangspunt worden genomen, producten oplevert die voor iedereen beter zijn.
+
+Er is echter nog een dwingender argument voor diversiteit: de ICT-sector kampt al jaren met moeilijk vervulbare vacatures. Ook in tijden van corona is de vacaturegraad hoog: zo’n 43 vacatures per duizend banen, tegenover 24 voor alle sectoren [gemiddeld](https://www.uwv.nl/overuwv/Images/uwv-duiding-arbeidsmarktontwikkelingen-oktober-2020.pdf). Een van de oplossingen voor deze krapte ligt in het aanspreken van doelgroepen die traditioneel gezien minder goed vertegenwoordigd zijn in de ICT-sector. Zo ligt het percentage vrouwelijke softwareontwikkelaars in Nederland met slechts 8,4 procent van de totale hoeveelheid softwareontwikkelaars [bijzonder laag](https://insights.stackoverflow.com/survey/2020#demographics).
+
+Ondanks het feit dat deze onevenwichtigheid deels wordt veroorzaakt doordat vooralsnog een bescheiden hoeveelheid vrouwen kiest voor een technische opleiding, zijn softwarebedrijven hier zelf ook debet aan. Een niet-inclusieve bedrijfscultuur is een van de voornaamste [redenen](https://www.accenture.com/_acnmedia/PDF-134/Accenture-A4-GWC-Report-Final1.pdf#zoom=50) dat vrouwen technologiebedrijven verlaten. Deze masculiene cultuur – ook wel ‘brogrammer culture’ genoemd – bemoeilijkt het daarnaast om sowieso vrouwen aan te nemen doordat deze doorklinkt in het werving- en selectieproces. Vrouwen voelen zich bijvoorbeeld minder snel aangesproken door een vacature of moeten het uiteindelijk toch afleggen tegen een mannelijke kandidaat. Softwarebedrijven die zich bewust inzetten om medewerkers buiten de bekende vijver aan te trekken en te behouden, verhogen de kans op succes in een door krapte geplaagde arbeidsmarkt.
+
+## Energieverbruik
+
+Het is een kwestie van tijd voor softwarebedrijven worden betrokken in de huidige discussie over datacenters en hun energieverbruik. Nu draait deze voornamelijk om de techgiganten die hun ‘hyperscalers’ in de Nederlandse polder neerzetten en de gemeenten die daar toestemming voor geven. Softwarebedrijven zijn in dit vraagstuk echter ook een belangrijke partij. Ontwikkelaars van digitale diensten zijn immers vaak afnemer van de clouddiensten die in deze datacenters draaien. Zo leunt Netflix grotendeels op de cloud van Amazon, en maakt Zoom gebruik van de clouddiensten van Amazon, Microsoft en Oracle. Softwarebedrijven kunnen – indirect – invloed uitoefenen op het energieverbruik van datacenters door hun keuze voor een cloudprovider afhankelijk te maken van de mate waarin het datacenter gebruikmaakt van hernieuwbare energie en van de energie-efficiëntie van de faciliteit.
+
+Daarnaast kunnen ontwikkelaars hun software zó bouwen dat deze minder geheugen, dataopslag of dataverkeer vergt. Hiermee is hun invloed op het energieverbruik van datacenters dus ook van directe aard. Door bijvoorbeeld de code op te schonen en te herstructeren (‘software refactoring’) kan een softwareprogramma substantieel energiezuiniger worden. Energiezuinige software is helaas nog grotendeels onontgonnen terrein; de kennis van programmeurs op dit vlak is [beperkt](https://www.researchgate.net/publication/308789636_What_do_programmers_know_about_the_energy_consumption_of_software) en het meten van het energieverbruik van verschillende softwarecomponenten is ingewikkeld. Het vergt dus al tijdens het ontwikkelproces een duidelijke wil om de voetafdruk van de software te beperken.
+
+Dit geldt specifiek voor software die kunstmatige intelligentie gebruikt. Het trainen van de onderliggende modellen kost [veel energie](https://medium.com/pcmag-access/ai-could-save-the-world-if-it-doesnt-ruin-the-environment-first-c8cd7e0de76c), en het energieverbruik stijgt exponentieel met de laatste procenten extra ‘accuraatheid’. Zo zouden ontwikkelaars van gezichtsherkenningssoftware zichzelf de vraag kunnen stellen of die paar extra correct herkende gezichten opwegen tegen de extra energie die het kostte om het model te verbeteren. De Europese Commissie onderzoekt de mogelijkheden om energiezuinige ontwikkeling van AI te stimuleren. Wellicht komt die stimulans straks vanuit een ‘ecolabel’ voor software, een [oplossingsrichting](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7225509/) die in academische hoek wordt verkend.
+
+Softwarebedrijven opereren in een uitdagend speelveld. Niet alleen hebben zij doorlopend te maken met arbeidsmarktkrapte, ook worden aan digitale oplossingen door zowel burger als overheid steeds meer eisen gesteld. Voor deze bedrijven staan thema’s als databescherming en AI-ethiek, diversiteit en energiezuinigheid dan ook niet gelijk aan holle frasen of pogingen tot ‘greenwashing’, maar ze zijn bittere noodzaak. Het is mooi meegenomen dat investeringen op dit vlak uiteindelijk kunnen leiden tot digitale producten die beter zijn voor mens, natuur en maatschappij.
+
+*Dit artikel verscheen ook op [Emerce](https://www.emerce.nl/opinie/duurzaamheid-wordt-bittere-noodzaak-voor-softwarebedrijven).*
+
+
+---
+
+# Een cyberaanval kan grote gevolgen hebben
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Het stilvallen van bedrijfsactiviteiten, klanten die weglopen; een cyberaanval kan een onderneming grote schade toebrengen. De kosten die Nederlandse bedrijven maken als gevolg van zulke aanvallen behoren tot de hoogste in de wereld.
+
+DP World, een grote Australische havenexploitant, moest eind 2023 na een cyberaanval vier havens [sluiten](https://www.volkskrant.nl/buitenland/australische-havens-weer-open-na-cyberaanval-wel-achterstand-van-30-000-zeecontainers~bb4dfe8f/). De systemen werden van het internet afgesloten, waardoor vrachtwagens geen vracht meer konden lossen of ophalen in de havens. Dertigduizend containers strandden ter plaatse. Pas na een week was de operatie weer op het oude niveau. Eerder dit jaar werd ook de Duitse batterijfabrikant Varta [getroffen](https://www.security.nl/posting/830874/Productie+batterijfabrikant+Varta+ligt+nog+altijd+stil+wegens+cyberaanval#:~:text=De%20Duitse%20batterijfabrikant%20Varta%20is,de%20productie%20nog%20stil%20ligt) door een cyberaanval. Het bedrijf zag zich genoodzaakt om vijf fabrieken stil te leggen. Omdat ook de financiële administratie was geraakt, werd de publicatie van het jaarverslag uitgesteld. Varta’s aandelenprijs ging met bijna vijf procent omlaag. Wereldwijd heeft een [kwart](https://www.paloaltonetworks.com/content/dam/pan/en_US/assets/pdf/reports/state-of-ot-security-report-2024.pdf) van de industriële bedrijven zijn operatie wel eens moeten stopzetten vanwege een cyberaanval.
+
+## Alertheid ebt weg
+
+Ondanks dat uit onderzoek van ABN AMRO blijkt dat organisaties zich na een aanval meer bewust zijn van cyberrisico’s, is er geen garantie dat die alertheid na een geslaagde aanval van blijvende aard is, zegt Arwi van der Sluijs, algemeen directeur van cybersecuritydienstverlener NFIR. “Een half jaar na een aanval worden we dan gebeld met de vraag of de maatregelen ‘echt zo strikt’ moeten.” NFIR richt zich specifiek op de bovenkant van het midden- en kleinbedrijf, zorginstellingen, gemeentes en provinciale instellingen.
+
+In Nederland bedroegen de mediane kosten door cyberaanvallen in 2023 zo’n 21.000 dollar per bedrijf, zo rapporteert verzekeraar [Hiscox](https://www.hiscoxgroup.com/sites/group/files/documents/2023-10/Hiscox-Cyber-Readiness-Report-2023.pdf). Hiermee staat ons land wereldwijd op nummer twee wat betreft hoogste financiële schade door cybercriminaliteit, achter het Verenigd Koninkrijk en vlak voor de Verenigde Staten.
+
+## Schade door cyberaanvallen komt in vele vormen
+
+Verzekeraar Hiscox werpt in zijn jaarlijks uitkomende [Cyber Readiness Report](https://www.hiscoxgroup.com/sites/group/files/documents/2023-10/Hiscox-Cyber-Readiness-Report-2023.pdf) licht op de verschillende negatieve gevolgen die bedrijven hebben ervaren door een cyberaanval. Het meest gemeld in 2023 waren kosten voor het op de hoogte stellen van klanten (31 procent van de getroffen bedrijven), gevolgd door gelekte data van partners (26 procent).
+
+Opvallend is dat dit laatste percentage ten opzichte van het vorige jaar met maar liefst vier procentpunt is toegenomen – een bevestiging van het feit dat cyberrisico’s zich niet enkel beperken tot de eigen bedrijfsvoering. Bij 16 procent van de bedrijven heeft dit soort incidenten zelfs tot het verlies van partners geleid.
+
+Een kwart van de organisaties meldde negatieve gevolgen voor het merk of de bedrijfsreputatie; bij ongeveer een vijfde liepen klanten weg, of werden moeilijkheden ervaren met het aantrekken van nieuwe klanten. Ook zagen veel bedrijven hun prestaties verslechteren (24 procent); bij 21 procent was er zelfs sprake van een bedreiging van de levensvatbaarheid van de organisatie.
+
+## Maatregelen om risico’s te verkleinen
+
+Ondernemers doen er goed aan om zich te wapenen tegen cyberaanvallen. Dat kan in drie relatief eenvoudige stappen. De eerste is het maken van een risicoanalyse waarmee in kaart gebracht wordt welke zaken cruciaal zijn voor het blijven functioneren van de onderneming en het op orde houden van de dienstverlening. De tweede stap is het nemen van maatregelen, zoals veilig gedrag onder werknemers stimuleren, vastleggen wie de eigenaar is van bepaalde gegevens en cyberrisico’s met partners en leveranciers bespreken. Ten slotte is het essentieel om procedures te ontwikkelen waarmee de cyberincidenten kunnen worden gedetecteerd en afgehandeld.
+
+
+---
+
+# Eigen chip-industrie is voor Europa nog ver weg
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Zonder halfgeleiders ligt de digitale economie stil. Juist op dit terrein blijkt Europa kwetsbaar. De productie is grotendeels uitbesteed aan Aziatische foundries, en ook het ontwerp van geavanceerde chips ligt grotendeels buiten Europa. De Europese Chips Act moest dat tij keren, maar stuit op een complexe realiteit.
+
+In de chipsector leunt Europa zwaar op buitenlandse productiecapaciteit. Slechts 6 procent van de wereldwijde chipproductie vindt plaats in Europa en het Midden-Oosten. Azië neemt meer dan 80 procent van de productie voor zijn rekening. De Verenigde Staten levert 8 procent van alle chips, maar heeft wel de meeste grip op ontwerp, patenten en software. Europa mist die controle. De meeste chips die hier worden gemaakt, zijn relatief eenvoudig: voor auto’s, huishoudelijke apparaten en industriële toepassingen. Geavanceerde chips – nodig voor smartphones, AI of militaire technologie – komen vooral uit Taiwan en Zuid-Korea.
+
+## Grote afhankelijkheden ondanks sterke lokale spelers
+
+ASML is Europa’s troefkaart. Het bedrijf uit Veldhoven is het enige ter wereld dat machines levert voor ‘extreme ultraviolet lithografie’ (EUV), de technologie waarmee de meest geavanceerde chips worden gemaakt. Maar ASML levert aan de wereld, niet alleen aan Europa.
+
+Duitsland heeft met Infineon en Bosch sterke posities in vermogenselektronica; chips die elektrische energie efficiënt schakelen en regelen, bijvoorbeeld in auto’s en zonnepanelen. Spelers als het Nederlandse NXP en het Frans-Zwitserse STMicroelectronics focussen op ‘embedded chips’. Dit zijn microchips die ingebouwd zijn in apparaten of voertuigen om één specifieke taak uit te voeren, zoals het aansturen van een motor of het uitlezen van een sensor. Voor de meest geavanceerde chips heeft Europa geen fabrieken en is het afhankelijk van met name Taiwan en Zuid-Korea.
+
+Het Draghi-rapport uit 2024 noemt het gebrek aan productiecapaciteit een strategisch risico. Taiwan, waar ’s werelds grootste chipfabrikant TSMC is gevestigd, wordt door China beschouwd als een afvallige provincie en leeft al jaren onder dreiging van een militaire inlijving. In een crisis kan de toevoer van chips abrupt stoppen. Zelfs in segmenten waarin Europa traditioneel sterk is, zoals autochips, blijkt de kwetsbaarheid groot. Zo kwamen tijdens de coronapandemie autofabrieken stil te liggen door een tekort aan eenvoudige chips. Grote Europese chipbedrijven zijn grotendeels afhankelijk van ‘foundries’ in Azië. Daar zijn automerken relatief kleine klanten, waardoor ze lager op de prioriteitenlijst stonden toen de vraag na de eerste lockdowns terugkeerde.
+
+## Chips als prioriteit in Brussel
+
+Met de European Chips Act zette Europa in 2023 een eerste stap om zijn afhankelijkheid op het gebied van halfgeleiders verminderen. Met 43 miljard euro aan publieke en private investeringen wil Europa het eigen marktaandeel in chipproductie verdubbelen tot 20 procent in 2030. Enerzijds probeert Europa de achterstand op het gebied van geavanceerde chips in te lopen, anderzijds wil het zijn bestaande sterkte op het gebied van eenvoudiger chips verder uitbouwen.
+
+In die tweede categorie lopen de nodige initiatieven. Lokale kampioen STMicroelectronics breidt zijn productie uit, onder meer door de bouw van een nieuwe fabriek in Italië. In Dresden komt een fabriek van het Taiwanese TSMC in samenwerking met Europese spelers Bosch, Infineon en NXP. De productie van geavanceerde chips is daarentegen nog niet van de grond gekomen. De geplande megafabriek van GlobalFoundries en STMicroelectronics in Frankrijk is stilgelegd, en de bouw van Intels geavanceerde fabriek in Duitsland is vooruitgeschoven naar 2029.
+
+## Chip Act 2.0
+
+Omdat de Chips Act onderaan de streep dus nog niet voldoende heeft opgeleverd, beraadt de Europese Commissie zich op een ‘Chips Act 2.0’. De chipindustrie ziet heil in een programma waarin de gehele keten wordt ondersteund, van ontwerp en materiaal tot machines en fabrieken. Vanuit het Europees Parlement klinkt de roep om investeringen in AI-chips, maar de industrie zelf pleit ervoor om ook de oudere chiptechnologie te blijven stutten, zodat ook de chips voor auto’s, machines en stroomnetten uit Europa kunnen komen. Voor de zomer zal het nieuwe programma worden gepresenteerd.
+
+De weg naar strategische autonomie in chips is weerbarstig. De toeleveringsketen is wereldwijd vertakt en zeer kapitaalintensief. Nieuwe fabrieken kosten tientallen miljarden en worden pas na jaren operationeel. De herziening van de Chips Act markeert de ambitie voor een serieuze koerswijziging. Europa hoeft niet alles zelf te kunnen – iets wat sowieso onmogelijk is – maar wel genoeg om bij geopolitieke schokken niet machteloos toe te kijken.
+
+[Lees ook: Europa zet in op technologische zelfredzaamheid](/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-zet-in-op-technologische-zelfredzaamheid.html)
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industrie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Energiereductie is een zaak van de hele cloud-keten
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Niet alleen datacenters moeten zich bekommeren om het terugdringen van uitstoot en energiegebruik. Eigenlijk zou de hele keten verantwoordelijkheid moeten nemen voor een groener digitaal landschap.
+
+Via smartphone, laptop en tv consumeren we digitale diensten dat het een lieve lust is. Een groot deel van die diensten draait vanuit de cloud, of concreter: op servers die in veelal grootschalige datacenters zijn ondergebracht. Met hun prominente plaats in het landschap en substantiële elektriciteitsverbruik onderstrepen datacenters dat wat we eigenlijk al wisten: de digitale economie draait niet op lucht.
+
+Als weinig romantische belichaming van onze digitale economie zijn datacenters dan ook regelmatig onderwerp van discussie. Hoeveel datacenters kan en wil een klein land als Nederland herbergen? Halen we onze doelstellingen uit het Klimaatakkoord wanneer we tegelijkertijd een Europees knooppunt voor dataverkeer willen zijn? Tegelijkertijd is het hoopgevend en motiverend om te zien welke stappen op dit moment al door de gehele ICT-keten worden gezet om het uiteindelijke energieverbruik door de cloud naar beneden te brengen. Kansen liggen in het datacenter zelf, de servers die daar worden gehuisvest, en de digitale diensten die op deze servers draaien.
+
+Dat in ieder geval een deel van die kansen al wordt benut, bewijst de sterk toegenomen efficiëntie van datacenters. Het stroomverbruik van datacenters nam in de periode 2010-2018 wereldwijd met slechts zes procent toe, terwijl het dataverkeer naar- en van datacenters vertienvoudigde en de dataopslagcapaciteit met een factor [25 steeg](https://www.gwern.net/docs/cs/2020-masanet.pdf). Door toegenomen schaal en de inzet van innovatieve, minder energie-intensieve koelingstechnieken houden datacenters het energieverbruik zelf bovendien goed in de hand. Het is in theorie zelfs mogelijk om de voor koeling benodigde elektriciteit volledig te genereren uit restwarmte van het datacenter zelf. Zo’n volledig circulaire constructie is helaas nog toekomstmuziek, al wordt restwarmte al regelmatig extern ingezet, bijvoorbeeld voor verwarming van een zwembad of appartementencomplex.
+
+Ook de eigenaar van de server draagt bij aan de relatief langzame stijging in energieverbruik. Dit kan een hostingbedrijf zijn dat ruimte in een datacenter huurt, of een partij die tevens eigenaar is van het datacenter zelf, zoals grote cloud dienstverleners als Microsoft en Google, of bedrijven met een eigen IT-infrastructuur. Het gebruik van nieuwere modellen levert vaak al winst op in termen van verhoogde capaciteit en verminderd energiegebruik. Naast vervanging van de hardware kan ook slim gebruik ervan het elektriciteitsverbruik verminderen. Zo verbruiken weinig- of ongebruikte servers verhoudingsgewijs veel stroom. Energiegebruik kan in zo’n geval worden beperkt door de ‘ecomodus’ aan te zetten. Het gebruik van deze (tijdelijke) slaapstand leverde bij KPN een [energiereductie](https://amsterdameconomicboard.com/nieuws/eco-mode-bespaart-extra-energie) van 7 procent op en had geen merkbare invloed op de prestaties van de desbetreffende servers. Tot slot loont het om het aantal servers naar beneden te brengen en het gebruik ervan op te schroeven. Dit kan door middel van virtualisatie. Eén fysieke server krijgt dan meerdere virtuele representaties en kan door meerdere partijen tegelijkertijd worden gebruikt.
+
+Datacenters en hun servers staan er uiteraard niet voor de sier: ze herbergen de websites die we bezoeken, geven ons toegang tot softwareapplicaties als Word en Netflix, en bieden ruimte aan onze kostbare foto’s. Daarmee doen we dagelijks een beroep op servers in de cloud en stuwen we het elektriciteitsverbruik van datacenters. Het is onwaarschijnlijk dat gebruikers hierom zullen stoppen met het gebruik van deze clouddiensten, ze voorzien immers in een behoefte. Wel kunnen website- en softwareontwikkelaars ingrepen doen om de hoeveelheid geheugen, dataverkeer of rekenkracht die hun product vereist omlaag te brengen. De CO₂-voetafdruk van websites is al gemakkelijk in te zien via de [Website Carbon Calculator](https://www.websitecarbon.com/) en er bestaan verschillende methodes om deze voetafdruk te verkleinen. Ondanks dat de academische wereld moeite doet om een set aan bewezen methodes en richtlijnen te ontwikkelen, is energiebewust programmeren voor veel softwareontwikkelaars helaas een nog [relatief onbekend fenomeen](https://www.researchgate.net/publication/308789636_What_do_programmers_know_about_the_energy_consumption_of_software).
+
+Websites, software en data hebben op het eerste gezicht geen andere verschijningsvorm dan de pixels op het scherm van onze telefoon, laptop of tv. Dat maakt de link tussen de digitale diensten die we afnemen en het bijbehorende energieverbruik minder evident. Toch is er een andere, meer in het oog springende verschijningsvorm die de gemoederen blijft bezighouden: de datacenters die in de polder verrijzen. Deze complexen zijn het bewijs dat onze digitale activiteiten wel degelijk een voetafdruk hebben, en hun overheersende aanwezigheid zou een stimulans moeten zijn voor alle partijen in de ICT-keten om een steentje bij te dragen.
+
+*Deze column verscheen eerder op [Emerce](https://www.emerce.nl/achtergrond/energiereductie-is-een-zaak-van-de-hele-cloud-keten).*
+
+## Over de auteur
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer.html "Over de auteur - Julia Krauwer") is sector banker TMT (Technologie, Media & Telecom) bij ABN AMRO. Zij houdt zich dagelijks bezig met de impact van technologie op bedrijfsmodellen.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Energie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/energie/index.html)
+
+[Duurzaamheid](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaamheid.html)
+
+
+---
+
+# Europa wil meedoen in de AI-race
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Europa wil grip krijgen op kunstmatige intelligentie, maar is nog geen serieuze tegenstander in de wereldwijde AI-race. De meeste rekenkracht, investeringen en toonaangevende bedrijven zitten in de Verenigde Staten of China. Toch ontstaan er ook in Europa initiatieven om terrein terug te winnen, met eigen infrastructuur, investeringen en AI-startups die uitblinken in niches.
+
+Europese AI-startups halen veel minder kapitaal op dan hun Amerikaanse concurrenten. In 2024 ging zo’n 90 miljard dollar naar Amerikaanse AI-startups en -scale-ups, zo blijkt uit gegevens van Dealroom. In Europa bleef dat bedrag steken op nog geen 16 miljard. Volgens Maarten Cleeren van Techleap is dat problematisch. “Over tien jaar is er geen bedrijf meer dat geen AI gebruikt. Als we geen geld steken in de tech-bedrijven die dit ondersteunen, hebben we een probleem.”
+
+## Enorme investeringen
+
+Vooralsnog vissen Europese AI-startups dus in een veel kleinere vijver qua financiering en groeien ze minder snel uit tot zwaargewichten. De investeringen die zulke AI-zwaargewichten op hun beurt doen, zijn niet van de lucht. Het Amerikaanse OpenAI, bekend van de slimme chatbot ChatGPT, verenigde zich begin dit jaar met landgenoot Oracle en het Japanse SoftBank onder de naam Stargate. In deze joint venture gaan de technologiebedrijven de komende jaren minimaal 500 miljard dollar investeren in AI-infrastructuur.
+
+Dat het aandeel van China in de wereldwijde AI-investeringen relatief laag uitvalt, komt vooral doordat innovatie daar grotendeels wordt gedragen door grote technologiebedrijven als Baidu, Tencent en Alibaba, die nauw samenwerken met de overheid. Door beperkte transparantie op de kapitaalmarkt blijven veel investeringen daarnaast buiten beeld.
+
+De resultaten van China’s inspanningen krijgen echter steeds meer aandacht. Zo lanceerde de Chinese startup Butterfly Effect onlangs de AI-agent [Manus](https://www.businessinsider.com/manus-ai-china-agent-hype-deepseek-2025-3?international=true&r=US&IR=T#:~:text=,others%20are%20calling%20it%20overhyped), die complexe taken van begin tot eind uitvoert met minimale menselijke input. Het AI-model DeepSeek oogstte eind 2024 verbazing doordat het met veel minder rekenkracht was ontwikkeld, maar wel resultaten boekte vergelijkbaar met de bekende taalmodellen van onder andere OpenAI en Meta. Daarmee is de AI-race niet alleen een wedstrijd tussen Amerikaanse tech-giganten, maar eerder een wereldwijde wedloop met de Verenigde Staten en China als middelpunt. Het is Europa vooralsnog niet gelukt om in deze race een serieuze positie te verwerven.
+
+## Kritiek op AI-wetgeving
+
+De in maart 2024 aangenomen AI Act van de Europese Commissie is ’s werelds eerste uitgebreide wetgevingspakket voor kunstmatige intelligentie. De verordening legt strenge eisen op aan zogeheten hoogrisico-toepassingen en stuit op weerstand in delen van de tech-sector. “Potentially disastrous”, noemde branchevereniging EU Tech Chamber de AI Act; de regels zouden “stringente verplichtingen” opleggen die innovatie [verstikken](https://www.euronews.com/next/2023/12/15/potentially-disastrous-for-innovation-tech-sector-says-eu-ai-act-goes-too-far#:~:text=%27Potentially%20disastrous%27%3A%20Tech%20sector%20says,that%20underpin%20many%20downstream).
+
+Sommige AI-ondernemers vrezen hoge compliance-kosten en juridische onduidelijkheid. “Founders weten niet precies waar de grenzen liggen”, zegt Cleeren van Techleap. “Bedrijven zullen terughoudend zijn bepaalde AI-functies op de Europese markt te brengen, die wel in de Verenigde Staten worden gelanceerd.”
+
+## Investeren in AI-fabrieken
+
+Toch doet Europa nu een poging om terrein te winnen. In februari 2025 lanceerde de Europese Commissie het InvestAI-initiatief, bedoeld om 200 miljard euro aan investeringen in kunstmatige intelligentie los te trekken. Op 10 april werd het AI Continent Plan gepresenteerd, waarin dertien ‘AI-fabrieken’ en zelfs vijf ‘giga-fabrieken’ staan opgenomen. Met deze faciliteiten wordt hoogwaardige infrastructuur beschikbaar gemaakt voor het trainen van grote modellen.
+
+Ook vanuit technologiebedrijven is er volop initiatief. De Iliad Group, een Frans tech- en telecomconglomeraat, kondigde in februari een investering aan van 3 miljard euro in soevereine AI-infrastructuur. Het investeert in de grote datacenters van dochterbedrijf OpCore en bedient via cloudbedrijf Scaleway de markt met AI-rekenkracht. Mistral, een Frans bedrijf dat zelf geavanceerde AI-modellen ontwikkelt, is een van de klanten van Scaleway. Frankrijk wil een belangrijke hub voor kunstmatige intelligentie worden.
+
+## Plek binnen de waardeketen
+
+Een analyse van consultant McKinsey laat zien dat Europa binnen [verschillende schakels](https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/time%20to%20place%20our%20bets%20europes%20ai%20opportunity/time-to-place-our-bets-europes-ai-opportunity.pdf) van de AI-waardeketen een belangrijke plek heeft verworven. Dat geldt bijvoorbeeld voor de machines waarmee geavanceerde chips worden gemaakt, waarin het Eindhovense ASML praktisch een monopolie heeft. Ook de IT-dienstverleners, waaronder Capgemini, Ordina en Tietoevry, die bedrijven helpen om AI in hun processen in te bedden, hebben een relatief groot marktaandeel. Hoewel Europa achterligt met de ontwikkeling van de zogenoemde foundation models – de AI-modellen die zijn getraind op enorme hoeveelheden data en op basis daarvan nieuwe content kunnen produceren – is het marktaandeel van Europa volgens de consultant groeiende. Hetzelfde geldt voor de applicaties die op basis van deze modellen worden ontwikkeld.
+
+In Nederland ziet Cleeren van Techleap eveneens hoe AI-bedrijven op specifieke onderdelen uitblinken en daardoor een belangrijke positie verwerven binnen de waardeketen. “Weaviate gebruikt AI om informatie te vinden en te begrijpen op basis van wat je bedoelt, niet alleen wat je typt,” vertelt hij. “En Deeploy is een platform dat bedrijven helpt met een verantwoorde implementatie van AI.”
+
+Europa doet mee aan de ontwikkeling van foundation models, maar de grootste spelers zitten in de VS en China. Het Europese potentieel ligt nu vooral in gespecialiseerde toepassingen, verantwoord gebruik van AI en een groeiend netwerk van startups en infrastructuurprojecten. Met initiatieven als INvestAI en de opkomst van bedrijven als Mistral wordt een basis gelegd, al blijft de weg naar een gelijkwaardig speelveld lang.
+
+[Lees ook: Europa zet in op technologische zelfredzaamheid](/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-zet-in-op-technologische-zelfredzaamheid.html)
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industrie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Europa zet in op technologische zelfredzaamheid
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Na jaren van achterstand ten opzichte van tech-giganten uit de Verenigde Staten en China, zet de Europese Unie in op ‘digitale soevereiniteit’. Dat betekent: minder afhankelijk zijn van buitenlandse technologie door te investeren in een bloeiend eigen tech-ecosysteem. De weg is nog lang, maar er zijn hoopgevende signalen.
+
+Eind maart overlegden dertien Europese ministers over digitalisering en de tech-sector. Een belangrijk onderwerp was de digitale autonomie van Europa, of beter gezegd: het gebrek eraan, dat men sinds het aantreden van president Trump als een grotere kwetsbaarheid is gaan zien. Vooral op vier fronten klinkt de roep om digitale zelfstandigheid luider: de cloud, kunstmatige intelligentie, het vestigingsklimaat voor jonge technologiebedrijven en de chipindustrie.
+
+Tijdens het topoverleg besloten de ministers onder meer om de Europese chipwet versneld te herzien – eerder gepland voor 2026 – om sneller te kunnen investeren in de halfgeleidersector en minder afhankelijk te zijn van Aziatische leveranciers. Strategische technologieën zoals chips, artificial intelligence (AI), en cloud moeten volgens de ministers daarnaast in onderlinge samenhang worden aangepakt. Ook pleiten ze voor grotere publieke opdrachten waarmee lokale spelers kunnen opschalen.
+
+## Cloudmarkt gedomineerd door Amerikaanse spelers
+
+Een meerderheid van de Europese overheden en bedrijven draait op cloud-infrastructuur van Amerikaanse herkomst: Amazon Web Services, Microsoft Azure en Google Cloud. Samen controleren deze partijen zo’n 70 tot 80 procent van de Europese [cloud-markt](https://sciencebusiness.net/news/ict/new-franco-german-cloud-computing-project-set-standards-and-challenge-us-market-leaders#:~:text=However%2C%20with%20almost%2070%20per,for%20Cyber%20Studies%20%26%20Research). De rest is versnipperd over tientallen kleinere aanbieders, waaronder Europese partijen zoals SAP, Deutsche Telekom, OVHcloud en Orange. Geen enkele Europese speler haalt echter meer dan een paar procent marktaandeel. SAP en Deutsche Telekom voeren de Europese ranglijst aan met elk slechts [2 procent van de markt](https://www.srgresearch.com/articles/european-cloud-providers-continue-to-grow-but-still-lose-market-share#:~:text=been%20Amazon%2C%20Microsoft%20and%20Google,list%20of%20national%20and%20regional).
+
+Ook de Nederlandse overheid blijkt sterk afhankelijk te zijn van de clouddiensten van de Amerikaanse tech-giganten. Bijna de helft (44 procent) van de clouddiensten die de overheid gebruikt, valt in de categorie ‘public cloud’ en leunt dus op de infrastructuur van deze partijen. Een risicobeoordeling is in veel gevallen niet gedaan, zo blijkt uit een recent rapport van de Algemene Rekenkamer met de onheilspellende ondertitel 'Donkere wolken pakken samen'. Volgens Simon Besteman van branchevereniging Dutch Cloud Community zijn de risico’s substantieel. “Als je data in een datacenter van een cloudprovider met een Amerikaanse UBO staan, dan kan de Amerikaanse overheid erbij. Het maakt dan geen donder uit als het datacenter in Europa staat.”
+
+De branchevereniging waarschuwt dat technologische afhankelijkheid landen en bedrijven in een benarde positie kan brengen, zeker als geopolitieke verhoudingen verslechteren. Zo werd Amsterdam Trade Bank (ATB), een dochter van het Russische Alfa Bank, na de invasie van Oekraïne afgesloten van IT-diensten door Amazon en Microsoft, met grote verstoringen tot gevolg: medewerkers raakten hun toegang tot applicaties en e-mail kwijt, digitale betalingen kwamen stil te liggen. Het voedt de vrees voor een scenario waarin Amerikaanse tech-bedrijven hun dienstverlening aan Europa staken als de politieke druk oploopt. “Als de Verenigde Staten ons onder druk willen zetten, dan kan dit via IT”, zegt Besteman.
+
+De Amerikaanse clouds zijn de afgelopen jaren gestaag gegroeid, zelfs sneller dan de lokale aanbieders. Synergy Research berekende dat tussen 2017 en 2022 de Europese cloud-markt vijfmaal groter is geworden, maar het gezamenlijke [marktaandeel](https://www.srgresearch.com/articles/european-cloud-providers-continue-to-grow-but-still-lose-market-share#:~:text=New%20data%20from%20Synergy%20Research,and%20Deutsche%20Telekom%20are%20the) van Europese providers daalde van 27 procent naar 13 procent. Amazon, Microsoft en Google investeren ieder kwartaal miljarden in nieuwe Europese datacenters.
+
+Europese aanbieders trekken zich daarom terug op niches: ze bedienen specifieke lokale behoeften of treden op als partner van de grote drie in hybride constructies. Zo levert het Franse OVHcloud clouddiensten die voldoen aan strenge Europese regelgeving. In sommige gevallen combineren organisaties deze diensten met die van Amazon Web Services of Microsoft Azure, zodat ze kunnen profiteren van de schaal en functionaliteit van Amerikaanse platforms, terwijl gevoelige gegevens binnen Europa blijven en onder Europese regels vallen.
+
+De dominantie van Amerikaanse cloudproviders strekt zich overigens uit tot de ruggengraat van artificial intelligence: de geavanceerde servers waarop AI-modellen worden getraind en draaien. De Verenigde Staten beschikt over zo’n [70 procent](https://geopolitique.eu/en/2025/02/10/financing-infrastructure-for-a-competitive-european-ai/#:~:text=A%20risk%20of%20strategic%20dependence,higher%20than%20in%20the%20US.) van deze wereldwijde rekenkracht voor AI, waarvan het overgrote deel – 80 procent – in handen is van de hyperscalers. Europa moet het doen met slechts 4 procent van de wereldwijde capaciteit.
+
+## Europa als hekkensluiter in de AI-race
+
+Deze scheve verdeling is tekenend voor de positie van Europa in de bredere AI-race. Zo halen Europese AI-startups veel minder kapitaal op dan hun Amerikaanse concurrenten. In 2024 ging zo’n 90 miljard dollar naar Amerikaanse AI-startups en -scale-ups, zo blijkt uit gegevens van Dealroom. In Europa bleef dat bedrag steken op nog geen 16 miljard. Volgens Maarten Cleeren van Techleap is dat problematisch. “Over tien jaar is er geen bedrijf meer dat geen AI gebruikt. Als we geen geld steken in de tech-bedrijven die dit ondersteunen, hebben we een probleem.”
+
+Vooralsnog vissen Europese AI-startups dus in een veel kleinere vijver qua financiering en groeien ze minder snel uit tot zwaargewichten. De investeringen die zulke AI-zwaargewichten op hun beurt doen, zijn niet van de lucht. Het Amerikaanse OpenAI, bekend van de slimme chatbot ChatGPT, verenigde zich begin dit jaar met landgenoot Oracle en het Japanse SoftBank onder de naam Stargate. In deze joint venture gaan de technologiebedrijven de komende jaren minimaal 500 miljard dollar investeren in AI-infrastructuur.
+
+Dat het aandeel van China in de wereldwijde AI-investeringen relatief laag uitvalt, komt vooral doordat innovatie daar grotendeels wordt gedragen door grote technologiebedrijven als Baidu, Tencent en Alibaba, die nauw samenwerken met de overheid. Door beperkte transparantie op de kapitaalmarkt blijven veel investeringen daarnaast buiten beeld.
+
+De resultaten van China’s inspanningen krijgen echter steeds meer aandacht. Zo lanceerde de Chinese startup Butterfly Effect onlangs de AI-agent [Manus](https://www.businessinsider.com/manus-ai-china-agent-hype-deepseek-2025-3?international=true&r=US&IR=T#:~:text=,others%20are%20calling%20it%20overhyped), die complexe taken van begin tot eind uitvoert met minimale menselijke input. Het AI-model DeepSeek oogstte eind 2024 verbazing doordat het met veel minder rekenkracht was ontwikkeld, maar wel resultaten boekte vergelijkbaar met de bekende taalmodellen van onder andere OpenAI en Meta. Daarmee is de AI-race niet alleen een wedstrijd tussen Amerikaanse tech-giganten, maar eerder een wereldwijde wedloop met de Verenigde Staten en China als middelpunt. Het is Europa vooralsnog niet gelukt om in deze race een serieuze positie te verwerven.
+
+De in maart 2024 aangenomen AI Act van de Europese Commissie is ’s werelds eerste uitgebreide wetgevingspakket voor kunstmatige intelligentie. De verordening legt strenge eisen op aan zogeheten hoogrisico-toepassingen en stuit op weerstand in delen van de tech-sector. “Potentially disastrous”, noemde branchevereniging EU Tech Chamber de AI Act; de regels zouden “stringente verplichtingen” opleggen die innovatie [verstikken](https://www.euronews.com/next/2023/12/15/potentially-disastrous-for-innovation-tech-sector-says-eu-ai-act-goes-too-far#:~:text=%27Potentially%20disastrous%27%3A%20Tech%20sector%20says,that%20underpin%20many%20downstream). Sommige AI-ondernemers vrezen hoge compliance-kosten en juridische onduidelijkheid. “Founders weten niet precies waar de grenzen liggen”, zegt Cleeren van Techleap. “Bedrijven zullen terughoudend zijn bepaalde AI-functies op de Europese markt te brengen, die wel in de Verenigde Staten worden gelanceerd.”
+
+## Europese tech-startups ervaren veel barrières
+
+Die onzekerheid staat niet op zichzelf. Europa staat bekend om zijn sterke regelgeving, maar voor snelgroeiende technologiebedrijven werkt die zelden in het voordeel. Startups die willen opschalen stuiten op 27 nationale belastingstelsels, arbeidswetten en insolventieregels. Elk land heeft zijn eigen interpretatie van winstbelasting, aandeelhoudersstructuren en ontslagrecht — iets wat snelle internationale groei belemmert. Volgens het [State of European Tech-rapport](https://www.investeurope.eu/media/g3yobbcs/soet2024_report.pdf) ziet 47 procent van de founders en investeerders regelgeving en beleidsvorming als belangrijke barrière voor groei.
+
+Een andere veelgenoemde frustratie is de beperkte toegang tot groeikapitaal. Sinds 2015 haalden Europese startups in de groeifase zo’n 300 miljard dollar op, maar dat had volgens de auteurs van het rapport het dubbele kunnen zijn als ze even gemakkelijk grote rondes konden sluiten als in de VS. Europese bedrijven komen wel door de eerste financieringsrondes, maar vallen terug bij investeringen vanaf 15 miljoen dollar: slechts 4,1 procent haalt die drempel, tegenover 8,3 procent in de VS. Een van de oorzaken is het gebrek aan diepe kapitaalbuffers. Europese pensioenfondsen investeren bijvoorbeeld slechts 0,01 procent van hun vermogen in wereldwijd durfkapitaal, ruim drie keer minder dan hun Amerikaanse tegenhangers. Daardoor blijft het voor Europese startups lastig om op te schalen tot het soort tech-bedrijven dat de digitale autonomie stut.
+
+## Europa leunt zwaar op buitenlandse chipproductie
+
+Maar zonder fysieke industrie is kapitaal niet genoeg. Dat blijkt pijnlijk duidelijk in de chipsector, waar Europa zwaar leunt op buitenlandse productiecapaciteit. Slechts 6 procent van de wereldwijde chipproductie vindt plaats in Europa en het Midden-Oosten. Azië neemt meer dan 80 procent van de productie voor zijn rekening. De Verenigde Staten levert 8 procent van alle chips, maar heeft wel de meeste grip op ontwerp, patenten en software. Europa mist die controle. De meeste chips die hier worden gemaakt, zijn relatief eenvoudig: voor auto’s, huishoudelijke apparaten en industriële toepassingen. Geavanceerde chips – nodig voor smartphones, AI of militaire technologie – komen vooral uit Taiwan en Zuid-Korea.
+
+ASML is Europa’s troefkaart. Het bedrijf uit Veldhoven is het enige ter wereld dat machines levert voor ‘extreme ultraviolet lithografie’ (EUV), de technologie waarmee de meest geavanceerde chips worden gemaakt. Maar ASML levert aan de wereld, niet alleen aan Europa. Duitsland heeft met Infineon en Bosch sterke posities in vermogenselektronica; chips die elektrische energie efficiënt schakelen en regelen, bijvoorbeeld in auto’s en zonnepanelen. Spelers als het Nederlandse NXP en het Frans-Zwitserse STMicroelectronics focussen op ‘embedded chips’. Dit zijn microchips die ingebouwd zijn in apparaten of voertuigen om één specifieke taak uit te voeren, zoals het aansturen van een motor of het uitlezen van een sensor. Voor de meest geavanceerde chips heeft Europa geen fabrieken en is het afhankelijk van met name Taiwan en Zuid-Korea.
+
+Het Draghi-rapport uit 2024 noemt het gebrek aan productiecapaciteit een strategisch risico. Taiwan, waar ’s werelds grootste chipfabrikant TSMC is gevestigd, wordt door China beschouwd als een afvallige provincie en leeft al jaren onder dreiging van een militaire inlijving. In een crisis kan de toevoer van chips abrupt stoppen. Zelfs in segmenten waarin Europa traditioneel sterk is, zoals autochips, blijkt de kwetsbaarheid groot. Zo kwamen tijdens de coronapandemie autofabrieken stil te liggen door een tekort aan eenvoudige chips. Grote Europese chipbedrijven – zoals NXP, Infineon en STMicroelectronics – ontwerpen deze wel, maar laten ze grotendeels produceren bij ‘foundries’ in Azië. Daar zijn automerken relatief kleine klanten, waardoor ze lager op de prioriteitenlijst stonden toen de vraag na de eerste lockdowns terugkeerde.
+
+## Noodzaak voor eigen cloud-oplossingen wordt gevoeld
+
+Toch is er beweging. Op meerdere fronten groeit binnen Europa het besef dat technologische autonomie alleen haalbaar is met stevige investeringen, slimme regelgeving en lokale alternatieven. “Bij de Nederlandse overheid is niet meer de vraag of we de afhankelijkheid van Amerikaanse cloudbedrijven moeten terugdringen, maar hoe”, zegt Besteman van de Dutch Cloud Community. De Tweede Kamer nam recent een motie aan die de overheid oproept tot een aanbesteding voor een “rijks-cloud in volledig Nederlands beheer”.
+
+Besteman verwacht niet dat zo’n overheids-cloud er van de ene op de andere dag zal staan, maar een dergelijk voornemen kan de lokale cloud-markt wel in beweging brengen. “Wil je dat Europese cloud-aanbieders verder investeren in hun dienstverlening, dan moet er eerst een koopsignaal komen.” Gelijksoortige discussies spelen nu ook in het bedrijfsleven, ziet Besteman. “Daar buigen ze zich ook over de vraag hoe veilig hun data eigenlijk zijn, en wat een plan B kan zijn, een exitstrategie.”
+
+Vanuit Europa wordt niet zozeer ingezet op één alternatieve cloud-oplossing die zich qua schaal kan meten met Microsoft Azure of Amazon Web Services, maar een netwerk van aanbieders waaronder gemakkelijk data en workloads kunnen worden verplaatst en verdeeld. ECOFED is een voorbeeld van zo’n ‘federatieve cloud’. Het Nederlandse project ontwikkelt een oplossing waarmee software en de fysieke cloud-infrastructuur van elkaar kunnen worden losgekoppeld, wat gebruikers meer vrijheid geeft bij het kiezen en combineren van clouddiensten.
+
+Het Nederlandse LeaseWeb laat ook luid van zich horen. In maart presenteerde de cloudprovider de eerste resultaten van zijn bijdrage aan het IPCEI-CIS-project – hetzelfde initiatief waar ook ECOFED onder valt. Het bedrijf bouwt aan een cloud-platform dat speciaal is ontworpen om te voldoen aan Europese wet- en regelgeving. Het platform vormt het hart van LeaseWebs zogeheten European Cloud Campus – een bredere investering in soevereine cloud-technologie, lokale datacenters en samenwerking met kennisinstellingen.
+
+## Investeren in AI-fabrieken
+
+Ook op het gebied van kunstmatige intelligentie probeert Europa terrein te winnen. In februari 2025 lanceerde de Europese Commissie het InvestAI-initiatief, bedoeld om 200 miljard euro aan investeringen in kunstmatige intelligentie los te trekken. Op 10 april werd het AI Continent Plan gepresenteerd, waarin dertien ‘AI-fabrieken’ en zelfs vijf ‘giga-fabrieken’ staan opgenomen. Met deze faciliteiten wordt hoogwaardige infrastructuur beschikbaar gemaakt voor het trainen van grote modellen.
+
+Ook vanuit technologiebedrijven is er volop initiatief. De Iliad Group, een Frans tech- en telecomconglomeraat, kondigde in februari een investering aan van 3 miljard euro in soevereine AI-infrastructuur. Het investeert in de grote datacenters van dochterbedrijf OpCore en bedient via cloudbedrijf Scaleway de markt met AI-rekenkracht. Mistral, een Frans bedrijf dat zelf geavanceerde AI-modellen ontwikkelt, is een van de klanten van Scaleway. Frankrijk wil een belangrijke hub voor kunstmatige intelligentie worden.
+
+Een analyse van consultant McKinsey laat zien dat Europa binnen [verschillende schakels](https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/time%20to%20place%20our%20bets%20europes%20ai%20opportunity/time-to-place-our-bets-europes-ai-opportunity.pdf) van de AI-waardeketen een belangrijke plek heeft verworven. Dat geldt bijvoorbeeld voor de machines waarmee geavanceerde chips worden gemaakt, waarin het Eindhovense ASML praktisch een monopolie heeft. Ook de IT-dienstverleners, waaronder Capgemini, Ordina en Tietoevry, die bedrijven helpen om AI in hun processen in te bedden, hebben een relatief groot marktaandeel. Hoewel Europa achterligt met de ontwikkeling van de zogenoemde foundation models – de AI-modellen die zijn getraind op enorme hoeveelheden data en op basis daarvan nieuwe content kunnen produceren – is het marktaandeel van Europa volgens de consultant groeiende. Hetzelfde geldt voor de applicaties die op basis van deze modellen worden ontwikkeld.
+
+In Nederland ziet Cleeren van Techleap eveneens hoe AI-bedrijven op specifieke onderdelen uitblinken en daardoor een belangrijke positie verwerven binnen de waardeketen. “Weaviate gebruikt AI om informatie te vinden en te begrijpen op basis van wat je bedoelt, niet alleen wat je typt,” vertelt hij. “En Deeploy is een platform dat bedrijven helpt met een verantwoorde implementatie van AI.”
+
+## Europa wil weer aantrekkelijk worden voor startups
+
+De narratief dat Europa onvriendelijk zou zijn voor tech-ondernemers maakt ondertussen plaats voor een nieuw verhaal. In de State of European Tech 2024 gaf een ruime meerderheid van Europese founders aan dat zij hun bedrijf opnieuw in Europa zouden vestigen, als ze die keuze opnieuw konden maken. De huidige geopolitieke situatie kan volgens Cleeren zelfs als een vliegwiel werken: “Amerika keert zich naar binnen, de markt destabiliseert. Dit creëert ruimte voor bedrijven in Europa.”
+
+Aan de lappendeken aan wet- en regelgeving wil de Europese Commissie ondertussen een einde maken met het ‘28e regime’. Hiermee kan een bedrijf zich registreren onder een set regels die in alle lidstaten geldig is. De plannen maken deel uit van de bredere European Innovation Act. Die moet het makkelijker maken voor startups om groeikapitaal op te halen, ook over de grens. Nu botsen investeerders nog op verschillende belastingregels, toezichthouders en juridische structuren per land. Europa wil dat simpeler maken, zodat fondsen en investeerders soepeler in meerdere landen kunnen opereren.
+
+Ook moeten hervormingen het aantrekkelijker maken voor startups om personeel te belonen met aandelenopties. Sinds 2019 hebben elf landen hun nationale regelgeving versoepeld, waaronder Duitsland, Frankrijk, Spanje en Nederland. De Europese Commissie onderzoekt nu of er een overkoepelend stelsel mogelijk is, als onderdeel van bredere inspanningen om het ondernemersklimaat te verbeteren.
+
+Tegelijk groeit de politieke druk om pensioenfondsen een actievere rol te laten spelen. Die steken nu gemiddeld slechts 0,007 procent van hun vermogen in durfkapitaal. In theorie kunnen ze grotere bedragen investeren, maar strenge regels en interne richtlijnen ontmoedigen dat. Europese instellingen zoals de Commissie, de Investeringsbank en het Investeringsfonds zien pensioenfondsen als een belangrijke schakel om de hoeveelheid groeikapitaal in Europa te vergroten, en onderzoeken manieren om dat aan te jagen – bijvoorbeeld door risicospreiding via EU-fondsen of aangepaste kapitaaleisen.
+
+## Chips als prioriteit in Brussel
+
+Met de European Chips Act zette Europa in 2023 een eerste stap om zijn afhankelijkheid op het gebied van halfgeleiders verminderen. Met 43 miljard euro aan publieke en private investeringen wil Europa het eigen marktaandeel in chipproductie verdubbelen tot 20 procent in 2030. Enerzijds probeert Europa de achterstand op het gebied van geavanceerde chips in te lopen, anderzijds wil het zijn bestaande sterkte op het gebied van eenvoudiger chips verder uitbouwen.
+
+In die tweede categorie lopen de nodige initiatieven. Lokale kampioen STMicroelectronics breidt zijn productie uit, onder meer door de bouw van een nieuwe fabriek in Italië. In Dresden komt een fabriek van het Taiwanese TSMC in samenwerking met Europese spelers Bosch, Infineon en NXP. De productie van geavanceerde chips is daarentegen nog niet van de grond gekomen. De geplande megafabriek van GlobalFoundries en STMicroelectronics in Frankrijk is stilgelegd, en de bouw van Intels geavanceerde fabriek in Duitsland is vooruitgeschoven naar 2029.
+
+Omdat de Chips Act onderaan de streep dus nog niet voldoende heeft opgeleverd, beraadt de Europese Commissie zich op een ‘Chips Act 2.0’. De chipindustrie ziet heil in een programma waarin de gehele keten wordt ondersteund, van ontwerp en materiaal tot machines en fabrieken. Vanuit het Europees Parlement klinkt de roep om investeringen in AI-chips, maar de industrie zelf pleit ervoor om ook de oudere chiptechnologie te blijven stutten, zodat ook de chips voor auto’s, machines en stroomnetten uit Europa kunnen komen. Voor de zomer zal het nieuwe programma worden gepresenteerd.
+
+## Europa kiest voor technologische daadkracht
+
+Om alle kansen te verzilveren, zijn structurele ingrepen en forse investeringen noodzakelijk. Volgens het Draghi-rapport is jaarlijks 800 miljard euro aan publiek-private uitgaven nodig om Europa technologisch onafhankelijker en economisch weerbaarder te maken. De investeringen moeten zich richten op hightech-sectoren zoals halfgeleiders en kunstmatige intelligentie, maar ook op decarbonisatie en defensie.
+
+Europa heeft sterke troeven om daarop voort te bouwen: gerenommeerde kennisinstellingen, een grote interne markt en nichekampioenen zoals ASML en Mistral. Tegelijkertijd is de achterstand ten opzichte van de VS en China aanzienlijk, zeker in cloud-infrastructuur, geavanceerde chips en AI. De komende jaren zal blijken of Europa die kloof kan verkleinen.
+
+Jarenlang was Europa vooral regelgever: invloedrijk, maar reactief. Nu is het besef ingedaald dat regulering alleen niet genoeg is en dat Europa zelf moet investeren in technologie, infrastructuur en productiecapaciteit. De contouren van digitale autonomie krijgen vorm, al zal Europa daarvoor sneller en scherper moeten handelen dan voorheen.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industrie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Europa’s softwaremarkt op zoek naar schaal en niches
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+De Europese technologiesector worstelt met het opschalen van potentiële winnaars door een gebrek aan groeikapitaal. Toch kent het continent een breed palet aan innovatieve spelers. Zo gaat in Nederland bijna twee derde van de investeringen in jonge softwarebedrijven naar partijen die artificial intelligence toepassen.
+
+In 2024 haalden jonge Europese technologiebedrijven gezamenlijk zo’n 54 miljard dollar aan durfkapitaal op. Bijna de helft daarvan, ruim 23 miljard, vloeide naar Software-as-a-Service (SaaS). Daarmee is SaaS de grootste categorie, groter dan digitale marktplaatsen of bedrijven die fysieke technologie ontwikkelen. Voor investeerders is de combinatie van stabiele abonnementen en schaalbaarheid bijzonder aantrekkelijk.
+
+Tijdens de coronapandemie vloeide er overvloedig kapitaal naar technologie, geholpen door de lage rente en een zoektocht van investeerders naar schaalbare bedrijfsmodellen. SaaS profiteerde daarvan bovengemiddeld. Vanaf 2022 sloeg de inflatie echter toe en verhoogden centrale banken de rente, waardoor kapitaal duurder werd en waarderingen corrigeerden. Dat maakte investeerders terughoudender, zeker bij megadeals en verlieslatende groeibedrijven. Inmiddels lijken de volumes aan durfkapitaalinvesteringen te stabiliseren. SaaS blijft zo het zwaartepunt van Europese tech-financiering, al gaat binnen deze categorie het kapitaal steeds meer naar bedrijven die AI in hun kern hebben verweven.
+
+## De schaalbaarheidskloof
+
+Binnen Europa trekt het Verenigd Koninkrijk de meeste SaaS-investeringen aan met ruim 77 miljard dollar in tien jaar tijd – meer dan een derde van het Europese totaal. Frankrijk en Duitsland volgen met respectievelijk 35 miljard dollar (16 procent) en 33 miljard (15 procent). Nederland staat met 9,9 miljard stabiel op de vierde plaats, goed voor een aandeel van 4,5 procent van alle Europese SaaS-investeringen tussen 2015 en 2025.
+
+Helaas kampt Europa met een hardnekkig probleem: het gebrek aan kapitaal voor tech-bedrijven om uit te groeien tot internationaal concurrerende bedrijven. Amerikaanse startups weten dubbel zo vaak een ronde van meer dan 15 miljoen dollar op te halen dan hun Europese evenknieën, zo staat in het [State of European Tech-rapport](https://www.stateofeuropeantech.com/chapters/investment-levels) uit 2024. Het aandeel jonge bedrijven dat door weet te stoten naar de scale-up-fase is in Europa daardoor veel kleiner. Volgens de onderzoekers bedraagt het cumulatieve tekort inmiddels 375 miljard dollar – het totaalbedrag dat jonge tech-bedrijven de afgelopen tien jaar zouden hebben opgehaald als toegang tot grotere investeringen net zo eenvoudig was als in de Verenigde Staten (VS). In de VS gaat een groot deel van het geld zelfs naar rondes boven de 100 miljoen dollar, met een dominante rol voor megadeals boven de 250 miljoen. Hoewel in Europa niet eens zoveel minder SaaS-deals worden gesloten – afgelopen jaar waren dat er 4616, versus 5040 in de VS – blijft het zwaartepunt liggen bij kleinere rondes.
+
+## Breed toepasbare SaaS-niches
+
+Durfkapitaal in Europa stroomt vooral naar een aantal herkenbare SaaS-niches. De grootste categorie is ‘enterprise software’ – oplossingen die interne processen van organisaties efficiënter maken, van HR en planningssystemen tot workflow- en ERP-tools. Zo wist de Duitse unicorn Personio zijn positie in HR-software verder te versterken, en is diens landgenoot N8N gespecialiseerd in procesautomatisering.
+
+Daarnaast zijn er andere oplossingen die in vrijwel elke sector toepasbaar zijn. Marketing- en communicatiesoftware blijft populair, met onder andere marketingplatform Brevo als voorbeeld. Skeepers helpt merken om klantreviews en andere ‘user-generated content’ slim in campagnes te verweven. Ook cybersecurity profiteert van brede toepasbaarheid, in combinatie met een algeheel gevoel van urgentie nu cyberaanvallen steeds vernuftiger worden. Zo haalde het Franse Sekoia.io in 2024 groeikapitaal op voor zijn AI-platform dat dreigingen in real-time detecteert.
+
+## SaaS voor specifieke sectoren
+
+Ook in de hoek van FinTech trekken SaaS-bedrijven veel financiering aan. Het Britse Volt.io biedt bijvoorbeeld een platform waarmee bedrijven ook betalingen kunnen accepteren van internationale klanten, en Qover helpt verzekeringen te integreren in het dienstenaanbod binnen uiteenlopende sectoren – van mobiliteit tot e-commerce. Daartegenover staan partijen die meer specifiek in de kern van financiële dienstverleners opereren, zoals Backbase, dat een klantplatform biedt voor financiële instellingen als vervanging van hun oude IT-systemen.
+
+Het is een voorbeeld van een van de vele ‘verticale’ SaaS-diensten, die voor een specifieke sector zijn ontworpen. In de zorg betreedt Doctolib de bredere Europese markt met een platform dat afsprakenbeheer, consulten en patiëntcommunicatie vergemakkelijkt, en haalde Unmind groeifinanciering op voor een platform dat medewerkers van bedrijven helpt hun geestelijke gezondheid te verbeteren. In de hospitality haalde het Nederlandse Mews nieuw kapitaal op om zijn platform internationaal uit te rollen, en in de bouw en vastgoed deed PlanRadar dat eerder met zijn software voor projectbeheer.
+
+## AI-SaaS als nieuwe motor
+
+Binnen het bredere landschap neemt AI-gedreven SaaS een steeds grotere plaats in. In Europa valt een derde van de software-deals inmiddels in deze categorie, goed voor bijna de helft van het investeringsvolume. In Nederland is dat zelfs twee derde. In de VS gaat de ontwikkeling nog harder; daar slokt AI-SaaS bijna 80 procent van alle SaaS-funding op.
+
+Desalniettemin brengt Europa een hoop innovatieve, ‘AI-first’ SaaS-bedrijven voort die zich specialiseren in allerlei niches. Nederland kent zelfs bovengemiddeld veel AI-SaaS-deals en -funding. Zo ontwikkelde Cradle een AI-model dat nieuwe eiwitten kan ontwerpen en als SaaS-dienst aan laboratoria verkoopt. Landgenoot Fourthline richt zich met AI op identiteitsfraude en compliance in de financiële sector, en FRISS doet hetzelfde voor verzekeringsrisico’s. TestGorilla maakt selectieprocessen slimmer en minder gevoelig voor bias, en Sympower gebruikt AI om elektriciteitsnetten in balans te houden.
+
+Het Duitse Accure biedt een platform voor AI-analyse van batterijdata in onder andere de mobiliteits- en industriesector, om zo veiligheid en levensduur van batterijen en accu’s te verbeteren. Het Britse Synthesia automatiseert met generatieve AI de productie van bedrijfsfilms en trainingsvideo’s en haalde begin 2025 nog 180 miljoen dollar op bij een waardering van ruim 2 miljard. En vanuit Zweden maakt Lovable een enorme groei door met een platform dat AI inzet om softwareontwikkeling te versnellen en toegankelijker te maken. Het bedrijf werd opgericht in 2023 en bereikte in enkele jaren een waardering van bijna 2 miljard dollar.
+
+## Grote AI-ontwikkelaars zetten de toon
+
+Een groot deel van de investeringen concentreert zich bij enkele grote AI-ontwikkelaars, die met megadeals de toon zetten in de markt. Hun AI-systemen worden op twee manieren aangeboden: als bouwsteen voor softwareontwikkelaars om AI in hun eigen product in te bouwen, en in de vorm van chat-apps zoals ChatGPT (OpenAI) en Claude (Anthropic) voor eindgebruikers. Wie toegang wil tot de krachtigste functies betaalt daarvoor een maandelijks abonnement. Daarmee is het verdienmodel in essentie gelijk aan SaaS: software die via de cloud en tegen een periodieke vergoeding wordt aangeboden.
+
+In de VS zorgden de desbetreffende megadeals voor enorme kapitaalinjecties. OpenAI haalde in maart van dit jaar 40 miljard dollar op bij een waardering van 300 miljard, gevolgd door een aanvullende ronde in de zomer. Anthropic wist in september 2025 nog eens 13 miljard dollar binnen te halen, en xAI sloot eind 2024 een ronde van 6 miljard af. Europa kent minder van zulke uitschieters, maar ook hier groeit het segment van AI-SaaS snel. Het Franse Mistral AI haalde in 2025 in een ronde 1,7 miljard euro op – waarvan 1,3 miljard afkomstig van ASML – en verdubbelde daarmee zijn waardering naar bijna 12 miljard. Het Duitse Aleph Alpha ontving in eerdere rondes een half miljard.
+
+## Succesfactoren
+
+Te midden van het groeigeweld van deze grote spelers is het zaak voor SaaS-bedrijven om zich scherp te positioneren. Een belangrijk kenmerk van kansrijke aanbieders is dat zij zich richten op kritieke bedrijfsprocessen – onderdelen van een organisatie die simpelweg cruciaal zijn. Fourthline automatiseert bijvoorbeeld het verplicht identificeren van klanten in de financiële sector. Banken moeten dit proces uitvoeren om aan de wet te voldoen, en een overstap naar een andere aanbieder brengt risico’s met zich mee. FRISS doet hetzelfde voor verzekeraars, die groot belang hebben bij het herkennen van frauduleuze claims. Doctolib ondersteunt artsen en patiënten bij afspraken en communicatie; een essentieel, maar vaak suboptimaal gedigitaliseerd proces.
+
+Daarnaast liggen kansen in niches waar grote, maar generieke AI-modellen niet mee uit de voeten kunnen. Cradle, dat zich volledig richt op generatieve AI voor eiwitontwerp, is bijvoorbeeld getraind op een enorme database aan eiwitstructuren en eigenschappen, en combineert diepe kennis op het gebied van biologie met technische capaciteiten. Sympower ontwikkelde en AI-oplossing die elektriciteitsnetten balanceert, en verbindt zowel grootverbruikers als energieproducenten. De samenwerking met partijen in energie-intensieve industrieën zoals de landbouw, cementproductie en datacenters, vereist sterke relaties en een hoop domeinkennis die niet snel te kopiëren is.
+
+Tot slot valt op dat succesvolle SaaS-bedrijven vaak een verbindende laag vormen tussen meerdere partijen. Het automatiseringsplatform van N8N laat bijvoorbeeld verschillende softwarepakketten met elkaar ‘praten’ – van CRM-systemen en e-mailtools tot databases en cloud-diensten. Op deze manier kunnen gebruikers complexe werkprocessen automatiseren, over verschillende applicaties heen. Qover biedt een verbindende laag in de verzekeringswereld; via API’s maakt het bedrijf het mogelijk om verzekeringsproducten direct in te bouwen in bijvoorbeeld mobiliteitsapps of e-commerceplatforms. In beide gevallen gaat het om een softwareplatform dat anderen in staat stelt hun eigen diensten te verrijken of te optimaliseren.
+
+## De weg vooruit
+
+De Europese SaaS-markt staat bol van innovatie, maar de weg naar wereldwijde dominantie is allerminst vanzelfsprekend. Het continent kampt met een structurele schaalbaarheidskloof en een terughoudendere investeringscultuur. Wel zet het, aangemoedigd door een geopolitieke noodzaak om ook technologisch meer zelfvoorzienend te worden, diverse stappen in de goede richting. Minister Karremans presenteerde op 23 september 2025 een lijst [maatregelen](https://www.rijksoverheid.nl/actueel/nieuws/2025/09/23/meer-groei-nederlandse-startups-en-scale-ups-door-meer-kapitaal-talent-en-verlenging-techleap) om “de tech-kampioenen van morgen” te ondersteunen, met een nadruk op onderzoeksintensieve sleuteltechnologieën als cybersecurity, quantum computing en artificial intelligence. Zo investeert het demissionaire kabinet 200 miljoen euro in een tweede fonds binnen het European Tech Champions Initiative (ETCI), en verkent Invest-NL manieren om meer pensioenkapitaal naar durfkapitaalfondsen te brengen.
+
+De huidige generatie SaaS-bedrijven laat in ieder geval zien dat er volop kansen liggen. Een focus op bedrijfskritische processen, AI-toepassingen in specifieke niches, en het bouwen van een verbindende laag zijn strategieën waarmee lokale spelers zich sterk kunnen positioneren, ook te midden van het groeigeweld van Amerikaanse partijen. Het succes van Mistral bewijst in ieder geval dat zelfs kapitaalintensieve modellen ook hier tractie kunnen krijgen, mits er voldoende investeringsbereidheid is. Nu is het zaak om deze incidentele successen structureel te maken.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Generatieve AI pakt rol in de duurzaamheidstransitie
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Cas Bogaard
+
+Sinds 2018 staken investeerders 793 miljoen dollar in jonge bedrijven die ‘generatieve AI’ toepassen voor duurzaamheidsdoeleinden. Deze vorm van kunstmatige intelligentie kan op basis van instructies allerlei zaken creëren, zoals tekst, 3D-ontwerpen en zelfs nieuwe materialen. Tegenover de potentiële duurzaamheidswinst staat echter wel het grote energiegebruik van AI-technologie.
+
+## Download het volledige rapport
+
+Lees alle feiten en ontwikkelingen in het rapport: Generatieve AI pakt rol in de duurzaamheidstransitie.
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Generatieve AI pakt rol in de duurzaamheidstransitie (december 2023)
+
+  3 MB](https://www.abnamro.nl/nl/media/rapport-generatieve-ai-pakt-rol-in-de-duurzaamheidstransitie-december-2023_tcm16-216530.pdf)
+
+## Download the full report
+
+Read all the facts and developments in the report: Generative AI enters the sustainability transition.
+
+(Don't see a download or can't download the report? Then upgrade your browser to the most recent version.)
+
+- [Generative AI enters the sustainability transition (december 2023)
+
+  3 MB](https://www.abnamro.nl/nl/media/Generative-AI-enters-the-sustainability-transition_tcm16-223327.pdf)
+
+De ontwikkelingen rond kunstmatige intelligentie, ook wel artificiële intelligentie of kortweg AI genoemd, raakten in een stroomversnelling sinds eind 2022 de superslimme chatbot ChatGPT werd geïntroduceerd. Sindsdien buitelen de grote technologiebedrijven over elkaar heen om nieuwe AI-modellen te introduceren die steeds betere antwoorden genereren op steeds complexere vragen en op basis van geschreven instructies indrukwekkend beeld- en videomateriaal creëren.
+
+Hoewel er veel wordt gesproken over de entertainmentwaarde van generatieve AI en mogelijke productiviteitswinst, liggen er ook potentiële toepassingen op het gebied van duurzaamheid – een perspectief dat niet buiten beschouwing kan blijven nu de effecten van de opwarming van de aarde al op veel plekken pijnlijk duidelijk zijn. De nieuwe technologie kan een aanvulling vormen op onder andere wet- en regelgeving, financiering en gedragsverandering.
+
+## Twin Transition: op het snijvlak tussen technologie en duurzaamheid
+
+De opkomst van generatieve AI is een schoolvoorbeeld van de ‘twin transition’. Dit begrip verwijst naar digitale transitie en de duurzaamheidstransitie, die tegelijkertijd plaatsvinden en op elkaar inwerken. Bedrijven die verder zijn op het gebied van digitalisering presteren bijvoorbeeld [beter](https://www.sciencedirect.com/science/article/pii/S0040162522007934) op het gebied van duurzaamheid. Ook wijst wetenschappelijke literatuur op een positieve bijdrage van AI aan de ‘sustainable development goals’ (SDG’s) die de Verenigde Naties hebben gedefinieerd. Specifiek voor de SDG’s die betrekking hebben op klimaatverandering, natuurlijke ecosystemen en verduurzaming van sectoren geldt dit voor 50 van de 55 subdoelstellingen. Tegelijkertijd blijkt AI op 18 van deze subdoelstellingen – soms tegelijkertijd – ook een remmende werking te hebben, iets wat onder andere te herleiden valt tot de grote hoeveelheid energie die nodig is voor de ontwikkeling en het gebruik van de AI-modellen.
+
+Investeerders zien brood in AI als ondersteuner in de duurzaamheidstransitie. In 2021 – toen de technologiemarkt na de initiële ‘coronaschok’ een enorme groei liet zien – staken investeerders wereldwijd 25,2 miljard dollar in duurzame AI-startups, zo blijkt uit gegevens van dataverzamelaar Net Zero Insights. In 2022 liep dit bedrag terug naar 21,4 miljard dollar door rentestijgingen en een algeheel ongunstiger investeringsklimaat, en ook 2023 is niet immuun gebleken voor deze dynamieken. Op 1 december stond de teller op 18,5 miljard.
+
+## Duurzame toepassingen van generatieve AI
+
+Dit rapport verkent diverse duurzame toepassingen van generatieve AI aan de hand van de investeringen in startups en scale-ups die hierin actief zijn. Zo worden deze toepassingen al stevig omarmd in de hoek van bedrijfsrapportages en -analyses op klimaatrisico en klimaatimpact. Diverse softwarebedrijven zetten het taaltalent van AI in om grote hoeveelheden bedrijfsdata om te zetten naar heldere rapportages en inzichten. Ook prominent aanwezig zijn de virtuele assistenten, die in een natuurlijke dialoog vragen beantwoorden over duurzaamheidskwesties en de gebruiker op basis van allerlei data van advies kunnen voorzien. Samen zijn deze activiteiten goed voor 258 miljoen dollar aan investeringen sinds 2018.
+
+Daarnaast kan generatieve AI worden toegepast om versneld nieuwe materialen en eiwitten te ontwerpen, met specifieke toepassingen en voordelen. Voorbeelden zijn groene brandstoffen, materialen die worden geoptimaliseerd op levensduur en recyclebaarheid, of enzymen die plastic kunnen afbreken. Waar het onderzoek naar zulke nieuwe moleculen traditioneel een tijdrovende exercitie is met veel ‘trial-and-error’, kan dat via generatieve AI sterk worden verkort. Investeerders staken tot nu toe 85 miljoen dollar in jonge bedrijven in deze categorie.
+
+Een prillere functie van generatieve AI is die van ontwerper of ingenieur. De technologie kan bijvoorbeeld kleding helpen personaliseren zodat de geproduceerde stukken beter aansluiten op de marktvraag en de negatieve milieugevolgen door onverkochte – en dus zinloos geproduceerde – kleding worden beperkt. Ook in de gebouwde omgeving liggen er kansen, zoals gebouwen die met AI worden geoptimaliseerd op energie-efficiëntie en materiaalgebruik. Naar verwachting zullen huidige ontwerpmethoden steeds meer met generatieve AI worden verrijkt.
+
+## Ontwikkeling AI kost energie
+
+Voor de ontwikkeling van generatieve AI wordt echter ook een prijs betaald. De technologie functioneert op basis van grote hoeveelheden data en het bijbehorende leerproces, ook wel de ‘training’ genoemd, kost veel rekenkracht. De training van GPT-3.0 – een van de voorgangers van de huidige modellen achter ChatGPT – ging gepaard met 502 ton aan CO2-uitstoot; hetzelfde als de jaaruitstoot van 251 Nederlandse benzineauto’s. Ook de constante stroom aan vragen die het model te verwerken krijgt, vergt heel wat rekenkracht en energie. Hoewel de hierboven geschetste toepassingen niet op eenzelfde schaal worden gebruikt als de immens populaire chatbot, blijft het belangrijk om bij de ontwikkeling en toepassing van generatieve AI een zorgvuldige afweging te maken van zowel de positieve- als negatieve effecten ervan.
+
+
+---
+
+# Het einde van het algoritme als black box
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+De tijd dat algoritmes als black box worden geaccepteerd, lijkt definitief voorbij. Vanuit overheid en maatschappij wordt de roep om transparantie immers steeds luider. Algoritmische besluitvorming kan namelijk ongelijkheid in de hand werken. De rechtszaak die Uber-chauffeurs recent tegen het technologiebedrijf aanspanden, illustreert dit.
+
+Bedrijven lijken er niet langer aan te ontkomen dat ze inzichtelijk maken hoe ze algoritmes gebruiken bij het nemen van beslissingen.
+
+Taxichauffeurs eisen transparantie over de werking van de Uber-app. De onderliggende algoritmes bepalen namelijk een hoop: zij verdelen de ritten en bepalen de ritprijs. Op de achtergrond combineert de app allerlei data tot een profiel van de chauffeur. Wat er precies over de chauffeur wordt bijgehouden en hoe die gegevens worden gebruikt in de algoritmische besluitvorming, is onduidelijk. Om die asymmetrie weg te nemen, beroepen chauffeurs zich bij de rechtbank in Amsterdam op de Algemene Verordening Gegevensbescherming (AVG). “Wat de uitspraak ook wordt,” [schrijft het Financieele Dagblad](https://fd.nl/ondernemen/1351533/baanbrekende-zaak-over-algoritmes-uber-waarschuwing-voor-andere-bedrijven), “bedrijven die met algoritmes en kunstmatige intelligentie werken, zullen zich door deze zaak beter gaan voorbereiden op nieuwe eisen over transparantie.”
+
+Kan de algoritmische besluitvorming achter de Uber-app worden gezien als verkapt werkgeverschap? Dat is één van de vragen die de chauffeurs hebben. Als de app inderdaad werkgever is en niet puur een platform, dan zou dat Uber-chauffeurs een andere positie verschaffen met betrekking tot hun beoordeling en salaris. Voor het afdwingen van een meer evenwichtige verhouding hebben de chauffeurs op dit moment echter geen eerlijke basis. Zo zijn zij bijvoorbeeld ook bezorgd of klanten wellicht onbewust discrimineren op het moment dat zij hun chauffeur beoordelen. Dit soort input werkt door in de beslissingen die de algoritmes maken. Met hun zaak leggen de chauffeurs hun vinger op de zere plek: een algoritme werkt op basis van data die door mensen is geselecteerd of gegenereerd, en kan daarmee niet zonder meer worden gezien als objectieve derde partij.
+
+Net zoals mensen, maken ook algoritmes fouten. Sterker nog: als je vanaf het begin niet voorzichtig bent, zijn het juist de algoritmes die fouten maken. Stel je het volgende voor: een beeldherkenningsalgoritme dat over het algemeen aardig accuraat is, omschrijft op een goede dag een foto als “een vrouw met een surfboard op het strand”. Het enige probleem is dat de liefdevolle blik van de vrouw helemaal niet op een surfboard gericht is, maar op haar witte paard. Deze fout onderstreept dat het kort door de bocht is om algoritmes – die tegenwoordig een belangrijke basis vormen van kunstmatige intelligentie – een (boven)menselijk soort intelligentie toe te dichten.
+
+Gaan we uit van een algoritme dat je traint in plaats van handmatig programmeert – ook wel ‘machine learning-algoritme genoemd’ – dan kan het euvel in bovenstaand voorbeeld op grofweg twee niveaus zitten. Het is ten eerste zeer waarschijnlijk dat de trainingsset een grote hoeveelheid foto’s van surfers op het strand bevatte, en in mindere mate die van paarden. Of het kan zijn dat de trainingsset wel foto’s van paarden bevatte, maar in een hele andere context, zoals in het bos. In zulke gevallen is de kans kleiner dat het paard als een paard wordt herkend buiten de voor het algoritme ‘normale’ context (het strand). De andere verklaring is dat de codeurs, die dus handmatig de omschrijvingen van de foto’s in de trainingsset maakten, gewoon hebben zitten slapen. In dat geval moeten zij zelf structureel witte paarden voor surfboards hebben aangezien.
+
+Data bepalen de werkelijkheid van het algoritme, en mensen spelen een hoofdrol in het selecteren en labelen van die data. Dit maakt dat elk algoritme per definitie een bepaalde mate van vooringenomenheid vertoont, ook wel ‘bias’ genoemd. De gevolgen gaan helaas soms veel verder dan een paard dat voor een surfboard wordt aangezien. Zo kwam Facebook negatief in het nieuws omdat commentaren van gekleurde Amerikanen in vergelijking met witte gebruikers eerder als ‘haatdragend’ werden gemarkeerd door een algoritme dat automatisch content scant. Amazon selecteerde automatisch cv’s van sollicitanten, maar vloog uit de bocht toen bleek dat het onderliggende algoritme vrouwen benadeelde. Ook de Nederlandse overheid bleef niet buiten schot: zij zette eerder dit jaar het fraudedetectiesysteem SyRi stop, omdat niet duidelijk was op welke basis mensen als potentiële fraudeur werden aangewezen.
+
+Het is dus niet gek dat kunstmatige intelligentie als thema steeds kritischer wordt benaderd. [Onderzoek van de Europese commissie](https://www.computable.nl/artikel/nieuws/overheid/6962900/250449/kunstmatige-intelligentie-vraagt-om-nieuwe-regelgeving.html) onder bedrijven, overheden, academici en ontwikkelaars bevestigt dat een ethische benadering van kunstmatige intelligentie top of mind is: 90 procent van de 1200 ondervraagden maakt zich zorgen over de mogelijkheid dat kunstmatige intelligentie de grondrechten van burgers schendt. En 87 procent van hen is bang dat het gebruik van kunstmatige intelligentie tot bias leidt en bepaalde groepen achterstelt. Het merendeel van de ondervraagden is op zoek naar handvatten in de vorm van nieuwe regelgeving.
+
+Aan de wet- en regelgeving zal het echter niet liggen. [Recent onderzoek](https://www.rijksoverheid.nl/documenten/rapporten/2020/06/30/ek-bijlage-2-juridische-aspecten-van-algoritmen-die-besluiten-nemen-een-verkennend-onderzoek) in opdracht van het Ministerie van Justitie en Veiligheid laat zien dat het huidige juridische kader grotendeels volstaat om “de geïdentificeerde risico’s van algoritmische besluitvorming te vermijden of te mitigeren”. De AVG schrijft bijvoorbeeld voor dat bedrijven inzicht moeten kunnen geven in de logica achter automatische besluitvorming als deze een mogelijk negatief gevolg heeft op individuen. Verdere uitwerking in de AVG zelf blijft uit, maar de Uber-rechtszaak kan in dit licht belangrijke jurisprudentie vormen. Datagedreven bedrijven zullen deze zaak dus met aandacht volgen, omdat de uitspraak een inkijkje kan geven in de manier waarop zij in de toekomst hun algoritmes moeten uitleggen. Uit zichzelf staan zij doorgaans niet te trappelen om deze informatie uit de doeken te doen, zeker als hun algoritmes de kern van de bedrijfsvoering raken en een competitief voordeel betekenen.
+
+Toch lijkt de trend gezet, ongeacht de uitspraak in de Uber-rechtszaak. Steeds meer bedrijven zetten proactief de lijnen uit op het gebied van transparantie en ‘algorithmic bias’, al dan niet onder maatschappelijke druk. Nederlandse verzekeraars zien bijvoorbeeld kansen in big data en kunstmatige intelligentie op het gebied van klantacceptatie en premiebepaling. Om het gebruik van data op een verantwoorde manier te laten plaatsvinden, publiceerde het Verbond van Verzekeraars in juni een ethisch kader. Techgiganten als Google en IBM delen hun kennis rond dit onderwerp al in bredere kring. Zij documenteren uitgebreid op welke manieren zij bias in algoritmes tegengaan en stellen daarbij hulpmiddelen voor softwareontwikkelaars gratis beschikbaar.
+
+Met de mogelijke onrechtvaardigheden die uit algoritmes kunnen voortvloeien en de hiervoor toegenomen maatschappelijke aandacht, zal deze trend van zelfregulering alleen maar worden versterkt. Het is tijd dat bedrijven – groot en klein – extra kritisch kijken naar de manier waarop zij met algoritmes beslissingen nemen en hierover met hun klanten communiceren. Het competitieve voordeel van bedrijven zit in de toekomst mogelijk steeds meer in transparantie over het algoritme, en minder in het algoritme zelf.
+
+*Dit artikel verscheen eerder bij [Emerce](http://www.emerce.nl/).*
+
+## Over de auteur
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer.html "Over de auteur - Julia Krauwer") is sector banker TMT (Technologie, Media & Telecom) bij ABN AMRO. Zij houdt zich dagelijks bezig met de impact van technologie op bedrijfsmodellen.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Leisure](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/index.html)
+
+[Inclusie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/inclusie.html)
+
+
+---
+
+# Het groeigeweld van software as a service
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Steven Peters
+
+Software-as-a-service (saas) is een relatief nieuw businessmodel voor softwarebedrijven, waarbij software als een online abonnementsdienst wordt verkocht. Sinds een paar jaar doet ABN AMRO met succes ervaring op met het financieren van saas-bedrijven.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Software-as-a-service financiering (27 september 2018)
+
+  2 MB](https://www.abnamro.nl/nl/media/20180927%20Het%20groeigeweld%20van%20software-as-a-service_tcm16-70855.pdf)
+
+Hoe zien de belangrijkste ontwikkelingen en prestatiegegevens (metrics) in het Nederlandse saas-landschap eruit? We zochten het voor u uit, door middel van interviews en een eigen enquête onder Nederlandse saas-ondernemers. Ook spraken we venture capital partijen die investeren in saas-bedrijven.
+
+Ondernemers noemen het managen van internationale groei als een van de belangrijkste uitdagingen. Venture capital partijen zetten in op wereldwijde schaalbaarheid en internationale groei. Ze stellen hoge eisen aan de metrics van een saas-bedrijf. Hoe zien die eisen eruit? En wat zijn de belangrijkste metrics waar de Nederlandse ondernemers hun bedrijf op sturen?
+
+## Samenvattend
+
+- Softwaremakers profiteren van de sterke vraag naar saas
+- Voorspelbaarheid maakt saas tot een krachtig businessmodel
+- Internationale groei belangrijke uitdaging volgens ondernemers
+
+
+---
+
+# Hulp van 5G bij verhoging arbeidsproductiviteit
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Sonny Duijn](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/sonny-duijn/index.html)
+
+Kasper Buiting
+
+Nederland staat voor een economische uitdaging. Ons land kampt met een tekort aan arbeidskrachten en heeft tegelijk te maken met een vertraging van de groei van de arbeidsproductiviteit, de toegevoegde waarde per gewerkt uur. De introductie van 5G kan helpen om de productiviteit verder op te hogen.
+
+Bedrijven krijgen namelijk de mogelijkheid meer apparaten sneller met elkaar te laten communiceren en veel data te verwerken. Dit biedt bijvoorbeeld in de industrie, transport en de landbouw kansen om bestaande experimenten meer schaal te geven. Het is wel van belang om nu al op de komst van 5G voor te sorteren.
+
+## Personeelstekort aan de orde van de dag
+
+Het verhogen de productiviteit is van belang, omdat de andere bron van economische groei – het laten groeien van het aantal gewerkte uren – momenteel lastig is. Beveiligers, schoonmakers, industrieel personeel, IT’ers, chauffeurs, verpleegkundigen en tal van andere typen werknemers moeten met een lampje worden gezocht. In vijf jaar tijd is het aantal bedrijven dat het tekort aan personeel als belemmering ervaart toegenomen van vijf naar 25 procent. De tekorten worden versterkt doordat er mismatches bestaan tussen vraag en aanbod van opleiding en ervaring en doordat mensen niet altijd willen of kunnen reizen naar de plek waar werk is. Daarmee lijkt schaarste aan personeel voorlopig aan de orde van de dag.
+
+De economische groei van de laatste jaren leunde goeddeels op een toename in het aantal gewerkte uren. Dit is goed mogelijk zolang er voldoende aanbod van personeel is. Zo maakte de horeca indruk door vanaf 2014 tot en met 2018 met gemiddeld bijna vier procent per jaar te groeien. Horecabedrijven profiteerden van de consument die vaker buitenshuis eet, drinkt en overnacht en hebben aan die vraag kunnen voldoen door in gelijke mate personeel aan te trekken. Het aantal gewerkte uren steeg gemiddeld elk jaar nagenoeg even snel als de toegevoegde waarde van de sector. Wanneer nieuwe medewerkers niet meer voorradig zijn, is het feest voor veel horecabedrijven echter voorbij.
+
+Om aan de groei van de vraag te blijven voldoen zijn ondernemingen nu meer aangewezen op verhoging van de productiviteit. Ofwel: met hetzelfde aantal medewerkers meer waarde leveren. Helaas is de groei in arbeidsproductiviteit in Nederland juist in het afgelopen decennium sterk vertraagd. Voor de komende decennia wordt het bovendien extra moeilijk om de productiviteit te vergroten, omdat de gemiddelde werknemer ouder wordt. Daarmee zijn er minder werknemers die door scholing en opleiding relatief snel hun productiviteit kunnen vergroten. Uit wetenschappelijk onderzoek blijkt namelijk dat deze wijze om de productiviteit te verhogen vooral bij jonge medewerkers zijn [vruchten afwerpt](https://www.cbs.nl/nl-nl/nieuws/2019/51/lagere-productiviteit-hangt-samen-met-groei-zelfstandigen).
+
+## Inzet van kapitaalgoederen
+
+Een hogere productiviteit zal dus vooral van de inzet van kapitaalgoederen moeten komen, zoals machines, software en robots. In het verleden hebben bedrijven hier al flinke stappen in gezet waarmee ze als exporteurs zeer competitief zijn geworden op de wereldmarkt. Dit loopt uiteen van de inzet van oogstmachines en melkrobots in de landbouw tot automatisering in fabrieken. Arbeidsproductiviteit is dus ook van groot belang voor de concurrentiepositie.
+
+Bedrijven worstelen op het moment echter wel met het zetten van verdere stappen waarmee de groei op peil kan worden gehouden. Zo blijkt uit cijfers van het Bureau voor de Statistiek (CBS) dat in het jaar 2018 slechts één op de honderd bedrijven heeft geïnvesteerd in arbeidsvervangende automatisering. De lat ligt steeds hoger om de productiviteit verder op te schroeven. In publicaties over de haperende groei in arbeidsproductiviteit wordt verwezen naar de beroemde econoom Robert Gordon, die stelt dat innovaties uit een verder verleden voor een meer fundamentele voorsprong zorgden. Voorbeelden zijn de uitvinding van de stoommachine en elektriciteit en later met de komst van de telefoon en de auto.
+
+## Grote zakelijke potentie dankzij 5G
+
+Toch zijn er legio mogelijkheden om stilstand van de groei arbeidsproductiviteit te voorkomen. Veel van die toepassingen zitten momenteel in een experimentele fase. De nieuwe generatie mobiele netwerken 5G maakt het mogelijk om die toepassingen naar een volgende fase te brengen, mits dit goed benut wordt.
+
+Met die grote zakelijke potentie verschilt 5G van zijn voorgangers, die vooral het leven van consumenten gemakkelijker maakten. Met 4G is de consument namelijk al van vele gemakken voorzien, zeker in Nederland, waar de dekking relatief goed is. Het is al lang al niet meer uitzonderlijk om een tv-serie op de mobiele telefoon te bekijken. Hoewel fervente datagebruikers onder die consumenten zeker oren hebben naar een nog sneller abonnement, biedt 5G vooral kansen voor de zakelijke markt.
+
+Het gaat dan vooral om de ontwikkeling van technologieën waarbij grote hoeveelheden data verwerkt moeten worden. Immers kunnen dankzij 5G veel meer data verwerkt worden met hogere up- en downloadsnelheden. Bovendien kunnen veel meer apparaten dan nu tegelijkertijd informatie uitwisselen via het mobiele internet, waarmee ‘internet of things’-toepassingen ondersteund worden. Een ander belangrijk kenmerk is de communicatie tussen apparaten veel sneller wordt. Er is sprake van ‘low latency’: op het moment dat een signaal wordt verzonden, kan dit in zeer korte tijd ontvangen worden door de ontvanger. Er is dan minimale vertraging in het netwerk. Daarbij blijft het netwerk wel slechts een hulpmiddel: de daadwerkelijke innovatie komt vanuit het bedrijfsleven.
+
+De nieuwe toepassingen die 5G biedt, kunnen helaas niet vandaag in Nederland al grootschalig ten uitvoer worden gebracht. Zo moeten de veilingen van de frequenties nog plaatsvinden, standaarden worden afgerond en een dichter netwerk van zendmasten worden aangelegd. Bovendien spelen discussies rondom privacy en gezondheid, die verder gevoerd zullen worden. De planning van de huidige veiling liep in Nederland aanvankelijk vertraging op doordat een van de benodigde frequenties (3,5 GHz) werd gebruikt als afluisterstation van Defensie. Deze frequentie, met meer economische potentie dan de frequenties die nu geveild worden (700 MHz, 2,1 GHz en 1,4 GHz), wordt in Nederland in 2022 geveild.
+
+Toch is het van belang dat bedrijven nu al voorsorteren op nieuwe mogelijkheden, zodat zij klaar staan zodra de infrastructuur gereed is. Een snelle start is onder meer van belang voor het behoud van concurrentiepositie. Buitenlandse bedrijven zijn zich waarschijnlijk eveneens aan het oriënteren of zelfs al verder, want in veel andere landen is de veiling van 5G-frequenties al eerder gestart.
+
+## Kansen voor industrie en logistieke sector
+
+De kansen van 5G liggen vooral in de mogelijkheid om bestaande processen te verbeteren. Dat geldt bijvoorbeeld voor de industrie, waar 5G wordt gezien als onmisbare schakel voor een toekomst waarbij productiemachines en hele fabrieken online verbonden worden met hun toeleveranciers, logistieke partners en afnemers. Dit wordt ook wel aangeduid als Smart Industry.
+
+Dankzij de verbinding met het 5G-netwerk kunnen apparaten en machines straks gemakkelijker voortdurend met elkaar communiceren. Zo kan continu in de gaten worden gehouden hoe apparaten en machines functioneren; variaties in trillingen kunnen voorspellen wanneer onderhoud nodig is. Deze verbeteringen leiden ertoe dat minder fouten in het productieproces optreden, apparaten en machines korter in storing zijn dan nu en toekomstige machines beter worden ontworpen. De arbeidsproductiviteit gaat dan dus omhoog.
+
+Ook voor de logistieke sector schept 5G randvoorwaarden voor een hogere arbeidsproductiviteit. Een voorbeeld hiervan is ‘[truck platooning](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/logistiek/innovatie-in-logistiek.html)’. Hierbij zijn achter elkaar rijdende vrachtwagens digitaal met elkaar verbonden en rijdt alleen in de voorste een chauffeur, die de snelheid en route bepaalt. De volgende trucks doen dan exact hetzelfde. Op het moment dat de chauffeur remt, doet de volgende vrachtwagen dat vrijwel gelijktijdig. Per persoon kan dan veel meer vracht vervoerd worden. Truck platooning bevindt zich nu nog in de experimentele fase, maar op termijn kan 5G een grootschaliger en bredere toepassing mogelijk maken.
+
+## Groningen al voortvarend bezig met 5G
+
+In Groningen experimenteren bedrijven al dankzij 5G met mogelijke toepassingen voor de logistieke sector. Het betreft pilots met het autonoom laten varen van binnenschepen en voorraadbeheer van een distributiecentrum met behulp van een drone die barcodes scant. Ook met het navigeren van schepen nabij de wal en het automatisch (bijna) realtime meten van het slibgehalte, de stroming en diepte van vaarwegen in Delfzijl en de Eemshaven wordt getest.
+
+Deze innovaties zijn onderdeel van het initiatief ‘5Groningen’, waarmee de Economic Board Groningen al enkele jaren voortvarend bezig is het met onderzoeken van mogelijkheden van het toekomstige 5G. Vanwege bestaande beperkingen op de 3,5 Ghz-frequentie is hiertoe gebruik gemaakt van ‘carrier aggregation’. Door tegelijkertijd met meerdere 4G-frequenties verbinding te maken kunnen hoge up- en downloadsnelheden worden bereikt. De initiatiefnemers hebben aanbieders van connectiviteit en apparatuur gekoppeld aan ondernemers uit diverse bedrijfstakken.
+
+## Kansen voor de landbouw en de medische sector
+
+Andere experimenten binnen dit initiatief laten de potentie tot het verhogen van de productiviteit in de landbouw zien. Een voorbeeld is een drone die vijf foto’s per seconde van landbouwgrond en de gewassen maakt voor analyse. Zo is direct duidelijk waar eventueel een gebrek is aan water of mest, en waar ziekte dreigt. Een ander agrarisch voorbeeld betreft de ‘smart potatoe’, een ‘digitale aardappel’ die informatie stuurt naar de agrariër over bijvoorbeeld de temperatuur, vochtigheid en kaliumwaarden van en in de bodem. Met dergelijke toepassingen kunnen agrariërs de groei van aardappelen makkelijker bijhouden en controlewerk efficiënter en effectiever inzetten.
+
+Bovendien wordt in Groningen getest met het laten meekijken van een medisch specialist op afstand, in dit geval bij de patiënt tijdens de rit in een ambulance. Hierdoor kunnen wellicht meer levens gered worden, wat natuurlijk een veel hoger doel betreft dan het verhogen van de arbeidsproductiviteit.
+
+## Grote potentie
+
+5G heeft een grote potentie voor de zakelijke markt. Het is van belang dat bedrijven en regio’s nu al nadenken over de toepassingen die de nieuwe generatie mobiele netwerken kunnen bieden. Het voorbeeld van Groningen verdient navolging over het hele land. 5G wordt een belangrijk hulpmiddel om technologische toepassingen die voor een hogere arbeidsproductiviteit zorgen meer schaal te geven. Het opvoeren van de productiviteit is namelijk het antwoord op het tekort aan personeel en houdt het Nederlandse bedrijfsleven internationaal concurrerend. Het is daarom van belang dat het bedrijfsleven op tijd klaar is om deze stap te maken.
+
+*Deze column verscheen op 28 februari op het platform van [Emerce](https://www.emerce.nl/achtergrond/5g-helpt-om-arbeidsproductiviteit-verhogen).*
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Agrarisch](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/agrarisch/index.html)
+
+[Zorg](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/healthcare/index.html)
+
+[Industrie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[5G](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/5g.html)
+
+
+---
+
+# IT branche sterkste groeier binnen TMT sector
+
+[Stand van Sectoren](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kasper Buiting
+
+De Nederlandse economie blijft sterk groeien en de TMT-sector profiteert. Het zijn met name de IT-bedrijven die sterke groei laten zien, maar ook de tv-contentbedrijven zitten in de lift. De sector kent echter grote verschillen en branches als uitgevers en drukkerijen hebben het lastig.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Stand van TMT (5 februari 2020)
+
+  1 MB](https://www.abnamro.nl/nl/media/Stand-van-tmt-februari-2018_tcm16-70905.pdf)
+
+## Gunstig economisch klimaat
+
+Het economische klimaat is gunstig voor de TMT-sector. De Nederlandse economie groeide in 2017 met 3,2% en in 2018 zal het BBP toenemen met 2,9%. De belangrijkste economische indicatoren zijn ook positief. Het producentenvertrouwen en consumentenvertrouwen zijn groot, bezettingsgraad in de industrie is hoog, de export trekt verder aan en het aantal banen en vacatures blijft stijgen.
+
+## Steeds minder belemmeringen in de sector, maar tekort aan arbeidskrachten blijft een probleem
+
+Ondernemers in de sector ervaren minder belemmeringen voor hun bedrijfsvoering. Wel blijft het tekort aan arbeidskrachten een groot probleem. Meer dan een vijfde van de ondernemers heeft hier veel last van. Het ondernemersvertrouwen in de sector is iets gedaald, maar met 13,3 nog steeds op een hoog niveau.
+
+## IT-branche is de stuwende kracht; uitgevers, drukkerijen en telecom in de min
+
+De branche van IT-bedrijven, de grootste binnen TMT, blijft sterk groeien. Voortgaande digitalisering en een gunstig economisch klimaat zijn hier debet aan. Ook de groothandel in ICT en de TV-contentbedrijven profiteren van de economische hoogconjunctuur. Er zijn echter ook branches die het zwaar hebben. Uitgevers, drukkerijen en telecom zullen ook komend jaar omzetkrimp laten zien.
+
+
+---
+
+# IT-branche in 2021 al ruim boven pre-coronaniveaus
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Ingrid Laane
+
+Door toedoen van de coronacrisis krimpt de Technologie-, Media- en Telecomsector (TMT) met 6 procent in 2020, waarna gedeeltelijk herstel volgt. Reclamebureaus incasseren zware klappen nu opdrachtgevers voorzichtiger zijn. Drukkerijen zien reclamedrukwerk wegvallen, ook door afgelaste evenementen en beurzen. Deze branches hebben meer dan een jaar nodig om de klap te boven te komen.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Sectorprognoses TMT (26 augustus 2020)
+
+  216 KB](https://www.abnamro.nl/nl/media/ABN-AMRO-Sectorprognoses-TMT-augustus-2020_tcm16-70454.pdf)
+
+Voor IT-bedrijven is het beeld anders; zij voelen de pijn in 2020, maar die wordt sterk verzacht doordat de samenleving door corona meer op digitale middelen is gaan leunen. Dit levert mogelijk zelfs structurele voordelen op. Volgend jaar zit de IT-branche al ruim boven de pre-coronaniveaus.
+
+Door de uitbraak van de coronacrisis is de wereld op zijn kop gezet en de economie in een diepe recessie beland. De Nederlandse economie is in het tweede kwartaal met 8,5 procent gekrompen ten opzichte van een kwartaal eerder. Deze daling is het gevolg van de sterk gedaalde consumptie van huishoudens, afnemende investeringen en minder buitenlandse handel. Voor 2020 als geheel [verwacht](https://insights.abnamro.nl/2020/08/recordkrimp-nederlandse-economie-in-tweede-kwartaal/) ABN AMRO dat de Nederlandse economie met 5,2 procent krimpt. Hoewel de TMT-sector niet het hardst geraakt is door de crisis, zijn ook hier de gevolgen van bovengenoemde ontwikkelingen voelbaar.
+
+In 2020 verwacht ABN AMRO dan ook een krimp van de TMT-sector van 6 procent. Wel zijn de verschillen tussen de onderliggende branches groot, evenals de herstelverwachtingen. Daarmee wordt het al langer aanwezige beeld van een sector met twee gezichten nog eens versterkt. Aan de ene kant staat de IT-branche die zich in de coronacrisis relatief goed staande weet te houden door de toegenomen vraag naar digitale diensten als gevolg van het thuiswerken. Hoewel een mogelijke klap later dit jaar niet wordt uitgesloten doordat opdrachtgevers het alsnog moeilijk gaan krijgen, is de verwachting dat de branche ook snel herstelt. Dit komt door de sterk gedigitaliseerde economie van Nederland die door het uitbreken van de coronacrisis een extra zetje heeft gekregen. Dit extra zetje zorgt ervoor dat de coronacrisis op termijn mogelijk zelfs structurele voordelen oplevert voor de IT-branche. Als bedrijven thuiswerken meer gaan faciliteren en als aanvankelijk door noodzaak gedigitaliseerde diensten zoals digitaal onderwijs en digitale zorgverlening vaste voet onder de grond krijgen, bereikt de branche structureel hogere toppen.
+
+Aan de andere kant staan de uitgeverijen en drukkerijen, die al lange tijd te maken hebben met een krimpende markt en door de coronacrisis een extra tik krijgen. Hekkensluiter is de reclamebranche die door sterk afnemende mediabestedingen veel omzet heeft zien verdwijnen. Gestuwd door een sterk herstel van de IT, verreweg de grootste branche binnen TMT, zal de sector als geheel relatief snel herstellen. ABN AMRO verwacht een groei van 4 procent in 2021. De sector is hiermee nog niet terug op het niveau van voor de uitbraak van de coronacrisis, maar doet een goede stap in die richting. Door de onzekerheid over het verloop van het coronavirus zijn deze verwachtingen met veel onzekerheid omgeven.
+
+
+---
+
+# Internet niet alleen sneller, maar ook energiezuiniger
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Twee derde van de Nederlandse huishoudens kunnen nu beschikken over het supersnelle ‘gigabit-internet’, meldt brancheorganisatie NLconnect. Daarmee is het door de rijksoverheid gestelde doel voor 2023 nu al behaald.
+
+De hoge dekkingsgraad van dit snelle, vaste breedbandnetwerk kan worden verklaard door twee inspanningen vanuit de telecomsector: de doorlopende uitrol van glasvezel tot in de woning en verhoogde internetsnelheden via bestaande televisiekabels.
+
+## Insight
+
+Beide strategieën bieden consumenten niet alleen de kans om te genieten van supersnel internet, maar betekenen tegelijkertijd een verbetering in termen van energieverbruik. Energiezuinigheid van communicatienetwerken is een actueel onderwerp omdat het dataverkeer al jaren exponentieel stijgt. Om de uitstoot van CO2 te beperken is het belangrijk dat het voor dataverkeer benodigde energieverbruik niet met dezelfde snelheid toeneemt.
+
+Het grootste deel van het vaste breedbandnetwerk in Nederland bestaat inmiddels uit glasvezel. Dit is goed nieuws, want glasvezel staat bekend als de meest energie-efficiënte manier om data uit te wisselen. In de meeste gevallen loopt het laatste gedeelte van het internetverkeer, dus tussen wijkcentrale of straatkastje en het huis, echter nog via de ‘ouderwetse’ verbinding. In het bestaande netwerk van KPN is dat de koperen telefoonlijn en in het netwerk van VodafoneZiggo is dat de televisiekabel. Deze partijen hebben veel macht; samen zijn zij momenteel verantwoordelijk voor tachtig tot negentig procent van de vaste internetaansluitingen bij huishoudens.1
+
+Qua snelheid is de rek van het kopernetwerk er wel uit. Daarom heeft KPN er dit jaar werk van gemaakt om ook dit laatste stuk voor steeds meer huishoudens te verglazen. Zo’n verbinding heet ‘Fiber-to-the-Home’ (FttH). FttH levert supersnel internet op, iets wat niet mogelijk is met het bestaande kopernetwerk. VodafoneZiggo heeft een andere strategie. De internetprovider blijft gebruikmaken van het laatste stukje televisiekabel en voert hierop een ‘upgrade’ uit volgens het principe ‘gigabit zonder graven’: zij beperken zich tot vernieuwingen in wijkcentrales en kabels boven de grond. Door die vernieuwingen kunnen vergelijkbare downloadsnelheden als bij verglazing worden bereikt.2
+
+Beide strategieën betekenen niet alleen sneller internet, maar leiden ook tot een verbetering in termen van energieverbruik. Bij KPN ligt de winst in het feit dat een volledig glasvezelnetwerk minder netwerkapparatuur vereist. Dat vertaalt zich door naar een energieverbruik dat zo’n 7,5 keer lager ligt dan bij het oude kopernetwerk, zo blijkt uit recent onderzoek van kabelproducent Prysmian.3 Daarbij maakt het glasvezelnetwerk ook efficiënter gebruik van deze energie; waar met één kilowattuur via de koperen telefoonlijn een maximum van 4 terabyte aan data kan worden doorgeven, kan een Fiber-to-the-Home netwerk met dezelfde hoeveelheid energie tot wel 56 terabyte overdragen.
+
+Ook de upgrade van het televisiekabelnetwerk door VodafoneZiggo biedt duurzaamheidsvoordeel. Dit voordeel lijkt echter primair in de apparatuur bij de mensen thuis te huizen4: het modem. Het nieuwe modem dat bij afnemers van gigabit-internet thuis wordt geïnstalleerd, kan zichzelf automatisch in slaapstand brengen op het moment dat er geen internetverkeer is. In rustmodus verbruikt het apparaat minder energie. Uitgaande van acht uur internetgebruik per dag – een hoeveelheid die nu waarschijnlijk hoger ligt – schatten onderzoekers van de Universiteit van Melbourne dat het gebruik van de slaapstand kan resulteren in een 40 procent lagere energieconsumptie.5
+
+Momenteel zijn dergelijke instellingen bij FttH-apparatuur thuis nog niet mogelijk. Dat is zonde, want juist deze apparatuur vormt de meest energieslurpende component in de gehele keten. Dit geldt voor alle soorten netwerken, maar in het geval van Fiber-to-the-Home is de verhouding wel erg scheef: de router en ‘converter’ (het apparaat dat het optische signaal vanuit de glasvezelkabel omzet naar een elektrisch signaal) zijn hier verantwoordelijk voor ongeveer 95 procent van het totale energieverbruik door FttH.6 Dit percentage is onder andere hoog omdat het glasvezelnetwerk zelf zo efficiënt is – een positief teken. Tegelijkertijd betekent het dat de duurzaamheidsreis ook in het geval van volledige glasvezelnetwerken nog niet ten einde is. Aandacht voor de ontwikkeling van energiezuinige routers en aanvullende netwerkapparatuur is dus gewenst.
+
+De specifieke strategie van zowel KPN als VodafoneZiggo lijkt te zijn geboren uit de (on)mogelijkheden van het bestaande netwerk. Binnen die kaders hebben beide partijen de meest logische route naar gigabit-internet gekozen, een route die tegelijkertijd leidt naar een vermindering in CO2-uitstoot. Het is te hopen dat energiezuinigheid ook bij doorontwikkeling van deze supersnelle netwerken hoog op de agenda blijft.
+
+*In Headlines & Insights geeft ABN AMRO duiding bij het nieuws.*
+
+
+---
+
+# Meer cyberaanvallen via gestolen inloggegevens
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Cybercriminelen beginnen hun aanval steeds vaker door op bedrijfssystemen in te loggen met gebruikersnaam en wachtwoord. Hiermee wordt deze strategie inmiddels even vaak toegepast als phishing waarmee ruim de helft van de bedrijven in 2023 mee werd geconfronteerd, zoals blijkt uit een enquête van ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties.
+
+Uit deze toename blijkt dat het voor cybercriminelen wel heel gemakkelijk is geworden om toegang te krijgen tot combinaties van gebruikersnamen en wachtwoorden. Daar hoeft in veel gevallen dus zelfs geen losse [phishing](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-phishing.html)-campagne meer voor te worden opgetuigd, waarbij slechts een klein percentage van de ontvangers de ‘gewenste’ actie zal uitvoeren. Voor kant-en-klare datasets betalen kwaadwillenden dan ook graag grof geld. Dit is een van de redenen dat criminele groeperingen die zich eerder toelegden op [ransomware](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-ransomware.html) hun jachtterrein verleggen naar de creatie van malware die speciaal gemaakt is om informatie te stelen.
+
+## Onopgemerkt binnenkomen
+
+Aanvallers kunnen op verschillende manieren aan die inloggegevens komen. Soms weten zij de hand te leggen op kant-en-klare lijsten met gelekte gebruikersaccounts, die veelal via het ‘dark web’ worden aangeboden. Zij proberen met deze gegevens vervolgens ook op bedrijfssystemen in te loggen, en maken daarmee dankbaar gebruik van het feit dat mensen voor verschillende accounts vaak dezelfde combinaties van gebruikersnamen en wachtwoorden aanhouden. In andere gevallen ontbreken de wachtwoorden op de gelekte lijsten en worden de wachtwoorden met behulp van enorme rekenkracht geraden. Deze laatste werkwijze vormde ook het startpunt van een Chinese cyberspionage-operatie bij de Nederlandse chipfabrikant NXP, die startte in 2017 maar tot 2020 onopgemerkt bleef. De hackers hadden hierdoor lange tijd toegang tot intellectueel eigendom van de fabrikant, zoals chipontwerpen.
+
+## Uitbuiten van kwetsbaarheden
+
+Ook kwetsbaarheden in met het internet verbonden programma’s waren in 2023 een populair startpunt van cyberaanvallen. Dergelijke achterdeurtjes kunnen worden misbruikt om systemen binnen te dringen, nog voordat er een oplossing of ‘patch’ voor beschikbaar is. Misbruik vond onder andere plaats via nieuw gevonden [kwetsbaarheden](https://blog.google/technology/safety-security/a-review-of-zero-day-in-the-wild-exploits-in-2023/#:~:text=In%202023%2C%20Google%20observed%2097,of%202021) in de besturingssystemen Windows, iOS en Android, en webbrowsers Chrome en Safari. Vaak zijn cybercriminelen er als de kippen bij; in 2023 werden bij een [kwart](https://blog.qualys.com/vulnerabilities-threat-research/2023/12/19/2023-threat-landscape-year-in-review-part-one#:~:text=MITRE%20ATT%26CK%20tactics.-,2023%20Statistics,found%20than%20the%20year%20before.) van deze ‘zero-days’ al binnen een dag pogingen ondernomen om deze uit te buiten.
+
+## Combinatie van maatregelen belangrijk
+
+Deze top drie van ‘initial access vectors’ onderstreept het belang voor bedrijven om een combinatie van maatregelen toe te passen. Zo kan het aantal succesvolle phishing-pogingen naar beneden worden gebracht door medewerkers te trainen in het herkennen ervan, en is het toepassen van ‘multifactor-authenticatie’ belangrijk om te voorkomen dat gelekte of buitgemaakte inloggegevens worden misbruikt. Bij deze authenticatiemethode worden een of meerdere extra checks gedaan, bijvoorbeeld via een bevestiging in een mobiele app of een code die per sms wordt toegezonden. Misbruik van kwetsbaarheden in programma’s en apparaten benadrukt het belang van regelmatige software-updates en een goede check op het cyberveiligheidsbeleid van IT-leveranciers.
+
+
+---
+
+# Nieuwe cyberwet dwingt bedrijven tot maatregelen
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Om de cyberweerbaarheid in Europa te verbeteren, wordt in oktober 2024 een nieuwe wet van kracht: NIS2, de opvolger van de eerdere Network and Information Systems-richtlijn (NIS). Deze wet dwingt organisaties om de cyberweerbaarheid van toeleveranciers en klanten kritisch onder de loep te nemen. Vooral kleinere bedrijven zijn nog niet voorbereid op kritische vragen uit de keten, iets wat ze klanten kan kosten.
+
+De wet omvat een set aan regels die primair gericht is op bedrijven waarvan een verstoring brede maatschappelijke impact kan hebben. Zowel de Europese energie-infrastructuur als het spoornetwerk zijn bijvoorbeeld het [doelwit](https://tweakers.net/nieuws/220560/minister-tsjechie-rusland-voert-cyberaanvallen-uit-op-europees-spoornetwerk.html) van Russische staatshackers. Waar de focus van NIS zes sectoren omvatte, waaronder de energievoorziening, digitale infrastructuur en gezondheidszorg, reikt opvolger NIS2 veel verder. Ook levensmiddelenbedrijven, overheid en chemische industrie vallen nu bijvoorbeeld onder de nieuwe wet. In totaal gaat het om 10.432 Nederlandse bedrijven die aan de nieuwe regels moeten voldoen, verspreid over zeventien sectoren.
+
+Bedrijven in de relevante sectoren zijn straks onder andere verplicht om basisveiligheidsmaatregelen toe te passen, waaronder het gebruik van sterke wachtwoorden en het uitvoeren van software-updates. Ook moeten zij de continuïteit van de organisatie na een ernstige aanval kunnen garanderen, bijvoorbeeld via back-ups en crisismanagement. Daarnaast moeten zij zich registreren en zijn zij verplicht om bij de toezichthouder melding te maken van cyberincidenten in hun bedrijf. Het gaat om bestaande nationale toezichthouders die per sector kunnen verschillen.
+
+[Lees ook: Cyber-regelgeving zet meer bedrijven op scherp](/nl/zakelijk/insights/sectoren-en-trends/alle-sectoren/cyber-regelgeving-zet-meer-bedrijven-op-scherp.html)
+
+## Rennen voorafgaand aan implementatie
+
+Hoewel er dus beweging in de markt is, gebeurt er bij de meeste bedrijven uit het midden- en kleinbedrijf (mkb) volgens Daan Hoogendijk, programmadirecteur van Samen Digitaal Veilig, “heel weinig” en gaat wat er gebeurt “tergend traag”. Hoogendijk: “Ik vrees dat het de maanden voorafgaand aan de implementatie van NIS2 rennen wordt voor iedereen. Dat hebben we ook gezien bij de invoering van de privacywet AVG.” Slechts 38 procent van de ondervraagde mkb-bedrijven heeft zich al “heel veel” of “veel” in de NIS2-wetgeving verdiept, tegenover 58 procent uit het grootbedrijf.
+
+Toch kijkt de programmadirecteur met optimisme naar de nieuwe wet. “Uiteindelijk wordt de ketenbenadering hierdoor de standaard”, blikt Hoogendijk vooruit. “En ik verwacht dat binnen een jaar of drie ook het mkb zijn cyberhygiëne op orde heeft.” Hij verwijst naar een set aan basisveiligheidsmaatregelen die elk bedrijf standaard zou moeten toepassen, waaronder het gebruik van sterke wachtwoorden en het uitvoeren van software-updates. “Vergelijk het met je deur op slot doen, dat is ook een routine die je elke dag automatisch toepast.” Van de ondervraagde organisaties uit het grootbedrijf zegt 40 procent deze maatregelen al volledig toe te passen; in het mkb en onder zzp’ers bedraagt dit percentage ongeveer een kwart.
+
+## Inzicht hebben in leveranciers
+
+Zoals gezegd is een van de kernpunten van de nieuwe wet dat bedrijven ook de cyberrisico’s in beeld moeten hebben vanuit hun eigen toeleveringsketen, en dat afspraken rond cyberveiligheid contractueel moeten worden vastgelegd met deze ketenpartners.
+
+Dit is het een realiteit waar ook de kleinere bedrijven rekening mee moeten zullen houden. Zo legde een grote supermarktketen bij al zijn Nederlandse toeleveranciers alvast het dringende verzoek neer om hun beleid op het vlak van cyberveiligheid toe te lichten, vertelt Hoogendijk. “De boodschap luidde: ofwel jullie laten een certificaat zien, ofwel we zetten de samenwerking stop. Het gros van deze foodbedrijven heeft helaas nog te weinig focus op cybersecurity.”
+
+Het is dus zaak dat ook de kleinere bedrijven het been bijtrekken om hun cyberveiligheid op orde te krijgen en aan de nieuwe Europese wet voldoen.
+
+
+---
+
+# Noodzaak voor alternatieve koeling datacenters neemt toe
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Koelingsinstallaties van datacenters in Noord-Holland gebruiken dusdanig veel water dat dit lokaal kan leiden tot een drinkwatertekort, zo berichtte De Telegraaf. Niet elk koelsysteem gebruikt echter drinkwater; er is een alternatief, met nog tal van andere voordelen.
+
+## Insight
+
+Het drinkwaterverbruik van datacenters heeft zijn wortels in zogenoemde 'open koeltorens'. Warmte afkomstig van IT-apparatuur wordt opgenomen door water, dat vervolgens in deze koeltorens wordt versproeid. Warmte wordt hierdoor automatisch aan de buitenlucht overgedragen. In dit proces verdampt een deel van het water, dat moet worden aangevuld. Ook moet regelmatig een deel van het overgebleven water worden geloosd.
+
+Deze systemen liggen nu onder vuur vanwege het mogelijke drinkwatertekort dat daardoor op warme dagen zou kunnen ontstaan. De Dutch Data Center Association [relativeert](https://fd.nl/futures/1377663/zorgen-om-onduidelijk-waterverbruik-datacenters-jvc1cawVIomh) in Het Financieele Dagblad overigens het hoge waterverbruik waar de [De Telegraaf](https://www.telegraaf.nl/nieuws/1219494172/datacenters-slurpen-zo-veel-water-dat-er-mogelijk-te-weinig-voor-huishoudens-overblijft) van spreekt. In het FD-artikel wordt daarnaast gesteld dat deze vorm van koeling slechts op de warmere dagen nodig is, zo'n vijf procent van de tijd. Desondanks heeft demissionair minister Van Nieuwenhuizen aangegeven uit te willen zoeken "[hoe het zit](https://www.rtlnieuws.nl/tech/artikel/5220867/datacentra-water-watergebruik-noord-holland-nederland-hollands-kroon)".
+
+Hoe het ook zit, om drinkwater te besparen kunnen datacenters een 'gesloten koelsysteem' overwegen. In tegenstelling tot open systemen zoals hierboven beschreven, blijft in een gesloten systeem de koelvloeistof circuleren en hoeft deze niet te worden aangevuld. Nog interessanter wordt het echter wanneer zo'n gesloten systeem wordt gecombineerd met een efficiënte opvang van warmte direct bij de bron, de server. Deze combinatie levert niet alleen voordeel op in termen van water- en energieverbruik, maar is ook het meest toekomstbestendig gezien de nieuwste technologische ontwikkelingen.
+
+Serverwarmte kan worden geoogst via lucht, of via vloeistof. In dat eerste geval wordt koele lucht langs de server, het 'serverrack' of simpelweg door de gehele zaal geblazen. De hitte wordt op zijn beurt in een warme luchtstroom afgevoerd. Lucht is echter geen bijster goed transportmiddel voor warmte; vloeistof is een veel betere geleider. Experts voorspellen mede daarom al jaren de doorbraak van vloeistofkoeling, ook wel 'direct liquid cooling' genoemd. Hierbij worden slangetjes met koelvloeistof langs of door de servers heen geleid, of de volledige server wordt ondergebracht in een bad van synthetische olie. Die laatste, nog nieuwe variant wordt ook wel 'immersiekoeling' genoemd.
+
+De datacenterbranche is nog niet op grote schaal overgestapt, maar de eerste voorzichtige stappen richting direct liquid cooling worden inmiddels gezet. Zo koelt Google een deel van haar servers middels slangetjes direct op de [computerchips](https://datacenterfrontier.com/google-shifts-to-liquid-cooling-for-ai-data-crunching/). Microsoft bracht over immersiekoeling [hoopgevende berichten](https://datacenterfrontier.com/microsoft-tests-immersion-cooling-tech-from-bitcoin-mining-for-its-cloud-servers/) naar buiten, en ook oliebedrijf [Shell](https://www.hpcwire.com/off-the-wire/asperitas-selected-by-shell-to-deliver-immersion-cooling-for-amsterdam-hpc-datacentre/) en Franse bank [Crédit Agricole](https://www.datacenterdynamics.com/en/news/cr%C3%A9dit-agricole-opts-for-immersion-cooling/) hebben aangegeven deze technologie te gaan gebruiken in hun eigen datacenters. Verschillende overwegingen spelen hier een rol.
+
+Allereerst betekent direct liquid cooling minder energiegebruik. Voor immersiekoeling is dit zelfs een [vermindering](https://www.datacenterknowledge.com/power-and-cooling/liquid-cooling-can-lower-data-center-pue-s-not-its-main-draw) van 30 tot 50 procent. Doordat direct bij de bron wordt gekoeld, neemt de vloeistof – olie, in dit geval – temperaturen aan van wel 50 tot 60 graden Celsius. En hoe contra-intuïtief het ook klinkt, juist restwarmte met een hoge temperatuur koelt gemakkelijk zelf weer af – een natuurkundig principe. Warmteafvoer die aanvankelijk via lucht verloopt levert later in het proces water op met restwarmtetemperaturen van slechts 25 tot 30 graden, wat andersom meer interventie vereist voor afkoeling. Denk hierbij aan ventilatoren die koele lucht langs het opgewarmde water blazen. Bij hogere buitentemperaturen gaat het zelfs om 'chillers', koelmachines die nog meer energie gebruiken.
+
+Een nog belangrijkere overweging om op vloeistofkoeling over te gaan is de grote hoeveelheid warmte die de nieuwste generatie computerchips genereert. Deze chips zijn speciaal ontwikkeld voor toepassingen die veel rekenkracht vereisen, zoals de ontwikkeling van kunstmatige intelligentie. Zelfs de meest geavanceerde luchtkoeling is volgens experts niet in staat de daarbij vrijkomende hitte te elimineren. Enkel vloeistofkoeling lijkt tegen deze taak opgewassen.
+
+Deze vorm van koeling neemt daarnaast minder ruimte in, een voordeel gezien de verwachte stijging van het aantal datacenters. Met de uitrol van 5G zullen bijvoorbeeld ook in stedelijke omgevingen dichtbij de eindgebruiker steeds meer datacenters verrijzen. Dit zijn kleinere exemplaren die allerlei slimme, op kunstmatige intelligentie gebaseerde toepassingen ondersteunen. Vloeistofkoeling is in dit soort gevallen ideaal, niet alleen vanwege geavanceerde, hitte-genererende chips die daarbij worden gebruikt, maar ook omdat deze methode het aantal vierkante meters aan datavloer kan beperken. Luchtkoeling vergt vaak hoge ruimtes, grote installaties en ruime gangpaden aan weerszijden van de servers.
+
+Een alternatieve wijze van koeling voldoet daarnaast beter aan de toenemende maatschappelijke eisen die aan datacenters worden gesteld. Amsterdam stelde vorig jaar dat het de bouw van nieuwe datacenters alleen toestaat wanneer deze hun restwarmte [gratis beschikbaar stellen](https://www.parool.nl/amsterdam/amsterdamse-datacenters-moeten-woningen-verwarmen-gratis~be0be8f4/) voor de verwarming van woningen in groot-Amsterdam. De hoge restwarmtetemperaturen die via direct liquid cooling worden geoogst, zijn breed toepasbaar. Restwarmte met een relatief lage temperatuur is minder makkelijk inzetbaar, omdat alleen goed geïsoleerde nieuwbouwwoningen ermee kunnen worden verwarmd.
+
+Natuurlijk betekent dit niet datacenters van de ene op de andere dag wisselen van koeltechniek. Op vloeistof gebaseerde koelsystemen houden een paradigmawisseling in: ze vereisen anders ontworpen panden, aanpassingen en standaardisatie van de servers zelf, en een wijziging in operationele processen. Daar komen de nodige investeringen bij kijken. Toch lijken de voordelen door eigenaars van datacenters te worden erkend; in recent onderzoek gaf 60 procent van de respondenten aan vloeistofkoeling te willen overwegen. Het percentage was nog hoger (70 procent) wanneer deze vraag specifiek werd gesteld onder de aanname dat ze een nieuwe faciliteit zouden moeten [bouwen](https://www.delltechnologies.com/resources/en-us/asset/white-papers/products/ready-solutions/informa-liquid-cooling-survey-results.pdf).
+
+Al met al lijkt het erop dat de bodem voor vloeistofkoeling in datacenters steeds vruchtbaarder wordt. Een toenemende nadruk op duurzaamheid vanuit de maatschappij vormt een belangrijke drijfveer, evenals de eisen die nieuwe digitale toepassingen de komende jaren aan onze digitale infrastructuur stellen. Het is nu aan alle vooruitziende ondernemers om te bepalen wanneer zij dit laatste puzzelstukje leggen.
+
+*In Headlines & Insights geeft ABN AMRO duiding bij het nieuws.*
+
+
+---
+
+# Ondernemers erkennen cyberrisico vooral pas na schade
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Een overgrote meerderheid van de bedrijven heeft al eens te maken gehad met een cyberaanval. Toch zijn ondernemers geneigd de bijbehorende risico’s te onderschatten. Vooral pas nadat een organisatie schade heeft geleden, bijvoorbeeld in de vorm van gederfde inkomsten of financiële kosten voor systeemherstel, worden de risico’s erkend.
+
+Afgelopen jaar kreeg bijna driekwart van de Nederlandse bedrijven te maken met een cyberaanval, zo blijkt uit een enquête door ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties. Onder het grootbedrijf, met een jaaromzet van minimaal 25 miljoen, ligt dit percentage met 86 procent het hoogst. In het midden- en kleinbedrijf (mkb) zag 71 procent zich verleden jaar geconfronteerd met een aanval. Meer dan de helft van de zelfstandigen (55 procent) was het doelwit. Aan het onderzoek werkten 232 grote bedrijven mee, 524 bedrijven uit het mkb en 139 zelfstandigen.
+
+De kans is inmiddels bijzonder groot dat een bedrijf ooit het doelwit wordt van een cyberaanval; bij 95 procent van het grootbedrijf is dit al eens het geval geweest, tegenover 85 procent van de mkb’ers en 65 procent van de zzp’ers. Hoewel dit percentage jaarlijks – logischerwijs – oploopt voor alle bedrijfsgroottes, geldt dit voor de risicoperceptie niet over de hele linie. In zowel het mkb- als zzp-segment is het percentage ondernemingen dat cybercriminaliteit als “veel” of “heel erg veel risico” ziet voor de organisatie zelfs iets afgenomen. Respectievelijk 38 en 13 procent schat de risico’s dit jaar hoog in, zo blijkt. Dit geldt voor een veel hoger percentage van de ondernemingen in het grootbedrijf: 60 procent, tegenover 53 vorig jaar.
+
+## Hogere risico-inschatting na schade
+
+Inmiddels hebben cyberaanvallen bij 59 procent van het grootbedrijf en 43 procent van het mkb tot schade geleid, zoals financiële kosten voor het herstel van systemen, gederfde inkomsten door stilstand van het bedrijf of reputatieschade door gelekte klantgegevens. Dit komt beduidend minder voor in de zzp-populatie, waar slechts 6 procent aangeeft ooit schade te hebben ondervonden door een cyberaanval.
+
+Uit nadere analyse blijkt dat de risico’s gemiddeld hoger worden ingeschat door bedrijven die daadwerkelijk al eens schade hebben geleden door een aanval. Van hen ziet 63 procent cybercriminaliteit als (heel) veel risico voor de organisatie. Van de bedrijven die nog geen schade hebben geleden door een aanval, schaart slechts 26 procent zich achter deze risico-inschatting. Dit is vergelijkbaar met de risico-inschatting van de bedrijven die überhaupt nog nooit zijn aangevallen.
+
+Toch ziet CEO Maarten Roerink van cybersecuritydienstverlener MMOX dat ook ervaringen van soortgelijke bedrijven kunnen dienen als ‘wake-up call’. “Ondernemers die van hun buurman op het bedrijventerrein horen over een vervelende cyberaanval, zijn eerder geneigd om zich te gaan oriënteren op oplossingen. Ze lopen niet direct weg met een contract, maar zijn zich in ieder geval al meer bewust van de risico’s.”
+
+## Maatregelen om risico’s te verkleinen
+
+Ondernemers doen er goed aan om zich te wapenen tegen cyberaanvallen. Dat kan in drie relatief eenvoudige stappen. De eerste is het maken van een risicoanalyse waarmee in kaart gebracht wordt welke zaken cruciaal zijn voor het blijven functioneren van de onderneming en het op orde houden van de dienstverlening. De tweede stap is het nemen van maatregelen, zoals veilig gedrag onder werknemers stimuleren, vastleggen wie de eigenaar is van bepaalde gegevens en cyberrisico’s met partners en leveranciers bespreken. Ten slotte is het essentieel om procedures te ontwikkelen waarmee de cyberincidenten kunnen worden gedetecteerd en afgehandeld.
+
+
+---
+
+# Online advertentiemarkt blijft groeien
+
+[Stand van Sectoren](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kasper Buiting
+
+Justine Vijver
+
+De economische omstandigheden voor de TMT-sector zijn verslechterd. De groei van de Nederlandse economie vertraagt en de economische indicatoren zijn minder positief geworden. De TMT-sector heeft daar ook last van, maar presteert nog relatief goed. Meer is hierover te lezen in de stand van TMT.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Stand van TMT (16 juli 2019)
+
+  1 MB](https://www.abnamro.nl/nl/media/Stand-van-TMT-juli-2019-1_tcm16-66349.pdf)
+
+## Economisch klimaat
+
+Het economische klimaat is minder goed geworden voor de TMT-sector. De export neemt sterk af en vooral daardoor is er sprake van een groeivertraging van de Nederlandse economie als geheel. Het producentenvertrouwen is lager dan voorheen, maar gestabiliseerd op een -nog steeds- hoog niveau. Andere indicatoren zoals het consumentenvertrouwen en de inkoopmanagersindex zijn duidelijk verslechterd.
+
+## Personeelstekort blijft grootste belemmering TMT-sector
+
+Het ondernemersvertrouwen in de TMT-sector is de afgelopen kwartalen gedaald, maar met 13,7 nog steeds op een hoog niveau. Maar liefst 52% van de ondernemers geeft aan geen noemenswaardige belemmeringen te ervaren. De belangrijkste belemmering blijft het tekort aan arbeidskrachten waar 31% last van heeft.
+
+## Uitgelicht: Advertentiemarkt
+
+De online advertentiemarkt is afgelopen jaar verder gegroeid en neemt een steeds groter deel in van de totale netto mediabestedingen. Dit gaat ten koste van de printmedia, die hun aandeel in de mediabestedingen zien slinken.
+
+
+---
+
+# Online-advertentiemarkt evolueert onder maatschappelijke druk
+
+[Webinar](https://www.abnamro.nl/nl/zakelijk/insights/in-gesprek/webinar/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+[Mario Bersem](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/mario-bersem/index.html)
+
+Veranderende maatschappelijke standaarden zetten verschillende principes van de online-advertentiemarkt onder druk. Zo worden volledige transparantie en zeggenschap over het gebruik van persoonlijke data de nieuwe standaard en zal contextueel adverteren aan terrein winnen.
+
+Google weet perfect wat iemands interesses zijn op basis van diens zoekgedrag, en sociaal medium Instagram heeft inzicht in gebruikers via likes, posts en gevolgde accounts. Op basis van dergelijke gegevens kunnen gerichte advertenties worden getoond.
+
+De meeste andere websites zijn in tegenstelling tot dergelijke ‘walled gardens’ autonoom niet in staat om zoveel inzichten over hun gebruikers te verzamelen. Dat is de reden dat gepersonaliseerde advertenties bij kleinere uitgevers veelal tot stand komen op basis van third-party data – waaronder browsegedrag op eerder bezochte websites. Het gebruik van dergelijke tracking-gegevens wordt straks bemoeilijkt.
+
+## De toekomst van online gepersonaliseerd adverteren
+
+[![
+
+Uw browser ondersteunt geen HTML video. Hier is een [link om de video te downloaden](https://assets.abnamro.com/api/public/content/de-toekomst-van-online-gepersonaliseerd-adverteren-original.mp4)
+
+](https://assets.abnamro.com/api/public/content/de-toekomst-van-online-gepersonaliseerd-adverteren-thumbnail.jpg)](https://assets.abnamro.com/api/public/content/de-toekomst-van-online-gepersonaliseerd-adverteren-720p.mp4)
+
+## Kleine uitgevers onder druk
+
+Voor veel uitgevers en adverteerders zullen de grote platformbedrijven een belangrijke rol blijven spelen. Zo zijn het bereik en de hoeveelheid beschikbare bezoekersdata van kleine uitgevers onvoldoende om adverteerders een-op-een te interesseren. Andersom zijn kleine adverteerders op zoek naar een eenvoudige manier om online hun doelgroep te bereiken. Daarom leunen beide partijen ook in de toekomst sterk op platforms waar aanbod van en vraag naar advertentieruimte bij elkaar worden gebracht. Google is hierin marktleider.
+
+## Transparantie als randvoorwaarde
+
+Naast de macht van grote technologiebedrijven bepaalt ook de wil van de consument welke kant de onlineadvertentiemarkt uiteindelijk opgaat. Waarschijnlijk wordt zijn privacybewustzijn de komende jaren verder versterkt door strengere naleving van Europese privacywet AVG en de vereisten vanuit de Digital Services Act. Die laatste verplicht heldere communicatie over datagebruik voor online-advertenties en maakt het gemakkelijker om “nee” te zeggen tegen tracking. Beide vereisten leggen de macht – of in ieder geval een deel daarvan – terug bij de internetgebruiker.
+
+
+---
+
+# Overheid eist hoofdrol op in 2018
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kasper Buiting
+
+Technologie, Media en Telecom (TMT) is de sector waar de nieuwe economie het eerst zichtbaar wordt. Het is de sector die de digitalisering van de rest van de economie faciliteert en daarvan profiteert.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [TMT - Sectorprognoses (29 maart 2018)
+
+  724 KB](https://www.abnamro.nl/nl/media/TMT%20prognoses%202018_tcm16-70335.pdf)
+
+Het is ook de sector waar digitale disruptie het snelst en het sterkst heeft toegeslagen. Regulering loopt daar vaak bij achter, maar dit jaar maken overheden en toezichthouders een inhaalslag.
+
+## Grote omzetverschillen binnen TMT-sector in 2018 en 2019
+
+De IT-sector profiteert van de economische groei en ook voor 2018 zijn de vooruitzichten positief. ABN AMRO verwacht dat de omzet van IT-bedrijven in 2018 (+6 procent) en in 2019 (+5 procent) blijft groeien. Tegelijkertijd zijn er grote verschillen met andere TMT-sectoren. In de telecomsector en onder uitgevers en drukkerijen is er sprake van langdurige krimp. In de telecom zal de omzet waarschijnlijk verder dalen: in 2018 met 1,5 procent en in 2019 met 2 procent. Bij uitgevers neemt de omzet eveneens af: in 2018 met 3 procent en in 2019 met 4 procent. Bij drukkerijen is dit jaar sprake van een omzetdaling van 3 procent en volgend jaar van 3,5 procent.
+
+## Regulering in IT-sector neemt toe
+
+Ondanks de verwachte groei spelen er ook uitdagingen in de sector, met name op het gebied van privacy. Door de digitalisering neemt de behoefte aan regulering en overheidstoezicht toe. Als gevolg van de Algemene verordening gegevensbescherming dienen bedrijven extra maatregelen te nemen. Het documenteren van de verwerking van persoonlijke data en het communiceren over datalekken vallen ook nu onder de wet. Aan de andere kant is er de nieuwe Wet op de inlichtingen- en veiligheidsdiensten die de mogelijkheden juist vergroot om data van burgers te onderzoeken.
+
+## Overheid en toezichthouders verstevigen grip op TMT-sector
+
+Hoewel de TMT-sector digitalisering in andere economische sectoren faciliteert, heeft het zelf moeite om haar eigen groei te beheersen. "De snelheid waarmee technologische ontwikkelingen zich opvolgen, is in de afgelopen jaren fors toegenomen", zegt Kasper Buiting, Sector Econoom Technologie, Media en Telecom van ABN AMRO. “Dit leidde tot de opkomst en enorme groei van bedrijven als Google en Facebook. Wat we nu zien, is dat regulering vaak nog achterloopt op de technologische slagkracht van de sector. Dit jaar maken overheden en toezichthouders een inhaalslag. "Dat geldt niet alleen voor dataverkeer en privacy, maar ook als het gaat om consolidatie. Als we bijvoorbeeld kijken naar de telecommarkt, zien wij een sector die de neiging heeft steeds meer te consolideren, terwijl de overheid graag concurrentie en marktwerking in stand houdt. Daarom verwachten wij dat overheidstoezicht en toenemende regulering op het gebied van concurrentie en data in 2018 het beeld in de gehele TMT-sector gaat bepalen."
+
+## Belangrijkste conclusies
+
+- Omzetverschillen binnen TMT-sector nemen toe
+- Overheidsregulering in IT-sector neemt in 2018 toe
+- Strenger toezicht op concurrentieverhoudingen en dataverkeer.
+
+
+---
+
+# Phishing blijkt populaire vorm van cybercriminaliteit
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Phishing is een populaire en door ondernemers gevreesde methode voor cybercriminelen om binnen te komen bij bedrijven. Hierbij worden berichten verstuurd die de ontvanger aanzetten tot een, zo blijkt later, schadelijke actie. Opvallend zijn de steeds gerichtere en geavanceerde aanvallen.
+
+[Phishing](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-phishing.html) wordt door alle bedrijfsgroottes het meest gerapporteerd, zo blijkt uit een enquête van ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties. Ruim de helft van de bedrijven zag zich in 2023 geconfronteerd met phishing-mails of -smsjes. Zulke berichten verleiden de ontvanger om een link te openen die een automatische download van schadelijke software in gang zet, of de ontvanger naar een nagemaakte inlogpagina leidt waar gegevens met kwaadwillende derden worden gedeeld.
+
+## Zorgvuldig onderzoek voor gerichte aanval
+
+CEO-fraude is een specifieke vorm van phishing, ook wel bekend als ‘whaling’. Oplichters doen zich hierbij voor als CEO of lid van hoger management en benaderen vanuit diens naam medewerkers. De gebruikte communicatiekanalen lopen uiteen van e-mail tot Whatsapp en zelfs telefoongesprekken. Het gaat meestal om dringende verzoeken om geld over te maken, facturen te betalen of gevoelige informatie te verstrekken. De aanvallers hebben dan vaak al zorgvuldig onderzoek gedaan. Allereerst om de relevante contactgegevens te achterhalen, maar ook om bijvoorbeeld de communicatiestijl van de manager goed te kunnen nabootsen. Maar liefst 33 procent van de respondenten uit het grootbedrijf kreeg vorig jaar een dergelijke aanval voor de kiezen.
+
+[Lees ook: Sterke toename in CEO Fraude](/nl/zakelijk/insights/cybersecurity/phishing/sterke-toename-in-ceo-fraude.html)
+
+## Deepfake van collega’s
+
+Artificial Intelligence (AI) breidt de aanvalsmogelijkheden verder uit. Door toepassing van ‘deepfake’-technologie, waarbij beeld- of geluidsmateriaal wordt gecreëerd dat niet van echt te onderscheiden is, kunnen kwaadwillenden hun slachtoffer doen geloven dat ze met iemand anders van doen hebben. In Hong Kong maakte een financieel medewerker van een multinational meer dan [25 miljoen dollar](https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html) over naar fraudeurs, nadat hij in een videovergadering terechtkwam met een deepfake-versie van de CFO en andere collega’s.
+
+In oktober vorig jaar werd bij de Nederlandse onlinebank Bunq een soortgelijke poging ondernomen, toen een medewerker werd uitgenodigd voor een videogesprek met – zo bleek later – een AI-kloon van topman Ali Niknam. In een [LinkedIn-bericht](https://www.linkedin.com/feed/update/urn:li:activity:7114874320627085312/) noemt Niknam de kloon “overtuigend”.
+
+[Beluister ook de podcast: Generatieve AI: Het verschil tussen echt en nep](https://www.abnamro.nl/nl/zakelijk/insights/in-gesprek/podcast/de-innovatiegolf/generatieve-ai-het-verschil-tussen-echt-en-nep.html)
+
+## Kant-en-klare inloggegevens
+
+Phishing is een populaire manier voor kwaadwillenden om een cyberaanval te starten, maar kan pas tot schade leiden als de ontvanger daadwerkelijk heeft ‘gehapt’. Daarom starten aanvallers hun reis door het IT-landschap van hun doelwit steeds vaker door simpelweg in een van de systemen in te loggen met gebruikersnaam en wachtwoord. In 2023 begon bijna een derde (30 procent) van de cyberaanvallen op deze manier, terwijl dit aandeel in 2022 nog slechts 16 procent betrof – aldus [IBM X-Force](https://www.ibm.com/reports/threat-intelligence). Deze inloggegevens kunnen kant- en klaar worden ingekocht, of met grof rekengeweld worden geraden. Het is een onopvallende manier om binnen te komen, die de indringer een hoop tijd geeft om te zoeken naar verdere kwetsbaarheden en informatie.
+
+## Maatregelen om risico’s te verkleinen
+
+Het stimuleren van veilig gedrag onder werknemers is cruciaal om phishing tegen te gaan. Het is een van de drie stappen die ondernemers moeten nemen om zich te wapenen tegen cyberaanvallen. De eerste stap is het maken van een risicoanalyse waarmee in kaart gebracht wordt welke zaken cruciaal zijn voor het blijven functioneren van de onderneming en het op orde houden van de dienstverlening. De tweede stap is het nemen van maatregelen, zoals veilig gedrag onder werknemers stimuleren, vastleggen wie de eigenaar is van bepaalde gegevens en cyberrisico’s met partners en leveranciers bespreken. Ten slotte is het essentieel om procedures te ontwikkelen waarmee de cyberincidenten kunnen worden gedetecteerd en afgehandeld.
+
+
+---
+
+# Recordbedrag buitgemaakt met gijzelsoftware
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Waar phishing en ogenschijnlijk legitieme logins veelal het startpunt vormen van een aanval, zijn het andere instrumenten die worden ingezet op het moment dat het slachtoffer dieper in de fuik is beland. Zo is de installatie van malware een prominente strategie van cybercriminelen om hun uiteindelijk doel te bereiken.
+
+Deze kwaadaardige software kan bijvoorbeeld dienen om data te stelen, diensten te verstoren, of te spioneren. Bijna een kwart (23 procent) van de ondervraagden kreeg hier in 2023 mee te maken, zo blijkt een enquête van ABN AMRO en onderzoeksbureau MWM2 onder 895 organisaties. Het grootbedrijf werd met 32 procent het vaakst slachtoffer, gevolgd door midden- en kleinbedrijf (mkb) en de zzp’ers met respectievelijk 19 en 16 procent. De meest ingezette vorm van malware is ‘[ransomware](https://www.abnamro.nl/nl/zakelijk/insights/cybersecurity/wat-is-ransomware.html)’, dat systemen blokkeert en data versleutelt totdat de getroffen partij overgaat tot het betalen van losgeld. Het staat bij zowel het grootbedrijf als de zzp-gemeenschap in de top drie van meest gevreesde cyberaanvallen. In het mkb haalt ransomware de top drie niet, maar wordt malware in bredere zin wel genoemd.
+
+## Recordbedrag aan losgeld betaald
+
+Deze [gijzelsoftware](https://www.wired.com/story/ransomware-payments-2023-breaks-record/) blijkt grootschaliger te worden ingezet dan ooit; in 2023 werden wereldwijd 4399 ransomware-aanvallen geregistreerd. Samen legden slachtoffers een recordbedrag van 1,1 miljard dollar neer – bijna een verdubbeling ten opzichte van 2022, toen deze vorm van cybercriminaliteit even op zijn retour leek. Het relatief bescheiden bedrag van 567 miljoen dollar in 2022 blijkt nu een uitzondering te zijn geweest in een verder eenduidige trend.
+
+Hoewel de stijging in aanvallen en opgehaald losgeld groot is, blijkt juist een kleiner percentage van de slachtoffers daadwerkelijk te betalen. Waar dat in 2019 en 2020 zo tussen de 70 en 80 procent lag, was dit percentage in het vierde kwartaal van 2023 gedaald naar 29 procent. Het in 2023 betaalde bedrag kan dan ook grotendeels worden verklaard door een focus van cybercriminelen op bedrijven die zich absoluut geen verstoringen in hun systemen kunnen veroorloven en daarnaast in staat zijn het losgeld op te hoesten. Driekwart van het totaalbedrag vloeit voort uit betalingen van meer dan een miljoen dollar. Arwi van der Sluijs, algemeen directeur van cybersecuritydienstverlener NFIR: “Kleinere bedrijven zijn minder bereid om te betalen, ze hebben het er simpelweg niet voor over. Dat ze daardoor bepaalde data verliezen, accepteren ze.”
+
+Eind vorig jaar werd ook Tunstall Healthcare het slachtoffer van [ransomware](https://www.vpngids.nl/nieuws/tunstall-hackers-hadden-toegang-tot-data/). Het bedrijf is gespecialiseerd in oplossingen die zorg op afstand mogelijk maken en produceert onder andere draagbare noodknoppen voor ouderen. Deze gebruiken het systeem om snel hulp te kunnen krijgen bij bijvoorbeeld een valpartij, maar hun meldingen kwamen door de hack niet meer door bij de meldkamer. Met de hulp van een extern cybersecuritybedrijf kon het systeem binnen enkele dagen weer worden hersteld; in de tussentijd werd cliënten geadviseerd om te allen tijde een mobiele telefoon bij zich te dragen.
+
+## Maatregelen om risico’s te verkleinen
+
+Ondernemers doen er goed aan om zich te wapenen tegen cyberaanvallen. Dat kan in drie relatief eenvoudige stappen. De eerste is het maken van een risicoanalyse waarmee in kaart gebracht wordt welke zaken cruciaal zijn voor het blijven functioneren van de onderneming en het op orde houden van de dienstverlening. De tweede stap is het nemen van maatregelen, zoals veilig gedrag onder werknemers stimuleren, vastleggen wie de eigenaar is van bepaalde gegevens en cyberrisico’s met partners en leveranciers bespreken. Ten slotte is het essentieel om procedures te ontwikkelen waarmee de cyberincidenten kunnen worden gedetecteerd en afgehandeld.
+
+
+---
+
+# Snel doorpakken op stimuleren thuiswerken helpt klimaat
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Sonny Duijn](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/sonny-duijn/index.html)
+
+[Franka Rolvink Couzy](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/franka-rolvink-couzy.html)
+
+De nieuwe regering gaat thuiswerken stimuleren om het milieu te sparen, zo staat te lezen in het regeerakkoord. Nu een deel van Nederland onder druk van de pandemie al massaal thuis werkt, heeft dit kans van slagen. Voorwaarde is echter wel dat het voornemen verder wordt uitgewerkt, zodat er ook een oplossing komt voor de eenzaamheid en de gebrekkige interactie die door het thuiswerken wordt veroorzaakt. Anders kan deze maatregel negatief doorwerken in het welzijn van de mensen.
+
+## Insight
+
+Het is niet de meest in het oog springende en ook zeker niet het meest uitgewerkte onderdeel van het coalitieakkoord. Toch is het interessant dat het aanstaande kabinet stelt afspraken te maken met het 'bedrijfsleven en overheden over het stimuleren van thuiswerken'.
+
+De reden laat zich gemakkelijk raden, aangezien het voornemen onder het subhoofdstuk Klimaat en Energie is geplaatst. Wanneer meer wordt thuisgewerkt zijn er minder verkeersbewegingen, en dat heeft een lagere uitstoot van broeikasgassen tot gevolg. Dat is welkom, aangezien de uitstoot fors omlaag moet om te voorkomen dat de aarde deze eeuw met meer dan 1,5 graad opwarmt, met alle gevolgen van dien. Het loont zodoende de moeite voor werkgevers om thuiswerken te stimuleren.
+
+Thuiswerken is uiteraard aan beperkingen gebonden en kan niet verwacht worden van werknemers met beroepen die aan een locatie zijn gebonden, zoals vrachtwagenchauffeurs of medewerkers in de horecabediening. Maar voor IT-medewerkers, ambtenaren, zakelijke dienstverleners en veel medewerkers in kantoorfuncties is thuiswerken beter mogelijk. In 2020 steeg het percentage werknemers dat geheel of gedeeltelijk thuiswerkt naar 47 procent, blijkt uit gegevens van onderzoeksorganisatie TNO. Een jaar eerder was dat 37 procent.
+
+Met het stimuleren van thuiswerken kan veel CO₂-emissie voorkomen worden. Wanneer 12 procent van de Nederlandse beroepsbevolking structureel anderhalve dag per week vaker gaat thuiswerken dan voor de coronapandemie het geval was, scheelt dat een uitstoot van 353.600 ton per jaar aan broeikasgasequivalenten, blijkt uit berekeningen van onderzoeksbureau CE Delft. Hoewel dit slechts een paar tienden van een procent is in vergelijking met de totale Nederlandse uitstoot aan broeikasgassen in een jaar volgens het CBS, gaat het om een niet te verwaarlozen hoeveelheid. De besparing komt overeen met 150.000 retourvluchten tussen Amsterdam en New York, [volgens milieu-organisatie Natuur & Milieu](https://www.natuurenmilieu.nl/nieuwsberichten/15-dag-thuiswerken-scheelt-nederlanders-3-miljard-kilometers-per-jaar/).
+
+Werkgevers kunnen met het stimuleren van thuiswerken twee vliegen in een klap slaan. Het kan immers naast het verminderen van de uitstoot ook de werkprivébalans van werknemers verbeteren. Uit onderzoek voor de Sectorale Welzijnsmonitor van ABN AMRO blijkt dat werknemers die werkprivébalans, samen met gezondheid, als belangrijkste categorie binnen een baan beschouwen. Dit zijn zaken die relatief dicht bij de leefsfeer van werknemers staan daarom eerder als stimulans kunnen worden gezien dan het veel abstractere 'inspanningen van de organisatie op het klimaat'.
+
+Niettemin kleven aan thuiswerken bezwaren. Tijdens de pandemie kwamen als keerzijden onder meer naar voren het gebrek aan 'echte' interactie tussen werknemers, verminderde mogelijkheden om te brainstormen en vereenzaming. Het is van belang om hier structurele oplossingen voor te vinden, zodat werkgevers thuiswerken effectiever en zonder persoonlijke schade kunnen vormgeven.
+
+Bovendien zijn er diverse zaken rondom thuiswerken die nadere uitwerking kunnen krijgen. Dit kan gaan om de verhouding tussen werkgevers en thuiswerkende werknemers, bijvoorbeeld op het vlak van privacy, arbeidsrecht en fiscale behandeling, of het subsidiëren van innovatie die meer thuiswerken verder mogelijk maakt. Tevens kunnen het beperken of duurder maken van aan werk gelieerde zaken het thuiswerken mogelijk een extra stimulans geven, zoals het eveneens door het aanstaande kabinet voorgestelde rekeningrijden.
+
+De juiste vorm moet samen met werkgevers uitgezocht worden. Een deel van de werkgevers zal hier zeker over mee willen denken. Uit recent onderzoek van het Centraal Bureau voor de Statistiek blijkt dat ongeveer 43 procent van de ondernemers die hybride werken bij hun werkzaamheden als mogelijkheid beschouwen, van plan is om hybride werken structureel te gaan stimuleren.
+
+Maar het is wel van belang dat het huidige momentum benut wordt om deze stappen te zetten. Door de coronacrisis zijn werknemers nu meer dan voorheen gewend thuis te werken en vermoedelijk in staat om dit op basis van de opgedane ervaring steeds efficiënter in te vullen. Dat momentum kan ook snel verdwijnen, zo toonde de overvolle ochtendspits begin oktober in 2021 aan. Het thuiswerkadvies was nog niet van de baan, of honderden kilometers file bepaalden het beeld op de snelweg.
+
+In Headlines & Insights geeft ABN AMRO duiding bij het nieuws.
+
+
+---
+
+# Softwarebedrijven nog niet klaar voor AI-agents
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Hoewel vier van de vijf softwarebedrijven verwachten dat AI-agents het softwarelandschap merkbaar zullen veranderen, is bijna een derde van de ondernemingen technisch nog niet klaar om de technologie in te bedden. De helft zit in de experimenteerfase, een kwart doet nog helemaal niets met agentic AI.
+
+Een grote meerderheid van de softwarebedrijven verwacht dat het softwarelandschap merkbaar zal wijzigen door ‘AI-agents’ – slimme programma’s die zelfstandig complexe taken kunnen uitvoeren. Bijna de helft van de ondervraagden rekent zelfs op ingrijpende tot fundamentele veranderingen in de manier waarop software wordt ontworpen, gebruikt of aangestuurd, zo blijkt uit het onderzoek van ABN AMRO en Panelwizard onder 204 Software-as-a-Service-bedrijven (SaaS). SaaS is software die in abonnementsvorm wordt afgenomen en wordt aangeboden als clouddienst.
+
+## AI-agents transformeren de softwaremarkt
+
+De ontwikkeling van artificial intelligence (AI) beweegt van het genereren van tekst, softwarecode en beeld binnen een app naar het zelfstandig doorlopen van volledige werkprocessen. Voorbeelden zijn AI-agents die voorraden beheren, offertes versturen of een complete socialmediastrategie voorbereiden en uitvoeren. Via agentic AI kunnen SaaS-bedrijven hun product aantrekkelijker maken, bijvoorbeeld door taken te automatiseren of door een AI-agent als aanspreekpunt naar voren te schuiven voor de gebruiker.
+
+## De AI-agent is geen nieuw begrip
+
+De term ‘intelligent agent’ werd al in de jaren ‘80 geïntroduceerd om systemen te beschrijven die zelfstandig kunnen waarnemen, redeneren en handelen. Door technologische vooruitgang zijn AI-agents de laatste jaren echter veel krachtiger geworden. Via ‘Large Language Models’ (LLM’s), de motor onder andere ChatGPT, hebben agents de nodige kennis over de wereld, waardoor de communicatie soepel verloopt. Met de opkomst van zogenaamde ‘reasoning models’, taalmodellen die stapsgewijs kunnen redeneren, kunnen agents daarnaast zelf strategieën uitdenken en bijbehorende tussenstappen bepalen. Door een koppeling met externe applicaties kunnen AI-agents ook daadwerkelijk acties uitvoeren, zoals het lanceren van een online-advertentiecampagne of het contacteren van een klant of leverancier.
+
+Los van de kansen om bestaande SaaS te verbeteren of nieuwe, ‘AI-first’-SaaS te creëren, zou de opkomst van agents de markt ook op een dieper niveau kunnen beïnvloeden. Zo betekent dit volgens Microsoft-CEO Satya Nadella het einde van software in zijn huidige vorm. Volgens de topman zullen mensen binnen afzienbare tijd niet langer met losse softwarepakketten werken, maar met AI-agents die zelfstandig uit verschillende databronnen putten en op basis daarvan de benodigde acties uitvoeren. Voor het automatisch opstellen van een klantofferte haalt de AI-agent informatie uit de klantdatabase, combineert deze met actuele product- of prijsinformatie, en voegt indien nodig financiële condities toe op basis van eerder klantgedrag. Na controle – of volledig autonoom – wordt de offerte automatisch per e-mail verstuurd. De gebruiker hoeft niet meer zelf te schakelen tussen systemen, want het denk- en regelwerk wordt door applicatie-onafhankelijke agents gedaan, zo is de gedachte van Nadella.
+
+Ook kunnen AI-agents volledig nieuwe applicaties creëren. AI-assistent Claude van tech-bedrijf Anthropic maakt bijvoorbeeld direct bruikbare apps op basis van enkele gebruikersinstructies. Met specifieke software als Lovable, Windsurf en Cursor kunnen ook mensen zonder programmeerkennis software, apps en websites ontwikkelen; de AI-agent interpreteert de vraag van de gebruiker en zet het om in code – in sommige tools is het resultaat zelfs direct zichtbaar. Hoewel het neerzetten van goede, veilige en betrouwbare software een vak apart is, zou deze trend van ‘vibe coding’ kunnen betekenen dat steeds meer bedrijven ervoor kiezen om zelf tools te ontwikkelen in plaats van in te kopen in de vorm van SaaS.
+
+## Een AI-agent als aanspreekpunt
+
+De invloed van agents zal zich over meerdere niveaus uitstrekken. Zo gaat 75 procent van de ondervraagden ervan uit dat de knoppen en menu’s die we nu op onze schermen zien in ieder geval deels zullen plaatsmaken voor een AI-agent als aanspreekpunt. Deze neemt taken aan van de gebruiker, voert deze op de achtergrond uit en koppelt de uitkomst terug. Een dergelijke interactievorm kennen veel mensen inmiddels van slimme AI-assistenten als ChatGPT, Gemini en Claude.
+
+Ook Samir Selimi, oprichter van softwarebedrijf PurchAIse, heeft een AI-agent op zijn platform naar voren geschoven. De assistent, genaamd PAI, kan een breed scala aan taken op het gebied van leveranciersmanagement oppakken, zoals het valideren van data, bestellingen doen en contracten heronderhandelen. Selimi ziet de chat met PAI als een slimme aanvulling op de traditionele gebruikersinterface, die volgens hem nog steeds waardevol zal blijven. “We zijn gewend dat dingen visueel worden weergegeven als we met een computer interacteren”, zegt hij. “Je hebt geen veertig schermen nodig of zestig tabbladen, maar wel iets van een cockpit waar je als gebruiker het overzicht kunt bewaren.”
+
+De verwachting is dat communicatie in natuurlijke taal – oftewel gewone spreek- en schrijftaal zoals mensen die zelf gebruiken - binnen software een belangrijke rol zal gaan spelen. “Je ziet een verschuiving in de manier waarop gebruikers met software interacteren”, zegt Jelle Visser van ValueBlue, een platform voor enterprise-architectuur. ValueBlue maakt software waarmee bedrijven hun IT-landschap schematisch kunnen vastleggen, analyseren en verbeteren. “Als een businessanalist wil begrijpen wat zo’n architectuurplaat hem precies vertelt, is het fijn als hij die vraag ook op die manier op ons platform kan stellen.” Voor zichzelf ziet momenteel 38 procent van de softwarebedrijven kansen voor een AI-agent als aanspreekpunt. Zelf voelt Visser geen ruimte om rustig af te wachten. “Je moet als softwarebedrijf je gebruikersinterface opnieuw uitvinden. Als wij het niet doen, dan doet onze concurrent het wel.”
+
+## Merkidentiteit communiceren via agents
+
+Een vijfde van de ondervraagde bedrijven is bang dat hierdoor hun gebruikerservaring niet meer onderscheidend zal zijn. Wat nu nog via muiskliks en menustructuren verloopt, kan in ieder geval deels worden vervangen door het typen of uitspreken van een enkele zin. Daarmee kan een belangrijk element van onderscheidend vermogen van softwarebedrijven – design, gebruiksgemak en visuele branding – onder druk komen te staan.
+
+Een derde van de ondervraagden ziet juist in de gebruikerservaring hun belangrijkste bron van onderscheidend vermogen voor de toekomst. Zelfs als de interactie met software meer ‘conversational’ wordt, zijn er namelijk nog tal van mogelijkheden om de AI-agent een duidelijke merkidentiteit te geven. Al sinds de prille opkomst van chatbots op bedrijfswebsites buigen experts zich over manieren om deze digitale assistenten een persoonlijkheid mee te geven die past bij het merk – bijvoorbeeld met een passende avatar, naam en manier van communiceren.
+
+## Voor elke gebruiker een ander dashboard
+
+Meer dan een kwart van de SaaS-bedrijven ziet heil in ad hoc gegenereerde schermen. “Dan zeg je tegen een agent: het venster moet groen zijn, met hoeken en geen afrondingen. En ineens is daar een scherm, aangepast aan jouw voorkeuren”, illustreert Franklin Evers van softwarebedrijf Usere luchtig. Het bedrijf wil zijn ‘front-end’, het stuk dat de gebruiker ziet, sowieso flexibel houden. Medeoprichter Pim Schipper: “Elke medewerker is weer gebaat bij een ander soort informatie. Door agentic AI kan iedereen een dashboard op maat krijgen.”
+
+Ook Visser van ValueBlue herkent het spanningsveld. “De mensen die onze software gebruiken, hebben allemaal verschillende rollen en verschillende volwassenheidsniveaus. Maar het is heel veel werk om voor iedereen een aparte variant van de software te programmeren.” Volgens hem kan agentic AI hierin uitkomst bieden. “Door een agent de nodige context over een rol mee te geven, kan deze bepalen wat voor schermen en functies een individuele gebruiker nodig heeft.”
+
+‘On the spot’ gegenereerde dashboards, of zelfs volledige applicaties en games die uit de grond worden gestampt, zijn geen hypothetisch scenario. Zo ontwikkelden onderzoekers een AI-model waarmee het schietspel Doom ad hoc kan worden gegenereerd. De speler ontmoet vijanden en navigeert door allerlei ruimtes zonder dat daar enige softwarecode voor nodig is; er is enkel een AI-model, getraind op grote hoeveelheden beeldmateriaal van de game. Google maakte een prototype waarin hun nieuwste Gemini-model een gebruikersinterface maakt, steeds op basis van de gebeurtenissen in het vorige scherm – geen enkel menu stond dus van tevoren vast.
+
+## Software als stille kracht op de achtergrond
+
+Van de ondervraagde SaaS-bedrijven vreest 16 procent dat hun software naar de achtergrond verdwijnt – een zorg die niet geheel uit de lucht is gegrepen nu consumenten en bedrijven steeds vaker te rade gaan bij onafhankelijke AI-assistenten. ChatGPT en Claude ondersteunen inmiddels zogeheten ‘actions’ waarmee ze zelfstandig taken uitvoeren in andere applicaties, zoals het versturen van e-mails of het aanpassen van CRM-data. Ook de gevestigde orde in de tech-wereld positioneert zich steeds nadrukkelijker als coördinerende platformspelers. Microsoft laat bedrijven met Copilot Studio hun eigen AI-agents bouwen, die niet alleen Microsoft-apps, maar ook externe software kunnen aanroepen. Salesforce ontwikkelde met Agentforce een soortgelijke infrastructuur.
+
+Een op de vijf softwarebedrijven overweegt een koppeling met dergelijke AI-agentplatforms. Een kwart richt zich niet op specifieke platforms, maar wil de eigen software in bredere zin ‘agent-ready’ maken. Die ondernemers maken functies modulair beschikbaar, zorgen voor duidelijke documentatie, en richten hun software zo in dat instructies van externe agents – al dan niet in natuurlijke taal – eenvoudig te vertalen zijn naar concrete acties binnen de applicatie. “Je moet er als softwarebedrijf voor zorgen dat LLM’s met jouw achterkant kunnen praten”, vat Dennis De Reus van Stellar samen. Hij is medeoprichter van Stellar, een platform waarmee bedrijven zelf klantenservice-agents kunnen ontwikkelen.
+
+Bijna een derde van de bedrijven richt zich breder op het verbeteren van datatoegang, koppelmogelijkheden en gestandaardiseerde communicatie met andere systemen (‘interoperabiliteit’). Onder hen is Last Mile Solutions, een softwareplatform voor dienstverleners op het gebied van elektrisch vervoer – zoals laadpaalbeheerders – dat technologie biedt voor onder andere betalingen, fraudedetectie, en het voorkomen van overbelasting van het elektriciteitsnet. Om die diensten te kunnen aanbieden, is een hoop data nodig, zoals informatie over de hoeveelheid opgewekte groene energie op een bepaald moment, en hoe vol individuele auto-accu’s zijn.
+
+“Die data kunnen door andere partijen worden gebruikt om AI-modellen en gespecialiseerde agents mee te ontwikkelen”, vertelt marketingdirecteur Ben Ridgway. “Wij bieden dus een ‘data-ruggengraat’ waarmee we AI-innovaties mogelijk maken, zoals slim laden en voorspellend onderhoud.” Ridgway van Last Mile Solutions, dat fungeert als een centrale hub op het gebied van e-mobiliteitssoftware, is het daar volledig mee eens. “Onze back-end is extreem complex. Er zijn zoveel data die we beheren en op de juiste manier beschikbaar moeten stellen. Voor ons is het cruciaal om keer op keer aan te tonen dat we een betrouwbare partner zijn.”
+
+## Applicaties ontwikkelen à la carte
+
+AI-agents opereren niet per se binnen de grenzen van een applicatie, maar kunnen ook schakelen tussen losse databases en tools om taken zelfstandig uit te voeren. Bijvoorbeeld een agent die historische verkoopdata haalt uit systeem A, de toekomstige verkoopcijfers voorspelt op basis van een algoritme uit systeem B en de bijbehorende grafiek toont in een dashboard van systeem C. Het gaat daarmee niet zozeer om het totaalpakket, maar de manier waarop individuele stukjes software door AI-systemen kunnen worden benaderd.
+
+Al voor de opkomst van AI-agents waren veel softwarebedrijven bezig hun systemen op te knippen in kleine, herbruikbare modules en beschikbaar te maken via zogenoemde API’s of SDK’s. Ook veel AI-modellen worden via deze weg aangeboden, zodat ontwikkelaars bijvoorbeeld een slimme chatbot kunnen inbedden op hun eigen website. “Het maken van software is steeds meer een kwestie van het combineren van allerlei componenten”, zegt Visser van ValueBlue. “Toetreden tot de softwaremarkt is daardoor makkelijker dan ooit.”
+
+Dit geldt evengoed voor AI-agents, die ‘à la carte’ kunnen putten uit data en functies van verschillende leveranciers. Slechts een kwart van de SaaS-bedrijven blijkt hiervoor echter de randvoorwaarden op orde te hebben. Zij hebben de nodige digitale verbindingen in de vorm van API’s – kort voor ‘application programming interfaces’ – of zijn soms zelfs expliciet ontworpen om samen te werken met AI-agents en agentplatforms.
+
+Als softwarebedrijven op grote schaal losse elementen van hun systemen beschikbaar stellen, dan kan het overigens knap lastig worden voor externe agents om steeds te bepalen welke functie ze van welke partij afnemen. Sebastiaan den Boer, Director AI en Data Science bij digitaal bureau Youwe: “Als je een AI-agent steeds moet laten kiezen tussen twintig tools en vijftien databases, dan moet je de daarvoor benodigde kennis ook vastleggen in een prompt. Dat kan al gauw een hele complexe instructie worden.”
+
+## Bestaande software onder vuur door AI-agents
+
+Sommige bedrijven (14 procent) zien het risico dat specifieke functies in hun software overbodig worden doordat extern ontwikkelde AI-agents taken op hun eigen manier uitvoeren, zonder gebruik te maken van bestaande softwaremodules. Een voorbeeld is een agent die zelf klanten in segmenten indeelt, in plaats van een ingebouwde filterfunctie in bestaande software aan te roepen. Deze angst leeft onder bedrijven met een jaaromzet van meer dan 25 miljoen euro slechts beperkt (7 procent), terwijl een kwart van de kleinere bedrijven hiervoor vreest.
+
+Nog eens 9 procent vreest dat hun zorgvuldig opgebouwde logica of AI-modellen niet meer worden gebruikt, bijvoorbeeld wanneer elders ontwikkelde agents beslissingen kunnen nemen op basis van hun eigen redeneervermogen. Zo zou een recruitment-agent sollicitanten kunnen beoordelen met behulp van een eigen scoringsmethode, waarbij het interne matchingsmodel van de software volledig wordt genegeerd. Deze eerder aangeschafte HR-software fungeert dan slechts als databron, of wordt zelfs geheel omzeild.
+
+De Reus van Stellar is minder bang voor een dergelijk scenario. Hij kan zich voorstellen dat softwaregebruikers steeds meer met AI-agents zullen interacteren, maar is ervan overtuigd dat de onderliggende systemen veelal relevant blijven. “Een agent kan bijvoorbeeld niet lukraak data gaan opslaan. Je hebt een systeem nodig dat ervoor zorgt dat dit volgens bepaalde structuren en regels gebeurt. Hetzelfde geldt voor klantidentificatie; je hebt modules nodig waarmee je met zekerheid iemands identiteit kunt vaststellen, en vervolgens regels die bepalen wat een bepaalde klant wel of niet aan data mag inzien.” Ook volgens Franklin Evers, medeoprichter van Usere, is dit precies waarop softwarebedrijven zich onderscheiden. “Juist op die slimme tussenlaag zit je intellectueel eigendom, en dat moet je beschermen”, stelt Evers, die met compagnon Pim Schipper een AI-gedreven marketingoplossing ontwikkelt.
+
+## Slim taken automatiseren
+
+De bedrijven met fundamentele zorgen over hun businessmodel zijn in de minderheid. Softwarebedrijven ruiken massaal kansen om hun eigen product met AI-agents te verbeteren. Twee derde van de ondervraagden ziet heil in agents die namens de gebruiker taken uitvoeren, zoals het ophalen van informatie, of processen doorlopen die voorheen op basis van strikte stappen en regels gebeurden. Zes op de tien bedrijven zou AI-agents graag inzetten om hun eigen klanten te ondersteunen.
+
+Zo zet PurchAIse agentic AI in voor leveranciersmanagement, waaronder het ophalen en verstrekken van marktinzichten. Zo kan een – automatisch gedetecteerde – prijsdaling van ingrediënten aanleiding vormen om een contract opnieuw te onderhandelen, waarvoor AI-agent PAI vervolgens ook een mail naar de leverancier opstelt. Usere richt zich in eerste instantie op marketing en ontzorgt mkb-bedrijven onder andere door de creatie en plaatsing van social media-posts te automatiseren.
+
+Onder de respondenten is er wel zorg over de eventuele onvoorspelbaarheid van AI-agents. Bijna de helft van de softwarebedrijven ziet een gebrek aan transparantie en controle als reëel risico. AI-agents werken niet volgens vaste regels, maar op basis van waarschijnlijkheid; ze kiezen de meest waarschijnlijke vervolgstap en invulling daarvan, maar niet per se de juiste.
+
+“Het is moeilijk om met agentic AI processen goed en voorspelbaar neer te zetten”, zegt ook Rogier Hosman, medeoprichter van digital agency Youwe, dat digitale oplossingen ontwikkelt voor bedrijven. Hosman weet uit ervaring wat er nodig is voor een succesvolle implementatie. “Heb ik wel voldoende controle over de technologie, of stort straks de helft van mijn SaaS-product in elkaar? Welk risico wil ik daarin nemen?” Hoewel ook hier concrete regels kunnen worden meegegeven om de agent te sturen, is het een fundamenteel andere manier van werken dan bij traditionele software.
+
+## Technisch moet er nog veel gebeuren
+
+Hoewel softwarebedrijven dus legio kansen signaleren op het gebied van agentic AI, is het maar de vraag of ze op korte termijn de benodigde stappen kunnen zetten. Bijna dertig procent van de ondervraagden twijfelt of ze technisch klaar zijn voor AI-agents; hun software-architectuur of organisatie is nog niet voldoende is ingericht op de toepassing van en integratie met agents. Opvallend is dat de kleinste bedrijven, met een jaaromzet van minder dan 2 miljoen euro, dit risico veel minder zien – mogelijk omdat hun IT-landschap minder complex en daardoor flexibeler is.
+
+Ook valt op dat een groot deel van de softwarebedrijven (53 procent) nog in de experimenteerfase verkeert met AI-agents. Deze bedrijven verkennen de technologie, maar hebben het nog niet structureel ingebed in hun product. Meer dan een kwart heeft überhaupt nog geen concrete plannen op het gebied van agentic AI. De volwassenheid op het gebied van agentic AI blijkt overigens sterk afhankelijk van de bedrijfsgrootte; er is bijna geen grootbedrijf (omzet groter dan 25 miljoen euro) te vinden dat nog niets met de technologie doet, terwijl dit binnen het microbedrijf (omzet kleiner dan 2 miljoen euro) voor 40 procent geldt. Ook zijn verticale softwarebedrijven, die zich richten op specifieke sectoren, gemiddeld minder ver dan softwarebedrijven met een bredere oriëntatie.
+
+Deze beperkte volwassenheid is zorgwekkend, want ondertussen bestormt een nieuwe generatie technologiebedrijven de markt. In 2024 werd volgens gegevens van Dealroom wereldwijd zo’n 3,2 miljard dollar geïnvesteerd in startende technologiebedrijven die agentic AI hebben ingebed in hun dienst. Het is een exponentiële groei ten opzichte van de jaren ervoor, die respectievelijk 727 miljoen en 1,3 miljard aan investeringen noteerden.
+
+Overigens zijn ook de klanten van SaaS-bedrijven lang niet allemaal klaar voor grootschalige toepassing van AI-agents, ziet Selimi van PurchAIse. “Technologie kan in theorie alles, maar bedrijven vinden het in de praktijk moeilijk om zich aan te passen. Het zijn veelal de mensen en processen waarop het stukloopt.”
+
+## Onderscheidend vermogen van de toekomst
+
+Te midden van deze technologische transformatie klampen softwarebedrijven zich vast aan de relatie die zij met hun klanten hebben opgebouwd. Meer dan de helft – en binnen het grootbedrijf zelfs twee derde – verwacht hier op termijn het meeste onderscheidend vermogen te behouden, bijvoorbeeld vanwege een diep begrip van de context van de klant of samenwerking bij implementatie- en doorontwikkeling van de software. Schipper van Usere zit op eenzelfde lijn en denkt zelfs dat er ruimte is voor verbetering. “Je moet investeren in de relatie met je klant. Veel softwarebedrijven hebben lange tijd nagelaten om echt naar hun klant te luisteren.”
+
+Vooralsnog mist AI vaak context die essentieel is in specialistische sectoren. Daarom verwacht een aanzienlijk deel van de softwarebedrijven ook in de toekomst te kunnen terugvallen op domeinkennis, zoals relevante wet- en regelgeving of branche-specifieke processen. “Uiteindelijk heb je domeinexpertise nodig om echt waarde te kunnen toevoegen”, zegt Hosman van Youwe. Selimi van PurchAIse sluit zich daarbij aan. “Een van de manieren om je te onderscheiden als softwarebedrijf, is door je eindmarkt en de bijbehorende processen door en door te kennen.”
+
+Dit besef is logischerwijs sterker aanwezig bij verticale softwarebedrijven (47 procent), die zich al richten op specifieke niches, dan bij de horizontale spelers (32 procent). Ook onder het grootbedrijf verwacht een hoger percentage (55 procent) onderscheidend te kunnen blijven via diepe domeinkennis dan het mkb en microbedrijf, waar het percentage op ongeveer een derde ligt.
+
+## Investeren aan voor- of achterkant
+
+De ‘zachte’ elementen klantrelatie en domeinkennis worden gevolgd door concrete, direct in de software zichtbare zaken: de functionele dekking of ‘feature set’ van de software, en de gebruikerservaring – beide door een derde van de respondenten genoemd als punten van onderscheidend vermogen op de lange termijn.
+
+Andersom zijn het de technische zaken op de achtergrond – data, integratiekracht, en algoritmes – die het laagst in de ordening staan. Volgens Schipper en Evers van Usere doen softwarebedrijven er goed aan om onder de motorkap te blijven investeren. Evers: “De kern van je software moet je heel robuust houden. Andere partijen kunnen daar dan tegenaan praten via een API. Zij moeten het gevoel hebben dat ze op jouw technologie kunnen bouwen, kunnen vertrouwen.” Ridgway van Last Mile Solutions, dat als een spin in het web fungeert op het gebied van e-mobiliteitssoftware, sluit zich hierbij volledig aan. “Onze back-end is extreem complex. Er zijn zoveel data die we beheren en op de juiste manier beschikbaar moeten maken. Voor ons is het zaak om steeds aan te tonen dat we hierin een betrouwbare partner zijn.”
+
+## Aanpassingsvermogen is essentieel
+
+SaaS-bedrijven zijn het er over eens: de softwaremarkt zal de komende jaren stevig veranderen. Zo zullen ze zelf hun software kunnen optimaliseren met AI-agents, als aanspreekpunt of op de achtergrond. Ondertussen verwerven de bekende chat-assistenten een steeds prominentere positie. Nu zij het dagelijkse vertrekpunt worden voor steeds meer gebruikers en steeds verder integreren met allerlei tools, groeit ook de kans dat bestaande softwarebedrijven op een of andere minder zichtbaar worden.
+
+De opkomst van platforms waarmee gebruikers zelf agents of software kunnen bouwen, kan daarnaast betekenen dat activiteiten die eerder door softwarepakketten werden ondersteund, nu door individueel gefabriceerde AI-agents of zelfgebouwde software worden opgepakt. Sommige softwarebedrijven zien heil in een offensieve strategie waarin zij zelf een platformrol vervullen, of vertrouwen op de unieke toegevoegde waarde van (elementen van) hun software.
+
+Een zwart-witscenario waarin SaaS volledig wordt weggevaagd door elders ontwikkelde AI-agents zal het hoogstwaarschijnlijk niet worden. Wel vergt de nieuwe werkelijkheid het nodige aanpassingsvermogen van softwarebedrijven; koppelingen met externe tools en partijen zijn belangrijker dan ooit, en zelf de broodnodige automatiseringsslag maken is essentieel om relevant te blijven.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Spectaculaire chatbot symbool voor AI-kloof
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+De nieuwe chatbot van OpenAI toont een indrukwekkend vermogen om taal te begrijpen en te produceren. Zulke technologische ontwikkelingen bereiken echter niet iedereen. Slechts acht procent van de kleinere bedrijven in Nederland maakt gebruik van artificial intelligence (AI).
+
+ChatGPT, het onderliggende AI-model van de recent gelanceerde chatbot, kan overweg met de meest uiteenlopende verzoeken. Het kan de relativiteitstheorie uitleggen op een manier dat een 9-jarige het begrijpt, of een opzet maken voor een essay over de gevaren van de algoritmische filterbubbel. Maar de chatbot deinst evenmin terug voor meer creatieve opdrachten, zoals het schrijven van een liedtekst of tv-dialoog. Zo levert het verzoek om een "hysterisch grappige tv-dialoog" te schrijven voor een echtpaar dat helemaal klaar is met havermout als ontbijt een daadwerkelijk vermakelijk gesprek op.
+
+Achter dit indrukwekkende model zit OpenAI, een onderzoekslaboratorium dat in 2015 werd opgericht met als doel om – in de woorden van het bedrijf zelf – "vriendelijke AI-technologie" te ontwikkelen. Via veilige en transparante oplossingen hoopt het laboratorium een positieve bijdrage te leveren aan de maatschappij. OpenAI is op meerdere manieren verbonden aan de grootste namen in de tech-industrie. De organisatie werd opgericht met een startkapitaal van maar liefst 1 miljard dollar, afkomstig van onder andere Tesla-baas en OpenAI-medeoprichter Elon Musk, cloudgigant Amazon, en durfkapitaal-icoon Peter Thiel. Sinds 2019 is ook Microsoft aan boord, dat nu een [additionele investering](https://www.semafor.com/article/01/09/2023/microsoft-eyes-10-billion-bet-on-chatgpt) van tien miljard dollar zou overwegen.
+
+## Worsteling om AI toe te passen
+
+Via investeerders heeft het laboratorium een enorme ontwikkelcapaciteit kunnen opbouwen, zowel in termen van rekenkracht als schaarse AI-vaardigheden. Dit staat in schril contrast met de worsteling van het gemiddelde bedrijf om zulke technologie in hun dagelijkse praktijk in te bedden. In 2020 gebruikte slechts 13 procent van de Nederlandse bedrijven één of meerdere AI-technologieën, zo blijkt uit cijfers van het [CBS](https://opendata.cbs.nl/#/CBS/nl/dataset/84830NED/barh?ts=1670493464021). Dit aandeel is onder de kleinste bedrijven nog beperkter, namelijk 8 procent.
+
+Hoewel hier zich dus een kloof aftekent, leven de grote AI-ontwikkelaars en de rest van de organisaties niet in volledig gescheiden werelden. Veel van de 'state-of-the-art' AI-technieken worden met het publiek gedeeld. Zo wordt de technologie van OpenAI gebruikt in allerlei [innovatieve toepassingen](https://medium.com/@theclickreader/openais-gpt-3-powered-applications-list-as-seen-on-twitter-4a3b09b4349) van derden, zoals een AI-copywriter of een programma waarmee een leek een jaarrekening kan opstellen. De manier waarop technologiebedrijven deze kennis beschikbaar stellen, verschilt overigens. De ene keer betreft het een losse dienst via een 'Application Programming Interface' (API), de andere keer wordt zelfs de volledige broncode van het model openbaar gemaakt. Een dergelijke, echte 'open source'-benadering is overigens nog uitzondering, zo weerklinkt [kritisch](https://techcrunch.com/2022/05/19/when-big-ai-labs-refuse-to-open-source-their-models-the-community-steps-in/?guccounter=1) vanuit de academische wereld.
+
+## AI-as-a-Service
+
+Maar waar de gemiddelde wetenschapper gebaat is bij volledig inzicht in een model, is het gros van de ondernemers simpelweg op zoek naar een manier om AI op laagdrempelige wijze toe te passen. 'AI-as-a-Service', waarvan ChatGPT een voorbeeld is, kan daarin helpen. Het is AI die, in meer of mindere mate, kant-en-klaar wordt aangeboden. Veel van die diensten bieden een heel specifiek onderdeel uit de AI-gereedschapskist, bijvoorbeeld beeldherkenning, vertaling, of sentimentanalyse. Ook virtuele assistenten – programma's die in een chat klantvragen kunnen beantwoorden – zijn als dienst beschikbaar. De aanbieder van dergelijke assistenten verzorgt de generieke technologie, waarna deze verder kan worden afgestemd op de specifieke casus van de klant. Daarnaast zijn er de zogenaamde 'machine learning frameworks'. Deze bieden de bouwstenen om relatief gemakkelijk zelf AI-modellen te maken, waaronder algoritmes die nog kunnen worden 'getraind' op klant-eigen data.
+
+Het feit dat kleinere bedrijven vooralsnog niet massaal aan het experimenteren zijn geslagen, komt doordat AI in de meeste gevallen niet zomaar een kwestie is van 'inpluggen'. Allereerst is technologische expertise essentieel om de mogelijke toepassingsgebieden van AI in een bedrijf te kunnen duiden, en vervolgens daadwerkelijk in de bedrijfsvoering te integreren. In een tijd waarin IT-personeel schaars is, zorgt dat voor uitdagingen. Daarnaast dienen veel AI-oplossingen eerst te worden 'gevoed' met data vanuit het specifieke bedrijf. Die data zijn in lang niet alle gevallen beschikbaar.
+
+## Grote bedrijven gebruiken meer AI
+
+Logischerwijs kampen met name kleinere bedrijven met een gebrek aan IT-expertise en data. Dit is ook te zien bij nadere beschouwing van de CBS-cijfers; er bestaat een duidelijk verband tussen bedrijfsgrootte en AI-gebruik. Van de grootste bedrijven paste in 2020 maar liefst 48 procent AI toe – een groot verschil met de 8 procent van de kleinste bedrijven.
+
+Deze cijfers weerspiegelen echter niet dat AI ongemerkt in allerlei alledaagse toepassingen terugkomt. Zo kun je tijdens een meeting in Microsoft Teams je achtergrond wazig maken of aanpassen doordat een gezichtsherkenningsalgoritme 'ziet' waar de omgeving eindigt en de persoon begint. LinkedIn doet suggesties voor reacties in privé-chats en op berichten van mensen uit je netwerk omdat het gebruikmaakt van een model dat taal 'begrijpt' en produceert. Ook de nieuwere auto's staan eigenlijk bol van de AI-snufjes, zoals automatische parkeerhulpen en -remsystemen. Om de Zweedse filosoof Nick Bostrom aan te halen: "Wanneer iets eenmaal voldoende nuttig en normaal is, wordt het geen AI meer genoemd."
+
+## Blijvende AI-kloof
+
+De chatbot van OpenAI is van een hele andere orde, en symboliseert als zodanig de AI-ontwikkelkloof tussen de technologiegiganten en de rest van de wereld. Toch leert de alomtegenwoordigheid van minder spectaculaire AI – die we dus ook niet als zodanig herkennen – dat de futuristisch aandoende technologieën van nu uiteindelijk hun weg vinden naar de massa. Ook het feit dat nu op grote schaal met ChatGPT wordt geëxperimenteerd en men filosofeert over de manier waarop zulke technologie het [onderwijs](https://www.nu.nl/algemeen/6247374/nieuwe-uitdaging-op-scholen-scholieren-laten-huiswerk-door-chatgpt-maken.html) zal veranderen, is een aanwijzing in die richting. Wel zal er altijd een kloof blijven; zodra de ene AI-technologie is ingeburgerd en daardoor niet meer wordt gezien als AI, komt het volgende spectaculaire AI-model alweer van de band van 'big tech' gerold.
+
+Mochten de grote tech-bedrijven ervoor kiezen dit open source te doen en daardoor meer diepgaande kennis te delen met wetenschap en bedrijfsleven, zou dit de AI-kloof in ieder geval iets minder diep maken. De kans dat OpenAI dit gaat doen, lijkt echter beperkt; vanuit de ambitie om AI "vriendelijk" te houden, acht het bedrijf het risico op misbruik te groot wanneer de broncode voor de hele wereld beschikbaar is.
+
+Dit artikel verscheen eerder op [Emerce](https://www.emerce.nl/achtergrond/spectaculaire-chatbot-chatgpt-symbool-voor-ai-kloof).
+
+## Over de auteur
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer.html "Over de auteur - Julia Krauwer") is sector banker TMT (Technologie, Media & Telecom) bij ABN AMRO. Zij houdt zich dagelijks bezig met de impact van technologie op bedrijfsmodellen.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Column](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/column.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+
+---
+
+# Stand van TMT december 2019
+
+[Stand van Sectoren](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kasper Buiting
+
+De groei van de Nederlandse economie vertraagt en de economische indicatoren zijn slechter geworden. De TMT-sector heeft daar last van, maar blijft relatief goed presteren.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Stand van TMT (20 december 2019)
+
+  1 MB](https://www.abnamro.nl/nl/media/Stand-van-TMT-december-2019_tcm16-66562.pdf)
+
+## Economisch klimaat
+
+Het economisch klimaat verslechtert in Nederland. De inkoopmanagersindex (PMI), het producentenvertrouwen en het consumentenvertrouwen zijn in de afgelopen kwartalen achteruit gegaan. Toch zijn de ondernemers in de TMT-sector relatief positief vergeleken met het bedrijfsleven als geheel.
+
+## Personeelstekort
+
+Waar de TMT-sector wel last van heeft, is een tekort aan personeel. Maar liefst 33% van de TMT-ondernemers zegt niet aan de benodigde arbeidskrachten te kunnen komen. Met name in de IT-branche is het tekort nijpend. Daar heeft 41% van de ondernemers moeite geschikt personeel te vinden.
+
+
+---
+
+# Stand van TMT november 2018
+
+[Stand van Sectoren](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/stand-van-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kasper Buiting
+
+De TMT-sector blijft profiteren van het gunstige economische klimaat. Het ondernemersvertrouwen is hoog en ondernemers zien weinig belemmeringen. Wel blijft er een duidelijke tweedeling zichtbaar tussen sterk en zwak presterende branches.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Stand van TMT november 2018 (12 november 2018)
+
+  1 MB](https://www.abnamro.nl/nl/media/Stand-van-TMT-november-2018-1_tcm16-70941.pdf)
+
+## Economisch klimaat
+
+Het economische klimaat is gunstig voor de TMT-sector, al neemt de economische groei af. Economische indicatoren zijn minder positief dan eerder dit jaar, maar nog steeds op hoge niveaus. Ondanks de groeivertraging staan de seinen nog steeds op groen voor de TMT-sector.
+
+## Afgezien van personeelstekort weinig belemmeringen
+
+Bijna 55% van de ondernemers in de sector geeft aan geen serieuze belemmeringen voor groei van hun onderneming te ondervinden. De belemmering die wel veel genoemd wordt, is het personeelstekort. Maar met 29% is dit wel iets afgenomen ten opzichte van een kwartaal eerder.
+
+## IT-branche en tv-producenten sterkste groeiers. Telecom, uitgevers en drukkerijen blijven in de min
+
+De IT-branche is veruit de grootste branche binnen de TMT-sector en ook de sterkst groeiende. Ook komend jaren zal de IT sterk blijven groeien. De branche van tv-producenten presteert beter dan eerder verwacht en ziet de omzet dit jaar met 5% stijgen. Aan de andere kant zien we dat de telecom, branche van uitgevers en de drukkerijen blijven krimpen.
+
+
+---
+
+# Tech zonder Google: kan Europa het zelf?
+
+[Podcast](https://www.abnamro.nl/nl/zakelijk/insights/in-gesprek/podcast/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Zonder Amerikaanse cloud-diensten en chips uit Taiwan zou een groot deel van ons digitale leven stil komen te liggen. Toch leunt Europa sterk op technologie van buitenaf. Hoe is dit zo gekomen, en wat moet Europa doen om digitaal meer op eigen benen te staan? In deze aflevering van de podcast Achter de Cijfers duikt journalist Esther van Rijswijk samen met sector banker Julia Krauwer in de uitdagingen én kansen van digitale soevereiniteit.
+
+Decennialang vertrouwde Europa op Amerikaanse technologie. Maar de herverkiezing van Trump en zijn onvoorspelbare beleid legden bloot hoe kwetsbaar die afhankelijkheid ons maakt. Wat als Amerikaanse techbedrijven hun diensten aan Europa stopzetten? Het schrikbeeld van stilgelegde overheden, ziekenhuizen en financiële transacties voedt de urgentie om een plan B te ontwikkelen.
+
+## Europa’s weg naar technologische soevereiniteit
+
+## Voldoende invloed hebben
+
+Volgens Julia Krauwer, sector banker Technologie, Media en Telecom, betekent digitale soevereiniteit niet dat Europa alles zelf moet doen, maar dat we op belangrijke punten invloed moeten hebben. Of het nu gaat om cloud-infrastructuur, kunstmatige intelligentie of chiptechnologie, Europa moet strategisch investeren en samenwerken om een sterkere positie op te bouwen.
+
+Europa heeft nu tevens de kans om technologie te ontwikkelen die aansluit bij de eigen waarden: transparant, eerlijk en gericht op het publieke belang. Denk aan AI die niet discrimineert, sociale media die niet puur gericht zijn op verslaving, en cloudoplossingen die privacy en veiligheid waarborgen.
+
+
+---
+
+# Tech-ondernemers laveren tussen ambitie en beperking
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Het Europese vestigingsklimaat voor tech-bedrijven staat al jaren ter discussie. In hun snelle groei botsen jonge technologiebedrijven vaak op complexe regels, versnipperde markten en beperkte toegang tot kapitaal. Wel beloven wetgevers beterschap, en zien ondernemers de voordelen van het relatief stabiele Europa.
+
+Europa staat bekend om zijn sterke regelgeving, maar voor snelgroeiende technologiebedrijven werkt die zelden in het voordeel. Startups die willen opschalen stuiten op 27 nationale belastingstelsels, arbeidswetten en insolventieregels. Elk land heeft zijn eigen interpretatie van winstbelasting, aandeelhoudersstructuren en ontslagrecht - iets wat snelle internationale groei belemmert. Volgens het [State of European Tech-rapport](https://www.investeurope.eu/media/g3yobbcs/soet2024_report.pdf) ziet 47 procent van de founders en investeerders regelgeving en beleidsvorming als belangrijke barrière voor groei.
+
+## Beperkte toegang tot groeikapitaal
+
+Een andere veelgenoemde frustratie is de beperkte toegang tot groeikapitaal. Sinds 2015 haalden Europese startups in de groeifase zo’n 300 miljard dollar op, maar dat had volgens de auteurs van het rapport het dubbele kunnen zijn als ze even gemakkelijk grote rondes konden sluiten als in de VS. Europese bedrijven komen wel door de eerste financieringsrondes, maar vallen terug bij investeringen vanaf 15 miljoen dollar: slechts 4,1 procent haalt die drempel, tegenover 8,3 procent in de VS.
+
+Een van de oorzaken is het gebrek aan diepe kapitaalbuffers. Europese pensioenfondsen investeren bijvoorbeeld slechts 0,01 procent van hun vermogen in wereldwijd durfkapitaal, ruim drie keer minder dan hun Amerikaanse tegenhangers. Daardoor blijft het voor Europese startups lastig om op te schalen tot het soort tech-bedrijven dat de digitale autonomie stut.
+
+## Europa is zo gek nog niet
+
+Toch maakt de narratief dat Europa onvriendelijk zou zijn voor tech-ondernemers plaats voor een nieuw verhaal. In de State of European Tech 2024 gaf een ruime meerderheid van Europese founders aan dat zij hun bedrijf opnieuw in Europa zouden vestigen, als ze die keuze opnieuw konden maken. De huidige geopolitieke situatie kan volgens Maarten Cleeren van Techleap zelfs als een vliegwiel werken: “Amerika keert zich naar binnen, de markt destabiliseert. Dit creëert ruimte voor bedrijven in Europa.”
+
+Aan de lappendeken aan wet- en regelgeving wil de Europese Commissie ondertussen een einde maken met het ‘28e regime’. Hiermee kan een bedrijf zich registreren onder een set regels die in alle lidstaten geldig is. De plannen maken deel uit van de bredere European Innovation Act. Die moet het makkelijker maken voor startups om groeikapitaal op te halen, ook over de grens. Nu botsen investeerders nog op verschillende belastingregels, toezichthouders en juridische structuren per land. Europa wil dat simpeler maken, zodat fondsen en investeerders soepeler in meerdere landen kunnen opereren.
+
+## Slim belonen, beter financieren
+
+Ook moeten hervormingen het aantrekkelijker maken voor startups om personeel te belonen met aandelenopties. Sinds 2019 hebben elf landen hun nationale regelgeving versoepeld, waaronder Duitsland, Frankrijk, Spanje en Nederland. De Europese Commissie onderzoekt nu of er een overkoepelend stelsel mogelijk is, als onderdeel van bredere inspanningen om het ondernemersklimaat te verbeteren.
+
+Tegelijk groeit de politieke druk om pensioenfondsen een actievere rol te laten spelen. Die steken nu gemiddeld slechts 0,007 procent van hun vermogen in durfkapitaal. In theorie kunnen ze grotere bedragen investeren, maar strenge regels en interne richtlijnen ontmoedigen dat. Europese instellingen zoals de Commissie, de Investeringsbank en het Investeringsfonds zien pensioenfondsen als een belangrijke schakel om de hoeveelheid groeikapitaal in Europa te vergroten, en onderzoeken manieren om dat aan te jagen – bijvoorbeeld door risicospreiding via EU-fondsen of aangepaste kapitaaleisen.
+
+De voorwaarden voor een sterker ecosysteem voor startups en scale-ups beginnen langzaam op hun plek te vallen. Niet alleen Brussel beweegt, ook ondernemers zelf zien de voordelen van Europa. Dat is essentieel, want technologische soevereiniteit begint bij het vasthouden van eigen innovatiekracht.
+
+[Lees ook: Europa zet in op technologische zelfredzaamheid](/nl/zakelijk/insights/sectoren-en-trends/technologie/europa-zet-in-op-technologische-zelfredzaamheid.html)
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Industrie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/industrie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+
+---
+
+# Van 5G tot stikstofschade tien themas van 2020
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Sectoroverstijgend](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/alle-sectoren/index.html)
+
+[Sonny Duijn](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/sonny-duijn/index.html)
+
+Wetgeving, consumentengedrag, duurzaamheid. Een ondernemer moet op veel borden tegelijk schaken. Het hebben van een goede spelstrategie is in 2020 misschien wel belangrijker dan ooit. Onze sectorspecialisten geven alvast inzicht en achtergrond in tien thema’s die bedrijven en complete bedrijfstakken volgend jaar gaan beïnvloeden.
+
+Eén ding is duidelijk: een ondernemer moet om kunnen gaan met snelle veranderingen in de omgeving. En dat is zeker niet kenmerkend voor deze tijd. Aan het einde van de negentiende eeuw liepen grote steden tegen de grenzen van hun capaciteit aan. Het vervoer per paard en wagen leidde in steden als New York en Londen door de extreme bevolkingsgroei tot chaos: het leverde veel verkeersdoden en stankoverlast op en het benodigde diervoer legde een zwaar beslag op de landbouwoogst.
+
+Bovendien dreigde op termijn een totale verstoring van de leefbaarheid. Binnen vijftig jaar zou Londen bedolven liggen onder bijna drie meter mest, zo voorzag een journalist van The Times in 1894. Daarmee had het wereldwijde capaciteitsprobleem een naam gekregen: [de Grote Paardenmestcrisis](https://isgeschiedenis.nl/nieuws/grote-paardenmestcrisis-van-1894). De doemscenario’s kwamen toen door de opkomst van de auto echter niet uit.
+
+"Tal van capaciteitsproblemen aan de orde van de dag."
+
+De mestcrisis van toen heeft nu plaatsgemaakt voor tal van nieuwe capaciteitsproblemen. Het economische groeitempo wordt begrenst door ecologische beperkingen en andere vormen van schaarste. Teveel stikstof uitstoten schaadt de natuur, vergrijzing kan ons zorgsysteem onhoudbaar maken en het tekort aan personeel beperkt bedrijven om te investeren. En het vooruitzetten van de klok met vijftig jaar levert doemscenario’s zoals die van een onleefbare wereld als gevolg van de opwarming van de aarde.
+
+Bedrijven hebben daarnaast te maken hun klanten van wie het gedrag snel verandert en moeilijker dan voorheen te peilen is. Een belangrijke veroorzaker hiervan is de razendsnelle technologische ontwikkeling die voor veel ondernemers maar moeilijk bij te houden is. De enige constante waar bedrijven zich in feite aan vast kunnen houden, is verandering. En verandering geeft risico’s, maar vooral ook kansen. Wie hier het best mee om kan gaan, is spekkoper.
+
+Om inzicht te geven in al die borden waarop het spel moet worden gespeeld, presenteren wij hier in willekeurige volgorde de belangrijke thema’s voor 2020. Zonder de illusie te hebben compleet te zijn, wordt duidelijk dat schaarste aan de basis ligt voor de meeste uitdagingen, terwijl technologische ontwikkelingen net als in de negentiende eeuw voor de noodzakelijke oplossingen kunnen zorgen.
+
+## 1. Stikstof
+
+Bij veel bouwprojecten, zoals de aanleg van wegen of de bouw van woningen, komt stikstof vrij. Een overmaat aan stikstof kan nabijgelegen natuurgebieden beschadigen. Voorheen was het volgens de Programmatische Aanpak Stikstof (PAS) mogelijk om vergunningen te krijgen voor dergelijke bouwprojecten, zolang in de toekomst maar maatregelen worden genomen die de negatieve gevolgen voor de natuur te beperken.
+
+In mei 2019 is de PAS-regeling echter buiten werking gesteld, omdat deze in strijd was met de Europese Habitatrichtlijn. Van alle projecten die extra stikstof uitstoten ten opzichte van de huidige situatie, moet nu eerst worden aangetoond dat zij geen direct significant effect hebben op 118 van de ruim 160 Natura 2000-gebieden die gevoelig zijn voor stikstof.
+
+De overheid heeft inmiddels diverse maatregelen genomen om de uitstoot van stikstof te beperken. Zo gaat de maximumsnelheid op snelwegen overdag naar 100 kilometer per uur, krijgt vee een ander type voer en wordt overgegaan tot het vrijwillig uitkopen van varkenshouderijen. De maatregelen zijn bedoeld om de bouwsector in 2020 weer wat lucht te geven en zo 75.000 nieuwe woningen te kunnen bouwen en zeven grote infraprojecten weer op gang te helpen. Daarmee is niet gezegd dat dit ook lukt.
+
+Het buiten werking stellen van de PAS-regeling zal hoe dan ook gevolgen hebben voor ondernemers, vooral die in de bouwsector. “De omzetschade voor de bouwsector kan zonder concrete oplossingen leiden tot een verlies van 70.000 banen in de komende jaren. Een aantal bedrijven kiest er vanwege deze stikstofkwestie daarbij voor om tijdelijke contracten niet te verlengen en zzp’ers en uitzendkrachten naar huis te sturen”, zegt Madeline Buijs, sectoreconoom Bouw en Vastgoed.
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Stikstof waait breed uit over sectoren](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/stikstof-waait-breed-uit-over-sectoren.html)**
+
+## 2. PFAS
+
+PFAS is een verzamelnaam voor zo’n 6.000 stoffen met water-, vet- en vuilafstotende eigenschappen. Vanwege die handige eigenschappen worden ze op grote schaal gebruikt in onder meer regenjassen, pizzadozen, blusschuim, cosmetica en als anti-aanbaklaag op teflonpannen. Uit verschillende wetenschappelijke onderzoeken is de laatste jaren gebleken dat in elk geval sommige vormen van PFAS kunnen leiden tot verschillende soorten kanker, hart- en vaatziekten en verminderde vruchtbaarheid.
+
+Vanwege de mogelijke schade aan de volksgezondheid gelden nu strengere normen voor bijvoorbeeld het verplaatsen van grond waarin PFAS wordt aangetroffen. Dit raakt bijvoorbeeld de zand- en grindwinning en baggerwerkzaamheden direct.
+
+"Ondernemers vrezen dat beleid rondom stikstof en PFAS hen in 2020 8 procent omzet kost."
+
+Dat de maatregelen rondom PFAS vaak in één adem worden genoemd met de maatregelen rondom stikstof heeft vooral te maken met het ongeveer gelijke moment waarop de maatregelen van kracht zijn geworden en het gegeven dat min of dezelfde bedrijven erdoor worden geraakt. Het betreft in beide gevallen vooral ondernemers uit de bouw, bouwmaterialenindustrie, bouwhandel en transportsector.
+
+“Ondernemers uit deze sectoren vrezen dat het beleid rondom stikstof en PFAS hen in 2020 8 procent omzet kost. Dat zou neerkomen op circa 16 miljard euro”, zegt Albert Jan Swart, sectoreconoom Industrie en Transport & Logistiek.
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Miljardenschade verwacht door stikstof en PFAS](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/miljardenschade-verwacht-door-stikstof-en-pfas.html)**
+
+## 3. Nieuwe generatie mobiele netwerken: 5G
+
+Mobiele netwerken worden beschouwd als essentiële, strategische infrastructuur voor Nederland. In 2020 worden in Nederland voor het eerst frequenties geveild voor de nieuwe generatie mobiele netwerken, genaamd 5G. De uiteindelijke aanleg van 5G gaat een grote inspanning vergen. Zo is voor 5G een veel dichter netwerk van zendmasten vereist dan voor diens voorganger 4G. De aanlegkosten van het nieuwe 5G-netwerk zullen dan ook hoger zijn dan voor 4G destijds.
+
+Als het gaat om het veilen van de frequenties van 5G zijn een aantal Aziatische landen en onder meer Duitsland, Finland en Italië ons al voorgegaan. De planning liep in Nederland aanvankelijk vertraging op doordat een van de benodigde frequenties werd gebruikt als afluisterstation van Defensie. Toen het kabinet eind 2018 bekendmaakte dat dit station naar het buitenland verhuist, kon de veiling gepland worden. De veiling van de eerste frequenties vindt in 2020 plaats.
+
+“Om de concurrentiepositie ondanks de relatief late veiling te behouden, is het belangrijk dat bedrijven te volle kunnen profiteren van 5G. Het nieuwe netwerk heeft immers vanwege de veel hogere downloadsnelheden een veel hogere potentie voor de zakelijke markt dan zijn voorgangers”, zegt Kasper Buiting, sectoreconoom TMT en Zakelijke Dienstverlening. Hij voorziet dat 5G een grote rol kan spelen bij onder meer het ontwikkelen van de zelfrijdende auto en het inzetten van Virtual Reality-diensten. “Dergelijke toepassingen kunnen van belang zijn voor het toekomstige verdienmodel van Nederland.”
+
+**Lees in deze publicatie alvast meer over dit onderwerp: IT moet voor hogere arbeidsproductiviteit zorgen**
+
+## 4. Personeelstekort
+
+In Nederland is de afgelopen jaren pijnlijk duidelijk dat sprake is van een mismatch op de arbeidsmarkt. Zo wordt ervaren onder meer ondernemers in de bouw en de IT-sector het tekort aan personeel als sterke belemmering ervaren. Ook in 2020 gaan bedrijven hier tegenaan lopen.
+
+De uitdaging is voor bedrijven om nieuwe manieren te vinden om personeel aan zich te binden. Dit kan onder meer door het aanbieden van meer flexibele werktijden of het geven van extra salaris aan mensen die bereid zijn om meer uren te maken. Ook kunnen bedrijven extra stevig inzetten op automatisering waarmee arbeid kan worden vervangen en de groei op peil kan blijven. Nederlandse bedrijven blijken vooralsnog betrekkelijk terughoudend om deze route te kiezen.
+
+“De mismatches lopen uiteen per regio, ze verschillen per gebied. Zo heeft Noord-Brabant een tekort aan vrachtwagenchauffeurs voor binnenlands vervoer, terwijl in Friesland de meer zoekactiviteit bij dit beroep is dan dat vacatures beschikbaar zijn”, zegt Sandra Philippen, hoofdeconoom bij het Economisch Bureau.
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Arbeidsmarkt is voor mannen groter dan voor vrouwen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/arbeidsmarkt-is-groter-voor-mannen-dan-voor-vrouwen.html)**
+
+## 5. De ‘commodity trap’
+
+Sommige bedrijven raken gevangen in een zogenoemde ‘commodity trap’: de diensten of producten die zij aanbieden zijn dan nog nauwelijks te onderscheiden van die van de concurrent, waardoor eigenlijk alleen de prijs de doorslag geeft. Het aantal bedrijven dat het zich op langere termijn kan permitteren om structureel op de laagste prijs in te zetten, is echter beperkt.
+
+Een oog springend voorbeeld hiervan zijn de uitdagingen waar een aantal uitbaters van winkels de afgelopen jaren mee te maken heeft gekregen. Zij hebben te maken gekregen met stevige concurrentie van online spelers die hun waar voor doorgaans lagere prijzen aan de man brengen, en vaak goedkoop of gratis naar de consument sturen. Onderscheidend vermogen is van belang om niet continue in een prijsgevecht te geraken.
+
+Ook in 2020 is deze dreiging van de ‘commodity trap’ volop aanwezig in een aantal sectoren. De transportsector is er daar een van. Het blijkt moeilijk voor een aantal partijen om zich te onderscheiden. Opdrachtgevers spelen logistieke dienstverleners met een zwakke onderhandelingspositie tegen elkaar uit om een zo laag mogelijke prijs te betalen. Dit kan tot een prijsgevecht leiden onder die dienstverleners. De winstgevendheid van logistieke bedrijven staat daardoor onder druk, wat het moeilijk maakt te investeren in innovatieve dienstverlening.
+
+"Dreiging van de ‘commodity trap’."
+
+“Het is van belang voor logistieke bedrijven om onderscheidende diensten aan te bieden”, zegt Bart Banning, sector banker Transport & Logistiek. “En om dat te kunnen doen, is ‘leiderschap’ voor ondernemers een belangrijkere eigenschap dan ooit. Dit helpt om uit commodity trap te blijven en te kunnen investeren in innovatieve logistieke concepten en duurzaamheid. De transportsector moet immers de uitstoot van CO₂ en andere vormen van verspilling beperken.”
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Goed leiderschap brengt u nieuwe leiders](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/logistiek/goed-leiderschap-brengt-u-nieuwe-leiders.html)**
+
+## 6. De veranderde werknemer en wetgeving
+
+Werknemers zijn voor een bedrijf van essentieel belang. In eerdere publicaties concludeerden we voor zowel de retail– als de [bouw](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/bouw/soft-skills-sleutel-tot-structureel-succes-in-bouwsector.html)-sector dat succes een afgeleide is van bedrijfscultuur. Dit geldt voor andere bedrijfstakken natuurlijk ook: zo is personeel bijvoorbeeld voor de [horeca](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/verloop-personeel-kost-horeca-jaarlijks-1-4-miljard.html) van cruciaal belang.
+
+De wensen van werknemers zijn veranderd. Werknemers zoeken tegenwoordig meer dan vroeger een baan die past bij hun eigen waarden, normen en overtuigingen. Voor bedrijven is het belangrijker geworden een ‘purpose’, een hoger maatschappelijk doel, na te streven.
+
+“Bedrijven doen er goed aan bezig te zijn met ‘strategisch personeelsbeleid’. Dit kan bijvoorbeeld door bijscholing en omscholing, door nieuwe manieren van werving en selectie toe te passen en door arbeidsvoorwaarden aan te passen aan de wensen van de toekomst”, zegt Han Mesters, sector banker Zakelijke Dienstverlening.
+
+Bedrijven worden tevens gedwongen om meer strategisch naar hun personeel te kijken vanwege nieuwe wetgeving die vanaf 2020 wordt ingevoerd. Zo is nieuwe zzp-wetgeving in de maak en treedt per 1 januari de [Wet Arbeidsmarkt in Balans](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/leisure/nieuwe-wetgeving-komt-horeca-duur-te-staan.html) in werking.
+
+Die Wet Arbeidsmarkt in Balans beoogt vaste contracten aantrekkelijker te maken. Werkgevers die veel flexibele werkvormen aanbieden, krijgen te maken met fors hogere WW-premies. Bovendien moet een oproepkracht in de toekomst minimaal vier dagen voor een betreffende werkdag ingeroosterd staan. Dit legt beperkingen op aan bedrijven die seizoensgebonden werk bieden, zoals de horeca.
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Grip op veranderende arbeidsmarkt](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/logistiek/grip-op-veranderende-arbeidsmarkt.html)**
+
+## 7. Zorg vindt vaker ‘op afstand’ plaats
+
+De Nederlandse ziekenhuiszorg staat voor een moeilijke opgave. De [winstmarges in 2020](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/stijging-loonkosten-stelt-ziekenhuis-voor-problemen.html) zullen flinterdun zijn, omdat de stijging van de loonkosten vanwege al gemaakte afspraken met zorgverzekeraars slechts deels worden vergoed.
+
+Tegelijkertijd is het door vergrijzing en het toenemende aantal mensen met een chronische aandoening van belang om investeren te doen die de zorg toekomstbestendig maken. Met het stijgend aantal patiënten en een nijpend tekort aan zorgverleners is het leveren van ziekenhuiszorg in de huidige vorm niet mogelijk.
+
+Om te voorkomen dat de kwaliteit van de zorg in het gedrang komt, moet de zorg dus anders ingericht worden. Een logische route hiervoor is dat de ziekenhuizen ervoor zorgen dat zorg meer ‘op afstand’ kan worden verleend. Dit kan onder meer via het bieden van uitlegvideo’s aan patiënten, het op afstand meten van gezondheid en het stellen van diagnoses op afstand en de inzet van zorgrobots. Digitalisering van het hele zorgproces is hierbij de sleutel.
+
+Een ander deel van zorg op afstand is de ‘regionalisering’ van de zorg, waarbij een groter deel van de benodigde patiëntenzorg wordt opgevangen door huisartsen en thuiszorgorganisaties. Dit wordt in de praktijk gebracht door bijvoorbeeld het Isala-ziekenhuis in Zwolle, dat verwacht binnen drie jaar 10 procent van de zorg buiten het ziekenhuis te leveren dankzij de samenwerking met die zorgverleners in de regio.
+
+“Snel zal duidelijk worden dat het uiteindelijk beter is voor de patiënt als zorg meer op afstand plaatsvindt op basis van thuis verzamelde informatie. Een groot deel van tijdrovende en intensieve bezoeken aan het ziekenhuis kan er immers mee voorkomen worden”, zegt Anja van Balen, sector banker Healthcare. “Wellicht blijken de complexe omstandigheden in 2020 een ‘blessing in disguise’ te zijn en gaat de transitie naar zorg op afstand verder vorm krijgen.”
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Komt een patiënt niet meer bij de dokter](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/healthcare/komt-een-patient-niet-meer-bij-de-dokter.html)**
+
+## 8. De energietransitie
+
+Om opwarming van de aarde zoveel mogelijk te beperken, heeft Nederland zich gecommitteerd aan een reductie van CO₂-uitstoot van 49 procent in 2030 ten opzichte van 1990. Die doelstelling wordt alleen gehaald als de vereiste energietransitie meer vaart krijgt en voorziene projecten ook echt worden gerealiseerd.
+
+In het klimaatakkoord hebben Nederlandse beleidsmakers en belanghebbenden daarom tal van afspraken gemaakt. Het aantal windparken op zee wordt flink opgeschroefd, een groot aantal gebouwen moet van het aardgas af en de intentie is om alle kolencentrales tegen 2030 te sluiten.
+
+De uitvoering van deze plannen is echter nog niet zo eenvoudig. Veel puzzelstukjes moeten op de juiste plek vallen om alle ambities waar te maken. Zo zijn er technische, juridische, operationele en financiële knelpunten die bij elk project weer overwonnen moeten worden. Ook is veel samenwerking vereist tussen bedrijven en sectoren die voorheen weinig met elkaar te maken hadden.
+
+"Klimaatakkoord vooralsnog niet veel meer dan een goede start."
+
+2020 kan het jaar worden waarin diverse disciplines en sectoren elkaar beter weten te vinden, zodat de beloftes in het klimaatakkoord daadwerkelijk ingelost kunnen worden. “Aan het klimaatakkoord hebben veel mensen vanuit diverse disciplines en sectoren bijgedragen. Helaas is het niet veel meer dan een goede start. Het klimaatakkoord stippelt enkel een grove route uit richting het klimaatdoel van 2030. De echte uitdaging zit in het daadwerkelijk realiseren van alle individuele projecten”, zegt Arnold Mulder, sector banker Energy.
+
+Een deel van de energietransitie wordt door de overheid worden afgedwongen. Zo gaan vanaf 1 juli 2020 voor nieuwbouw de Bijna Energie Neutrale Gebouwen (BENG)-eisen gelden en voor alle bestaande bouwen de NTA8800-eisen. Door deze nieuwe eisen gaat het energieverbruik leidend worden bij het bepalen van het energielabel, in plaats van de aanwezigheid van duurzame toepassingen. Voor kantoren geldt al langere tijd dat zij vanaf 2023 minimaal Label C moeten hebben en in 2030 label A. Vanaf 2021 worden ook normering voor andere utiliteitsgebouwen vastgesteld.
+
+Regelgeving geeft zekerheid waardoor het voor bedrijven aantrekkelijker wordt om te investeren in bijvoorbeeld zonnepanelen of in warme-koude-opslag.
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Kerstpuzzel](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/energie/kerstpuzzel.html)**
+
+## 9. De toekomst van voeding
+
+De wereldbevolking groeit in 2050 naar tien miljard mensen. Deze mensen moeten allemaal gevoed worden. Tegelijkertijd is obesitas wereldwijd een groter probleem geworden: tussen 1980 en 2015 is het aantal voorkomen van obesitas in meer dan zeventig landen verdubbeld, en ook in andere landen toegenomen, volgens [dit onderzoek](https://www.nejm.org/doi/full/10.1056/NEJMoa1614362).
+
+Hierom hebben 37 wetenschappers zich in het [EAT Lancet-rapport](https://eatforum.org/eat-lancet-commission/) intensief over de vraag gebogen hoe tien miljard mensen kunnen worden gevoed met gezond voedsel. Een belangrijk deel van het antwoord is dat het eetpatroon moet worden aangepast en de productie hierop moet worden afgestemd. Meer groente, fruit en noten, en minder rood vlees en suiker, om maar een voorbeeld te noemen.
+
+De adviezen uit het rapport krijgen in 2020 meer voet aan de grond. De voedingsmiddelenindustrie zet dan ook in op gezonder en duurzamer. Dit lijkt makkelijker dan het is, want voor veel consumenten speelt prijs nog altijd een dominante rol bij het kopen van eten en drinken. We willen wel duurzamer en gezonder eten, maar het mag niet te veel kosten. Bovendien moet het wel lekker zijn.
+
+En dat vraagt om creativiteit, zegt Nadia Menkveld, sectoreconoom Agrifood. “Voedingsmiddelenproducenten innoveren flink. Producten met minder of geen dierlijke eiwitten of suiker winnen marktaandeel.” Daarnaast wordt geëxperimenteerd met nieuwe ingrediënten, zoals insecten of algen.
+
+Maar niet alleen de voedingsmiddelen vernieuwen, ook wordt gekeken naar het proces. Belangrijk bij duurzamer te produceren is het verminderen van voedselverspilling. Momenteel gaat wereldwijd een derde van al het voedsel verloren. Veel landen, waaronder Nederland, hebben als doel gesteld om de voedselverspilling in 2030 te halveren.
+
+“Producenten passen hier hun proces op aan, maar ontwikkelen ook nieuwe producten van voedsel dat anders vernietigd zou worden. Denk bijvoorbeeld aan brood van bierbostel, een reststroom uit het bierbrouwproces”, zegt Menkveld. Ondernemers kunnen diverse stappen zetten om voedselverspilling te verminderen. Zo kunnen restaurants kiezen voor minder keuze op de kaart, kleinere borden en minder voorraad. Heldere communicatie met gasten zorgt dat het niet alleen begrepen, maar ook gewaardeerd wordt.
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Halvering van voedselverspilling in 2030. Hoe dan?](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/food/halvering-van-voedselverspilling-in-2030-hoe-dan.html)**
+
+## 10. Brexit
+
+Ondernemers hebben ook te maken met politieke onzekerheden. Een van de meest actuele hiervan, is de brexit. 2020 gaat, na 3,5 jaar van gesteggel, dan eindelijk het jaar van de brexit worden. Na de grote historische overwinning van de Britse Conservatieven, lijkt het vertrek van de Britten uit de Europese Unie (EU) onvermijdelijk. De Britse kiezer heeft met zijn stem een duidelijk signaal afgegeven dat de knoop na al die jaren moet worden doorgehakt en dat het akkoord dat de Britse premier Johnson in oktober met de Europese Unie heeft gesloten moet worden uitgevoerd.
+
+Hoewel een ‘bremain’ nu niet langer tot de mogelijkheden behoort, is het geruststellend dat de brexit hoogstwaarschijnlijk wel op een ordelijke manier plaatsvindt. Een no-deal brexit had de Nederlandse economie in een jaar tijd 0,75 procentpunt aan economische groei gekost. Formeel vertrekken de Britten op 1 februari uit de Europese Unie.
+
+"Enige waakzaamheid rondom brexit blijft geboden."
+
+Toch blijft enige waakzaamheid geboden. Het brexit-boek is natuurlijk nog niet gesloten. De transitieperiode waarin het Verenigd Koninkrijk qua handelsregels nog als EU-land blijft opereren, duurt tot en met 31 december 2020. Op basis van het akkoord (‘Withdrawal Agreement’) kan de transitieperiode met één of twee jaar worden verlengd, als de partijen niet lukt om op tijd tot een vrijhandelsverdrag te komen.
+
+Johnson zegt echter vast te houden aan eind 2020 als deadline. Gezien de complexiteit van het uittredingsproces is dit echter ambitieus. Wanneer de onderhandelingen in de loop van volgend jaar vastlopen en Johnson stug aan die deadline blijft vasthouden kan het gevaar voor een no-deal-brexit opnieuw de kop opsteken.
+
+**Lees in deze publicatie alvast meer over dit onderwerp: [Brexit-zorgen zijn voor morgen na megawinst Johnson](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/brexit-zorgen-zijn-voor-morgen-na-megawinst-johnson.html)**
+
+## Tags
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Sectoroverstijgend](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/alle-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+
+---
+
+# Verduurzaming IT heeft duw in de rug nodig
+
+[Rapport](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/rapporten/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Ingrid Laane
+
+Kamalika Patra
+
+Toon alle auteurs
+
+Ondanks de sterk groeiende aandacht voor energiebesparing en klimaatverandering wordt duurzaamheid van IT nog niet in alle hoeken omarmd. Een minderheid van de IT-beslissers (35 procent) neemt duurzaamheid mee als criterium bij de inkoop. Dat blijkt uit onderzoek van ABN AMRO in samenwerking met PanelWizard onder 588 IT-beslissers van bedrijven uit alle bedrijfssectoren.
+
+## Download het volledige rapport
+
+(Ziet u geen download of kunt u het rapport niet downloaden? Upgrade uw browser dan naar de meest recente versie.)
+
+- [Verduurzaming IT heeft duw in de rug nodig (7 mei 2021)
+
+  2 MB](https://www.abnamro.nl/nl/media/abn-amro-verduurzaming-it-heeft-duw-in-de-rug-nodig_tcm16-109386.pdf)
+
+Om de markt voor groene IT een zet te geven, is niet alleen overheidsingrijpen gewenst, maar ook meer samenwerking en kennisuitwisseling tussen IT-bedrijven door de hele keten heen.
+
+## Traditionele instelling staat duurzame inkoop IT in de weg
+
+Andere prioriteiten, te hoge kosten en onvoldoende kennis zijn de belangrijkste redenen voor IT-beslissers1 om niet over te gaan tot duurzame inkoop. Uit interviews met IT-bedrijven die zich als duurzaam afficheren – bijvoorbeeld omdat zij energiezuinig programmeren of circulaire hardware leveren – blijkt bovendien dat bij veel IT-inkopers een traditionele instelling heerst. Besluiten worden genomen op basis van een nauwe set aan Kritieke Prestatie-Indicatoren (KPI's) waarin de nadruk ligt op bijvoorbeeld snelheid en continuïteit, maar duurzaamheid nog geen rol speelt. Beter een server teveel, dan straks onvoldoende capaciteit, is nog te vaak de gedachte volgens Patrick de Ridder van Cobra Systems. "Voor de IT’er staat veiligheid en betrouwbaarheid voorop. Het inbouwen van overcapaciteit is dan ook gemeengoed. 'Hebben we tien servers nodig? Doe er dan maar twaalf.'"
+
+## Groeiende milieubelasting door IT dwingt tot ingrijpen
+
+De bijdrage van IT aan onze samenleving is groot en zal de komende jaren alleen maar toenemen. Dat betekent dat we de vruchten kunnen blijven plukken van al het moois dat digitalisering ons te bieden heeft; van thuiswerken tot slimme gebouwen en precisielandbouw. Een keerzijde is er echter ook: digitalisering veroorzaakt een grote belasting voor het milieu, zowel qua energie- als grondstoffenverbruik. Zo is de productie van IT-hardware afhankelijk van verschillende kritieke grondstoffen, terwijl slechts een klein percentage van die grondstoffen na afdanking van het apparaat wordt teruggewonnen. Ook leggen datacenters een steeds groter beslag op onze energievoorziening. Productie en gebruik van IT zijn momenteel verantwoordelijk voor 2,1 tot 3,9 procent van de wereldwijde broeikasgasemissies.2 Onderzoekers schatten dat dit percentage in 2040 tussen de 6 en 14 procent zal liggen.3
+
+## Verwachtingen van IT-partijen onevenredig verdeeld
+
+Deze feiten, in combinatie met toenemende druk vanuit politiek en maatschappij, vragen om een continue inspanning om de ecologische voetafdruk van digitalisering te beperken. De Nederlandse IT-sector heeft in het kader van het Klimaatakkoord dan ook de ambitie uitgesproken in 2030 klimaatneutraal te zijn. Alle partijen in de IT-keten hebben hierin een verantwoordelijkheid: van de bedrijven die de fysieke IT-infrastructuur en -apparatuur verzorgen tot de ontwikkelaars van digitale diensten. Van datacenters wordt door IT-beslissers echter het meest verwacht; bijna de helft van de ondervraagden verwacht in redelijke tot sterke mate dat datacenters duurzaamheid in ogenschouw nemen. Voor cloud- en hostingproviders is dit percentage iets lager (43,4), gevolgd door leveranciers van IT-hardware (41,1). Van softwarebedrijven wordt het minst verwacht op duurzaamheidsgebied. Dit is een gemiste kans, want met onder meer energiebewust softwareontwerp is veel winst te behalen.
+
+## Versnippering van keten bemoeilijkt verduurzaming
+
+Belemmering voor IT-bedrijven om (volledig) de draai te maken naar duurzame proposities is dat er simpelweg nog onvoldoende vraag is. Dit is het bekende kip-en-eiprobleem. Daarnaast speelt de versnippering van de IT-keten hen parten. De probleemeigenaar is niet altijd de oplosser. Zo dragen netbeheerders het probleem op het moment dat er stroomtekorten ontstaan, maar zijn het IT-bedrijven die de oplossingen moeten implementeren. Dit kan bijvoorbeeld gaan om een commercieel datacenter dat zijn koeling efficiënter kan inrichten en een hostingbedrijf dat zijn servers in dat datacenter slim moet instellen. Veel oplossingen komen daarnaast van buiten de keten, zoals uit de wetenschap of de hoek van start-ups.
+
+## Combinatie overheidsingrijpen en samenwerking in IT-keten cruciaal
+
+Lichtpuntje is dat IT-bedrijven die duurzame producten en diensten aanbieden de vraag naar hun producten wel voorzichtig zien toenemen, zo vertellen zij aan ABN AMRO. Dit geldt temeer voor duurzame IT-proposities die ook commercieel voordeel opleveren. Om de markt voor duurzame IT een zetje te geven en definitief een plek te geven in het digitale ecosysteem is overheidsingrijpen gewenst, zoals subsidies en regelgeving. Zelf kunnen IT-bedrijven de markt helpen door transparant te zijn over hun duurzaamheidsinspanningen en de handen ineen te slaan met andere ketenpartners voor experimenten en kennisuitwisseling.
+
+Deze publicatie biedt een verkenning van de markt voor IT-bedrijven die actief bezig zijn met de verkleining van hun ecologische voetafdruk, of de eerste stappen willen zetten op dit vlak. Het rapport bevat een globale inventarisatie van de sleutelthema’s op het vlak van ‘groene IT’, geeft een overzicht van de onderzoeksresultaten en identificeert specifieke uitdagingen voor de markt om tot wasdom te komen.
+
+
+---
+
+# Wrange nasmaak dreigt door blinde 5G-veiling
+
+[Headlines & Insights](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/headlines-insights/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+Kamalika Patra
+
+De overheid overweegt de 3,5 Gigahertz 5G-frequentie volgend jaar gedeeltelijk ‘blind’ te veilen. Ze hopen dat hiermee hogere opbrengsten naar de schatkist vloeien. Hoge kosten voor de frequenties betekenen echter minder ruimte voor noodzakelijke netwerk investeringen. Dat kan de groei van de Nederlandse economie en de circulaire transitie belemmeren.
+
+## Insight
+
+Eigenaren van mobiele netwerken maken zich [zorgen](https://fd.nl/ondernemen/1373591/mobiele-operators-vrezen-te-hoge-kosten-nieuwe-5g-veiling-oqb1ca9Nlm1S) dat het nieuwe veilingmodel resulteert in torenhoge vergunningskosten die ten koste gaan van investeringen in het netwerk. Bij een veiling van lagere 5G-frequenties vorig jaar waren de biedingen voor alle deelnemers inzichtelijk en haalden de drie hoogste bieders uiteindelijk ieder dezelfde hoeveelheid bandbreedte binnen tegen dezelfde prijs. Bij de komende blinde veiling worden drie bandbreedtes verdeeld zonder dat de kandidaten inzicht in elkaars biedingen hebben. Dat zou naar theorie hogere opbrengsten opleveren omdat bieders aangespoord worden meteen hun beste bod te doen. Zo [pleitten](https://www.telecompaper.com/nieuws/mnos-pleiten-bij-tweede-kamer-tegen-plannen-35-ghz-veiling--1371854) netwerkeigenaren recent bij de Tweede Kamer voor een investeringsvriendelijk veilingmodel. Ze betogen dat oplopende vergunningskosten uiteindelijk hogere economische en maatschappelijke kosten tot gevolg hebben.
+
+Aanvullende investeringen in netwerkinfrastructuur zijn cruciaal om de volledige potentie van 5G te benutten. De snelheid- en datacapaciteitstoename bij opwaardering naar het 5G-netwerk worden niet alleen bewerkstelligd door hogere frequenties en hardware aanpassingen, zoals bij vorige generatieopwaarderingen, maar ook door het vervangen van oude antennes door nieuwe ‘slimme’ antennes1. Deze ‘Multiple-Input Multiple-Output’-antennes kunnen apparaten actief volgen en een geïsoleerd signaal richten op toestellen die op dat moment data verwerken. Dit vermindert het energieverbruik en stroomlijnt de datatransmissie voor supersnel mobiel internet met veelzijdige en slimme toepassingen in de industrie.
+
+Ervaring leert dat hogere kosten eenvoudig leiden tot hogere prijzen voor eindgebruikers, waardoor zij in hun technologische ontwikkeling worden geremd. De sectoren waarvoor die hogere veilingkosten het zwaarst wegen zijn de industrie en handel waar juist 5G tot grote systeemverbeteringen kan leiden.
+
+Zo kan de ontwikkeling van ‘smart factories’ in de industrie veel baat hebben bij snelle netwerken. Hier maakt onder andere ‘machine-to-machine’-communicatie het mogelijk om gegevens ‘real time’ te verzamelen en te analyseren om productieprocessen te optimaliseren. Verder zou in de groot- en detailhandel storingsdiagnostiek continu en slim uitgevoerd kunnen worden, zodat minder vertraging wordt opgelopen in het achterhalen van storingsoorzaken in complexe sorteringsprocessen2. Minder vertraging, lager energieverbruik, hogere betrouwbaarheid en een groter bereik bij de inzet van 5G zijn de onmisbare [kenmerken](https://www.mckinsey.com/~/media/mckinsey/industries/advanced%20electronics/our%20insights/the%205g%20era%20new%20horizons%20for%20advanced%20electronics%20and%20industrial%20companies/the-5g-era-new-horizons-for-advanced-electronics-and-industrial-companies.pdf) van de succesvolle productieprocessen van de toekomst.
+
+Al deze ‘slimme’ mogelijkheden kunnen echter onvoldoende benut worden wanneer netwerkinvesteringen uitblijven. Dat raakt de Nederlandse concurrentiepositie, temeer omdat andere landen al [actief met 5G bezig zijn](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/hulp-van-5g-bij-verhoging-arbeidsproductiviteit.html). Een verouderde technologische infrastructuur laat op de lange termijn sporen na; essentiële infrastructuur legt namelijk de basis voor verdere technologische ontwikkeling. Een gebrekkig 5G-netwerk drukt eenvoudig de economische groei.
+
+En laat industrie en handel nu juist de sectoren zijn die de grootste toegevoegde waarde in de Nederlandse economie hebben. Zo zijn industriële activiteiten goed voor maar liefst 22 procent van alle toegevoegde waarde en is de handel goed voor 12 procent3. Een feilloos 5G-netwerk is dus bepalend voor het toekomstige [verdienvermogen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/5g-essentieel-voor-het-verdienvermogen-van-nederland.html) van Nederland.
+
+Naast economische schade heeft een gebrekkige infrastructuur ook maatschappelijke gevolgen. ‘Internet-of-things’-toepassingen zijn daarin leidend. Hiermee kunnen bijvoorbeeld voertuigen autonoom worden bestuurd, zodat files worden voorkomen, de CO2-uitstoot daalt en het aantal verkeersongelukken afneemt. Met internet-of-things kunnen eveneens ‘smart buildings’ worden gecreëerd die automatisch verwarming en verlichting aanpassen om energie te besparen. Bovendien maakt deze technologie ‘predictive maintenance’ van elektrische apparaten mogelijk, omdat deze dan zelf kunnen aangeven wanneer onderhoud nodig is; zo gaan bestaande systemen langer mee.
+
+De economische en duurzame potentie van een optimaal functionerend 5G-netwerk is enorm. Met deze nieuwe generatie mobiele netwerken kan veel meer data worden verwerkt, kunnen hogere snelheden worden bereikt en meer apparaten tegelijk informatie uitwisselen vergeleken met 4G. Daarom is het onverstandig om bij de veilingen van deze netwerken niet primair voor hogere schatkistopbrengsten op de korte termijn te kiezen. Laat dit niet een geval van ‘penny wise, pound foolish’ zijn.
+
+*In Headlines & Insights geeft ABN AMRO duiding bij het nieuws.*
+
+
+---
+
+# Zonder de juiste cijfers blijft groene IT een illusie
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Sectoroverstijgend](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/alle-sectoren/index.html)
+
+[Julia Krauwer](https://www.abnamro.nl/nl/zakelijk/insights/auteurs/julia-krauwer/index.html)
+
+Bedrijven die gebruik maken van rekenkracht en dataopslag in de cloud en hun IT willen vergroenen, moeten wel weten waar winst te behalen is. Cloud-aanbieders delen vooralsnog echter niet alle cijfers over energiegebruik en CO₂-uitstoot, en doen dat bovendien elk op een andere manier.
+
+## Interview met Julia Krauwer bij BNR Nieuwsradio
+
+Beluister het fragment met Sector Banker Julia Krauwer over het belang van goede data bij verduurzaming van IT.
+
+Hierdoor weten IT-teams niet goed waar de meeste duurzaamheidswinst te behalen valt, en kunnen ze de invloed van optimalisaties niet meten. Voorlopig ontbreekt het echter aan wettelijke verplichtingen en dwingende standaarden die bepalen welke informatie cloud-bedrijven beschikbaar moeten stellen aan hun eigen klanten.
+
+## Negatieve milieueffecten beperken
+
+Wereldwijd verhuizen bedrijven hun IT-activiteiten naar de cloud, en zowel ontwikkeling als gebruik van artificial intelligence (AI) stuwen de vraag naar capaciteit van datacenters. Volgens een [schatting](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai) van het Internationaal Energieagentschap bedroeg het wereldwijde elektriciteitsverbruik van datacenters in 2024 zo’n 460 terawattuur (TWh), wat overeenkomt met het jaarlijkse verbruik van landen als Zweden of Argentinië. Tegen 2030 verwacht het agentschap een ruime verdubbeling naar 1000 TWh. Ongeveer 40 procent van die stroom zal dan afkomstig zijn uit hernieuwbare bronnen, maar voor bijna de helft blijven kolen- en gascentrales nodig. De CO2-voetafdruk van digitalisering blijft daarmee voorlopig substantieel.
+
+Datacenters zijn de afgelopen jaren steeds efficiënter geworden. Dit heeft sterk te maken met schaalvergroting; een groot datacenter kan de energie voor het koelen van servers – een relatief groot aandeel van het stroomverbruik – verspreiden over een groot aantal afnemers. Ook is er vooruitgang geboekt met nieuwe, meer energiezuinige koeltechnieken en software om het binnenklimaat te beheren. De gebruikers van AI- en clouddiensten, bepalend voor de vraag naar datacentercapaciteit, hebben in de praktijk echter onvoldoende handvatten om de nadelige milieueffecten van hun IT-inspanningen te verkleinen.
+
+## Meten is weten
+
+“Vergroening van IT begint altijd met de juiste informatie,” zegt Wiebren van der Zee, specialist op het gebied van groene IT binnen ABN AMRO. “Denk aan data over energie- en watergebruik, emissies, en gebruik van grondstoffen. In onze IT-organisatie verzamelen we deze gegevens voor de werkplekken van onze medewerkers, dus de laptops en schermen, maar ook voor onze eigen datacenters en de clouddiensten die we afnemen.”
+
+## Handvatten voor duurzame digitalisering
+
+Samen met diverse organisaties uit de Nationale Coalitie Duurzame Digitalisering (NCDD) heeft ABN AMRO het [Sustainable IT Impact Assessment](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcoalitieduurzamedigitalisering.nl%2Fsustainable-it-impact-assessment-siia%2F&data=05%7C02%7Cjulia.krauwer%40nl.abnamro.com%7C9948116aa7d649b3c17508de1082ebd8%7C3a15904d3fd94256a753beb05cdf0c6d%7C0%7C0%7C638966351662129336%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=Yz6QXd%2FJKDj3vTjpdic9%2FGPln8C8x2QH6hBRajvDbgc%3D&reserved=0) (SIIA) ontwikkeld. Deze tool biedt praktische handvatten en uitgebreide achtergrondinformatie om te starten met de verduurzaming van IT. De adviezen zijn onder andere gebaseerd op de concrete ervaringen van bedrijven en overheden.
+
+Grote cloud-aanbieders proberen sinds enkele jaren in deze informatiebehoefte te voorzien middels CO₂‑dashboards waarmee hun klanten de emissies van hun digitale inspanningen in de gaten kunnen houden. Willem Jan Groenewoud, CEO van softwarebedrijf Ab Ovo, verwelkomt deze golf: “Het is goed dat ze meer transparantie geven dan een paar jaar geleden. Meten is weten.” Het bedrijf zet sterk in op verduurzaming van de software die het voor de ‘mission-critical’ processen van zijn klanten ontwikkelt. “Wij gaan uit van een scenario waarin energie mogelijk gerantsoeneerd gaat worden, en ontwerpen dus software die zo min mogelijk energie gebruikt.”
+
+De cloud-wereld is veel transparanter dan een paar jaar geleden, maar er valt nog een hoop af te dingen op de geboden informatie. Niet alle benodigde gegevens worden verstrekt, en tussen providers lopen meetmethode en detailniveau van de gegevens sterk uiteen.
+
+## Papieren werkelijkheid
+
+Het begint al met de manier waarop de cloud-bedrijven hun eigen, organisatie-brede emissies rapporteren. Volgens een analyse van de Britse krant The Guardian stootten de eigen datacenters van de grootste tech-bedrijven bijna [acht keer](https://www.theguardian.com/technology/2024/sep/15/data-center-gas-emissions-tech) meer uit dan – opgeteld – gerapporteerd. Deze analyse omvatte gegevens van 2020 tot en met 2022.
+
+Het verschil kan worden verklaard door de meetmethode. Vaak is deze ‘markt-gebaseerd’. Dat wil zeggen dat providers hun CO₂‑uitstoot berekenen op basis van het aantal ingekochte certificaten voor groene energie of langjarige afnamecontracten van energie afkomstig van bijvoorbeeld een windpark. Zulke constructies zeggen echter niets over de daadwerkelijke stroommix op de locatie van het datacenter. “Het is een papieren werkelijkheid”, zegt Van der Zee van ABN AMRO. “Groene energie wordt administratief de hele wereld over gesleept.”
+
+Zo kan een cloud-provider ‘garanties van oorsprong’ kopen voor een waterkrachtcentrale in Noorwegen en die boekhoudkundig toewijzen aan een serverpark in Ierland, terwijl dat park deels draait op elektriciteit uit kolencentrales. Op papier is de footprint dan nul, maar in werkelijkheid is er wel degelijk sprake van CO₂‑uitstoot door het gebruik van fossiele energie.
+
+## Gemiddelde stroommix
+
+Onder de Europese duurzaamheidswet CSRD, voluit Corporate Sustainability Reporting Directive, is enkel markt-gebaseerd rapporteren niet meer genoeg. Aan de ene kant moeten organisaties gestimuleerd worden om groene energie in te kopen en is het goed dat zij inzicht geven in deze inspanningen, aan de andere kant geeft de markt-gebaseerde meetmethode een te rooskleurig beeld van de daadwerkelijke emissies uit elektriciteitsopwekking. Daarom verplicht de CSRD bedrijven ook ‘locatie-gebaseerd’ te rapporteren. Hierbij geldt de gemiddelde stroommix in de regio waar het bedrijf of datacenter de stroom afneemt als uitgangspunt.
+
+Ook in de emissiedashboards van cloud-bedrijven komen beide meetmethoden terug. De locatie-gebaseerde cijfers worden echter niet in alle gevallen even prominent getoond. Bij Amazon worden de markt-gebaseerde emissiedata naar voren geschoven, en moeten gebruikers doorklikken om inzicht te krijgen in de locatie-gebaseerde cijfers. Microsoft laat locatie-gebaseerde emissies in zijn dashboard zelfs helemaal achterwege.
+
+## Locatie-gebaseerd rapporteren
+
+Locatie-gebaseerde emissies worden berekend door het elektriciteitsverbruik in kilowattuur (kWh) te vermenigvuldigen met de lokale ‘emissiefactor’. Deze toont hoeveel CO2-equivalent gemiddeld vrijkomt bij de productie van een kWh aan elektriciteit. In regio’s met windmolens of waterkrachtcentrales is de emissiefactor lager dan in regio’s waar elektriciteit vooral wordt opgewerkt in kolen- of gascentrales. De locatie-gebaseerde meetmethode is een gemiddelde, en vereist geen inzicht in de schommelingen in de energiemix per dag of uur.
+
+## Welwillendheid van leveranciers
+
+In de wereld van emissiedashboards bestaan geen dwingende standaarden, en afnemers van cloud-diensten zijn in de praktijk afhankelijk van de welwillendheid van hun cloud-providers in het ontsluiten van informatie. Hierdoor varieert de mate van detail sterk. Zo bieden de meeste maandelijkse cijfers, maar loopt de updatesnelheid uiteen. Sommige providers doen dit constant, andere lopen maanden achter. Ook is er variatie qua fijnmazigheid; nu eens worden de emissies enkel per organisatie of regio getoond, dan weer kan ook tot op het niveau van individuele diensten of projecten worden gemonitord.
+
+Niet alle dashboards nemen daarnaast scope 3-emissies mee in de berekeningen. Waar scope 1 en 2 in dit geval gaan over het gebruik van fossiele energie en fossiel opgewekte elektriciteit voor het draaiende houden van de datacenters, betreft scope 3 de meer indirecte emissies. Deze worden bijvoorbeeld veroorzaakt door productie en afdanking van IT-apparatuur, en de bouw van datacenters en kantoren. De cloud-providers die op scope 3-niveau rapporteren, doen dat overigens ook niet consequent; waar de een zich beperkt tot hardware-productie, rekent de andere bijvoorbeeld ook het runnen van het bedrijfsrestaurant mee.
+
+Boavizta, een initiatief van tientallen Europese IT-bedrijven en adviesorganisaties, heeft een eenduidige manier ontwikkeld om de klimaatimpact van digitale infrastructuur te berekenen. Nu rekent elke cloud-provider op zijn eigen manier, waardoor een incompleet beeld ontstaat en cijfers tussen leveranciers moeilijk te vergelijken zijn. Boavizta stelt bijvoorbeeld gegevens beschikbaar over de milieueffecten van de productie en het vervoer van servers, die bedrijven kunnen gebruiken voor een grondigere berekening van de ecologische voetafdruk van hun IT-activiteiten. Ook Resilio biedt dergelijke data, in combinatie met advies, maar dan als commerciële dienst.
+
+## Inzicht voor ontwikkelteams
+
+De cloud-dashboards zijn veelal primair gericht op inzicht en rapportage. Positief is dat sommige aanbieders daarbovenop concreet advies geven over hoe bedrijven hun uitstoot kunnen verminderen. Zo geven Microsoft en Google suggesties om ongebruikte capaciteit af te schalen.
+
+Wel is het voor organisaties met een rijk IT-landschap lastig om de uitstoot op applicatieniveau inzichtelijk te krijgen. Software bestaat in de regel uit meerdere onderdelen die verspreid zijn over projecten, regio’s of diensten. Daardoor blijven de directe effecten van veranderingen die ontwikkelteams doorvoeren – ‘lichtere’ code, of een efficiëntere architectuur – gemakkelijk buiten beeld. “Dit is dan ook de reden dat we hiervoor eigen, AI-gedreven tooling hebben ontwikkeld”, zegt Groenewoud van softwarebedrijf Ab Ovo.
+
+## Minder energie gebruiken
+
+Volgens Max Schulze, oprichter van de Sustainable Digital Infrastructure Alliance (SDIA), is de focus op emissies eigenlijk onvoldoende. “We zouden moeten optimaliseren voor minder energiegebruik, voor minder datacenters. We leven op een continent met beperkte ruimte en hulpbronnen”, zegt hij.
+
+Ook de andere experts erkennen dat groene IT begint bij inzicht in energiegebruik. “De uitstoot van een datacenter is geen zuiver meetinstrument”, zegt Groenewoud van Ab Ovo. “Wij brengen op functieniveau eerst de gebruikte elektriciteit in kilowattuur in kaart. Daarna pas kijken we naar de locatie van het datacenter, en de energiemix op die plek.”
+
+Geen van de cloud-providers geeft echter inzicht in het aantal kWh dat hun klanten consumeren. Onlogisch, vindt Schulze van de SDIA, want je moet altijd beginnen met de efficiëntie van je product. “Als je een auto koopt, dan wil je weten hoeveel kilometer je met een liter brandstof kunt rijden om een beeld te krijgen van de efficiëntie van het voertuig. Pas daarna maak je de vertaalslag naar het aantal gram CO2-equivalent per kilometer.”
+
+## Alternatieve oplossingen
+
+Diverse partijen springen in het gat dat door de beperkte informatievoorziening van cloud-providers is ontstaan. Zo is er Cloud Carbon Footprint (CCF), een opensource-tool die het daadwerkelijke gebruik van clouddiensten uitleest en omrekent naar zowel kilowatturen (kWh) als CO2-uitstoot. Deze data worden bovendien per uur beschikbaar gesteld, waardoor IT-teams bijvoorbeeld kunnen zien wanneer applicaties het meeste worden gebruikt en welke systemen ’s nachts onnodig blijven draaien.
+
+Hoewel het voor organisaties een mooi startpunt kan zijn voor extra inzicht, is er bij opensource-diensten zoals CCF overigens geen garantie dat deze tijdig en regelmatig wordt geüpdatet. Bij commerciële partijen is die garantie er wel, en diverse betaalde diensten zijn de laatste jaren dan ook gelanceerd, waaronder Greenpixie.
+
+## Data van de bron
+
+Alle diensten, van de cloud-eigen dashboards tot extern ontwikkelde oplossingen, zijn gebaseerd op aannames over het energiegebruik van de servers en de digitale diensten die daarop draaien. Daarom gaat project NADIKI, een initiatief van SDIA samen met de Universiteit van Stuttgart en datacenter-operator Kolo, helemaal terug naar de bron: het datacenter. Het verzamelt live meetgegevens via sensoren en koppelt die aan de actuele CO2-intensiteit van het stroomnet. “We hebben overal sensoren, van de stroomvoorziening van het volledige datacenter, tot op rack- en serverniveau”, vertelt Schulze. Deze informatie wordt gebruikt om energiegebruik en emissies voor specifieke workloads te verzamelen.
+
+Schulze: “Dit is de eerste keer dat energie en emissies ‘end-to-end’ worden gemeten.” Het project is nog in de pilot-fase, maar laat wel zien dat er verbetering mogelijk is ten opzichte van de huidige methodologieën.
+
+## Blijven communiceren
+
+Toen de emissiedashboards voor de eerste keer werden gelanceerd, werden ze ontvangen als een sympathieke en hoognodige ‘feature’. Sommige van de cloud-dienstverleners hebben grote ambities op het bieden van transparantie en zien het als een bron van onderscheidend vermogen. Over de gehele linie loopt het tempo echter sterk uiteen.
+
+Volgens Van der Zee van ABN AMRO moeten organisaties hun wensen kenbaar maken naar hun IT-leveranciers. “Ze moeten blijven communiceren over het soort informatie dat ze nodig hebben.” Zolang de informatievoorziening niet optimaal is, wordt het gat ingevuld via open source-tools en de diensten van gespecialiseerde softwarebedrijven.
+
+Standaarden zijn er ook, zoals die van Boavizta, en ook het Greenhouse Gas Protocol heeft IT-specifieke richtlijnen. Echte verplichtingen zijn er echter niet, en dat stelt organisaties die hun IT willen vergroenen onnodig voor uitdagingen. Regelgeving kan soelaas bieden, en ervoor zorgen dat alle spelers op dezelfde manier rapporteren.
+
+## Lees verder in de technologiesector
+
+Technologie, Media & Telecom (TMT) is een van de snelst groeiende sectoren. Geholpen door de toenemende inzet van software, algoritmen en sensoren staat deze sector aan de basis van de digitale vernieuwing van andere sectoren.
+
+[Bekijk alle artikelen](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+## Tags
+
+[Analyse](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/analyses/index.html)
+
+[Sectoroverstijgend](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/alle-sectoren/index.html)
+
+[Technologie, Media & Telecom](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/technologie/index.html)
+
+[AI](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/ai.html)
+
+[Decarbonisatie](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/decarbonisatie.html)
+
+[Digitalisering](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/digitalisering.html)
+
+[Duurzaamheid](https://www.abnamro.nl/nl/zakelijk/insights/sectoren-en-trends/duurzaamheid.html)

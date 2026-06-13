@@ -7,6 +7,7 @@ from typing import Any
 import streamlit as st
 
 from api_client import AuroraApiClient, AuroraApiError
+from branding import apply_branding
 from settings_state import init_pipeline_state, new_run_id
 
 TASK_LABELS = {
@@ -30,10 +31,16 @@ STAGE_STYLES: dict[str, tuple[str, str, str, str]] = {
 }
 
 st.set_page_config(page_title="Pipeline Inspector · AURORA", layout="centered")
-st.title("Pipeline Inspector")
+apply_branding("Pipeline Inspector", "Stage-by-stage AURORA pipeline")
 
 
 init_pipeline_state()
+
+with st.sidebar:
+    if st.button("Clear chat", key="pipeline_clear_chat", use_container_width=True):
+        st.session_state.messages = []
+        st.session_state.pipeline_run_id = None
+        st.rerun()
 
 
 def _options() -> dict[str, Any]:
@@ -965,16 +972,6 @@ def _render_error_message(idx: int, message: dict[str, Any]) -> None:
         st.error(f"{message.get('stage', 'stage')} failed")
         st.code(message.get("message", ""), language="text")
 
-
-caption = (
-    f"Manual pipeline inspector · `{st.session_state['api_base_url']}`"
-    + (
-        f" · audit `{st.session_state['pipeline_run_id']}`"
-        if st.session_state.get("pipeline_run_id")
-        else ""
-    )
-)
-st.caption(caption)
 
 messages = st.session_state.messages
 

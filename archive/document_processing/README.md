@@ -44,7 +44,7 @@ Crawl the actueel.html feed and scrape everything it links to:
 ```bash
 python -m document_processing scrape-feed
 python -m document_processing scrape-feed --limit 10              # cap for testing
-python -m document_processing scrape-feed --out-dir data/article/nl --force
+python -m document_processing scrape-feed --out-dir ../data/article/nl --force
 ```
 
 Output filename is the article title (e.g. `AI succesvol inzetten vraagt meer dan technologie.md`).
@@ -83,14 +83,14 @@ Translate one article (smoke test):
 
 ```bash
 python -m document_processing translate \
-  --file "data/article/nl/<some article>.md" \
-  --dst data/article/en
+  --file "../data/article/nl/<some article>.md" \
+  --dst ../data/article/en
 ```
 
-Translate everything in `data/article/nl/`:
+Translate everything in the shared repo-root `data/article/nl/`:
 
 ```bash
-python -m document_processing translate --src data/article/nl --dst data/article/en
+python -m document_processing translate --src ../data/article/nl --dst ../data/article/en
 python -m document_processing translate --model gpt-5-mini   # cheaper option
 ```
 

@@ -12,10 +12,12 @@ import re
 
 import yaml
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-ARTICLES_DIR = REPO_ROOT / "data" / "article" / "en"
-OUT_PATH = REPO_ROOT / "rag" / "corpus" / "corpus_en.md"
-MANIFEST_PATH = REPO_ROOT / "rag" / "corpus" / "corpus_en_manifest.json"
+ARCHIVE_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = ARCHIVE_ROOT.parent
+ARTICLES_DIR = PROJECT_ROOT / "data" / "article" / "en"
+CORPUS_DIR = PROJECT_ROOT / "rag" / "corpus"
+OUT_PATH = CORPUS_DIR / "corpus_en.md"
+MANIFEST_PATH = CORPUS_DIR / "corpus_en_manifest.json"
 
 WIKILINK_RE = re.compile(r"\[\[(.+?)\]\]")
 
@@ -126,6 +128,7 @@ def main() -> None:
         manifest.append(entry)
     corpus = "\n\n---\n\n".join(sections)
 
+    CORPUS_DIR.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(corpus, encoding="utf-8")
     print(f"Wrote corpus to {OUT_PATH}")
     print(f"Size: {len(corpus):,} chars / {len(corpus.split()):,} words")

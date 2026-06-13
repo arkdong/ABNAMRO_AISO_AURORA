@@ -3,6 +3,9 @@
 Tracks the work to rebuild the retrieval index over the full English article
 set in `data/article/en/` and make ranking scale past ~10 documents.
 
+Note: `data/` and `rag/corpus/` now refer to shared repo-root directories, not
+folders inside `archive/`.
+
 Owner: Adam. Last updated: 2026-05-12.
 
 ## Context
@@ -33,7 +36,7 @@ Owner: Adam. Last updated: 2026-05-12.
   - Stray `from pageindex.utils import ConfigLoader` import — removed.
   - `user_opt` dict passed `None` values that overrode YAML defaults — fixed by dropping `None` entries before merge (matches the PDF branch).
 - New: `rag/scripts/enrich_structure.py` — joins manifest to top-level nodes in `corpus_en_structure.json` by normalised title; overwrites `prefix_summary` with frontmatter `description` and adds `tags`, `published`, `source`, `slug`.
-- Output of `run_pageindex.py` still lands in cwd-relative `./results/` — copy to `rag/corpus/corpus_en_structure.json` after each run. (Worth fixing to write into the canonical path directly, but out of scope for phase 2.)
+- Output of `run_pageindex.py` still lands in cwd-relative `./results/` — copy to `../rag/corpus/corpus_en_structure.json` after each run. (Worth fixing to write into the canonical path directly, but out of scope for phase 2.)
 
 ### What changed during phase 3+4 execution
 
@@ -51,8 +54,8 @@ Owner: Adam. Last updated: 2026-05-12.
 set -a && source .env && set +a
 export OPENAI_API_KEY="${OPENAI_API_KEY:-$OPENAI_API_KEY_TRANSLATION}"
 python rag/scripts/build_corpus.py
-python rag/scripts/run_pageindex.py --md_path rag/corpus/corpus_en.md
-cp results/corpus_en_structure.json rag/corpus/corpus_en_structure.json
+python rag/scripts/run_pageindex.py --md_path ../rag/corpus/corpus_en.md
+cp results/corpus_en_structure.json ../rag/corpus/corpus_en_structure.json
 python rag/scripts/enrich_structure.py
 ```
 
@@ -62,10 +65,10 @@ Steps:
 
 1. Run `python rag/scripts/build_corpus.py` → writes `rag/corpus/corpus_en.md`
    with all 59 articles as `# Title` / `## Section` blocks.
-2. Run `python rag/scripts/run_pageindex.py --md_path rag/corpus/corpus_en.md`
+2. Run `python rag/scripts/run_pageindex.py --md_path ../rag/corpus/corpus_en.md`
    with `if_add_node_summary=yes` (config default). Outputs to
-   `rag/results/corpus_en_structure.json`.
-3. Move/copy that file to `rag/corpus/corpus_en_structure.json`. Backend
+   `results/corpus_en_structure.json`.
+3. Move/copy that file to `../rag/corpus/corpus_en_structure.json`. Backend
    (`backend/retrieval/corpus_loader.py:20`) picks it up automatically.
 
 Risks: LLM cost (~300 summary calls). No code change, fully reversible by

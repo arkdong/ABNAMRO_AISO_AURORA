@@ -114,6 +114,26 @@ def test_error_falls_back_to_stub():
     assert "boom" in result.reasoning
 
 
+def test_blank_llm_body_falls_back_to_stub():
+    fake_parsed = ContentResult(
+        body="   ",
+        citations=[],
+        reasoning="empty response",
+    )
+    fake_completion = SimpleNamespace(
+        choices=[SimpleNamespace(message=SimpleNamespace(parsed=fake_parsed))]
+    )
+    fake_client = MagicMock()
+    fake_client.beta.chat.completions.parse.return_value = fake_completion
+
+    with patch("backend.content_generation.service.openai.OpenAI", return_value=fake_client):
+        result = generate_content(_req(), api_key="sk-test", model="gpt-4o")
+
+    assert result.source == "deterministic"
+    assert "Stub content" in result.body
+    assert "empty body" in result.reasoning
+
+
 def test_stub_body_includes_snippet_summary():
     result = generate_content(_req(), api_key=None, model=None)
     assert "Agentic AI" in result.body

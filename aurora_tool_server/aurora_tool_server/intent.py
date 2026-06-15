@@ -58,6 +58,34 @@ _SECTOR_HINTS = (
     "it supplier",
 )
 
+_LANGUAGE_WORDS = {
+    "dutch": "nl",
+    "nederlands": "nl",
+    "nederlandstalig": "nl",
+    "english": "en",
+    "engels": "en",
+}
+
+_BOTH_LANGUAGE_RE = re.compile(
+    r"\b(?:both\s+english\s+and\s+dutch|both\s+dutch\s+and\s+english|"
+    r"english\s+and\s+dutch|dutch\s+and\s+english|"
+    r"engels\s+en\s+nederlands|nederlands\s+en\s+engels|en\s*\+\s*nl)\b"
+)
+
+_TARGET_LANGUAGE_PATTERNS = (
+    re.compile(
+        r"\b(?:final\s+)?(?:draft|output|answer|response|text|article|content)"
+        r"\s+(?:must\s+be|should\s+be|needs\s+to\s+be|has\s+to\s+be|is|in)"
+        r"\s+(?:written\s+)?(?:in\s+)?"
+        r"(?P<lang>dutch|nederlands|nederlandstalig|english|engels)\b"
+    ),
+    re.compile(
+        r"\b(?:write|draft|generate|respond|answer|translate|vertaal|schrijf)"
+        r"\b.{0,80}?\b(?:in|to|naar|naar\s+het|in\s+het)\s+"
+        r"(?P<lang>dutch|nederlands|nederlandstalig|english|engels)\b"
+    ),
+)
+
 
 def _contains(text: str, needle: str) -> bool:
     return needle in text
@@ -77,15 +105,28 @@ def _detect_sector(prompt_lower: str) -> str | None:
     return None
 
 
-def _detect_language(prompt_lower: str) -> str | None:
+def _detect_target_language(prompt_lower: str) -> str | None:
     padded = f" {prompt_lower} "
-    if " both " in padded or " en + nl " in padded or " engels en nederlands " in padded:
+    if _BOTH_LANGUAGE_RE.search(prompt_lower) or " both " in padded:
         return "both"
-    if any(token in padded for token in (" english ", " in english ", " engels ", " in het engels ")):
-        return "en"
-    if any(token in padded for token in (" dutch ", " nederlands ", " in het nederlands ", " nederlandstalig ")):
-        return "nl"
 
+    target_language_matches: list[tuple[int, str]] = []
+    for pattern in _TARGET_LANGUAGE_PATTERNS:
+        for match in pattern.finditer(prompt_lower):
+            language = _LANGUAGE_WORDS.get(match.group("lang"))
+            if language:
+                target_language_matches.append((match.start(), language))
+    if target_language_matches:
+        return sorted(target_language_matches, key=lambda item: item[0])[-1][1]
+    return None
+
+
+def _detect_language(prompt_lower: str) -> str | None:
+    target_language = _detect_target_language(prompt_lower)
+    if target_language:
+        return target_language
+
+    padded = f" {prompt_lower} "
     nl_hits = sum(
         1
         for signal in (
@@ -161,6 +202,10 @@ Return JSON with: role, task_codes, confidence, task_reason, sector,
 topic_keywords, language. Supported task_codes are T1_DRAFT, T1_TRANSLATE,
 T1_SEARCH, T2_COMPLIANCE, T4_RENEWAL. Supported sector is
 "Technologie, Media & Telecom" or null. language is "en", "nl", "both", or null.
+The language field is the requested final output language, not merely the
+language of the user's prompt or topic. If the prompt mentions one language
+early but later says the final draft/output/answer should be in another
+language, use the later final-output instruction.
 """
 
 
@@ -193,6 +238,9 @@ def classify_intent(
             )
             content = completion.choices[0].message.content or "{}"
             parsed = _parse_llm_json(content)
+            target_language = _detect_target_language(prompt.lower())
+            if target_language:
+                parsed["language"] = target_language
             return IntentResult(**parsed, source="llm")
         except Exception:
             pass

@@ -79,15 +79,24 @@ Hard policies:
 - Never present a draft as approved when evaluation passed=false or blocking
   failures exist.
 - Always describe Tier-3/dCLP items as awaiting human signoff.
+- When presenting generated drafts or source citations, use each citation's
+  article_title and source_url as a Markdown link. Do not show corpus names,
+  node IDs, or line/page numbers to end users unless they explicitly ask for
+  audit or retrieval internals.
 
 Use the smaller tools when the user asks to inspect intent, profiles, retrieval,
 server health, or audit details. If a tool returns an error, explain the issue
 and suggest the smallest recovery step. Do not invent citations, profile
 details, KPI results, or audit events.
 
-Mirror the user's language whenever possible. If the user writes in Dutch, or
-an AURORA tool returns intent.language="nl", answer in Dutch and preserve Dutch
-drafts without translating them back to English.
+Language policy:
+- Treat AURORA intent.language as the final draft/output language, not the
+  chat language.
+- Use the user's prompt language for conversational replies and clarification
+  questions. If the user writes in Dutch but asks for an English article,
+  discuss and refine in Dutch, then keep the generated draft in English.
+- When an AURORA tool returns a draft, preserve its language; do not translate
+  final drafts unless the user explicitly requests translation.
 """.strip()
 
 
@@ -461,29 +470,27 @@ def extract_clarification_questions(
 
 def parse_clarification_questions(content: str) -> list[dict[str, Any]]:
     """Parse common plain-text clarification lists into UI-friendly questions."""
+    if not _looks_like_clarification_prompt(content):
+        return []
+
     lines = [line.strip() for line in content.splitlines() if line.strip()]
     questions: list[dict[str, Any]] = []
     current: dict[str, Any] | None = None
-    option_re = re.compile(r"^(?:[-*]\s*)?([A-Za-z])[\).:]\s*(.+)$")
-    numbered_re = re.compile(r"^(?:\d+[\).]\s*)?(.+\?)$")
 
     for line in lines:
-        option_match = option_re.match(line)
-        if option_match and current is not None:
-            current.setdefault("choices", []).append(option_match.group(2).strip())
-            continue
-
-        question_text: str | None = None
-        numbered_match = numbered_re.match(line)
-        if numbered_match:
-            question_text = numbered_match.group(1).strip()
-        elif line.endswith("?") or _looks_like_short_question_heading(line):
-            question_text = line.rstrip(":").strip()
-
+        question_text = _question_text_from_line(line)
         if question_text:
             if current is not None:
                 questions.append(current)
             current = {"question": question_text, "choices": []}
+            if _question_allows_multiple(question_text):
+                current["multiple"] = True
+            continue
+
+        if current is not None:
+            option = _option_text_from_line(line)
+            if option:
+                current.setdefault("choices", []).append(option)
 
     if current is not None:
         questions.append(current)
@@ -493,6 +500,88 @@ def parse_clarification_questions(content: str) -> list[dict[str, Any]]:
         for question in _normalize_questions(questions)
         if question.get("choices")
     ][:5]
+
+
+def _looks_like_clarification_prompt(content: str) -> bool:
+    lowered = content.lower()
+    return any(
+        phrase in lowered
+        for phrase in (
+            "clarification question",
+            "clarification questions",
+            "clarifying question",
+            "clarifying questions",
+            "before drafting",
+            "before i draft",
+            "before writing",
+            "before i write",
+            "preferred tone",
+            "reply with your choices",
+            "respond with your choices",
+            "answer with your choices",
+        )
+    )
+
+
+def _question_text_from_line(line: str) -> str | None:
+    candidate = re.sub(r"^\d+[\).:-]\s*", "", line).strip().rstrip(":")
+    if not candidate or _looks_like_instruction_line(candidate):
+        return None
+    if "?" in candidate:
+        return candidate
+    if _looks_like_short_question_heading(candidate):
+        return candidate
+    return None
+
+
+def _option_text_from_line(line: str) -> str | None:
+    if _looks_like_instruction_line(line):
+        return None
+    candidate = line.strip()
+    labelled = re.match(r"^(?:[-*]\s*)?(?:[A-Za-z]|\d+)[\).:]\s*(.+)$", candidate)
+    if labelled:
+        candidate = labelled.group(1).strip()
+    else:
+        bullet = re.match(r"^[-*]\s+(.+)$", candidate)
+        if bullet:
+            candidate = bullet.group(1).strip()
+    candidate = candidate.rstrip()
+    if not candidate or _question_text_from_line(candidate):
+        return None
+    return candidate
+
+
+def _looks_like_instruction_line(line: str) -> bool:
+    lowered = line.strip().lower()
+    if lowered.startswith(("please ", "reply ", "respond ", "answer ", "send ")):
+        return True
+    if lowered.startswith(("e.g.", "for example", "(")):
+        return True
+    return lowered.startswith(
+        (
+            "choose one",
+            "choose your",
+            "choose from",
+            "select one",
+            "select your",
+            "select from",
+        )
+    )
+
+
+def _question_allows_multiple(question: str) -> bool:
+    lowered = question.lower()
+    return any(
+        phrase in lowered
+        for phrase in (
+            "one or more",
+            "select all",
+            "choose all",
+            "pick multiple",
+            "multiple choices",
+            "multiple options",
+        )
+    )
 
 
 def _looks_like_short_question_heading(line: str) -> bool:
@@ -525,7 +614,10 @@ def _normalize_questions(value: Any) -> list[dict[str, Any]]:
             for choice in (item.get("choices") or [])
             if str(choice).strip()
         ]
-        questions.append({"question": question, "choices": choices[:6]})
+        normalized = {"question": question, "choices": choices[:6]}
+        if bool(item.get("multiple")) or _question_allows_multiple(question):
+            normalized["multiple"] = True
+        questions.append(normalized)
     return questions[:5]
 
 

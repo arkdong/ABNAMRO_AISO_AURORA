@@ -10,10 +10,32 @@ from typing import Any
 import yaml
 
 from .paths import PROFILES_DIR
-from .schemas import IntentResult, ProfileBundleResult, ProfileResult
+from .schemas import (
+    IntentResult,
+    ProfileBundleResult,
+    ProfileCategory,
+    ProfileResult,
+    ProfileWriteRequest,
+)
 
 WORKFLOW_DIR = PROFILES_DIR / "workflow"
 DOMAIN_EXPERT_DIR = PROFILES_DIR / "domain_expert"
+
+
+class ProfileStoreError(RuntimeError):
+    """Base error raised for profile catalogue mutations."""
+
+
+class ProfileNotFoundError(ProfileStoreError):
+    """Raised when a profile id cannot be found in the requested category."""
+
+
+class ProfileConflictError(ProfileStoreError):
+    """Raised when creating a profile would duplicate an existing id."""
+
+
+class ProfileValidationError(ProfileStoreError):
+    """Raised when a profile mutation request is internally inconsistent."""
 
 
 def _yaml_files(directory: Path) -> list[Path]:
@@ -30,6 +52,24 @@ def _read_yaml(path: Path) -> dict[str, Any]:
     if not isinstance(data, dict):
         raise ValueError(f"{path}: expected a YAML mapping")
     return data
+
+
+def _category_dir(category: ProfileCategory) -> Path:
+    if category == "workflow":
+        return WORKFLOW_DIR
+    return DOMAIN_EXPERT_DIR
+
+
+def _find_profile_path(category: ProfileCategory, profile_id: str) -> Path | None:
+    for path in _yaml_files(_category_dir(category)):
+        data = _read_yaml(path)
+        if str(data.get("id") or "") == profile_id:
+            return path
+    return None
+
+
+def _profile_id_exists(profile_id: str) -> bool:
+    return any(profile.id == profile_id for profile in load_profiles().all_profiles)
 
 
 def _list(value: Any) -> list[str]:
@@ -84,6 +124,109 @@ def load_profiles() -> ProfileBundleResult:
         workflow=[_parse_profile(path) for path in _yaml_files(WORKFLOW_DIR)],
         domain_expert=[_parse_profile(path) for path in _yaml_files(DOMAIN_EXPERT_DIR)],
     )
+
+
+def list_profiles() -> ProfileBundleResult:
+    """Return the editable profile catalogue."""
+    return load_profiles()
+
+
+def _profile_to_yaml(profile: ProfileWriteRequest) -> dict[str, Any]:
+    data: dict[str, Any] = {
+        "id": profile.id,
+        "name": profile.name,
+        "description": profile.description,
+        "category": profile.category,
+    }
+    if profile.category == "workflow":
+        data.update(
+            {
+                "activates_on": {
+                    "intent_codes": profile.activates_on_intent_codes,
+                },
+                "knowledge": profile.knowledge,
+                "capabilities": {
+                    "skills": profile.skills,
+                },
+                "tools": profile.tools,
+                "guardrails": profile.guardrails,
+                "outputs": profile.outputs,
+                "co_activates_with": profile.co_activates_with,
+            }
+        )
+        return data
+
+    data.update(
+        {
+            "activates_on": {
+                "sector": profile.sector or "",
+                "topic_keywords": profile.topic_keywords,
+            },
+            "knowledge": profile.knowledge,
+            "capabilities": {
+                "expertise_areas": profile.expertise_areas,
+            },
+            "style_signature": profile.style_signature,
+            "co_activates_with": profile.co_activates_with,
+        }
+    )
+    return data
+
+
+def _write_yaml_atomic(path: Path, data: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path = path.with_name(f".{path.name}.tmp")
+    with tmp_path.open("w", encoding="utf-8") as f:
+        yaml.safe_dump(
+            data,
+            f,
+            allow_unicode=True,
+            sort_keys=False,
+            default_flow_style=False,
+        )
+    tmp_path.replace(path)
+    load_profiles.cache_clear()
+
+
+def create_profile(profile: ProfileWriteRequest) -> ProfileResult:
+    """Create a new YAML-backed profile and return the parsed result."""
+    if _profile_id_exists(profile.id):
+        raise ProfileConflictError(f"profile id {profile.id!r} already exists")
+
+    path = _category_dir(profile.category) / f"{profile.id}.yaml"
+    if path.exists():
+        raise ProfileConflictError(f"profile file {path.name!r} already exists")
+    _write_yaml_atomic(path, _profile_to_yaml(profile))
+    return _parse_profile(path)
+
+
+def update_profile(
+    category: ProfileCategory,
+    profile_id: str,
+    profile: ProfileWriteRequest,
+) -> ProfileResult:
+    """Update an existing profile while preserving its current YAML filename."""
+    if profile.category != category or profile.id != profile_id:
+        raise ProfileValidationError("profile id and category cannot be changed")
+
+    path = _find_profile_path(category, profile_id)
+    if path is None:
+        raise ProfileNotFoundError(f"profile {category}/{profile_id} was not found")
+
+    _write_yaml_atomic(path, _profile_to_yaml(profile))
+    return _parse_profile(path)
+
+
+def delete_profile(category: ProfileCategory, profile_id: str) -> ProfileResult:
+    """Delete a YAML-backed profile and return the deleted profile payload."""
+    path = _find_profile_path(category, profile_id)
+    if path is None:
+        raise ProfileNotFoundError(f"profile {category}/{profile_id} was not found")
+
+    deleted = _parse_profile(path)
+    path.unlink()
+    load_profiles.cache_clear()
+    return deleted
 
 
 def _deterministic_select(intent: IntentResult, *, reasoning: str = "") -> ProfileBundleResult:

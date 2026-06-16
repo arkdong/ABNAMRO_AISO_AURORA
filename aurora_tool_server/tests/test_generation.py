@@ -62,6 +62,8 @@ def test_llm_body_markdown_key_returns_llm_result(monkeypatch):
     assert result.body == "LLM draft body [1]."
     assert len(result.citations) == 1
     assert result.citations[0].node_id == "0114"
+    assert result.citations[0].article_title == "The two faces of Agentic AI"
+    assert result.citations[0].source_url == "https://www.abnamro.nl/article-agentic-ai.html"
 
 
 def test_blank_llm_body_falls_back_to_stub(monkeypatch):
@@ -79,4 +81,6 @@ def test_blank_llm_body_falls_back_to_stub(monkeypatch):
     assert result.source == "deterministic"
     assert result.body.strip()
     assert "AURORA grounded draft" in result.body
+    assert "[The two faces of Agentic AI](https://www.abnamro.nl/article-agentic-ai.html)" in result.body
+    assert "corpus_en::0114" not in result.body
     assert "empty body" in result.reasoning

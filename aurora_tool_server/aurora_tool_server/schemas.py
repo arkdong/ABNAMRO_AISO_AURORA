@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 TaskCode = Literal[
     "T1_DRAFT",
@@ -17,6 +17,20 @@ SourceMode = Literal["llm", "deterministic"]
 Channel = Literal["web", "chat", "messages", "employee", "app_ib"]
 Origin = Literal["human", "genai_knowledge", "instant"]
 RetrievalBackend = Literal["pageindex", "vector_rag"]
+ProfileCategory = Literal["workflow", "domain_expert"]
+PROFILE_ID_PATTERN = r"^[a-z][a-z0-9_]*$"
+_PROFILE_LIST_FIELDS = (
+    "activates_on_intent_codes",
+    "topic_keywords",
+    "knowledge",
+    "skills",
+    "tools",
+    "guardrails",
+    "outputs",
+    "expertise_areas",
+    "style_signature",
+    "co_activates_with",
+)
 
 
 class IntentResult(BaseModel):
@@ -38,7 +52,7 @@ class ProfileResult(BaseModel):
     id: str
     name: str
     description: str
-    category: Literal["workflow", "domain_expert"]
+    category: ProfileCategory
     activates_on_intent_codes: list[str] = Field(default_factory=list)
     sector: str | None = None
     topic_keywords: list[str] = Field(default_factory=list)
@@ -64,6 +78,41 @@ class ProfileBundleResult(BaseModel):
         return [*self.workflow, *self.domain_expert]
 
 
+class ProfileWriteRequest(BaseModel):
+    id: str = Field(min_length=1, max_length=80, pattern=PROFILE_ID_PATTERN)
+    name: str = Field(min_length=1, max_length=160)
+    description: str = Field(min_length=1, max_length=2000)
+    category: ProfileCategory
+    activates_on_intent_codes: list[str] = Field(default_factory=list)
+    sector: str | None = None
+    topic_keywords: list[str] = Field(default_factory=list)
+    knowledge: list[str] = Field(default_factory=list)
+    skills: list[str] = Field(default_factory=list)
+    tools: list[str] = Field(default_factory=list)
+    guardrails: list[str] = Field(default_factory=list)
+    outputs: list[str] = Field(default_factory=list)
+    expertise_areas: list[str] = Field(default_factory=list)
+    style_signature: list[str] = Field(default_factory=list)
+    co_activates_with: list[str] = Field(default_factory=list)
+
+    @field_validator("id", "name", "description", "sector", mode="before")
+    @classmethod
+    def _strip_text(cls, value: Any) -> Any:
+        if isinstance(value, str):
+            return value.strip()
+        return value
+
+    @field_validator(*_PROFILE_LIST_FIELDS, mode="before")
+    @classmethod
+    def _clean_list(cls, value: Any) -> list[str]:
+        if value is None:
+            return []
+        if isinstance(value, list):
+            return [item for item in (str(item).strip() for item in value) if item]
+        item = str(value).strip()
+        return [item] if item else []
+
+
 class RetrievalQuery(BaseModel):
     user_prompt: str
     task_codes: list[str] = Field(default_factory=list)
@@ -80,6 +129,7 @@ class Snippet(BaseModel):
     source_doc: str
     node_id: str
     title: str
+    article_title: str | None = None
     content: str
     line_num: int | None = None
     score: float
@@ -124,6 +174,8 @@ class Citation(BaseModel):
     source_doc: str
     node_id: str
     title: str
+    article_title: str | None = None
+    source_url: str | None = None
 
 
 class ContentResult(BaseModel):

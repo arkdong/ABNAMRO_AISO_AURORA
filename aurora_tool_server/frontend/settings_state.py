@@ -12,10 +12,16 @@ PIPELINE_CHANNELS = ["web", "chat", "messages", "employee", "app_ib"]
 PIPELINE_ORIGINS = ["instant", "human", "genai_knowledge"]
 AGENT_CHANNELS = ["web", "chat", "messages", "employee", "app_ib"]
 AGENT_ORIGINS = ["human", "genai_knowledge", "instant"]
+SHOW_AGENT_PAGE_KEY = "show_agent_page"
+SHOW_AGENT_PAGE_WIDGET_KEY = "show_agent_page_checkbox"
 
 
 def new_run_id() -> str:
     return f"run_{uuid.uuid4().hex[:12]}"
+
+
+def init_navigation_state() -> None:
+    st.session_state.setdefault(SHOW_AGENT_PAGE_KEY, True)
 
 
 def init_pipeline_state() -> None:

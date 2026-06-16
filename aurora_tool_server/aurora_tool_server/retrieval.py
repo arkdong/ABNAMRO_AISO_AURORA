@@ -85,6 +85,30 @@ def _walk(nodes: Iterable[dict[str, Any]]) -> Iterable[dict[str, Any]]:
         yield from _walk(node.get("nodes") or [])
 
 
+def _clean_str(value: Any) -> str | None:
+    if value is None:
+        return None
+    text = str(value).strip()
+    return text or None
+
+
+def _walk_with_article_metadata(
+    nodes: Iterable[dict[str, Any]],
+    *,
+    article_title: str | None = None,
+    source_url: str | None = None,
+) -> Iterable[tuple[dict[str, Any], str | None, str | None]]:
+    for node in nodes:
+        current_article_title = article_title or _clean_str(node.get("title"))
+        current_source_url = _clean_str(node.get("source")) or source_url
+        yield node, current_article_title, current_source_url
+        yield from _walk_with_article_metadata(
+            node.get("nodes") or [],
+            article_title=current_article_title,
+            source_url=current_source_url,
+        )
+
+
 def _load_json(path_name: str) -> Any:
     with (RAG_DIR / path_name).open(encoding="utf-8") as f:
         return json.load(f)
@@ -112,6 +136,22 @@ def load_corpora() -> dict[str, tuple[dict[str, Any], ...]]:
     schrijfwijzer = _load_optional_json("schrijfwijzer_tree.json")
     if isinstance(schrijfwijzer, list):
         out["schrijfwijzer"] = tuple(schrijfwijzer)
+    return out
+
+
+@lru_cache(maxsize=1)
+def load_article_metadata_index() -> dict[str, dict[str, dict[str, str | None]]]:
+    out: dict[str, dict[str, dict[str, str | None]]] = {}
+    for corpus_id, roots in load_corpora().items():
+        by_node_id: dict[str, dict[str, str | None]] = {}
+        for node, article_title, source_url in _walk_with_article_metadata(roots):
+            node_id = _clean_str(node.get("node_id"))
+            if node_id:
+                by_node_id[node_id] = {
+                    "article_title": article_title,
+                    "source_url": source_url,
+                }
+        out[corpus_id] = by_node_id
     return out
 
 
@@ -236,35 +276,55 @@ def _score_node(node: dict[str, Any], query_terms: set[str]) -> tuple[int, list[
     return score, matched
 
 
+def _snippet_from_node(
+    *,
+    corpus_id: str,
+    node: dict[str, Any],
+    score: float,
+    reason: str,
+    article_title: str | None,
+    source_url: str | None,
+) -> Snippet:
+    return Snippet(
+        source_doc=corpus_id,
+        node_id=str(node.get("node_id") or ""),
+        title=str(node.get("title") or ""),
+        article_title=article_title or _clean_str(node.get("title")),
+        content=str(node.get("text") or ""),
+        line_num=node.get("line_num") or node.get("page_index"),
+        score=score,
+        reason=reason,
+        source_url=_clean_str(node.get("source")) or source_url,
+    )
+
+
 def _deterministic_pick(query: RetrievalQuery) -> tuple[list[Snippet], list[str]]:
     corpora = load_corpora()
     routed = _route_corpora(query, set(corpora))
     query_terms = _query_terms(query)
-    candidates: list[tuple[int, str, dict[str, Any], list[str]]] = []
+    candidates: list[tuple[int, str, dict[str, Any], list[str], str | None, str | None]] = []
 
     for corpus_id in routed:
         roots, _ = _filter_by_tags(corpora[corpus_id], query)
-        for node in _walk(roots):
+        for node, article_title, source_url in _walk_with_article_metadata(roots):
             if not node.get("text"):
                 continue
             score, matched = _score_node(node, query_terms)
             if score > 0:
-                candidates.append((score, corpus_id, node, matched))
+                candidates.append((score, corpus_id, node, matched, article_title, source_url))
 
     candidates.sort(key=lambda item: item[0], reverse=True)
     max_score = candidates[0][0] if candidates else 1
     return [
-        Snippet(
-            source_doc=corpus_id,
-            node_id=str(node.get("node_id") or ""),
-            title=str(node.get("title") or ""),
-            content=str(node.get("text") or ""),
-            line_num=node.get("line_num") or node.get("page_index"),
+        _snippet_from_node(
+            corpus_id=corpus_id,
+            node=node,
             score=round(score / max_score, 4),
             reason=f"keyword overlap: {', '.join(matched[:8]) or 'n/a'}",
-            source_url=node.get("source"),
+            article_title=article_title,
+            source_url=source_url,
         )
-        for score, corpus_id, node, matched in candidates[: query.k]
+        for score, corpus_id, node, matched, article_title, source_url in candidates[: query.k]
     ], routed
 
 
@@ -317,6 +377,7 @@ def _vector_score(
 
 def _vector_pick(query: RetrievalQuery) -> tuple[list[Snippet], list[str]]:
     vector_corpora = load_vector_corpora()
+    article_metadata = load_article_metadata_index()
     routed = _route_corpora(query, set(vector_corpora))
     query_vector = _normalised_query_vector(query)
     candidates: list[tuple[float, str, dict[str, Any], list[str]]] = []
@@ -328,19 +389,28 @@ def _vector_pick(query: RetrievalQuery) -> tuple[list[Snippet], list[str]]:
 
     candidates.sort(key=lambda item: item[0], reverse=True)
     max_score = candidates[0][0] if candidates else 1.0
-    snippets = [
-        Snippet(
-            source_doc=str(record.get("source_doc") or corpus_id),
-            node_id=str(record.get("node_id") or record.get("id") or ""),
-            title=str(record.get("title") or ""),
-            content=str(record.get("content") or ""),
-            line_num=record.get("line_num"),
-            score=round(score / max_score, 4),
-            reason=f"sparse vector overlap: {', '.join(matched[:8]) or 'n/a'}",
-            source_url=record.get("source_url"),
+    snippets: list[Snippet] = []
+    for score, corpus_id, record, matched in candidates[: query.k]:
+        source_doc = str(record.get("source_doc") or corpus_id)
+        node_id = str(record.get("node_id") or record.get("id") or "")
+        metadata = article_metadata.get(source_doc, {}).get(node_id, {})
+        snippets.append(
+            Snippet(
+                source_doc=source_doc,
+                node_id=node_id,
+                title=str(record.get("title") or ""),
+                article_title=(
+                    _clean_str(record.get("article_title"))
+                    or metadata.get("article_title")
+                    or _clean_str(record.get("title"))
+                ),
+                content=str(record.get("content") or ""),
+                line_num=record.get("line_num"),
+                score=round(score / max_score, 4),
+                reason=f"sparse vector overlap: {', '.join(matched[:8]) or 'n/a'}",
+                source_url=_clean_str(record.get("source_url")) or metadata.get("source_url"),
+            )
         )
-        for score, corpus_id, record, matched in candidates[: query.k]
-    ]
     return snippets, routed
 
 
@@ -483,11 +553,11 @@ def _llm_pick(query: RetrievalQuery, *, api_key: str, model: str) -> tuple[list[
     for corpus_id in routed:
         roots = corpora[corpus_id]
         filtered_roots, _ = _filter_by_tags(roots, query)
-        nodes_by_id = {
-            str(node.get("node_id")): node
-            for node in _walk(roots)
-            if node.get("node_id")
-        }
+        nodes_by_id: dict[str, tuple[dict[str, Any], str | None, str | None]] = {}
+        for node, article_title, source_url in _walk_with_article_metadata(roots):
+            node_id = _clean_str(node.get("node_id"))
+            if node_id:
+                nodes_by_id[node_id] = (node, article_title, source_url)
 
         if len(filtered_roots) <= shortlist_target:
             shortlisted = list(filtered_roots)
@@ -504,7 +574,8 @@ def _llm_pick(query: RetrievalQuery, *, api_key: str, model: str) -> tuple[list[
             seen: set[str] = set()
             root_ids = {str(node.get("node_id")) for node in filtered_roots}
             for pick in stage1_picks:
-                node = nodes_by_id.get(pick.node_id)
+                found = nodes_by_id.get(pick.node_id)
+                node = found[0] if found else None
                 if node and pick.node_id in root_ids and pick.node_id not in seen:
                     shortlisted.append(node)
                     seen.add(pick.node_id)
@@ -519,19 +590,20 @@ def _llm_pick(query: RetrievalQuery, *, api_key: str, model: str) -> tuple[list[
             query=query,
         )
         for pick in section_picks:
-            node = nodes_by_id.get(pick.node_id)
+            found = nodes_by_id.get(pick.node_id)
+            if not found:
+                continue
+            node, article_title, source_url = found
             if not node or not node.get("text"):
                 continue
             out.append(
-                Snippet(
-                    source_doc=corpus_id,
-                    node_id=pick.node_id,
-                    title=str(node.get("title") or ""),
-                    content=str(node.get("text") or ""),
-                    line_num=node.get("line_num") or node.get("page_index"),
+                _snippet_from_node(
+                    corpus_id=corpus_id,
+                    node=node,
                     score=round(max(0.0, min(1.0, pick.score)), 4),
                     reason=pick.reason,
-                    source_url=node.get("source"),
+                    article_title=article_title,
+                    source_url=source_url,
                 )
             )
 

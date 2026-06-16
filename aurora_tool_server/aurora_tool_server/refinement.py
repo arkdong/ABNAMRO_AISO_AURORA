@@ -7,7 +7,7 @@ from typing import Any
 
 from pydantic import BaseModel, Field
 
-from .intent import classify_intent
+from .intent import classify_intent, detect_prompt_language
 from .profiles import select_profiles
 from .retrieval import build_query, retrieve_context
 from .schemas import (
@@ -41,9 +41,11 @@ improve the final output, or set done=true when the prompt is already specific.
 
 Each question should include 2-4 concise choices when useful. Ground questions
 in the retrieved snippets, profile expertise, audience, tone, length, angle,
-time horizon, language, or source prioritization. Avoid vague questions.
-Ask questions in the requested output language from the intent when it is
-specified. For Dutch output, use clear Dutch and formal u-form where relevant.
+time horizon, language, or source prioritization. Avoid vague questions. Ask
+questions in the conversation language supplied in the user message, not
+necessarily the requested final output language. If the user prompt is Dutch
+but asks for an English article, ask Dutch clarification questions and preserve
+English as the final output language.
 
 Return structured output with:
 - questions: list of question/choices objects
@@ -57,25 +59,38 @@ _LOCK_PROMPT = """You refine AURORA editorial prompts.
 Given the original prompt, the clarification answers, intent, profiles, and
 retrieved context, produce one concise final prompt for content generation.
 Preserve the user's intent, add only constraints supported by the answers, and
-do not invent requirements. Preserve the requested output language. For Dutch
-output, explicitly require the ABN AMRO Schrijfwijzer, formal u-form, B1/plain
-language, active sentences, and Dutch ABN AMRO Insights tone. Return done=true
-and proposed_prompt set.
+do not invent requirements. Preserve the requested final output language even
+when the conversation language differs. For Dutch output, explicitly require
+the ABN AMRO Schrijfwijzer, formal u-form, B1/plain language, active sentences,
+and Dutch ABN AMRO Insights tone. Return done=true and proposed_prompt set.
 """
 
 
-def _is_dutch(intent: IntentResult) -> bool:
-    return intent.language == "nl"
+def _conversation_language(user_prompt: str, intent: IntentResult) -> str | None:
+    return detect_prompt_language(user_prompt) or intent.language
 
 
-def build_questions(intent: IntentResult, retrieval: RetrievalResult | None) -> list[RefinementQuestion]:
+def build_questions(
+    intent: IntentResult,
+    retrieval: RetrievalResult | None,
+    *,
+    conversation_language: str | None = None,
+) -> list[RefinementQuestion]:
     questions: list[RefinementQuestion] = []
-    dutch = _is_dutch(intent)
+    dutch = conversation_language == "nl" if conversation_language else intent.language == "nl"
     if intent.language is None:
         questions.append(
             RefinementQuestion(
-                question="Which output language should AURORA use?",
-                choices=["English", "Dutch", "Both English and Dutch"],
+                question=(
+                    "Welke uitvoertaal moet AURORA gebruiken?"
+                    if dutch
+                    else "Which output language should AURORA use?"
+                ),
+                choices=(
+                    ["Engels", "Nederlands", "Zowel Engels als Nederlands"]
+                    if dutch
+                    else ["English", "Dutch", "Both English and Dutch"]
+                ),
             )
         )
     if not any("audience" in kw.lower() for kw in intent.topic_keywords):
@@ -161,6 +176,7 @@ def _llm_refinement_turn(
     profiles: ProfileBundleResult,
     retrieval: RetrievalResult,
     answers: Mapping[str, str] | None,
+    conversation_language: str | None,
     api_key: str,
     model: str,
 ) -> _LLMRefinementOutput:
@@ -172,6 +188,7 @@ def _llm_refinement_turn(
     user_message = (
         f"Original prompt:\n{user_prompt}\n\n"
         f"Answers so far:\n{answers_block}\n\n"
+        f"Conversation language: {conversation_language or 'unknown'}\n\n"
         f"Intent:\n{intent.model_dump_json(indent=2)}\n\n"
         f"Profiles:\n{_summarise_profiles(profiles)}\n\n"
         f"Retrieved snippets:\n{_summarise_retrieval(retrieval)}\n"
@@ -254,6 +271,7 @@ def refine_prompt(
     retrieval_backend: str = "pageindex",
 ) -> RefinementResult:
     answers = answers or {}
+    conversation_language = _conversation_language(user_prompt, intent)
     if ask_questions and not answers:
         if api_key and model:
             try:
@@ -264,6 +282,7 @@ def refine_prompt(
                     profiles=profiles,
                     retrieval=retrieval,
                     answers=None,
+                    conversation_language=conversation_language,
                     api_key=api_key,
                     model=model,
                 )
@@ -279,7 +298,11 @@ def refine_prompt(
                 return RefinementResult(
                     original_prompt=user_prompt,
                     refined_prompt=user_prompt.strip(),
-                    questions=build_questions(intent, retrieval),
+                    questions=build_questions(
+                        intent,
+                        retrieval,
+                        conversation_language=conversation_language,
+                    ),
                     done=False,
                     source="deterministic",
                     reasoning=f"LLM refinement failed; deterministic fallback: {exc}",
@@ -287,13 +310,17 @@ def refine_prompt(
         return RefinementResult(
             original_prompt=user_prompt,
             refined_prompt=user_prompt.strip(),
-            questions=build_questions(intent, retrieval),
+            questions=build_questions(
+                intent,
+                retrieval,
+                conversation_language=conversation_language,
+            ),
             done=False,
             source="deterministic",
             reasoning="Clarification questions generated before lock-in.",
         )
 
-    refined_text = apply_answers(user_prompt, answers, language=intent.language)
+    refined_text = apply_answers(user_prompt, answers, language=conversation_language)
     source = "deterministic"
     reasoning = "Prompt locked after deterministic refinement."
     if api_key and model:
@@ -305,6 +332,7 @@ def refine_prompt(
                 profiles=profiles,
                 retrieval=retrieval,
                 answers=answers,
+                conversation_language=conversation_language,
                 api_key=api_key,
                 model=model,
             )

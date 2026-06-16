@@ -134,6 +134,11 @@ def test_agent_policy_requires_evaluation_and_single_regeneration():
     assert "evaluation feedback to the refined prompt" in instructions
     assert "call aurora_evaluate_draft once more" in instructions
     assert "After one regeneration attempt, stop" in instructions
+    assert "article_title and source_url as a Markdown link" in instructions
+    assert "Do not show corpus names" in instructions
+    assert "intent.language as the final draft/output language" in instructions
+    assert "Use the user's prompt language for conversational replies" in instructions
+    assert "writes in Dutch but asks for an English article" in instructions
 
 
 def test_extract_clarification_questions_prefers_tool_events():
@@ -192,6 +197,70 @@ Please reply with your choices (e.g., 1:D, 2:A, 3:C)."""
             "choices": ["Formal", "Conversational", "Mix of both"],
         },
     ]
+
+
+def test_parse_unlabelled_plain_text_clarification_questions():
+    content = """I have a few quick clarification questions before drafting:
+
+Which aspects of Agentic AI should I highlight? (pick one or more)
+Autonomous offensive strategies
+Defensive countermeasures
+Impact on existing cybersecurity protocols
+Case studies of implementation
+Preferred tone?
+Formal and technical
+Conversational and accessible
+Balanced mix of both
+Engaging and persuasive
+Include workforce-shortage data?
+Yes, include recent statistics
+Yes, include case studies
+No, keep it general
+Include qualitative insights without statistics
+Reply with your choices (e.g. "1: Autonomous offensive + Defensive; 2: Balanced")."""
+
+    questions = agent_service.parse_clarification_questions(content)
+
+    assert questions == [
+        {
+            "question": "Which aspects of Agentic AI should I highlight? (pick one or more)",
+            "choices": [
+                "Autonomous offensive strategies",
+                "Defensive countermeasures",
+                "Impact on existing cybersecurity protocols",
+                "Case studies of implementation",
+            ],
+            "multiple": True,
+        },
+        {
+            "question": "Preferred tone?",
+            "choices": [
+                "Formal and technical",
+                "Conversational and accessible",
+                "Balanced mix of both",
+                "Engaging and persuasive",
+            ],
+        },
+        {
+            "question": "Include workforce-shortage data?",
+            "choices": [
+                "Yes, include recent statistics",
+                "Yes, include case studies",
+                "No, keep it general",
+                "Include qualitative insights without statistics",
+            ],
+        },
+    ]
+
+
+def test_parse_plain_article_questions_are_not_clarification_forms():
+    content = """What can companies do?
+
+Segment the network so attackers cannot move freely.
+Practise incident response and make sure backups work.
+Train employees continuously."""
+
+    assert agent_service.parse_clarification_questions(content) == []
 
 
 def test_run_agent_turn_uses_runner_and_json_safe_history(monkeypatch):

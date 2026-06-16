@@ -16,7 +16,10 @@ from settings_state import (
     PIPELINE_CHANNELS,
     PIPELINE_ORIGINS,
     RETRIEVAL_BACKENDS,
+    SHOW_AGENT_PAGE_KEY,
+    SHOW_AGENT_PAGE_WIDGET_KEY,
     init_agent_state,
+    init_navigation_state,
     init_pipeline_state,
     new_run_id,
 )
@@ -55,8 +58,25 @@ def _show_health(message: dict[str, str] | None) -> None:
         st.error(message["text"])
 
 
+def _sync_agent_page_visibility() -> None:
+    st.session_state[SHOW_AGENT_PAGE_KEY] = bool(
+        st.session_state[SHOW_AGENT_PAGE_WIDGET_KEY]
+    )
+
+
 init_pipeline_state()
 init_agent_state(DEFAULT_AGENT_MODEL)
+init_navigation_state()
+
+st.session_state.setdefault(
+    SHOW_AGENT_PAGE_WIDGET_KEY,
+    st.session_state[SHOW_AGENT_PAGE_KEY],
+)
+st.checkbox(
+    "Show AI Agent page in sidebar",
+    key=SHOW_AGENT_PAGE_WIDGET_KEY,
+    on_change=_sync_agent_page_visibility,
+)
 
 pipeline_tab, agent_tab = st.tabs(["Pipeline", "AI Agent"])
 

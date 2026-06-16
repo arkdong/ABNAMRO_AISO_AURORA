@@ -25,6 +25,53 @@ def test_health_check():
     client.close()
 
 
+def test_profile_crud_payloads():
+    seen: list[tuple[str, str, dict]] = []
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        payload = request.read()
+        body = {} if not payload else __import__("json").loads(payload)
+        seen.append((request.method, request.url.path, body))
+        if request.url.path == "/v1/profiles" and request.method == "GET":
+            return httpx.Response(200, json={"workflow": [], "domain_expert": []})
+        if request.url.path == "/v1/profiles" and request.method == "POST":
+            return httpx.Response(201, json=body)
+        if request.url.path == "/v1/profiles/workflow/drafter" and request.method == "PUT":
+            return httpx.Response(200, json=body)
+        if request.url.path == "/v1/profiles/workflow/drafter" and request.method == "DELETE":
+            return httpx.Response(
+                200,
+                json={
+                    "id": "drafter",
+                    "name": "Drafter",
+                    "description": "Drafts.",
+                    "category": "workflow",
+                },
+            )
+        raise AssertionError((request.method, request.url.path))
+
+    client = _client(handler)
+    profile = {
+        "id": "drafter",
+        "name": "Drafter",
+        "description": "Drafts.",
+        "category": "workflow",
+        "activates_on_intent_codes": ["T1_DRAFT"],
+    }
+
+    assert client.list_profiles() == {"workflow": [], "domain_expert": []}
+    assert client.create_profile(profile)["id"] == "drafter"
+    assert client.update_profile("workflow", "drafter", profile)["name"] == "Drafter"
+    assert client.delete_profile("workflow", "drafter")["id"] == "drafter"
+    assert seen == [
+        ("GET", "/v1/profiles", {}),
+        ("POST", "/v1/profiles", profile),
+        ("PUT", "/v1/profiles/workflow/drafter", profile),
+        ("DELETE", "/v1/profiles/workflow/drafter", {}),
+    ]
+    client.close()
+
+
 def test_classify_select_retrieve_payloads_round_trip():
     seen: list[tuple[str, dict]] = []
 

@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
-from fastapi import FastAPI, HTTPException
+from typing import Annotated
+
+from fastapi import FastAPI, HTTPException, Path, status
 from pydantic import BaseModel, Field
 
+from . import profiles as profile_store
 from .core import AuroraConfig, AuroraCore
 from .workshop_log import log_event as workshop_log_event
 from .schemas import (
+    PROFILE_ID_PATTERN,
     AuditTrace,
     ContentResult,
     EvaluateRequest,
@@ -16,7 +20,10 @@ from .schemas import (
     IntentRequest,
     IntentResult,
     ProfileBundleResult,
+    ProfileCategory,
     ProfileRequest,
+    ProfileResult,
+    ProfileWriteRequest,
     RefineRequest,
     RefinementResult,
     RetrievalRequest,
@@ -45,6 +52,48 @@ def classify_intent(request: IntentRequest) -> IntentResult:
         options=request.options,
         run_id=request.run_id,
     )
+
+
+@app.get("/v1/profiles", response_model=ProfileBundleResult)
+def list_profiles() -> ProfileBundleResult:
+    return profile_store.list_profiles()
+
+
+@app.post(
+    "/v1/profiles",
+    response_model=ProfileResult,
+    status_code=status.HTTP_201_CREATED,
+)
+def create_profile(request: ProfileWriteRequest) -> ProfileResult:
+    try:
+        return profile_store.create_profile(request)
+    except profile_store.ProfileConflictError as exc:
+        raise HTTPException(status_code=409, detail=str(exc)) from exc
+
+
+@app.put("/v1/profiles/{category}/{profile_id}", response_model=ProfileResult)
+def update_profile(
+    category: ProfileCategory,
+    profile_id: Annotated[str, Path(pattern=PROFILE_ID_PATTERN)],
+    request: ProfileWriteRequest,
+) -> ProfileResult:
+    try:
+        return profile_store.update_profile(category, profile_id, request)
+    except profile_store.ProfileValidationError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    except profile_store.ProfileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@app.delete("/v1/profiles/{category}/{profile_id}", response_model=ProfileResult)
+def delete_profile(
+    category: ProfileCategory,
+    profile_id: Annotated[str, Path(pattern=PROFILE_ID_PATTERN)],
+) -> ProfileResult:
+    try:
+        return profile_store.delete_profile(category, profile_id)
+    except profile_store.ProfileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
 
 
 @app.post("/v1/profiles/select", response_model=ProfileBundleResult)

@@ -175,6 +175,16 @@ def _html_text(value: Any) -> str:
     return escape(str(value if value is not None else "-"))
 
 
+def _source_reference_html(source: dict[str, Any]) -> str:
+    title = source.get("article_title") or source.get("title") or source.get("source_doc") or "Source"
+    label = _html_text(title)
+    url = source.get("source_url")
+    if url:
+        href = escape(str(url), quote=True)
+        return f"<a href='{href}' target='_blank' rel='noopener noreferrer'>{label}</a>"
+    return label
+
+
 def _html_pre(value: Any) -> str:
     return escape(json.dumps(value or {}, indent=2, ensure_ascii=False))
 
@@ -246,9 +256,8 @@ def _retrieval_html(retrieval: dict[str, Any] | None) -> str:
             body = body[:900].rstrip() + "\n\n(truncated)"
         snippet_rows.append(
             "<details class='normal-nested-detail'>"
-            f"<summary>{index}. {_html_text(snippet.get('title') or snippet.get('source_doc'))}</summary>"
-            f"<p><code>{_html_text(snippet.get('source_doc'))}::{_html_text(snippet.get('node_id'))}</code> · "
-            f"score={float(snippet.get('score', 0)):.2f}</p>"
+            f"<summary>{index}. {_source_reference_html(snippet)}</summary>"
+            f"<p>score={float(snippet.get('score', 0)):.2f}</p>"
             f"<p>{_html_text(snippet.get('reason') or '')}</p>"
             f"<pre>{_html_text(body)}</pre>"
             "</details>"

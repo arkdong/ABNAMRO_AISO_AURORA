@@ -141,12 +141,66 @@ def compact_evaluation_verdict(evaluation: dict[str, Any] | None) -> str:
     return line
 
 
+def _markdown_link_label(value: Any) -> str:
+    return str(value).replace("[", "\\[").replace("]", "\\]")
+
+
+def _source_reference_markdown(source: dict[str, Any] | None) -> str:
+    if not source:
+        return ""
+    title = (
+        source.get("article_title")
+        or source.get("title")
+        or source.get("source_doc")
+        or "Source"
+    )
+    label = _markdown_link_label(title)
+    url = source.get("source_url")
+    if url:
+        return f"[{label}]({url})"
+    return label
+
+
+def _citation_sources_markdown(run: dict[str, Any]) -> str:
+    content = run.get("content") or {}
+    citations = content.get("citations") or []
+    if not citations:
+        return ""
+
+    snippets = (run.get("retrieval") or {}).get("snippets") or []
+    snippets_by_index = {index: snippet for index, snippet in enumerate(snippets, start=1)}
+    lines: list[str] = []
+    seen: set[tuple[int, str]] = set()
+    for citation in citations:
+        if not isinstance(citation, dict):
+            continue
+        try:
+            index = int(citation.get("index") or len(lines) + 1)
+        except (TypeError, ValueError):
+            index = len(lines) + 1
+        fallback = snippets_by_index.get(index, {})
+        merged = {**fallback, **citation}
+        reference = _source_reference_markdown(merged)
+        if not reference:
+            continue
+        marker = (index, reference)
+        if marker in seen:
+            continue
+        seen.add(marker)
+        lines.append(f"- [{index}] {reference}")
+
+    if not lines:
+        return ""
+    return "\n\n**Sources**\n\n" + "\n".join(lines)
+
+
 def assistant_message_from_run(run: dict[str, Any]) -> str:
     content = run.get("content") or {}
     body = str(content.get("body") or "").strip()
     if not body:
         body = "_No generated content was returned._"
-    return f"{body}\n\n{compact_evaluation_verdict(run.get('evaluation'))}"
+    sources = _citation_sources_markdown(run)
+    return f"{body}{sources}\n\n{compact_evaluation_verdict(run.get('evaluation'))}"
 
 
 def answer_summary(answers: dict[str, str]) -> str:

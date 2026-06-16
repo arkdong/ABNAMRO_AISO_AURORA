@@ -51,6 +51,97 @@ def test_final_draft_language_instruction_overrides_earlier_language_hint() -> N
     assert retrieval.corpora_searched[:2] == ["corpus_nl", "schrijfwijzer"]
 
 
+def test_dutch_prompt_with_english_output_keeps_refinement_questions_dutch() -> None:
+    core = _core()
+    prompt = (
+        "Schrijf een kort analyseartikel in het Engels over hoe Agentic AI de "
+        "cybersecurity-wapenwedloop voor Nederlandse TMT-bedrijven verandert, "
+        "en wat het tekort aan arbeidskrachten betekent voor IT-leveranciers."
+    )
+
+    intent = core.classify_intent(prompt)
+    profiles = core.select_profiles(intent)
+    retrieval = core.retrieve_context(prompt, intent, profiles)
+    refinement = core.refine_prompt(
+        prompt,
+        intent,
+        profiles,
+        retrieval,
+        answers={},
+        ask_questions=True,
+    )
+
+    assert intent.language == "en"
+    assert retrieval.corpora_searched[:2] == ["corpus_en", "writing_guide"]
+    assert refinement.questions
+    assert refinement.questions[0].question == "Voor wie is de tekst bedoeld?"
+
+
+class _ConversationLanguageCompletions:
+    messages = None
+
+    def parse(self, *, messages, response_format, **_kwargs):
+        type(self).messages = messages
+        parsed = response_format(
+            questions=[
+                {
+                    "question": "Voor wie is de tekst bedoeld?",
+                    "choices": ["Zakelijke beslissers", "IT-directeuren"],
+                }
+            ],
+            proposed_prompt=None,
+            done=False,
+            reasoning="Asked in the conversation language.",
+        )
+        return SimpleNamespace(choices=[SimpleNamespace(message=SimpleNamespace(parsed=parsed))])
+
+
+class _ConversationLanguageOpenAI:
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+        completions = _ConversationLanguageCompletions()
+        self.beta = SimpleNamespace(chat=SimpleNamespace(completions=completions))
+
+
+def test_llm_refinement_receives_prompt_language_separate_from_output_language(monkeypatch) -> None:
+    monkeypatch.setitem(sys.modules, "openai", SimpleNamespace(OpenAI=_ConversationLanguageOpenAI))
+    core = AuroraCore(
+        AuroraConfig(
+            intent_api_key=None,
+            refinement_api_key="sk-test",
+            refinement_model="gpt-test",
+            content_api_key=None,
+            evaluation_api_key=None,
+            retrieval_k=4,
+        )
+    )
+    prompt = (
+        "Schrijf een kort analyseartikel in het Engels over hoe Agentic AI de "
+        "cybersecurity-wapenwedloop voor Nederlandse TMT-bedrijven verandert."
+    )
+
+    intent = core.classify_intent(prompt)
+    profiles = core.select_profiles(intent)
+    retrieval = core.retrieve_context(prompt, intent, profiles)
+    refinement = core.refine_prompt(
+        prompt,
+        intent,
+        profiles,
+        retrieval,
+        answers={},
+        ask_questions=True,
+    )
+
+    assert intent.language == "en"
+    assert refinement.source == "llm"
+    assert refinement.questions[0].question == "Voor wie is de tekst bedoeld?"
+    messages = _ConversationLanguageCompletions.messages
+    assert messages is not None
+    user_message = messages[1]["content"]
+    assert "Conversation language: nl" in user_message
+    assert '"language": "en"' in user_message
+
+
 class _LanguageClassifyingCompletions:
     def create(self, *, messages, **_kwargs):
         content = {

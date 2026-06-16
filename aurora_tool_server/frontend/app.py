@@ -17,6 +17,7 @@ pages = [
 if st.session_state[SHOW_AGENT_PAGE_KEY]:
     pages.append(st.Page("chat.py", title="AI Agent"))
 
+pages.append(st.Page("pages/4_Profile.py", title="Profile"))
 pages.append(st.Page("pages/3_Settings.py", title="Settings"))
 
 st.navigation(pages).run()

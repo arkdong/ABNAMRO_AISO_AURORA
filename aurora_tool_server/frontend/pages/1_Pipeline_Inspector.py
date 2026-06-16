@@ -61,6 +61,26 @@ def _with_client(fn):
         client.close()
 
 
+def _markdown_link_label(value: Any) -> str:
+    return str(value).replace("[", "\\[").replace("]", "\\]")
+
+
+def _source_reference_markdown(source: dict[str, Any] | None) -> str:
+    if not source:
+        return ""
+    title = (
+        source.get("article_title")
+        or source.get("title")
+        or source.get("source_doc")
+        or "Source"
+    )
+    label = _markdown_link_label(title)
+    url = source.get("source_url")
+    if url:
+        return f"[{label}]({url})"
+    return label
+
+
 def _append_error(stage: str, message: str, user_prompt: str | None = None) -> None:
     st.session_state.messages.append(
         {
@@ -293,18 +313,22 @@ def _render_profile_expander(profile: dict[str, Any]) -> None:
 
 
 def _render_snippet_expander(index: int, snippet: dict[str, Any]) -> None:
+    source_label = (
+        snippet.get("article_title")
+        or snippet.get("title")
+        or snippet.get("source_doc")
+        or "Source"
+    )
     label = (
-        f"#{index + 1} · {snippet.get('title')} · `{snippet.get('source_doc')}` · "
-        f"score={float(snippet.get('score', 0)):.2f}"
+        f"#{index + 1} · {source_label} · score={float(snippet.get('score', 0)):.2f}"
     )
     with st.expander(label):
+        reference = _source_reference_markdown(snippet)
+        if reference:
+            st.markdown(f"**Source:** {reference}")
+        if snippet.get("title") and snippet.get("title") != snippet.get("article_title"):
+            st.markdown(f"**Matched section:** {snippet.get('title')}")
         st.markdown(f"**Reason:** {snippet.get('reason', '')}")
-        if snippet.get("line_num") is not None:
-            st.markdown(
-                f"**Location:** node `{snippet.get('node_id')}`, line/page {snippet.get('line_num')}"
-            )
-        if snippet.get("source_url"):
-            st.markdown(f"**Source URL:** {snippet['source_url']}")
         body = snippet.get("content", "")
         if len(body) > 2000:
             body = body[:2000].rstrip() + "\n\n_(truncated)_"
@@ -774,11 +798,10 @@ def _render_content_message(idx: int, message: dict[str, Any]) -> None:
                 }
                 for citation in citations:
                     snippet = snippets.get(citation.get("index"))
-                    title = snippet.get("title") if snippet else citation.get("title")
+                    merged = {**(snippet or {}), **citation}
                     score = f" · score={float(snippet.get('score', 0)):.2f}" if snippet else ""
                     st.markdown(
-                        f"**[{citation.get('index')}]** {title} — "
-                        f"`{citation.get('source_doc')}::{citation.get('node_id')}`{score}"
+                        f"**[{citation.get('index')}]** {_source_reference_markdown(merged)}{score}"
                     )
 
         if message.get("evaluated"):

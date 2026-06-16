@@ -6,6 +6,7 @@ import sys
 from types import SimpleNamespace
 
 from aurora_tool_server import AuroraConfig, AuroraCore
+from aurora_tool_server.schemas import StageOptions
 
 
 PROMPT = (
@@ -57,6 +58,46 @@ def test_profile_selection_routes_to_cyber_expert():
     expert_ids = {profile.id for profile in profiles.domain_expert}
     assert "drafter" in workflow_ids
     assert "expert_tmt_cybersecurity" in expert_ids
+
+
+def test_retrieval_child_snippets_carry_article_link_metadata():
+    core = _core()
+    prompt = "Write about IT sector growth by 4.5 per cent in 2020 and 5G."
+    intent = core.classify_intent(prompt)
+    profiles = core.select_profiles(intent)
+
+    retrieval = core.retrieve_context(prompt, intent, profiles, options=StageOptions(k=5))
+
+    child = next(
+        snippet
+        for snippet in retrieval.snippets
+        if snippet.title != snippet.article_title and snippet.source_url
+    )
+    assert child.title == "IT sector to grow by 4.5 per cent in 2020"
+    assert child.article_title == "5G essential for the Netherlands’ earning capacity"
+    assert child.source_url.endswith("5g-essentieel-voor-het-verdienvermogen-van-nederland.html")
+
+
+def test_vector_retrieval_recovers_article_link_metadata_for_child_chunks():
+    core = _core()
+    prompt = "Write about IT sector growth by 4.5 per cent in 2020 and 5G."
+    intent = core.classify_intent(prompt)
+    profiles = core.select_profiles(intent)
+
+    retrieval = core.retrieve_context(
+        prompt,
+        intent,
+        profiles,
+        options=StageOptions(k=5, retrieval_backend="vector_rag"),
+    )
+
+    child = next(
+        snippet
+        for snippet in retrieval.snippets
+        if snippet.title != snippet.article_title and snippet.source_url
+    )
+    assert child.article_title
+    assert child.source_url.startswith("https://www.abnamro.nl/")
 
 
 def test_ask_first_pipeline_stops_for_clarification():

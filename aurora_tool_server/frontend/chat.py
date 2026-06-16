@@ -82,13 +82,74 @@ def _make_live_tool_renderer():
 
 
 def _answers_prompt(questions: list[dict], answers: list[str], extra_context: str) -> str:
-    lines = ["Clarification answers:"]
+    dutch = _questions_language(questions) == "nl"
+    lines = ["Verduidelijkingen:" if dutch else "Clarification answers:"]
     for index, (question, answer) in enumerate(zip(questions, answers, strict=False), start=1):
         lines.append(f"{index}. {question.get('question', f'Question {index}')} {answer}")
     if extra_context.strip():
         lines.append("")
-        lines.append(f"Additional context: {extra_context.strip()}")
+        label = "Aanvullende context" if dutch else "Additional context"
+        lines.append(f"{label}: {extra_context.strip()}")
     return "\n".join(lines)
+
+
+def _clarification_display_message(questions: list[dict]) -> str:
+    if not questions:
+        return "I need one more detail before drafting."
+    if _questions_language(questions) == "nl":
+        lines = ["Ik heb nog een paar details nodig voordat ik ga schrijven:"]
+    else:
+        lines = ["I need a few details before drafting:"]
+    lines.extend(
+        f"{index}. {question.get('question', f'Question {index}')}"
+        for index, question in enumerate(questions, start=1)
+    )
+    return "\n".join(lines)
+
+
+def _message_display_content(message: dict) -> str:
+    questions = message.get("clarification_questions") or extract_clarification_questions(
+        message.get("raw_content") or message.get("content", ""),
+        message.get("tool_events", []),
+    )
+    if questions:
+        return _clarification_display_message(questions)
+    return message.get("content", "")
+
+
+def _allows_multiple_answers(question: dict) -> bool:
+    return bool(question.get("multiple"))
+
+
+def _questions_language(questions: list[dict]) -> str:
+    text = " ".join(str(question.get("question") or "") for question in questions).lower()
+    nl_hits = sum(
+        1
+        for signal in (
+            "voor wie",
+            "moet aurora",
+            "er zijn",
+            "huidige scope",
+            "invalshoek",
+            "bedoeld",
+            "bronnen",
+            "doorgaan",
+        )
+        if signal in text
+    )
+    en_hits = sum(
+        1
+        for signal in (
+            "who is",
+            "should aurora",
+            "current scope",
+            "target audience",
+            "sources",
+            "proceed",
+        )
+        if signal in text
+    )
+    return "nl" if nl_hits > en_hits else "en"
 
 
 def _run_agent_prompt(prompt: str) -> None:
@@ -125,30 +186,37 @@ def _run_agent_prompt(prompt: str) -> None:
                 return
 
         questions = extract_clarification_questions(result.final_output, result.tool_events)
-        st.markdown(result.final_output)
+        display_content = (
+            _clarification_display_message(questions) if questions else result.final_output
+        )
+        st.markdown(display_content)
         caption = f"Answered by {result.last_agent_name}"
         st.caption(caption)
         st.session_state.agent_input_items = result.input_items
         st.session_state.agent_messages.append(
             {
                 "role": "assistant",
-                "content": result.final_output,
+                "content": display_content,
+                "raw_content": result.final_output,
                 "caption": caption,
                 "tool_events": result.tool_events,
                 "clarification_questions": questions,
             }
         )
+    if questions:
+        st.rerun()
 
 
 def _render_clarification_form(message_idx: int, message: dict) -> None:
     questions = message.get("clarification_questions") or extract_clarification_questions(
-        message.get("content", ""),
+        message.get("raw_content") or message.get("content", ""),
         message.get("tool_events", []),
     )
     if not questions or message.get("clarification_answered"):
         return
 
     with st.chat_message("assistant"):
+        dutch = _questions_language(questions) == "nl"
         with st.form(f"agent_clarification_{message_idx}"):
             answers: list[str] = []
             for index, question in enumerate(questions):
@@ -156,29 +224,37 @@ def _render_clarification_form(message_idx: int, message: dict) -> None:
                 choices = question.get("choices") or []
                 key_base = f"agent_clarification_{message_idx}_{index}"
                 if choices:
-                    selected = st.radio(label, choices, key=f"{key_base}_choice")
+                    if _allows_multiple_answers(question):
+                        selected_values = st.multiselect(label, choices, key=f"{key_base}_choice")
+                        selected = "; ".join(selected_values)
+                    else:
+                        selected = st.radio(label, choices, key=f"{key_base}_choice")
                     custom = st.text_input(
-                        f"Custom answer {index + 1}",
+                        f"{'Eigen antwoord' if dutch else 'Custom answer'} {index + 1}",
                         key=f"{key_base}_custom",
                         label_visibility="collapsed",
-                        placeholder="Custom answer",
+                        placeholder="Eigen antwoord" if dutch else "Custom answer",
                     )
                     answers.append(custom.strip() or selected)
                 else:
                     answers.append(st.text_area(label, key=f"{key_base}_text", height=88).strip())
 
             extra_context = st.text_area(
-                "Additional context",
+                "Aanvullende context" if dutch else "Additional context",
                 key=f"agent_clarification_{message_idx}_extra",
                 height=88,
-                placeholder="Optional extra context",
+                placeholder="Optionele extra context" if dutch else "Optional extra context",
             )
-            submitted = st.form_submit_button("Continue", type="primary")
+            submitted = st.form_submit_button("Verder" if dutch else "Continue", type="primary")
 
     if not submitted:
         return
     if any(not answer.strip() for answer in answers):
-        st.warning("Please answer every question before continuing.")
+        st.warning(
+            "Beantwoord elke vraag voordat u verdergaat."
+            if _questions_language(questions) == "nl"
+            else "Please answer every question before continuing."
+        )
         return
 
     message["clarification_answered"] = True
@@ -189,7 +265,7 @@ def _render_clarification_form(message_idx: int, message: dict) -> None:
 for message_idx, message in enumerate(st.session_state.agent_messages):
     with st.chat_message(message["role"]):
         _render_tool_events(message.get("tool_events", []))
-        st.markdown(message["content"])
+        st.markdown(_message_display_content(message))
         if message.get("caption"):
             st.caption(message["caption"])
     if message.get("role") == "assistant":

@@ -21,7 +21,7 @@ def new_run_id() -> str:
 
 
 def init_navigation_state() -> None:
-    st.session_state.setdefault(SHOW_AGENT_PAGE_KEY, False)
+    st.session_state.setdefault(SHOW_AGENT_PAGE_KEY, True)
 
 
 def init_pipeline_state() -> None:

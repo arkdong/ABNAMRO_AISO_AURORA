@@ -57,6 +57,23 @@ class AuroraApiClient:
     def health(self) -> dict[str, Any]:
         return self._request("GET", "/health")
 
+    def list_profiles(self) -> dict[str, Any]:
+        return self._request("GET", "/v1/profiles")
+
+    def create_profile(self, profile: dict[str, Any]) -> dict[str, Any]:
+        return self._request("POST", "/v1/profiles", profile)
+
+    def update_profile(
+        self,
+        category: str,
+        profile_id: str,
+        profile: dict[str, Any],
+    ) -> dict[str, Any]:
+        return self._request("PUT", f"/v1/profiles/{category}/{profile_id}", profile)
+
+    def delete_profile(self, category: str, profile_id: str) -> dict[str, Any]:
+        return self._request("DELETE", f"/v1/profiles/{category}/{profile_id}")
+
     def classify_intent(
         self,
         user_prompt: str,

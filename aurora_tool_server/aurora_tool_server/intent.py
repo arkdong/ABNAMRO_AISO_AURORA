@@ -86,6 +86,43 @@ _TARGET_LANGUAGE_PATTERNS = (
     ),
 )
 
+_NL_PROMPT_SIGNALS = (
+    "vertaal",
+    "schrijf",
+    "artikel",
+    "artikelen",
+    "analyseartikel",
+    "ouder dan",
+    "controleer",
+    "zoek",
+    "vind",
+    " het ",
+    " de ",
+    " een ",
+    " hoe ",
+    " wat ",
+    " voor ",
+    "tekort",
+    "betekent",
+    "nederlandse",
+    "bedrijven",
+    "leveranciers",
+)
+
+_EN_PROMPT_SIGNALS = (
+    "write",
+    "translate",
+    "related",
+    "draft",
+    " the ",
+    " an ",
+    " how ",
+    " what ",
+    " for ",
+    "companies",
+    "suppliers",
+)
+
 
 def _contains(text: str, needle: str) -> bool:
     return needle in text
@@ -121,39 +158,28 @@ def _detect_target_language(prompt_lower: str) -> str | None:
     return None
 
 
-def _detect_language(prompt_lower: str) -> str | None:
-    target_language = _detect_target_language(prompt_lower)
-    if target_language:
-        return target_language
-
+def _detect_prompt_language(prompt_lower: str) -> str | None:
     padded = f" {prompt_lower} "
-    nl_hits = sum(
-        1
-        for signal in (
-            "vertaal",
-            "schrijf",
-            "artikel",
-            "artikelen",
-            "ouder dan",
-            "controleer",
-            "zoek",
-            "vind",
-            " het ",
-            " de ",
-            " een ",
-        )
-        if signal in padded
-    )
-    en_hits = sum(
-        1
-        for signal in ("write", "translate", "related", "draft", " the ", " an ")
-        if signal in padded
-    )
+    nl_hits = sum(1 for signal in _NL_PROMPT_SIGNALS if signal in padded)
+    en_hits = sum(1 for signal in _EN_PROMPT_SIGNALS if signal in padded)
     if nl_hits >= 2 and nl_hits > en_hits:
         return "nl"
     if en_hits >= 2 and en_hits > nl_hits:
         return "en"
     return None
+
+
+def detect_prompt_language(prompt: str) -> str | None:
+    """Best-effort language of the user-facing conversation, not final output."""
+    return _detect_prompt_language(prompt.lower())
+
+
+def _detect_language(prompt_lower: str) -> str | None:
+    target_language = _detect_target_language(prompt_lower)
+    if target_language:
+        return target_language
+
+    return _detect_prompt_language(prompt_lower)
 
 
 def _detect_keywords(prompt_lower: str) -> list[str]:

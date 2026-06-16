@@ -38,6 +38,8 @@ def _retrieval() -> dict[str, Any]:
                 "source_doc": "source_secret",
                 "node_id": "n1",
                 "title": "Hidden source",
+                "article_title": "Visible linked article",
+                "source_url": "https://www.abnamro.nl/visible-linked-article.html",
                 "content": "Snippet secret",
                 "score": 0.88,
                 "reason": "Relevant",
@@ -90,6 +92,34 @@ def test_completed_run_renders_final_content_plus_compact_verdict():
     assert "Review:" in message
     assert "Passed" in message
     assert "Human signoff" in message
+
+
+def test_completed_run_renders_citation_as_article_title_link():
+    run = {
+        "run_id": "run_links",
+        "status": "completed",
+        "retrieval": _retrieval(),
+        "content": {
+            "body": "Draft body [1]",
+            "citations": [
+                {
+                    "index": 1,
+                    "source_doc": "source_secret",
+                    "node_id": "n1",
+                    "title": "Hidden source",
+                    "article_title": "Visible linked article",
+                    "source_url": "https://www.abnamro.nl/visible-linked-article.html",
+                }
+            ],
+        },
+        "evaluation": _evaluation(passed=True),
+    }
+
+    message = assistant_message_from_run(run)
+
+    assert "[Visible linked article](https://www.abnamro.nl/visible-linked-article.html)" in message
+    assert "source_secret" not in message
+    assert "source_secret::n1" not in message
 
 
 def test_needs_clarification_run_stores_pending_stage_data_and_questions():

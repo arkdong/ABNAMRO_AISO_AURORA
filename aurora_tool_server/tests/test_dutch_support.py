@@ -190,7 +190,52 @@ def test_output_language_override_routes_to_dutch_pageindex_assets() -> None:
     assert retrieval.corpora_searched[:2] == ["corpus_nl", "schrijfwijzer"]
     assert retrieval.snippets
     assert {snippet.source_doc for snippet in retrieval.snippets}.issubset(
-        {"corpus_nl", "schrijfwijzer"}
+        {"corpus_nl", "schrijfwijzer", "insights_stijlgids_nl"}
+    )
+
+
+def test_pageindex_routes_insights_style_guide_assets() -> None:
+    core = _core()
+    english_options = StageOptions(output_language="en", retrieval_backend="pageindex", k=8)
+    english_prompt = (
+        "Review this Insights article checklist for title, intro, SEO, "
+        "Local Focus charts and header image."
+    )
+
+    english_intent = core.classify_intent(english_prompt, options=english_options)
+    english_profiles = core.select_profiles(english_intent, options=english_options)
+    english_retrieval = core.retrieve_context(
+        english_prompt,
+        english_intent,
+        english_profiles,
+        options=english_options,
+    )
+
+    assert "insights_stijlgids_en" in english_retrieval.corpora_searched
+    assert any(
+        snippet.source_doc == "insights_stijlgids_en"
+        for snippet in english_retrieval.snippets
+    )
+
+    dutch_options = StageOptions(output_language="nl", retrieval_backend="pageindex", k=8)
+    dutch_prompt = (
+        "Controleer een Insights artikel op kop, intro, SEO, "
+        "Local Focus grafiek en header beeld."
+    )
+
+    dutch_intent = core.classify_intent(dutch_prompt, options=dutch_options)
+    dutch_profiles = core.select_profiles(dutch_intent, options=dutch_options)
+    dutch_retrieval = core.retrieve_context(
+        dutch_prompt,
+        dutch_intent,
+        dutch_profiles,
+        options=dutch_options,
+    )
+
+    assert "insights_stijlgids_nl" in dutch_retrieval.corpora_searched
+    assert any(
+        snippet.source_doc == "insights_stijlgids_nl"
+        for snippet in dutch_retrieval.snippets
     )
 
 

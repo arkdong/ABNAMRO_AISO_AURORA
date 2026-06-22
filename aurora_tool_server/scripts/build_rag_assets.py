@@ -6,6 +6,9 @@ repository source documents:
 
 - ``data/article/<lang>/*.md`` for Insights article corpora.
 - ``schrijfwijzer.pdf`` for the Dutch writing reference.
+- ``Insights_Stijlgids_20250318.pdf`` for the Dutch Insights style guide.
+- ``data/insights_stijlgids_en.md`` for the English Insights style guide
+  translation.
 
 It emits PageIndex-compatible tree JSON and sparse-vector JSONL chunks. The
 vector files are embedding-ready, but also include local term vectors so the
@@ -30,6 +33,8 @@ DATA_DIR = REPO_ROOT / "data"
 ROOT_CORPUS_DIR = REPO_ROOT / "rag" / "corpus"
 LIVE_RAG_DIR = REPO_ROOT / "aurora_tool_server" / "assets" / "rag"
 SCHRIJFWIJZER_PDF = REPO_ROOT / "schrijfwijzer.pdf"
+INSIGHTS_STIJLGIDS_PDF = REPO_ROOT / "Insights_Stijlgids_20250318.pdf"
+INSIGHTS_STIJLGIDS_EN_MD = DATA_DIR / "insights_stijlgids_en.md"
 
 TOKEN_RE = re.compile(r"[A-Za-zÀ-ÿ0-9_]+")
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
@@ -43,6 +48,7 @@ HTML_TAG_LINE_RE = re.compile(
 BYLINE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{4}\s*(?:\u2022|•).*$", re.MULTILINE)
 LEADING_H1_RE = re.compile(r"^\s*#\s+[^\n]+\n+", re.MULTILINE)
 H2_RE = re.compile(r"^##\s+(.+)$", re.MULTILINE)
+PAGE_SECTION_RE = re.compile(r"^## Page\s+(\d+):\s+(.+?)\s*$", re.MULTILINE)
 
 BOILERPLATE_HEADINGS = (
     "## Read more in",
@@ -358,6 +364,152 @@ def build_schrijfwijzer_tree(pdf_path: Path = SCHRIJFWIJZER_PDF) -> list[dict[st
     return tree
 
 
+def _insights_page_title(page_text: str, page_num: int) -> str:
+    lines = [line.strip() for line in page_text.splitlines() if line.strip()]
+    for line in lines[:10]:
+        if re.fullmatch(r"\d+(?:\s+\d+)*", line):
+            continue
+        return line
+    return lines[0] if lines else f"Pagina {page_num}"
+
+
+def _clean_insights_pdf_page(page_text: str) -> str:
+    lines: list[str] = []
+    for line in page_text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            lines.append("")
+            continue
+        # Slide exports include small positioning markers as isolated numbers.
+        if re.fullmatch(r"\d+(?:\s+\d+)*", stripped):
+            continue
+        lines.append(line.rstrip())
+    text = "\n".join(lines)
+    text = re.sub(r"\n{3,}", "\n\n", text).strip()
+    return text
+
+
+def _build_page_tree(
+    *,
+    title: str,
+    node_id: str,
+    pages: list[tuple[int, str, str]],
+    summary: str,
+    source: str,
+    lang: str,
+) -> list[dict[str, Any]]:
+    children: list[dict[str, Any]] = []
+    combined_parts: list[str] = []
+    for page_num, page_title, page_body in pages:
+        page_body = page_body.strip()
+        text = f"## {page_title}\n\n{page_body}" if page_body else f"## {page_title}"
+        combined_parts.append(text)
+        children.append(
+            {
+                "title": page_title,
+                "node_id": f"{node_id}.{page_num:04d}",
+                "line_num": page_num,
+                "page_index": page_num,
+                "text": text,
+                "summary": _summary(page_body),
+                "source": source,
+                "lang": lang,
+            }
+        )
+
+    root_text = f"# {title}\n\n" + "\n\n".join(combined_parts)
+    return [
+        {
+            "title": title,
+            "node_id": node_id,
+            "line_num": 1,
+            "text": root_text,
+            "nodes": children,
+            "summary": summary,
+            "source": source,
+            "lang": lang,
+        }
+    ]
+
+
+def _write_tree_asset(filename: str, tree: list[dict[str, Any]]) -> None:
+    payload = json.dumps(tree, indent=2, ensure_ascii=False) + "\n"
+    (ROOT_CORPUS_DIR / filename).write_text(payload, encoding="utf-8")
+    (LIVE_RAG_DIR / filename).write_text(payload, encoding="utf-8")
+
+
+def build_insights_stijlgids_nl_tree(
+    pdf_path: Path = INSIGHTS_STIJLGIDS_PDF,
+) -> list[dict[str, Any]]:
+    raw_text = _extract_pdf_text(pdf_path)
+    raw_pages = [_clean_insights_pdf_page(page) for page in raw_text.split("\f")]
+    pages: list[tuple[int, str, str]] = []
+    for page_num, page in enumerate(raw_pages, start=1):
+        if not page.strip():
+            continue
+        pages.append((page_num, _insights_page_title(page, page_num), page))
+
+    tree = _build_page_tree(
+        title="Stijlgids voor Insights",
+        node_id="insights_stijlgids_nl",
+        pages=pages,
+        summary=(
+            "Nederlandse Insights-stijlgids voor formats, SEO, Schrijfwijzer, "
+            "Brand Experience, toegankelijkheid, beeld, video, illustraties, "
+            "grafieken en pdf-documenten."
+        ),
+        source=str(pdf_path.relative_to(REPO_ROOT)),
+        lang="nl",
+    )
+    _write_tree_asset("insights_stijlgids_nl_tree.json", tree)
+    return tree
+
+
+def _parse_translated_insights_pages(markdown_path: Path) -> list[tuple[int, str, str]]:
+    if not markdown_path.is_file():
+        raise FileNotFoundError(f"Missing translated Insights style guide: {markdown_path}")
+    raw = markdown_path.read_text(encoding="utf-8")
+    _, body = _strip_frontmatter(raw)
+    matches = list(PAGE_SECTION_RE.finditer(body))
+    if not matches:
+        raise ValueError(f"No translated page sections found in {markdown_path}")
+
+    pages: list[tuple[int, str, str]] = []
+    for index, match in enumerate(matches):
+        start = match.end()
+        end = matches[index + 1].start() if index + 1 < len(matches) else len(body)
+        page_num = int(match.group(1))
+        title = match.group(2).strip()
+        page_body = body[start:end].strip()
+        pages.append((page_num, title, page_body))
+    return pages
+
+
+def build_insights_stijlgids_en_tree(
+    markdown_path: Path = INSIGHTS_STIJLGIDS_EN_MD,
+) -> list[dict[str, Any]]:
+    pages = _parse_translated_insights_pages(markdown_path)
+    tree = _build_page_tree(
+        title="Insights Style Guide",
+        node_id="insights_stijlgids_en",
+        pages=pages,
+        summary=(
+            "English translation of the Insights style guide covering formats, "
+            "SEO, the Writing Guide, Brand Experience, accessibility, imagery, "
+            "video, illustrations, charts and PDF documents."
+        ),
+        source=str(markdown_path.relative_to(REPO_ROOT)),
+        lang="en",
+    )
+    _write_tree_asset("insights_stijlgids_en_tree.json", tree)
+    return tree
+
+
+def build_insights_stijlgids_trees() -> None:
+    build_insights_stijlgids_nl_tree()
+    build_insights_stijlgids_en_tree()
+
+
 def _walk(nodes: Iterable[dict[str, Any]]) -> Iterable[dict[str, Any]]:
     for node in nodes:
         yield node
@@ -450,6 +602,8 @@ def build_vector_assets() -> None:
         ("corpus_nl", LIVE_RAG_DIR / "corpus_nl_structure.json", "nl"),
         ("writing_guide", LIVE_RAG_DIR / "writing_guide_tree.json", "en"),
         ("schrijfwijzer", LIVE_RAG_DIR / "schrijfwijzer_tree.json", "nl"),
+        ("insights_stijlgids_en", LIVE_RAG_DIR / "insights_stijlgids_en_tree.json", "en"),
+        ("insights_stijlgids_nl", LIVE_RAG_DIR / "insights_stijlgids_nl_tree.json", "nl"),
     ]
     for source_doc, path, language in assets:
         if not path.is_file():
@@ -470,14 +624,21 @@ def main() -> None:
         action="store_true",
         help="Skip rebuilding the Dutch Schrijfwijzer PDF tree.",
     )
+    parser.add_argument(
+        "--skip-insights-style-guide",
+        action="store_true",
+        help="Skip rebuilding the Insights style guide trees.",
+    )
     args = parser.parse_args()
 
     _ensure_dirs()
     build_article_corpus("nl")
     if not args.skip_pdf:
         build_schrijfwijzer_tree()
+    if not args.skip_insights_style_guide:
+        build_insights_stijlgids_trees()
     build_vector_assets()
-    print(f"Wrote Dutch PageIndex and vector assets to {LIVE_RAG_DIR}")
+    print(f"Wrote PageIndex and vector assets to {LIVE_RAG_DIR}")
 
 
 if __name__ == "__main__":

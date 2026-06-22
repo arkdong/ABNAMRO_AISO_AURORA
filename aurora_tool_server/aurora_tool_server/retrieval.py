@@ -57,9 +57,14 @@ _ARTICLE_CORPORA = {
 }
 
 _WRITING_GUIDES = {
-    "en": ("writing_guide",),
-    "nl": ("schrijfwijzer",),
-    "both": ("schrijfwijzer", "writing_guide"),
+    "en": ("writing_guide", "insights_stijlgids_en"),
+    "nl": ("schrijfwijzer", "insights_stijlgids_nl"),
+    "both": (
+        "schrijfwijzer",
+        "insights_stijlgids_nl",
+        "writing_guide",
+        "insights_stijlgids_en",
+    ),
 }
 
 
@@ -136,6 +141,12 @@ def load_corpora() -> dict[str, tuple[dict[str, Any], ...]]:
     schrijfwijzer = _load_optional_json("schrijfwijzer_tree.json")
     if isinstance(schrijfwijzer, list):
         out["schrijfwijzer"] = tuple(schrijfwijzer)
+    insights_stijlgids_en = _load_optional_json("insights_stijlgids_en_tree.json")
+    if isinstance(insights_stijlgids_en, list):
+        out["insights_stijlgids_en"] = tuple(insights_stijlgids_en)
+    insights_stijlgids_nl = _load_optional_json("insights_stijlgids_nl_tree.json")
+    if isinstance(insights_stijlgids_nl, list):
+        out["insights_stijlgids_nl"] = tuple(insights_stijlgids_nl)
     return out
 
 
@@ -350,6 +361,8 @@ def load_vector_corpora() -> dict[str, tuple[dict[str, Any], ...]]:
             "corpus_nl": _load_jsonl("vector_corpus_nl.jsonl"),
             "writing_guide": _load_jsonl("vector_writing_guide.jsonl"),
             "schrijfwijzer": _load_jsonl("vector_schrijfwijzer.jsonl"),
+            "insights_stijlgids_en": _load_jsonl("vector_insights_stijlgids_en.jsonl"),
+            "insights_stijlgids_nl": _load_jsonl("vector_insights_stijlgids_nl.jsonl"),
         }.items()
         if records
     }

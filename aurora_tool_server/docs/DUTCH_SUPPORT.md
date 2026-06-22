@@ -14,6 +14,8 @@ Dutch source material is stored at the repository root:
 | English Insights articles | `data/article/en/*.md` | Approved English article corpus |
 | Dutch writing guide | `schrijfwijzer.pdf` | Dutch ABN AMRO Schrijfwijzer used as writing-reference corpus |
 | English writing guide | `data/Writing Guide 2026-V1.1.pdf` and `data/writing_guide.md` | English writing-reference source material |
+| Dutch Insights style guide | `Insights_Stijlgids_20250318.pdf` | Dutch Insights style rules for formats, SEO, BX, accessibility, visuals, charts, PDFs, and documents |
+| English Insights style guide | `data/insights_stijlgids_en.md` | English translation of the Dutch Insights style guide for English retrieval |
 
 The live tool server does not read these source documents directly at runtime.
 It reads generated assets under `aurora_tool_server/assets/rag/`.
@@ -26,8 +28,12 @@ The Dutch implementation adds these runtime assets:
 |---|---|---|
 | Dutch PageIndex corpus | `aurora_tool_server/assets/rag/corpus_nl_structure.json` | `pageindex` retrieval for Dutch article grounding |
 | Dutch Schrijfwijzer tree | `aurora_tool_server/assets/rag/schrijfwijzer_tree.json` | `pageindex` retrieval for Dutch writing rules |
+| Dutch Insights style-guide tree | `aurora_tool_server/assets/rag/insights_stijlgids_nl_tree.json` | `pageindex` retrieval for Dutch Insights format/style rules |
+| English Insights style-guide tree | `aurora_tool_server/assets/rag/insights_stijlgids_en_tree.json` | `pageindex` retrieval for English Insights format/style rules |
 | Dutch article vector chunks | `aurora_tool_server/assets/rag/vector_corpus_nl.jsonl` | `vector_rag` retrieval |
 | Dutch Schrijfwijzer vector chunks | `aurora_tool_server/assets/rag/vector_schrijfwijzer.jsonl` | `vector_rag` retrieval |
+| Dutch Insights style-guide vector chunks | `aurora_tool_server/assets/rag/vector_insights_stijlgids_nl.jsonl` | `vector_rag` retrieval |
+| English Insights style-guide vector chunks | `aurora_tool_server/assets/rag/vector_insights_stijlgids_en.jsonl` | `vector_rag` retrieval |
 | English article vector chunks | `aurora_tool_server/assets/rag/vector_corpus_en.jsonl` | `vector_rag` retrieval |
 | English writing-guide vector chunks | `aurora_tool_server/assets/rag/vector_writing_guide.jsonl` | `vector_rag` retrieval |
 
@@ -39,6 +45,8 @@ The builder also writes build artifacts to `rag/corpus/`:
 | Dutch article manifest | `rag/corpus/corpus_nl_manifest.json` |
 | Dutch PageIndex structure | `rag/corpus/corpus_nl_structure.json` |
 | Dutch Schrijfwijzer tree | `rag/corpus/schrijfwijzer_tree.json` |
+| Dutch Insights style-guide tree | `rag/corpus/insights_stijlgids_nl_tree.json` |
+| English Insights style-guide tree | `rag/corpus/insights_stijlgids_en_tree.json` |
 
 ## Rebuilding Assets
 
@@ -56,8 +64,12 @@ The builder:
    `corpus_nl_structure.json`.
 3. Extracts text from `schrijfwijzer.pdf` with `pdftotext`.
 4. Builds `schrijfwijzer_tree.json`.
-5. Builds local sparse-vector JSONL files for `vector_rag`.
-6. Copies runtime assets into `aurora_tool_server/assets/rag/`.
+5. Extracts `Insights_Stijlgids_20250318.pdf` and builds
+   `insights_stijlgids_nl_tree.json`.
+6. Reads `data/insights_stijlgids_en.md` and builds
+   `insights_stijlgids_en_tree.json`.
+7. Builds local sparse-vector JSONL files for `vector_rag`.
+8. Copies runtime assets into `aurora_tool_server/assets/rag/`.
 
 The current `vector_rag` implementation uses local sparse term vectors stored
 in JSONL. These files are embedding-ready, but they do not require a network
@@ -98,9 +110,9 @@ Routing rules:
 
 | Language | Article corpora | Writing-reference corpora |
 |---|---|---|
-| `en` | `corpus_en` | `writing_guide` |
-| `nl` | `corpus_nl` | `schrijfwijzer` |
-| `both` | `corpus_nl`, `corpus_en` | `schrijfwijzer`, `writing_guide` |
+| `en` | `corpus_en` | `writing_guide`, `insights_stijlgids_en` |
+| `nl` | `corpus_nl` | `schrijfwijzer`, `insights_stijlgids_nl` |
+| `both` | `corpus_nl`, `corpus_en` | `schrijfwijzer`, `insights_stijlgids_nl`, `writing_guide`, `insights_stijlgids_en` |
 
 Task-aware routing still applies:
 

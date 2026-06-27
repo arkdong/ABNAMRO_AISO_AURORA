@@ -6,13 +6,16 @@ This deployment runs the full standalone AURORA experience from `aurora_tool_ser
 - Streamlit frontend on the public `$PORT`
 - AI Agent Interface Streamlit page
 - PageIndex context retrieval from `assets/rag/`
+- Product-neutral audit events on stdout and, best-effort, `logs/audit.jsonl`
 
 ## Recommended Host
 
 Use a Docker-based web service on Render or Railway.
 
-Do not deploy `archive/` for the live agent. The deployable standalone app is
-`aurora_tool_server/`.
+The deployable standalone app is `aurora_tool_server/`. The legacy `archive/`
+tree and root generated RAG artifacts are intentionally absent from the final
+submission. The root `data/` folder is retained for rebuild transparency, but
+the Docker image uses the prebuilt runtime assets inside `aurora_tool_server/`.
 
 ## Railway From Repo Root
 
@@ -65,6 +68,12 @@ Optional model overrides:
 AURORA_AGENT_MODEL=gpt-4o
 AURORA_CONTENT_MODEL=gpt-4o
 AURORA_RETRIEVAL_MODEL=gpt-4o-mini
+```
+
+Optional audit log path:
+
+```bash
+AURORA_AUDIT_LOG_PATH=/app/logs/audit.jsonl
 ```
 
 ## Render

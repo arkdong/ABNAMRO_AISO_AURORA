@@ -18,7 +18,6 @@ ABN_SHIELD_IMG = f'<img src="data:image/svg+xml;base64,{_ABN_SHIELD_B64}" style=
 
 def apply_branding(title: str, subtitle: str) -> None:
     """Inject ABN AMRO styling and render the page header."""
-    _render_workshop_feedback_sidebar(page=title)
     st.markdown(
         """
         <style>
@@ -41,57 +40,3 @@ def apply_branding(title: str, subtitle: str) -> None:
         f'<p style="margin:0 0 1.2rem 0;color:#6b7280;font-size:0.9rem;">{subtitle}</p>',
         unsafe_allow_html=True,
     )
-
-
-def _latest_run_id() -> str | None:
-    for key in ("pipeline_run_id", "normal_latest_run", "agent_run_id"):
-        value = st.session_state.get(key)
-        if isinstance(value, str) and value:
-            return value
-        if isinstance(value, dict):
-            candidate = value.get("run_id")
-            if isinstance(candidate, str) and candidate:
-                return candidate
-    return None
-
-
-def _render_workshop_feedback_sidebar(*, page: str) -> None:
-    """Render a one-line feedback box in the sidebar (workshop telemetry)."""
-    from api_client import AuroraApiClient, AuroraApiError
-
-    with st.sidebar:
-        with st.expander("Workshop feedback", expanded=False):
-            st.caption("One line — where did AURORA fall short?")
-            with st.form(f"workshop_feedback_{page}", clear_on_submit=True):
-                participant = st.text_input(
-                    "Your name (optional)",
-                    key=f"wf_name_{page}",
-                    placeholder="Optional",
-                )
-                text = st.text_area(
-                    "Feedback",
-                    key=f"wf_text_{page}",
-                    height=80,
-                    label_visibility="collapsed"
-                )
-                submitted = st.form_submit_button("Send", type="primary")
-            if submitted and text.strip():
-                base_url = st.session_state.get("api_base_url") or st.session_state.get(
-                    "agent_api_base_url"
-                )
-                if not base_url:
-                    st.warning("API base URL not configured.")
-                    return
-                client = AuroraApiClient(base_url)
-                try:
-                    client.submit_workshop_feedback(
-                        text.strip(),
-                        page=page,
-                        run_id=_latest_run_id(),
-                        participant=participant.strip() or None,
-                    )
-                    st.success("Thanks — captured.")
-                except AuroraApiError as exc:
-                    st.error(f"Could not send feedback: {exc}")
-                finally:
-                    client.close()

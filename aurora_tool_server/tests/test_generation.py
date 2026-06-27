@@ -45,6 +45,24 @@ class _BlankBodyOpenAI:
         self.chat = SimpleNamespace(completions=_BlankBodyCompletions())
 
 
+class _NoCitationCompletions:
+    def create(self, **_kwargs):
+        content = {
+            "body": "LLM draft body without explicit citation metadata.",
+            "reasoning": "generated without citation_indices",
+            "citation_indices": [],
+        }
+        return SimpleNamespace(
+            choices=[SimpleNamespace(message=SimpleNamespace(content=json.dumps(content)))]
+        )
+
+
+class _NoCitationOpenAI:
+    def __init__(self, api_key: str):
+        self.api_key = api_key
+        self.chat = SimpleNamespace(completions=_NoCitationCompletions())
+
+
 def test_llm_body_markdown_key_returns_llm_result(monkeypatch):
     monkeypatch.setitem(sys.modules, "openai", SimpleNamespace(OpenAI=_BodyMarkdownOpenAI))
 
@@ -63,6 +81,24 @@ def test_llm_body_markdown_key_returns_llm_result(monkeypatch):
     assert len(result.citations) == 1
     assert result.citations[0].node_id == "0114"
     assert result.citations[0].article_title == "The two faces of Agentic AI"
+    assert result.citations[0].source_url == "https://www.abnamro.nl/article-agentic-ai.html"
+
+
+def test_llm_without_citation_indices_keeps_source_metadata(monkeypatch):
+    monkeypatch.setitem(sys.modules, "openai", SimpleNamespace(OpenAI=_NoCitationOpenAI))
+
+    result = generate_draft(
+        refined_prompt="Draft a short article about agentic AI.",
+        intent=make_intent(),
+        profiles=ProfileBundleResult(),
+        snippets=make_snippets(),
+        api_key="sk-test",
+        model="gpt-test",
+    )
+
+    assert result.source == "llm"
+    assert result.body == "LLM draft body without explicit citation metadata."
+    assert len(result.citations) == len(make_snippets())
     assert result.citations[0].source_url == "https://www.abnamro.nl/article-agentic-ai.html"
 
 

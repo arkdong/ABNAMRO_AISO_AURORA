@@ -30,7 +30,6 @@ import yaml
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = REPO_ROOT / "data"
-ROOT_CORPUS_DIR = REPO_ROOT / "rag" / "corpus"
 LIVE_RAG_DIR = REPO_ROOT / "aurora_tool_server" / "assets" / "rag"
 SCHRIJFWIJZER_PDF = REPO_ROOT / "schrijfwijzer.pdf"
 INSIGHTS_STIJLGIDS_PDF = REPO_ROOT / "Insights_Stijlgids_20250318.pdf"
@@ -103,7 +102,6 @@ STOPWORDS = {
 
 
 def _ensure_dirs() -> None:
-    ROOT_CORPUS_DIR.mkdir(parents=True, exist_ok=True)
     LIVE_RAG_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -253,15 +251,6 @@ def build_article_corpus(lang: str) -> dict[str, Any]:
         "structure": nodes,
     }
 
-    (ROOT_CORPUS_DIR / f"corpus_{lang}.md").write_text(corpus_text, encoding="utf-8")
-    (ROOT_CORPUS_DIR / f"corpus_{lang}_manifest.json").write_text(
-        json.dumps(manifest, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
-    (ROOT_CORPUS_DIR / f"corpus_{lang}_structure.json").write_text(
-        json.dumps(structure, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
     (LIVE_RAG_DIR / f"corpus_{lang}_structure.json").write_text(
         json.dumps(structure, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
@@ -353,10 +342,6 @@ def build_schrijfwijzer_tree(pdf_path: Path = SCHRIJFWIJZER_PDF) -> list[dict[st
             "lang": "nl",
         }
     ]
-    (ROOT_CORPUS_DIR / "schrijfwijzer_tree.json").write_text(
-        json.dumps(tree, indent=2, ensure_ascii=False) + "\n",
-        encoding="utf-8",
-    )
     (LIVE_RAG_DIR / "schrijfwijzer_tree.json").write_text(
         json.dumps(tree, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
@@ -434,7 +419,6 @@ def _build_page_tree(
 
 def _write_tree_asset(filename: str, tree: list[dict[str, Any]]) -> None:
     payload = json.dumps(tree, indent=2, ensure_ascii=False) + "\n"
-    (ROOT_CORPUS_DIR / filename).write_text(payload, encoding="utf-8")
     (LIVE_RAG_DIR / filename).write_text(payload, encoding="utf-8")
 
 

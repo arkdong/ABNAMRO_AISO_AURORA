@@ -8,7 +8,7 @@ from dataclasses import dataclass
 from typing import Any
 
 from .env import load_project_env
-from .workshop_log import log_event as workshop_log_event
+from .audit_log import log_event as audit_log_event
 from .evaluation import evaluate_draft as evaluate_draft_service
 from .generation import generate_draft as generate_draft_service
 from .intent import classify_intent as classify_intent_service
@@ -123,7 +123,7 @@ class AuroraCore:
             error=error,
         )
         self._audit_events.setdefault(run_id, []).append(event)
-        workshop_log_event(
+        audit_log_event(
             "audit",
             {
                 "run_id": run_id,

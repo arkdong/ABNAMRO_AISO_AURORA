@@ -12,3 +12,8 @@ logs/
 demo/logs/
 context-engineering/vector_db/
 demo/context-engineering/vector_db/
+archive/
+rag/
+output/
+tmp/
+aurora_tool_server/logs/

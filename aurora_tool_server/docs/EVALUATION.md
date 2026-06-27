@@ -1,8 +1,10 @@
 # AURORA Evaluation
 
 The evaluation stage is based on ABN AMRO's `Content KPI inventory_AISO.xlsx`
-workbook, exported to `assets/evaluation/kpi_catalogue.json` by
-`archive/rag/scripts/build_kpi_catalogue.py`.
+workbook. The live server reads the prebuilt runtime catalogue at
+`assets/evaluation/kpi_catalogue.json`. The root `data/` folder retains the
+source workbook for transparency and future rebuilds; the removed legacy
+`archive/` tree is not part of the runtime path.
 
 The workbook is broader than the generation step. It contains publication,
 SEO, accessibility, lifecycle, PowerBI, Textmetrics, and dCLP signoff KPIs.

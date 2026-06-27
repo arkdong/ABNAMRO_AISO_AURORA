@@ -37,16 +37,9 @@ The Dutch implementation adds these runtime assets:
 | English article vector chunks | `aurora_tool_server/assets/rag/vector_corpus_en.jsonl` | `vector_rag` retrieval |
 | English writing-guide vector chunks | `aurora_tool_server/assets/rag/vector_writing_guide.jsonl` | `vector_rag` retrieval |
 
-The builder also writes build artifacts to `rag/corpus/`:
-
-| Artifact | Path |
-|---|---|
-| Concatenated Dutch Markdown corpus | `rag/corpus/corpus_nl.md` |
-| Dutch article manifest | `rag/corpus/corpus_nl_manifest.json` |
-| Dutch PageIndex structure | `rag/corpus/corpus_nl_structure.json` |
-| Dutch Schrijfwijzer tree | `rag/corpus/schrijfwijzer_tree.json` |
-| Dutch Insights style-guide tree | `rag/corpus/insights_stijlgids_nl_tree.json` |
-| English Insights style-guide tree | `rag/corpus/insights_stijlgids_en_tree.json` |
+The final submission no longer keeps root `rag/corpus/` build artifacts. The
+builder writes directly to the live runtime asset directory,
+`aurora_tool_server/assets/rag/`.
 
 ## Rebuilding Assets
 
@@ -69,7 +62,7 @@ The builder:
 6. Reads `data/insights_stijlgids_en.md` and builds
    `insights_stijlgids_en_tree.json`.
 7. Builds local sparse-vector JSONL files for `vector_rag`.
-8. Copies runtime assets into `aurora_tool_server/assets/rag/`.
+8. Writes runtime assets into `aurora_tool_server/assets/rag/`.
 
 The current `vector_rag` implementation uses local sparse term vectors stored
 in JSONL. These files are embedding-ready, but they do not require a network

@@ -234,25 +234,6 @@ class AuroraApiClient:
     def get_audit_trace(self, run_id: str) -> dict[str, Any]:
         return self._request("GET", f"/v1/runs/{run_id}/audit")
 
-    def submit_workshop_feedback(
-        self,
-        text: str,
-        *,
-        page: str | None = None,
-        run_id: str | None = None,
-        participant: str | None = None,
-    ) -> dict[str, Any]:
-        return self._request(
-            "POST",
-            "/v1/workshop/feedback",
-            {
-                "text": text,
-                "page": page,
-                "run_id": run_id,
-                "participant": participant,
-            },
-        )
-
 
 def _response_detail(response: httpx.Response) -> str:
     try:

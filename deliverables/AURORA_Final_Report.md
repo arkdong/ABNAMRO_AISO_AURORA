@@ -4,6 +4,7 @@ Governance and grounding layer for trusted AI content
 
 ABN AMRO x AISO  
 Track 1: Adam Dong, El Yassae, Ilgara Yusifzada, Gaoxiang Ye, Yuvraj Singh Pathania  
+Track 2: Mihai Timoficiuc, Iulia Costea, Emma Wu  
 Date: 27 June 2026
 
 ## Executive Summary
@@ -15,6 +16,8 @@ A normal chatbot usually receives a short request and immediately writes from it
 The final AURORA workflow has seven main stages: intent classification, profile selection, context retrieval, prompt refinement, conditional rerun, content generation, and evaluation. Each stage has a clear input and output. The system therefore becomes inspectable: a reviewer can see what the user asked, how AURORA interpreted it, which profiles and sources were used, how the prompt was improved, what draft was produced, and how that draft was checked.
 
 The proof of concept focuses on ABN AMRO Insights articles in the Technology, Media and Telecom sector. This scope was chosen because the articles are public, approved, close to real editorial work, and rich enough to demonstrate retrieval and source-grounded generation. The workflow can later be connected to other approved corpora, but the proof of concept deliberately keeps the first scope controlled.
+
+The business case is also an adoption case. Research from the content team shows that people already use AI, but they lack role-specific guidance, clear expectations, repeatable examples, and trust calibration. AURORA addresses that gap by making source use, tone, evaluation, and human sign-off visible inside one reusable workflow.
 
 The final recommendation is to move AURORA into a controlled pilot. The pilot should test whether the workflow reduces rewrite loops, improves first-draft quality, strengthens source traceability, and gives content specialists more confidence in AI-supported drafting. AURORA should not be treated as production-ready until access control, durable audit logging, source governance, monitoring, and ownership are in place.
 
@@ -606,7 +609,96 @@ The difference is that AURORA adds structure before and after generation. This c
 
 AURORA is therefore not just a writing tool. It is a governed content workflow around AI writing.
 
-## 14. Current Maturity
+## 14. Business Case And Adoption
+
+### 14.1 The Adoption Gap
+
+AURORA already works as a proof-of-concept workflow. The business question is why it is worth piloting and what value it should create. The research points to one main answer: AI tools are already present in the content department, but they are not yet built into how people actually work.
+
+The Ainigma survey of the content team showed:
+
+- 74% use AI daily, yet more than half save under two hours a week;
+- only 12% see clear expectations for how they should use AI;
+- 62% miss role-specific examples;
+- 66% would use AI more if they had better guidance;
+- only 5% find the tools hard to use.
+
+This means the gap is not mainly about access or technical skill. The gap is about integration, expectations, examples, and trust.
+
+Interviews added three important barriers:
+
+- Some colleagues do not trust AI output because it does not sound enough like ABN AMRO.
+- Some colleagues trust AI too much and need a clearer framework for when human judgment must stay in control.
+- Some colleagues tried AI once, received weak output, and returned to manual work.
+
+AURORA addresses these barriers directly. Profiles carry expectations, retrieval anchors the work in approved sources, prompt refinement improves weak requests, and evaluation plus human sign-off makes trust calibration explicit.
+
+### 14.2 One Engine, Several Uses
+
+AURORA is not only a drafting assistant. It is a single governed content engine that can be entered at different points.
+
+In the current proof of concept, AURORA supports:
+
+- grounded drafting from approved source material;
+- first-pass review before a content specialist reviews the draft;
+- approved-content search across existing articles and sections;
+- citation and source checking so claims can be traced back to source material.
+
+The same engine can later support:
+
+- a traffic-light reviewer, where green is ready, amber needs changes, and red blocks unsupported content;
+- a pre-CRM quality gate before content enters the content-management environment;
+- article renewal by flagging content older than 365 days and creating a renewal queue;
+- translation and localisation using approved English and Dutch language rules.
+
+The business value comes from reuse. One governance layer can support Insights, Web, App, Product, Chatbot, and Voicebot content instead of rebuilding separate controls for every channel.
+
+### 14.3 Business Benefits
+
+AURORA creates value in five ways:
+
+- Faster throughput: fewer rewrite loops and faster movement from request to usable draft.
+- Better use of experts: domain experts focus on substance, while content specialists focus on final judgment instead of basic corrections.
+- Lower duplication: one governed workflow can support multiple channels and departments.
+- Reduced AI risk: approved sources, citations, blocking rules, and human review are built into the process.
+- Lower vendor dependence: ABN AMRO's standards live in AURORA, so the underlying model can change without rebuilding the whole workflow.
+
+### 14.4 From Rewrite Loop To Grounded Pass
+
+The current content flow often becomes a rewrite loop. An analyst writes a draft, a content specialist edits and flags issues, the draft goes back for revision, and the cycle repeats. Each loop costs time from both the author and the reviewer.
+
+AURORA changes the shape of that work. A request goes into the system, AURORA creates a grounded draft with sources and evaluation, and the human reviewer starts from a stronger draft with a visible evidence trail.
+
+The human still reviews. The value is that the review starts later in the quality curve. The reviewer spends less time on preventable corrections and more time on editorial judgment.
+
+### 14.5 Measuring Effectiveness
+
+The right success metric is not token use. Token use measures activity, not value. The pilot should measure effective time saved and quality improvement.
+
+The targets from the research are:
+
+- 20 to 40 hours saved each week across the 42-person content team if integration deepens;
+- 2 to 3 hours saved per person as a realistic near-term target;
+- movement of the lowest-saving group upward, not only better results from heavy AI users;
+- higher adoption among the 66% who said they would use AI more with better guidance.
+
+The pilot should therefore measure fewer rewrite loops, faster first-draft creation, better source traceability, higher editor confidence, and movement in weekly time saved.
+
+### 14.6 Adoption Through Workshop
+
+Technology alone does not close the adoption gap. AURORA also needs a clear explanation of what good AI use looks like for each role. It should be framed as decision support, not as a replacement for professional judgment.
+
+The proposed workshop is two hours and should focus on using AURORA rather than presenting slides:
+
+- Set the scene (20 min): explain AURORA and compare a normal GPT baseline with ABN AMRO's expected standard.
+- Task 1, working with AURORA (35 min): create an ABN AMRO Insights article and follow the reasoning stage by stage.
+- Task 2, setting the bar (20 min): run a compliance check against the KPI list and discuss when "good enough" is really good enough.
+- Task 3, tone of voice and translation (25 min): rewrite in ABN AMRO tone of voice and test translation.
+- Close (20 min): discuss where people would use AURORA and where they would skip it.
+
+The workshop matters because peer learning is currently informal. Pairing comparable roles makes prompting and revision visible. It also addresses both kinds of distrust: people who do not trust the output can test tone and source grounding, while people who trust it too much can practice using evaluation and human sign-off as decision boundaries.
+
+## 15. Current Maturity
 
 ### Built In The Proof Of Concept
 
@@ -633,9 +725,10 @@ Before production, the system needs:
 - clear ownership of profiles and source material;
 - stronger monitoring and incident handling;
 - broader testing with real content users;
+- a role-specific adoption workshop;
 - formal human approval workflow.
 
-## 15. Recommended Pilot
+## 16. Recommended Pilot
 
 The next step should be a controlled pilot with content specialists and domain experts. The pilot should not only ask whether the draft sounds good. It should measure whether AURORA improves the workflow.
 
@@ -648,11 +741,13 @@ Recommended pilot measures:
 - clearer review handoff;
 - fewer unsupported claims;
 - useful clarification questions;
-- reliable language behavior in English and Dutch.
+- reliable language behavior in English and Dutch;
+- movement in weekly time saved, especially for low-saving users;
+- adoption before and after the workshop.
 
 The pilot should also collect failure cases. These are especially valuable because they show where retrieval, profiles, prompt refinement, or evaluation need improvement.
 
-## 16. Final Conclusion
+## 17. Final Conclusion
 
 AURORA started as an autonomous-agent proof of concept, but the final insight is more practical: content quality improves when the system does the right preparation before writing. The workflow turns a vague prompt into a clear assignment, grounds it in approved source material, generates a draft, and evaluates the result.
 
